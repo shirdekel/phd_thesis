@@ -47,10 +47,10 @@ get_results_aggregation_1 <- function(data_clean_aggregation_1, iv, dv) {
     pull(neg_sum) %>%
     as.integer() %>%
     sum() %>%
-    printnum(numerals = FALSE)
+    papaja::printnum(numerals = FALSE)
 
   aggregated_values_samuelson <-
-    get_aggregated_values(
+    shirthesis::get_aggregated_values(
       outcome_positive = 200 %>%
         rep(10),
       prob_positive = 0.5 %>%
@@ -59,7 +59,7 @@ get_results_aggregation_1 <- function(data_clean_aggregation_1, iv, dv) {
     )
 
   loss_prob_samuelson <-
-    get_loss_prob(
+    shirthesis::get_loss_prob(
       aggregated_values_samuelson$outcome_aggregated,
       aggregated_values_samuelson$prob_aggregated
     )
@@ -81,7 +81,7 @@ get_results_aggregation_1 <- function(data_clean_aggregation_1, iv, dv) {
 
   individual_aggregated <-
     gambles_individual %>%
-    map(~ t_print(gambles_aggregated, .x, paired = TRUE)) %>%
+    map(~ shiR::t_print(gambles_aggregated, .x, paired = TRUE)) %>%
     set_names("separate", "joint")
 
   trials_separate_awareness_model <-
@@ -97,7 +97,7 @@ get_results_aggregation_1 <- function(data_clean_aggregation_1, iv, dv) {
     trials_separate_awareness_model %>%
     emtrends(~awareness, var = "project_order") %>%
     apa_print_emtrends() %>%
-    super_split(awareness) %>%
+    printy::super_split(awareness) %>%
     map(pull, apa)
 
   lst(

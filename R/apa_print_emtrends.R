@@ -5,7 +5,7 @@
 ##' @export
 apa_print_emtrends <- function(emtrends) {
   emtrends %>%
-    tidy(conf.int = TRUE) %>%
+    broom::tidy(conf.int = TRUE) %>%
     rowwise() %>%
     rename_with(
       ~ .x %>%
@@ -20,7 +20,7 @@ apa_print_emtrends <- function(emtrends) {
       ),
       across(
         p.value, ~ .x %>%
-          printp(add_equals = TRUE)
+          papaja::printp(add_equals = TRUE)
       ),
       apa = str_c(
         "$b = ",

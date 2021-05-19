@@ -11,7 +11,7 @@
 apa_print_or <- function(model) {
   tidy <-
     model %>%
-    tidy(exponentiate = T, conf.int = TRUE)
+    broom.mixed::tidy(exponentiate = T, conf.int = TRUE)
   if (any(class(model) %in% "glmerMod")) {
     tidy <- tidy %>%
       filter(!effect == "ran_pars")
@@ -26,7 +26,7 @@ apa_print_or <- function(model) {
       ),
       across(
         p.value, ~ .x %>%
-          printp(add_equals = TRUE)
+          papaja::printp(add_equals = TRUE)
       ),
       apa = str_c(
         "$OR = ",

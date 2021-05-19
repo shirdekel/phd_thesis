@@ -43,7 +43,7 @@ get_plot_aggregation_1 <- function(data_clean) {
     geom_smooth(method = "loess", color = "black") +
     facet_wrap(vars(awareness, presentation), labeller = "label_both") +
     scale_x_continuous("Trial", breaks = 1:10) +
-    theme_apa() +
+    papaja::theme_apa() +
     labs(y = "Proportion of project acceptance")
 
   trials_separate_awareness <-
@@ -52,7 +52,7 @@ get_plot_aggregation_1 <- function(data_clean) {
     ggplot(aes(x = project_order, y = choice, linetype = awareness)) +
     geom_smooth(method = "loess", color = "black") +
     scale_x_continuous("Trial", breaks = 1:10) +
-    theme_apa() +
+    papaja::theme_apa() +
     labs(y = "Proportion of project acceptance")
 
   lst(

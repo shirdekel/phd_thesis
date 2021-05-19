@@ -8,7 +8,7 @@ get_descriptives <- function(data_clean, iv) {
   condition_allocation_table <-
     data_clean %>%
     get_condition_allocation_table(iv) %>%
-    clean_names(case = "sentence")
+    janitor::clean_names(case = "sentence")
 
   total <-
     condition_allocation_table %>%
@@ -17,7 +17,7 @@ get_descriptives <- function(data_clean, iv) {
 
   total_apa <-
     total %>%
-    printnum(numerals = FALSE, capitalize = TRUE)
+    papaja::printnum(numerals = FALSE, capitalize = TRUE)
 
   ## Alignment 3 should be the only experiment in which specific sex data was
   ## not collected
@@ -63,7 +63,7 @@ get_descriptives <- function(data_clean, iv) {
           )
         ) %>%
         mutate(across(everything(), ~ .x %>%
-          printnum(drop0trailing = TRUE)))
+          papaja::printnum(drop0trailing = TRUE)))
     ) %>%
     set_names(numerical_names) %>%
     map(

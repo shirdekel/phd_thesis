@@ -10,7 +10,7 @@ clean_condition_names <- function(data) {
         -id,
         ~ .x %>%
           as.character() %>%
-          to_sentence_case() %>%
+          snakecase::to_sentence_case() %>%
           str_replace("^Na$", "NA") %>%
           as.factor()
       )
