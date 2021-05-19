@@ -3,7 +3,10 @@ source("./packages.R")
 lapply(list.files("./R", full.names = TRUE), source)
 
 list(
-
-  tar_target(target2, function_to_make2(arg))
-
+  tar_map(
+    values = get_values(),
+    names = c("thesis_project", "experiment_number"),
+    tar_target(plot, get_plot(data)),
+    tar_target(results, get_results(data))
+  )
 )
