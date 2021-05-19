@@ -7,6 +7,7 @@ list(
     values = get_values(),
     names = c("thesis_project", "experiment_number"),
     tar_target(plot, get_plot(data)),
-    tar_target(results, get_results(data))
+    tar_target(results, get_results(data)),
+    tar_target(descriptives, get_descriptives(data, iv))
   )
 )

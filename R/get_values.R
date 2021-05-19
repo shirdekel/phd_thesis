@@ -7,6 +7,7 @@ get_values <- function() {
   tibble(
     thesis_project = get_thesis_project(),
     experiment_number = get_experiment_number(),
+    iv = get_iv(),
     data = get_data()
   ) %>%
     rowwise() %>%

@@ -36,6 +36,8 @@ library(alignment7)
 library(alignment8)
 library(anecdotes1)
 library(anecdotes2)
+library(janitor)
+library(snakecase)
 
 conflict_prefer("filter", "dplyr")
 conflict_prefer("set_names", "rlang")
