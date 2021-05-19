@@ -18,10 +18,9 @@ list(
       descriptives,
       get_descriptives(data, iv)
     ),
-    tar_target(
+    tar_file(
       materials,
-      get_materials(thesis_project, experiment_number),
-      format = "file"
+      get_materials(thesis_project, experiment_number)
     )
   )
 )
