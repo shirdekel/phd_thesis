@@ -49,6 +49,43 @@ get_results_aggregation_1 <- function(data_clean_aggregation_1, iv, dv) {
     sum() %>%
     papaja::printnum(numerals = FALSE)
 
+
+  outcome_positive <-
+    seq(from = 200, to = 100, length.out = 10) %>%
+    round(-1)
+
+  prob_positive <-
+    seq(from = .2, to = .45, length.out = 5) %>%
+    c(seq(from = .55, to = .6, length.out = 5)) %>%
+    round(2)
+
+  aggregated_values <-
+    shirthesis::get_aggregated_values(
+      outcome_positive = outcome_positive,
+      prob_positive = prob_positive,
+      outcome_dif = 240,
+      sort = FALSE
+    )
+
+  loss_prob <-
+    shirthesis::get_loss_prob(
+      aggregated_values$outcome_aggregated,
+      aggregated_values$prob_aggregated
+    )
+
+  aggregated_values_correct <-
+    shirthesis::get_aggregated_values(
+      outcome_positive = outcome_positive,
+      prob_positive = prob_positive,
+      outcome_dif = 240,
+    )
+
+  loss_prob_correct <-
+    shirthesis::get_loss_prob(
+      aggregated_values_correct$outcome_aggregated,
+      aggregated_values_correct$prob_aggregated
+    )
+
   aggregated_values_samuelson <-
     shirthesis::get_aggregated_values(
       outcome_positive = 200 %>%
@@ -102,6 +139,8 @@ get_results_aggregation_1 <- function(data_clean_aggregation_1, iv, dv) {
 
   lst(
     neg_sum_apa,
+    loss_prob,
+    loss_prob_correct,
     loss_prob_samuelson,
     individual_aggregated,
     trials_separate_awareness,
