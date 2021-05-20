@@ -22,5 +22,14 @@ list(
       materials,
       get_materials(thesis_project, experiment_number)
     )
+  ),
+  tar_target(
+    samuelson_distribution,
+    get_samuelson_distribution()
+  ),
+  tar_target(
+    prospect_theory,
+    plot_prospect_theory()
+  ),
   )
 )
