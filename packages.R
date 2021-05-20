@@ -1,5 +1,4 @@
 library(conflicted)
-library(dotenv)
 library(targets)
 library(tarchetypes)
 library(magrittr)
