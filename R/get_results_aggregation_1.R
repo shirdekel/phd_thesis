@@ -118,7 +118,7 @@ get_results_aggregation_1 <- function(data_clean_aggregation_1, iv, dv) {
 
   individual_aggregated <-
     gambles_individual %>%
-    map(~ shiR::t_print(gambles_aggregated, .x, paired = TRUE)) %>%
+    map(~ t_print(gambles_aggregated, .x, paired = TRUE)) %>%
     set_names("separate", "joint")
 
   trials_separate_awareness_model <-
