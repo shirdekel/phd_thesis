@@ -1,0 +1,148 @@
+## General discussion
+
+Most of the hypotheses were supported. I found that people's decisions are
+influenced by anecdotes even when aggregated data is available in a
+resource-allocation context. I also made three novel findings: 1. I found that
+the anecdotal bias effect is only seen when participants consider the anecdote
+as sufficiently relevant to the target at hand, 2. participants still seem to
+integrate statistics in their decisions, and 3. these effects are seen in both
+negative and positive anecdotes.
+
+The first novel finding from these experiments was that participants appeared to
+moderate their use of anecdotal evidence. Specifically, when the anecdote
+appeared to be causally relevant, participants used it in their decisions.
+However, when it appeared irrelevant, participants relied on statistics almost
+entirely. The findings in the high similarity condition are largely congruent
+with findings from other work investigating anecdotal bias in business
+decision-making. As in @wainberg2013 and @wainberg2018, I found that people
+allocate less resources to a project that is successful according to statistical
+evidence, but is displayed alongside a contradictory similar anecdote, than to a
+project with just the statistics.
+
+It seems that participants made the distinction between the low and high
+similarity conditions based on underlying structure of the anecdote. The low
+similarity condition always consisted of the same project type, for each domain,
+as in the high similarity condition. For instance, in one variation, both the
+high and low similarity anecdotes were of oil well projects. This means that
+participants were sensitive to the specific information presented to them in the
+anecdote description and "analysis", and did not simply use the project type for
+their inferences. Further, participants' answers to the follow up questions
+indicated that, while they considered that the anecdote was relevant in when
+considering the target project, they did not consider it as relevant to other
+such projects. In other words, participants did not appear to carelessly use
+anecdotal evidence in their decisions, but instead appeared to carefully
+consider the anecdote based on its particular causal structure.
+
+The second novel finding from these experiments was that participants that saw
+both statistics and anecdotal evidence did not completely disregard the
+statistical measures. @wainberg2013 found a "complete" effect of anecdotal bias,
+because in their study, these two conditions were equivalent. This meant that
+the statistics they provided had a negligible effect on participants' decisions.
+These experiments, on the other hand, showed a "partial" anecdotal bias effect,
+with allocations being different between when participants saw only an anecdote
+and when they also saw the statistics. It seems as if participants integrated
+the anecdote with the statistical information. As mentioned above, this suggests
+that people's evaluation of evidence might be more sensitive than previously
+thought.
+
+This discrepancy might be a result of the sampled population. Since @freling2020
+found a stronger effect of anecdote when decisions were more personally
+relevant, the manager sample in @wainberg2013 may have simply been more
+personally invested in the task than the laypeople in the experiments in this
+chapter. Similarly, @yang2015 found that anxiety increases anecdotal bias in
+risky choice. It might also be due to the anecdote + statistics condition not
+being equivalent between @wainberg2013 and the present work. Specifically, the
+statistics shown in the anecdote + statistics condition in @wainberg2013 were
+not the same ones that were shown in the same study's statistics only condition,
+unlike in both the present experiments and @wainberg2018. Instead, it was the
+anecdote + enhanced statistics condition that contained the same statistics as
+in the statistics only condition. This suggests that people integrate statistics
+when they are sufficiently clear and no further interpretation is required.
+
+The third novel finding from these experiments was that anecdotal bias was seen
+in both negative and positive anecdotes. Most studies in the literature
+considered anecdotes that involve an example with negative consequences (a
+*negative* anecdote). For instance, a medication that leads to an adverse
+reaction in a patient. However, there is not much work in the literature that
+involves an anecdote with positive consequences (a *positive* anecdote).
+@jaramillo2019 found an asymmetry in the effect of the anecdote, such that the
+effect was stronger when a person in a description did not get better after a
+medication (negative), compared to when they did get better (positive). In the
+present experiments I found a more symmetrical effect, such that both the
+effects of the moderated anecdotal bias and the influence of statistics were
+found in both valence conditions. The difference between this and the finding
+from @jaramillo2019 might be due to the domain of the task in that people are
+more focused on negative outcomes in the medical domain.
+
+### Theoretical implications
+
+The current work adds to the current understanding of the way people use
+different forms of evidence in their decision-making. Previous work mostly
+investigated the relative influence of statistics and anecdotes by comparing
+anecdote and statistics conditions. The current work shows that comparing a
+joint anecdote + statistics condition to both an anecdote only and statistics
+only condition allows for a more specific representation of participants'
+anecdotal bias. The influence of anecdote can be seen in the comparison between
+statistics only and the anecdote + statistics condition, but the effect of
+statistics can be seen in the comparison between the combined condition and the
+anecdote only condition. These two effects allow to determine the independent
+influence of anecdote and statistics, respectively. Further use of such a design
+in future research might help to further understand the conditions under which
+these types of evidence are used.
+
+It seems that in some of the anecdotal bias literature there is an assumption
+that using anecdotal evidence over statistical evidence is necessarily
+irrational. This likely arises from examples from the medical domain in which
+such decisions are indeed irrational (e.g., believing that vaccines cause
+certain disorders despite the available evidence). In such cases, people
+over-rely on anecdotes and should be relying more on aggregated data. However, a
+case could be made for a rational use of anecdote based on the similarity of the
+anecdote to the target. For instance, there are times in which an anecdote is so
+similar to the target situation (e.g., the identical twin example in the
+[Introduction](#effect-of-similarity-anecdotes)) that it would be unwise not to
+consider the anecdote. That is, the use of anecdote should depend on both 1. the
+strength of the underlying causal structure between it and the target problem,
+and 2. the distribution of similarity across cases in the sample on which the
+statistics are based. People should use an anecdote when casual structure is
+significantly more relevant than other cases in available data. It is also
+important to note that there could also be misleading similarity. For instance,
+if someone is highly similar, but not along some key hidden dimension that is
+the real causal thing to care about, then using the anecdote may be the wrong
+thing to do. What seems to be important is a sensitivity to relational, rather
+than surface level similarity. Future research should further investigate how
+varying the assumptions that people have about sampling from a data set of
+anecdotes influences their anecdotal bias. Such assumptions can include the size
+of the sample and the shape of the distribution.
+ 
+### Practical implications
+
+The current work can contribute to managerial decision making by suggesting
+insights into how managers make decisions about business case studies and
+statistical information about certain industries. Managers of large companies
+are often in a difficult position; they have incomplete information and an
+uncertain environment. Despite this, different biases and responses to those
+biases can be anticipated for different levels of uncertainty. For instance, a
+manager may be in a position in which they are presented with both a convincing
+case study that suggests a certain course of action, and also be in the
+possession of aggregated data. The manager needs to be able to weigh the
+evidence accordingly. The work in this chapter suggests that there are three
+elements to consider: 1. the quality of the aggregated data (determined by
+factors such as the sample size), 2. the relative similarity of the cases in the
+data pool to the situation at hand, and 3. the similarity of the anecdote to the
+situation at hand. For instance, if the anecdote is uniquely similar to the
+target situation, and it is significantly more similar than the rest of the
+cases in the data set, then it should have more weight than an anecdote that
+comes from a pool of cases that are all just as similar to the target.
+
+In a situation in which aggregated data is not available, however, managers
+should rely more on anecdotes that are more similar in causal structure. That
+is, they should be wary of merely using the surface similarity to make
+inferences, and instead consider the underlying relational structures. The
+present data suggest that laypeople can do this to an extent, with participants
+not being completely swayed by the mere similarity of the type of business
+project. However, future research should investigate this further to better
+understand the boundaries of people's analogical reasoning in such situations.
+
+\newpage
+
+\printbibliography[segment=\therefsegment,heading=subbibintoc]

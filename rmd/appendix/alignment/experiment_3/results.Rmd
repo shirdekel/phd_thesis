@@ -1,0 +1,34 @@
+### Results
+
+#### Allocation {#results-alignment-8-allocation}
+
+The three-way interaction
+(reliability amount $\times$ NPV amount $\times$ reliability type) in the high
+alignment condition was significant,
+`r results_alignment_8$allocation$alignment_high_three_way`. The NPV amount
+$\times$ reliability type (averaging over reliability amount) in the low
+alignment condition was significant,
+`r results_alignment_8$allocation$alignment_low_two_way`. The association
+between allocation and NPV amount for those in the explicit low reliability
+condition was significantly stronger for those in the low alignment condition,
+than for those in the high alignment condition,
+`r results_alignment_8$allocation$reliability_type_explicit_reliability_amount_low_alignment`.
+The linear NPV amount trend for those in the low alignment condition was
+significantly stronger for those in the explicit reliability condition, than for
+those in the implicit reliability condition (averaging over reliability amount),
+`r results_alignment_8$allocation$alignment_low_reliability_type`. The linear
+NPV amount trend for those in the implicit reliability condition was not
+significantly "equivalent" between those in the low and high reliability
+conditions for both those in the low alignment
+`r results_alignment_8$allocation$alignment_low_reliability_type_implicit_reliability_amount_null`
+and high alignment conditions
+`r results_alignment_8$allocation$alignment_high_reliability_type_implicit_reliability_amount_null`.
+However, this is likely to be because I used a "lowest effect size of interest"
+that originated from an analysis used before data collection that was different
+to the one that one used after data collection. Specifically, a univariate
+linear model was originally used (treating NPV amount as a continuous
+predictor), whereas the data was ultimately analysed using a multivariate linear
+model (treating NPV amount as a repeated measures factor).
+
+#### Ranking
+

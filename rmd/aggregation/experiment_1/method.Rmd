@@ -1,0 +1,125 @@
+### Method
+
+#### Participants
+
+`r descriptives_aggregation_1$apa` Table \@ref(tab:condition-allocation-aggregation-1)
+shows the between-subjects condition allocation.
+
+```{r condition-allocation-aggregation-1}
+descriptives_aggregation_1$condition_allocation_table %>%
+  apa_table("Experiment 1 group allocation.")
+```
+
+#### Materials
+
+##### Instructions {#instructions-materials-aggregation-1}
+
+Participants were told to imagine that they are executives in a large company
+and that they will need to decide about investing in a number of hypothetical
+business projects. Appendix \@ref(instructions-materials-aggregation-1-appendix)
+shows a screenshot of these instructions.
+
+##### Risky investment task {#task-aggregation-1}
+
+In the risky investment task, participants saw 10 short descriptions of business
+projects, and were asked whether they would invest in that project or not. Each
+description included the name of the hypothetical business, the amount they
+forecast the project to cost, the amount they forecast the project to make, and
+probabilities for these forecasts. I constructed these projects to appear
+attractive when aggregated, and unattractive when segregated [see @langer2001].
+Project values were different for each project, but followed a set of
+constraints for each project's EV and the probability of any loss given the
+outcome distribution of all 10 projects ($P(loss)$). Further, there was a
+constraint on the gambles' loss aversion coefficient ($\lambda$), which is the
+ratio of potential gains over the potential losses. The constraints were:
+ 
+1.  $\text{EV} > 0$;
+
+2.  $\lambda < 2.25$; and
+
+3.  $P(loss) < 0.1$.
+
+As such, each project cannot be considered to be a loss under expected value
+theory, but also would not be an easy choice for investment, because of the low
+$\lambda$ [made to be lower than the median loss aversion coefficient calculated
+in @tversky1992]. Further, since people are especially sensitive to loss
+probabilities [@zeisberger2020; @kahneman1979], an arbitrarily low $P(loss)$ was
+chosen to make investment in the complete set of projects seem attractive. The
+actual probability of a loss given the outcome distribution I used was
+`r results_aggregation_1$loss_prob`. This was calculated by summing all
+probabilities in the Poisson binomial distribution whose outcomes were less than
+zero. For comparison, $P(loss)$ =
+`r results_aggregation_1$loss_prob_samuelson` for 10 plays of the @samuelson1963
+gamble. Figure \@ref(fig:project-choice-aggregation-1) shows an example of a
+description of a project in this task.
+
+(ref:project-choice-aggregation-1) Example of a project choice display in Experiment 1. Border added for clarity.
+
+```{r project-choice-aggregation-1, fig.cap = "(ref:project-choice-aggregation-1)"}
+here(
+  materials_aggregation_1,
+  "project_choice_oil-well_separate_similarity_low_1.png"
+) %>%
+  image_read() %>%
+  image_trim() %>%
+  image_border(color = "white", geometry = "5x5") %>%
+  image_border(color = "black", geometry = "5x5")
+```
+
+In the high similarity condition, these project descriptions were all about one
+type of project (in this case an oil well project) and were all from the same
+business. In the low similarity condition, each project was from a different
+industry. In the joint presentation condition, the 10 projects were all
+displayed on the one webpage, whereas in the separate presentation condition
+each was displayed on a different webpage. Participants in the aware condition
+saw the display shown in Figure \@ref(fig:awareness-aware-aggregation-1) before
+their separate presentation display. Those in the naive condition simply
+proceeded without this message. Note, the financial and probability values were
+identical regardless of condition, and the order of each set of 10 projects was
+randomised.
+
+(ref:awareness-aware-aggregation-1) The display seen by those in the aware condition of Experiment 1. Border added for clarity.
+
+```{r awareness-aware-aggregation-1, fig.cap = "(ref:awareness-aware-aggregation-1)"}
+here(
+  materials_aggregation_1,
+  "awareness_aware.png"
+) %>%
+  image_read() %>%
+  image_trim() %>%
+  image_border(color = "white", geometry = "5x5") %>%
+  image_border(color = "black", geometry = "5x5")
+```
+
+Although the project descriptions are succinct, and the decisions in the task
+are made quickly, they reflect real decisions in businesses in critical ways.
+Companies that consider their forecast estimates probabilistically (i.e., do not
+simply use the most likely estimate as the only estimate) do in fact frame their
+options as likelihoods of certain monetary outcomes.
+
+##### Outcome distribution decision {#outcome-distribution-materials-aggregation-1}
+
+Participants were asked if they would invest in the last 10 projects they saw
+and were provided with a graph of the outcome probability distribution of the 10
+projects. Appendix \@ref(outcome-distribution-materials-aggregation-1-appendix)
+shows this graph. After collecting data I discovered that there was a coding
+error in the generation of gambles, which meant that I could not make use of the
+outcome distribution decision data. Therefore, the effect of outcome
+distribution will not be discussed until [Experiment 2](#aggregation-2), in
+which I fixed this issue. Appendix \@ref(outcome-distribution-aggregation-1)
+presents an analysis of this data, and describes the coding error and its
+implications.
+
+##### Follow-up gambles
+
+Participants were shown four further sets of gambles (11 total) that functioned
+to check participant attention and replicate the gambles from @samuelson1963 and
+@redelmeier1992. See Appendix \@ref(follow-up-materials-aggregation-1-appendix)
+for details.
+
+#### Procedure
+
+Participants read the instructions and completed the risky investment task,
+first in the separate presentation condition, and then in the joint condition.
+Participants then made the outcome distribution decision, responded to the 11
+follow-up gambles.

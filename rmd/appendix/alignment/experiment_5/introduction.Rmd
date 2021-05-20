@@ -1,0 +1,15 @@
+## Experiment 5 {#alignment-4}
+
+```{r setup-alignment-4}
+tar_load(descriptives_alignment_4)
+tar_load(materials_alignment_4)
+tar_load(results_alignment_4)
+tar_load(plot_alignment_4)
+```
+
+Experiment 5 further investigated the effects of alignment and explicit NPV
+Presence information on forecasting. We set out to replicate the forecasting
+results of Experiment 3, but with a sample that has investing experience. As
+before, we hypothesised that people’s forecasting would be less variable when
+comparing projects with alignable differences, than when comparing projects with
+non-alignable differences.

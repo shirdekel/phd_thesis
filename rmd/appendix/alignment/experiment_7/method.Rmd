@@ -1,0 +1,39 @@
+### Method
+
+#### Participants
+
+`r descriptives_alignment_6$apa` Table \@ref(tab:condition-allocation-alignment-6)
+shows the between-subjects condition allocation.
+
+```{r condition-allocation-alignment-6}
+descriptives_alignment_6$condition_allocation_table %>%
+  apa_table("Experiment 7 group allocation.")
+```
+
+#### Materials
+
+The materials were similar to Experiment 3, as the same laptop displays were
+used, but I added the *Cash inflow range* row to the table (see
+Figure \@ref(fig:projects-alignment-6)). Further, participants in the No Hint
+condition saw the same instructions as in Experiment 3, those in the Salience
+Only condition saw the instructions along with a sentence that draws attention
+to the *Cash inflow range* row, and those in the Salience + Hint condition saw
+the instructions along with a specific description of how to use the variance
+information in their allocation decisions.
+
+(ref:projects-alignment-6) The projects display.
+
+```{r projects-alignment-6, fig.cap = "(ref:projects-alignment-6)"}
+here(
+  materials_alignment_6,
+  "alignment_high_reliability_amount_high.png"
+) %>%
+  image_read() %>%
+  image_trim()
+```
+
+#### Procedure
+
+Participants completed a demographics page, read the instruction page as per
+their Hint condition, and then proceeded to complete one set of allocations.
+

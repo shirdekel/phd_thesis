@@ -1,0 +1,34 @@
+### Discussion
+
+I found support for one of the Experiment 2 hypotheses. Seeing an outcome
+distribution of the projects had a strong effect on participants'
+decision-making. Participants indicated that they would invest in more projects,
+and were more likely to indicate that they would invest in the entire
+"portfolio". However, the awareness and presentation effects I found in
+[Experiment 1](#results-aggregation-1) did not replicate.
+
+The finding that seeing an outcome distribution of a set of gambles reduces risk
+aversion for that set of gambles provides evidence for choice bracketing. That
+is, people do seem to be primarily considering gambles one at a time.
+Specifically in this case, this finding suggests that that the main bottleneck
+for appropriately aggregating a set of gambles is a mathematical/computational
+one. That is, people simply cannot mentally combine the outcomes and
+probabilities in a way that sufficiently approximates the outcome distribution
+display.
+
+The lack of replication of the awareness and presentation effects provides
+evidence against a naive aggregation account of the distribution effect.
+Specifically this suggests that the distribution effect is a result of a lack of
+ability to mathematically combine risk, rather than naive aggregation. If some
+of the bottleneck was attributable to a lack of realisation that the individual
+gambles could be grouped/bracketed together, then the effects from Experiment 1
+should have replicated. However, instead it seems that even when people have an
+opportunity to consider an entire set of risky choices together (and consider
+that the gains may outweigh the losses), they do not do this.
+
+In Experiment 2, all the gambles came from the same domain. I did this in order
+to attempt to replicate the relevant effects from Experiment 1. However, it may
+be the case that there was something about that particular domain that led to
+the lack of replication. A follow-up experiment addressed this issue by
+presenting participants with 20 gambles from 10 different industries and still
+did not replicate the awareness effect (see Appendix \@ref(aggregation-4)).

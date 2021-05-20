@@ -1,0 +1,33 @@
+### Results {#results-aggregation-1-appendix}
+
+#### Trial-by-trial analysis {#trial-by-trial-aggregation-1}
+
+Figure \@ref(fig:plot-aggregation-1-trials) shows proportions of project
+acceptance across all conditions and trials.
+
+(ref:plot-aggregation-1-trials) Proportion of project acceptance by trial, similarity, awareness, and presentation conditions. LOESS is used for smoothing over trials, and the shading represents 95% confidence intervals.
+
+```{r plot-aggregation-1-trials, fig.cap = "(ref:plot-aggregation-1-trials)"}
+plot_aggregation_1$trials
+```
+
+#### Outcome distribution {#outcome-distribution-aggregation-1}
+
+A paired-samples t-test was conducted to compare participants' decision to
+invest in the 10 projects while seeing an aggregated distribution, and their
+decisions to invest in the projects individually, without the distribution.
+Participants invested in the 10 projects more when seeing the distribution both
+in the separate presentation phase,
+`r results_aggregation_1$individual_aggregated$separate`; and in the joint
+presentation phase, `r results_aggregation_1$individual_aggregated$joint`.
+
+However, I subsequently discovered that the code that generated this
+distribution mistakenly flipped the outcome values. This means that although it
+appeared from the distribution that the propability of loss was
+`r results_aggregation_1$loss_prob`, the actual probability of loss of the
+underlying values given the correct distribution was
+`r results_aggregation_1$loss_prob_correct`. As such, even though I found an
+effect of distribution, it is unclear if the effect was driven by participants
+actually accurately assessing the riskiness of the individual gambles, and
+therefore showing a difference between the isolated and aggregated gambles in a
+normative way.

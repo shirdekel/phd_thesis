@@ -1,0 +1,150 @@
+## Theoretical implications
+
+The main theoretical contribution of this thesis is the addition of evidence
+that further specifies the conditions under which people make rational decisions
+in resource allocation scenarios. People made good decisions most of the time,
+but sometimes do not take into account important moderating factors in their
+decisions. Amos Tversky explained in his response to @cohen1981 [p. 355] that
+the work on heuristics and biases "portrayed people as fallible, not
+irrational." That is, people are not constantly making mistakes, but often
+behave rationally, largely due to adaptive heuristics. However, sometimes
+shortcuts that are usually helpful can fail. Studying such biases is similar to
+the way that optical illusions help understand the visual system. In both cases,
+these are systems that most of the time function properly, but sometimes reveal
+deficits.
+
+Similarly, @simon1955 identified human rationality as *bounded*, meaning that
+people's cognitive processes are limited. The main aim of the thesis was to
+contribute evidence for the ways that resource allocation decisions are bounded.
+To this end, in each experiment, participants were given resource allocation
+scenarios alongside both cues that describe their options and cues that frame
+the options in different ways. Identifying which cues were used by participants
+in their decisions, which cues were ignored, and which cues were integrated
+allowed to specify the bounds of people's cognitive capacity in these decisions.
+The experiments showed that people struggle to use certain statistical
+principles in their decisions, but that they are also capable of making nuanced
+trade-offs and can be assisted by decision aides.
+
+In Chapter \@ref(aggregation) I presented participants with a resource
+allocation situation in which an understanding of risk aggregation would have
+led to beneficial outcomes. Investing in all the hypothetical projects would
+have led to a much higher chance of gaining money than losing any. Each choice
+bracketing manipulation provided a hint of the possibility of combining the
+choices in this way. However, participants did not need to compute the
+aggregated value of the prospects themselves. An intuitive understanding of
+aggregation involved considering that of all the gambles some will pay-off and
+make up for those that lost. However, this was not seen, with only weak evidence
+that people were influenced by the more subtle choice bracketing manipulations.
+Instead, people only seemed to respond to the principle of aggregation when it
+was explicitly showcased. Showing people a distribution of the outcome
+probabilities explicitly visualised the extent to which an aggregation of the
+risks can lead to an incredibly low chance of loss.
+
+In Chapter \@ref(alignment) the NPVs that participants saw were critical to the
+allocation task. In the low alignment condition, NPV was the only alignable
+attribute in the comparison. In the high alignment condition, however, NPV was
+in competition with the intrinsic project feature values. An understanding of
+numerical variance would have allowed participants to moderate their allocations
+according to the implied reliability of the comparison metric. In the low
+alignment condition, NPV was the only easy way to compare across projects, so it
+was a more useful cue than the rest of the non-alignable values. However, in the
+high alignment condition, the extent of numerical variance associated with each
+NPV could have been used to determine NPV reliability. There were two ways to do
+this: 1. noticing that in the low numerical reliability condition the ranges
+were all overlapping, and 2. noticing the difference in the width of the ranges
+between the two within-subjects reliability amount conditions. By doing this,
+participants would have then been able to know to (in the high alignment
+condition) use NPV when ranges were narrow and use the intrinsic values more or
+exclusively when ranges were wider and overlapping. Participants were able to do
+this sort of moderated allocation when reliability was expressed explicitly as
+words, but not when it was expressed numerically.
+
+In Chapter \@ref(anecdotes) participants did not make use of important
+information about the sample distribution. As in Chapter \@ref(alignment),
+participants were confronted with a conflict of cues: statistical information
+vs. a potentially relevant anecdote. Regardless of the similarity manipulation,
+a consideration of the sample from which the anecdote was sampled should have
+informed how the anecdote was used. Imagine a distribution that represents the
+similarity of all the individual projects in the sample. That is, the x-axis
+represents the similarity to the target project and the y-axis is the frequency
+of projects that represent each level of similarity. Even if the sampled
+anecdote appears very relevant to the target project, if the underlying
+distribution of the sample is highly negatively skewed, such that most projects
+in the sample are equivalently similar to the target, then the sampled anecdote
+is not necessarily more informative than the aggregated measure. On the other
+hand, if the underlying distribution was negatively skewed, normally
+distributed, or even uniform, then the fact that the sampled anecdote appears
+highly relevant to the target project may actually mean that it is more
+informative than the aggregated measure.
+
+While people struggled to understand and use difficult statistical principles
+they still seemed to be able to integrate multiple cues and create trade-offs.
+As discussed in Chapter \@ref(interstitial-2), in both Chapters \@ref(alignment)
+and \@ref(anecdotes) participants were provided with more than one cue to use
+for project evaluation. In Chapter \@ref(alignment), people seemed to strike a
+trade-off between NPV and the intrinsic project features as opposed to choosing
+one or the other with a consistent strategy. In Chapter \@ref(anecdotes), the
+anecdotal and statistical evidence provided conflicting cues for each target
+project. However, participants allocated as if both the anecdotes and statistics
+have some relevance. Similar to above, participants appeared to integrate the
+influence of these two cues, as opposed to picking a consistent evidence
+reliance strategy for their allocation decisions. These findings might be
+explained using satisficing [@simon1955] or a constraint satisfaction model
+[e.g., @glockner2014]. Future research can test these explanations, as well as
+further clarify to what extent constructs such as need for cognition or
+mathematical skill explain individual differences.
+
+While trade-offs allow people to integrate multiple cues, decision aides allow
+for people to use statistical principles for more complex moderation. In
+Chapter \@ref(aggregation) I found that people's understanding of risk
+aggregation was facilitated when the mathematical work was done for them and the
+aggregated values were displayed visually as a distribution. However, in a
+follow-up experiment to Chapter \@ref(alignment) (detailed in
+Appendix \@ref(alignment-6)), I found that even explicit instructions sometimes
+do not work. That is, even explaining the way that ranges can be used as
+reliability information and telling participants how to implement this in the
+resource allocation task did not facilitate proper use of ranges. Future work
+should investigate the impact of visualisation on people's use of variance
+information in these situations. Much work has investigated visualising
+uncertainty information [@bostrom2008; @maceachren1992; @kinkeldey2017;
+@padilla2018; @davis1997; @ristovski2014; @brodlie2012; @johnson2003;
+@potter2012; @lipkus1999; @lipkus2007; @spiegelhalter2011; @pang1997; @kox2018;
+@lapinski2009; @torsneyweir2015]. A Hypothetical Outcome Plot [HOP\; @kale2019;
+@hullman2015] is one method that is likely to be beneficial to people's
+understanding of ranges as used in this thesis. HOPs express variance
+information as dynamic plots. Visualisation could also apply to the work in
+Chapter \@ref(anecdotes). Using a visual array as in @jaramillo2019 is likely to
+facilitate people's understanding of the importance of statistical evidence over
+anecdotes. However, an additional visualisation of the distribution of the
+underlying similarity to the target might also be necessary to facilitate
+understanding of the relevance of the sample distribution. Ultimately, it seems
+that visualisations of the effects of complex statistical concepts are often
+necessary for people to use them appropriately.
+
+Future research should also investigate the potential expertise effects that may
+influence the findings in the thesis. This is important because of the potential
+downstream effects that biased managerial decision-making might have. For
+instance, it is unclear to what extent psychological factors such as the ones
+discussed in this thesis may account for the finding that undiversified firms
+perform better than diversified firms. On the one hand, business professionals
+tend to work with numbers, so the effects found in this thesis may be less
+pronounced for them. For instance, @smith1991 reviewed the heuristics and biases
+literature and concluded that certain cognitive biases are not as strong for
+accounting professionals as they are for naive participants.
+
+On the other hand, there are reasons to believe that these effects may actually
+be stronger in managers. Chapter \@ref(aggregation) showed that people tend to
+consider risky choices one at a time and therefore tend to be more risk averse
+to a set of projects than they would be if the risks were aggregated. Managers
+might be even more risk averse in these situations because of the increased
+stakes for their jobs. @lovallo2020 discussed the ways in which managers tend to
+have a blind spot for such project evaluations: they aggregate their personal
+stock market portfolio, but not their managerial one. Further,
+Chapter \@ref(alignment) found evidence of variance neglect for both laypeople
+and Masters of Management students. In the case of the work in
+Chapter \@ref(anecdotes), it might be possible that business managers often
+prefer anecdotal accounts to inform their decisions because of their higher
+salience, compared to statistical data. Managers are also more likely to feel as
+if the situation is relevant to them, which acording to @freling2020 would
+suggest more anecdotal bias.
+

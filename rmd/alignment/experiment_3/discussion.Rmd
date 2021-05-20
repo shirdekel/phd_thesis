@@ -1,0 +1,25 @@
+### Discussion
+
+Hypotheses \@ref(hyp:allocation-alignment-alignment-2), \@ref(hyp:allocation-alignment-reliability-npv-alignment-2),
+and \@ref(hyp:allocation-alignment-high-alignment-2) were supported. This shows
+that while overall participants prefer to use NPV as a proxy for project quality
+in their allocations, they still use verbal reliability information.
+Specifically, when projects are similar, people use NPV when they are told that
+it is reliable, and use alternative metrics when told that it is not reliable.
+However, Experiment 3 did not find evidence for
+Hypothesis \@ref(hyp:allocation-alignment-low-alignment-2). Instead, I found
+that even in the low alignment condition, participants were still able to use
+NPV more when told that it was reliable.
+
+Further, I did not find support for Hypothesis \@ref(hyp:four-way-alignment-8).
+The hypothesis was constructed in response to the results of a pilot study
+(documented in Appendix \@ref(alignment-7)) that replicated the results of
+Experiment 1 in the verbal reliability condition, but did not replicate the
+results of Experiment 2 in the numerical reliability condition. That is, I found
+that when faced with numerical ranges as variance information, people did not
+seem to even use the midpoint in their decisions. In Experiment 3, on the other
+hand, I replicated the finding of Experiment 2 in the numerical reliability
+condition. Specifically, I found that people used NPV more when projects were
+dissimilar, but critically, that they did not use numerical range information to
+moderate their allocations.
+

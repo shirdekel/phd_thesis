@@ -1,0 +1,32 @@
+## Experiment 4 {#alignment-1}
+
+```{r setup-alignment-1}
+tar_load(descriptives_alignment_1)
+tar_load(materials_alignment_1)
+tar_load(results_alignment_1)
+tar_load(plot_alignment_1)
+```
+
+Experiment 4 further investigated the effects of alignment and verbal NPV
+reliability information on financial resource allocation decisions. I replicated
+the same methodology as in [Experiment 1](#method-alignment-2), except for two
+main changes. First, I manipulated the alignment conditions within subjects.
+Second, I removed the no NPV condition to the NPV reliability variable.
+
+I expected to replicate the results of [Experiment 1](#results-alignment-2).
+Specifically, I expect that in the high alignment condition, participants will
+be able to respond to each reliability condition, whereas, in the low alignment
+condition, they will rely more on NPV regardless of reliability condition.
+
+
+In addition to the all-project allocation data analysed above, here I report
+analyses for the just for the "target project". This is allocation of resources
+to the project that had the highest NPV, but the lowest value on concrete
+measures intrinsic to the actual product, e.g., the capacity of a laptop in
+gigabytes. Therefore, a higher allocation value indicated a higher reliance on
+NPV. Further, I report the method and analyses for the confidence measure.
+
+``` {hypothesis, confidence-alignment-alignment-1, echo = TRUE}
+Participants will be more confident about their decisions in the high alignment
+condition than in the low alignment condition.
+```

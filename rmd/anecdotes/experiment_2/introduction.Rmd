@@ -1,0 +1,72 @@
+## Experiment 2 {#anecdotes-2}
+
+```{r setup-anecdotes-2}
+tar_load(descriptives_anecdotes_2)
+tar_load(materials_anecdotes_2)
+tar_load(results_anecdotes_2)
+tar_load(plot_anecdotes_2)
+```
+
+[Experiment 1](#anecdotes-1) replicated the anecdotal bias effect. That is,
+people use an anecdote more when presented with conflicting statistics than when
+anecdote alone and less than when statistics alone. However, anecdote similarity
+moderated this effect, such that anecdotal bias is stronger when the anecdote is
+similar to the current task, than when it is dissimilar. Experiment 1 only used
+a negative anecdote because previous research found anecdotal bias for negative,
+but not for positive anecdotes [@jaramillo2019]. However, @jaramillo2019
+considered medical decision-making, so this effect of anecdote valence may be
+different in a business scenario. When considering medicine, it is likely that
+negative anecdotes are more salient than positive ones. Positive health can
+generally simply mean a lack of change of one's current state, whereas a
+negative health outcome almost necessarily involves a change for the worse.
+Further, Experiment 1 did not clarify certain assumptions about the way the
+displayed anecdote was sampled from the pool of anecdotes.
+
+Therefore, in Experiment 2 I added a within-subjects anecdote valence
+manipulation and manipulated anecdote similarity within-subjects, in order to
+increase the experiment's power. Further, I removed the anecdote + enhanced
+statistics manipulation as Experiment 1 did not find evidence for its efficacy.
+All participants saw the statistics only condition, as it did not contain an
+anecdote, and therefore did not need to be manipulated between-subjects. Each
+participant therefore saw five displays, with one statistics only condition, and
+four displays for either the anecdote only condition, or the anecdote +
+statistics condition. These four anecdote displays consisted of the similarity
+(low and high) $\times$ valence (negative and positive) conditions.
+
+I expected to replicate the effects of Experiment 1, as well as seeing the
+reverse effect in the positive valence condition. Also, I expected that
+statistics will have an effect similar to Experiment 1, contrary to
+Hypothesis \@ref(hyp:statistics-anecdotes-1). Therefore, as well as again
+testing Hypothesis \@ref(hyp:anecdote-similarity-anecdotes-1), I tested the
+following hypotheses (see Appendix \@ref(anecdotes-2-appendix) for a plot of a
+simulation of all hypothesised effects):
+
+``` {hypothesis, three-way-anecdotes-2, name = "Overall effect", echo = TRUE}
+Three-way interaction of similarity $\times$ valence $\times$ anecdote,
+excluding statistics-only
+```
+
+``` {hypothesis, anecdote-similarity-anecdotes-2, name = "Anecdotal bias moderated by similarity for positive anecdotes", echo = TRUE}
+When the anecdote is positive, allocations will be higher in the statistics-only
+condition than in both the anecdote + statistics conditions (high and low
+similarity). Within these two anecdote + statistics conditions, allocations will
+be higher when the anecdote is similar than when it is dissimilar.
+```
+
+After not replicating the lack of a statistics effect as in @wainberg2013, in
+Experiment 2 I expected to replicate the finding in Experiment 1 that
+participants do somewhat integrate statistics in their decisions. Therefore, I
+tested the following hypotheses:
+
+``` {hypothesis, statistics-negative-anecdotes-2, name = "Effect of statistics for negative anecdotes", echo = TRUE}
+In the negative valence condition, allocations will be higher for the high
+similarity anecdote + statistics condition than the high similarity
+anecdote only condition.
+```
+
+``` {hypothesis, statistics-positive-anecdotes-2, name = "Effect of statistics for positive anecdotes", echo = TRUE}
+In the positive valence condition, allocations will be higher for the high
+similarity anecdote only condition than the high similarity statistics +
+anecdote condition. 
+```
+

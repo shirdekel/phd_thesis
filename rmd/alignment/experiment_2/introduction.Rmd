@@ -1,0 +1,37 @@
+## Experiment 2 {#alignment-3}
+
+```{r setup-alignment-3}
+tar_load(descriptives_alignment_3)
+tar_load(materials_alignment_3)
+tar_load(results_alignment_3)
+tar_load(plot_alignment_3)
+```
+
+Experiment 2 further investigated the effects of alignment and
+numerically-expressed variance information on financial resource allocation
+decisions. In [Experiment 1](#alignment-2) the information about the variance
+inherent in the NPVs was communicated explicitly as the conclusion, e.g., NPV is
+unreliable. In Experiment 2 however, only the actual variance information itself
+was communicated without the conclusion about its reliability. Here, I simply
+communicated variance by showing the range of predicted values (akin to a
+confidence interval). Therefore, while previously I manipulated *verbal*
+reliability, in Experiment 2 I manipulated *numerical* reliability. Further, in
+this experiment, I studied participants with more business experience than the
+previously used laypeople samples. The main two interests in this experiment
+were first, whether the previous findings of an alignment effect will replicate
+with people with more business experience; and second, whether this population
+is sensitive to variance in forecasts. As well as again testing
+Hypothesis \@ref(hyp:allocation-alignment-alignment-2), I tested the following
+hypothesis:
+
+``` {hypothesis, allocation-npv-reliability-alignment-3, echo = TRUE}
+The NPV amount $\times$ reliability amount interaction will not be significant
+in either alignment condition.
+```
+
+I was also interested in the potential to quickly change participants'
+understanding, if they did not initially use numerical reliability for their
+allocations. Therefore, I presented participants with a short lecture on the
+importance of paying attention variance in financial decision-making. However,
+results were inconclusive, so see but see
+Appendix \@ref(discussion-alignment-3), for a more detailed discussion.

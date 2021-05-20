@@ -1,0 +1,65 @@
+## Experiment 1 {#alignment-2}
+
+```{r setup-alignment-2}
+tar_load(descriptives_alignment_2)
+tar_load(materials_alignment_2)
+tar_load(results_alignment_2)
+tar_load(plot_alignment_2)
+```
+
+Experiment 1 investigated the effects of alignment and explicit NPV reliability
+information on financial resource allocation decisions. The structural alignment
+literature suggests that people weigh alignable differences more heavily than
+non-alignable differences. I expected that people would use NPV more than any
+other product attributes (because it applied to every product). However, I
+expected this effect to vary with how reliable participants thought the value
+was. That is, if other project dimensions were alignable, then it should be
+easier to adjust the use of NPV based on its reliability. However, I predicted
+that in a low alignment condition there will be a reliance on NPV, as the sole
+alignable difference, regardless of its stated reliability. I used a no NPV
+condition in order to get a better understanding of the baseline responding to
+the materials without NPV. To measure these effects I considered the linear
+trend of how NPV across projects relates to the money allocated to the projects.
+Critically, participants saw both NPV and other features intrinsic to each
+project domain, and these were inversely related. Therefore, a positive NPV
+amount trend indicates a reliance on NPV, whereas a negative trend indicates a
+reliance on the intrinsic project features. Specifically, I tested the following
+hypothesises:
+
+``` {hypothesis, three-way-alignment-2, echo = TRUE}
+The alignment $\times$ reliability amount $\times$ NPV amount interaction will
+be significant.
+```
+
+``` {hypothesis, allocation-alignment-alignment-2, echo = TRUE}
+The linear NPV amount trend will be higher, on average, in the low alignment
+condition compared to the high alignment condition.
+```
+
+``` {hypothesis, allocation-alignment-reliability-npv-alignment-2, echo = TRUE}
+The effects of alignment, reliability amount, and NPV amount on allocations will
+interact, such that the NPV amount $\times$ reliability interaction will be
+stronger in the high alignment than in the low alignment condition.
+```
+
+``` {hypothesis, allocation-alignment-high-alignment-2, echo = TRUE}
+In the high alignment condition, the linear NPV amount trend will be higher in
+the high reliability condition than in the low reliability condition
+```
+
+``` {hypothesis, allocation-alignment-low-alignment-2, echo = TRUE}
+In the low alignment condition, the linear NPV amount trend will not differ
+significantly between reliability conditions
+```
+
+``` {hypothesis, allocation-alignment-high-no-NPV-alignment-2, echo = TRUE}
+In the high alignment condition, the linear NPV amount trend will only be higher
+than the no NPV reliability condition in the high reliability condition.
+```
+
+``` {hypothesis, allocation-alignment-low-no-NPV-alignment-2, echo = TRUE}
+In the low alignment condition, the linear NPV amount trend will be higher than
+the no NPV reliability condition in both the low and high reliability
+conditions.
+```
+

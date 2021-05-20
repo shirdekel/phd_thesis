@@ -1,0 +1,34 @@
+### Results
+
+#### Forecast mean
+
+A mixed factorial ANOVA was conducted to investigate the effects of alignment
+and NPV presence on participants’ forecasts. As seen in
+Figure \@ref(fig:plot-alignment-4-forecast-mean), the alignment $\times$
+reliability amount $\times$ NPV amount interaction was not significant,
+`r results_alignment_4$forecast_mean$alignment_reliability_amount_npv_amount`.
+Despite this, as in the previous experiments, the interaction between the linear
+NPV trend and NPV presence was significant in the high alignment condition,
+`r results_alignment_4$forecast_mean$Absent_Present_linear_high`, but not in the
+low alignment condition,
+`r results_alignment_4$forecast_mean$Absent_Present_linear_low`.
+
+(ref:plot-alignment-4-forecast-mean) Mean forecasts.
+
+```{r plot-alignment-4-forecast-mean, fig.cap = "(ref:plot-alignment-4-forecast-mean)"}
+plot_alignment_4$forecast_mean
+```
+
+#### Forecast SD {#forecast-sd-alignment-4}
+
+A mixed factorial ANOVA was conducted to investigate the effects of alignment
+and NPV presence on participants’ forecast SDs. As seen in
+Figure \@ref(fig:plot-alignment-4-forecast-sd), the main effect of alignment was
+significant, with the high alignment condition having higher SDs than the low
+alignment condition.
+
+(ref:plot-alignment-4-forecast-sd) Mean forecast SD.
+
+```{r plot-alignment-4-forecast-sd, fig.cap = "(ref:plot-alignment-4-forecast-sd)"}
+plot_alignment_4$forecast_sd
+```

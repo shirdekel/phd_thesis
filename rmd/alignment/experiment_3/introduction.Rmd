@@ -1,0 +1,41 @@
+## Experiment 3
+
+```{r setup-alignment-8}
+tar_load(descriptives_alignment_8)
+tar_load(materials_alignment_8)
+tar_load(results_alignment_8)
+tar_load(plot_alignment_8)
+```
+
+Experiment 3 investigated the effects of alignment, reliability type, NPV
+amount, and reliability amount on allocations. Experiment 1 manipulated
+reliability amount by using *verbal* prompts. That is, participants were told
+explicitly whether or not NPV was reliable for a certain project industry.
+Experiment 2 investigated whether people were able to extract this same kind of
+reliability information from *numerical* prompts. That is, participants saw NPVs
+with either wide or narrow ranges, indicating either low or high reliability of
+the metric, respectively. However, Experiment 1 sampled laypeople, whereas
+Experiment 2 sampled a Masters of Management course. Therefore, I was not able
+to compare the two reliability types (verbal and numerical) without ruling out
+the potential confound of population type. As such, in Experiment 3 I
+manipulated NPV amount, alignment, and reliability amount, but also added a
+reliability type factor. Further, presentation style was a possible confound in
+the alignment manipulation of the previous experiments. That is, the business
+projects in the high alignment condition were always displayed as a part of a
+table, whereas the projects in the low alignment condition were displayed in
+prose, as paragraphs. Experiment 3 fixed this by using the same presentation
+style across alignment condition.
+
+As well as again testing
+Hypotheses \@ref(hyp:allocation-alignment-alignment-2), \@ref(hyp:allocation-alignment-reliability-npv-alignment-2), \@ref(hyp:allocation-alignment-high-alignment-2),
+and \@ref(hyp:allocation-alignment-low-alignment-2), I tested the following
+hypothesis (see Figure \@ref(fig:plot-simulation-alignment-8) for a plot of a
+simulation of all hypothesised effects):
+
+``` {hypothesis, four-way-alignment-8, echo = TRUE}
+The alignment $\times$ reliability amount $\times$ reliability type $\times$ NPV
+amount interaction will be significant, such that the effects hypthesised above
+will be seen in the verbal reliability condition, but none of these effects
+will be seen in the numerical reliability condition.
+```
+

@@ -1,0 +1,62 @@
+### Method {#method-alignment-1}
+
+#### Participants
+
+`r descriptives_alignment_1$apa` Table \@ref(tab:condition-allocation-alignment-1)
+shows the between-subjects condition allocation. The two alignment conditions
+(low and high) were presented within subjects and the order of their
+presentation was randomised. Further, NPV amount was varied within subjects.
+
+```{r condition-allocation-alignment-1}
+descriptives_alignment_1$condition_allocation_table %>%
+  apa_table("Experiment 4 group allocation.")
+```
+
+#### Materials
+
+The project display, allocation task, and confidence task were the same as in
+[Experiment 1](#materials-alignment-2).
+
+##### Instructions
+
+Participants were shown similar instructions to [Experiment
+1](#instructions-materials-alignment-2), except for the addition of references
+to the multiple displays and the removal of an explanation about the forecasting
+task. Figures \@ref(fig:instructions-reliability-low-materials-alignment-1)
+or \@ref(fig:instructions-reliability-high-alignment-1) show the instructions,
+depending on NPV reliability condition.
+
+(ref:instructions-reliability-low-materials-alignment-1) Experiment 4 low reliability instructions. Border added for clarity.
+
+```{r instructions-reliability-low-materials-alignment-1, fig.cap = "(ref:instructions-reliability-low-materials-alignment-1)"}
+here(
+  materials_alignment_1,
+  "instructions_reliability_low.png"
+) %>%
+  image_read() %>%
+  image_trim() %>%
+  image_convert(type = "grayscale") %>%
+  image_contrast() %>%
+  image_border(color = "white", geometry = "5x5") %>%
+  image_border(color = "black", geometry = "5x5")
+```
+
+(ref:instructions-reliability-high-alignment-1) Experiment 4 high reliability instructions. Border added for clarity.
+
+```{r instructions-reliability-high-alignment-1, fig.cap = "(ref:instructions-reliability-high-alignment-1)"}
+here(
+  materials_alignment_1,
+  "instructions_reliability_high.png"
+) %>%
+  image_read() %>%
+  image_trim() %>%
+  image_convert(type = "grayscale") %>%
+  image_contrast() %>%
+  image_border(color = "white", geometry = "5x5") %>%
+  image_border(color = "black", geometry = "5x5")
+```
+
+#### Procedure
+
+The procedure was the same as in Experiment 1, except that there was no
+forecasting or ranking tasks.

@@ -1,0 +1,59 @@
+### Results {#results-aggregation-1}
+
+#### Project choice
+
+I conducted a three-way ANOVA to investigate the effects of similarity,
+awareness, and presentation on the proportion of participants' decision to
+invest in the 10 projects. As seen in
+Figure \@ref(fig:plot-aggregation-1-awareness), participants invested more when
+they were told that there will be 10 projects, compared to when they were not
+told this, `r results_aggregation_1$awareness`. As seen in
+Figure \@ref(fig:plot-aggregation-1-presentation), participants invested more
+when viewing the projects jointly, compared to when they viewed them separately,
+`r results_aggregation_1$presentation`. Although there was no main effect of
+similarity, `r results_aggregation_1$similarity`, the interaction between
+similarity and presentation was significant,
+`r results_aggregation_1$similarity_presentation` (see
+Figure \@ref(fig:plot-aggregation-1-similarity-presentation)). Specifically, the
+presentation effect seems stronger in the high similarity condition,
+`r results_aggregation_1$highjoint_highseparate`, than in the low similarity
+condition, `r results_aggregation_1$lowjoint_lowseparate`.
+
+(ref:plot-aggregation-1-awareness) Mean proportions of decisions to invest in each set of 10 projects, by awareness conditions. Error bars represent 95% confidence intervals.
+
+```{r plot-aggregation-1-awareness, fig.cap = "(ref:plot-aggregation-1-awareness)"}
+plot_aggregation_1$awareness
+```
+
+(ref:plot-aggregation-1-presentation) Mean proportions of decisions to invest in each set of 10 projects, by presentation conditions. Error bars represent 95% confidence intervals.
+
+```{r plot-aggregation-1-presentation, fig.cap = "(ref:plot-aggregation-1-presentation)"}
+plot_aggregation_1$presentation
+```
+
+(ref:plot-aggregation-1-similarity-presentation) Mean proportions of decisions to invest in each set of 10 projects, by similarity and presentation conditions. Error bars represent 95% confidence intervals.
+
+```{r plot-aggregation-1-similarity-presentation, fig.cap = "(ref:plot-aggregation-1-similarity-presentation)"}
+plot_aggregation_1$similarity_presentation
+```
+
+#### Trial-by-trial analysis
+
+I conducted exploratory analyses into the possible effects of the manipulations
+on a trial-by trial basis. Appendix \@ref(trial-by-trial-aggregation-1) shows
+the data for all conditions. The key findings is in the separate presentation.
+As Figure \@ref(fig:plot-aggregation-1-trials-separate-awareness) shows, in the
+separate condition people are more likely to accept projects over the 10 trials,
+but this interacts with awareness,
+`r results_aggregation_1$trials_separate_awareness$full_result$awareness1_project_order`.
+Specifically, the relationship between choice and trial is significant in the
+aware condition,
+`r results_aggregation_1$trials_separate_awareness_slope$aware`; but not in the
+naive condition,
+`r results_aggregation_1$trials_separate_awareness_slope$naive`.
+
+(ref:plot-aggregation-1-trials-separate-awareness) Proportion of project acceptance in the separate presentation condition, by trial, and awareness conditions. LOESS is used for smoothing over trials, and the shading represents 95% confidence intervals.
+
+```{r plot-aggregation-1-trials-separate-awareness, fig.cap = "(ref:plot-aggregation-1-trials-separate-awareness)"}
+plot_aggregation_1$trials_separate_awareness
+```

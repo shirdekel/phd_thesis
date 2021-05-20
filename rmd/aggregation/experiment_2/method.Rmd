@@ -1,0 +1,56 @@
+### Method
+
+#### Participants
+
+`r descriptives_aggregation_2$apa` Table \@ref(tab:condition-allocation-aggregation-2)
+shows the between-subjects condition allocation.
+
+```{r condition-allocation-aggregation-2}
+descriptives_aggregation_2$condition_allocation_table %>%
+  apa_table("Experiment 2 group allocation.")
+```
+
+#### Materials
+
+##### Instructions
+
+Participants were shown the same instructions as in
+[Experiment 1](#instructions-materials-aggregation-1).
+
+##### Risky investment task {#task-aggregation-2}
+
+Participants saw a similar display to the one in
+[Experiment 1](#task-aggregation-1), but with new gamble values, in order to fix
+the mistake in the Experiment 1 gamble value calculation (detailed
+[above](#outcome-distribution-aggregation-1)).
+
+The presentation and awareness manipulations were as in Experiment 1. However,
+for the distribution variable, participants either saw the project descriptions
+as is, or saw an outcome probability distribution of all the projects alongside
+the description (see
+Figure \@ref(fig:separate-distribution-present-aggregation-2)).
+
+(ref:separate-distribution-present-aggregation-2) An example of a display seen by those in the separate distribution-present condition of Experiment 2.
+
+```{r separate-distribution-present-aggregation-2, fig.cap = "(ref:separate-distribution-present-aggregation-2)"}
+here(
+  materials_aggregation_2,
+  "project_choice_oil-well_separate_distribution_present_1.png"
+) %>%
+  image_read() %>%
+  image_trim()
+```
+
+##### Follow-up {#follow-up-aggregation-2}
+
+I asked participants how many projects they think they saw, whether they were
+willing to accept all or none of the projects, and how many they would
+be willing to accept if they had to choose a number. See
+Appendix \@ref(follow-up-materials-aggregation-2-appendix) for screenshots.
+
+#### Procedure
+
+Participants responded to demographic questions, read the instructions, and
+completed the risky investment task in their respective conditions. After seeing
+the individual projects, participants were then asked the three follow-up
+questions.

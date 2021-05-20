@@ -1,0 +1,16 @@
+### Discussion
+
+I found support for Hypothesis \@ref(hyp:anecdote-similarity-anecdotes-1) and
+Hypothesis \@ref(hyp:anecdote-similarity-anecdotes-2), as participants showed a
+stronger anecdotal bias effect when the anecdote was more similar to the target
+project, both for positive and negative anecdotes. Further, as per
+Hypothesis \@ref(hyp:statistics-negative-anecdotes-2) and
+Hypothesis \@ref(hyp:statistics-positive-anecdotes-2), I found that participants
+seemed to incorporate the statistical information into their judgements, in both
+negative and positive anecdotes.
+
+Experiment 2 therefore found that, unlike in the medical domain, the effect of
+anecdotes in financial decision-making does not seem to depend on anecdote
+valence. Further, as in Experiment 1, and unlike @wainberg2013, the anecdotal
+bias effect does not seem to be complete, with statistics still playing some
+role in participants' decisions despite the effect of the anecdote.

@@ -1,0 +1,125 @@
+### Method
+
+#### Participants
+
+`r descriptives_alignment_2$apa` Table \@ref(tab:condition-allocation-alignment-2)
+shows the between-subjects condition allocation. NPV amount was varied within
+subjects.
+
+```{r condition-allocation-alignment-2}
+descriptives_alignment_2$condition_allocation_table %>%
+  apa_table("Experiment 1 group allocation.")
+```
+
+#### Materials {#materials-alignment-2}
+
+##### Instructions {#instructions-materials-alignment-2}
+
+The instructions page explained to the participants, who did not necessarily
+have business experience, about the task and NPV. However, I also used this page
+to manipulate whether they were told that NPV was reliable or unreliable as a
+financial measure. Participants in the low NPV reliability condition were told
+that NPV is an unreliable metric, whereas those in the high NPV reliability
+condition were told that NPV is a reliable metric. Those in the no NPV condition
+saw instructions that did not include the NPV explanation. Critically,
+participants were told to invest in products with a high objective value
+(because a better quality product is not always better in a consumer goods
+market). Since this might still not use this instruction when directly viewing
+the projects, Experiment 3 used projects with attributes that more inherently
+conveyed quality. Appendix \@ref(instructions-materials-alignment-2-appendix)
+shows screenshots of these web-pages.
+
+##### Project display {#projects-materials-alignment-2}
+
+Participants read sets of fictional business projects to potentially allocate
+resources to. The high alignment display was a table that listed various
+attributes for five projects (see
+Figure \@ref(fig:projects-alignment-high-materials-alignment-2)). The low
+alignment display had each project expressed as individual paragraphs that
+described the relevant attributes through full sentences (see
+Figure \@ref(fig:projects-alignment-low-materials-alignment-2)). For the high
+alignment display, the product was the same, and the concrete attributes were
+consistent, while in the low alignment display, each project was a different
+product with concrete attributes relevant to that project. For both alignment
+conditions each project description included an NPV.
+
+This alignment manipulation was reinforced by visual presentation. The table
+format is better afforded by the high alignment condition because all the
+dimensions are shared. However, this confounds alignment with presentation
+style. I address this in [Experiment 3](#alignment-8) by equating the table
+format across both alignment conditions.
+
+(ref:projects-alignment-low-materials-alignment-2) An example of a low alignment display in Experiment 1. Border added for clarity.
+
+```{r projects-alignment-low-materials-alignment-2, fig.cap = "(ref:projects-alignment-low-materials-alignment-2)"}
+here(
+  materials_alignment_2,
+  "projects_alignment_low.png"
+) %>%
+  image_read() %>%
+  image_trim() %>%
+  image_convert(type = "grayscale") %>%
+  image_contrast() %>%
+  image_border(color = "white", geometry = "5x5") %>%
+  image_border(color = "black", geometry = "5x5")
+```
+
+(ref:projects-alignment-high-materials-alignment-2) An example of a high alignment display in Experiment 1.
+
+```{r projects-alignment-high-materials-alignment-2, fig.cap = "(ref:projects-alignment-high-materials-alignment-2)"}
+here(
+  materials_alignment_2,
+  "projects_alignment_high.png"
+) %>%
+  image_read() %>%
+  image_trim() %>%
+  image_convert(type = "grayscale") %>%
+  image_contrast()
+```
+
+Critically, the value of the concrete attributes were always in conflict with
+the NPV. For instance, Project 4 always had the lowest value for each of the
+concrete attributes for laptops, but always had the highest NPV. This was done
+in order to be able to use participants’ allocations as a proxy measure for an
+individual’s degree of dependence on NPV.
+
+##### Allocation
+
+Participants completed a resource allocation task (see
+Figure \@ref(fig:allocation-alignment-2)), adapted from @bardolet2011 in which
+they were asked to allocate their hypothetical yearly budget across the given
+five projects.
+
+(ref:allocation-alignment-2) The allocation task.
+
+```{r allocation-alignment-2, fig.cap = "(ref:allocation-alignment-2)"}
+here(
+  materials_alignment_2,
+  "allocation.png"
+) %>%
+  image_read() %>%
+  image_trim() %>%
+  image_convert(type = "grayscale") %>%
+  image_contrast()
+```
+
+##### Additional measures
+
+As well as measuring allocation, I included other measures, whose presentation
+and analyses are reported in the Appendix. Specifically, participants were asked
+to forecast the future returns of the projects (see
+Appendix \@ref(forecasting-materials-alignment-2)), rank the projects (see
+Appendix \@ref(ranking-materials-alignment-2)), indicate their confidence in
+their decisions (see Appendix \@ref(confidence-materials-alignment-2)), and
+justify their decisions (see
+Appendix \@ref(justification-materials-alignment-2)).
+
+#### Procedure
+
+Following ethics and demographics web-pages, participants were introduced to the
+study and the concept of NPV through the instructions page. They then completed
+the forecasting task directly after each project display in the low alignment
+condition, and directly under all projects for the high alignment condition.
+Participants then ranked the projects, and subsequently answered the allocation,
+confidence, and justification questions.
+

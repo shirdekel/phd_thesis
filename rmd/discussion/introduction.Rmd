@@ -1,0 +1,102 @@
+(ref:conclusion-quote) ---Amos Tversky
+
+```{block type='savequote', quote_author='(ref:conclusion-quote)', include=knitr::is_latex_output(), echo = TRUE}
+work...primarily concerned with the psychological processes that govern judgment
+and inference...portrayed people as fallible, not irrational.
+```
+
+# Discussion {#discussion}
+
+\minitoc
+
+This thesis investigated the psychology of resource allocation decisions. The
+influence of psychological factors on such decisions has not been sufficiently
+considered in the literature despite its importance to the performance of
+hierarchical organisations. This discrepancy is likely due to a greater focus of
+the role of organisational influences on firm performance in the management
+literature. The thesis did not investigate expertise effects, but instead
+focused largely on participants without management experience. This allowed a
+study of the specific cognitive processes without the potential confound of
+experience. Each of the empirical chapters investigated distinct but related
+processes that are relevant to the resource allocation process. By doing this I
+was able to investigate whether people are able to account for the benefits of
+aggregation when considering multiple projects (Chapter \@ref(aggregation)), the
+influence of project feature alignability and metric variance when comparing
+projects directly (Chapter \@ref(alignment)), and the influence of project
+anecdote similarity when the anecdote conflicts with statistical evidence
+(Chapter \@ref(anecdotes)). I will first summarise the results of the empirical
+chapters and then discuss their theoretical and practical implications.
+
+## Summary of results
+
+Chapter \@ref(aggregation) investigated the choice of risky business projects
+that are displayed sequentially and without feedback. This design modelled the
+real-life situation that managers are faced with in hierarchical organisations:
+an evaluation of a set of separate business project proposals over time with no
+immediate indication of the performance of those projects. Aggregating a
+portfolio of such projects is likely to show a lower chance of potential loss
+overall than might be originally assumed. The results from this chapter showed
+that people not only did not do this spontaneously, but also were not
+facilitated by manipulations that encouraged grouping choices together as a
+portfolio. People only seemed to recognise the benefits of aggregation when they
+were presented with an outcome probability distribution of the aggregated set of
+projects. There was no strong evidence that more subtle manipulations aimed at
+encouraging aggregation worked. Specifically, presenting projects together,
+specifying the total number of projects, and presenting projects that were all
+from the same industry did not encourage aggregation.
+
+Chapter \@ref(alignment) investigated resource allocation when projects were
+evaluated jointly and capital was allocated as a proportion of the budget,
+rather than a binary choice. I manipulated whether all the project attributes
+were alignable, or only the abstract financial metric (NPV) was alignable. I
+also manipulated whether NPV was to be considered a reliable metric or not, and
+whether this information was expressed as explicit verbal instruction or as
+numerical ranges. The results showed that when reliability information was
+presented verbally, participants used it appropriately when all project
+attributes were completely alignable. That is, they used it when it was reliable
+and used the intrinsic project features when it was unreliable. When only NPV
+was alignable, participants relied on it regardless of the reliability
+information. However, when reliability information was presented numerically,
+there was no moderation of allocation based on the ranges---participants used
+NPV even when they had an opportunity to use the intrinsic features of the
+project. Overall, however, participants tended to rely on NPV more in the low
+alignment condition than in the high alignment condition.
+
+Chapter \@ref(anecdotes) investigated the effect of anecdote similarity on
+allocations when anecdote conflicted with statistical data. Participants were
+asked to allocate a hypothetical budget between two projects. One of the
+projects was clearly superior in terms of the provided statistical measures, but
+some of the participants also saw a description of a project with a conflicting
+outcome. This anecdotal project was always in the same industry as one of the
+target projects. However, the anecdote description either contained substantive
+connections to the target or not. I also manipulated whether the anecdote
+conflicted with the statistical measures because it was successful (positive
+anecdote) or unsuccessful (negative anecdote). The results showed that
+participants' decisions were influenced by anecdotes only when they believed
+that they were actually relevant to the target project. Further, they still
+incorporated the statistical measures into their decision. I found this for both
+positive and negative anecdotes. However, participants were given information
+about the way that the anecdotes were sampled that suggested that the
+statistical information should have been used in all cases. Participants did not
+use this information in their decision and still showed an anecdotal bias
+effect. Therefore, people seem to appropriately moderate their use of anecdotes
+based on the anecdotes' relevance, but do not understand the implications of
+more complex statistical principles.
+
+Together, these results show the bounds of people's decision-making capability
+in resource allocation. The participants in these experiments in general behaved
+rationally but struggled to incorporate more advanced statistical principles
+into their decisions. Further, when confronted with multi-attribute choice,
+participants tended to allocate resources using a trade-off strategy. This was
+seen in the conflict between intrinsic project attributes and NPV in
+Chapter \@ref(alignment) and the conflict between the anecdotal and statistical
+evidence in Chapter \@ref(anecdotes). Participants were able to moderate their
+allocations when the moderating factors were sufficiently clear (as in the
+verbal reliability condition in Chapter \@ref(alignment)). However, participants
+struggled to do this when the moderating factor involved an understanding of a
+more advanced statistical principle. Each empirical chapter included such a
+principle: risk aggregation in Chapter \@ref(aggregation), metric variance in
+Chapter \@ref(alignment), and sample distribution in Chapter \@ref(alignment).
+However, a formal understanding of such principles does not seem to be necessary
+if they are expressed explicitly (as in the aggregated distribution in
+Chapter \@ref(aggregation)).

@@ -1,0 +1,45 @@
+## Chapter overview
+
+In sum the potential consequences for a diversified hierarchical structure are
+that projects will be consisdered one at a time, and if they are considered
+togetherj, disparate project types will make comparisons hard. Considering
+projects one by one might mean that risk is not aggregated across projects and
+therefore value is lost. The difficultly to compare will lead to both
+potentially relying on unreliable metrics, and relying on improper anecdotal
+evidence. The thesis is that people often go half-way. They do not completely
+disregard the normative strategy, but also struggle to moderate their decisions
+when it comes to more subtle statistical principles such as aggregation,
+variance, and sampling.
+
+In the previous section I identified three resource allocation processes that
+are currently under-studied and so are important to investigate further. First,
+the evaluation of individual project proposals might lead to managers only
+considering such projects one at a time, despite the opportunity of aggregating
+a portfolio of such projects. The choice bracketing literature suggests that
+there are ways of facilitating such aggregation, but does not investigate this
+without providing participants inter-trial feedback. Second, in situations in
+which managers compare multiple projects, the structural alignment literature
+suggests that managers in diversified firms will struggle to allocate more than
+those in more integrated firms. Further, these managers might not be sensitive
+to the variance inherent in the financial metrics they rely on. Third, a
+difficulty to compare across existing projects might instead mean a reliance on
+prior case studies from personal or external experience. Research on anecdotal
+bias suggests that managers might rely more on such case studies than on
+aggregated data, but it is unclear whether they will use relevance to moderate
+their decisions.
+
+Therefore, I investigate the psychology of resource allocation decisions in
+three chapters. In Chapter \@ref(aggregation) I investigate the effects of
+choice bracketing on risk aggregation without feedback. In
+Chapter \@ref(interstitial-1), I discuss the difference between evaluating
+project proposals with inherent budget estimates and the process of allocating
+an existing budget top-down. In Chapter \@ref(alignment) I investigate the
+effects of alignment and reliability type---verbal or numerical---on
+allocations. In Chapter \@ref(interstitial-2), I discuss the
+trade-offs that people make when using information to evaluate options such as
+project proposals. Finally, in Chapter \@ref(anecdotes) I investigate the effects
+of anecdote similarity on the anecdotal bias.
+
+\newpage
+
+\printbibliography[segment=\therefsegment,heading=subbibintoc]

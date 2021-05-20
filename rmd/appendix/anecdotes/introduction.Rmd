@@ -1,0 +1,3 @@
+# Chapter \@ref(anecdotes) appendix {#anecdotes-appendix}
+
+\minitoc

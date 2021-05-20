@@ -1,0 +1,135 @@
+### Method
+
+#### Materials
+
+##### Instructions {#instructions-materials-alignment-3-appendix}
+
+Figure \@ref(fig:instructions-materials-alignment-3) shows the instructions.
+
+(ref:instructions-materials-alignment-3) Experiment 2 instructions. Border added for clarity.
+
+```{r instructions-materials-alignment-3, fig.cap = "(ref:instructions-materials-alignment-3)"}
+here(
+  materials_alignment_3,
+  "instructions.png"
+) %>%
+  image_read() %>%
+  image_trim() %>%
+  image_contrast() %>%
+  image_border(color = "white", geometry = "5x5") %>%
+  image_border(color = "black", geometry = "5x5")
+```
+
+##### NPV test {#npv-test-materials-alignment-3}
+
+Participants were given more extensive information about NPV than in the
+previous experiment and were tested on their ability to calculate simple
+averages from given numerical ranges, as seen in
+Figures \@ref(fig:npv-test-1-materials-alignment-3)
+and \@ref(fig:npv-test-2-materials-alignment-3).
+
+(ref:npv-test-1-materials-alignment-3) Experiment 2 NPV test. Border added for clarity.
+
+```{r npv-test-1-materials-alignment-3, fig.cap = "(ref:npv-test-1-materials-alignment-3)", out.width = "90%"}
+npv_test_1 <- here(
+  materials_alignment_3,
+  "npv_test_1.png"
+) %>%
+  image_read()
+
+npv_test_2 <- here(
+  materials_alignment_3,
+  "npv_test_2.png"
+) %>%
+  image_read()
+
+c(
+  npv_test_1,
+  npv_test_2
+) %>%
+  image_trim() %>%
+  image_append(stack = TRUE) %>%
+  image_contrast() %>%
+  image_border(color = "white", geometry = "5x5") %>%
+  image_border(color = "black", geometry = "5x5")
+```
+
+(ref:npv-test-2-materials-alignment-3) Experiment 2 NPV test answers. Border added for clarity.
+
+```{r npv-test-2-materials-alignment-3, fig.cap = "(ref:npv-test-2-materials-alignment-3)", out.width = "60%"}
+here(
+  materials_alignment_3,
+  "npv_test_3.png"
+) %>%
+  image_read() %>%
+  image_trim() %>%
+  image_contrast() %>%
+  image_border(color = "white", geometry = "5x5") %>%
+  image_border(color = "black", geometry = "5x5")
+```
+
+##### NPV knowledge ratings {#npv-knowledge-materials-alignment-3}
+
+I used a similar design to @long2018 [Study 1] to test whether this sample may
+be overconfident in their understanding on NPV. Therefore, I asked participants
+to rate their knowledge of NPV in various points in the study (see the
+[procedure](#procedure-alignment-3)).
+
+(ref:npv-knowledge-materials-alignment-3) Experiment 2 NPV knowledge rating task. Border added for clarity.
+
+```{r npv-knowledge-materials-alignment-3, fig.cap = "(ref:npv-knowledge-materials-alignment-3)"}
+here(
+  materials_alignment_3,
+  "npv_knowledge_1.png"
+) %>%
+  image_read() %>%
+  image_trim() %>%
+  image_contrast() %>%
+  image_border(color = "white", geometry = "5x5") %>%
+  image_border(color = "black", geometry = "5x5")
+```
+
+##### Variance lecture {#variance-lecture-materials-alignment-3}
+
+```{r, eval=knitr::is_html_output(), out.width='100%', out.height='1000px'}
+here(
+  materials_alignment_3,
+  "variance_lecture.pdf"
+) %>%
+  include_graphics()
+```
+
+```{r, results='asis', eval=knitr::is_latex_output(), linewidth = 70}
+## From https://ulyngs.github.io/oxforddown/customisations-and-extensions.html#embed-pdf
+
+pdf_width <- 1.2
+
+split_path <-
+  here(
+    materials_alignment_3,
+    "variance_lecture_split/"
+  )
+
+## split_path %>%
+##   create_directory()
+
+## # split PDF into pages
+## here(
+##   materials_alignment_3,
+##   "variance_lecture.pdf"
+## ) %>%
+##   pdf_split(split_path)
+
+split_path %>%
+  list.files(full.names = TRUE) %>%
+  # for each PDF page, insert it nicely and
+  # end with a page break
+  str_c(
+    "\\begin{center} \\makebox[\\linewidth][c]{\\includegraphics[width=",
+    pdf_width,
+    "\\linewidth]{",
+    .,
+    "}} \\end{center}"
+  ) %>%
+  cat()
+```

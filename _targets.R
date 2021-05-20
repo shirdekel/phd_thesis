@@ -2,6 +2,9 @@ source("./packages.R")
 
 lapply(list.files("./R", full.names = TRUE), source)
 
+thesis_deps <-
+  get_thesis_deps()
+
 list(
   tar_map(
     values = get_values(),
@@ -31,5 +34,18 @@ list(
     prospect_theory,
     plot_prospect_theory()
   ),
+  tar_file(input, "index.Rmd"),
+  tar_file(config_file, "_bookdown.yml"),
+  tar_file(
+    thesis,
+    render_with_deps(
+      input = input,
+      config_file = config_file,
+      deps = c(
+        !!tar_knitr_deps_expr(thesis_deps$rmd),
+        thesis_deps$rmd,
+        thesis_deps$templates
+      )
+    )
   )
 )

@@ -1,0 +1,115 @@
+### Results
+
+#### Project investment
+
+The project investment data was analysed as in
+[Experiment 2](#results-aggregation-2). 
+Figures \@ref(fig:plot-aggregation-4-choice)
+and \@ref(fig:plot-aggregation-4-proportion) show the choice and proportion
+data, respectively. The difference between
+awareness conditions was not significant, both in the logistic regression
+`r results_aggregation_4$choice$full_result[[2]]`, and in the t-test,
+`r results_aggregation_4$proportion`.
+
+(ref:plot-aggregation-4-choice) Mean project acceptance for the awareness effect.
+
+```{r plot-aggregation-4-choice, fig.cap = "(ref:plot-aggregation-4-choice)"}
+plot_aggregation_4$choice_binary
+```
+
+(ref:plot-aggregation-4-proportion) Mean proportion of project acceptance for the awareness effect.
+
+```{r plot-aggregation-4-proportion, fig.cap = "(ref:plot-aggregation-4-proportion)"}
+plot_aggregation_4$choice_proportion
+```
+
+Further, Figure \@ref(fig:plot-aggregation-4-choice-trials) shows the choice
+data as a function of the order of the project in the sequence. As
+Table \@ref(tab:awareness-project-order) shows, there were no main effects or
+interactions.
+
+(ref:plot-aggregation-4-choice-trials) Mean project acceptance by awareness and trial.
+
+```{r plot-aggregation-4-choice-trials, fig.cap = "(ref:plot-aggregation-4-choice-trials)"}
+plot_aggregation_4$choice_trials
+```
+
+```{r awareness-project-order}
+results_aggregation_4$awareness_project_order$table %>%
+  apa_table("Logistic regression table of project acceptance by awareness and trial.")
+```
+
+#### Follow-up
+
+##### Project expectation
+
+We asked participants how many projects they expected to see. 
+Figure \@ref(fig:plot-aggregation-4-project-expectation) shows that those in
+the aware condition reportedly expect to see more,
+`r results_aggregation_4$project_expectation`. However, this is likely to be due to
+the fact that they were told how many projects there were.
+
+(ref:plot-aggregation-4-project-expectation) Number of projects participants expected to see, by awareness.
+
+```{r plot-aggregation-4-project-expectation, fig.cap = "(ref:plot-aggregation-4-project-expectation)"}
+plot_aggregation_4$project_expectation
+```
+
+##### Project number
+
+We asked participants how many projects they think they saw.
+Figure \@ref(fig:plot-aggregation-4-project-number) shows that overall people
+correctly estimate the number of projects, with higher accuracy for those in the
+aware condition.
+
+(ref:plot-aggregation-4-project-number) Number of projects participants reported seeing, by awareness.
+
+```{r plot-aggregation-4-project-number, fig.cap = "(ref:plot-aggregation-4-project-number)"}
+plot_aggregation_4$project_number
+```
+
+##### Portfolio choice - binary
+
+Participants were then asked if they would rather invest in all or none of the
+projects. As Figure \@ref(fig:plot-aggregation-4-portfolio-binary), there was no
+significant difference between awareness conditions in wanting to invest
+in all of the projects,
+`r results_aggregation_4$portfolio_binary$full_result[[2]]`.
+
+(ref:plot-aggregation-4-portfolio-binary) Mean choice of investing in all 20 projects for the awareness effect. 
+```{r plot-aggregation-4-portfolio-binary, fig.cap = "(ref:plot-aggregation-4-portfolio-binary)"}
+plot_aggregation_4$portfolio_binary
+```
+
+##### Portfolio choice - number
+
+Subsequently, we asked participants how many projects they would invest in out
+of the 20 that they saw. As
+Figure \@ref(fig:plot-aggregation-4-portfolio-number) shows, the difference
+between awareness conditions was not significant,
+`r results_aggregation_4$portfolio_number`.
+
+(ref:plot-aggregation-4-portfolio-number) Mean number of projects chosen in the follow-up for the awareness effect.
+
+```{r plot-aggregation-4-portfolio-number, fig.cap = "(ref:plot-aggregation-4-portfolio-number)"}
+plot_aggregation_4$portfolio_number
+```
+
+#### Gambles
+
+Figures \@ref(fig:plot-aggregation-4-trials)
+and \@ref(fig:plot-aggregation-4-gamble-values) show the
+overall people seemed to prefer gambles with higher probabilities of gain,
+sometimes regardless of expected value or value of the gain.
+
+(ref:plot-aggregation-4-trials) Mean project acceptance for the 20 gambles. The format of the labels indicate: (gain probability, gain value; loss probability, loss value).
+
+```{r plot-aggregation-4-trials, fig.cap = "(ref:plot-aggregation-4-trials)"}
+plot_aggregation_4$trials
+```
+
+(ref:plot-aggregation-4-gamble-values) Mean project acceptance for the gambles' expected value, positive probability, and positive outcome.
+
+```{r plot-aggregation-4-gamble-values, fig.cap = "(ref:plot-aggregation-4-gamble-values)"}
+plot_aggregation_4$gamble_values
+```

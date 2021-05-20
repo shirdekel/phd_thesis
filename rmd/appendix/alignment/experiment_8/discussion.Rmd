@@ -1,0 +1,17 @@
+### Discussion
+
+I found that in the verbal reliability condition, participants allocated
+according to the reliability information, for both low and high alignment
+conditions. In the numerical reliability condition, there were no differences in
+allocations, for both low and high alignment conditions. Further, there was an
+effect of NPV in low reliability for the high alignment condition, but not the
+low alignment condition.
+
+This experiment shows that similar to the previous experiments, when controlling
+for presentation and domain, people still find it easier to allocate resources
+based on explicit reliability information when projects are comparable. However,
+due to the difference in scale across alignment conditions, a direct alignment
+effect was more difficult to test than with the previous experiments. Further,
+similar to Experiment 3, I showed that people without much business experience
+also struggle to use range information in resource allocation to such an extreme
+extent that they do not seem to be using any coherent allocation strategy.

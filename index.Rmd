@@ -1,0 +1,135 @@
+---
+#####################
+## thesis metadata ##
+#####################
+title: The psychology of managerial risky choice and resource allocation
+author: Shir Dekel
+university: The University of Sydney
+university-logo: templates/usyd-logo.png
+submitted-text: A thesis submitted for the degree of
+degree: Doctor of Philosophy (Science)
+degreedate: '`r format(Sys.time())`'
+abstract: |
+  `r paste(readLines("rmd/abstract.Rmd"), collapse = '\n  ')`
+
+#######################
+## bibliography path ##
+#######################
+bibliography: references.bib
+
+########################
+## PDF layout options ###
+#########################
+
+## binding / margins ##
+page-layout: nobind #'nobind' for equal margins (PDF output), 'twoside' for two-sided binding (mirror margins and blank pages), leave blank for one-sided binding (left margin > right margin)
+
+## position of page numbers ##
+ordinary-page-number-foot-or-head: foot #'foot' puts page number in footer, 'head' in header
+ordinary-page-number-position: C  #C = center, R = right, L = left. If page layout is 'twoside', O = odd pages and E = even pages. E.g. RO,LE puts the page number to the right on odd pages and left on even pages
+chapter-page-number-foot-or-head: foot #you may want it to be different on the chapter pages
+chapter-page-number-position: C
+
+## position of running header ##
+running-header: true #indicate current chapter/section in header?
+running-header-foot-or-head: head
+running-header-position-leftmark: LO #marks the chapter. If layout is 'nobind', only this is used.
+running-header-position-rightmark: RE  #marks the section.
+
+## section numbering ##
+section-numbering-depth: 2 # to which depth should headings be numbered?
+
+## tables of content ##
+toc-depth: 2 # to which depth should headings be included in table of contents?
+lof: true # include list of figures in front matter?
+lot: true # include list of tables in front matter?
+mini-toc: true  # include mini-table of contents at start of each chapter? (this just prepares it; you must also add \minitoc after the chapter titles)
+mini-lot: false  # include mini-list of tables by start of each chapter?
+mini-lof: false  # include mini-list of figures by start of each chapter?
+
+## linespacing ##
+linespacing: 22pt plus2pt # 22pt is official for submission & library copies
+frontmatter-linespacing: 17pt plus1pt minus1pt #spacing in roman-numbered pages (acknowledgments, table of contents, etc.)
+
+# For lua filters to work
+citeproc: no
+
+### citation and bibliography style ###
+bibliography-heading-in-pdf: References
+
+# biblatex options #
+# unless you run into 'biber' error messages, use natbib as it lets you customise your bibliography directly
+use-biblatex: true
+bib-latex-options: "style=apa, backend=biber, refsegment=chapter"
+
+header-includes:
+  # Avoid extra spacing due to figures
+  - \raggedbottom
+  # Manually landscape
+  # from https://stackoverflow.com/a/27334272/13945974
+  - \usepackage{pdflscape}
+  - \newcommand{\blandscape}{\begin{landscape}}
+  - \newcommand{\elandscape}{\end{landscape}}
+
+#####################
+## output options  ##
+#####################
+output:
+  bookdown::pdf_book:
+    citation_package: biblatex
+    template: templates/template.tex
+    keep_tex: true
+    pandoc_args: !expr rmdfiltr::add_wordcount_filter(rmdfiltr::add_replace_ampersands_filter(rmdfiltr::add_citeproc_filter(args = NULL)))
+  bookdown::bs4_book:
+    css:
+      - templates/bs4_style.css
+    theme:
+      primary: "#6D1919"
+    repo: https://github.com/shirdekel/phd_thesis
+    pandoc_args: !expr rmdfiltr::add_wordcount_filter(rmdfiltr::add_replace_ampersands_filter(rmdfiltr::add_citeproc_filter(args = NULL)))
+  bookdown::word_document2:
+    toc: true
+    pandoc_args: !expr rmdfiltr::add_wordcount_filter(rmdfiltr::add_replace_ampersands_filter(rmdfiltr::add_citeproc_filter(args = NULL)))
+documentclass: book
+always_allow_html: true #this allows html stuff in word (.docx) output
+# Needed for non-biblatex output (Word and HTML)
+link-citations: true
+csl: templates/apa.csl
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(magick)
+library(here)
+library(knitr)
+library(papaja)
+library(kableExtra)
+library(targets)
+
+knitr::opts_chunk$set(
+  echo = FALSE,
+  warning = FALSE,
+  message = FALSE,
+  out.width = "100%"
+)
+
+hook_chunk <- knitr::knit_hooks$get("chunk")
+knitr::knit_hooks$set(chunk = function(x, options) {
+  txt <- hook_chunk(x, options)
+  # add chunk option 'quote_author' which adds \qauthor{...} to the end of a chunk.
+  # This is used to give the author of the cute quotes you can add to chapter openings
+  if (!is.null(options$quote_author)) {
+    latex_include <- paste0("\\\\qauthor\\{", options$quote_author, "\\}\\1")
+    gsub("(\\\\end\\{savequote\\})", latex_include, txt)
+  } else {
+    return(txt) # pass to default hook
+  }
+})
+
+## Automatically apply `printnum()` to any number that is printed in inline code
+## chunks as in `papaja`
+knitr::knit_hooks$set(inline = papaja:::inline_numbers)
+```
+
+```{r ebook-welcome, child = 'rmd/welcome.Rmd', eval=knitr::is_html_output()}
+```

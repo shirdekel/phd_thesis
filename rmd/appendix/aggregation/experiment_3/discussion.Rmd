@@ -1,0 +1,17 @@
+### Discussion
+
+I found some evidence for the effect of similarity on project choice, but it was
+in the opposite direction to the one hypothesised. Specifically, I found that
+when considering projects individually, participants' risk aversion did not
+differ between similarity conditions, but when offered a portfolio of the
+projects, those that saw the dissimilar projects were more likely to invest.
+
+These results provide evidence for the naive diversification account expressed
+[above](#similarity-discussion-aggregation-1). Specifically, it may be the case
+that participants really are naively diversifying, but only when they are
+explicitly given an opportunity to do so. This is similar to the multi-play
+effects in that the question itself provides a sort of choice bracketing. That
+is, the gambles are grouped together as a package/portfolio by the question.
+Together, this suggests that people are not naively aggregating when viewing
+gambles in isolation, but when the choices are bracketed explicitly, then the
+choice seems to be driven by a naive diversification.

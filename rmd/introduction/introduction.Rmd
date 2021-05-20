@@ -1,0 +1,91 @@
+(ref:introduction-quote) ---Elbert Hubbard
+
+```{block type='savequote', quote_author='(ref:introduction-quote)', include=knitr::is_latex_output(), echo = TRUE}
+An executive is a man who can make quick decisions and is sometimes right.
+```
+
+# Introduction
+
+\minitoc
+
+<!-- Organisations have a big impact on the world -->
+
+Much of modern life depends on large organisations. General Electric (GE) makes
+the engines that go in our aircrafts, Johnson & Johnson make our shampoo, and
+Google allows us to search the internet. The areas of our lives that are less
+affected by such private firms, depend on public sector organisations such as
+public hospitals, schools, and police. The justification for the existence of
+such organisations is that the particular combination of individual divisions,
+alongside a corporate management, will lead to better performance for each of
+the divisions than they would have been able to generate individually. In other
+words, the assumption is that such organisations create a synergy---the quality
+of the whole will be greater than the sum of its parts.
+
+<!-- They are made up of multiple divisions -->
+
+Multi-divisional organisations are typically organised in a hierarchical
+structure, with a corporate management team and subsidiary divisions. Each
+division is usually made up of several business units. For instance, some of
+GE's divisions include GE Aviation and GE Healthcare. Similarly, in the public
+sector, a hospital system may operate through multiple individual hospitals in
+certain regions.
+
+<!-- This means resource allocation -->
+
+Such organisations therefore need to make resource allocation decisions. That
+is, given a limited amount of resources (e.g., financial, organisational), how
+best to invest in the multiple divisions? Equally? Pick a winner? Resource
+allocation is a critical process to the operation and development of
+multi-divisional organisations.
+
+<!-- Many decisions come from one or few people -->
+
+The products and services that arise from organisations are (necessarily) a
+result of the work of many people. In GE, for instance, the factories that
+generate aircraft engines need to be staffed by production line workers,
+accountant are needed for bookkeeping, and software engineers are needed to
+design and maintain the production systems. Despite this, many important
+strategic decisions ultimately come from a very small number of people. The
+decisions that the CEO or other lower level executives make can have large
+consequences on the life of the company.
+
+<!-- Managers are biased -->
+
+Managers of large organisations often appear as bold and effective
+decision-makers. It appears that their position of power and wealth was
+necessarily arrived at through high competence and rational decision-making.
+However, the fact that much of an organisation's future (and by extension often
+many more components of the economy) depends on the decisions of a few
+individual may be concerning for three reasons. First, it is unclear what the
+role of survivorship bias was in obtaining the manager's role, because the
+number of managers that used the same strategy and failed is unknown. Second,
+decades of work have shown that people's decision-making is often fallible and
+that job experience does not always alleviate this. Third, managers of large
+organisations often face uncertain environments, which strengthens psychological
+biases.
+
+<!-- Examples of the consequences of biased manager decision-making? -->
+
+<!-- Not enough work on resource allocation biases -->
+
+One class of biases has not been well studied: resource allocation biases. When
+making capital allocation decisions, there are elements of the decision making
+environment that can be deceiving for managers. In this thesis I examine how the
+framing of a series of business projects affects people's decisions about those
+projects. Specifically, the same set of projects, presented in aggregate form,
+is much more likely to be accepted. Further, sometimes people are distracted by
+extraneous semantic information, such as the relative similarity of the options.
+I find that although people in general make sensible decisions, they fail to
+moderate them appropriately when presented with critical information.
+Specifically, information about metric variance is ignored even when other
+metrics are available. Further, people seem to appropriately use statistical and
+anecdotal information based on relevance to the situation at hand, but ignore
+information about the sampling of the anecdote. In short, people overall tend to
+make sound decisions, but fail to moderate them in situations that have more
+subtle statistical implications.
+
+Next, I will explain how the resource allocation process functions in
+hierarchical organisations, and why it is necessary to analyse such a process
+with a psychological approach. I will then review the literature on
+decision-making biases and how these may apply to resource allocation decisions.
+Finally, I will summarise the rest of the thesis chapters.

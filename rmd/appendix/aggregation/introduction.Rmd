@@ -1,0 +1,8 @@
+# Chapter \@ref(aggregation) appendix {#aggregation-appendix}
+
+\minitoc
+
+All Poisson binomial distributions used in Chapter \@ref(aggregation) were
+calculated using the R package `poibin`, which uses calculations described in
+@hong2013.
+

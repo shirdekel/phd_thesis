@@ -1,0 +1,145 @@
+### Method {#method-anecdotes-1}
+
+#### Participants
+
+`r descriptives_anecdotes_1$apa` Table \@ref(tab:condition-allocation-anecdotes-1)
+shows the between-subjects condition allocation.
+Appendix \@ref(power-analysis-anecdotes-1) describes the power analysis
+conducted to arrive at this sample size.
+
+```{r condition-allocation-anecdotes-1}
+descriptives_anecdotes_1$condition_allocation_table %>%
+  apa_table("Experiment 1 group allocation.")
+```
+
+#### Materials {#materials-anecdotes-1}
+
+##### Instructions
+
+All participants initially saw general instructions that explained the task. The
+subsequent instructions that participants saw depended on their experimental
+condition. Those in the anecdote only condition were told that they will see a
+case study of a failed project and an analysis of why it failed. Those in the
+statistics only condition were told that they will see NPV and reliability
+information as a part of their target project descriptions, and were explained
+that these values were sourced from a study with a large sample. Those in the
+anecdote + statistics condition were given both of these instructions, and were
+also told that the information in the anecdote is subsumed in the data of the
+aggregated study. Those in the anecdote + enhanced statistics condition saw the
+same as those in the anecdote + statistics condition, but were subsequently
+given the explanation of scientific thinking that @wainberg2018 used.
+Appendix \@ref(instructions-materials-anecdotes-1-appendix) shows screenshots of
+of these instructions.
+
+##### Allocation task
+
+In the allocation task, participants allocated a percentage of a hypothetical
+budget between two target projects that come from different businesses within a
+company. Participants were presented with information about each business' name,
+location, integration (vertical or horizontal), and organisational structure
+(centralised or decentralised). See
+Appendix \@ref(allocation-materials-anecdotes-1) for an explanation of these
+terms. Further, participants were presented with information about features of
+each project that they were told were available to managers before the time of
+investment. Participants in the anecdote only condition saw just this
+information (see
+Figure \@ref(fig:project-allocation-anecdote-only-materials-anecdotes-1)), while
+those in the statistics conditions saw this information along with measures of
+NPV and "Overall reliability rating" (see
+Figure \@ref(fig:project-allocation-statistics-materials-anecdotes-1)).
+Participants entered their allocation data underneath this table, in two
+textboxes labelled *Project A allocation* and *Project B allocation*,
+respectively.
+
+(ref:project-allocation-anecdote-only-materials-anecdotes-1) Project display for the anecdote only condition in Experiment 1.
+
+```{r project-allocation-anecdote-only-materials-anecdotes-1, fig.cap = "(ref:project-allocation-anecdote-only-materials-anecdotes-1)"}
+here(
+  materials_anecdotes_1,
+  "project_allocation_anecdote_only.png"
+) %>%
+  image_read() %>%
+  image_trim()
+```
+
+(ref:project-allocation-statistics-materials-anecdotes-1) Project display for the statistics only, anecdote + statistics, and anecdote + enhanced statistics conditions in Experiment 1.
+
+```{r project-allocation-statistics-materials-anecdotes-1, fig.cap = "(ref:project-allocation-statistics-materials-anecdotes-1)"}
+here(
+  materials_anecdotes_1,
+  "project_allocation_statistics.png"
+) %>%
+  image_read() %>%
+  image_trim()
+```
+
+##### Anecdote
+
+Participants that were presented with an anecdote (those in either the anecdote
+only, anecdote + statistics , or anecdote + enhanced statistics conditions) saw
+a description of a business project and an accompanying "analysis".
+Figures \@ref(fig:anecdote-similarity-high-materials-anecdotes-1)
+and \@ref(fig:anecdote-similarity-low-materials-anecdotes-1) show the anecdote
+display for those in the high and low similarity conditions, respectively. The
+project description had a similar layout to the target projects. That is, it
+contained information about the business name, location, integration, and
+organisational structure of the business, and detailed predicted features of the
+project. Underneath this description was a paragraph of text that participants
+were told was an analysis of why the project failed. Therefore, this text
+references each of the features in the description in order to justify the
+project failing.
+
+Those in the high similarity condition saw a description of a project from a
+business with the same type of investment. All categorical attributes were
+identical to the relevant target project (Project A), and the numerical
+attributes were all made to be lower than those in Project A. In the analysis,
+the numerical attributes were explained to have failed because they were not as
+high as certain cut-offs. Critically, these cut-offs were made to all be higher
+than the relevant values in Project A. This was done to make sure that the
+numerical attributes in the anecdote seem more relevant to those in Project A.
+For instance, for Project A, oil extraction was 2200L an hour, for the anecdote
+it was 2000L an hour, and the cutoff was 3000L an hour. As such, a failure of
+the anecdote because of an insufficient oil extraction rated will seem more
+relevant since they both share the state of being lower than the cut-off in the
+analysis. Note, however, that there was uncertainty about the generalisability
+of these cut-off values because the participants did not receive a explicit
+indication about whether these values were meant to generalise to other cases.
+
+(ref:anecdote-similarity-high-materials-anecdotes-1) Anecdote display for those in the high alignment condition in Experiment 1.
+
+```{r anecdote-similarity-high-materials-anecdotes-1, fig.cap = "(ref:anecdote-similarity-high-materials-anecdotes-1)"}
+here(
+  materials_anecdotes_1,
+  "anecdote_similarity_high.png"
+) %>%
+  image_read() %>%
+  image_trim()
+```
+
+(ref:anecdote-similarity-low-materials-anecdotes-1) Anecdote display for those in the low alignment condition in Experiment 1.
+
+```{r anecdote-similarity-low-materials-anecdotes-1, fig.cap = "(ref:anecdote-similarity-low-materials-anecdotes-1)"}
+here(
+  materials_anecdotes_1,
+  "anecdote_similarity_low.png"
+) %>%
+  image_read() %>%
+  image_trim()
+```
+
+##### Follow-up questions
+
+Participants that saw the anecdote were subsequently presented with follow-up
+questions. They were asked how similar they believe the anecdote was to the
+target project, how relevant it was for their allocations, and how relevant it
+would be for judgements about other projects of that type. See
+Appendix \@ref(follow-up-materials-anecdotes-1) for a screenshot of the display.
+
+#### Procedure
+
+Following ethics and demographics web-pages, participants were introduced to the
+study through the general instructions and the specific instructions relevant to
+the condition. They then saw the allocation task, which included the anecdote
+analysis and description (for those not in the statistics condition), and the target
+projects description. Those that saw an anecdote were subsequently shown the
+follow-up questions.

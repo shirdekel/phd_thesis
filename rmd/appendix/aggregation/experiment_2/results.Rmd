@@ -1,0 +1,74 @@
+### Results {#results-aggregation-2-appendix}
+
+#### Follow-up
+
+##### Project number
+
+We asked participants how many projects they think they saw.
+Figure \@ref(fig:plot-aggregation-2-project-number) shows that overall people
+to correctly estimate the number of projects, with more accuracy for those in
+the aware condition.
+
+(ref:plot-aggregation-2-project-number) Number of projects participants reported seeing, by condition.
+
+```{r plot-aggregation-2-project-number, fig.cap = "(ref:plot-aggregation-2-project-number)"}
+plot_aggregation_2$project_number
+```
+
+##### Portfolio choice - binary
+
+Participants were then asked if they would rather invest in all or none of the
+projects. As Figure \@ref(fig:plot-aggregation-2-portfolio-binary) shows, the
+difference between presentation conditions was not significant,
+`r results_aggregation_2$portfolio_binary$presentation$full_result[[2]]`. The
+awareness effect was also not significant,
+`r results_aggregation_2$portfolio_binary$awareness$full_result[[2]]`. However,
+those that that saw a distribution chose to invest in all 10 projects
+significantly more
+(`r results_aggregation_2$distribution_mean$present$portfolio_binary`) than
+those that did not see a distribution
+(`r results_aggregation_2$distribution_mean$absent$portfolio_binary`),
+`r results_aggregation_2$portfolio_binary_distribution`.
+
+(ref:plot-aggregation-2-portfolio-binary) Mean choice of investing in all 10 projects for the presentation, awareness, and distribution effects. Note, the condition on the left of each effect is the reference condition (separate presentation, naive awareness, distribution absent). As such, it is identical for the three effects.
+
+```{r plot-aggregation-2-portfolio-binary, fig.cap = "(ref:plot-aggregation-2-portfolio-binary)"}
+plot_aggregation_2$portfolio_binary
+```
+
+##### Portfolio choice - number
+
+Subsequently, we asked participants how many projects they would invest in out
+of the 10 that they saw. As
+Figure \@ref(fig:plot-aggregation-2-portfolio-number) shows, the difference
+between presentation conditions was not significant,
+`r results_aggregation_2$portfolio_number$presentation`. The awareness effect
+was also not significant, `r results_aggregation_2$portfolio_number$awareness`.
+However, those that that saw a distribution chose to invest in significantly
+more projects than those that did not see a distribution,
+`r results_aggregation_2$portfolio_number$distribution`.
+
+(ref:plot-aggregation-2-portfolio-number) Mean number of projects chosen in the follow-up for the presentation, awareness, and distribution effects. Note, the condition on the left of each effect is the reference condition (separate presentation, naive awareness, distribution absent). As such, it is identical for the three effects.
+
+```{r plot-aggregation-2-portfolio-number, fig.cap = "(ref:plot-aggregation-2-portfolio-number)"}
+plot_aggregation_2$portfolio_number
+```
+
+#### Gambles
+
+Figures \@ref(fig:plot-aggregation-2-trials)
+and \@ref(fig:plot-aggregation-2-gamble-values) show the overall people seemed
+to prefer gambles with higher probabilities of gain, sometimes regardless of
+expected value or value of the gain.
+
+(ref:plot-aggregation-2-trials) Mean project acceptance for the 10 gambles. The format of the labels indicate: (gain probability, gain value; loss probability, loss value).
+
+```{r plot-aggregation-2-trials, fig.cap = "(ref:plot-aggregation-2-trials)"}
+plot_aggregation_2$trials
+```
+
+(ref:plot-aggregation-2-gamble-values) Mean project acceptance for the gambles' expected value, positive probability, and positive outcome.
+
+```{r plot-aggregation-2-gamble-values, fig.cap = "(ref:plot-aggregation-2-gamble-values)"}
+plot_aggregation_2$gamble_values
+```

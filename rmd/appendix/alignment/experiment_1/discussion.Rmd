@@ -1,0 +1,5 @@
+### Discussion
+
+Hypothesis \@ref(hyp:confidence-alignment-alignment-1) was not supported, as I did not find evidence of a main effect of alignment on participants' confidence in their allocation decisions. Instead, exploratory analyses showed that the difference in confidence between reliability conditions is greater in the low alignment condition. This may reflect participants' difficulty in making sense of their choices when alignment was low, given more confidence when assured of the reliability of NPV. In the high alignment condition, on the other hand, regardless of reliability condition, they had a way of using the reliability information. Further, confidence also seemed to increase more with NPV, on average, more when projects were dissimilar, which provides evidence for their reliance on NPV in this situation.
+
+There was limited evidence for the effect of alignment on forecast variability. As such, a future experiment will attempt to replicate this result with more participants. 

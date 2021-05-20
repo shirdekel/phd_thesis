@@ -1,0 +1,32 @@
+### Results
+
+A mixed factorial ANOVA was conducted to investigate the effects of alignment
+and verbally-instructed NPV reliability on participants’ allocations. As seen in
+Figure \@ref(fig:plot-alignment-2-allocation), the alignment $\times$
+reliability amount $\times$ NPV amount interaction was significant,
+`r results_alignment_2$allocation$alignment_reliability_amount_npv_amount`. This
+effect seems to be driven by the differences between the no NPV condition and
+the conditions with NPV across the two alignment conditions. Specifically, in
+the low alignment condition, the linear NPV trend was significantly lower in the
+no NPV condition than both the low reliability condition,
+`r results_alignment_2$allocation$low_noNPV_linear_low`, and the high
+reliability condition, `r results_alignment_2$allocation$high_noNPV_linear_low`.
+However, in the high alignment condition, the linear NPV trend was only
+significantly lower in the no NPV condition than the high reliability condition,
+`r results_alignment_2$allocation$high_noNPV_linear_high`, and not the low
+reliability condition, `r results_alignment_2$allocation$low_noNPV_linear_high`.
+
+(ref:plot-alignment-2-allocation) Mean allocation.
+
+```{r plot-alignment-2-allocation, fig.cap = "(ref:plot-alignment-2-allocation)"}
+plot_alignment_2$allocation
+```
+
+The ranking, confidence, and forecast mean data were all largely congruent with
+the allocation findings (see Appendix \@ref(results-alignment-2-appendix)). I
+also found that the forecasts of those in the low alignment condition had higher
+standard deviations than those in the high alignment condition (see
+Appendix \@ref(forecast-sd-alignment-2)). However, this did not replicate in
+subsequent experiments (see Appendix \@ref(forecast-sd-alignment-4)
+and \@ref(forecast-sd-alignment-5)).
+

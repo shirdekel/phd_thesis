@@ -1,0 +1,19 @@
+## Experiment 1 {#alignment-2-appendix}
+
+In addition to the allocation measure, I also asked participants to rank the projects and forecast their future returns.
+I included the ranking task before the allocation task in order to encourage alignment and to have another measure of participants' decision-making. I added the forecasting task (described further [below](#forecasting-materials-alignment-2)) in order to test whether the variance in people's forecasts is affected by alignment and NPV reliability.
+
+``` {hypothesis, ranking-all-alignment-2, echo = TRUE}
+All allocation effects will replicate in the ranking measure.
+```
+
+``` {hypothesis, forecasting-mean-all-alignment-2, echo = TRUE}
+All allocation effects will replicate in the forecasting mean measure.
+```
+
+In the forecasting measures, I expect that more alignable differences therefore bring about more certainty about forecasting decisions, since participants will have more easily comparable information. As such, people’s forecasting should be less variable when comparing projects with alignable differences, than when comparing projects with non-alignable differences. 
+
+``` {hypothesis, forecasting-sd-alignment-alignment-2, echo = TRUE}
+The standard deviation of participants' forecasts will be higher, on average,
+in the low alignment condition than in the high alignment condition.
+```

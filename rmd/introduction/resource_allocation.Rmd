@@ -1,0 +1,128 @@
+## Resource allocation in hierarchical organisations
+
+<!-- Large organisations have hierarchies -->
+
+The purpose of a multi-divisional organisation is to generate more value than
+any of the individual divisions combined. The whole should be greater than the
+sum of its parts. Reasons for this to work include reduced transaction costs
+[@williamson1981; @teece1982; @teece1980; @coase1937], shared resources
+[@wernerfelt1984; @barney1991], increased competitive advantage [@porter1998a;
+@porter1998], and increased synergies [@barney1988]. The underlying logic is the
+same: a multi-divisional organisation will be successful if it manages its
+divisions using processes and resources that are shared, or better yet, are
+complementary.
+
+<!-- Managers evaluate projects to potentially invest in -->
+
+In order to successfully manage multiple units, large organisations developed an
+hierarchical structure. @bower1970 identified three levels of the typical
+management hierarchy: business, division, and corporate. These are equivalent to
+front-line (or bottom), middle, and top level managers [@noda1996]. Early
+theorists suggested that the organisation's strategy originates completely in
+the top managers, with the rest of the organisation simply enacting their
+proposals. However, @mintzberg1985 emphasised the role of an emergent strategy,
+in which lower level managers affect change in the organisation's strategy.
+Subsequent work proposed and found evidence for an iterated process in which a
+strategic context may be set by top managers and projects advanced by lower
+level managers contribute to driving the strategy of the organisation
+[@noda1996; @burgelman1983; @bower1970].
+
+The way that resources are allocated in an organisation is very important to its
+growth and longevity. Analysing the performance of organisations using a
+resource-based view has led to a substantial field of research that relates to
+many other approaches in the management literature [@mahoney1992; @barney1991].
+The resource allocation process itself is one of the most important drivers of
+the strategic outcomes of an organisation [@bower1970; @bower2005]. A *resource*
+can refer to many types of assets that an organisation owns, both tangible and
+intangible, of which capital is only one [@wernerfelt1984]. In the resource
+allocation process, business-level managers formulate project proposals, which
+their division managers then evaluate. The division managers then choose the
+projects to send for final approval with the corporate managers.
+
+<!-- They have limited information -->
+
+Managers ultimately have only limited information about the projects that they
+evaluate. They typically have access to descriptive information about the
+investment and its known properties, but also are provided with financial
+metrics that estimate the returns on the investment. There are many such
+metrics, that usually attempt to encapsulate a trade-off between predicted
+future gains, present losses (in the form of the capital spent to pay for the
+investment), and opportunity costs. Examples include Net Present Value (NPV),
+Internal Rate of Return (IRR), Return on Investment (ROI), Cost-Benefit (CB),
+and Pay-Back Period (PBP). In this thesis I will focus on NPV, since it is one
+of the most frequently used metrics for project evaluation [@graham2001;
+@remer1993]. NPV is the difference between the money that a project is
+forecasted to make and the initial investment in its development (accounting for
+the time value of money), as seen in Equation \@ref(eq:npv):
+
+\begin{equation}
+\text{NPV}=\sum_{t=0}^n \frac{R_t}{(1+i)^t}, (\#eq:npv)
+\end{equation}
+
+where $t$ is the time of the cash flow, $i$ is the discount rate, $R_t$ is the
+net cash flow, and $n$ is the total number of periods. NPV is a useful metric
+because simply knowing that it is positive suggests that the project that it
+describes should be profitable. Therefore, metrics such as these have a strong
+influence on the evaluating manager's decision.
+
+<!-- Influences on the decision -->
+
+However, there can be other influences on a project evaluations other than the
+value of the financial metrics. For instance, politics within or outside the
+company can lead to situations in which a decision is based on social influence
+or even manipulation [@garbuio2017]. Such influence is not necessarily negative; it may involve
+qualitative feedback from, for instance, a more senior manager [@thamhain2014].
+Research has also shown that the media can have a tangible influence on
+managerial decision-making [@bednar2013; @liu2013]. Other source of influence on
+managerial decision-making are the organisational structures and incentives that
+are in place both externally [@kokkinis2019], and internally to the organisation
+[@ullrich2004]. Such dynamics have also been the subject of economic modelling
+investigations [@reichelstein1997; @cavagnac2005; @ortner2017]. Project
+proposals might also be affected by certain financial structures. For instance,
+managers might submit overly-optimistic project proposals if they know that the
+corporate team only accepts projects with a certain minimum NPV forecast.
+
+Another organisational influence on firm performance is the extent of
+diversification present in an organisation. A diversified organisation is one
+that possesses different divisions that are unrelated in some way. @penrose2009
+[p. 96] suggested that it is not useful to refer to a "diversified" firm or the
+"extent of diversification". Instead:
+
+> a firm diversifies its productive activities whenever, without entirely
+> abandoning its old lines of product, it embarks upon the production of new
+> products, including intermediate products, which are sufficiently different
+> from the other products it produces to imply some significant difference in
+> the firm’s production or distribution programmes.
+
+Therefore, the research on diversification is quite varied in the ways that
+diversification is operationalised. Some work found that organisations that are
+made up of more related divisions are more successful than those that are made
+up of unrelated divisions [@harrison1993; @rumelt1974; @shelton1988;
+@wernerfelt1988]. This is also true within business divisions [@davis1992].
+However, *more* diversified firms have also been shown to be associated with
+profitability [@grant1988]. Some of this discrepancy has been explained to be
+due to the specific measures used [@lubatkin1986]. It may also be because most
+studies used Standard Industrial Classification (SIC) codes to measure
+diversification [e.g., @rumelt1974], whereas others operationalised it using
+other approaches [e.g., resource-based\; @harrison1993].
+
+The advantage that related organisations have had has been explained through
+"synergies" [@barney1988]. That is, an organisation with two divisions that can
+use their resources to better one another are better off together than
+separately. The 1960s saw a general rise in mergers and acquisitions from
+executives seeking to diversify their organisations. However, doing so simply
+for the sake of the increase of divisions, rather than an understanding of the
+possible synergies will lead to the organisation actually being worth less than
+the sum of its parts (diversification discount). In fact, many organisations
+that acquired other businesses to diversify subsequently end up divesting them
+[@porter1987].
+
+While much of the performance of an organisation depends on influences that are
+external to the individual managers (e.g., organisational, political),
+psychological factors are often also quite consequential. The influences
+discussed above often assume that the manager making the decisions acts
+rationally, as per neoclassical economic theory. However, research in psychology
+has shown that this is often not the case. In fact, the field of behavioural
+strategy now exists to study the effects of psychological biases on managerial
+strategy [@powell2011]. I discuss this and the relevant implications for the
+thesis in the following section.

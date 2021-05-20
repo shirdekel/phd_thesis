@@ -1,0 +1,79 @@
+### Method
+
+#### Participants
+
+`r descriptives_aggregation_4$apa` Table \@ref(tab:condition-allocation-aggregation-4)
+shows the between-subjects condition allocation.
+
+```{r condition-allocation-aggregation-4}
+descriptives_aggregation_4$condition_allocation_table %>%
+  apa_table("Experiment 4 group allocation.")
+```
+
+#### Materials
+
+##### Instructions
+
+Participants were shown similar instructions as in
+[Experiment 1](#instructions-materials-aggregation-1), except that the awareness
+manipulation was incorporated into the text. Participants in the naive condition
+saw the instructions in Figure \@ref(fig:instructions-naive-aggregation-4), and
+those in the aware condition saw the instructions in
+Figure \@ref(fig:instructions-aware-aggregation-4).
+
+(ref:instructions-naive-aggregation-4) Instructions for those in the naive condition of Experiment 4.
+
+```{r instructions-naive-aggregation-4, fig.cap = "(ref:instructions-naive-aggregation-4)"}
+here(
+  materials_aggregation_4,
+  "instructions2_naive.png"
+) %>%
+  image_read() %>%
+  image_trim()
+```
+
+(ref:instructions-aware-aggregation-4) Instructions for those in the aware condition of Experiment 4.
+
+```{r instructions-aware-aggregation-4, fig.cap = "(ref:instructions-aware-aggregation-4)"}
+here(
+  materials_aggregation_4,
+  "instructions2_aware.png"
+) %>%
+  image_read() %>%
+  image_trim()
+```
+
+##### Risky investment task
+
+Participants saw similar displays to those in
+[Experiment 3](#task-aggregation-3). However, here participants viewed 20
+projects, so while the gamble constrains explained above were still applied, the
+actual gamble values were different. Further, those in the aware condition saw
+an added sentence that identified the number of the project they were currently
+considering in the context of the total 20. See
+Figure \@ref(fig:project-choice-aggregation-4) for an example. Those in the
+naive condition saw the same display without this sentence.
+
+(ref:project-choice-aggregation-4) An example of a project display in Experiment 4.
+
+```{r project-choice-aggregation-4, fig.cap = "(ref:project-choice-aggregation-4)"}
+here(
+  materials_aggregation_4,
+  "project_choice_aware_oil-well_1.png"
+) %>%
+  image_read() %>%
+  image_trim()
+```
+
+##### Follow-up
+
+The follow-up questions were identical to those in
+[Experiment 3](#follow-up-aggregation-3), except that the portfolio number
+question identified the number of projects they saw as 20.
+
+#### Procedure
+
+Participants responded to demographic questions, read the instructions, and
+completed the risky investment task in their respective conditions. After seeing
+the individual projects, participants were then asked the four follow-up
+questions.

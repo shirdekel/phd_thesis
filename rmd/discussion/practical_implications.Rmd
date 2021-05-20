@@ -1,0 +1,60 @@
+## Practical implications
+
+The findings of this thesis have a number of potential implications for
+managerial decision-making. Despite the uncertainty about potential expertise
+effects, in this section I will assume that the findings of this thesis
+generalise to experienced managers, if not in degree, at least qualitatively.
+Management researchers have suggested ways of overcoming psychological biases in
+managerial decision-making ever since such biases were identified. Many
+practitioner-oriented papers have used the findings of the judgement and
+uncertainty literature both to explain managerial decision-making processes and
+to suggest ways of reducing bias [@lovallo2014; @koller2012; @hall2012;
+@courtney1997; @courtney2013; @sibony2017], with only some specifically focused
+on resource allocation decisions [@birshan2013]. I will now review some of the
+implications the findings of this thesis may have on both organisational
+policies and manager decision-making.
+
+The findings of Chapter \@ref(aggregation) show that the way that business
+projects are framed is important for the way that people perceive their risk.
+Specifically, in order to better account for the risks of business projects it
+is important to make it easier for managers to 1. group projects together,
+and 2. aggregate a portfolio of projects for them. This suggests implementing
+organisational changes that will facilitate the resource allocation process. For
+instance, @lovallo2020 suggested that companies change the frequency that they
+evaluate projects to better allow for an aggregation of the projects. Doing this
+will enable an explicit computation of the aggregated values and therefore a
+visualisation of the outcome probability distribution. Such a process could
+facilitate aggregation without a need to rely on managers' intuition during
+sequential project evaluation decisions.
+
+One implication of Chapter \@ref(alignment) is that it is important to expose
+the variance underlying abstract financial measures. Further, translating such
+numerical variance estimates into clear verbal clear would help facilitate
+managers' understanding and implementation of such estimates. Organisational
+changes could include reducing diversification so that there is less reliance on
+abstract metrics. This would allow for more of a comparison between alignable
+project attributes, potentially reducing forecast error.
+
+The main implication of Chapter \@ref(anecdotes) is that managers should pay
+attention to the way that they compare target projects to other cases. It is
+important to collect prior cases that are relevant, and to have as many such
+cases as possible. Ideally, each such prior case should be weighed by similarity
+[@lovallo2012]. If this is done, the prior distribution of the similarity of the
+sample would be taken into account when computing subsequent aggregation. When
+identifying such similarity ratings, it is important to focus on relevant
+underlying structure. This would reduce any erroneous connections to cases that
+only have a mere surface similarity. This distinction is also relevant in a
+situation in which only one prior case can be found. Research on analogy shows
+that analogical comparison helps expose the underlying relational structure
+between objects [e.g., @kurtz2013; @markman1993]. Therefore, managers should
+take care to first identify such relational structures first before making
+subsequent inferences.
+
+In each of these cases, addressing these psychological effects will help
+eliminate some of the biases in the resource allocation process, but will not
+address other related biases. For instance, the above effects all involve
+decisions that require an evaluation of financial forecast estimates such as
+future cash flows and the related uncertainty. Therefore, a further source of
+error could arise from the initial estimation of these probability and cash flow
+values. For instance, such estimates could be influenced by optimism or
+confidence biases, which can in turn be addressed [@flyvbjerg2018].

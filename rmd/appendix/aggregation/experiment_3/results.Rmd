@@ -1,0 +1,115 @@
+### Results
+
+#### Project investment
+
+The project investment data was analysed as in
+[Experiment 2](#results-aggregation-2). 
+Figures \@ref(fig:plot-aggregation-3-choice)
+and \@ref(fig:plot-aggregation-3-proportion) show the choice and proportion
+data, respectively. The difference between similarity conditions was not
+significant, both in the logistic regression
+`r results_aggregation_3$choice$full_result[[2]]`, and in the t-test,
+`r results_aggregation_3$proportion`.
+
+(ref:plot-aggregation-3-choice) Mean project acceptance for the similarity effect.
+
+```{r plot-aggregation-3-choice, fig.cap = "(ref:plot-aggregation-3-choice)"}
+plot_aggregation_3$choice_binary
+```
+
+(ref:plot-aggregation-3-proportion) Mean proportion of project acceptance for the similarity effect.
+
+```{r plot-aggregation-3-proportion, fig.cap = "(ref:plot-aggregation-3-proportion)"}
+plot_aggregation_3$choice_proportion
+```
+
+Further, Figure \@ref(fig:plot-aggregation-3-choice-trials) shows the choice
+data as a function of the order of the project in the sequence. As
+Table \@ref(tab:similarity-project-order) shows, there were no main effects or
+interactions.
+
+(ref:plot-aggregation-3-choice-trials) Mean project acceptance by similarity and trial.
+
+```{r plot-aggregation-3-choice-trials, fig.cap = "(ref:plot-aggregation-3-choice-trials)"}
+plot_aggregation_3$choice_trials
+```
+
+```{r similarity-project-order}
+results_aggregation_3$similarity_project_order$table %>%
+  apa_table("Logistic regression table of project acceptance by similarity and trial.")
+```
+
+#### Follow-up
+
+##### Project expectation
+
+We asked participants how many projects they expected to see. As
+Figure \@ref(fig:plot-aggregation-3-project-expectation) shows, the difference
+between similarity conditions was not significant,
+`r results_aggregation_3$project_expectation`.
+
+(ref:plot-aggregation-3-project-expectation) Number of projects participants expected to see, by similarity.
+
+```{r plot-aggregation-3-project-expectation, fig.cap = "(ref:plot-aggregation-3-project-expectation)"}
+plot_aggregation_3$project_expectation
+```
+
+##### Project number
+
+We asked participants how many projects they think they saw.
+Figure \@ref(fig:plot-aggregation-3-project-number) shows that overall people
+correctly estimate the number of projects.
+
+(ref:plot-aggregation-3-project-number) Number of projects participants reported seeing, by similarity.
+
+```{r plot-aggregation-3-project-number, fig.cap = "(ref:plot-aggregation-3-project-number)"}
+plot_aggregation_3$project_number
+```
+
+##### Portfolio choice - binary
+
+Participants were then asked if they would rather invest in all or none of the
+projects. As Figure \@ref(fig:plot-aggregation-3-portfolio-binary) shows, those
+in the low similarity condition were significantly more likely to want to invest
+in all of the projects,
+`r results_aggregation_3$portfolio_binary$full_result[[2]]`.
+
+(ref:plot-aggregation-3-portfolio-binary) Mean choice of investing in all 10 projects for the similarity effect.
+
+```{r plot-aggregation-3-portfolio-binary, fig.cap = "(ref:plot-aggregation-3-portfolio-binary)"}
+plot_aggregation_3$portfolio_binary
+```
+
+##### Portfolio choice - number
+
+Subsequently, we asked participants how many projects they would invest in out
+of the 10 that they saw. As
+Figure \@ref(fig:plot-aggregation-3-portfolio-number) shows, the difference
+between similarity conditions was not significant,
+`r results_aggregation_3$portfolio_number`.
+
+(ref:plot-aggregation-3-portfolio-number) Mean number of projects chosen in the follow-up for the similarity effect.
+
+```{r plot-aggregation-3-portfolio-number, fig.cap = "(ref:plot-aggregation-3-portfolio-number)"}
+plot_aggregation_3$portfolio_number
+```
+
+#### Gambles
+
+Figures \@ref(fig:plot-aggregation-3-trials)
+and \@ref(fig:plot-aggregation-3-gamble-values) show the
+overall people seemed to prefer gambles with higher probabilities of gain,
+sometimes regardless of expected value or value of the gain.
+
+(ref:plot-aggregation-3-trials) Mean project acceptance for the 10 gambles. The format of the labels indicate: (gain probability, gain value; loss probability, loss value).
+
+```{r plot-aggregation-3-trials, fig.cap = "(ref:plot-aggregation-3-trials)"}
+plot_aggregation_3$trials
+```
+
+(ref:plot-aggregation-3-gamble-values) Mean project acceptance for the gambles'
+expected value, positive probability, and positive outcome.
+
+```{r plot-aggregation-3-gamble-values, fig.cap = "(ref:plot-aggregation-3-gamble-values)"}
+plot_aggregation_3$gamble_values
+```

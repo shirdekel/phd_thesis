@@ -1,0 +1,14 @@
+## Conclusion
+
+Resource allocation decisions can be consequential for large organisations.
+Therefore, this thesis tested the conditions under which people behave
+rationally or are fallible when allocating resources. The experiments found that
+people struggle to incorporate concepts such as risk aggregation, estimate
+variance, and sample distribution into their decisions. People only seemed to be
+able to do this when the concept was expressed visually very explicitly.
+However, when there were multiple cues for choice evaluation, the results also
+showed that people were capable of integrating conflicting information in their
+decisions. Identifying such cognitive bounds helped to both better understand
+how people evaluate multiple choices and future research can use this work to
+develop methods to facilitate better decisions.
+

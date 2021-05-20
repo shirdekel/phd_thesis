@@ -1,0 +1,35 @@
+### Discussion
+
+Experiment 4 found evidence for most of the hypotheses. As per
+Hypothesis \@ref(hyp:allocation-alignment-high-alignment-2), laypeople responded
+to verbal reliability instructions in the high alignment condition. Contrary to
+Hypothesis \@ref(hyp:allocation-alignment-low-alignment-2), however, I found that
+participants also did this in the low reliability condition. That is, regardless
+of the type of project display, participants tended to use NPV more when they
+were told that it was reliable and tended to use it less when they were told
+that it was unreliable. Further, I did not find evidence that this effect is
+moderated by alignment condition, contrary to
+Hypothesis \@ref(hyp:allocation-alignment-reliability-npv-alignment-2). However,
+I did find that the linear NPV amount trend was higher in the high than low
+alignment condition, when averaging over reliability amount, as predicted in
+Hypothesis \@ref(hyp:allocation-alignment-alignment-2). This suggests that
+overall participants still make more use of NPV information when it is hard to
+compare between projects.
+
+Despite these results, it is unclear to what extent the within-subjects design
+influenced participants' allocations, as they saw both high and low alignment
+conditions. Further, it is unclear how participants would have responded to the
+projects without NPV. As such, in Experiment 2 I used a between-subject design
+for all factors and added a no NPV condition.
+
+Hypothesis \@ref(hyp:confidence-alignment-alignment-1) was not supported, as I
+did not find evidence of a main effect of alignment on participants' confidence
+in their allocation decisions. Instead, exploratory analyses showed that the
+difference in confidence between reliability conditions is greater in the low
+alignment condition. This may reflect participants' difficulty in making sense
+of their choices when alignment was low, given more confidence when assured of
+the reliability of NPV. In the high alignment condition, on the other hand,
+regardless of reliability condition, they had a way of using the reliability
+information. Further, confidence also seemed to increase more with NPV, on
+average, more when projects were dissimilar, which provides evidence for their
+reliance on NPV in this situation.

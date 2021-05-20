@@ -1,0 +1,20 @@
+# Welcome {-}
+
+::: {.row}
+:::::: {.col-sm-6}
+Welcome to the online version of my thesis. 
+To view/download the PDF output, [click here](thesis.pdf).
+Enjoy!
+
+::::::::: {.byline}
+Shir Dekel \
+2021
+:::::::::
+::::::
+
+:::
+
+## Abstract {-}
+```{r abstract, child=here::here('rmd/abstract.Rmd')}
+```
+

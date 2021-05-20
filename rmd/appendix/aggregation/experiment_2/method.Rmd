@@ -1,0 +1,56 @@
+### Method
+
+#### Participants
+
+#### Materials
+
+##### Follow-up {#follow-up-materials-aggregation-2-appendix}
+
+Figure \@ref(fig:project-number-aggregation-2) shows the project number
+question (maximum value was set to 20).
+Figures \@ref(fig:portfolio-binary-aggregation-2)
+and \@ref(fig:portfolio-number-aggregation-2) ask participants whether they are
+willing to take all or none of the projects; and how many projects would they
+choose if they could pick randomly (maximum value was set to 20). Those in the
+distribution absent condition were asked the same questions, but without the
+distribution and its explanation.
+
+(ref:project-number-aggregation-2) Experiment 2 project number question.
+
+```{r project-number-aggregation-2, fig.cap = "(ref:project-number-aggregation-2)", out.width = "50%"}
+here(
+  materials_aggregation_2,
+  "project_number.png"
+) %>%
+  image_read() %>%
+  image_trim()
+```
+
+(ref:portfolio-binary-aggregation-2) Experiment 2 binary portfolio question.
+
+```{r portfolio-binary-aggregation-2, fig.cap = "(ref:portfolio-binary-aggregation-2)"}
+here(
+  materials_aggregation_2,
+  "porfolio_binary_distribution_present.png"
+) %>%
+  image_read() %>%
+  image_trim()
+```
+
+(ref:portfolio-number-aggregation-2) Experiment 2 numerical portfolio question.
+
+```{r portfolio-number-aggregation-2, fig.cap = "(ref:portfolio-number-aggregation-2)"}
+here(
+  materials_aggregation_2,
+  "porfolio_number_distribution_present.png"
+) %>%
+  image_read() %>%
+  image_trim()
+```
+
+#### Procedure
+
+Participants responded to demographic questions, read the instructions, and
+completed the risky investment task in their respective conditions. After seeing
+the individual projects, participants were then asked the three follow-up
+questions.

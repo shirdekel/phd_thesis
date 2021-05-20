@@ -1,0 +1,124 @@
+### Method
+
+#### Materials
+
+##### Instructions {#instructions-materials-alignment-2-appendix}
+
+Figures \@ref(fig:instructions-reliability-low-alignment-2), \@ref(fig:instructions-reliability-high-alignment-2),
+and \@ref(fig:instructions-reliability-no-npv-alignment-2) show the instructions
+given to those in the low NPV reliability, high NPV reliability, and no NPV
+condition, respectively.
+
+(ref:instructions-reliability-low-alignment-2) Experiment 1 low reliability instructions. Border added for clarity.
+
+```{r instructions-reliability-low-alignment-2, fig.cap = "(ref:instructions-reliability-low-alignment-2)"}
+here(
+  materials_alignment_2,
+  "instructions_reliability_low.png"
+) %>%
+  image_read() %>%
+  image_trim() %>%
+  image_convert(type = "grayscale") %>%
+  image_contrast() %>%
+  image_border(color = "white", geometry = "5x5") %>%
+  image_border(color = "black", geometry = "5x5")
+```
+
+(ref:instructions-reliability-high-alignment-2) Experiment 1 high reliability instructions. Border added for clarity.
+
+```{r instructions-reliability-high-alignment-2, fig.cap = "(ref:instructions-reliability-high-alignment-2)"}
+here(
+  materials_alignment_2,
+  "instructions_reliability_high.png"
+) %>%
+  image_read() %>%
+  image_trim() %>%
+  image_convert(type = "grayscale") %>%
+  image_contrast() %>%
+  image_border(color = "white", geometry = "5x5") %>%
+  image_border(color = "black", geometry = "5x5")
+```
+
+(ref:instructions-reliability-no-npv-alignment-2) The instructions for the no NPV condition in Experiment 1. Border added for clarity.
+
+```{r instructions-reliability-no-npv-alignment-2, fig.cap = "(ref:instructions-reliability-no-npv-alignment-2)"}
+here(
+  materials_alignment_2,
+  "instructions_reliability_no_npv.png"
+) %>%
+  image_read() %>%
+  image_trim() %>%
+  image_convert(type = "grayscale") %>%
+  image_contrast() %>%
+  image_border(color = "white", geometry = "5x5") %>%
+  image_border(color = "black", geometry = "5x5")
+```
+
+##### Forecasting {#forecasting-materials-alignment-2}
+
+Participants were asked to respond to a forecasting task [adapted from @long2018], seen in Figure \@ref(fig:forecasting-materials-alignment-2). Participants were asked to predict each project’s rate of return after one month. This allowed me to calculate each participant’s forecasting mean and standard deviation (the latter as inversely proportional to forecasting precision).
+
+(ref:forecasting-materials-alignment-2) The forecasting task.
+
+```{r forecasting-materials-alignment-2, fig.cap = "(ref:forecasting-materials-alignment-2)"}
+here(
+  materials_alignment_2,
+  "forecasting.png"
+) %>%
+  image_read() %>%
+  image_trim() %>%
+  image_convert(type = "grayscale") %>%
+  image_contrast()
+```
+
+##### Ranking {#ranking-materials-alignment-2}
+
+As seen in Figure \@ref(fig:ranking-materials-alignment-2), participants were asked to rank the projects in order of
+investment priority.
+
+(ref:ranking-materials-alignment-2) The ranking task.
+
+```{r ranking-materials-alignment-2, fig.cap = "(ref:ranking-materials-alignment-2)"}
+here(
+  materials_alignment_2,
+  "ranking.png"
+) %>%
+  image_read() %>%
+  image_trim() %>%
+  image_convert(type = "grayscale") %>%
+  image_contrast()
+```
+
+##### Confidence {#confidence-materials-alignment-2}
+
+As Figure \@ref(fig:confidence-materials-alignment-2) shows, participants were asked to indicate how confident they were about each of their allocation decisions on a scale from 0 ("Not confident at all") to 100 ("Extremely confident").
+
+(ref:confidence-materials-alignment-2) The confidence task.
+
+```{r confidence-materials-alignment-2, fig.cap = "(ref:confidence-materials-alignment-2)"}
+here(
+  materials_alignment_2,
+  "confidence.png"
+) %>%
+  image_read() %>%
+  image_trim() %>%
+  image_convert(type = "grayscale") %>%
+  image_contrast()
+```
+
+##### Justification {#justification-materials-alignment-2}
+
+As Figure \@ref(fig:justification-materials-alignment-2) shows, participants were asked to justify their allocation decision in a free-response text-box.
+
+(ref:justification-materials-alignment-2) The justification task.
+
+```{r justification-materials-alignment-2, fig.cap = "(ref:justification-materials-alignment-2)"}
+here(
+  materials_alignment_2,
+  "justification.png"
+) %>%
+  image_read() %>%
+  image_trim() %>%
+  image_convert(type = "grayscale") %>%
+  image_contrast()
+```

@@ -1,0 +1,84 @@
+### Results {#results-anecdotes-1-appendix}
+
+#### Allocation
+
+A two-way ANOVA was conducted to investigate the interaction of similarity (low
+and high) and anecdote conditions (anecdote only, statistics + anecdote,
+anecdote + enhanced statistics). I found a main effect of anecdote type,
+`r results_anecdotes_1$allocation$anecdote`; and a main effect of similarity,
+`r results_anecdotes_1$allocation$alignment`. interaction was not significant,
+`r results_anecdotes_1$allocation$anecdote_alignment`. The difference between
+the anecdote only condition and the anecdote + enhanced statistics condition was
+not significant when excluding the anecdote + statistics condition,
+`r results_anecdotes_1$allocation$anecdote_enhanced_high_low`.
+
+#### Manipulation check
+
+Figure \@ref(fig:plot-anecdotes-1-similarity-rating) shows participants' ratings
+of the similarity of the anecdote to the target project. As intended,
+participants in the high similarity condition rated the anecdote as more similar
+to the target project than those in the low similarity condition,
+`r results_anecdotes_1$similarity$alignment`. Table shows participants'
+justifications for these ratings.
+
+(ref:plot-anecdotes-1-similarity-rating) Mean similarity rating of Project A (the target project) to the anecdote. Error bars represent 95% confidence intervals.
+
+```{r plot-anecdotes-1-similarity-rating, fig.cap = "(ref:plot-anecdotes-1-similarity-rating)"}
+plot_anecdotes_1$similarity
+```
+
+#### Follow-up
+
+Figure \@ref(fig:plot-anecdotes-1-relevance-specific) shows participants' ratings
+of the specific relevance question. I did not find a significant effect of
+evidence type `r results_anecdotes_1$relevance_specific$anecdote`; or
+similarity, `r results_anecdotes_1$relevance_specific$alignment`. The
+interaction was also not significant,
+`r results_anecdotes_1$relevance_specific$anecdote_alignment`.
+
+(ref:plot-anecdotes-1-relevance-specific) Mean rating of how relevant participants thought the anecdote was to Project A (the target project). Error bars represent 95% confidence intervals.
+
+```{r plot-anecdotes-1-relevance-specific, fig.cap = "(ref:plot-anecdotes-1-relevance-specific)"}
+plot_anecdotes_1$relevance_specific
+```
+
+Figure \@ref(fig:plot-anecdotes-1-relevance-general) shows participants' ratings
+of the general relevance question. There was no main effect of similarity,
+`r results_anecdotes_1$relevance_general$alignment`, or interaction of
+similarity and evidence type,
+`r results_anecdotes_1$relevance_general$anecdote_alignment`. However, there was
+an unexpected main effect of evidence type,
+`r results_anecdotes_1$relevance_general$anecdote`. A contrast analysis with
+Bonferroni correction revealed that there was a the anecdote only condition had
+significantly higher rating than the anecdote + statistics condition,
+`r results_anecdotes_1$relevance_general$anecdote_combined`. However, the
+difference between the two anecdote + statistics conditions was not significant,
+`r results_anecdotes_1$relevance_general$combined_enhanced`.
+
+(ref:plot-anecdotes-1-relevance-general) Mean rating of how relevant participants thought the anecdote was to other oil projects. Error bars represent 95% confidence intervals.
+
+```{r plot-anecdotes-1-relevance-general, fig.cap = "(ref:plot-anecdotes-1-relevance-general)"}
+plot_anecdotes_1$relevance_general
+```
+
+I conducted regression analyses to determine the relationship between
+allocations and the follow-up ratings of similarity and relevance. As seen in
+Figure \@ref(fig:plot-anecdotes-1-lm-allocation-similarity), similarity ratings
+are negatively correlated to allocations,
+`r results_anecdotes_1$lm$allocation_similarity`. Finally, as seen in
+Figure \@ref(fig:plot-anecdotes-1-lm-relevance-specific-similarity) similarity
+ratings are positively correlated to specific relevance ratings,
+`r results_anecdotes_1$lm$relevance_specific_similarity`.
+
+(ref:plot-anecdotes-1-lm-allocation-similarity) Mean allocations to the target project by similarity rating
+
+```{r plot-anecdotes-1-lm-allocation-similarity, fig.cap = "(ref:plot-anecdotes-1-lm-allocation-similarity)"}
+plot_anecdotes_1$lm$allocation_similarity
+```
+
+(ref:plot-anecdotes-1-lm-relevance-specific-similarity) Rating of how relevant participants considered the anecdote to the target project, by similarity rating
+
+```{r plot-anecdotes-1-lm-relevance-specific-similarity, fig.cap = "(ref:plot-anecdotes-1-lm-relevance-specific-similarity)"}
+plot_anecdotes_1$lm$relevance_specific_similarity
+```
+

@@ -1,0 +1,41 @@
+## Experiment 2 {#anecdotes-2-appendix}
+
+(ref:plot-simulation-anecdotes-2-negative) Anecdotes Experiment 2 predicted data for the negative valence condition
+
+```{r plot-simulation-anecdotes-2-negative, fig.cap = "(ref:plot-simulation-anecdotes-2-negative)"}
+anecdotes2::plot_simulation$negative
+```
+
+(ref:plot-simulation-anecdotes-2-positive) Anecdotes Experiment 2 predicted data for the positive valence condition
+
+```{r plot-simulation-anecdotes-2-positive, fig.cap = "(ref:plot-simulation-anecdotes-2-positive)"}
+anecdotes2::plot_simulation$positive
+```
+
+``` {hypothesis, similarity-check-anecdotes-2, name = "Similarity manipulation check for positive anecdote", echo = TRUE}
+In the positive valence condition, allocations for the anecdote-only high
+similarity condition will be higher than those in the anecdote-only low
+similarity condition.
+```
+
+I expected to replicate the rating effects found in Experiment 1 in the
+Experiment 2 negative valence condition, and to find the reverse effects in the
+positive valence condition.
+
+
+``` {hypothesis, allocation-similarity-anecdotes-2, name = "Relationship between allocation and perceived similarity for positive anecdote", echo = TRUE}
+In the positive valence condition, the correlation between allocation and
+similarity rating will be positive
+```
+
+``` {hypothesis, allocation-specific-relevance-anecdotes-2, name = "Relationship between allocation and specific-relevance for positive anecdote", echo = TRUE}
+In the positive valence condition, there will be no correlation between
+allocation and specific-relevance rating in the low similarity condition, but a
+positive correlation in the high similarity condition.
+```
+
+``` {hypothesis, allocation-general-relevance-anecdotes-2, name = "Relationship between allocation and general-relevance for positive anecdote", echo = TRUE}
+There will be no significant correlations between allocation and
+general-relevance rating
+```
+

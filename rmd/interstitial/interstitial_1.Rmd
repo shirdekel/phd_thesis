@@ -1,0 +1,93 @@
+# Joint evaluation of multiple projects {#interstitial-1}
+
+Chapter \@ref(aggregation) found that people struggle to aggregate risk even
+when facilitated to do so intuitively. People instead tend to consider projects
+one at a time and only become aware of the benefits of aggregation when given an
+explicit visualisation of what it entails. In real-life resource allocation
+scenarios, when managers evaluate projects sequentially, presenting an
+aggregated distribution is not possible since the value of future projects is
+not yet known. Managers in this situation would need to aggregate intuitively by
+considering that for positive EV projects, some gains will win out overall.
+However, this is insufficient if their supervising manager is unaware of this
+principle. The usual incentive structure in organisations that judges each
+project outcome independently is likely to punish risk taking due to its
+potential negative consequences and not due to the information that was
+available at the time of evaluation. Therefore, changing the organisational
+policy to encourage considering projects jointly is important so that the risk
+can be concurrently aggregated. Considering projects jointly is useful both
+because it allows for an actual aggregation of the risks, and also because it
+frames the projects as portfolios, meaning that any subsequent success or
+failure of one project can be traced back to the entire batch, and the
+performance of the whole portfolio can be evaluated.
+
+Business projects might not always be either accepted or rejected. Instead, an
+organisation might have a initial "culling" phase, and a subsequent ranking
+phase. When initially considering a set of projects some might be rejected
+according to certain rules, for instance, if NPV does not meet a certain minimum
+cut-off. The remaining projects in the set can then be ranked in order of
+priority and receive an allocation of resources from the budget.
+
+A few potential problems arise at the point that projects are considered jointly
+for ranking and allocation. For instance, it might not be easy to compare
+between the projects in the set. As discussed in Chapter \@ref(introduction),
+diversification of business units has become very popular in large
+organisations. Therefore, most hierarchical organisations are likely to face
+difficult comparisons when deciding on how to rank and allocate resources to
+projects that originated in different divisions. A non-hierarchical organisation
+that develops one type of product may be able to simply compare across any
+number of intrinsic project attributes, whereas a diversified organisation is
+likely to have to rely on more abstract financial metrics, such as NPV.
+ 
+For instance, when comparing across two oil well projects, there can be both
+attributes intrinsic to the project, such as the amount of hydrocarbons that are
+extracted per hour, and also the more abstract financial metrics. There is a
+potential interaction between the ease that managers have to compare across the
+projects and the kinds of measures that are used to make the comparison. Two
+similar projects, such as two oil wells can be evaluated across litres of
+hydrocarbons per hour, whereas an oil refinery cannot. In the case that two
+dissimilar projects are compared managers can use financial metrics to compare
+across domains. This can lead to comparable accuracy insofar as the abstract
+metrics are as reliable as the intrinsic project features.
+
+A concern that arises out of a reliance on such metrics is that underlying
+variance is not taken into account. Forecast estimates such as NPV rely on many
+assumptions and contain much inherent uncertainty, so managers that use them
+should be cautious about over-relying on them. Chapter \@ref(alignment) tested
+people's sensitivity to forecast estimate variance information. That is, will
+people use NPV more when the variance information suggests that it is a reliable
+measure, than when the information suggests that it is unreliable?
+
+In the previous chapter I manipulated project presentation and found no
+significant difference between when projects were considered jointly or
+separately. This was explained by the bounds on people's ability to intuitively
+aggregate. However, it was unclear what components of the projects people
+focused on both because they were not explicitly manipulated and because the
+task involved a binary choice (accept or reject). A relative allocation measure
+for multiple projects with systematically varied attributes would allow to
+determine the influence of those different attributes. Therefore,
+Chapter \@ref(alignment) considered the situation in which people are already
+presented with choices together and asked to evaluate the projects by allocating
+a hypothetical budget.
+
+Further, I wanted to focus on identifying the factors that affect people's
+decisions independently from the potential risk of losing hypothetical money,
+which is a large reason for the effects in the previous chapter. Therefore, risk
+aversion was accounted for by making it clear that no losses are possible. This
+was achieved by using only positive NPVs, which implies that the project is not
+forecasted to lose money.
+
+I also manipulated how easy the project attributes are to compare in order to
+identify the ways that decision-making in a diversified organisation might be
+different to that of a more integrated organisation. In the previous chapter I
+manipulated "similarity" by either showing a set of projects from the same
+industry or a set from different industries. This was meant to simulate an
+integrated and diversified firm, respectively. I assumed that participants
+understood that the dissimilar project set implied that the projects were not
+alignable. That is, even though the underlying specific project features were
+not shown, I assumed that participants would realise that two projects from the
+same industry would be easier to compare using their intrinsic underlying
+features. However, this may not have been the case and may explain the equivocal
+similarity effect. Therefore, Chapter \@ref(alignment) will show the project
+features explicitly and manipulate alignment, so that the difficulty of the
+comparison is more obvious.
+

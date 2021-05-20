@@ -1,0 +1,19 @@
+### Method
+
+#### Participants
+
+`r descriptives_alignment_5$apa` Table \@ref(tab:condition-allocation-alignment-5)
+shows the condition allocation.
+
+```{r condition-allocation-alignment-5}
+descriptives_alignment_5$condition_allocation_table %>%
+  apa_table("Experiment 6 group allocation.")
+```
+
+#### Materials
+
+The materials were the same as in Experiment 5.
+
+#### Procedure
+
+The procedure was the same as in Experiment 5.
