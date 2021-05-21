@@ -1,0 +1,1067 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>4 Project similarity bias and variance neglect in forecast metric evaluation | The psychology of managerial risky choice and resource allocation</title>
+<meta name="author" content="Shir Dekel">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.2"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/header-attrs-2.8.1/header-attrs.js"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.2.5.9000/tabs.js"></script><script src="libs/bs3compat-0.2.5.9000/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/mark.js@8.11.1/dist/mark.min.js"></script><!-- CSS --><link rel="stylesheet" href="templates/bs4_style.css">
+</head>
+<body data-spy="scroll" data-target="#toc">
+
+<div class="container-fluid">
+<div class="row">
+  <header class="col-sm-12 col-lg-3 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+
+    <div class="d-flex align-items-start justify-content-between">
+      <h1>
+        <a href="index.html" title="">The psychology of managerial risky choice and resource allocation</a>
+      </h1>
+      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
+    </div>
+
+    <div id="main-nav" class="collapse-lg">
+      <form role="search">
+        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+</form>
+
+      <nav aria-label="Table of contents"><h2>Table of contents</h2>
+        <ul class="book-toc list-unstyled">
+<li><a class="" href="index.html">Welcome</a></li>
+<li><a class="" href="introduction.html"><span class="header-section-number">1</span> Introduction</a></li>
+<li><a class="" href="aggregation.html"><span class="header-section-number">2</span> Effect of choice bracketing on risk aggregation in repeated-play gambles with no feedback</a></li>
+<li><a class="" href="interstitial-1.html"><span class="header-section-number">3</span> Joint evaluation of multiple projects</a></li>
+<li><a class="active" href="alignment.html"><span class="header-section-number">4</span> Project similarity bias and variance neglect in forecast metric evaluation</a></li>
+<li><a class="" href="interstitial-2.html"><span class="header-section-number">5</span> Looking for alignment in past cases</a></li>
+<li><a class="" href="anecdotes.html"><span class="header-section-number">6</span> Anecdote similarity moderates anecdotal bias in resource allocation</a></li>
+<li><a class="" href="discussion.html"><span class="header-section-number">7</span> Discussion</a></li>
+<li class="book-part">Appendix</li>
+<li><a class="" href="aggregation-appendix.html"><span class="header-section-number">A</span> Chapter @ref(aggregation) appendix</a></li>
+<li><a class="" href="alignment-appendix.html"><span class="header-section-number">B</span> Chapter @ref(alignment) appendix</a></li>
+<li><a class="" href="anecdotes-appendix.html"><span class="header-section-number">C</span> Chapter @ref(anecdotes) appendix</a></li>
+<li><a class="" href="references.html">References</a></li>
+</ul>
+
+        <div class="book-extra">
+          <p><a id="book-repo" href="https://github.com/shirdekel/phd_thesis">View book source <i class="fab fa-github"></i></a></p>
+        </div>
+      </nav>
+</div>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="alignment" class="section level1" number="4">
+<h1>
+<span class="header-section-number">4</span> Project similarity bias and variance neglect in forecast metric evaluation<a class="anchor" aria-label="anchor" href="#alignment"><i class="fas fa-link"></i></a>
+</h1>
+<div id="introduction-2" class="section level2" number="4.1">
+<h2>
+<span class="header-section-number">4.1</span> Introduction<a class="anchor" aria-label="anchor" href="#introduction-2"><i class="fas fa-link"></i></a>
+</h2>
+<p>One of the most important tasks that executives face is allocating resources
+within their company. This requires ranking different projects based on their
+importance and predicted success, and allocating limited resources respectively
+(not unlike a scientific funding agency). Ranking projects requires comparing
+them across a number of component dimensions. For example, an executive in an
+oil company might have multiple proposals on his or her desk for where to
+explore for oil next, and how to do so. Figuring out what makes one oil
+discovery project better than another one is relatively easy. However, consider
+a different scenario in which the executive has to allocate resources between an
+oil discovery project and an oil refinery project. The dimensions of an oil
+refinery project that distinguishes good from bad projects may be totally
+different from the dimensions of oil discovery projects that do the same. Think
+of a funding agency giving out fellowships, and deciding between two cognitive
+scientists, or a cognitive scientist and a physicist. What makes a physics
+proposal better for the field of physics than a cognitive science proposal is
+for cognitive science?</p>
+<p>Structure-mapping theory <span class="citation">(<a href="references.html#ref-gentner1983" role="doc-biblioref">Gentner, 1983</a>; SMT; <a href="references.html#ref-gentner1997" role="doc-biblioref">Gentner &amp; Markman, 1997</a>)</span> provides a model of
+comparison that psychologically distinguishes these two kinds of allocation
+tasks. SMT models comparison as a process of bringing conceptual structures into
+alignment, which when possible, puts shared component dimensions into
+correspondence. Alignment both highlights when two conceptual structures share
+dimensions, but also highlights how the two structures differ along those shared
+dimensions, called <em>alignable differences</em>. For example, when comparing two oil
+discovery projects, all the relevant processes of planning an exploration and
+measuring the amount of hydrocarbons in a prospect might be identical, but the
+specific amount measured will be different. This is the alignable difference: a
+difference between the two projects that is constrained within the same
+conceptual structure. However, when comparing between an oil field and a
+refinery, there will be significantly more <em>non-alignable differences</em>, because
+the two domains do not share component dimensions. That is, many of the
+processes that exist in the exploration business unit have a significantly
+different dimensional structure to those in the refinery business unit, such
+that it will be difficult to find meaningful alignments. More non-alignable
+differences mean that there are less opportunities to make meaningful
+comparisons, and so would make predicting project success and ranking their
+priority more difficult. In this chapter, I experimentally examined project
+comparisons, and how that affects resource allocation decisions. My working
+hypothesis was that comparisons with more alignable differences will make
+project predictions more precise, and project rankings easier and more
+informative, than a comparison with non-alignable differences.</p>
+<p>However, what happens when the two domains are too disparate for a
+decision-maker to align them, but the task demands that they be aligned? This is
+actually a bit of uncharted territory experimentally. The prediction is that
+when forced to, people will grab at any piece of information that they can and
+then try to infer and abstract as much as seems reasonable to ease the
+alignment. This is in fact what occurs very frequently in business settings.
+Corporate enterprises continue to embrace diversification strategies in their
+investments, and so constantly have to make resource allocation choices that
+involve very disparate domains. To overcome these difficult comparisons
+executives rely on various financial measures that in theory can apply to any
+project or business proposal. These financial measures work well to ease the
+burden of the difficult comparison by abstracting away from the complexities of
+the individual projects, and just focus on financial information such as total
+costs, projected profits, etc. Initially hard-to-compare projects can therefore
+be more easily evaluated by comparing values on individual numerical measures.</p>
+<p>The most common financial measure that is used by executives in order to value
+projects is Net Present Value <span class="citation">(NPV; <a href="references.html#ref-graham2001" role="doc-biblioref">Graham &amp; Harvey, 2001</a>)</span>. NPV is the difference between
+the money that a project is forecasted to make and the initial investment in its
+development (accounting for the time value of money), as seen in
+Equation <a href="introduction.html#eq:npv">(1.1)</a>.</p>
+<p>NPV is commonly used to decide about resource allocation and investment. The
+simple rule is that if a project’s NPV is positive, then it is financially
+viable, and if NPV is negative, then it is not. However, the use of NPV has been
+criticised, both by academics and practitioners <span class="citation">(<a href="references.html#ref-fox2008" role="doc-biblioref">Fox, 2008</a>; <a href="references.html#ref-willigers2017" role="doc-biblioref">Willigers et al., 2017</a>)</span>. The
+main criticism is that there is a lot of underlying variance within the NPV
+measure that is not made apparent by the final form of the measure: a single
+numerical value. For instance, NPV is dependent on the cash inflows that are
+projected for each year of the project. However, financial forecasting is known
+to often be inaccurate and prone to optimism bias <span class="citation">(<a href="references.html#ref-lovallo2003" role="doc-biblioref">Lovallo &amp; Kahneman, 2003</a>; <a href="references.html#ref-puri2007" role="doc-biblioref">Puri &amp; Robinson, 2007</a>)</span>.
+Therefore, there is bound to be variation in the reliability of NPV measures as
+a function of the forecasting error in the cash flow calculations. The duration
+of the project and the discount rate are further sources of variance that are
+hidden by the single numerical value of NPV.</p>
+<p>As such, the secondary goal of this research was to investigate the extent to
+which people are sensitive to variance information (from financial forecasting)
+when making resource allocation decisions. This consideration is especially
+important in the resource allocation situations illustrated above, in which
+executives need to compare between projects from disparate domains and therefore
+have to rely on NPV. This matters because the NPV calculated from different
+domains may have different underlying forecasting error, which may compromise
+the utility of using NPV as the basis of the comparison. Do executives
+sufficiently account for the inherent variance in the measure that they rely on
+so much? Research showed that people are good at extracting variance information
+from numerical sequences <span class="citation">(<a href="references.html#ref-rosenbaum2020" role="doc-biblioref">Rosenbaum et al., 2020</a>)</span>. However, people struggle to use
+variance information when it is represented numerically <span class="citation">(<a href="references.html#ref-batteux2020" role="doc-biblioref">Batteux et al., 2020</a>; <a href="references.html#ref-galesic2010" role="doc-biblioref">Galesic &amp; Garcia-Retamero, 2010</a>; <a href="references.html#ref-konold1993" role="doc-biblioref">Konold et al., 1993</a>; <a href="references.html#ref-vivalt2018" role="doc-biblioref">Vivalt &amp; Coville, 2018</a>)</span>.</p>
+<div id="experiment-summary" class="section level3" number="4.1.1">
+<h3>
+<span class="header-section-number">4.1.1</span> Experiment summary<a class="anchor" aria-label="anchor" href="#experiment-summary"><i class="fas fa-link"></i></a>
+</h3>
+<p>In <a href="alignment.html#alignment-2">Experiment 1</a> I investigated the effect of alignment on the
+decision-making of naive participants’ resource allocation to a set of fictional
+projects. I manipulated NPV reliability by directly stating whether it is a
+reliable measure because I did not assume the naive participants would have the
+requisite knowledge to be sensitive to reliability information otherwise. I
+predicted that when projects are alignable, participants use NPV if they are
+told that it is a reliable measure, but do not use it if they are told that it
+is not reliable. However, when projects are not comparable, I predicted that
+participants will use NPV regardless of how reliable they are told NPV is.</p>
+<p>In <a href="alignment.html#alignment-3">Experiment 2</a>, I investigated the decision-making of
+management students in almost the same situation as Experiment 1. The main
+difference was that instead of telling participants the reliability of NPV, I
+manipulated the level of <em>numerical</em> reliability that is associated with it.
+That is, the width of numerical ranges around an NPV. I predicted that
+participants will rely more on NPV in the non-alignable projects than in the
+alignable projects. However, I predicted there will be no effect of numerical
+reliability, since there is very little evidence that people are sensitive to
+variance information when represented numerically.</p>
+<p>In <a href="#alignment-8">Experiment 3</a> I again tested the alignment and reliability
+effects in a non-business population, but manipulated both verbal and numerical
+reliability in the same experiment to allow for direct comparisons. I predicted
+an effect of reliability in the verbal reliability condition, but not in the
+numerical reliability condition. Further, I used project descriptions with
+clearer profitability indicators, and added a larger selection of business
+industries.</p>
+
+</div>
+</div>
+<div id="alignment-2" class="section level2" number="4.2">
+<h2>
+<span class="header-section-number">4.2</span> Experiment 1<a class="anchor" aria-label="anchor" href="#alignment-2"><i class="fas fa-link"></i></a>
+</h2>
+<p>Experiment 1 investigated the effects of alignment and explicit NPV reliability
+information on financial resource allocation decisions. The structural alignment
+literature suggests that people weigh alignable differences more heavily than
+non-alignable differences. I expected that people would use NPV more than any
+other product attributes (because it applied to every product). However, I
+expected this effect to vary with how reliable participants thought the value
+was. That is, if other project dimensions were alignable, then it should be
+easier to adjust the use of NPV based on its reliability. However, I predicted
+that in a low alignment condition there will be a reliance on NPV, as the sole
+alignable difference, regardless of its stated reliability. I used a no NPV
+condition in order to get a better understanding of the baseline responding to
+the materials without NPV. To measure these effects I considered the linear
+trend of how NPV across projects relates to the money allocated to the projects.
+Critically, participants saw both NPV and other features intrinsic to each
+project domain, and these were inversely related. Therefore, a positive NPV
+amount trend indicates a reliance on NPV, whereas a negative trend indicates a
+reliance on the intrinsic project features. Specifically, I tested the following
+hypothesises:</p>
+
+<div class="hypothesis">
+<span id="hyp:three-way-alignment-2" class="hypothesis"><strong>Hypothesis 4.1  </strong></span>The alignment <span class="math inline">\(\times\)</span> reliability amount <span class="math inline">\(\times\)</span> NPV amount interaction will
+be significant.
+</div>
+
+<div class="hypothesis">
+<span id="hyp:allocation-alignment-alignment-2" class="hypothesis"><strong>Hypothesis 4.2  </strong></span>The linear NPV amount trend will be higher, on average, in the low alignment
+condition compared to the high alignment condition.
+</div>
+
+<div class="hypothesis">
+<span id="hyp:allocation-alignment-reliability-npv-alignment-2" class="hypothesis"><strong>Hypothesis 4.3  </strong></span>The effects of alignment, reliability amount, and NPV amount on allocations will
+interact, such that the NPV amount <span class="math inline">\(\times\)</span> reliability interaction will be
+stronger in the high alignment than in the low alignment condition.
+</div>
+
+<div class="hypothesis">
+<span id="hyp:allocation-alignment-high-alignment-2" class="hypothesis"><strong>Hypothesis 4.4  </strong></span>In the high alignment condition, the linear NPV amount trend will be higher in
+the high reliability condition than in the low reliability condition
+</div>
+
+<div class="hypothesis">
+<span id="hyp:allocation-alignment-low-alignment-2" class="hypothesis"><strong>Hypothesis 4.5  </strong></span>In the low alignment condition, the linear NPV amount trend will not differ
+significantly between reliability conditions
+</div>
+
+<div class="hypothesis">
+<span id="hyp:allocation-alignment-high-no-NPV-alignment-2" class="hypothesis"><strong>Hypothesis 4.6  </strong></span>In the high alignment condition, the linear NPV amount trend will only be higher
+than the no NPV reliability condition in the high reliability condition.
+</div>
+
+<div class="hypothesis">
+<span id="hyp:allocation-alignment-low-no-NPV-alignment-2" class="hypothesis"><strong>Hypothesis 4.7  </strong></span>In the low alignment condition, the linear NPV amount trend will be higher than
+the no NPV reliability condition in both the low and high reliability
+conditions.
+</div>
+
+<div id="method-2" class="section level3" number="4.2.1">
+<h3>
+<span class="header-section-number">4.2.1</span> Method<a class="anchor" aria-label="anchor" href="#method-2"><i class="fas fa-link"></i></a>
+</h3>
+<div id="participants-2" class="section level4" number="4.2.1.1">
+<h4>
+<span class="header-section-number">4.2.1.1</span> Participants<a class="anchor" aria-label="anchor" href="#participants-2"><i class="fas fa-link"></i></a>
+</h4>
+<p>One hundred and eighteen (55 female) people were recruited from the online recruitment platform Prolific. Participants were compensated at a rate of £5 an hour. The average age was 29.42 (<em>SD</em> = 9.25, <em>min</em> = 18, <em>max</em> = 73). Table <a href="alignment.html#tab:condition-allocation-alignment-2">4.1</a>
+shows the between-subjects condition allocation. NPV amount was varied within
+subjects.</p>
+<caption>
+<span id="tab:condition-allocation-alignment-2">Table 4.1: </span>
+</caption>
+<div custom-style="Table Caption">
+<em>Experiment 1 group allocation.</em>
+</div>
+<div class="inline-table"><table class="table table-sm">
+<thead><tr class="header">
+<th align="left">Alignment</th>
+<th align="left">Reliability amount</th>
+<th align="left">N</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td align="left">High</td>
+<td align="left">High</td>
+<td align="left">26</td>
+</tr>
+<tr class="even">
+<td align="left">High</td>
+<td align="left">Low</td>
+<td align="left">17</td>
+</tr>
+<tr class="odd">
+<td align="left">High</td>
+<td align="left">No npv</td>
+<td align="left">17</td>
+</tr>
+<tr class="even">
+<td align="left">Low</td>
+<td align="left">High</td>
+<td align="left">21</td>
+</tr>
+<tr class="odd">
+<td align="left">Low</td>
+<td align="left">Low</td>
+<td align="left">16</td>
+</tr>
+<tr class="even">
+<td align="left">Low</td>
+<td align="left">No npv</td>
+<td align="left">21</td>
+</tr>
+<tr class="odd">
+<td align="left">Total</td>
+<td align="left">-</td>
+<td align="left">118</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div id="materials-alignment-2" class="section level4" number="4.2.1.2">
+<h4>
+<span class="header-section-number">4.2.1.2</span> Materials<a class="anchor" aria-label="anchor" href="#materials-alignment-2"><i class="fas fa-link"></i></a>
+</h4>
+<div id="instructions-materials-alignment-2" class="section level5" number="4.2.1.2.1">
+<h5>
+<span class="header-section-number">4.2.1.2.1</span> Instructions<a class="anchor" aria-label="anchor" href="#instructions-materials-alignment-2"><i class="fas fa-link"></i></a>
+</h5>
+<p>The instructions page explained to the participants, who did not necessarily
+have business experience, about the task and NPV. However, I also used this page
+to manipulate whether they were told that NPV was reliable or unreliable as a
+financial measure. Participants in the low NPV reliability condition were told
+that NPV is an unreliable metric, whereas those in the high NPV reliability
+condition were told that NPV is a reliable metric. Those in the no NPV condition
+saw instructions that did not include the NPV explanation. Critically,
+participants were told to invest in products with a high objective value
+(because a better quality product is not always better in a consumer goods
+market). Since this might still not use this instruction when directly viewing
+the projects, Experiment 3 used projects with attributes that more inherently
+conveyed quality. Appendix <a href="alignment-appendix.html#instructions-materials-alignment-2-appendix">B.1.1.1.1</a>
+shows screenshots of these web-pages.</p>
+</div>
+<div id="projects-materials-alignment-2" class="section level5" number="4.2.1.2.2">
+<h5>
+<span class="header-section-number">4.2.1.2.2</span> Project display<a class="anchor" aria-label="anchor" href="#projects-materials-alignment-2"><i class="fas fa-link"></i></a>
+</h5>
+<p>Participants read sets of fictional business projects to potentially allocate
+resources to. The high alignment display was a table that listed various
+attributes for five projects (see
+Figure <a href="alignment.html#fig:projects-alignment-high-materials-alignment-2">4.2</a>). The low
+alignment display had each project expressed as individual paragraphs that
+described the relevant attributes through full sentences (see
+Figure <a href="alignment.html#fig:projects-alignment-low-materials-alignment-2">4.1</a>). For the high
+alignment display, the product was the same, and the concrete attributes were
+consistent, while in the low alignment display, each project was a different
+product with concrete attributes relevant to that project. For both alignment
+conditions each project description included an NPV.</p>
+<p>This alignment manipulation was reinforced by visual presentation. The table
+format is better afforded by the high alignment condition because all the
+dimensions are shared. However, this confounds alignment with presentation
+style. I address this in <a href="#alignment-8">Experiment 3</a> by equating the table
+format across both alignment conditions.</p>
+
+<div class="figure">
+<span id="fig:projects-alignment-low-materials-alignment-2"></span>
+<img src="thesis_files/figure-html/projects-alignment-low-materials-alignment-2-1.png" alt="An example of a low alignment display in Experiment 1. Border added for clarity." width="100%"><p class="caption">
+Figure 4.1: An example of a low alignment display in Experiment 1. Border added for clarity.
+</p>
+</div>
+
+<div class="figure">
+<span id="fig:projects-alignment-high-materials-alignment-2"></span>
+<img src="thesis_files/figure-html/projects-alignment-high-materials-alignment-2-1.png" alt="An example of a high alignment display in Experiment 1." width="100%"><p class="caption">
+Figure 4.2: An example of a high alignment display in Experiment 1.
+</p>
+</div>
+<p>Critically, the value of the concrete attributes were always in conflict with
+the NPV. For instance, Project 4 always had the lowest value for each of the
+concrete attributes for laptops, but always had the highest NPV. This was done
+in order to be able to use participants’ allocations as a proxy measure for an
+individual’s degree of dependence on NPV.</p>
+</div>
+<div id="allocation" class="section level5" number="4.2.1.2.3">
+<h5>
+<span class="header-section-number">4.2.1.2.3</span> Allocation<a class="anchor" aria-label="anchor" href="#allocation"><i class="fas fa-link"></i></a>
+</h5>
+<p>Participants completed a resource allocation task (see
+Figure <a href="alignment.html#fig:allocation-alignment-2">4.3</a>), adapted from <span class="citation"><a href="references.html#ref-bardolet2011" role="doc-biblioref">Bardolet et al.</a> (<a href="references.html#ref-bardolet2011" role="doc-biblioref">2011</a>)</span> in which
+they were asked to allocate their hypothetical yearly budget across the given
+five projects.</p>
+
+<div class="figure">
+<span id="fig:allocation-alignment-2"></span>
+<img src="thesis_files/figure-html/allocation-alignment-2-1.png" alt="The allocation task." width="100%"><p class="caption">
+Figure 4.3: The allocation task.
+</p>
+</div>
+</div>
+<div id="additional-measures" class="section level5" number="4.2.1.2.4">
+<h5>
+<span class="header-section-number">4.2.1.2.4</span> Additional measures<a class="anchor" aria-label="anchor" href="#additional-measures"><i class="fas fa-link"></i></a>
+</h5>
+<p>As well as measuring allocation, I included other measures, whose presentation
+and analyses are reported in the Appendix. Specifically, participants were asked
+to forecast the future returns of the projects (see
+Appendix <a href="alignment-appendix.html#forecasting-materials-alignment-2">B.1.1.1.2</a>), rank the projects (see
+Appendix <a href="alignment-appendix.html#ranking-materials-alignment-2">B.1.1.1.3</a>), indicate their confidence in
+their decisions (see Appendix <a href="alignment-appendix.html#confidence-materials-alignment-2">B.1.1.1.4</a>), and
+justify their decisions (see
+Appendix <a href="alignment-appendix.html#justification-materials-alignment-2">B.1.1.1.5</a>).</p>
+</div>
+</div>
+<div id="procedure-2" class="section level4" number="4.2.1.3">
+<h4>
+<span class="header-section-number">4.2.1.3</span> Procedure<a class="anchor" aria-label="anchor" href="#procedure-2"><i class="fas fa-link"></i></a>
+</h4>
+<p>Following ethics and demographics web-pages, participants were introduced to the
+study and the concept of NPV through the instructions page. They then completed
+the forecasting task directly after each project display in the low alignment
+condition, and directly under all projects for the high alignment condition.
+Participants then ranked the projects, and subsequently answered the allocation,
+confidence, and justification questions.</p>
+
+</div>
+</div>
+<div id="results" class="section level3" number="4.2.2">
+<h3>
+<span class="header-section-number">4.2.2</span> Results<a class="anchor" aria-label="anchor" href="#results"><i class="fas fa-link"></i></a>
+</h3>
+<p>A mixed factorial ANOVA was conducted to investigate the effects of alignment
+and verbally-instructed NPV reliability on participants’ allocations. As seen in
+Figure <a href="alignment.html#fig:plot-alignment-2-allocation">4.4</a>, the alignment <span class="math inline">\(\times\)</span>
+reliability amount <span class="math inline">\(\times\)</span> NPV amount interaction was significant,
+<span class="math inline">\(F(6.57, 367.76) = 2.18\)</span>, <span class="math inline">\(p = .039\)</span>, <span class="math inline">\(\hat{\eta}^2_p = .038\)</span>. This
+effect seems to be driven by the differences between the no NPV condition and
+the conditions with NPV across the two alignment conditions. Specifically, in
+the low alignment condition, the linear NPV trend was significantly lower in the
+no NPV condition than both the low reliability condition,
+<span class="math inline">\(M = 64.63\)</span>, 95% CI <span class="math inline">\([25.76,~103.50]\)</span>, <span class="math inline">\(t(112) = 3.29\)</span>, <span class="math inline">\(p = .001\)</span>, and the high
+reliability condition, <span class="math inline">\(M = 60.29\)</span>, 95% CI <span class="math inline">\([24.14,~96.43]\)</span>, <span class="math inline">\(t(112) = 3.30\)</span>, <span class="math inline">\(p = .001\)</span>.
+However, in the high alignment condition, the linear NPV trend was only
+significantly lower in the no NPV condition than the high reliability condition,
+<span class="math inline">\(M = 75.70\)</span>, 95% CI <span class="math inline">\([39.17,~112.24]\)</span>, <span class="math inline">\(t(112) = 4.11\)</span>, <span class="math inline">\(p &lt; .001\)</span>, and not the low
+reliability condition, <span class="math inline">\(M = 12.24\)</span>, 95% CI <span class="math inline">\([-27.94,~52.41]\)</span>, <span class="math inline">\(t(112) = 0.60\)</span>, <span class="math inline">\(p = .547\)</span>.</p>
+
+<div class="figure">
+<span id="fig:plot-alignment-2-allocation"></span>
+<img src="thesis_files/figure-html/plot-alignment-2-allocation-1.png" alt="Mean allocation." width="100%"><p class="caption">
+Figure 4.4: Mean allocation.
+</p>
+</div>
+<p>The ranking, confidence, and forecast mean data were all largely congruent with
+the allocation findings (see Appendix <a href="alignment-appendix.html#results-alignment-2-appendix">B.1.2</a>). I
+also found that the forecasts of those in the low alignment condition had higher
+standard deviations than those in the high alignment condition (see
+Appendix <a href="alignment-appendix.html#forecast-sd-alignment-2">B.1.2.4</a>). However, this did not replicate in
+subsequent experiments (see Appendix <a href="alignment-appendix.html#forecast-sd-alignment-4">B.5.2.2</a>
+and <a href="alignment-appendix.html#forecast-sd-alignment-5">B.6.2.2</a>).</p>
+
+</div>
+<div id="discussion-1" class="section level3" number="4.2.3">
+<h3>
+<span class="header-section-number">4.2.3</span> Discussion<a class="anchor" aria-label="anchor" href="#discussion-1"><i class="fas fa-link"></i></a>
+</h3>
+<p>Experiment 1 found evidence for the effect of alignment on laypeople’s
+decision-making in resource allocation scenarios. Specifically, I found that
+when projects are comparable, people use NPV when they are told it is reliable,
+but not when they are told it is unreliable. However, they use NPV regardless of
+reliability when it is the only shared dimension across products.</p>
+<p>In Experiment 1 I manipulated <em>verbal</em> NPV reliability. That is, participants
+were explicitly told whether NPV is considered to be a reliable metric or not.
+However, in the real-world the reliability of a metric is more commonly
+expressed in numerical form, such as a range around and estimate. In Experiment
+2 I will attempt to replicate the alignment effects, but while manipulating the
+numerical reliability associated with each project, rather than the verbal
+reliability as I have previously used. Further, it might be the case that only
+those with sufficient experience with financial theory and analysis will be able
+to successfully draw inferences from such information. Therefore, in Experiment
+2 I used a sample of Masters of Management students, instead of the laypeople in
+Experiment 1.</p>
+
+</div>
+</div>
+<div id="alignment-3" class="section level2" number="4.3">
+<h2>
+<span class="header-section-number">4.3</span> Experiment 2<a class="anchor" aria-label="anchor" href="#alignment-3"><i class="fas fa-link"></i></a>
+</h2>
+<p>Experiment 2 further investigated the effects of alignment and
+numerically-expressed variance information on financial resource allocation
+decisions. In <a href="alignment.html#alignment-2">Experiment 1</a> the information about the variance
+inherent in the NPVs was communicated explicitly as the conclusion, e.g., NPV is
+unreliable. In Experiment 2 however, only the actual variance information itself
+was communicated without the conclusion about its reliability. Here, I simply
+communicated variance by showing the range of predicted values (akin to a
+confidence interval). Therefore, while previously I manipulated <em>verbal</em>
+reliability, in Experiment 2 I manipulated <em>numerical</em> reliability. Further, in
+this experiment, I studied participants with more business experience than the
+previously used laypeople samples. The main two interests in this experiment
+were first, whether the previous findings of an alignment effect will replicate
+with people with more business experience; and second, whether this population
+is sensitive to variance in forecasts. As well as again testing
+Hypothesis <a href="alignment.html#hyp:allocation-alignment-alignment-2">4.2</a>, I tested the following
+hypothesis:</p>
+
+<div class="hypothesis">
+<span id="hyp:allocation-npv-reliability-alignment-3" class="hypothesis"><strong>Hypothesis 4.8  </strong></span>The NPV amount <span class="math inline">\(\times\)</span> reliability amount interaction will not be significant
+in either alignment condition.
+</div>
+<p>I was also interested in the potential to quickly change participants’
+understanding, if they did not initially use numerical reliability for their
+allocations. Therefore, I presented participants with a short lecture on the
+importance of paying attention variance in financial decision-making. However,
+results were inconclusive, so see but see
+Appendix <a href="alignment-appendix.html#discussion-alignment-3">B.3.3</a>, for a more detailed discussion.</p>
+
+<div id="method-3" class="section level3" number="4.3.1">
+<h3>
+<span class="header-section-number">4.3.1</span> Method<a class="anchor" aria-label="anchor" href="#method-3"><i class="fas fa-link"></i></a>
+</h3>
+<div id="participants-3" class="section level4" number="4.3.1.1">
+<h4>
+<span class="header-section-number">4.3.1.1</span> Participants<a class="anchor" aria-label="anchor" href="#participants-3"><i class="fas fa-link"></i></a>
+</h4>
+<p>Fifty-four (28 female) people were recruited from a Masters of Management course at an Australian university. Age information was not recorded. Both the reliability amount conditions (low and
+high) and alignment conditions (low and high) were presented within subjects and
+their order of presentation was counterbalanced.</p>
+</div>
+<div id="materials-2" class="section level4" number="4.3.1.2">
+<h4>
+<span class="header-section-number">4.3.1.2</span> Materials<a class="anchor" aria-label="anchor" href="#materials-2"><i class="fas fa-link"></i></a>
+</h4>
+<div id="instructions-1" class="section level5" number="4.3.1.2.1">
+<h5>
+<span class="header-section-number">4.3.1.2.1</span> Instructions<a class="anchor" aria-label="anchor" href="#instructions-1"><i class="fas fa-link"></i></a>
+</h5>
+<p>Participants were shown similar instructions to <a href="alignment.html#instructions-materials-alignment-2">Experiment
+1</a>. However, here they were given more
+information about NPV (about the discount rate and initial investment). See
+Appendix <a href="alignment-appendix.html#instructions-materials-alignment-3-appendix">B.2.1.1.1</a> for screenshots of
+the instructions.</p>
+</div>
+<div id="npv-test" class="section level5" number="4.3.1.2.2">
+<h5>
+<span class="header-section-number">4.3.1.2.2</span> NPV test<a class="anchor" aria-label="anchor" href="#npv-test"><i class="fas fa-link"></i></a>
+</h5>
+<p>Participants were presented with a short and simple test of their understanding
+of NPV (see Appendix <a href="alignment-appendix.html#npv-test-materials-alignment-3">B.2.1.1.2</a>).</p>
+</div>
+<div id="project-display" class="section level5" number="4.3.1.2.3">
+<h5>
+<span class="header-section-number">4.3.1.2.3</span> Project display<a class="anchor" aria-label="anchor" href="#project-display"><i class="fas fa-link"></i></a>
+</h5>
+<p>As seen in Figures <a href="alignment.html#fig:projects-alignment-low-materials-alignment-3">4.5</a>
+and <a href="alignment.html#fig:projects-alignment-high-materials-alignment-3">4.6</a>, the project
+display was as in <a href="alignment.html#projects-materials-alignment-2">Experiment 1</a>, except for
+the addition of another set of projects that differed in semantic content. That
+is, the projects were about different types of projects (to allow for a
+within-subjects manipulation). Along with the single NPV, the forecasted ranges
+of cash flow that the NPV was calculated from were presented. In the low
+numerical reliability condition, the ranges were <span class="math inline">\(\pm85\)</span>% around the mean (e.g.,
+$150-$1850, where the forecast mean is $1000); whereas in the high numerical
+reliability condition, the ranges were <span class="math inline">\(\pm5\)</span>% around the mean (e.g.,
+$950-$1050, where the forecast mean is $1000). Wide ranges should indicate low
+reliability in the measure, while narrow ranges should indicate high
+reliability. Between the four displays, participants were told to treat each new
+set of projects as independent to the other sets.</p>
+
+<div class="figure">
+<span id="fig:projects-alignment-low-materials-alignment-3"></span>
+<img src="thesis_files/figure-html/projects-alignment-low-materials-alignment-3-1.png" alt="An example of a low alignment low reliability display in Experiment 2. Border added for clarity." width="100%"><p class="caption">
+Figure 4.5: An example of a low alignment low reliability display in Experiment 2. Border added for clarity.
+</p>
+</div>
+
+<div class="figure">
+<span id="fig:projects-alignment-high-materials-alignment-3"></span>
+<img src="thesis_files/figure-html/projects-alignment-high-materials-alignment-3-1.png" alt="An example of a high alignment high reliability display in Experiment 2." width="100%"><p class="caption">
+Figure 4.6: An example of a high alignment high reliability display in Experiment 2.
+</p>
+</div>
+</div>
+<div id="npv-knowledge-ratings" class="section level5" number="4.3.1.2.4">
+<h5>
+<span class="header-section-number">4.3.1.2.4</span> NPV knowledge ratings<a class="anchor" aria-label="anchor" href="#npv-knowledge-ratings"><i class="fas fa-link"></i></a>
+</h5>
+<p>I was interested if the participants would be overconfident in their knowledge
+of NPV, so asked them to rate this at multiple points in the experiment (see
+Appendix <a href="alignment-appendix.html#npv-knowledge-materials-alignment-3">B.2.1.1.3</a>).</p>
+</div>
+<div id="variance-lecture" class="section level5" number="4.3.1.2.5">
+<h5>
+<span class="header-section-number">4.3.1.2.5</span> Variance lecture<a class="anchor" aria-label="anchor" href="#variance-lecture"><i class="fas fa-link"></i></a>
+</h5>
+<p>Participants were shown a short lecture on the importance of paying attention to
+variance information, in an attempt to facilitate a subsequent increased use of
+the numerical reliability information in their allocations (see
+Appendix <a href="alignment-appendix.html#variance-lecture-materials-alignment-3">B.2.1.1.4</a> for more details and the
+lecture slides).</p>
+</div>
+</div>
+<div id="procedure-alignment-3" class="section level4" number="4.3.1.3">
+<h4>
+<span class="header-section-number">4.3.1.3</span> Procedure<a class="anchor" aria-label="anchor" href="#procedure-alignment-3"><i class="fas fa-link"></i></a>
+</h4>
+<p>Participants saw the instructions, NPV explanation, and completed a simple test
+to demonstrate their understanding of NPV. They then completed four
+counterbalanced resource allocation trials (equivalent to each condition
+combination), and saw a brief presentation about the importance of paying
+attention to variance in financial decision-making. Subsequently, participants
+completed a further two resource allocation trials, of two of the trials that
+they subsequently saw earlier. They were shown the allocations they provided
+earlier, and given the opportunity to change them. With the knowledge ratings,
+participants rated once before the NPV test, re-rated after the test, and after
+the four project displays. They were then asked to rate their knowledge of NPV
+as they believe it had been both before and after the variance presentation.</p>
+
+</div>
+</div>
+<div id="results-1" class="section level3" number="4.3.2">
+<h3>
+<span class="header-section-number">4.3.2</span> Results<a class="anchor" aria-label="anchor" href="#results-1"><i class="fas fa-link"></i></a>
+</h3>
+<p>A mixed factorial ANOVA was conducted to investigate the effects of NPV amount,
+alignment, and numerical NPV reliability on participants’ project allocations.
+Figure <a href="alignment.html#fig:plot-alignment-3-allocation">4.7</a> shows these data. The alignment
+<span class="math inline">\(\times\)</span> reliability amount <span class="math inline">\(\times\)</span> NPV amount interaction was
+significant,
+<span class="math inline">\(F(2.81, 148.75) = 3.95\)</span>, <span class="math inline">\(p = .011\)</span>, <span class="math inline">\(\hat{\eta}^2_p = .069\)</span>,
+however, this appeared to be driven by the difference between alignment
+conditions in the interaction between the quadratic NPV amount trend and
+reliability amount,
+<span class="math inline">\(\Delta M = -42.28\)</span>, 95% CI <span class="math inline">\([-76.96,~-7.59]\)</span>, <span class="math inline">\(t(53) = -3.14\)</span>, <span class="math inline">\(p = .011\)</span>, even after
+applying a Šidák correction. The same interaction but with the linear NPV trend
+was not significant,
+<span class="math inline">\(\Delta M = -6.13\)</span>, 95% CI <span class="math inline">\([-31.50,~19.25]\)</span>, <span class="math inline">\(t(53) = -0.62\)</span>, <span class="math inline">\(p = .954\)</span>. Further, the linear
+NPV trend did not differ between reliability amount condition in neither the low
+alignment condition, <span class="math inline">\(\Delta M = -3.19\)</span>, 95% CI <span class="math inline">\([-18.77,~12.40]\)</span>, <span class="math inline">\(t(53) = -0.41\)</span>, <span class="math inline">\(p = .683\)</span>, nor
+the high alignment condition,
+<span class="math inline">\(\Delta M = 2.94\)</span>, 95% CI <span class="math inline">\([-12.63,~18.52]\)</span>, <span class="math inline">\(t(53) = 0.38\)</span>, <span class="math inline">\(p = .706\)</span>. However, averaging over
+reliability amount, the linear NPV trend was higher in the low alignment
+condition than in the high alignment condition,
+<span class="math inline">\(\Delta M = 28.19\)</span>, 95% CI <span class="math inline">\([5.57,~50.81]\)</span>, <span class="math inline">\(t(53) = 2.50\)</span>, <span class="math inline">\(p = .016\)</span>.</p>
+
+<div class="figure">
+<span id="fig:plot-alignment-3-allocation"></span>
+<img src="thesis_files/figure-html/plot-alignment-3-allocation-1.png" alt="Mean allocation." width="100%"><p class="caption">
+Figure 4.7: Mean allocation.
+</p>
+</div>
+<p>The ranking data were congruent with these results, while the confidence data
+was less so. Further, the NPV knowledge data did not replicate the effect from
+<span class="citation"><a href="references.html#ref-long2018" role="doc-biblioref">Long et al.</a> (<a href="references.html#ref-long2018" role="doc-biblioref">2018</a>Study 1)</span>. These analyses are reported in
+Appendix <a href="alignment-appendix.html#results-alignment-3-appendix">B.2.2</a>.</p>
+
+</div>
+<div id="discussion-2" class="section level3" number="4.3.3">
+<h3>
+<span class="header-section-number">4.3.3</span> Discussion<a class="anchor" aria-label="anchor" href="#discussion-2"><i class="fas fa-link"></i></a>
+</h3>
+<p>Experiment 2 replicated the alignment effect found in Experiment 1 with
+participants with real-world business experience. I found evidence for
+Hypothesis <a href="alignment.html#hyp:allocation-alignment-alignment-2">4.2</a>, as people seemed to rely
+more on NPV when faced with a set of dissimilar project than when projects were
+all from the same domain. Further, I found evidence for
+Hypothesis <a href="alignment.html#hyp:allocation-npv-reliability-alignment-3">4.8</a>, with no
+significant differences between the numerical reliability amount conditions.
+While I did not replicate the interaction found in Experiment 1, it should be
+emphasised that these are two different effects. In Experiment 1, I explicitly
+told participants about the reliability of the NPV measure, whereas in
+Experiment 2, I provided them with variance information that merely implies NPV
+reliability. Thus, I showed that business students are affected by comparability
+of project sets, but not by numerical NPV reliability information. Specifically,
+participants appeared to only focus on the NPV itself, and not on any variations
+in the underlying noisiness of the measure for a specific project.</p>
+<p>However, it is unclear whether laypeople would also display this variance
+neglect. Further, in Experiments 1 and 2, the business projects consisted of
+a limited number of domains. It is unclear to what extent these specific domains
+influenced the results. These projects were centred around consumer products,
+with various features displayed. Consumer projects were chosen to be more easily
+accessible to participants without business experience. However, with these
+projects, individual features do not necessarily indicate a project’s
+profitability. For instance, a laptop with a low capacity can be more profitable
+than a laptop with a high capacity due to the existence of consumer goods
+markets. In Experiment 3, I addressed these limitations.</p>
+<p>Another limitation of the last two experiments was the potential presentation
+style confound. The two alignment conditions differed in the number of alignable
+differences, but also in the way that the information was presented. The
+information in the low alignment condition was presented in paragraphs, whereas
+the information in the high alignment condition was presented in tables. While
+it is likely that each of these data types would be presented in this way in a
+business setting, it is important to rule out that this manipulation did not
+also unnecessarily increase task difficulty. Therefore, Experiment 3 attempted
+to replicate this effect, while controlling for presentation style.</p>
+
+</div>
+</div>
+<div id="experiment-3" class="section level2" number="4.4">
+<h2>
+<span class="header-section-number">4.4</span> Experiment 3<a class="anchor" aria-label="anchor" href="#experiment-3"><i class="fas fa-link"></i></a>
+</h2>
+<p>Experiment 3 investigated the effects of alignment, reliability type, NPV
+amount, and reliability amount on allocations. Experiment 1 manipulated
+reliability amount by using <em>verbal</em> prompts. That is, participants were told
+explicitly whether or not NPV was reliable for a certain project industry.
+Experiment 2 investigated whether people were able to extract this same kind of
+reliability information from <em>numerical</em> prompts. That is, participants saw NPVs
+with either wide or narrow ranges, indicating either low or high reliability of
+the metric, respectively. However, Experiment 1 sampled laypeople, whereas
+Experiment 2 sampled a Masters of Management course. Therefore, I was not able
+to compare the two reliability types (verbal and numerical) without ruling out
+the potential confound of population type. As such, in Experiment 3 I
+manipulated NPV amount, alignment, and reliability amount, but also added a
+reliability type factor. Further, presentation style was a possible confound in
+the alignment manipulation of the previous experiments. That is, the business
+projects in the high alignment condition were always displayed as a part of a
+table, whereas the projects in the low alignment condition were displayed in
+prose, as paragraphs. Experiment 3 fixed this by using the same presentation
+style across alignment condition.</p>
+<p>As well as again testing
+Hypotheses <a href="alignment.html#hyp:allocation-alignment-alignment-2">4.2</a>, <a href="alignment.html#hyp:allocation-alignment-reliability-npv-alignment-2">4.3</a>, <a href="alignment.html#hyp:allocation-alignment-high-alignment-2">4.4</a>,
+and <a href="alignment.html#hyp:allocation-alignment-low-alignment-2">4.5</a>, I tested the following
+hypothesis (see Figure <a href="alignment-appendix.html#fig:plot-simulation-alignment-8">B.19</a> for a plot of a
+simulation of all hypothesised effects):</p>
+
+<div class="hypothesis">
+<span id="hyp:four-way-alignment-8" class="hypothesis"><strong>Hypothesis 4.9  </strong></span>The alignment <span class="math inline">\(\times\)</span> reliability amount <span class="math inline">\(\times\)</span> reliability type <span class="math inline">\(\times\)</span> NPV
+amount interaction will be significant, such that the effects hypthesised above
+will be seen in the verbal reliability condition, but none of these effects
+will be seen in the numerical reliability condition.
+</div>
+
+<div id="method-4" class="section level3" number="4.4.1">
+<h3>
+<span class="header-section-number">4.4.1</span> Method<a class="anchor" aria-label="anchor" href="#method-4"><i class="fas fa-link"></i></a>
+</h3>
+<div id="participants-4" class="section level4" number="4.4.1.1">
+<h4>
+<span class="header-section-number">4.4.1.1</span> Participants<a class="anchor" aria-label="anchor" href="#participants-4"><i class="fas fa-link"></i></a>
+</h4>
+<p>Four hundred and forty-eight (176 female) people were recruited from the online recruitment platform Prolific. Participants were compensated at a rate of £5 an hour. The average age was 41.65 (<em>SD</em> = 10.3, <em>min</em> = 29, <em>max</em> = 78). Participants reported an average of 6.94 (<em>SD</em> = 8.23, <em>min</em> = 0, <em>max</em> = 43) years of work in a business setting, and an average of 3.73 (<em>SD</em> = 6.27, <em>min</em> = 0, <em>max</em> = 45) years of business education. The mean completion time was 11.35 (<em>SD</em> = 10.79, <em>min</em> = 1.92, <em>max</em> = 183.7) minutes. Table <a href="alignment.html#tab:condition-allocation-alignment-8">4.2</a>
+shows the between-subjects condition allocation. The two reliability amount
+conditions (low and high) were presented within subjects and the order of their
+presentation was randomised. As before, NPV amount was varied within subjects.
+Therefore, each participant saw two separate project displays.
+Appendix <a href="alignment-appendix.html#power-analysis-alignment-8">B.3.1.1.1</a> describes the power analysis
+conducted to arrive at this sample size.</p>
+<caption>
+<span id="tab:condition-allocation-alignment-8">Table 4.2: </span>
+</caption>
+<div custom-style="Table Caption">
+<em>Experiment 3 group allocation.</em>
+</div>
+<div class="inline-table"><table class="table table-sm">
+<thead><tr class="header">
+<th align="left">Alignment</th>
+<th align="left">Reliability type</th>
+<th align="left">N</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td align="left">High</td>
+<td align="left">Explicit</td>
+<td align="left">112</td>
+</tr>
+<tr class="even">
+<td align="left">High</td>
+<td align="left">Implicit</td>
+<td align="left">112</td>
+</tr>
+<tr class="odd">
+<td align="left">Low</td>
+<td align="left">Explicit</td>
+<td align="left">112</td>
+</tr>
+<tr class="even">
+<td align="left">Low</td>
+<td align="left">Implicit</td>
+<td align="left">112</td>
+</tr>
+<tr class="odd">
+<td align="left">Total</td>
+<td align="left">-</td>
+<td align="left">448</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div id="materials-3" class="section level4" number="4.4.1.2">
+<h4>
+<span class="header-section-number">4.4.1.2</span> Materials<a class="anchor" aria-label="anchor" href="#materials-3"><i class="fas fa-link"></i></a>
+</h4>
+<div id="instructions-2" class="section level5" number="4.4.1.2.1">
+<h5>
+<span class="header-section-number">4.4.1.2.1</span> Instructions<a class="anchor" aria-label="anchor" href="#instructions-2"><i class="fas fa-link"></i></a>
+</h5>
+<p>Participants saw similar instructions to the previous experiments, with an added
+explanation of the NPV reliability information for each reliability type
+condition (see Appendix <a href="alignment-appendix.html#instructions-materials-alignment-8-appendix">B.3.1.2.1</a>). Further, they
+completed a test of basic NPV understanding. This test was added also as an
+attention check as, although it was required to answer, the response should only
+be one of two letters.</p>
+</div>
+<div id="project-display-1" class="section level5" number="4.4.1.2.2">
+<h5>
+<span class="header-section-number">4.4.1.2.2</span> Project display<a class="anchor" aria-label="anchor" href="#project-display-1"><i class="fas fa-link"></i></a>
+</h5>
+<p>The project displays were similar to the previous experiments. However, here
+participants saw the same presentation style in both alignment conditions. Each
+display had a table describing the projects in the set, with ranking and
+allocation inputs. The project details were presented as dot points within the
+relevant cells of the table.
+Figure <a href="alignment.html#fig:projects-alignment-low-reliability-explicit-low-materials-alignment-8">4.8</a>
+shows an example of a low alignment, low verbal reliability display and
+Figure <a href="alignment.html#fig:projects-alignment-high-reliability-implicit-high-materials-alignment-8">4.9</a>
+shows an example of a high alignment, high numerical reliability display.</p>
+
+<div class="figure">
+<span id="fig:projects-alignment-low-reliability-explicit-low-materials-alignment-8"></span>
+<img src="thesis_files/figure-html/projects-alignment-low-reliability-explicit-low-materials-alignment-8-1.png" alt="An example of a low alignment, low verbal reliability display in Experiment 3." width="100%"><p class="caption">
+Figure 4.8: An example of a low alignment, low verbal reliability display in Experiment 3.
+</p>
+</div>
+
+<div class="figure">
+<span id="fig:projects-alignment-high-reliability-implicit-high-materials-alignment-8"></span>
+<img src="thesis_files/figure-html/projects-alignment-high-reliability-implicit-high-materials-alignment-8-1.png" alt="An example of a high alignment, high numerical reliability display in Experiment 3." width="100%"><p class="caption">
+Figure 4.9: An example of a high alignment, high numerical reliability display in Experiment 3.
+</p>
+</div>
+<p>Three elements were counterbalanced: 1. the association of reliability amount
+and project set (two variations), 2. the association of business name with NPV
+(five latin square variations), and 3. project variation (five variations per
+alignment condition), which for high alignment meant the project type. For low
+alignment this meant the intrinsic feature variant for the relevant project
+type. Table column order and project display order were both randomised.</p>
+</div>
+<div id="interstitial" class="section level5" number="4.4.1.2.3">
+<h5>
+<span class="header-section-number">4.4.1.2.3</span> Interstitial<a class="anchor" aria-label="anchor" href="#interstitial"><i class="fas fa-link"></i></a>
+</h5>
+<p>Before each project display, participants saw an “interstitial” page, whose role
+was to 1. introduce the next display, and 2. check the participant’s attention
+(not required to answer, so can be skipped if the interstitial text isn’t read).
+See Appendix <a href="alignment-appendix.html#interstitial-materials-alignment-8">B.3.1.2.2</a> for an example.</p>
+
+</div>
+</div>
+</div>
+<div id="results-2" class="section level3" number="4.4.2">
+<h3>
+<span class="header-section-number">4.4.2</span> Results<a class="anchor" aria-label="anchor" href="#results-2"><i class="fas fa-link"></i></a>
+</h3>
+<p>A mixed factorial ANOVA was conducted to investigate the effects of NPV amount,
+alignment, NPV reliability amount, and NPV reliability type on participants’
+project allocations. Figure <a href="alignment.html#fig:plot-alignment-8-allocation">4.10</a> shows these
+data. Only the main results are reported here, while the rest of the
+hypothesised allocation effects are reported in
+Appendix <a href="alignment-appendix.html#results-alignment-8-allocation">B.3.2.1</a>.</p>
+<p>The four-way interaction (alignment <span class="math inline">\(\times\)</span> reliability amount <span class="math inline">\(\times\)</span> NPV
+amount <span class="math inline">\(\times\)</span> reliability type) was not significant,
+<span class="math inline">\(F(3.20, 1,420.19) = 0.71\)</span>, <span class="math inline">\(p = .555\)</span>, <span class="math inline">\(\hat{\eta}^2_p = .002\)</span>. Further, the three-way interaction
+(alignment <span class="math inline">\(\times\)</span> reliability amount <span class="math inline">\(\times\)</span> NPV amount) in the verbal
+reliability condition was not significant,
+<span class="math inline">\(\Delta M = 13.42\)</span>, 95% CI <span class="math inline">\([-1.27,~28.11]\)</span>, <span class="math inline">\(t(444) = 1.80\)</span>, <span class="math inline">\(p = .073\)</span>. This is
+most likely due to the size of the two-way interactions in each alignment
+condition being relatively similar, despite the expectation of no interaction in
+the low alignment condition (as was seen in <a href="#results-alignment-2">Experiment
+1</a>). In high alignment, this interaction (between the
+linear NPV amount trend and NPV reliability amount) was significant,
+<span class="math inline">\(\Delta M = -36.63\)</span>, 95% CI <span class="math inline">\([-47.02,~-26.25]\)</span>, <span class="math inline">\(t(444) = -6.93\)</span>, <span class="math inline">\(p &lt; .001\)</span>.
+Specifically, the trend was stronger in the high reliability amount condition,
+<span class="math inline">\(\Delta M = 27.26\)</span>, 95% CI <span class="math inline">\([17.69,~36.83]\)</span>, <span class="math inline">\(t(444) = 5.60\)</span>, <span class="math inline">\(p &lt; .001\)</span>,
+than in the low reliability amount condition,
+<span class="math inline">\(\Delta M = -9.38\)</span>, 95% CI <span class="math inline">\([-18.86,~0.11]\)</span>, <span class="math inline">\(t(444) = -1.94\)</span>, <span class="math inline">\(p = .053\)</span>.
+The same interaction was significant in the low alignment condition,
+<span class="math inline">\(\Delta M = -23.21\)</span>, 95% CI <span class="math inline">\([-33.60,~-12.83]\)</span>, <span class="math inline">\(t(444) = -4.39\)</span>, <span class="math inline">\(p &lt; .001\)</span>.
+Despite the lack of a three-way interaction in the verbal reliability condition
+(indicating a difference in the two alignment two-way interactions), the linear
+NPV amount trend was stronger in the low alignment condition than in the high
+alignment condition when averaging over reliability amount,
+<span class="math inline">\(\Delta M = 28.97\)</span>, 95% CI <span class="math inline">\([17.68,~40.26]\)</span>, <span class="math inline">\(t(444) = 5.04\)</span>, <span class="math inline">\(p &lt; .001\)</span>.</p>
+<p>In the numerical reliability condition, the linear NPV amount trend was not
+significantly “equivalent” between those in the low and high alignment
+conditions (averaging over reliability amount),
+<span class="math inline">\(\Delta M = 15.19\)</span>, 95% CI <span class="math inline">\([3.90,~26.48]\)</span>, <span class="math inline">\(t(444) = 2.64\)</span>, <span class="math inline">\(p = .996\)</span>. In
+fact, a post-hoc comparison suggests that the low alignment trend was stronger
+(with Bonferroni adjustment),
+<span class="math inline">\(\Delta M = 15.19\)</span>, 95% CI <span class="math inline">\([0.78,~29.60]\)</span>, <span class="math inline">\(t(444) = 2.64\)</span>, <span class="math inline">\(p = .034\)</span>. Further,
+the difference between the linear NPV trend was not significantly different
+between reliability amount conditions in both the low alignment condition,
+<span class="math inline">\(\Delta M = 1.64\)</span>, 95% CI <span class="math inline">\([-11.61,~14.90]\)</span>, <span class="math inline">\(t(444) = 0.31\)</span>, <span class="math inline">\(p &gt; .999\)</span>,
+and high alignment condition,
+<span class="math inline">\(\Delta M = -1.21\)</span>, 95% CI <span class="math inline">\([-14.46,~12.05]\)</span>, <span class="math inline">\(t(444) = -0.23\)</span>, <span class="math inline">\(p &gt; .999\)</span>.
+This replicates the finding from <a href="results-alignment-3">Experiment 2</a> that NPV is
+used more in low alignment, but numerical reliability is ignored.</p>
+
+<div class="figure">
+<span id="fig:plot-alignment-8-allocation"></span>
+<img src="thesis_files/figure-html/plot-alignment-8-allocation-1.png" alt="Mean project allocation for all conditions." width="100%"><p class="caption">
+Figure 4.10: Mean project allocation for all conditions.
+</p>
+</div>
+
+</div>
+<div id="discussion-3" class="section level3" number="4.4.3">
+<h3>
+<span class="header-section-number">4.4.3</span> Discussion<a class="anchor" aria-label="anchor" href="#discussion-3"><i class="fas fa-link"></i></a>
+</h3>
+<p>Hypotheses <a href="alignment.html#hyp:allocation-alignment-alignment-2">4.2</a>, <a href="alignment.html#hyp:allocation-alignment-reliability-npv-alignment-2">4.3</a>,
+and <a href="alignment.html#hyp:allocation-alignment-high-alignment-2">4.4</a> were supported. This shows
+that while overall participants prefer to use NPV as a proxy for project quality
+in their allocations, they still use verbal reliability information.
+Specifically, when projects are similar, people use NPV when they are told that
+it is reliable, and use alternative metrics when told that it is not reliable.
+However, Experiment 3 did not find evidence for
+Hypothesis <a href="alignment.html#hyp:allocation-alignment-low-alignment-2">4.5</a>. Instead, I found
+that even in the low alignment condition, participants were still able to use
+NPV more when told that it was reliable.</p>
+<p>Further, I did not find support for Hypothesis <a href="alignment.html#hyp:four-way-alignment-8">4.9</a>.
+The hypothesis was constructed in response to the results of a pilot study
+(documented in Appendix <a href="alignment-appendix.html#alignment-7">B.8</a>) that replicated the results of
+Experiment 1 in the verbal reliability condition, but did not replicate the
+results of Experiment 2 in the numerical reliability condition. That is, I found
+that when faced with numerical ranges as variance information, people did not
+seem to even use the midpoint in their decisions. In Experiment 3, on the other
+hand, I replicated the finding of Experiment 2 in the numerical reliability
+condition. Specifically, I found that people used NPV more when projects were
+dissimilar, but critically, that they did not use numerical range information to
+moderate their allocations.</p>
+
+</div>
+</div>
+<div id="general-discussion-1" class="section level2" number="4.5">
+<h2>
+<span class="header-section-number">4.5</span> General discussion<a class="anchor" aria-label="anchor" href="#general-discussion-1"><i class="fas fa-link"></i></a>
+</h2>
+<p>Across three experiments there were two main findings: 1. NPV is used more when
+options are hard to compare; and 2. people do not consider numerical variance
+information, despite this being important to the reliability of the NPV
+forecasts. I found these effects consistently across both naive and experienced
+populations, which indicates their persistence. When finding themselves in a
+situation that requires comparison across disparate options, people make use of
+metrics with alignable differences. However, they do not sufficiently moderate
+their use of such metrics even when they have alternative attributes to use.</p>
+<p>In Experiment 1, I found that when participants were told that NPV was
+unreliable, they did not use it in their allocation decisions, but when they
+were told that it was reliable they did. In Experiment 2, I found that people
+with some business experience relied on NPV more for resource allocation when
+the rest of the information was non-alignable, compared to when it was
+alignable. However, participants did not take into account the <em>numerical</em>
+reliability information when making these decisions. In Experiment 3, I found
+further evidence of these effects, within one experimental design.</p>
+<p>Alignable differences have been shown to be important to decision making in many
+settings <span class="citation">(<a href="references.html#ref-markman2010" role="doc-biblioref">Arthur B. Markman &amp; Loewenstein, 2010</a>; <a href="references.html#ref-markman1995" role="doc-biblioref">Arthur B. Markman &amp; Medin, 1995</a>)</span>. The experiments in this chapter are novel
+in the investigation of alignment effects in a resource allocation paradigm.
+Further, I considered the extent to which the reliability of an alignable
+measure (NPV) affects its use in choice. I found that this is dependent on the
+availability of other alignable differences in the choice set. If other
+alignable differences are available, then participants are willing to reduce
+their use of a supposedly unreliable alignable measure (and use it when told
+that it is reliable). However, when no other alignable differences are
+available, then the unreliable, but alignable, measure is used less. I found
+this result in Experiment 1 and 3, as well as a pilot study (although the
+alignment effects appeared weaker perhaps due to interference due to a
+within-subjects manipulation; see Appendix <a href="alignment-appendix.html#alignment-1">B.4</a>).</p>
+<p>Financial measure such as NPV are useful because of their alignability. That is,
+they act as an alignable difference regardless of the inherent similarity of a
+set of projects. Psychologically, these measures are useful because they allow
+for relevant inferences <span class="citation">(<a href="references.html#ref-lassaline1996" role="doc-biblioref">Lassaline, 1996</a>)</span>, and because they offer an abstraction
+of concrete details <span class="citation">(<a href="references.html#ref-doumas2013" role="doc-biblioref">Doumas &amp; Hummel, 2013</a>)</span>.</p>
+<p>However, the theoretical account of structural alignment does not directly speak
+to the real-world implications when there is a need for non-alignable
+comparisons. NPV is a type of abstraction that allows comparison between
+different aspects of a company. For instance, comparing an oil field project
+with a refinery project might be made easier by using NPV. On the other hand,
+this increased alignment might actually hide important information because it
+does not consider the finer complexities inherent within each business unit. The
+forecasts that are the basis of NPV are based on different indicators for each
+unit, there are differences in variance between the estimates from each unit,
+etc. As such, one can imagine a continuum of similarity comparisons in which
+usefulness of comparison increases with the level of alignability, but is
+moderated by the level of abstraction that is required to make the alignment.</p>
+<p>The finding that people, even with some business experience, do not sufficiently
+consider variance information is surprising, but understandable. It is
+surprising because so much of financial decision making depends on considering
+different sources of variance, e.g., risk, volatility, and uncertainty. However,
+it is understandable because research from psychology and statistics education
+shows that statistics students and people in general have a poor ability to make
+statistical inferences <span class="citation">(<a href="references.html#ref-galesic2010" role="doc-biblioref">Galesic &amp; Garcia-Retamero, 2010</a>; <a href="references.html#ref-konold1993" role="doc-biblioref">Konold et al., 1993</a>)</span>. Future research should
+investigate the conditions under which people’s sensitivity to variance
+information can be facilitated. For instance, it is unclear whether it is merely
+salience that is lacking, and that therefore visual aids could be useful, or
+whether further explicit explanation of the statistical inference is necessary.
+Pilot experiments suggest that participants still struggle to use numerical
+reliability information, even when given very explicit instructions (see
+Appendix <a href="alignment-appendix.html#alignment-6">B.7</a>).</p>
+<p>A possible limitation of these experiments was the use of NPV as the only
+financial metric. In the business world there are many metrics that serve
+similar functions and I predict would be used as a tool to deal with
+non-alignable options, as NPV was in the current study. Therefore, future
+research should attempt to replicate the current findings with different
+financial measures.</p>
+<p>Future research should also investigate the boundary conditions of the
+reliability effect. That is, people seem to be responding to explicit
+reliability information, but not to variance information that implies
+reliability. As such, it would be interesting to find out what is the minimal
+kind of information about variance that participants need in order to understand
+the relevant implications about reliability. It may be the case that
+participants simply do not notice the variability information, or that they find
+it irrelevant. For instance, future research could test participants in a
+condition in which the variability information is more salient.</p>
+<div style="page-break-after: always;"></div>
+
+</div>
+</div>
+  <div class="chapter-nav">
+<div class="prev"><a href="interstitial-1.html"><span class="header-section-number">3</span> Joint evaluation of multiple projects</a></div>
+<div class="next"><a href="interstitial-2.html"><span class="header-section-number">5</span> Looking for alignment in past cases</a></div>
+</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#alignment"><span class="header-section-number">4</span> Project similarity bias and variance neglect in forecast metric evaluation</a></li>
+<li>
+<a class="nav-link" href="#introduction-2"><span class="header-section-number">4.1</span> Introduction</a><ul class="nav navbar-nav"><li><a class="nav-link" href="#experiment-summary"><span class="header-section-number">4.1.1</span> Experiment summary</a></li></ul>
+</li>
+<li>
+<a class="nav-link" href="#alignment-2"><span class="header-section-number">4.2</span> Experiment 1</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#method-2"><span class="header-section-number">4.2.1</span> Method</a></li>
+<li><a class="nav-link" href="#results"><span class="header-section-number">4.2.2</span> Results</a></li>
+<li><a class="nav-link" href="#discussion-1"><span class="header-section-number">4.2.3</span> Discussion</a></li>
+</ul>
+</li>
+<li>
+<a class="nav-link" href="#alignment-3"><span class="header-section-number">4.3</span> Experiment 2</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#method-3"><span class="header-section-number">4.3.1</span> Method</a></li>
+<li><a class="nav-link" href="#results-1"><span class="header-section-number">4.3.2</span> Results</a></li>
+<li><a class="nav-link" href="#discussion-2"><span class="header-section-number">4.3.3</span> Discussion</a></li>
+</ul>
+</li>
+<li>
+<a class="nav-link" href="#experiment-3"><span class="header-section-number">4.4</span> Experiment 3</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#method-4"><span class="header-section-number">4.4.1</span> Method</a></li>
+<li><a class="nav-link" href="#results-2"><span class="header-section-number">4.4.2</span> Results</a></li>
+<li><a class="nav-link" href="#discussion-3"><span class="header-section-number">4.4.3</span> Discussion</a></li>
+</ul>
+</li>
+<li><a class="nav-link" href="#general-discussion-1"><span class="header-section-number">4.5</span> General discussion</a></li>
+</ul>
+
+      <div class="book-extra">
+        <ul class="list-unstyled">
+<li><a id="book-source" href="https://github.com/shirdekel/phd_thesis/blob/master/rmd/alignment/introduction.Rmd">View source <i class="fab fa-github"></i></a></li>
+          <li><a id="book-edit" href="https://github.com/shirdekel/phd_thesis/edit/master/rmd/alignment/introduction.Rmd">Edit this page <i class="fab fa-github"></i></a></li>
+        </ul>
+</div>
+    </nav>
+</div>
+
+</div>
+</div> <!-- .container -->
+
+<footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>"<strong>The psychology of managerial risky choice and resource allocation</strong>" was written by Shir Dekel. </p>
+  </div>
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>This book was built by the <a class="text-light" href="https://bookdown.org">bookdown</a> R package.</p>
+  </div>
+
+</div></div>
+</footer><!-- dynamically load mathjax for compatibility with self-contained --><script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+</html>
