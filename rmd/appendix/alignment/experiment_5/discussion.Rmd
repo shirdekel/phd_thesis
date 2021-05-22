@@ -2,4 +2,4 @@
 
 Experiment 5 found that people with some investing experience respond to
 alignable information in the form of NPV when it is given, but do not show the
-same effect of alignment that was seen in Experiment 3.
+same effect of alignment that was seen in Experiment 1.

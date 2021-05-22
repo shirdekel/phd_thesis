@@ -1,3 +1,6 @@
 # Chapter \@ref(anecdotes) appendix {#anecdotes-appendix}
 
 \minitoc
+
+This appendix contains supplementary materials and analyses for the two
+experiments reported in Chapter \@ref(alignment). 

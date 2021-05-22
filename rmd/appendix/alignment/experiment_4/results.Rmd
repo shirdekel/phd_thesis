@@ -24,7 +24,7 @@ these trends were individually significant.
 plot_alignment_1$allocation
 ```
 
-#### Target project
+<!-- #### Target project -->
 
 #### Confidence
 

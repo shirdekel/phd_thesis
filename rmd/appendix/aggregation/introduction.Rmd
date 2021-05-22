@@ -2,7 +2,14 @@
 
 \minitoc
 
-All Poisson binomial distributions used in Chapter \@ref(aggregation) were
-calculated using the R package `poibin`, which uses calculations described in
-@hong2013.
+This appendix contains supplementary materials and analyses for the two
+experiments reported in Chapter \@ref(aggregation). In addition, I also report
+two experiments that were conducted to follow-up the findings in Experiments 1
+and 2. Both follow-up experiments tested project choice as in the first two
+experiments, but Experiment 3 further investigated the effect of similarity, and
+Experiment 4 further investigated the effect of awareness.
+
+All four experiments featured probability outcome distributions. These were
+Poisson binomial distributions that were calculated using the R package
+`poibin`, which uses calculations described in @hong2013.
 

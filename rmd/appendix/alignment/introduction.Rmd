@@ -1,3 +1,17 @@
 # Chapter \@ref(alignment) appendix {#alignment-appendix}
 
 \minitoc
+
+This appendix contains supplementary materials and analyses for the three
+experiments reported in Chapter \@ref(alignment). In addition, I report five
+related experiments. Experiment 4 was identical to Experiment 1, except that
+alignment was manipulated within-subjects, it did not include a no NPV
+condition, and there was no forecasting measure. Experiment 5 replicated
+Experiment 1, but only tested the forecasting effect and did so with a sample
+with investing experience. Experiment 6 replicated Experiment 5 but with a
+larger sample size and a lay sample. Experiment 7 attempted to facilitate a use
+of numerical reliability through explicit hints. Experiment 8 tested both verbal
+and numerical reliability effects in an all within-subjects design. However,
+unlike Experiment 3, the design of Experiment 8 did not allow for a direct
+comparison of alignment conditions.
+

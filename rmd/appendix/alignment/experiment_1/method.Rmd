@@ -56,7 +56,12 @@ here(
 
 ##### Forecasting {#forecasting-materials-alignment-2}
 
-Participants were asked to respond to a forecasting task [adapted from @long2018], seen in Figure \@ref(fig:forecasting-materials-alignment-2). Participants were asked to predict each project’s rate of return after one month. This allowed me to calculate each participant’s forecasting mean and standard deviation (the latter as inversely proportional to forecasting precision).
+Participants were asked to respond to a forecasting task [adapted from
+@long2018], seen in Figure \@ref(fig:forecasting-materials-alignment-2).
+Participants were asked to predict each project’s rate of return after one
+month. This allowed me to calculate each participant’s forecasting mean and
+standard deviation (the latter as inversely proportional to forecasting
+precision).
 
 (ref:forecasting-materials-alignment-2) The forecasting task.
 
@@ -73,8 +78,8 @@ here(
 
 ##### Ranking {#ranking-materials-alignment-2}
 
-As seen in Figure \@ref(fig:ranking-materials-alignment-2), participants were asked to rank the projects in order of
-investment priority.
+As seen in Figure \@ref(fig:ranking-materials-alignment-2), participants were
+asked to rank the projects in order of investment priority.
 
 (ref:ranking-materials-alignment-2) The ranking task.
 
@@ -91,7 +96,10 @@ here(
 
 ##### Confidence {#confidence-materials-alignment-2}
 
-As Figure \@ref(fig:confidence-materials-alignment-2) shows, participants were asked to indicate how confident they were about each of their allocation decisions on a scale from 0 ("Not confident at all") to 100 ("Extremely confident").
+As Figure \@ref(fig:confidence-materials-alignment-2) shows, participants were
+asked to indicate how confident they were about each of their allocation
+decisions on a scale from 0 ("Not confident at all") to 100 ("Extremely
+confident").
 
 (ref:confidence-materials-alignment-2) The confidence task.
 
@@ -108,7 +116,8 @@ here(
 
 ##### Justification {#justification-materials-alignment-2}
 
-As Figure \@ref(fig:justification-materials-alignment-2) shows, participants were asked to justify their allocation decision in a free-response text-box.
+As Figure \@ref(fig:justification-materials-alignment-2) shows, participants
+were asked to justify their allocation decision in a free-response text-box.
 
 (ref:justification-materials-alignment-2) The justification task.
 

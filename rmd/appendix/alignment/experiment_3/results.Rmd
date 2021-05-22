@@ -30,5 +30,5 @@ linear model was originally used (treating NPV amount as a continuous
 predictor), whereas the data was ultimately analysed using a multivariate linear
 model (treating NPV amount as a repeated measures factor).
 
-#### Ranking
+<!-- #### Ranking -->
 

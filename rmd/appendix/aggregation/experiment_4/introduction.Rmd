@@ -17,6 +17,4 @@ from Experiment 1 with 20 projects. The "naive" condition attempted to encourage
 participants to focus on projects one at a time and did not say how many
 projects there were. The "aware" condition attempted to encourage participants
 to think of all 20 projects (by saying the total number in the beginning, and
-notifying participants where they were in the project order).
-
-I again tested Hypothesis \@ref(hyp:awareness-trials-aggregation-2).
+notifying participants where they were in the project order). I again tested Hypothesis \@ref(hyp:awareness-trials-aggregation-2).
