@@ -36,6 +36,7 @@ list(
   ),
   tar_file(input, "index.Rmd"),
   tar_file(config_file, "_bookdown.yml"),
+  tar_file(deps, unlist(thesis_deps)),
   tar_file(
     thesis,
     render_with_deps(
@@ -43,8 +44,7 @@ list(
       config_file = config_file,
       deps = c(
         !!tar_knitr_deps_expr(thesis_deps$rmd),
-        thesis_deps$rmd,
-        thesis_deps$templates
+        deps
       )
     )
   )
