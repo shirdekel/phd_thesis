@@ -125,14 +125,19 @@ biases can be anticipated for different levels of uncertainty. For instance, a
 manager may be in a position in which they are presented with both a convincing
 case study that suggests a certain course of action, and also be in the
 possession of aggregated data. The manager needs to be able to weigh the
-evidence accordingly. The work in this chapter suggests that there are three
-elements to consider: 1. the quality of the aggregated data (determined by
-factors such as the sample size), 2. the relative similarity of the cases in the
-data pool to the situation at hand, and 3. the similarity of the anecdote to the
-situation at hand. For instance, if the anecdote is uniquely similar to the
-target situation, and it is significantly more similar than the rest of the
-cases in the data set, then it should have more weight than an anecdote that
-comes from a pool of cases that are all just as similar to the target.
+evidence accordingly.
+
+The work in this chapter suggests that there are three elements to consider: 1.
+the quality of the aggregated data (determined by factors such as the sample
+size), 2. the relative similarity of the cases in the data pool to the situation
+at hand, and 3. the similarity of the anecdote to the situation at hand. For
+instance, if the anecdote is uniquely similar to the target situation, and it is
+significantly more similar than the rest of the cases in the data set, then it
+should have more weight than an anecdote that comes from a pool of cases that
+are all just as similar to the target. @lovallo2012 found that similarity
+judgements increase the prediction accuracy beyond a simple regression model.
+Taking into account the relative similarity to other cases is likely to further
+increase predictive validity.
 
 In a situation in which aggregated data is not available, however, managers
 should rely more on anecdotes that are more similar in causal structure. That

@@ -33,5 +33,8 @@ I was also interested in the potential to quickly change participants'
 understanding, if they did not initially use numerical reliability for their
 allocations. Therefore, I presented participants with a short lecture on the
 importance of paying attention variance in financial decision-making. However,
-results were inconclusive, so see but see
-Appendix \@ref(alignment-3-appendix), for a more detailed discussion.
+results were inconclusive, so see Appendix \@ref(alignment-3-appendix), for a
+more detailed discussion. Further, I investigated whether participants would
+have a higher sense of understanding NPV than they really do [as in @long2018].
+These results are also reported in Appendix \@ref(alignment-3-appendix) as they
+were not sufficiently relevant to the present chapter.

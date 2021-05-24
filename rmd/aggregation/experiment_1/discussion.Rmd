@@ -35,7 +35,13 @@ of the total number of projects in the set would increase the likelihood that
 participants would naively aggregate. Specifically, knowing the number of total
 projects might make the idea that the gains of some projects will offset the
 losses of others will be more salient, because it reinforces a focus on the
-entire set.
+entire set. Another possibility is that participants had a certain aspiration
+level [@lopes1996] that they were attempting to reach. @barron2003 [p. 219]
+specifically did not tell participants about the number of gambles they would
+experience to "avoid an 'end of task' effect (e.g. a change in risk attitude)".
+@barron2003 provided participants with feedback, but this should not be
+necessary for an aspiration level explanation since participants only need to be
+aware of the potential for certain gains.
 
 Otherwise, this result may also be due to the Gambler's fallacy/law of small
 numbers. This effect is characterised by people's expectation of a pattern to

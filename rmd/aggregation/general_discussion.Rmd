@@ -170,18 +170,19 @@ Future work should test even more realistic scenarios. Such studies should
 involve managers, ideally in multi-business firms. Investigating whether the
 choice bracketing findings from these experiments replicates in a sample of
 managers will help to determine whether these results could be applied to
-real-world managerial decision-making. Further, the more subtle choice
-bracketing manipulations should be tested with managers since it is possible
-that they have a greater sense of naive aggregation are therefore be more
-amenable to such manipulations. The addition of extra payment for better
-performance on the task might also assist in making the task more isomorphic
-with real-world managerial decisions. In the present experiments, participants
-viewed the projects all in the space of one session. However, this is not
-completely isomorphic to real life, where managers make many other decisions
-that are unrelated to the large risky investments at their companies. Future
-research should test participants over a longer period of time in order to see
-whether the effects of the manipulations replicate in a more realistic
-environment.
+real-world managerial decision-making. This is especially important since
+@haigh2005 showed that professional traders show more myopic loss aversion than
+students. Further, the more subtle choice bracketing manipulations should be
+tested with managers since it is possible that they have a greater sense of
+naive aggregation are therefore be more amenable to such manipulations. The
+addition of extra payment for better performance on the task might also assist
+in making the task more isomorphic with real-world managerial decisions. In the
+present experiments, participants viewed the projects all in the space of one
+session. However, this is not completely isomorphic to real life, where managers
+make many other decisions that are unrelated to the large risky investments at
+their companies. Future research should test participants over a longer period
+of time in order to see whether the effects of the manipulations replicate in a
+more realistic environment.
 
 \newpage
 

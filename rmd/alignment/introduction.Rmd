@@ -92,8 +92,8 @@ domains may have different underlying forecasting error, which may compromise
 the utility of using NPV as the basis of the comparison. Do executives
 sufficiently account for the inherent variance in the measure that they rely on
 so much? Research showed that people are good at extracting variance information
-from numerical sequences [@rosenbaum2020]. However, people struggle to use
-variance information when it is represented numerically [@galesic2010;
+when experiencing numerical sequences [@rosenbaum2020]. However, people struggle
+to use variance information when it is represented numerically [@galesic2010;
 @konold1993; @vivalt2018; @batteux2020].
 
 ### Experiment summary

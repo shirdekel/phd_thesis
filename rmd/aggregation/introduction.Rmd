@@ -206,9 +206,9 @@ evaluation.
 The goal of this chapter is to facilitate risk aggregation without the
 experimental artefact of immediate feedback. Previous research suggests some
 ways of doing this. @sokolhessner2009 and @sokolhessner2012 found that lengthy
-instructions with an elaborate explanation to "think like a trader" -- and to
+instructions with an elaborate explanation to "think like a trader"---and to
 consider all the repeated-play gambles as a portfolio, as opposed to considering
-them individually -- reduced risk aversion. Further, even the original
+them individually---reduced risk aversion. Further, even the original
 @samuelson1963 anecdote (and its subsequent replications) show that people do
 have an intuition for aggregation even without the risk being calculated exactly
 for them. I am interested in testing whether that same intuition can be elicited
