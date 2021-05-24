@@ -34,4 +34,4 @@ understanding, if they did not initially use numerical reliability for their
 allocations. Therefore, I presented participants with a short lecture on the
 importance of paying attention variance in financial decision-making. However,
 results were inconclusive, so see but see
-Appendix \@ref(discussion-alignment-3), for a more detailed discussion.
+Appendix \@ref(alignment-3-appendix), for a more detailed discussion.
