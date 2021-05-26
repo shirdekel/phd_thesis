@@ -1,8 +1,12 @@
 # Joint evaluation of multiple projects {#interstitial-1}
 
 Chapter \@ref(aggregation) found that people struggle to aggregate risk even
-when facilitated to do so intuitively. People instead tend to consider projects
-one at a time and only become aware of the benefits of aggregation when given an
+when provided with choice-bracketing cues that could have built on an intuitive
+sense of how aggregation reduces risk. The original Samuelson findings that
+people are more likely to accept many gambles at once, even without any aids to
+calculate risk, suggest that people can gain an intuition for the benefits of
+aggregation. Yet, in the current work, people instead tend to consider projects
+one at a time and only leverage the benefits of aggregation when given an
 explicit visualisation of what it entails. In real-life resource allocation
 scenarios, when managers evaluate projects sequentially, presenting an
 aggregated distribution is not possible since the value of future projects is

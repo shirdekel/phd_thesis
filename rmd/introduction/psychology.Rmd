@@ -3,12 +3,12 @@
 Managers of large organisations are generally assumed to have a superior
 decision-making capability. However, managerial decision-making involves many of
 the same processes that have been shown to be affected by psychological biases
-[@schwenk1984; @das1999; @mccray2002]. Further, an organisation's success
-ultimately depends on "strategic" decisions made by top level managers
-[@mazzolini1981]. Therefore, despite early work attempted to analyse such
-decisions using a structured organisational analysis [e.g., @mintzberg1976], it
-is important to understand the potential influence of psychological biases on
-managerial decisions.
+in the general population [@schwenk1984; @das1999; @mccray2002]. Further, an
+organisation's success ultimately depends on "strategic" decisions made by top
+level managers [@mazzolini1981]. Therefore, despite early work attempted to
+analyse such decisions using a structured organisational analysis [e.g.,
+@mintzberg1976], it is important to understand the potential influence of
+psychological biases on managerial decisions.
 
 Psychological research has shown that people tend to make decisions that are
 inconsistent with neoclassical economic theory. Such economic theory was based
@@ -166,12 +166,18 @@ their job. However, the top managers recognise that a loss in one or more
 business units is likely to be offset by gains in other units. Such an
 inconsistency in risk profiles across the levels of an hierarchical organisation
 fails to take advantage of the benefits of risk aggregation, which has long been
-understood in external markets [@markowitz1952]. The psychological literature
-shows that people's risk aggregation is facilitated through various choice
-bracketing manipulations. However, there has been no work that investigated such
-situations without providing participants with inter-trial feedback. The
-experiments presented in Chapter \@ref(aggregation) investigate the effects of
-choice bracketing on risk aggregation without feedback.
+understood in external markets [@markowitz1952]. @lovallo2020 suggested that
+lower-level managers’ failure to aggregate risk to the degree desired by top
+executives is costing companies approximately 1/3 of the total EV of new project
+proposals. It is thus critical to identify ways to support risk aggregation
+across organizational hierarchies. The psychological literature shows that
+people's risk aggregation is facilitated through various choice bracketing
+manipulations. However, there has been no work that investigated such situations
+without providing participants with feedback in between decisions; this
+critically limits the external validity of this work because in the real world,
+organisations evaluate several projects before seeing the outcomes of any one
+decision. The experiments presented in Chapter \@ref(aggregation) investigate
+the effects of choice bracketing on risk aggregation without feedback.
 
 ### Project similarity
 
@@ -184,13 +190,14 @@ likely to find themselves comparing across dissimilar types of projects.
 
 As mentioned above, there are likely many organisational and financial reasons
 why the extent of diversification in an organisation would impact its
-performance. However, the impact of psychological factors such as business
-project similarity has not been investigated. This approach is important because
-the relative similarity of projects has implications about how difficult the
-evaluation process becomes and therefore what kind of financial metrics are
-used. Having more similar projects to compare may mean more attributes on which
-to evaluate, whereas a dissimilar comparison may lead to a situation in which a
-manager has to rely on potentially unreliable metrics.
+performance. However, the impact of psychological factors such as how business
+project similarity affects comparing across projects has not been investigated.
+This approach is important because the relative similarity of projects has
+implications about how difficult the evaluation process becomes and therefore
+what kind of financial metrics are used. Having more similar projects to compare
+may mean more attributes on which to evaluate, whereas a dissimilar comparison
+may lead to a situation in which a manager has to rely on potentially unreliable
+metrics.
 
 Structure-mapping theory [SMT\; @gentner1997; @gentner1983] provides a model of
 comparison that psychologically distinguishes similar and dissimilar allocation
@@ -210,16 +217,16 @@ processes that exist in the exploration business unit have a significantly
 different dimensional structure to those in the refinery business unit, such
 that it will be difficult to find meaningful alignments. More non-alignable
 differences mean that there are less opportunities to make meaningful
-comparisons, and so would make predicting project success and ranking their
-priority more difficult. In Chapter \@ref(alignment), I experimentally examined
-business project comparisons and how project alignment affects resource
+comparisons, and so would make predicting relative project success and ranking
+their priority more difficult. In Chapter \@ref(alignment), I experimentally
+examined business project comparisons and how project alignment affects resource
 allocation decisions.
 
 <!-- Metric variance -->
 
 When evaluating projects, managers make use of financial metrics, such as NPV.
 However, such metrics are reliant on forecast estimates of, for instance, future
-cash flows. Do managers take into account inherent such variance in their
+cash flows. Do managers take into account such inherent variance in their
 decisions? This is especially important to investigate given the above
 discussion. In cases of non-alignable comparison managers might be relying on a
 potentially unreliable metric. On the other hand, in an alignable comparison,
