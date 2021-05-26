@@ -1,26 +1,33 @@
 Resource allocation decisions are critical for large organisations. The
 management literature mainly considers such decisions from an organisational
-perspective, despite the potential psychological influences. Therefore, I
-investigated people's cognitive limitations in the resource allocation process.
-I did this through three paradigms that provided participants both opportunities
-to make use of clear cues to moderate their decisions and also important
-statistical principles that would enhance their decisions even further. First,
-participants saw sequential risky choices without feedback. Combining the risk
-through *risk aggregation* allowed participants to reduce the overall potential
-loss. Second, participants were asked to allocate capital across a set of
-business projects with different attributes. The *estimate variance* associated
-with uncertain forecasts allowed for a better moderation of the metric used to
-make the choice. Third, participants saw either relevant or irrelevant anecdotal
-evidence that conflicted with statistical evidence for a project. The *sample
-distribution* of similarity to the target project from the sample of anecdotes
+perspective, largely overlooking potential psychological influences. Therefore,
+I investigated cognitive processes affecting resource allocation decisions. I
+did this through three paradigms that examined how participants integrated
+multiple kinds of cues when making their decisions. In each study, there was
+statistical information presented, and other kinds of non-numerical cues (forms
+of semantic and visual information). Each paradigm analyzed a different decision
+context, and thus correspondingly there was different statistical and other
+forms of information. However every case presented the opportunity to leverage a
+statistical principle (below named in italics) that arguably should be the sole
+basis of the decision, and yet, the nature of the semantic and visual cues
+affected how deciders utilized the statistical principles. In the first
+paradigm, participants saw sequential risky choices without intermittent
+feedback (Ch 2). Combining the risk across decisions through risk aggregation
+allowed participants to reduce the overall potential loss. Second, participants
+were asked to allocate capital across a set of business projects with different
+attributes (Ch 4.). The estimate variance associated with uncertain forecasts
+allowed for a better moderation of the metric used to make the choice. Third,
+participants saw either relevant or irrelevant anecdotal evidence that
+conflicted with statistical evidence for a project (Ch. 6). The sample
+distribution of similarity to the target project from the sample of anecdotes
 allowed participants to clarify this conflicting evidence. The results showed
 that people struggled to use these statistical principles, unless in the case of
-risk aggregation when it was depicted visually. Otherwise, participants did
+risk aggregation when it was depicted visually. In paradigm 2, participants did
 appropriately use information about forecast metric reliability when this was
-expressed verbally, rather than numerically. Similarly, despite ignoring sample
+expressed verbally, but not numerically. Similarly, despite ignoring sample
 distribution information, participants moderated their use of anecdotes by the
 similarity of the anecdote to the target project. Further, participants tended
 to integrate conflicting information about the projects through a trade-off.
-These results show that people's resource allocation decisions are bounded by an
-understanding of certain statistical principles, but that they are capable of
-more nuanced choice when given more salient information.
+These results show that people’s resource allocation decisions are bounded by
+limited understanding of certain statistical principles, but that they are
+capable of more nuanced choice when properly scaffolded..
