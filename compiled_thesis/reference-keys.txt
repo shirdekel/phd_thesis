@@ -221,7 +221,7 @@ procedure-1
 results-aggregation-2
 project-investment
 follow-up
-discussion
+discussion-aggregation-4
 general-discussion
 theoretical-implications
 how-does-choice-bracketing-facilitate-aggregation
@@ -241,7 +241,7 @@ allocation
 additional-measures
 procedure-2
 results
-discussion-1
+discussion
 alignment-3
 method-3
 participants-3
@@ -253,7 +253,7 @@ npv-knowledge-ratings
 variance-lecture
 procedure-alignment-3
 results-1
-discussion-2
+discussion-1
 experiment-3
 method-4
 participants-4
@@ -262,7 +262,7 @@ instructions-2
 project-display-1
 interstitial
 results-2
-discussion-3
+discussion-2
 general-discussion-1
 interstitial-2
 anecdotes
@@ -285,7 +285,7 @@ the-effect-of-similarity-on-anecdotal-bias
 the-effect-of-enhanced-statistics
 the-effect-of-statistics
 relevance-ratings
-discussion-4
+discussion-3
 anecdotes-2
 method-5
 participants-6
@@ -299,7 +299,7 @@ results-3
 overall-effect-of-manipulations
 anecdotal-bias-moderated-by-similarity
 effect-of-statistics
-discussion-5
+discussion-4
 general-discussion-2
 theoretical-implications-1
 practical-implications-1
@@ -347,7 +347,7 @@ project-number-1
 portfolio-choice---binary-1
 portfolio-choice---number-1
 gambles-1
-discussion-6
+discussion-5
 aggregation-4
 method-9
 participants-8
@@ -364,7 +364,7 @@ project-number-2
 portfolio-choice---binary-2
 portfolio-choice---number-2
 gambles-2
-discussion-7
+discussion-6
 alignment-appendix
 alignment-2-appendix
 method-10
@@ -379,7 +379,7 @@ ranking
 confidence
 forecast-mean
 forecast-sd-alignment-2
-discussion-8
+discussion-7
 alignment-3-appendix
 method-11
 materials-10
@@ -408,7 +408,7 @@ instructions-7
 procedure-8
 results-alignment-1
 confidence-2
-discussion-9
+discussion-8
 alignment-4
 method-13
 participants-11
@@ -419,7 +419,7 @@ procedure-9
 results-7
 forecast-mean-1
 forecast-sd-alignment-4
-discussion-10
+discussion-9
 experiment-6
 method-14
 participants-12
@@ -428,7 +428,7 @@ procedure-10
 results-8
 forecast-mean-2
 forecast-sd-alignment-5
-discussion-11
+discussion-10
 alignment-6
 method-15
 participants-13
@@ -437,7 +437,7 @@ procedure-11
 results-9
 allocation-1
 ranking-2
-discussion-12
+discussion-11
 alignment-7
 method-16
 participants-14
@@ -446,7 +446,7 @@ instructions-9
 project-display-2
 procedure-12
 results-10
-discussion-13
+discussion-12
 anecdotes-appendix
 anecdotes-1-appendix
 method-anecdotes-1-appendix
