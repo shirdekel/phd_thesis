@@ -85,13 +85,12 @@ identify the ways that decision-making in a diversified organisation might be
 different to that of a more integrated organisation. In the previous chapter I
 manipulated "similarity" by either showing a set of projects from the same
 industry or a set from different industries. This was meant to simulate an
-integrated and diversified firm, respectively. I assumed that participants
-understood that the dissimilar project set implied that the projects were not
-alignable. That is, even though the underlying specific project features were
-not shown, I assumed that participants would realise that two projects from the
-same industry would be easier to compare using their intrinsic underlying
-features. However, this may not have been the case and may explain the equivocal
-similarity effect. Therefore, Chapter \@ref(alignment) will show the project
-features explicitly and manipulate alignment, so that the difficulty of the
-comparison is more obvious.
+integrated and diversified firm, respectively. This manipulation was not as
+strong because there were no project attributes that could be aligned or not.
+That is, there was nothing actually non-alignable. This may explain the
+equivocal similarity effect. In the next chapter, I more fully manipulate
+alignability by having project attributes be critical to the evaluation.
+Therefore, Chapter \@ref(alignment) will show the project features explicitly
+and manipulate alignment, so that the difficulty of the comparison is more
+obvious.
 

@@ -1,8 +1,8 @@
 ## Chapter overview
 
 In sum the potential consequences for a diversified hierarchical structure are
-that projects will be consisdered one at a time, and if they are considered
-togetherj, disparate project types will make comparisons hard. Considering
+that projects will be considered one at a time, and if they are considered
+together, disparate project types will make comparisons hard. Considering
 projects one by one might mean that risk is not aggregated across projects and
 therefore value is lost. The difficultly to compare will lead to both
 potentially relying on unreliable metrics, and relying on improper anecdotal
@@ -28,17 +28,27 @@ bias suggests that managers might rely more on such case studies than on
 aggregated data, but it is unclear whether they will use relevance to moderate
 their decisions.
 
-Therefore, I investigate the psychology of resource allocation decisions in
-three chapters. In Chapter \@ref(aggregation) I investigate the effects of
-choice bracketing on risk aggregation without feedback. In
-Chapter \@ref(interstitial-1), I discuss the difference between evaluating
-project proposals with inherent budget estimates and the process of allocating
-an existing budget top-down. In Chapter \@ref(alignment) I investigate the
-effects of alignment and reliability type---verbal or numerical---on
-allocations. In Chapter \@ref(interstitial-2), I discuss the
-trade-offs that people make when using information to evaluate options such as
-project proposals. Finally, in Chapter \@ref(anecdotes) I investigate the effects
-of anecdote similarity on the anecdotal bias.
+The rest of this thesis investigates the psychology of resource allocation
+decisions in three chapters that describe empirical work, two theoretical
+chapters, and a general discussion chapter. Chapter \@ref(aggregation) describes
+two experiments that investigate the effects of choice bracketing on risk
+aggregation without feedback. Chapter \@ref(interstitial-1) is a short
+theoretical chapter that discusses the difference between evaluating project
+proposals with inherent budget estimates and the process of allocating an
+existing budget top-down. Chapter \@ref(alignment) describes three experiments
+that investigate the effects of alignment and reliability type---verbal or
+numerical---on allocations. Chapter \@ref(interstitial-2) is another short
+theoretical chapter that discusses the trade-offs that people make when using
+information to evaluate options such as project proposals.
+Chapter \@ref(anecdotes) describes two experiments that investigate the effects
+of anecdote similarity on the anecdotal bias. Finally, Chapter \@ref(discussion)
+discusses the theoretical and practical implications of the empirical chapters
+and concludes the thesis.
+
+Note that all the experiments in the thesis use laypeople, except for one
+experiment. However, past work generally shows the same biases in managers and
+lay people [with some showing more bias, e.g., @haigh2005]. Further, future work
+will directly test managers to determine any potential expertise effects.
 
 \newpage
 

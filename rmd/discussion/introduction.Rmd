@@ -103,3 +103,16 @@ Chapter \@ref(alignment), and sample distribution in Chapter \@ref(alignment).
 However, a formal understanding of such principles does not seem to be necessary
 if they are expressed explicitly (as in the aggregated distribution in
 Chapter \@ref(aggregation)).
+
+The statistical principles used in these studies are all likely accessible for
+people without much formal maths knowledge. A basic concept of risk aggregation
+is clearly available to laypeople as seen in the responses to multi-play gambles
+(e.g., one vs. 100 gambles). Further, people certainly have a basic
+understanding of numerical ranges and that a larger range means more spread.
+Despite having this understanding, participants in the above experiments were
+unable to use that understanding in the decisions. Similarly, other work has
+shown that people are sensitive to sampling. Therefore, it isn't the case that
+the people in my studies simply lacked statistical education. In fact, it is not
+clear that these effects will disappear with more maths knowledge and business
+experience. Previous work showed that expertise does not always remove biases
+and in some cases it seems to augment such effects [e.g., @haigh2005].

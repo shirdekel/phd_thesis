@@ -70,22 +70,25 @@ environments, which strengthens psychological biases.
 <!-- Not enough work on resource allocation biases -->
 
 One class of biases has not been well studied: resource allocation biases. This
-rather large hole in the literature because resource allocation decisions are at
-the centre of executive and lower level managers’ roles. When making capital
-allocation decisions, there are elements of the decision making environment that
-can be deceiving for managers. In this thesis I examine how the framing of a
-series of business projects affects people's decisions about those projects.
-Specifically, the same set of projects, presented in aggregate form, is much
-more likely to be accepted. Further, sometimes people are distracted by
+is a rather large hole in the literature because resource allocation decisions
+are at the centre of executive and lower level managers’ roles. When making
+capital allocation decisions, there are elements of the decision making
+environment that can be deceiving for managers. In this thesis I examine how the
+framing of a series of business projects affects people's decisions about those
+projects. Specifically, the same set of projects, presented in aggregate form,
+is much more likely to be accepted. Further, sometimes people are distracted by
 extraneous semantic information, such as the relative similarity of the options.
+
 I find that although people in general make sensible decisions, they fail to
 moderate them appropriately when presented with critical information.
 Specifically, information about metric variance is ignored even when other
 metrics are available. Further, people seem to appropriately use statistical and
 anecdotal information based on relevance to the situation at hand, but ignore
-information about the sampling of the anecdote. In short, people overall tend to
-make sound decisions, but fail to appropriately moderate them in situations that
-have more subtle statistical implications.
+information about the sampling of the anecdote. Below I discuss the important
+financial consequences of not appropriately using these kinds of statistical
+principles. In short, people overall tend to make sound decisions, but fail to
+appropriately moderate them in situations that have more subtle (but
+consequential) statistical implications.
 
 Next, I will explain how the resource allocation process functions in
 hierarchical organisations, and why it is necessary to analyse such a process

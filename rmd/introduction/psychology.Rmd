@@ -52,15 +52,16 @@ does not correspond with the quality of each proposal.
 Further, people tend to be over-confident in their decisions and forecasts
 [@langer1975; @mannes2013; @soll2004; @puri2007], and experts often do the same
 [@mckenzie2008], as do managers [@lovallo2003; @kahneman1993; @baroneadesi2013].
-This is important for managers that evaluate project proposals, both because the
-metrics that rely on estimates may be biased by the over-confidence of the
-manager that created the proposal, and because the evaluating manager may in
-turn be over-confident about the prospects of the proposal due to factors that
-are unrelated to the underlying value. Overconfidence is also seen when
-considering the success of projects in hindsight [@bukszar1988;
-@christensenszalanski1991]. This means that it less likely that managers will be
-able to effectively learn from both past mistakes and successes due to the
-potentially erroneous belief that the outcome was anticipated.
+This is important for higher-level managers that evaluate project proposals,
+both because the metrics that rely on estimates may be biased by the
+over-confidence of the lower-level manager that created the proposal, and
+because the higher-level evaluating manager may in turn be over-confident about
+the prospects of the proposal due to factors that are unrelated to the
+underlying value. Overconfidence is also seen when considering the success of
+projects in hindsight [@bukszar1988; @christensenszalanski1991]. This means that
+it less likely that managers will be able to effectively learn from both past
+mistakes and successes due to the potentially erroneous belief that the outcome
+was anticipated.
 
 Managers often create sensitivity analyses, estimating the worst case, best
 case, and most likely scenario for a forecast. However, these are likely to be
@@ -160,7 +161,7 @@ evaluate project proposals that involve an element of risk. Therefore, managers
 are likely to be affected by similar effects on risk that have been shown in
 laypeople. However, hierarchical organisations offer an even more complex
 situation. @lovallo2020 found that the risk profiles of lower-level managers are
-lower that those of the top managers. They suggest that this may be due to
+lower than those of the top managers. They suggest that this may be due to
 lower-level managers' risk aversion to accepting projects that may jeopardise
 their job. However, the top managers recognise that a loss in one or more
 business units is likely to be offset by gains in other units. Such an
@@ -168,16 +169,17 @@ inconsistency in risk profiles across the levels of an hierarchical organisation
 fails to take advantage of the benefits of risk aggregation, which has long been
 understood in external markets [@markowitz1952]. @lovallo2020 suggested that
 lower-level managers’ failure to aggregate risk to the degree desired by top
-executives is costing companies approximately 1/3 of the total EV of new project
-proposals. It is thus critical to identify ways to support risk aggregation
-across organizational hierarchies. The psychological literature shows that
-people's risk aggregation is facilitated through various choice bracketing
-manipulations. However, there has been no work that investigated such situations
-without providing participants with feedback in between decisions; this
-critically limits the external validity of this work because in the real world,
-organisations evaluate several projects before seeing the outcomes of any one
-decision. The experiments presented in Chapter \@ref(aggregation) investigate
-the effects of choice bracketing on risk aggregation without feedback.
+executives is costing companies approximately a third of the total EV of new
+project proposals. It is thus critical to identify ways to support risk
+aggregation across organizational hierarchies. The psychological literature
+shows that people's risk aggregation is facilitated through various choice
+bracketing manipulations. However, there has been no work that investigated such
+situations without providing participants with feedback in between decisions;
+this critically limits the external validity of this work because in the real
+world, organisations evaluate several projects before seeing the outcomes of any
+one decision. The experiments presented in Chapter \@ref(aggregation)
+investigate the effects of choice bracketing on risk aggregation without
+feedback.
 
 ### Project similarity
 

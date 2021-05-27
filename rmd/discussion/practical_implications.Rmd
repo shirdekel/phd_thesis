@@ -29,11 +29,15 @@ sequential project evaluation decisions.
 
 One implication of Chapter \@ref(alignment) is that it is important to expose
 the variance underlying abstract financial measures. Further, translating such
-numerical variance estimates into clear verbal clear would help facilitate
+numerical variance estimates into clear verbal information would help facilitate
 managers' understanding and implementation of such estimates. Organisational
 changes could include reducing diversification so that there is less reliance on
 abstract metrics. This would allow for more of a comparison between alignable
-project attributes, potentially reducing forecast error.
+project attributes, potentially reducing forecast error. @koller2017 found that
+companies with more similar business units report faster growth and greater
+profitability than competitors, compared to companies with dissimilar business
+units. Further, companies can also work to develop better metrics and establish
+norms about how much to discount a metric given its underlying variance.
 
 The main implication of Chapter \@ref(anecdotes) is that managers should pay
 attention to the way that they compare target projects to other cases. It is
