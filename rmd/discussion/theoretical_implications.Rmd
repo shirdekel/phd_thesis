@@ -23,7 +23,11 @@ in their decisions, which cues were ignored, and which cues were integrated
 allowed to specify the bounds of people's cognitive capacity in these decisions.
 The experiments showed that people struggle to use certain statistical
 principles in their decisions, but that they are also capable of making nuanced
-trade-offs and can be assisted by decision aides.
+trade-offs and can be assisted by decision aides. Understanding how
+decision-making in resource allocation is constrained and biased is important in
+order to improve decision-making. Even if decisions are largely consistent with
+normative principles, falling prey to the biases identified in the thesis can
+have severe consequences for organisations.
 
 In Chapter \@ref(aggregation) I presented participants with a resource
 allocation situation in which an understanding of risk aggregation would have

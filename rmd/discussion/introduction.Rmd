@@ -25,25 +25,28 @@ influence of project feature alignability and metric variance when comparing
 projects directly (Chapter \@ref(alignment)), and the influence of project
 anecdote similarity when the anecdote conflicts with statistical evidence
 (Chapter \@ref(anecdotes)). I will first summarise the results of the empirical
-chapters and then discuss their theoretical and practical implications.
+chapters and then discuss their theoretical and practical implications. Though,
+it is also worth noting that in the one case where the work examined people with
+management experience, the pattern of results was largely the same as with naive
+participants.
 
 ## Summary of results
 
 Chapter \@ref(aggregation) investigated the choice of risky business projects
-that are displayed sequentially and without feedback. This design modelled the
-real-life situation that managers are faced with in hierarchical organisations:
-an evaluation of a set of separate business project proposals over time with no
-immediate indication of the performance of those projects. Aggregating a
-portfolio of such projects is likely to show a lower chance of potential loss
-overall than might be originally assumed. The results from this chapter showed
-that people not only did not do this spontaneously, but also were not
-facilitated by manipulations that encouraged grouping choices together as a
-portfolio. People only seemed to recognise the benefits of aggregation when they
-were presented with an outcome probability distribution of the aggregated set of
-projects. There was no strong evidence that more subtle manipulations aimed at
-encouraging aggregation worked. Specifically, presenting projects together,
-specifying the total number of projects, and presenting projects that were all
-from the same industry did not encourage aggregation.
+that are displayed sequentially and without feedback in between decisions. This
+design modelled the real-life situation that managers are faced with in
+hierarchical organisations: an evaluation of a set of separate business project
+proposals over time with no immediate indication of the performance of those
+projects. Aggregating a portfolio of such projects is likely to show a lower
+chance of potential loss overall than might be originally assumed. The results
+from this chapter showed that people not only did not do this spontaneously, but
+also were not facilitated by manipulations that encouraged grouping choices
+together as a portfolio. People only seemed to recognise the benefits of
+aggregation when they were presented with an outcome probability distribution of
+the aggregated set of projects. There was no strong evidence that more subtle
+manipulations aimed at encouraging aggregation worked. Specifically, presenting
+projects together, specifying the total number of projects, and presenting
+projects that were all from the same industry did not encourage aggregation.
 
 Chapter \@ref(alignment) investigated resource allocation when projects were
 evaluated jointly and capital was allocated as a proportion of the budget,
