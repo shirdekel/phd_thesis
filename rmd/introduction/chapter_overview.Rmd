@@ -26,7 +26,8 @@ difficulty to compare across existing projects might instead mean a reliance on
 prior case studies from personal or external experience. Research on anecdotal
 bias suggests that managers might rely more on such case studies than on
 aggregated data, but it is unclear whether they will use relevance to moderate
-their decisions.
+their decisions. Further, it is unclear if they will appropriately use
+information about the sample distribution.
 
 The rest of this thesis investigates the psychology of resource allocation
 decisions in three chapters that describe empirical work, two theoretical
@@ -44,11 +45,6 @@ Chapter \@ref(anecdotes) describes two experiments that investigate the effects
 of anecdote similarity on the anecdotal bias. Finally, Chapter \@ref(discussion)
 discusses the theoretical and practical implications of the empirical chapters
 and concludes the thesis.
-
-Note that all the experiments in the thesis use laypeople, except for one
-experiment. However, past work generally shows the same biases in managers and
-lay people [with some showing more bias, e.g., @haigh2005]. Further, future work
-will directly test managers to determine any potential expertise effects.
 
 \newpage
 

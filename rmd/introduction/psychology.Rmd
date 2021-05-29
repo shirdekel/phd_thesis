@@ -1,35 +1,34 @@
-## Psychology of resource allocation
+## The psychology of resource allocation
 
 Managers of large organisations are generally assumed to have a superior
-decision-making capability. However, managerial decision-making involves many of
-the same processes that have been shown to be affected by psychological biases
-in the general population [@schwenk1984; @das1999; @mccray2002]. Further, an
-organisation's success ultimately depends on "strategic" decisions made by top
-level managers [@mazzolini1981]. Therefore, despite early work attempted to
-analyse such decisions using a structured organisational analysis [e.g.,
-@mintzberg1976], it is important to understand the potential influence of
-psychological biases on managerial decisions.
+decision-making capability to non-managers. However, managerial decision-making
+involves many of the same processes that have been shown to be affected by
+psychological biases in the general population [@schwenk1984; @das1999;
+@mccray2002]. Further, an organisation's success ultimately depends on
+"strategic" decisions made by top level managers [@mazzolini1981]. Therefore,
+despite early work attempting to analyse such decisions using a structured
+organisational analysis [e.g., @mintzberg1976], it is important to understand
+the potential influence of psychological biases on managerial decisions.
 
 Psychological research has shown that people tend to make decisions that are
-inconsistent with neoclassical economic theory. Such economic theory was based
-on Expected Utility Theory [EUT\; @friedman1948; @vonneumann1944], which made
-strong assumptions about the kind of information that people have when making
-decisions. However, both laypeople and managers of organisations are limited in
-the amount of information that they have and their ability to use it
-[@simon1955; @cyert1956]. Such inconsistencies with economic prescription are
-likely to have evolutionary origins, so are sure to be adaptive in certain
-environments [@haselton2009; @gigerenzer2008]. However, there are many
-situations in which such inconsistency with economic theory leads to poor
-outcomes.
+inconsistent with neoclassical economic theory. For instance, Expected Utility
+Theory [EUT\; @friedman1948; @vonneumann1944] assumed that people have complete
+information when making decisions. However, both laypeople and managers of
+organisations are limited in the amount of information that they have and their
+ability to use it [@simon1955; @cyert1956]. Such inconsistencies with economic
+prescription are likely to have evolutionary origins, so are sure to be adaptive
+in certain environments [@haselton2009; @gigerenzer2008]. However, there are
+many situations in which such inconsistency with economic theory can have bad
+consequences.
 
 <!-- Previous research  -->
 
 Research has shown many ways in which the allocation of resources in an
 organisation can be influenced by psychological biases. For instance,
 @benartzi2001 found that people tend to allocate their retirement fund equally
-between the available funds, regardless of their composition. This bias was also
-found in the capital allocation of hierarchical firms [@bardolet2011]. Managers
-allocate resources equally across the available divisions in the firm,
+between the available options, regardless of their composition. This bias was
+also found in capital allocation for hierarchical firms [@bardolet2011].
+Managers allocate resources equally across the available divisions in the firm,
 regardless of performance. This behaviour may be damaging to firm performance
 because it means that lower performing business units may be getting subsidised
 by higher performing units, which are not operating at their full potential.
@@ -50,22 +49,22 @@ attractive simply due to the level of detail in it, even if the level of detail
 does not correspond with the quality of each proposal.
 
 Further, people tend to be over-confident in their decisions and forecasts
-[@langer1975; @mannes2013; @soll2004; @puri2007], and experts often do the same
-[@mckenzie2008], as do managers [@lovallo2003; @kahneman1993; @baroneadesi2013].
+[@langer1975; @mannes2013; @soll2004; @puri2007], as do IT professionals
+[@mckenzie2008] and managers [@lovallo2003; @kahneman1993; @baroneadesi2013].
 This is important for higher-level managers that evaluate project proposals,
 both because the metrics that rely on estimates may be biased by the
-over-confidence of the lower-level manager that created the proposal, and
-because the higher-level evaluating manager may in turn be over-confident about
-the prospects of the proposal due to factors that are unrelated to the
-underlying value. Overconfidence is also seen when considering the success of
-projects in hindsight [@bukszar1988; @christensenszalanski1991]. This means that
-it less likely that managers will be able to effectively learn from both past
-mistakes and successes due to the potentially erroneous belief that the outcome
-was anticipated.
+over-confidence of the lower-level manager that created the proposal and because
+the higher-level manager may in turn be over-confident about the prospects of
+the proposal due to factors that are unrelated to the underlying value.
+Overconfidence is also seen when considering the success of projects in
+hindsight [@bukszar1988; @christensenszalanski1991]. This means that it less
+likely that managers will be able to effectively learn from both past mistakes
+and successes due to the potentially erroneous belief that the outcome was
+anticipated.
 
 Managers often create sensitivity analyses, estimating the worst case, best
 case, and most likely scenario for a forecast. However, these are likely to be
-anchored on past experiences that further the manager's existing agenda. In
+anchored on past experiences that further the manager's existing beliefs. In
 fact, prior research has shown that people are poor at constructing subjective
 probability distributions [e.g., @alpert1982; @schaefer1973;
 @staelvonholstein1971; @tversky1974]. Therefore, this suggests that even if the
@@ -74,8 +73,8 @@ so that they are not over-confident, they are still likely to provide inaccurate
 estimates of their degree of confidence.
 
 The above summarises many of the currently known psychological biases related to
-resource allocation. In this thesis I focus on three essential processes within
-the resource allocation process. When evaluating projects in hierarchical
+resource allocation. This thesis focuses on three essential processes within the
+resource allocation process. When evaluating projects in hierarchical
 organisations, there is often 1. an element of risky choice, 2. a comparison
 between diversified businesses, and 3. a comparison between the target project
 and prior experience. Each of these is prone to separate biases, that are also
@@ -84,75 +83,96 @@ subsections.
 
 ### Risky choice
 
-One of the most important finding of the risk choice literature is that losses
-have a stronger psychological impact than equivalent gains. This disparity is
-one of the most settled and consistent findings in psychology and economics. The
-fact that losses loom more than equivalent gains for the vast majority of people
-is referred to as loss aversion [@kahneman1979]. Loss aversion is a fundamental
-component of prospect theory, which is a theory of choice, and was the primary
-reason that Daniel Kahneman won the Nobel Prize in Economics in 2002
-[@kahneman2003]. Loss aversion has been found with small amounts in experimental
-settings [@kahneman1979; @tversky1992] and with millions of dollars in corporate
-settings [@koller2012; @swalm1966]. The effect has been found in young children
-[@harbaugh2001], the numerous disparate cultures in which it has been tested
-[@weber1998], and even in capuchin monkeys [@chen2006a]. Furthermore, a neural
-basis for loss aversion was identified [@tom2007]. Therefore, loss aversion is
-clearly central to human cognition and behaviour.
+<!-- Utility -->
 
-Such findings are different to the prescriptions of rational choice theory. At
-its simplest, this theory suggests that when faced with multiple risky options
-people should choose the option with the highest Expected Value (EV), all else
-being equal. This means multiplying the value of each option by its probability
-and comparing the resulting values [first documented in @pascal1999]. For
-instance, imagine being presented with the following two choices:
+Neoclassical theories such as EUT suggest that when faced with multiple risky
+options people should choose the option with the highest Expected Value (EV),
+all else being equal. This means multiplying the value of each option by its
+probability and comparing the resulting values [first documented in
+@pascal1999]. For instance, imagine being presented with the following two
+choices:
 
 A) a gamble that involves a 50% chance gaining $200 and a 50% chance of losing
 $100; or
 B) gaining/losing nothing.
 
 In option A, the EV is calculated as $200 \cdot 0.5 - 100 \cdot 0.5 = 50$. Since
-the EV for option A (50) is higher than the EV for option B (0), expected value
-theory would suggest that option A should be chosen.
+the EV for option A (50) is higher than the EV for option B (0), EUT would
+suggest that option A should be chosen.
 
 This basic principle was extended by @bernoulli1954, who suggested that a
 persons’ subjective value of money differs depending on their current wealth.
-This concept of diminishing marginal utility suggests that the more money a
-person already has, the less value acquiring more money will have for him. For
-example, the experience of a rich man that finds $10 on the street is very
-different to the experience of a homeless man that finds $10 [@bradley2013].
-Even though $10 was gained in both cases, $10 has less value to a person that
-already has, for example, $1000, than for a person that initially only has $10.
-This is called *diminishing returns* and is calculated by an exponential
-function (with a fractional exponent). Further, Prospect Theory [@kahneman1979]
-suggests that people’s subjective value of money does not depend on a person’s
-state of wealth---it depends on a person’s change of wealth from a reference
-point. This is important because people’s subjective value of money is different
-depending if they are gaining or losing money. Loss aversion showcases this
-idea. Namely, this is the way that people react to gains and losses relative to
-a reference point. Figure \@ref(fig:prospect-theory) shows loss aversion as the
-value function being steeper in the domain of losses than the domain of gains.
+This *diminishing marginal utility* suggests that the more money a person
+already has, the less value acquiring more money will have for him. For example,
+the experience of a rich man that finds $10 on the street is very different to
+the experience of a homeless man that finds $10 [@bradley2013]. Even though $10
+was gained in both cases, $10 has less value to a person that already has, for
+example, $1000, than for a person that initially only has $10. This principle is
+usually modelled as an power function (with a fractional exponent).
 
-(ref:prospect-theory) The value function in Prospect Theory [adapted from @kahneman1979]. The values for the exponent representing the extent diminishing returns ($\alpha$) and the loss aversion coefficient ($\lambda$) were 0.88 and 2.25, respectively. These were the median values calculated by @tversky1992 from experimental data.
+<!-- Prospect Theory -->
+
+Prospect Theory [@kahneman1979; @tversky1992] challenged EUT by suggesting that
+people’s subjective value of money does not depend on their state of wealth---it
+depends on a change of wealth from a reference point. This is important because
+people’s subjective value of money is different depending if they are gaining or
+losing money. Specifically, losses have a stronger psychological impact than
+equivalent gains. This disparity is one of the most settled and consistent
+findings in psychology and economics, having been well-replicated [e.g,
+@ruggeri2020]. The fact that losses loom more than equivalent gains for the vast
+majority of people is referred to as *loss aversion* [@kahneman1979]. This
+finding was the primary reason that Daniel Kahneman won the Nobel Prize in
+Economics in 2002 [@kahneman2003]. Loss aversion has been found with small
+amounts of money in experimental settings [@kahneman1979; @tversky1992] and with
+millions of dollars in corporate settings [@koller2012; @swalm1966]. The effect
+has been found in young children [@harbaugh2001], the numerous disparate
+cultures in which it has been tested [@weber1998], and even in capuchin monkeys
+[@chen2006a]. Furthermore, a neural basis for loss aversion was identified
+[@tom2007]. Therefore, loss aversion is clearly central to human cognition and
+behaviour.
+
+The function that represents the value of a prospect describes both loss
+aversion and diminishing marginal utility, as seen in
+Equation \@ref(eq:value-function):
+ 
+\begin{equation}
+v(x) = \left\{ \begin{array}{l}
+x^\alpha \text{ if } x \ge 0 \\
+-\lambda(-x)^\beta \text{ if } x < 0,
+(\#eq:value-function)
+\end{array} \right.
+\end{equation}
+
+where $x$ is the possible outcome, $\lambda$ represents the loss aversion
+coefficient, and $\alpha$ and $\beta$ represent the diminishing marginal utility
+for gains and losses, respectively.
+
+In other words, loss aversion means that losses have more impact than equivalent
+gains. In fact, the impact of loss aversion can be expressed even more
+precisely, as a measurement of the ratio of the slopes of the curve for gains
+and losses. This measure tells us the average amount that losses have more
+impact than equivalent gains. In a sequel to the original prospect theory paper,
+@tversky1992 measured a median coefficient ($\lambda$) of 2.25 of loss aversion.
+This means that people respond to losses 2.25 times more than equivalent gains.
+Similarly, this paper measured a median exponent (representing diminishing
+marginal utility, $\alpha$ and $\beta$) of 0.88 for both gains and losses. This
+means that people discount money the more of it they have by a rate of
+$x^{0.88}$.
+
+Figure \@ref(fig:prospect-theory) shows loss aversion as the function being
+steeper in the domain of losses than the domain of gains. It shows diminishing
+marginal utility by the slight curve of the function. Equivalent changes in
+actual wealth from the references point (x-axis) have different impacts on the
+changes’ subjective value (y-axis). An increase in wealth ($+x = 1$) brings
+about an equivalent increase of value ($+y^{0.88} = 1$). However, a decrease in
+the same amount of wealth ($-x = -1$) brings about a decrease in value 2.25
+times the value of the equivalent gain ($-2.25y^{0.88} = 2.04$).
+
+(ref:prospect-theory) An example of the value function in Prospect Theory.
 
 ```{r prospect-theory, fig.cap = "(ref:prospect-theory)", fig.width = 6, fig.height = 6}
 tar_read(prospect_theory)
 ```
-
-In plain language, loss aversion means that losses have more impact than
-equivalent gains. In fact, the impact of loss aversion can be expressed even
-more precisely, as a measurement of the ratio of the slopes of the curve for
-gains and losses. This measure tells us the average amount that losses have more
-impact than equivalent gains. In a sequel to the original prospect theory paper,
-@tversky1992 measured a median coefficient of 2.25 of loss aversion. This means
-that people respond to losses 2.25 times more than equivalent gains.
-Figure \@ref(fig:prospect-theory) shows this disparity. Equivalent changes in
-actual wealth from the references point (x-axis) have different impacts on the
-changes’ subjective value (y-axis). An increase in wealth (+x) brings about an
-increase of value (+y). However, a decrease in the same amount of wealth (-x)
-brings about a decrease in value 2.25 times the value of the equivalent gain
-(-2.25y). The straight lines adjacent to the curves showcase that the function
-is steeper in the loss domain than it is in the gain domain. This difference of
-slope is another indicator of loss aversion.
 
 <!-- Management connection -->
 
@@ -162,7 +182,7 @@ are likely to be affected by similar effects on risk that have been shown in
 laypeople. However, hierarchical organisations offer an even more complex
 situation. @lovallo2020 found that the risk profiles of lower-level managers are
 lower than those of the top managers. They suggest that this may be due to
-lower-level managers' risk aversion to accepting projects that may jeopardise
+lower-level managers' loss aversion to accepting projects that may jeopardise
 their job. However, the top managers recognise that a loss in one or more
 business units is likely to be offset by gains in other units. Such an
 inconsistency in risk profiles across the levels of an hierarchical organisation
@@ -204,13 +224,13 @@ metrics.
 Structure-mapping theory [SMT\; @gentner1997; @gentner1983] provides a model of
 comparison that psychologically distinguishes similar and dissimilar allocation
 tasks. SMT models comparison as a process of bringing conceptual structures into
-alignment, which when possible, puts shared component dimensions into
-correspondence. Alignment both highlights when two conceptual structures share
-dimensions, but also highlights how the two structures differ along those shared
-dimensions, called *alignable differences*. For example, when comparing two oil
-discovery projects, all the relevant processes of planning an exploration and
-measuring the amount of hydrocarbons in a prospect might be identical, but the
-specific amount measured will be different. This is the alignable difference: a
+alignment which, when possible, puts shared dimensions into correspondence.
+Alignment both highlights when two conceptual structures share dimensions, but
+also highlights how the two structures differ along those shared dimensions,
+called *alignable differences*. For example, when comparing two oil discovery
+projects, all the relevant processes of planning an exploration and measuring
+the amount of hydrocarbons in a prospect might be identical, but the specific
+amount measured will be different. This is the alignable difference: a
 difference between the two projects that is constrained within the same
 conceptual structure. However, when comparing between an oil field and a
 refinery, there will be significantly more *non-alignable differences*, because
@@ -220,8 +240,8 @@ different dimensional structure to those in the refinery business unit, such
 that it will be difficult to find meaningful alignments. More non-alignable
 differences mean that there are less opportunities to make meaningful
 comparisons, and so would make predicting relative project success and ranking
-their priority more difficult. In Chapter \@ref(alignment), I experimentally
-examined business project comparisons and how project alignment affects resource
+their priority more difficult. Chapter \@ref(alignment) experimentally examines
+business project comparisons and how project alignment affects resource
 allocation decisions.
 
 <!-- Metric variance -->
@@ -245,8 +265,8 @@ numerical variance information [@galesic2010; @konold1993; @vivalt2018;
 to variance information in the metrics associated with the projects that they
 evaluate. On the one hand, perhaps managers' financial training will allow a
 consideration of such variance estimates, but this might not manifest in a
-situation in which managers have already been shown to be prone to biases. In
-Chapter \@ref(alignment), I investigate whether people are as sensitive to
+situation in which managers have already been shown to be prone to biases.
+Chapter \@ref(alignment) investigates whether people are as sensitive to
 verbally-instructed reliability information as they are to numerical reliability
 information.
 
@@ -261,9 +281,9 @@ evaluating project proposals may make inappropriate comparisons when considering
 the target project to other cases. For instance, people tend to limit the sample
 size of the set of comparison cases to a target problem to a small number. Often
 only a handful of cases, or even one. Doing this might mean only considering
-surface similarity to the current situation and not an alignment of the
-underlying causal structure. Further, this might mean not considering other
-similar projects.
+potentially irrelevant surface similarity to the current situation and not an
+alignment of the underlying causal structure. Further, this might mean not
+considering other similar projects.
 
 @tversky1974 discussed a number of biases that may influence such processes. The
 availability bias is seen when people mistake the ease of retrieval of
@@ -300,7 +320,9 @@ made between easily identifiable but potentially functionally irrelevant
 attributes, and relational similarity, in which the underlying mechanism is
 considered. Are managers sensitive to the deeper causal mechanisms that underlie
 the anecdotes they judge? Or are they simply influenced by surface similarity?
-In Chapter \@ref(anecdotes), I investigate the extent to which people moderate
-their reliance on anecdotes or aggregated data by the relevance of the anecdote
-to the target project during resource allocation.
+Chapter \@ref(anecdotes) investigates the extent to which people moderate their
+reliance on anecdotes or aggregated data by the relevance of the anecdote to the
+target project during resource allocation. It also considers whether people are
+sensitive to information about the distribution from which the anecdote was
+sampled.
 
