@@ -34,9 +34,18 @@ list(
     prospect_theory,
     plot_prospect_theory()
   ),
-  tar_file(input, "index.Rmd"),
-  tar_file(config_file, "_bookdown.yml"),
-  tar_file(deps, unlist(thesis_deps)),
+  tar_file(
+    input,
+    "index.Rmd"
+  ),
+  tar_file(
+    config_file,
+    "_bookdown.yml"
+  ),
+  tar_file(
+    deps,
+    unlist(thesis_deps)
+  ),
   tar_file(
     thesis,
     render_with_deps(
