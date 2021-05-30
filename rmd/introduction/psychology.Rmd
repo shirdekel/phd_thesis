@@ -163,10 +163,10 @@ Figure \@ref(fig:prospect-theory) shows loss aversion as the function being
 steeper in the domain of losses than the domain of gains. It shows diminishing
 marginal utility by the slight curve of the function. Equivalent changes in
 actual wealth from the references point (x-axis) have different impacts on the
-changes’ subjective value (y-axis). An increase in wealth ($+x = 1$) brings
-about an equivalent increase of value ($+y^{0.88} = 1$). However, a decrease in
-the same amount of wealth ($-x = -1$) brings about a decrease in value 2.25
-times the value of the equivalent gain ($-2.25y^{0.88} = 2.04$).
+changes’ subjective value (y-axis). An increase in wealth ($x = 1$) brings about
+an equivalent increase of value ($y = 1^{0.88} = 1$). However, a decrease in the
+same amount of wealth ($x = -1$) brings about a decrease in value 2.25 times the
+value of the equivalent gain ($y = -2.25 \cdot (-(-1))^{0.88} = -2.25$).
 
 (ref:prospect-theory) An example of the value function in Prospect Theory.
 
