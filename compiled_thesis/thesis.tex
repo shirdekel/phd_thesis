@@ -170,7 +170,7 @@
 % Your full degree name.  (But remember that DPhils aren't "in" anything.  They're just DPhils.)
 \degree{Doctor of Philosophy (Science)}
 % Term and year of submission, or date if your board requires (eg most masters)
-\degreedate{2021-05-26 16:29:48}
+\degreedate{2021-05-30 10:46:29}
 
 
 %%%%% YOUR OWN PERSONAL MACROS
@@ -333,9 +333,8 @@
 
 
 \begin{savequote}
-An executive is a man who can make quick decisions and is sometimes
-right.
-\qauthor{---Elbert Hubbard}\end{savequote}
+Executive: A man who can make quick decisions and is sometimes right.
+\qauthor{---Elbert \textcite{hubbard1914}}\end{savequote}
 
 \hypertarget{introduction}{%
 \chapter{Introduction}\label{introduction}}
@@ -343,7 +342,7 @@ right.
 \minitoc
 
 Much of modern life depends on large organisations. General Electric (GE) makes
-the engines that go in our aircrafts, Johnson \& Johnson make our shampoo, and
+the engines that power our aircrafts, Johnson \& Johnson makes our shampoo, and
 Google allows us to search the internet. The areas of our lives that are less
 affected by such private firms, depend on public sector organisations such as
 public hospitals, schools, and police. The justification for the existence of
@@ -358,13 +357,13 @@ structure, with a corporate management team and subsidiary divisions. Each
 division is usually made up of several business units. For instance, some of
 GE's divisions include GE Aviation and GE Healthcare. Similarly, in the public
 sector, a hospital system may operate through multiple individual hospitals in
-certain regions.
+different regions.
 
 Such organisations therefore need to make resource allocation decisions. That
-is, given a limited amount of resources (e.g., financial, organisational), how
-best to invest in the multiple divisions? Equally? Pick a winner? Resource
-allocation is a critical process to the operation and development of
-multi-divisional organisations.
+is, given a limited amount of resources (e.g., financial or organisational), how
+best to invest in the multiple divisions? Equally? Pick a winner? What metric
+should be used to compare across divisions? Resource allocation is a critical
+process to the operation and development of multi-divisional organisations.
 
 The products and services that arise from organisations are (necessarily) a
 result of the work of many people. In GE, for instance, the factories that
@@ -379,33 +378,44 @@ It is often assumed that a few people having a lot of decision-making power is
 for the best. Managers of large organisations often appear to be bold and
 effective decision-makers. It appears that their position of power and wealth
 was necessarily arrived at through high competence and rational decision-making,
-suggesting the organisation is in good hands. However, that much of an
-organisation's future (and by extension often many more components of the
-economy) depends on the decisions of a few individual may be concerning for
-three reasons. First, it is unclear what the role of survivorship bias was in
-obtaining the manager's role, because the number of managers that used the same
-strategy and failed is unknown. Second, decades of work have shown that people's
-decision-making is often fallible and that job experience does not always
-alleviate this. Third, managers of large organisations often face uncertain
-environments, which strengthens psychological biases.
+suggesting that the organisation is in good hands. However, there are three
+reasons why it may be concerning that much of an organisation's future---and by
+extension often many more components of the economy---depends on the decisions
+of a few individual. First, the role of survivorship bias in obtaining the
+manager's role is unclear, because the number of managers that used the same
+management strategy and failed is unknown. Second, decades of work have shown
+that people's decision-making is often fallible and that job experience does not
+always alleviate this fallibility. Third, managers of large organisations often
+face uncertain environments, which increases the likelihood of managers facing
+psychological biases.
 
-One class of biases has not been well studied: resource allocation biases. This
-rather large hole in the literature because resource allocation decisions are at
-the centre of executive and lower level managers' roles. When making capital
-allocation decisions, there are elements of the decision making environment that
-can be deceiving for managers. In this thesis I examine how the framing of a
-series of business projects affects people's decisions about those projects.
-Specifically, the same set of projects, presented in aggregate form, is much
-more likely to be accepted. Further, sometimes people are distracted by
-extraneous semantic information, such as the relative similarity of the options.
-I find that although people in general make sensible decisions, they fail to
-moderate them appropriately when presented with critical information.
+One class of biases has not been well studied: resource allocation biases. While
+some previous work exists \autocite[e.g.,][]{bardolet2011}, many questions still remain
+unanswered. This is a rather large hole in the literature because resource
+allocation decisions are at the centre of executive and lower level managers'
+roles. When making capital allocation decisions, there are elements of the
+decision-making environment that can be deceiving for managers. This thesis
+examines how the framing of a series of business projects affects people's
+decisions about those projects. Specifically, the same set of projects,
+presented in aggregate form, is much more likely to be accepted. Further,
+sometimes people are distracted by extraneous semantic information, such as the
+relative similarity of the options.
+
+The results show that although people in general make sensible decisions, they
+fail to moderate them appropriately when presented with critical information.
 Specifically, information about metric variance is ignored even when other
 metrics are available. Further, people seem to appropriately use statistical and
 anecdotal information based on relevance to the situation at hand, but ignore
-information about the sampling of the anecdote. In short, people overall tend to
-make sound decisions, but fail to appropriately moderate them in situations that
-have more subtle statistical implications.
+information about the sampling of the anecdote. Below I discuss the important
+financial consequences of not appropriately using these kinds of statistical
+principles. In short, people overall tend to make sound decisions, but fail to
+appropriately moderate them in situations that have more subtle (but
+consequential) statistical implications.
+
+Note that all the experiments in the thesis use laypeople, except for one
+experiment. However, past work generally shows the same biases in managers and
+laypeople \autocite[with some showing more bias, e.g.,][]{haigh2005}. Further, future work
+will directly test managers to determine any potential expertise effects.
 
 Next, I will explain how the resource allocation process functions in
 hierarchical organisations, and why it is necessary to analyse such a process
@@ -417,50 +427,50 @@ Finally, I will summarise the rest of the thesis chapters.
 
 The purpose of a multi-divisional organisation is to generate more value than
 any of the individual divisions combined. The whole should be greater than the
-sum of its parts. Reasons for this to work include reduced transaction costs
-\autocite{williamson1981,teece1982,teece1980,coase1937}, shared resources
-\autocite{wernerfelt1984,barney1991}, increased competitive advantage \autocite{porter1998a,porter1998}, and increased synergies \autocite{barney1988}. The underlying logic is the
-same: a multi-divisional organisation will be successful if it manages its
-divisions using processes and resources that are shared, or better yet, are
-complementary.
+sum of its parts. Previous work suggests that this is achieved due to factors
+such as reduced transaction costs \autocite{williamson1981,teece1982,teece1980,coase1937}, shared resources \autocite{wernerfelt1984,barney1991}, increased
+competitive advantage \autocite{porter1980,porter1985}, and increased synergies
+\autocite{barney1988}. The underlying logic is the same: a multi-divisional organisation
+will be successful if it manages its divisions using processes and resources
+that are shared or, better yet, are complementary.
 
-In order to successfully manage multiple units, large organisations developed an
+In order to successfully manage multiple units, large organisations developed a
 hierarchical structure. \textcite{bower1970} identified three levels of the typical
 management hierarchy: business, division, and corporate. These are equivalent to
 front-line (or bottom), middle, and top level managers \autocite{noda1996}. Early
-theorists suggested that the organisation's strategy originates completely in
-the top managers, with the rest of the organisation simply enacting their
+theorists suggested that the strategy for the organisation's growth is driven
+completely by the top managers; the rest of the organisation simply enacts their
 proposals. However, \textcite{mintzberg1985} emphasised the role of an emergent strategy,
 in which lower level managers affect change in the organisation's strategy.
-Subsequent work proposed and found evidence for an iterated process in which a
-strategic context may be set by top managers and projects advanced by lower
-level managers contribute to driving the strategy of the organisation
+Other work proposed and found evidence for an iterated process in which a
+strategic context may be set by top managers, but projects advanced by lower
+level managers also contribute to driving the strategy of the organisation
 \autocite{noda1996,burgelman1983,bower1970}.
 
 The way that resources are allocated in an organisation is very important to its
 growth and longevity. Analysing the performance of organisations using a
-resource-based view has led to a substantial field of research that relates to
-many other approaches in the management literature \autocite{mahoney1992,barney1991}.
-The resource allocation process itself is one of the most important drivers of
-the strategic outcomes of an organisation \autocite{bower1970,bower2005}. A \emph{resource}
-can refer to many types of assets that an organisation owns, both tangible and
-intangible, of which capital is only one \autocite{wernerfelt1984}. In the resource
-allocation process, business-level managers formulate project proposals, which
-their division managers then evaluate. The division managers then choose the
-projects to send for final approval with the corporate managers.
+resource-based view has led to a substantial field of research that has been
+related to many other approaches in the management literature \autocite{mahoney1992,barney1991}. The resource allocation process itself is one of the most
+important drivers of the strategic outcomes of an organisation \autocite{bower1970,bower2005}. A \emph{resource} can refer to many types of assets that an organisation
+owns, both tangible and intangible, of which capital is only one
+\autocite{wernerfelt1984}. In the resource allocation process, business-level managers
+formulate project proposals, which their division managers then evaluate. The
+division managers then choose the projects to send for final approval with the
+corporate managers.
 
 Managers ultimately have only limited information about the projects that they
 evaluate. They typically have access to descriptive information about the
 investment and its known properties, but also are provided with financial
 metrics that estimate the returns on the investment. There are many such
-metrics, that usually attempt to encapsulate a trade-off between predicted
+metrics; they usually attempt to encapsulate a trade-off between predicted
 future gains, present losses (in the form of the capital spent to pay for the
 investment), and opportunity costs. Examples include Net Present Value (NPV),
 Internal Rate of Return (IRR), Return on Investment (ROI), Cost-Benefit (CB),
-and Pay-Back Period (PBP). In this thesis I will focus on NPV, since it is one
-of the most frequently used metrics for project evaluation \autocite{graham2001,remer1993}. NPV is the difference between the money that a project is
-forecasted to make and the initial investment in its development (accounting for
-the time value of money), as seen in Equation~\eqref{eq:npv}:
+and Pay-Back Period (PBP). This thesis focuses on NPV, since it is one of the
+most frequently used metrics for project evaluation \autocite{graham2001,remer1993}.
+NPV is the difference between the money that a project is forecasted to make and
+the initial investment in its development (accounting for the time value of
+money), as seen in Equation~\eqref{eq:npv}:
 
 \begin{equation}
 \text{NPV}=\sum_{t=0}^n \frac{R_t}{(1+i)^t}, \label{eq:npv}
@@ -470,25 +480,25 @@ where \(t\) is the time of the cash flow, \(i\) is the discount rate, \(R_t\) is
 net cash flow, and \(n\) is the total number of periods. NPV is a useful metric
 because simply knowing that it is positive suggests that the project that it
 describes should be profitable. Therefore, metrics such as these have a strong
-influence on the evaluating manager's decision.
+influence on the decision of the manager evaluating a project.
 
-However, there can be other influences on a project evaluations other than the
-value of the financial metrics. For instance, politics within or outside the
-company can lead to situations in which a decision is based on social influence
-or even manipulation \autocite{garbuio2017}. Such influence is not necessarily negative; it may involve
-qualitative feedback from, for instance, a more senior manager \autocite{thamhain2014}.
-Research has also shown that the media can have a tangible influence on
-managerial decision-making \autocite{bednar2013,liu2013}. Other source of influence on
-managerial decision-making are the organisational structures and incentives that
-are in place both externally \autocite{kokkinis2019}, and internally to the organisation
+However, there are other influences on project evaluations other than the value
+of the financial metrics. For instance, politics within or outside the company
+can lead to situations in which a decision is based on social influence or even
+manipulation \autocite{garbuio2017}. Such influence is not necessarily negative; it may
+involve qualitative feedback from, for instance, a more senior manager
+\autocite{thamhain2014}. Research has also shown that the media can have a tangible
+influence on managerial decision-making \autocite{bednar2013,liu2013}. Other sources
+of influence are the organisational structures and incentives that are in place
+both externally \autocite{kokkinis2019} and internally to the organisation
 \autocite{ullrich2004}. Such dynamics have also been the subject of economic modelling
 investigations \autocite{reichelstein1997,cavagnac2005,ortner2017}. Project
 proposals might also be affected by certain financial structures. For instance,
 managers might submit overly-optimistic project proposals if they know that the
 corporate team only accepts projects with a certain minimum NPV forecast.
 
-Another organisational influence on firm performance is the extent of
-diversification present in an organisation. A diversified organisation is one
+Another potential organisational influence on resource allocation is the extent
+of diversification present in an organisation. A diversified organisation is one
 that possesses different divisions that are unrelated in some way. \textcite[p.~96]{penrose2009} suggested that it is not useful to refer to a ``diversified'' firm or the
 ``extent of diversification.'' Instead:
 
@@ -500,67 +510,72 @@ from the other products it produces to imply some significant difference in
 the firm's production or distribution programmes.
 \end{quote}
 
-Therefore, the research on diversification is quite varied in the ways that
-diversification is operationalised. Some work found that organisations that are
-made up of more related divisions are more successful than those that are made
-up of unrelated divisions \autocite{harrison1993,rumelt1974,shelton1988,wernerfelt1988}. This is also true within business divisions \autocite{davis1992}.
-However, \emph{more} diversified firms have also been shown to be associated with
-profitability \autocite{grant1988}. Some of this discrepancy has been explained to be
-due to the specific measures used \autocite{lubatkin1986}. It may also be because most
-studies used Standard Industrial Classification (SIC) codes to measure
-diversification \autocite[e.g.,][]{rumelt1974}, whereas others operationalised it using
-other approaches \autocite[e.g., resource-based;][]{harrison1993}.
+Previous work found that organisations that are made up of more related
+divisions are more successful than those that are made up of unrelated divisions
+\autocite{harrison1993,rumelt1974,shelton1988,wernerfelt1988}. This is also true
+within business divisions \autocite{davis1992}. However, \emph{more} diversified firms have
+also been shown to be associated with profitability \autocite{grant1988}. Some of this
+discrepancy has been explained to be due to the specific measures used
+\autocite{lubatkin1986}. It may also be because most studies used Standard Industrial
+Classification (SIC) codes to measure diversification \autocite[e.g.,][]{rumelt1974},
+whereas others operationalised it using other approaches \autocite[e.g., resource-based;][]{harrison1993}.
 
 The advantage that related organisations have had has been explained through
 ``synergies'' \autocite{barney1988}. That is, an organisation with two divisions that can
 use their resources to better one another are better off together than
 separately. The 1960s saw a general rise in mergers and acquisitions from
 executives seeking to diversify their organisations. However, doing so simply
-for the sake of the increase of divisions, rather than an understanding of the
-possible synergies will lead to the organisation actually being worth less than
-the sum of its parts (diversification discount). In fact, many organisations
-that acquired other businesses to diversify subsequently end up divesting them
-\autocite{porter1987}.
+for the sake of increasing divisions, rather than an understanding of the
+possible synergies, will lead to the organisation actually being worth less than
+the sum of its parts (known as a \emph{diversification discount}). In fact, many
+organisations that acquired other businesses to diversify subsequently end up
+divesting them \autocite{porter1987}.
 
 While much of the performance of an organisation depends on influences that are
 external to the individual managers (e.g., organisational, political),
-psychological factors are often also quite consequential. The influences
-discussed above often assume that the manager making the decisions acts
-rationally, as per neoclassical economic theory. However, research in psychology
-has shown that this is often not the case. In fact, the field of behavioural
-strategy now exists to study the effects of psychological biases on managerial
-strategy \autocite{powell2011}. I discuss this and the relevant implications for the
-thesis in the following section.
+psychological factors are often also quite consequential. For instance, on the
+one hand, organisational factors such as relevant support teams and approval
+processes may influence resource allocation depending on the extent of an
+organisation's extent of diversification. On the other hand, psychological
+factors such as the perceived similarity of two project proposals may also
+impact allocation differently depending on the organisation's diversification.
+It is likely to be more difficult for a manager to evaluate project proposals
+from two dissimilar divisions that it is to evaluate those from two similar
+divisions. The organisational influences discussed above often assume that the
+manager that is making the decisions acts rationally, as per traditional
+economic theory. However, research in psychology has shown that this is often
+not the case. In fact, research in the field of behavioural strategy studies the
+effects of psychological biases on managerial strategy \autocite{powell2011}. I discuss
+this and the relevant implications for the thesis in the following section.
 
-\section{Psychology of resource allocation}
+\section{The psychology of resource allocation}
 
 Managers of large organisations are generally assumed to have a superior
-decision-making capability. However, managerial decision-making involves many of
-the same processes that have been shown to be affected by psychological biases
-in the general population \autocite{schwenk1984,das1999,mccray2002}. Further, an
-organisation's success ultimately depends on ``strategic'' decisions made by top
-level managers \autocite{mazzolini1981}. Therefore, despite early work attempted to
-analyse such decisions using a structured organisational analysis \autocite[e.g.,][]{mintzberg1976}, it is important to understand the potential influence of
-psychological biases on managerial decisions.
+decision-making capability to non-managers. However, managerial decision-making
+involves many of the same processes that have been shown to be affected by
+psychological biases in the general population \autocite{schwenk1984,das1999,mccray2002}. Further, an organisation's success ultimately depends on
+``strategic'' decisions made by top level managers \autocite{mazzolini1981}. Therefore,
+despite early work attempting to analyse such decisions using a structured
+organisational analysis \autocite[e.g.,][]{mintzberg1976}, it is important to understand
+the potential influence of psychological biases on managerial decisions.
 
 Psychological research has shown that people tend to make decisions that are
-inconsistent with neoclassical economic theory. Such economic theory was based
-on Expected Utility Theory \autocites[EUT;][]{friedman1948,vonneumann1944}, which made
-strong assumptions about the kind of information that people have when making
-decisions. However, both laypeople and managers of organisations are limited in
-the amount of information that they have and their ability to use it
-\autocite{simon1955,cyert1956}. Such inconsistencies with economic prescription are
-likely to have evolutionary origins, so are sure to be adaptive in certain
-environments \autocite{haselton2009,gigerenzer2008}. However, there are many
-situations in which such inconsistency with economic theory leads to poor
-outcomes.
+inconsistent with neoclassical economic theory. For instance, Expected Utility
+Theory \autocites[EUT;][]{friedman1948,vonneumann1944} assumed that people have complete
+information when making decisions. However, both laypeople and managers of
+organisations are limited in the amount of information that they have and their
+ability to use it \autocite{simon1955,cyert1956}. Such inconsistencies with economic
+prescription are likely to have evolutionary origins, so are sure to be adaptive
+in certain environments \autocite{haselton2009,gigerenzer2008}. However, there are
+many situations in which such inconsistency with economic theory can have bad
+consequences.
 
 Research has shown many ways in which the allocation of resources in an
 organisation can be influenced by psychological biases. For instance,
 \textcite{benartzi2001} found that people tend to allocate their retirement fund equally
-between the available funds, regardless of their composition. This bias was also
-found in the capital allocation of hierarchical firms \autocite{bardolet2011}. Managers
-allocate resources equally across the available divisions in the firm,
+between the available options, regardless of their composition. This bias was
+also found in capital allocation for hierarchical firms \autocite{bardolet2011}.
+Managers allocate resources equally across the available divisions in the firm,
 regardless of performance. This behaviour may be damaging to firm performance
 because it means that lower performing business units may be getting subsidised
 by higher performing units, which are not operating at their full potential.
@@ -581,20 +596,22 @@ attractive simply due to the level of detail in it, even if the level of detail
 does not correspond with the quality of each proposal.
 
 Further, people tend to be over-confident in their decisions and forecasts
-\autocite{langer1975,mannes2013,soll2004,puri2007}, and experts often do the same
-\autocite{mckenzie2008}, as do managers \autocite{lovallo2003,kahneman1993,baroneadesi2013}.
-This is important for managers that evaluate project proposals, both because the
-metrics that rely on estimates may be biased by the over-confidence of the
-manager that created the proposal, and because the evaluating manager may in
-turn be over-confident about the prospects of the proposal due to factors that
-are unrelated to the underlying value. Overconfidence is also seen when
-considering the success of projects in hindsight \autocite{bukszar1988,christensenszalanski1991}. This means that it less likely that managers will be
-able to effectively learn from both past mistakes and successes due to the
-potentially erroneous belief that the outcome was anticipated.
+\autocite{langer1975,mannes2013,soll2004,puri2007}, as do IT professionals
+\autocite{mckenzie2008} and managers \autocite{lovallo2003,kahneman1993,baroneadesi2013}.
+This is important for higher-level managers that evaluate project proposals,
+both because the metrics that rely on estimates may be biased by the
+over-confidence of the lower-level manager that created the proposal and because
+the higher-level manager may in turn be over-confident about the prospects of
+the proposal due to factors that are unrelated to the underlying value.
+Overconfidence is also seen when considering the success of projects in
+hindsight \autocite{bukszar1988,christensenszalanski1991}. This means that it less
+likely that managers will be able to effectively learn from both past mistakes
+and successes due to the potentially erroneous belief that the outcome was
+anticipated.
 
 Managers often create sensitivity analyses, estimating the worst case, best
 case, and most likely scenario for a forecast. However, these are likely to be
-anchored on past experiences that further the manager's existing agenda. In
+anchored on past experiences that further the manager's existing beliefs. In
 fact, prior research has shown that people are poor at constructing subjective
 probability distributions \autocites[e.g.,][]{alpert1982,schaefer1973,staelvonholstein1971,tversky1974}. Therefore, this suggests that even if the
 lower-level managers that construct project proposals calibrate their forecasts
@@ -602,8 +619,8 @@ so that they are not over-confident, they are still likely to provide inaccurate
 estimates of their degree of confidence.
 
 The above summarises many of the currently known psychological biases related to
-resource allocation. In this thesis I focus on three essential processes within
-the resource allocation process. When evaluating projects in hierarchical
+resource allocation. This thesis focuses on three essential processes within the
+resource allocation process. When evaluating projects in hierarchical
 organisations, there is often 1. an element of risky choice, 2. a comparison
 between diversified businesses, and 3. a comparison between the target project
 and prior experience. Each of these is prone to separate biases, that are also
@@ -612,27 +629,11 @@ subsections.
 
 \subsection{Risky choice}
 
-One of the most important finding of the risk choice literature is that losses
-have a stronger psychological impact than equivalent gains. This disparity is
-one of the most settled and consistent findings in psychology and economics. The
-fact that losses loom more than equivalent gains for the vast majority of people
-is referred to as loss aversion \autocite{kahneman1979}. Loss aversion is a fundamental
-component of prospect theory, which is a theory of choice, and was the primary
-reason that Daniel Kahneman won the Nobel Prize in Economics in 2002
-\autocite{kahneman2003}. Loss aversion has been found with small amounts in experimental
-settings \autocite{kahneman1979,tversky1992} and with millions of dollars in corporate
-settings \autocite{koller2012,swalm1966}. The effect has been found in young children
-\autocite{harbaugh2001}, the numerous disparate cultures in which it has been tested
-\autocite{weber1998}, and even in capuchin monkeys \autocite{chen2006a}. Furthermore, a neural
-basis for loss aversion was identified \autocite{tom2007}. Therefore, loss aversion is
-clearly central to human cognition and behaviour.
-
-Such findings are different to the prescriptions of rational choice theory. At
-its simplest, this theory suggests that when faced with multiple risky options
-people should choose the option with the highest Expected Value (EV), all else
-being equal. This means multiplying the value of each option by its probability
-and comparing the resulting values \autocite[first documented in][]{pascal1999}. For
-instance, imagine being presented with the following two choices:
+Neoclassical theories such as EUT suggest that when faced with multiple risky
+options people should choose the option with the highest Expected Value (EV),
+all else being equal. This means multiplying the value of each option by its
+probability and comparing the resulting values \autocite[first documented in][]{pascal1999}. For instance, imagine being presented with the following two
+choices:
 
 \begin{enumerate}
 \def\labelenumi{\Alph{enumi})}
@@ -645,72 +646,104 @@ instance, imagine being presented with the following two choices:
 \end{enumerate}
 
 In option A, the EV is calculated as \(200 \cdot 0.5 - 100 \cdot 0.5 = 50\). Since
-the EV for option A (50) is higher than the EV for option B (0), expected value
-theory would suggest that option A should be chosen.
+the EV for option A (50) is higher than the EV for option B (0), EUT would
+suggest that option A should be chosen.
 
 This basic principle was extended by \textcite{bernoulli1954}, who suggested that a
 persons' subjective value of money differs depending on their current wealth.
-This concept of diminishing marginal utility suggests that the more money a
-person already has, the less value acquiring more money will have for him. For
-example, the experience of a rich man that finds \$10 on the street is very
-different to the experience of a homeless man that finds \$10 \autocite{bradley2013}.
-Even though \$10 was gained in both cases, \$10 has less value to a person that
-already has, for example, \$1000, than for a person that initially only has \$10.
-This is called \emph{diminishing returns} and is calculated by an exponential
-function (with a fractional exponent). Further, Prospect Theory \autocite{kahneman1979}
-suggests that people's subjective value of money does not depend on a person's
-state of wealth---it depends on a person's change of wealth from a reference
-point. This is important because people's subjective value of money is different
-depending if they are gaining or losing money. Loss aversion showcases this
-idea. Namely, this is the way that people react to gains and losses relative to
-a reference point. Figure~\ref{fig:prospect-theory} shows loss aversion as the
-value function being steeper in the domain of losses than the domain of gains.
+This \emph{diminishing marginal utility} suggests that the more money a person
+already has, the less value acquiring more money will have for him. For example,
+the experience of a rich man that finds \$10 on the street is very different to
+the experience of a homeless man that finds \$10 \autocite{bradley2013}. Even though \$10
+was gained in both cases, \$10 has less value to a person that already has, for
+example, \$1000, than for a person that initially only has \$10. This principle is
+usually modelled as an power function (with a fractional exponent).
+
+Prospect Theory \autocite{kahneman1979,tversky1992} challenged EUT by suggesting that
+people's subjective value of money does not depend on their state of wealth---it
+depends on a change of wealth from a reference point. This is important because
+people's subjective value of money is different depending if they are gaining or
+losing money. Specifically, losses have a stronger psychological impact than
+equivalent gains. This disparity is one of the most settled and consistent
+findings in psychology and economics, having been well-replicated \autocite[e.g,][]{ruggeri2020}. The fact that losses loom more than equivalent gains for the vast
+majority of people is referred to as \emph{loss aversion} \autocite{kahneman1979}. This
+finding was the primary reason that Daniel Kahneman won the Nobel Prize in
+Economics in 2002 \autocite{kahneman2003}. Loss aversion has been found with small
+amounts of money in experimental settings \autocite{kahneman1979,tversky1992} and with
+millions of dollars in corporate settings \autocite{koller2012,swalm1966}. The effect
+has been found in young children \autocite{harbaugh2001}, the numerous disparate
+cultures in which it has been tested \autocite{weber1998}, and even in capuchin monkeys
+\autocite{chen2006a}. Furthermore, a neural basis for loss aversion was identified
+\autocite{tom2007}. Therefore, loss aversion is clearly central to human cognition and
+behaviour.
+
+The function that represents the value of a prospect describes both loss
+aversion and diminishing marginal utility, as seen in
+Equation~\eqref{eq:value-function}:
+
+\begin{equation}
+v(x) = \left\{ \begin{array}{l}
+x^\alpha \text{ if } x \ge 0 \\
+-\lambda(-x)^\beta \text{ if } x < 0,
+\label{eq:value-function}
+\end{array} \right.
+\end{equation}
+
+where \(x\) is the possible outcome, \(\lambda\) represents the loss aversion
+coefficient, and \(\alpha\) and \(\beta\) represent the diminishing marginal utility
+for gains and losses, respectively.
+
+In other words, loss aversion means that losses have more impact than equivalent
+gains. In fact, the impact of loss aversion can be expressed even more
+precisely, as a measurement of the ratio of the slopes of the curve for gains
+and losses. This measure tells us the average amount that losses have more
+impact than equivalent gains. In a sequel to the original prospect theory paper,
+\textcite{tversky1992} measured a median coefficient (\(\lambda\)) of 2.25 of loss aversion.
+This means that people respond to losses 2.25 times more than equivalent gains.
+Similarly, this paper measured a median exponent (representing diminishing
+marginal utility, \(\alpha\) and \(\beta\)) of 0.88 for both gains and losses. This
+means that people discount money the more of it they have by a rate of
+\(x^{0.88}\).
+
+Figure~\ref{fig:prospect-theory} shows loss aversion as the function being
+steeper in the domain of losses than the domain of gains. It shows diminishing
+marginal utility by the slight curve of the function. Equivalent changes in
+actual wealth from the references point (x-axis) have different impacts on the
+changes' subjective value (y-axis). An increase in wealth (\(x = 1\)) brings about
+an equivalent increase of value (\(y = 1^{0.88} = 1\)). However, a decrease in the
+same amount of wealth (\(x = -1\)) brings about a decrease in value 2.25 times the
+value of the equivalent gain (\(y = -2.25 \cdot (-(-1))^{0.88} = -2.25\)).
 
 
 
 \begin{figure}
-\includegraphics[width=1\linewidth]{thesis_files/figure-latex/prospect-theory-1} \caption{The value function in Prospect Theory \autocite[adapted from][]{kahneman1979}. The values for the exponent representing the extent diminishing returns (\(\alpha\)) and the loss aversion coefficient (\(\lambda\)) were 0.88 and 2.25, respectively. These were the median values calculated by \textcite{tversky1992} from experimental data.}\label{fig:prospect-theory}
+\includegraphics[width=1\linewidth]{thesis_files/figure-latex/prospect-theory-1} \caption{An example of the value function in Prospect Theory.}\label{fig:prospect-theory}
 \end{figure}
-
-In plain language, loss aversion means that losses have more impact than
-equivalent gains. In fact, the impact of loss aversion can be expressed even
-more precisely, as a measurement of the ratio of the slopes of the curve for
-gains and losses. This measure tells us the average amount that losses have more
-impact than equivalent gains. In a sequel to the original prospect theory paper,
-\textcite{tversky1992} measured a median coefficient of 2.25 of loss aversion. This means
-that people respond to losses 2.25 times more than equivalent gains.
-Figure~\ref{fig:prospect-theory} shows this disparity. Equivalent changes in
-actual wealth from the references point (x-axis) have different impacts on the
-changes' subjective value (y-axis). An increase in wealth (+x) brings about an
-increase of value (+y). However, a decrease in the same amount of wealth (-x)
-brings about a decrease in value 2.25 times the value of the equivalent gain
-(-2.25y). The straight lines adjacent to the curves showcase that the function
-is steeper in the loss domain than it is in the gain domain. This difference of
-slope is another indicator of loss aversion.
 
 This research is relevant to resource allocation because managers often need to
 evaluate project proposals that involve an element of risk. Therefore, managers
 are likely to be affected by similar effects on risk that have been shown in
 laypeople. However, hierarchical organisations offer an even more complex
 situation. \textcite{lovallo2020} found that the risk profiles of lower-level managers are
-lower that those of the top managers. They suggest that this may be due to
-lower-level managers' risk aversion to accepting projects that may jeopardise
+lower than those of the top managers. They suggest that this may be due to
+lower-level managers' loss aversion to accepting projects that may jeopardise
 their job. However, the top managers recognise that a loss in one or more
 business units is likely to be offset by gains in other units. Such an
 inconsistency in risk profiles across the levels of an hierarchical organisation
 fails to take advantage of the benefits of risk aggregation, which has long been
 understood in external markets \autocite{markowitz1952}. \textcite{lovallo2020} suggested that
 lower-level managers' failure to aggregate risk to the degree desired by top
-executives is costing companies approximately 1/3 of the total EV of new project
-proposals. It is thus critical to identify ways to support risk aggregation
-across organizational hierarchies. The psychological literature shows that
-people's risk aggregation is facilitated through various choice bracketing
-manipulations. However, there has been no work that investigated such situations
-without providing participants with feedback in between decisions; this
-critically limits the external validity of this work because in the real world,
-organisations evaluate several projects before seeing the outcomes of any one
-decision. The experiments presented in Chapter~\ref{aggregation} investigate
-the effects of choice bracketing on risk aggregation without feedback.
+executives is costing companies approximately a third of the total EV of new
+project proposals. It is thus critical to identify ways to support risk
+aggregation across organizational hierarchies. The psychological literature
+shows that people's risk aggregation is facilitated through various choice
+bracketing manipulations. However, there has been no work that investigated such
+situations without providing participants with feedback in between decisions;
+this critically limits the external validity of this work because in the real
+world, organisations evaluate several projects before seeing the outcomes of any
+one decision. The experiments presented in Chapter~\ref{aggregation}
+investigate the effects of choice bracketing on risk aggregation without
+feedback.
 
 \subsection{Project similarity}
 
@@ -735,13 +768,13 @@ metrics.
 Structure-mapping theory \autocites[SMT;][]{gentner1997,gentner1983} provides a model of
 comparison that psychologically distinguishes similar and dissimilar allocation
 tasks. SMT models comparison as a process of bringing conceptual structures into
-alignment, which when possible, puts shared component dimensions into
-correspondence. Alignment both highlights when two conceptual structures share
-dimensions, but also highlights how the two structures differ along those shared
-dimensions, called \emph{alignable differences}. For example, when comparing two oil
-discovery projects, all the relevant processes of planning an exploration and
-measuring the amount of hydrocarbons in a prospect might be identical, but the
-specific amount measured will be different. This is the alignable difference: a
+alignment which, when possible, puts shared dimensions into correspondence.
+Alignment both highlights when two conceptual structures share dimensions, but
+also highlights how the two structures differ along those shared dimensions,
+called \emph{alignable differences}. For example, when comparing two oil discovery
+projects, all the relevant processes of planning an exploration and measuring
+the amount of hydrocarbons in a prospect might be identical, but the specific
+amount measured will be different. This is the alignable difference: a
 difference between the two projects that is constrained within the same
 conceptual structure. However, when comparing between an oil field and a
 refinery, there will be significantly more \emph{non-alignable differences}, because
@@ -751,8 +784,8 @@ different dimensional structure to those in the refinery business unit, such
 that it will be difficult to find meaningful alignments. More non-alignable
 differences mean that there are less opportunities to make meaningful
 comparisons, and so would make predicting relative project success and ranking
-their priority more difficult. In Chapter~\ref{alignment}, I experimentally
-examined business project comparisons and how project alignment affects resource
+their priority more difficult. Chapter~\ref{alignment} experimentally examines
+business project comparisons and how project alignment affects resource
 allocation decisions.
 
 When evaluating projects, managers make use of financial metrics, such as NPV.
@@ -773,8 +806,8 @@ numerical variance information \autocite{galesic2010,konold1993,vivalt2018,batte
 to variance information in the metrics associated with the projects that they
 evaluate. On the one hand, perhaps managers' financial training will allow a
 consideration of such variance estimates, but this might not manifest in a
-situation in which managers have already been shown to be prone to biases. In
-Chapter~\ref{alignment}, I investigate whether people are as sensitive to
+situation in which managers have already been shown to be prone to biases.
+Chapter~\ref{alignment} investigates whether people are as sensitive to
 verbally-instructed reliability information as they are to numerical reliability
 information.
 
@@ -789,9 +822,9 @@ evaluating project proposals may make inappropriate comparisons when considering
 the target project to other cases. For instance, people tend to limit the sample
 size of the set of comparison cases to a target problem to a small number. Often
 only a handful of cases, or even one. Doing this might mean only considering
-surface similarity to the current situation and not an alignment of the
-underlying causal structure. Further, this might mean not considering other
-similar projects.
+potentially irrelevant surface similarity to the current situation and not an
+alignment of the underlying causal structure. Further, this might mean not
+considering other similar projects.
 
 \textcite{tversky1974} discussed a number of biases that may influence such processes. The
 availability bias is seen when people mistake the ease of retrieval of
@@ -828,15 +861,17 @@ made between easily identifiable but potentially functionally irrelevant
 attributes, and relational similarity, in which the underlying mechanism is
 considered. Are managers sensitive to the deeper causal mechanisms that underlie
 the anecdotes they judge? Or are they simply influenced by surface similarity?
-In Chapter~\ref{anecdotes}, I investigate the extent to which people moderate
-their reliance on anecdotes or aggregated data by the relevance of the anecdote
-to the target project during resource allocation.
+Chapter~\ref{anecdotes} investigates the extent to which people moderate their
+reliance on anecdotes or aggregated data by the relevance of the anecdote to the
+target project during resource allocation. It also considers whether people are
+sensitive to information about the distribution from which the anecdote was
+sampled.
 
 \section{Chapter overview}
 
 In sum the potential consequences for a diversified hierarchical structure are
-that projects will be consisdered one at a time, and if they are considered
-togetherj, disparate project types will make comparisons hard. Considering
+that projects will be considered one at a time, and if they are considered
+together, disparate project types will make comparisons hard. Considering
 projects one by one might mean that risk is not aggregated across projects and
 therefore value is lost. The difficultly to compare will lead to both
 potentially relying on unreliable metrics, and relying on improper anecdotal
@@ -860,19 +895,25 @@ difficulty to compare across existing projects might instead mean a reliance on
 prior case studies from personal or external experience. Research on anecdotal
 bias suggests that managers might rely more on such case studies than on
 aggregated data, but it is unclear whether they will use relevance to moderate
-their decisions.
+their decisions. Further, it is unclear if they will appropriately use
+information about the sample distribution.
 
-Therefore, I investigate the psychology of resource allocation decisions in
-three chapters. In Chapter~\ref{aggregation} I investigate the effects of
-choice bracketing on risk aggregation without feedback. In
-Chapter~\ref{interstitial-1}, I discuss the difference between evaluating
-project proposals with inherent budget estimates and the process of allocating
-an existing budget top-down. In Chapter~\ref{alignment} I investigate the
-effects of alignment and reliability type---verbal or numerical---on
-allocations. In Chapter~\ref{interstitial-2}, I discuss the
-trade-offs that people make when using information to evaluate options such as
-project proposals. Finally, in Chapter~\ref{anecdotes} I investigate the effects
-of anecdote similarity on the anecdotal bias.
+The rest of this thesis investigates the psychology of resource allocation
+decisions in three chapters that describe empirical work, two theoretical
+chapters, and a general discussion chapter. Chapter~\ref{aggregation} describes
+two experiments that investigate the effects of choice bracketing on risk
+aggregation without feedback. Chapter~\ref{interstitial-1} is a short
+theoretical chapter that discusses the difference between evaluating project
+proposals with inherent budget estimates and the process of allocating an
+existing budget top-down. Chapter~\ref{alignment} describes three experiments
+that investigate the effects of alignment and reliability type---verbal or
+numerical---on allocations. Chapter~\ref{interstitial-2} is another short
+theoretical chapter that discusses the trade-offs that people make when using
+information to evaluate options such as project proposals.
+Chapter~\ref{anecdotes} describes two experiments that investigate the effects
+of anecdote similarity on the anecdotal bias. Finally, Chapter~\ref{discussion}
+discusses the theoretical and practical implications of the empirical chapters
+and concludes the thesis.
 
 \newpage
 
@@ -2062,15 +2103,14 @@ identify the ways that decision-making in a diversified organisation might be
 different to that of a more integrated organisation. In the previous chapter I
 manipulated ``similarity'' by either showing a set of projects from the same
 industry or a set from different industries. This was meant to simulate an
-integrated and diversified firm, respectively. I assumed that participants
-understood that the dissimilar project set implied that the projects were not
-alignable. That is, even though the underlying specific project features were
-not shown, I assumed that participants would realise that two projects from the
-same industry would be easier to compare using their intrinsic underlying
-features. However, this may not have been the case and may explain the equivocal
-similarity effect. Therefore, Chapter~\ref{alignment} will show the project
-features explicitly and manipulate alignment, so that the difficulty of the
-comparison is more obvious.
+integrated and diversified firm, respectively. This manipulation was not as
+strong because there were no project attributes that could be aligned or not.
+That is, there was nothing actually non-alignable. This may explain the
+equivocal similarity effect. In the next chapter, I more fully manipulate
+alignability by having project attributes be critical to the evaluation.
+Therefore, Chapter~\ref{alignment} will show the project features explicitly
+and manipulate alignment, so that the difficulty of the comparison is more
+obvious.
 
 \hypertarget{alignment}{%
 \chapter{Project similarity bias and variance neglect in forecast metric evaluation}\label{alignment}}
@@ -2920,11 +2960,13 @@ Chapter~\ref{alignment} found that people do not sufficiently weigh the
 importance of numerical variance information in resource allocation. This is
 important for when projects are dissimilar because the results showed that
 people rely more on NPV in low alignment. Not paying attention to the underlying
-variance obscures uncertainty inherent in the measure. When projects are similar
-this means that managers may miss out on an opportunity to use different,
-potentially more reliable measures. Such measures are more likely to be
-available in alignable comparisons. This again many mean another unnecessary use
-of an unreliable measure.
+variance obscures uncertainty inherent in the measure. However, this also has
+implications for high alignment scenarios. When projects are alignable this
+means that managers are likely to have a choice of using both abstract metrics
+as well as intrinsic project features. Managers may use a metric such as NPV
+whose variance may suggest a lack of reliability, despite being able to use
+intrinsic projects features. They may therefore miss out on an opportunity to
+use different, potentially more reliable measures.
 
 An evaluation of a non-alignable set of projects can therefore lead to many
 potential pitfalls. Such a situation is likely to occur in most hierarchical
@@ -2936,25 +2978,35 @@ case of a diversified organisation, increasing the alignment between the
 projects being evaluated is likely to involve significantly more difficult
 structural changes in the organisation. For instance, this may mean divesting
 certain divisions of the organisation, as General Electric has been doing over
-the last few years. Therefore, without enough points of reference for a project
-proposal within an organisation, managers may look to evidence from similar
-projects from outside the organisation.
+the last few years.
 
-Such evidence may include an individual case study from another organisation, or
-research report that describes a statistical result. Case studies are especially
-important in managerial decision-making since they are used extensively in
-business school teaching materials. Therefore, managers are likely to look to
-case studies to inform their decisions. But would they think that a single case
-study is more useful than statistical data? The literature on anecdotal bias
-suggests that they might. Therefore, Chapter~\ref{anecdotes} considers the
-influence of an anecdote on project allocation when it conflicts with
-statistical evidence.
+Alternatively, organisations can develop a more normative use of metrics and
+take into account underlying uncertainty. However, this kind of change might
+require substantially more statistical reasoning abilities than can be expected
+of managers without better decision guidelines. Another solution managers may
+use is to look to evidence from similar projects from outside the organisation.
+This is useful because a diversified organisation may not have enough points of
+reference for a project proposal within it. Doing this both does not require
+substantial restructuring of the organisation as in divestment and is already an
+on-going practice, as opposed to aiming to facilitate managers' statistical
+reasoning?
 
-Previous worked showed that people often do not always give evidence appropriate
-weighting in their decisions \autocite{griffin1992}. Therefore I investigated the role
-of anecdotal and statistical evidence, which are potentially conflicting sources
-of evidence. This is possible since statistical estimates commonly refer to the
-mean value of a distribution, whereas individual cases may be sampled, for
+Evidence from similar projects may include an individual case study from another
+organisation, or research report that describes a statistical result. Case
+studies are especially important in managerial decision-making since they are
+used extensively in business school teaching materials. Therefore, managers are
+likely to look to case studies to inform their decisions. But would they think
+that a single case study is more useful than statistical data? The literature on
+anecdotal bias suggests that they might. Therefore, Chapter~\ref{anecdotes}
+considers the influence of an anecdote on project allocation when it conflicts
+with statistical evidence.
+
+Previous work showed that people often do not always give evidence appropriate
+weighting in their decisions \autocite{griffin1992}. Anecdotal and statistical evidence
+are potentially conflicting sources of evidence, so it is important to
+appropriately weigh their influence on a decision. It is possible for these
+sources of evidence to conflict because statistical estimates commonly refer to
+the mean value of a distribution, whereas individual cases may be sampled, for
 instance, from either of the tails of the distribution. This comparison would
 give the appearance of conflicting information, especially if the distribution
 is skewed. In the same way that in Chapter~\ref{alignment} the intrinsic
@@ -3953,25 +4005,28 @@ influence of project feature alignability and metric variance when comparing
 projects directly (Chapter~\ref{alignment}), and the influence of project
 anecdote similarity when the anecdote conflicts with statistical evidence
 (Chapter~\ref{anecdotes}). I will first summarise the results of the empirical
-chapters and then discuss their theoretical and practical implications.
+chapters and then discuss their theoretical and practical implications. Though,
+it is also worth noting that in the one case where the work examined people with
+management experience, the pattern of results was largely the same as with naive
+participants.
 
 \section{Summary of results}
 
 Chapter~\ref{aggregation} investigated the choice of risky business projects
-that are displayed sequentially and without feedback. This design modelled the
-real-life situation that managers are faced with in hierarchical organisations:
-an evaluation of a set of separate business project proposals over time with no
-immediate indication of the performance of those projects. Aggregating a
-portfolio of such projects is likely to show a lower chance of potential loss
-overall than might be originally assumed. The results from this chapter showed
-that people not only did not do this spontaneously, but also were not
-facilitated by manipulations that encouraged grouping choices together as a
-portfolio. People only seemed to recognise the benefits of aggregation when they
-were presented with an outcome probability distribution of the aggregated set of
-projects. There was no strong evidence that more subtle manipulations aimed at
-encouraging aggregation worked. Specifically, presenting projects together,
-specifying the total number of projects, and presenting projects that were all
-from the same industry did not encourage aggregation.
+that are displayed sequentially and without feedback in between decisions. This
+design modelled the real-life situation that managers are faced with in
+hierarchical organisations: an evaluation of a set of separate business project
+proposals over time with no immediate indication of the performance of those
+projects. Aggregating a portfolio of such projects is likely to show a lower
+chance of potential loss overall than might be originally assumed. The results
+from this chapter showed that people not only did not do this spontaneously, but
+also were not facilitated by manipulations that encouraged grouping choices
+together as a portfolio. People only seemed to recognise the benefits of
+aggregation when they were presented with an outcome probability distribution of
+the aggregated set of projects. There was no strong evidence that more subtle
+manipulations aimed at encouraging aggregation worked. Specifically, presenting
+projects together, specifying the total number of projects, and presenting
+projects that were all from the same industry did not encourage aggregation.
 
 Chapter~\ref{alignment} investigated resource allocation when projects were
 evaluated jointly and capital was allocated as a proportion of the budget,
@@ -4029,6 +4084,19 @@ However, a formal understanding of such principles does not seem to be necessary
 if they are expressed explicitly (as in the aggregated distribution in
 Chapter~\ref{aggregation}).
 
+The statistical principles used in these studies are all likely accessible for
+people without much formal maths knowledge. A basic concept of risk aggregation
+is clearly available to laypeople as seen in the responses to multi-play gambles
+(e.g., one vs.~100 gambles). Further, people certainly have a basic
+understanding of numerical ranges and that a larger range means more spread.
+Despite having this understanding, participants in the above experiments were
+unable to use that understanding in the decisions. Similarly, other work has
+shown that people are sensitive to sampling. Therefore, it isn't the case that
+the people in my studies simply lacked statistical education. In fact, it is not
+clear that these effects will disappear with more maths knowledge and business
+experience. Previous work showed that expertise does not always remove biases
+and in some cases it seems to augment such effects \autocite[e.g.,][]{haigh2005}.
+
 \section{Theoretical implications}
 
 The main theoretical contribution of this thesis is the addition of evidence
@@ -4054,7 +4122,11 @@ in their decisions, which cues were ignored, and which cues were integrated
 allowed to specify the bounds of people's cognitive capacity in these decisions.
 The experiments showed that people struggle to use certain statistical
 principles in their decisions, but that they are also capable of making nuanced
-trade-offs and can be assisted by decision aides.
+trade-offs and can be assisted by decision aides. Understanding how
+decision-making in resource allocation is constrained and biased is important in
+order to improve decision-making. Even if decisions are largely consistent with
+normative principles, falling prey to the biases identified in the thesis can
+have severe consequences for organisations.
 
 In Chapter~\ref{aggregation} I presented participants with a resource
 allocation situation in which an understanding of risk aggregation would have
@@ -4205,11 +4277,15 @@ sequential project evaluation decisions.
 
 One implication of Chapter~\ref{alignment} is that it is important to expose
 the variance underlying abstract financial measures. Further, translating such
-numerical variance estimates into clear verbal clear would help facilitate
+numerical variance estimates into clear verbal information would help facilitate
 managers' understanding and implementation of such estimates. Organisational
 changes could include reducing diversification so that there is less reliance on
 abstract metrics. This would allow for more of a comparison between alignable
-project attributes, potentially reducing forecast error.
+project attributes, potentially reducing forecast error. \textcite{koller2017} found that
+companies with more similar business units report faster growth and greater
+profitability than competitors, compared to companies with dissimilar business
+units. Further, companies can also work to develop better metrics and establish
+norms about how much to discount a metric given its underlying variance.
 
 The main implication of Chapter~\ref{anecdotes} is that managers should pay
 attention to the way that they compare target projects to other cases. It is
