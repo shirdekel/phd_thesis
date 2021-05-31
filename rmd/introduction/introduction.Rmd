@@ -43,7 +43,7 @@ process to the operation and development of multi-divisional organisations.
 The products and services that arise from organisations are (necessarily) a
 result of the work of many people. In GE, for instance, the factories that
 generate aircraft engines need to be staffed by production line workers,
-accountant are needed for bookkeeping, and software engineers are needed to
+accountants are needed for bookkeeping, and software engineers are needed to
 design and maintain the production systems. Despite this, many important
 strategic decisions ultimately come from a very small number of people. The
 decisions that the CEO or other lower level executives make can have large

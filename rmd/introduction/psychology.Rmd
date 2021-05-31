@@ -110,9 +110,9 @@ was gained in both cases, $10 has less value to a person that already has, for
 example, $1000, than for a person that initially only has $10. This principle is
 usually modelled as an power function (with a fractional exponent).
 
-<!-- Prospect Theory -->
+<!-- Prospect theory -->
 
-Prospect Theory [@kahneman1979; @tversky1992] challenged EUT by suggesting that
+Prospect theory [@kahneman1979; @tversky1992] challenged EUT by suggesting that
 people’s subjective value of money does not depend on their state of wealth---it
 depends on a change of wealth from a reference point. This is important because
 people’s subjective value of money is different depending if they are gaining or
@@ -168,7 +168,7 @@ an equivalent increase of value ($y = 1^{0.88} = 1$). However, a decrease in the
 same amount of wealth ($x = -1$) brings about a decrease in value 2.25 times the
 value of the equivalent gain ($y = -2.25 \cdot (-(-1))^{0.88} = -2.25$).
 
-(ref:prospect-theory) An example of the value function in Prospect Theory.
+(ref:prospect-theory) An example of the value function in prospect theory.
 
 ```{r prospect-theory, fig.cap = "(ref:prospect-theory)", fig.width = 6, fig.height = 6}
 tar_read(prospect_theory)

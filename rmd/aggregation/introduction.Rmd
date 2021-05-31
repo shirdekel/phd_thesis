@@ -1,7 +1,9 @@
-(ref:aggregation-quote) ---Virgil
+(ref:aggregation-quote) ---@epictetus1995
 
 ```{block type='savequote', quote_author='(ref:aggregation-quote)', include=knitr::is_latex_output(), echo = TRUE}
-Fortune sides with him who dares.
+Cultivate the habit of surveying and testing a prospective action before
+undertaking it. Before you proceed, step back and look at the big picture, lest
+you act rashly on raw impulse.
 ```
 
 # Effect of choice bracketing on risk aggregation in repeated-play gambles with no feedback {#aggregation}
@@ -29,14 +31,14 @@ the returns of one investment when evaluating a subsequent investment. Any
 results that a farmer may identify from using a new technology will only become
 apparent after many seasons of use. Similarly, it will take many years for a
 multi-business firm to begin to estimate whether the output of a mine resulted
-in the expected return on investment. These are the decisions that I investigate
-in this chapter: sequences of large risky choices without immediate outcomes.
+in the expected return on investment. These are the decisions that this chapter
+investigates: sequences of large risky choices without immediate outcomes.
 
 Risk aggregation is the combination of probability and/or variance information
 associated with certain outcomes for the purpose of understanding that
 information more comprehensively [@bjornsen2019]. However, the psychological
-literature suggests that this process may be difficult for people. Work on
-prospect theory [@kahneman1979] suggests that people's evaluation of gambles
+literature suggests that this process may be difficult for people to use. Work
+on prospect theory [@kahneman1979] suggests that people's evaluation of gambles
 does not conform to expected utility theory and is prone to framing effects.
 Specifically, people typically evaluate gambles one by one [@rabin2009;
 @tversky1981; @kahneman1993]. As such, it is unlikely that people will be able
@@ -44,18 +46,19 @@ to aggregate risk when they do not perceive a series of investments as a
 portfolio. So, what would encourage people to aggregate risk? The literature on
 *choice bracketing* [@read1999] shows that grouping a set of individual gambles
 together facilitates risk aggregation. As such, the current work provides two
-primary contributions. First, I am the first to investigate the effect of choice
-bracketing on risk aggregation in independent gambles evaluated without
-immediate returns. Second, I introduce novel choice bracketing manipulations.
+primary contributions. First, this work is the first to investigate the effect
+of choice bracketing on risk aggregation in independent gambles evaluated
+without immediate returns. Second, this work introduces novel choice bracketing
+manipulations.
 
 The earlier work on risk aggregation essentially did the aggregating work for
 the participants. For example, experimenters provided participants with an
-outcome probability distribution, and/or an explicit indication to group the
-choices together, such as by asking for a single decision to be made on a set of
-identical gambles. Other work addressed the more realistic situation of a set of
-independent gambles. However, most of this work provided participants with the
-outcomes of their choices before the subsequent choice. In these paradigms
-participants experienced individual outcomes from the eventual outcome
+outcome probability distribution, usually with an explicit indication to group
+the choices together, such as by asking for a single decision to be made on a
+set of identical gambles. Other work addressed the more realistic situation of a
+set of independent gambles. However, most of this work provided participants
+with the outcomes of their choices before the subsequent choice. In these
+paradigms participants experienced individual outcomes from the eventual outcome
 distribution of the gambles, meaning that aggregation was confounded with
 learning. As mentioned above, in real-life there is usually a significant delay
 between the choice a person or firm makes and the outcome of that choice, and
@@ -65,10 +68,11 @@ or years before beginning to understand the consequences of their decision, and
 even then the outcome may be unclear. However, previous work did not investigate
 the effect of choice bracketing on risky choice without feedback. This is
 surprising, since choice bracketing is exactly the kind of process that should
-promote aggregation in these more realistic decisions. As such, I investigated
-new ways of encouraging participants to bracket their risky choices, but with a
-paradigm that involves a series of independent choices without feedback. In this
-way, my paradigm is more isometric with real-life risky choice.
+promote aggregation in these more realistic decisions. As such, this chapter
+investigated new ways of encouraging participants to bracket their risky
+choices, but with a paradigm that involves a series of independent choices
+without feedback. In this way, the paradigm is more isometric with real-life
+risky choice.
 
 ### Multi-play gambles
 
@@ -88,8 +92,8 @@ colleague was more risk averse when making a single decision about one gamble (a
 *single-play* gamble), than when making a single decision about multiple
 identical gambles (a *multi-play* gamble).[^terminology]
 
-[^terminology]: I use the terminology from @bristow2011 and @camilleri2013 for
-consistency.
+[^terminology]: This chapter uses the terminology for gamble types used in
+    @bristow2011 and @camilleri2013.
 
 @wedell1994 replicated the @samuelson1963 anecdote experimentally with a gamble
 involving a potential gain of $100 and a potential loss of $50. Participants
@@ -113,13 +117,13 @@ gambles [@li2003], show eye movements more congruent with an EV model than
 single-play gambles [@su2013], and judge multi-play gambles as riskier
 [@joag1990].
 
-Multi-play gambles that are displayed with an aggregated outcome distribution
-(that presents the probabilities of all the different possible outcomes) of
-those gambles are accepted more than multi-play gambles without these
-distributions [@benartzi1999; @redelmeier1992; @klos2013; @webb2017;
-@coombs1971; @venkatraman2006; @dekay2005; @langer2001; @keren1991] because they
-very clearly show the rarity of a loss. Note that this does not seems to hold
-when returns are calculated as percentages, rather than fixed dollar amounts
+People prefer multi-play gambles that are displayed with an aggregated outcome
+distribution of those gambles than those without [@benartzi1999;
+@redelmeier1992; @klos2013; @webb2017; @coombs1971; @venkatraman2006;
+@dekay2005; @langer2001; @keren1991]. This is because these distributions
+present the probabilities of all the different possible outcomes, so very
+clearly show the rarity of a loss. Note that this does not seems to hold when
+returns are calculated as percentages, rather than fixed dollar amounts
 [@stutzer2013]; and when participants do not perceive gamble outcomes as
 fungible [@dekay2005]. However, when this effect is demonstrated, the multi-play
 gamble is usually set up such that its (binomial) outcome distribution shows a
@@ -131,7 +135,7 @@ the attractiveness of the multi-play gamble clearer. This work suggests that
 participants can comprehend and respond to aggregated risk, but that they
 struggle to compute the aggregation without external help.
 
-(ref:samuelson-distribution-10) The outcome probability distribution of the @samuelson1963 gamble (0.5, 200; 0.5, -100) played 10 times.
+(ref:samuelson-distribution-10) The outcome probability distribution of the @samuelson1963 gamble (50% chance of gaining $200 and a 50% of losing $100) played 10 times.
 
 ```{r samuelson-distribution-10, fig.cap = "(ref:samuelson-distribution-10)"}
 tar_read(samuelson_distribution)
@@ -150,14 +154,15 @@ consider; do you want all or none of them?"
 
 In *repeated-play* (rather than multi-play) gamble paradigms, participants make
 decisions about a series of different gambles. Research using this paradigm
-found that people are less risk averse when outcomes for a series of gambles are
-evaluated and decisions are made less frequently [@gneezy1997; @thaler1997;
-@bellemare2005; @beshears2016]. People are also less risk averse (for positive
-EV gambles) when they receive feedback or are able to sample from a distribution
-before making a choice [@camilleri2011; @camilleri2013; @barron2003;
-@wulff2018; @ludvig2011; @hertwig2004; @jessup2008]. Other work found that loss
-aversion is mitigated when people are explicitly instructed to consider the
-options as a part of a portfolio [@sokolhessner2009; @sokolhessner2012].
+found that people are less risk averse both when outcomes for a series of
+gambles are evaluated less frequently and the subsequent decisions are made less
+frequently [@gneezy1997; @thaler1997; @bellemare2005; @beshears2016]. People are
+also less risk averse (for positive EV gambles) when they receive feedback after
+each decision or are able to sample from the distribution of possible outcomes
+before making a choice [@camilleri2011; @camilleri2013; @barron2003; @wulff2018;
+@ludvig2011; @hertwig2004; @jessup2008]. Other work found that loss aversion is
+mitigated when people are explicitly instructed to consider the options as a
+part of a portfolio [@sokolhessner2009; @sokolhessner2012].
 
 These studies are closer to real-life decisions than the multi-play gamble
 paradigm, because they involve a set of separate gamble decisions, rather than a
@@ -180,8 +185,8 @@ individual description-based gambles presented sequentially [e.g., @ert2013;
 risk aggregation. @haisley2008 provided limited evidence for facilitating risk
 aggregation. They gave participants the opportunity to buy five (negative EV)
 lottery tickets, and either presented them one at a time, or together.
-Participants bought fewer tickets, thereby maximising EV, when they considered
-them jointly. However, the experimenters did not specify the outcomes and
+Participants bought fewer tickets, when they considered them jointly, thereby
+maximising EV. However, the experimenters did not specify the outcomes and
 probabilities of each gamble, meaning that it is unclear if participants
 understood the independent lotteries as identical or non-identical. This reduces
 the external validity of the study, as most independent risky choice involves
@@ -194,38 +199,46 @@ aversion.
 Research in psychology and economics has identified ways of facilitating risk
 aggregation by encouraging people to group their choices. Specifically, people
 aggregate more when they consider the consequences of their choices together
-(broad bracketing) than when they consider them individually [narrow bracketing\;
-@read1999]. In multi-play gambles (especially when displayed with an outcome
-distribution), choices are inherently bracketed broadly because a single choice
-is made about multiple gambles. Similarly, studies that used repeated-play
-gambles facilitated risk-tolerance essentially through broad bracketing. For
-instance, when @thaler1997 presented gamble outcomes less frequently, they
-allowed participants to consider longer time increments with a single
-evaluation.
+(broad bracketing) than when they consider them individually [narrow
+bracketing\; @read1999]. In multi-play gambles (especially when displayed with
+an outcome distribution), choices are inherently bracketed broadly because a
+single choice is made about multiple gambles. Similarly, studies that used
+repeated-play gambles facilitated risk-tolerance through what can in hindsight
+be considered broad bracketing. For instance, when @thaler1997 presented gamble
+outcomes less frequently, they allowed participants to consider longer time
+increments with a single evaluation.
+
+<!-- Naive aggregation -->
 
 The goal of this chapter is to facilitate risk aggregation without the
-experimental artefact of immediate feedback. Previous research suggests some
-ways of doing this. @sokolhessner2009 and @sokolhessner2012 found that lengthy
-instructions with an elaborate explanation to "think like a trader"---and to
-consider all the repeated-play gambles as a portfolio, as opposed to considering
-them individually---reduced risk aversion. Further, even the original
-@samuelson1963 anecdote (and its subsequent replications) show that people do
-have an intuition for aggregation even without the risk being calculated exactly
-for them. I am interested in testing whether that same intuition can be elicited
-and applied across sets of unique bets. What are the minimal conditions required
-to encourage aggregation? Both this explicit instruction effect and the
-multi-play gamble work suggest that participants can engage in a more intuitive
-form of aggregation when provided with the right contextual cues. It might be
-the case that people possess such an intuitive understanding, and that simply
-being encouraged to consider a set of choices together in more subtle ways than
-explicit instruction will also facilitate aggregation. This could involve simply
-making participants aware that they are going to be making a series of choices.
-This kind of contextual cue may be sufficient to encourage risk aggregation.
-Investigating the effects of more subtle cues will help shed light on the
+experimental artefact of immediate feedback. Both the original @samuelson1963
+anecdote and its subsequent replications show that people do have an intuition
+for aggregation even without the risk being calculated exactly for them. This
+chapter tests whether that same intuition can be elicited and applied across
+sets of unique bets. What are the minimal conditions required to encourage
+aggregation? The multi-play gamble work suggests that participants can engage in
+a more intuitive form of aggregation when provided with the right contextual
+cues. Investigating the effects of more subtle cues will help shed light on the
 cognitive processes underlying choice bracketing. Of course, the effects of more
 subtle cues would not eliminate the utility of explicit financial education, but
 they will help the design of decision-making contexts to best align with such
 instruction.
+
+<!-- Awareness -->
+
+One way of potentially facilitating risk aggregation is to highlight to
+participants the number of total options. @sokolhessner2009 and
+@sokolhessner2012 reduced risk aversion using lengthy instructions with an
+explanation to "think like a trader". This meant considering all the
+repeated-play gambles as a portfolio, as opposed to considering them
+individually. However, a more subtle cue could involve simply making
+participants aware that they are going to be making a series of choices. This
+kind of contextual cue may be sufficient to encourage risk aggregation. If
+people possess such an intuitive understanding, as suggested above, then simply
+being encouraged to consider a set of choices together in more subtle ways than
+explicit instruction will also facilitate aggregation.
+
+<!-- Alignment -->
 
 In addition to simply informing participants that they will make a series of
 choices, making the choices more readily comparable may facilitate broad
@@ -259,6 +272,8 @@ For instance, General Electric currently develops both analytic software
 products and jet engines for the military. They had been even more diversified
 previously, at one stage simultaneously developing home appliances and owning
 the NBC television network.
+
+<!-- Presentation -->
 
 In addition to the similarity between choices, how choices are presented may
 affect how easily they are compared, and thus whether or not the multiple
