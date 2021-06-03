@@ -182,8 +182,8 @@
       "RemoteRepo": "aggregation2",
       "RemoteUsername": "shirdekel",
       "RemoteRef": "HEAD",
-      "RemoteSha": "3e748bb1cc790014cf3def4bc36782f26cab21d0",
-      "Hash": "9680d63c6dc05cd4af145fc6396c9113"
+      "RemoteSha": "f7b7e051dd764795784b9592df39373447d1aab1",
+      "Hash": "5287f9cf1b01b9463fbae53c11e7a6f6"
     },
     "aggregation3": {
       "Package": "aggregation3",
