@@ -91,6 +91,7 @@ output:
   bookdown::word_document2:
     toc: true
     pandoc_args: !expr rmdfiltr::add_wordcount_filter(rmdfiltr::add_replace_ampersands_filter(rmdfiltr::add_citeproc_filter(args = NULL)))
+    md_extensions: "-auto_identifiers"
 documentclass: book
 always_allow_html: true #this allows html stuff in word (.docx) output
 # Needed for non-biblatex output (Word and HTML)
