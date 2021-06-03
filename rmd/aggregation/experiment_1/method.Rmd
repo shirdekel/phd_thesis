@@ -52,6 +52,9 @@ zero. For comparison, $P(loss)$ =
 `r results_aggregation_1$loss_prob_samuelson` for 10 plays of the @samuelson1963
 gamble. Figure \@ref(fig:project-choice-aggregation-1) shows an example of a
 description of a project in this task.
+for 10 plays of the @samuelson1963 gamble. Note that the highest probability of
+a loss for any single gamble ($P(\text{loss}_{single})$) was
+`r results_aggregation_1$max_probability_negative`.
 
 (ref:project-choice-aggregation-1) Example of a project choice display in Experiment 1. Border added for clarity.
 

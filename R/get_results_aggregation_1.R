@@ -59,6 +59,11 @@ get_results_aggregation_1 <- function(data_clean_aggregation_1, iv, dv) {
     c(seq(from = .55, to = .6, length.out = 5)) %>%
     round(2)
 
+  max_probability_negative <-
+    prob_positive %>%
+    {1 - .} %>%
+    max()
+
   aggregated_values <-
     shirthesis::get_aggregated_values(
       outcome_positive = outcome_positive,
@@ -144,7 +149,8 @@ get_results_aggregation_1 <- function(data_clean_aggregation_1, iv, dv) {
     loss_prob_samuelson,
     individual_aggregated,
     trials_separate_awareness,
-    trials_separate_awareness_slope
+    trials_separate_awareness_slope,
+    max_probability_negative
   ) %>%
     append(anova) %>%
     append(simple_effects) %>%
