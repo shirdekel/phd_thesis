@@ -100,7 +100,7 @@ csl: templates/apa.csl
 ---
 
 ```{r setup, include=FALSE}
-library(tidyverse)
+library(magrittr)
 library(magick)
 library(here)
 library(knitr)
