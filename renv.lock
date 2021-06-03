@@ -182,8 +182,8 @@
       "RemoteRepo": "aggregation2",
       "RemoteUsername": "shirdekel",
       "RemoteRef": "HEAD",
-      "RemoteSha": "5d5663d33668e6f590e306b468f17b04f7f49035",
-      "Hash": "0f61b49051db205d363e6127cdd86a5f"
+      "RemoteSha": "3e748bb1cc790014cf3def4bc36782f26cab21d0",
+      "Hash": "9680d63c6dc05cd4af145fc6396c9113"
     },
     "aggregation3": {
       "Package": "aggregation3",
@@ -372,15 +372,15 @@
     },
     "bookdown": {
       "Package": "bookdown",
-      "Version": "0.22.2",
+      "Version": "0.22.3",
       "Source": "GitHub",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
       "RemoteRepo": "bookdown",
       "RemoteUsername": "rstudio",
       "RemoteRef": "HEAD",
-      "RemoteSha": "d0049090ac2440618a3e814f5b46d92a7f064912",
-      "Hash": "103f3b452f6161238fa3a05d96fc5794"
+      "RemoteSha": "aa75b5f9fa1af3d1ff254f62f0add6bd4eeaeb3b",
+      "Hash": "ce4024ca199fe8d1aafb09249f44f90c"
     },
     "boot": {
       "Package": "boot",
@@ -410,10 +410,10 @@
     },
     "cachem": {
       "Package": "cachem",
-      "Version": "1.0.4",
+      "Version": "1.0.5",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "2703a46dcabfb902f10060b2bca9f708"
+      "Hash": "5346f76a33eb7417812c270b04a5581b"
     },
     "callr": {
       "Package": "callr",
@@ -735,10 +735,10 @@
     },
     "httpuv": {
       "Package": "httpuv",
-      "Version": "1.5.5",
+      "Version": "1.6.1",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "b9d5d39be2150cf86538b8488334b8f8"
+      "Hash": "54344a78aae37bc6ef39b1240969df8e"
     },
     "igraph": {
       "Package": "igraph",
@@ -815,10 +815,10 @@
     },
     "later": {
       "Package": "later",
-      "Version": "1.1.0.1",
+      "Version": "1.2.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "d0a62b247165aabf397fded504660d8a"
+      "Hash": "b61890ae77fea19fc8acadd25db70aa4"
     },
     "lattice": {
       "Package": "lattice",
@@ -1209,16 +1209,16 @@
     },
     "rmarkdown": {
       "Package": "rmarkdown",
-      "Version": "2.8.1",
+      "Version": "2.8.3",
       "Source": "GitHub",
-      "Remotes": "rstudio/sass, rstudio/bslib",
+      "Remotes": "rstudio/bslib",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
       "RemoteRepo": "rmarkdown",
       "RemoteUsername": "rstudio",
       "RemoteRef": "HEAD",
-      "RemoteSha": "9e19405f3a75dd4d45419b60a3f4d5451e1c391a",
-      "Hash": "1e882aaa085c9a7fd01753ca86b3f8a1"
+      "RemoteSha": "55b5bb8bce7c340ba377f37b6851f13a0fd8d26e",
+      "Hash": "2615c9343698d825a83106c2004af329"
     },
     "rmdfiltr": {
       "Package": "rmdfiltr",
@@ -1454,10 +1454,10 @@
     },
     "xfun": {
       "Package": "xfun",
-      "Version": "0.22",
+      "Version": "0.23",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "eab2f8ba53809c321813e72ecbbd19ba"
+      "Hash": "791a57f43c887111490851dcd166d344"
     },
     "xtable": {
       "Package": "xtable",
