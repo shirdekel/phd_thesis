@@ -1,4 +1,4 @@
-## Experiment 2
+## Experiment 2 {#aggregation-2}
 
 ```{r setup-aggregation-2}
 tar_load(descriptives_aggregation_2)
@@ -7,46 +7,47 @@ tar_load(results_aggregation_2)
 tar_load(plot_aggregation_2)
 ```
 
-Experiment 2 investigated the effect of presentation, awareness, and
-distribution on project choice. For the distribution manipulation, I presented
-half of the sample an outcome probability distribution as in the previous
-literature [e.g., @redelmeier1992; @webb2017] to determine their risk aversion
-when the gambles are explicitly aggregated. In contrast to repeated-play choice
-literature, each choice was presented without feedback. Further, in contrast to
-Experiment 1, I displayed this distribution alongside each gamble, as opposed to
-only at the very end. This is an important manipulation because finding out
-whether it is effective will 1. add to the understanding of the conditions
-necessary for mathematical aggregation (beyond a mere intuitive sense of
-aggregation), and 2. suggest new ways to encourage aggregation in real-world
-applications.
+Experiment 2 investigated the effect of presentation, awareness, and
+distribution on project choice. For the distribution manipulation, half of the
+sample saw an outcome probability distribution as in the previous literature
+[e.g., @redelmeier1992; @webb2017] to determine their risk aversion when the
+gambles are explicitly aggregated. In contrast to most of the repeated-play
+choice literature, each choice was presented without subsequent feedback.
+Further, in contrast to Experiment [1](#aggregation-1), the distribution were
+displayed alongside each gamble, as opposed to only at the very end. This is an
+important manipulation because finding out whether it is effective will 1. add
+to the understanding of the conditions necessary for mathematical aggregation
+(beyond a mere intuitive sense of aggregation), and 2. suggest new ways to
+encourage aggregation in real-world applications.
 
 In past work, participants were shown ordinary binomial distributions, since
-multi-play gambles are identical. To my knowledge, there has not been an
-investigation of *non-identical* gamble distributions in this context. Doing
-this requires using a *Poisson* binomial distribution, which allows for multiple
-trials with different probabilities.
+multi-play gambles are identical. However, there has not been an investigation of
+*non-identical* gamble distributions in this context. Doing this requires using
+a *Poisson* binomial distribution, which allows for multiple trials with
+different probabilities.
 
-Further, I addressed one of the limitations of Experiment 1 detailed
-[above](#discussion-aggregation-1) by manipulating all the main variables
-between-subjects. By manipulating presentation between-subjects, I take out the
-potentially confounding factor of reduced risk aversion over time.
+Further, Experiment 2 addressed one of the limitations of
+Experiment [1](#aggregation-1) detailed [above](#discussion-aggregation-1) by
+manipulating all the main variables between-subjects. Manipulating presentation
+between-subjects, removes the potentially confounding factor of reduced risk
+aversion over time.
 
-I tested Hypotheses \@ref(hyp:awareness-aggregation-1),
-and \@ref(hyp:presentation-aggregation-1), from Experiment 1. Following the
-finding in Experiment 1 that participants in the aware condition seemed to
-become more risk-taking as the experiment progressed, I tested the following
-hypothesis:
+Experiment 2 again tested Hypotheses \@ref(hyp:awareness-aggregation-1),
+and \@ref(hyp:presentation-aggregation-1), from Experiment [1](#aggregation-1).
+Following the finding in Experiment [1](#aggregation-1) that participants in the
+aware condition seemed to become more risk-taking as the experiment progressed,
+Experiment 2 tested the following:
 
-``` {hypothesis, awareness-trials-aggregation-2, echo = TRUE}
+``` {hypothesis, awareness-trials-aggregation-2, name = "Interaction of trial number and awareness", echo = TRUE}
 Participants will make more risky choices as the trials progress, but only when
 they are aware of the total number of projects in the set.
 ```
 
 Further, multi-play gambles with outcome distributions have been shown to reduce
 risk aversion compared to multi-play gambles without distributions [e.g.,
-@redelmeier1992; @webb2017]. Therefore, I tested the following hypothesis:
+@redelmeier1992; @webb2017]. Therefore, Experiment 2 tested the following:
 
-``` {hypothesis, distribution-aggregation-2, echo = TRUE}
+``` {hypothesis, distribution-aggregation-2, name = "Distribution effect", echo = TRUE}
 Participants will make more risky choices when presented with an aggregated
 outcome distribution than when making the same decisions individually.
 ```

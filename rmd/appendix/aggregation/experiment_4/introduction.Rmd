@@ -7,14 +7,15 @@ tar_load(results_aggregation_4)
 tar_load(plot_aggregation_4)
 ```
 
-Experiment 4 investigated the effect of "awareness" on project choice. In
-Experiment 1 we found an effect of awareness in the trial-by-trial data that was
-not replicated in Experiment 2. Previously, I explained this effect using the
-law of small numbers; people may have been anticipating less risky gambles
-towards the end of the set. As such, it might be the case that the effect will
-be seen with more trials. In Experiment 4 we attempted to replicate the effect
-from Experiment 1 with 20 projects. The "naive" condition attempted to encourage
-participants to focus on projects one at a time and did not say how many
-projects there were. The "aware" condition attempted to encourage participants
-to think of all 20 projects (by saying the total number in the beginning, and
-notifying participants where they were in the project order). I again tested Hypothesis \@ref(hyp:awareness-trials-aggregation-2).
+Experiment 4 investigated the effect of "awareness" on project choice.
+Experiment 1 found an effect of awareness in the trial-by-trial data that was
+not replicated in Experiment 2. Previously, this effect was explained through
+the law of small numbers: people may have been anticipating less risky gambles
+towards the end of the set. As such, the effect could be seen with more trials.
+Experiment 4 attempted to replicate the effect from Experiment 1 with 20
+projects. The *naive* condition attempted to encourage participants to focus on
+projects one at a time and did not say how many projects there were. The *aware*
+condition attempted to encourage participants to think of all 20 projects (by
+saying the total number in the beginning and notifying participants where they
+were in the project order). Experiment 4 again tested
+Hypothesis \@ref(hyp:awareness-trials-aggregation-2).

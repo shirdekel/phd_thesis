@@ -2,33 +2,21 @@
 
 #### Project investment
 
-The project investment data was analysed in two ways: as binary choice per trial
-(using logistic regression), and as proportions of choice per participant (using
-t-test). In each case I compared the relevant comparison condition to the same
-control condition (separate naive distribution absent).
-Figures \@ref(fig:plot-aggregation-2-choice)
-and \@ref(fig:plot-aggregation-2-proportion) show the choice and proportion
-data, respectively. The difference between presentation conditions was not
-significant, both in the logistic regression
-`r results_aggregation_2$choice$presentation$full_result[[2]]`, and in the
-t-test, `r results_aggregation_2$proportion$presentation`. Similarly, the
-difference between awareness conditions was not significant, both in the
-logistic regression `r results_aggregation_2$choice$awareness$full_result[[2]]`,
-and in the t-test, `r results_aggregation_2$proportion$awareness`. However,
-those that that saw a distribution tended to choose to invest significantly more
+The project investment data was analysed as proportions of choice per
+participant, as in Experiment 1. Each experimental condition was compared to the
+same control condition (separate presentation, naive awareness, and distribution
+absent). Figure \@ref(fig:plot-aggregation-2-proportion) shows this data. The
+difference between presentation conditions was not significant,
+`r results_aggregation_2$proportion$presentation`. Similarly, the
+difference between awareness conditions was not significant,
+`r results_aggregation_2$proportion$awareness`. However, those that that saw a
+distribution tended to choose to invest significantly more
 (`r results_aggregation_2$distribution_mean$present$choice`) than those that did
 not see a distribution
-(`r results_aggregation_2$distribution_mean$absent$choice`), seen both in the
-logistic regression, `r results_aggregation_2$choice_distribution`, and the
-t-test `r results_aggregation_2$proportion$distribution`.
+(`r results_aggregation_2$distribution_mean$absent$choice`),
+`r results_aggregation_2$proportion$distribution`.
 
-(ref:plot-aggregation-2-choice) Mean project acceptance for the presentation, awareness, and distribution effects. Note, the condition on the left of each effect is the reference condition (separate presentation, naive awareness, distribution absent). As such, it is identical for the three effects.
-
-```{r plot-aggregation-2-choice, fig.cap = "(ref:plot-aggregation-2-choice)"}
-plot_aggregation_2$choice_binary
-```
-
-(ref:plot-aggregation-2-proportion) Mean proportion of project acceptance for the presentation, awareness, and distribution effects. Note, the condition on the left of each effect is the reference condition (separate presentation, naive awareness, distribution absent). As such, it is identical for the three effects.
+(ref:plot-aggregation-2-proportion) Mean proportion of project acceptance for the presentation, awareness, and distribution effects. Note, the condition on the left of each effect is the reference condition (separate presentation, naive awareness, distribution absent). As such, it is identical for the three effects. Error bars represent 95% confidence intervals.
 
 ```{r plot-aggregation-2-proportion, fig.cap = "(ref:plot-aggregation-2-proportion)"}
 plot_aggregation_2$choice_proportion
@@ -37,7 +25,7 @@ plot_aggregation_2$choice_proportion
 Further, as Figure \@ref(fig:plot-aggregation-2-choice-trials) shows, it
 doesn't seem as if the previous awareness by trial effect was replicated.
 
-(ref:plot-aggregation-2-choice-trials) Mean project acceptance for separate presentation, distribution absent condition, by awareness and trial.
+(ref:plot-aggregation-2-choice-trials) Mean project acceptance for separate presentation, distribution absent condition, by awareness and trial. LOESS is used for smoothing over trials and the shading represents 95% confidence intervals.
 
 ```{r plot-aggregation-2-choice-trials, fig.cap = "(ref:plot-aggregation-2-choice-trials)"}
 plot_aggregation_2$choice_trials

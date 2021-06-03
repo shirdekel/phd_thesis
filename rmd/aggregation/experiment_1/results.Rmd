@@ -2,7 +2,7 @@
 
 #### Project choice
 
-I conducted a three-way ANOVA to investigate the effects of similarity,
+A three-way ANOVA was conducted to investigate the effects of similarity,
 awareness, and presentation on the proportion of participants' decision to
 invest in the 10 projects. As seen in
 Figure \@ref(fig:plot-aggregation-1-awareness), participants invested more when
@@ -17,7 +17,9 @@ similarity and presentation was significant,
 Figure \@ref(fig:plot-aggregation-1-similarity-presentation)). Specifically, the
 presentation effect seems stronger in the high similarity condition,
 `r results_aggregation_1$highjoint_highseparate`, than in the low similarity
-condition, `r results_aggregation_1$lowjoint_lowseparate`.
+condition, `r results_aggregation_1$lowjoint_lowseparate`. These findings
+suggest that it is possible to facilitate risk aggregation through subtle choice
+bracketing manipulations.
 
 (ref:plot-aggregation-1-awareness) Mean proportions of decisions to invest in each set of 10 projects, by awareness conditions. Error bars represent 95% confidence intervals.
 
@@ -39,20 +41,23 @@ plot_aggregation_1$similarity_presentation
 
 #### Trial-by-trial analysis
 
-I conducted exploratory analyses into the possible effects of the manipulations
-on a trial-by trial basis. Appendix \@ref(trial-by-trial-aggregation-1) shows
-the data for all conditions. The key findings is in the separate presentation.
-As Figure \@ref(fig:plot-aggregation-1-trials-separate-awareness) shows, in the
+Exploratory analyses were conducted into the possible effects of the
+manipulations on a trial-by trial basis.
+Appendix \@ref(trial-by-trial-aggregation-1) shows the data for all conditions.
+The key findings are in the separate presentation. As
+Figure \@ref(fig:plot-aggregation-1-trials-separate-awareness) shows, in the
 separate condition people are more likely to accept projects over the 10 trials,
 but this interacts with awareness,
 `r results_aggregation_1$trials_separate_awareness$full_result$awareness1_project_order`.
-Specifically, the relationship between choice and trial is significant in the
-aware condition,
-`r results_aggregation_1$trials_separate_awareness_slope$aware`; but not in the
+Specifically, the relationship between choice and trial is stronger in the aware
+condition,
+`r results_aggregation_1$trials_separate_awareness_slope$aware`, than in the
 naive condition,
-`r results_aggregation_1$trials_separate_awareness_slope$naive`.
+`r results_aggregation_1$trials_separate_awareness_slope$naive`. It seems that
+participants that were told the total number of projects became less risk averse
+as the experiment proceeded, regardless of the gamble values.
 
-(ref:plot-aggregation-1-trials-separate-awareness) Proportion of project acceptance in the separate presentation condition, by trial, and awareness conditions. LOESS is used for smoothing over trials, and the shading represents 95% confidence intervals.
+(ref:plot-aggregation-1-trials-separate-awareness) Proportion of project acceptance in the separate presentation condition, by trial, and awareness conditions. LOESS is used for smoothing over trials and the shading represents 95% confidence intervals.
 
 ```{r plot-aggregation-1-trials-separate-awareness, fig.cap = "(ref:plot-aggregation-1-trials-separate-awareness)"}
 plot_aggregation_1$trials_separate_awareness

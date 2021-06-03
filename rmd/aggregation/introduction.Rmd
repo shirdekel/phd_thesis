@@ -82,15 +82,17 @@ rejected a gamble that involved a 50% chance of gaining $200 and a 50% of losing
 $100, despite the gamble's positive Expected Value (EV). That is, $200 \cdot
 0.5 - 100 \cdot 0.5 = +50$. Rejection of a positive EV gamble out of fear of the
 possible loss is classic loss aversion. However, the same colleague said he
-would accept 100 plays of the same gamble. @samuelson1963 argued that this
-choice is irrational, but other work suggests that it is consistent with
-expected utility theory when certain assumptions are clarified [e.g., @ross1999;
-@aloysius2007]. However, a normative discussion is out of the scope of the
-present work. Intuitively, it is clear that over the course of 100 gambles, the
-positive EV wins out, and a net loss of money is extremely unlikely. Samuelson's
-colleague was more risk averse when making a single decision about one gamble (a
-*single-play* gamble), than when making a single decision about multiple
-identical gambles (a *multi-play* gamble).[^terminology]
+would accept 100 plays of the same gamble. Samuelson argued that this choice is
+irrational.[^normative] Intuitively, it is clear that over the course of 100
+gambles, the positive EV wins out, and a net loss of money is extremely
+unlikely. Samuelson's colleague was more risk averse when making a single
+decision about one gamble (a *single-play* gamble), than when making a single
+decision about multiple (in this case 100) identical gambles (a *multi-play*
+gamble).[^terminology]
+
+[^normative]: Other work suggests that it is consistent with expected utility
+    theory, once certain assumptions are added [e.g., @ross1999; @aloysius2007].
+    However, a normative discussion is out of the scope of the present work.
 
 [^terminology]: This chapter uses the terminology for gamble types used in
     @bristow2011 and @camilleri2013.
@@ -192,7 +194,8 @@ understood the independent lotteries as identical or non-identical. This reduces
 the external validity of the study, as most independent risky choice involves
 non-identical outcomes and probabilities. In sum, these studies were not
 designed to research how to facilitate risk aggregation and reduce loss
-aversion.
+aversion. This chapter is novel because its goal is to facilitate risk
+aggregation without the experimental artefact of immediate feedback.
 
 ### Choice bracketing
 
@@ -210,33 +213,31 @@ increments with a single evaluation.
 
 <!-- Naive aggregation -->
 
-The goal of this chapter is to facilitate risk aggregation without the
-experimental artefact of immediate feedback. Both the original @samuelson1963
-anecdote and its subsequent replications show that people do have an intuition
-for aggregation even without the risk being calculated exactly for them. This
-chapter tests whether that same intuition can be elicited and applied across
-sets of unique bets. What are the minimal conditions required to encourage
-aggregation? The multi-play gamble work suggests that participants can engage in
-a more intuitive form of aggregation when provided with the right contextual
-cues. Investigating the effects of more subtle cues will help shed light on the
-cognitive processes underlying choice bracketing. Of course, the effects of more
-subtle cues would not eliminate the utility of explicit financial education, but
-they will help the design of decision-making contexts to best align with such
-instruction.
+Both the original @samuelson1963 anecdote and its subsequent replications show
+that people do have an intuition for aggregation even without the risk being
+calculated exactly for them. This chapter tests whether that same intuition can
+be elicited and applied across sets of unique bets. What are the minimal
+conditions required to encourage aggregation? The multi-play gamble work
+suggests that participants can engage in a more intuitive form of aggregation
+when provided with the right contextual cues. Investigating the effects of more
+subtle cues will help shed light on the cognitive processes underlying choice
+bracketing. Of course, the effects of more subtle cues would not eliminate the
+utility of explicit financial education, but they will help the design of
+decision-making contexts to best align with such instruction.
 
 <!-- Awareness -->
 
 One way of potentially facilitating risk aggregation is to highlight to
-participants the number of total options. @sokolhessner2009 and
-@sokolhessner2012 reduced risk aversion using lengthy instructions with an
-explanation to "think like a trader". This meant considering all the
-repeated-play gambles as a portfolio, as opposed to considering them
-individually. However, a more subtle cue could involve simply making
-participants aware that they are going to be making a series of choices. This
-kind of contextual cue may be sufficient to encourage risk aggregation. If
-people possess such an intuitive understanding, as suggested above, then simply
-being encouraged to consider a set of choices together in more subtle ways than
-explicit instruction will also facilitate aggregation.
+participants the number of total options that are available to them.
+@sokolhessner2009 and @sokolhessner2012 reduced risk aversion using lengthy
+instructions that encouraged participants to "think like a trader". This meant
+considering all the repeated-play gambles as a portfolio, as opposed to
+considering them individually. However, this was quite a strong manipulation
+that is perhaps unrealistic in real world. A more subtle cue could involve
+simply making participants aware that they are going to be making a series of
+choices. If people possess an intuitive understanding of aggregation, as
+suggested above, then this kind of contextual cue will also facilitate
+aggregation.
 
 <!-- Alignment -->
 
@@ -246,12 +247,12 @@ bracketing, and thus risk aggregation. Consider the inverse situation wherein a
 lack of comparability between choices may prevent broad bracketing, such as when
 an executive for a multi-business firm makes decisions across multiple distinct
 industries. Of course, the similarity of decision contexts does not change the
-maths of risk aggregation, and but may well affect whether people do aggregate
-risk across decisions. @dekay2005 found that multi-play effects are not seen
-when choices are not considered fungible. For instance, participants aggregated
+maths of risk aggregation, but may well affect whether people do aggregate risk
+across decisions. @dekay2005 found that multi-play effects are not seen when
+choices are not considered fungible. For instance, participants aggregated
 across dollar amounts, but not across patients in a medical decision. As such,
-people may behave similarly when considering a set of dissimilar choices,
-insofar as they consider them not fungible.
+people may behave similarly when considering a set of dissimilar choices if they
+consider them not fungible.
 
 There is further suggestive evidence that the similarity of a set of choices to
 one another will affect choice bracketing. Choices whose differences are easy to
@@ -262,9 +263,9 @@ and further facilitate risk aggregation through the comparable attributes.
 However, it is possible that increased similarity will facilitate risk
 aggregation even without a tangible benefit to the underlying calculations. That
 is, it is possible that simply manipulating the similarity of
-financially-irrelevant semantics of a choice set that people will become less
-risk averse. If so, then this will be by virtue of an implicit risk aggregation
-in which the mere awareness of the possibility of a grouping of choices reduces
+financially-irrelevant semantics of a choice set will make people less risk
+averse. If so, then this will be by virtue of an implicit risk aggregation in
+which the mere awareness of the possibility of a grouping of choices reduces
 risk aversion. It is important to investigate the effect of similarity
 especially because in managerial settings, executives in multi-business firms
 will often have to make comparisons across industries that are hard to compare.
@@ -304,7 +305,7 @@ averse when receiving feedback for each trial, compared to every three trials.
 Testing a presentation manipulation without the confound of feedback will help
 to clarify this effect.
 
-### Internal market capital investment context
+### Internal capital market investment context
 
 Executives of large, successful firms are often viewed as fearless risk-takers
 who take on risky projects to generate innovation and growth. However, the
@@ -321,13 +322,14 @@ theory [-@markowitz1952].
 However, it is unclear whether the general public and even business managers use
 this principle, due to the extent of risk aversion in both those populations
 [e.g., @tversky1992; @march1987]. In fact, executives treat risk like the rest
-of us; they view investments one at a time, are risk averse for gains and risk
-seeking in the domain of losses [@maccrimmon1986; @swalm1966; @lovallo2020].
-However, it is understandable why risk aggregation is foreign to most people;
-outside of an investment portfolio selection situation, it is unlikely for
-people to group a selection of individual risky choices. Usually in life, people
-encounter risky choices sequentially, and so the risk of each individual choice
-is more salient than the aggregated risk of an arbitrary combination of choices.
+of us; they view investments one at a time, are risk averse in the domain of
+gains, and are risk seeking in the domain of losses [@maccrimmon1986;
+@swalm1966; @lovallo2020]. However, it is understandable why risk aggregation is
+foreign to most people; outside of an investment portfolio selection situation,
+it is unlikely for people to spontaneously group a selection of individual risky
+choices. Usually in life, people encounter risky choices sequentially, and so
+the risk of each individual choice is more salient than the aggregated risk of
+an arbitrary combination of choices.
 
 @lovallo2020 show that executives treat investments within their own company in
 isolation. In multi-business firms, the managers of each business unit often
@@ -335,27 +337,25 @@ make the investment decisions about individual projects. As such, they often do
 not consider the scope of their decisions in the context of the entire company.
 For instance, Nobel laureate Richard Thaler offered 25 division managers working
 for the same firm a hypothetical investment that involves a 50% chance of
-gaining $2 million for the company and a 50% chance of losing $1 million. Only
-three managers said they would accept the investment [@thaler1999]. However, the
-CEO indicated that he would have clearly preferred managers to accept all the
-investments. To each middle-manager, the choice represents a risk of loss for
-their division and potentially their job, whereas for the CEO the entire
-portfolio of choices represents a worthwhile risk.
+gaining $2 million for the company and a 50% chance of losing $1 million
+[-@thaler1999]. Only three managers said they would accept the investment.
+However, the CEO indicated that he would have clearly preferred managers to
+accept all the investments. To each middle-manager, the choice represents a risk
+of loss for their division and potentially their job, whereas for the CEO the
+entire portfolio of choices represents a worthwhile risk.
 
-In this chapter I investigate risky choice in the context of business project
+This chapter investigates risky choice in the context of business project
 investment internal to a company because this is a real-world context where
 choice bracketing is important and currently under-utilised [@lovallo2020]. The
-participants in my studies were taken from a general population that does not
-have extensive managerial experience. However, in the general population a lack
-of risk aggregation is most likely more common, and the variables I am
-researching here are readily applicable to the financial decisions that lay
-people make. For instance, one of the real-world applications of the choice
-bracketing literature has been to use outcome distributions and increased time
-horizons to encourage investment in high risk, but high EV, retirement funds
-[e.g., @benartzi1999]. Otherwise, people typically prefer low risk, low EV,
-funds. Further, because my task concerns managerial decision-making, I can
-investigate contextual cues to choice bracketing, while eliminating potential
-differences between participants in their prior experience with the specific
-decision-context. Future research will focus on managers with
-context-specific experience to investigate the effects of that experience.
+participants in my studies were taken from a population that does not have
+extensive managerial experience. However, in such a population a lack of risk
+aggregation is most likely more common, and the variables used here are readily
+applicable to the financial decisions that laypeople make. For instance, one of
+the real-world applications of the choice bracketing literature has been to use
+outcome distributions and increased time horizons to encourage investment in
+high risk, but high EV, retirement funds [e.g., @benartzi1999]. Otherwise,
+people typically prefer low risk, low EV, funds. Further, using laypeople
+eliminates potential differences in prior experience with the management-based
+decision-context. Future research will focus on managers with context-specific
+experience to investigate the effects of that experience.
 

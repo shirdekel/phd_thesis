@@ -1,86 +1,89 @@
 ## General discussion
 
-I found that choice bracketing facilitated risk aggregation in description-based
-repeated-play gambles. This paradigm has never been a target of research. Early
-work on risk aggregation involved multi-play gambles, which treated gambles as
-simultaneous and identical. However, most risky choice outside the lab involves
-considering multiple choices independently, as in repeated-play paradigms. Most
-repeated-play paradigms have involved providing participants with feedback, or
-allowing them to sample from outcome distributions. Large real-life investments
-are different, as their outcomes are not eventuated immediately (and do not
-allow for distribution sampling). The limited prior work using description-based
-repeated-play gambles did not consider the effect of choice bracketing on risk
-aggregation. As such, my paradigm allowed for the investigation of choice
-bracketing in a way that is isomorphic with real-life prescriptions.
+This chapter found that choice bracketing facilitated risk aggregation in
+description-based repeated-play gambles. This paradigm has never been a target
+of research. Early work on risk aggregation involved multi-play gambles, which
+treated gambles as simultaneous and identical. However, most risky choice
+outside the lab involves considering multiple choices independently, as in
+repeated-play paradigms. Most repeated-play paradigms have involved providing
+participants with feedback, or allowing them to sample from outcome
+distributions. Large real-life investments are different, as their outcomes are
+not eventuated immediately (and do not allow for distribution sampling). The
+limited prior work using description-based repeated-play gambles did not
+consider the effect of choice bracketing on risk aggregation. As such, the
+paradigm used in this chapter allowed for the investigation of choice bracketing
+in a way that is isomorphic with real-life prescriptions.
 
-[Experiment 1](#aggregation-1) found evidence for the effects of similarity,
-presentation, and awareness of the number of projects. [Experiment
-2](#aggregation-2) found evidence for the effect of an outcome distribution but
-did not replicate the presentation and awareness effects. Subsequent follow up
-experiments (presented in Appendices \@ref(aggregation-3)
-and \@ref(aggregation-4)) again tested the similarity and awareness effects. I
-found evidence for naive diversification (an advantage for low similarity) when
-considering them all projects once, and did not replicate the trial-by-trial
-interaction from Experiment 1.
+Experiment [1](#aggregation-1) found evidence for the effects of similarity,
+presentation, and awareness of the number of projects.
+Experiment [2](#aggregation-2) found evidence for the effect of an outcome
+distribution but did not replicate the presentation and awareness effects.
+Subsequent follow up experiments (presented in Appendices \@ref(aggregation-3)
+and \@ref(aggregation-4)) again tested the similarity and awareness effects.
+These experiments found evidence for naive diversification (an advantage for low
+similarity) when considering them all projects once and did not replicate the
+trial-by-trial interaction from Experiment [1](#aggregation-1).
 
-Therefore, in addition to the novelty of the paradigm itself, I found that
-choice bracketing facilitates risk aggregation. As per
-Hypothesis \@ref(hyp:distribution-aggregation-2), I found that showing a
-distribution of outcome probabilities without inter-trial feedback reduced risk
-aversion. Further, I found mixed evidence for
+Therefore, in addition to the novelty of the paradigm itself, this chapter found
+that choice bracketing facilitates risk aggregation. As per
+Hypothesis \@ref(hyp:distribution-aggregation-2), Experiment [2](#aggregation-2)
+found that showing a distribution of outcome probabilities without inter-trial
+feedback reduced risk aversion. Further, there was mixed evidence for
 Hypothesis \@ref(hyp:similarity-aggregation-1), such that people were less risk
 averse when the set of projects they saw were dissimilar, but only when offered
-them as a portfolio. I found only minimal evidence for
-Hypotheses \@ref(hyp:awareness-aggregation-1)
+them as a portfolio (see Appendix \@ref(aggregation-3)). There was only minimal
+evidence for Hypotheses \@ref(hyp:awareness-aggregation-1)
 and \@ref(hyp:presentation-aggregation-1), suggesting that viewing projects
-together and awareness of the number of projects are not sufficient to encourage
-aggregation. Altogether, it seems that subtle contextual cues are often not
-sufficient to encourage risk aggregation, and that people need risk to be is
-aggregated for them in order to understand the benefits of aggregation.
+together and an awareness of the number of projects are not sufficient to
+encourage aggregation. Altogether, it seems that subtle contextual cues are
+often not sufficient to encourage risk aggregation and that people need risk to
+be is aggregated for them explicitly in order to understand the benefits of
+aggregation.
 
 ### Theoretical implications
 
 The finding that participants are less risk averse when provided with an
 aggregated outcome distribution is congruent with previous work [e.g.,
-@redelmeier1992]. However, when distributions have been previously used,
-gambles were identical in multi-play paradigms and used immediate feedback for
-repeated-play paradigms [e.g., @benartzi1999]. As I mentioned previously, both
+@redelmeier1992]. However, when distributions have been previously used, gambles
+were identical---as in multi-play paradigms---and used immediate feedback for
+repeated-play paradigms [e.g., @benartzi1999]. As mentioned previously, both
 these paradigms have limited ecological validity because usually people are
 faced with non-identical sequential choices and do not receive immediate
-feedback. I am the first to provide evidence for this aggregation effect with
-non-identical gambles without feedback.
+feedback. This work is the first to provide evidence for this aggregation effect
+with non-identical gambles without feedback.
 
-My other choice bracketing findings are less congruent with previous research.
+The other choice bracketing findings are less congruent with previous research.
 @sokolhessner2009 and @sokolhessner2012 found that encouraging participants to
 make decisions akin to a professional investor increased the amount of risky
-choices they made. I found that subtler manipulation - whether or not
-participants were aware of the number of choices to be made - is not sufficient
-to encourage aggregation. @hsee1999 found that useful, but hard-to-interpret,
-attributes were used more when the options were presented jointly, rather than
-separately. In the case of these experiments, the "hard to interpret" element of
-the decision set was the risk of the projects. Contrary to @hsee1999, it seemed
-that risk was not always accounted for more when projects were presented
-jointly, rather than separately. More study is needed to understand whether the
-effects that were seen in [Experiment 1](#results-aggregation-1) but not
-replicated in the subsequent experiments are due to statistical chance or
-specific elements of the experiment.
+choices they made. The results showed that a subtler manipulation---whether or
+not participants were aware of the number of choices to be made---is not
+sufficient to encourage aggregation. @hsee1999 found that useful, but
+hard-to-interpret, attributes were used more when the options were presented
+jointly, rather than separately. In the case of these experiments, the "hard to
+interpret" element of the decision set was the risk of the projects. Contrary to
+@hsee1999, it seems that risk was not always accounted for more when projects
+were presented jointly, rather than separately. More study is needed to
+understand whether the effects that were seen in
+Experiment [1](#results-aggregation-1) but not replicated in the subsequent
+experiments are due to statistical chance or specific elements of the
+experiment.
 
 Research on the effect of option similarity on choice [e.g., @markman1995]
 suggests that alignable differences are more important than non-alignable
 differences. Further, the effects of multi-play gambles and outcome
 distributions on risk aggregation are only seen when participants perceive the
-options as fungible [e.g., @dekay2005]. As such, I predicted that a set of
+options as fungible [e.g., @dekay2005]. As such, it was predicted that a set of
 investments that involve the same type of investment would be seen as more
-similar and fungible. As per Hypothesis \@ref(hyp:similarity-aggregation-1), I
-expected that this would facilitate a broad bracketing, and therefore more risk
-aggregation.
+similar, and therefore be considered as fungible.
+Hypothesis \@ref(hyp:similarity-aggregation-1) predicted that this would
+facilitate a broad bracketing, and therefore more risk aggregation.
 
-Instead, I found that choice similarity did not affect individual project
-allocations. However, when participants were given an all-or-nothing choice for
-the entire set of projects, those that viewed dissimilar projects were more
-likely to take the entire set projects than those that viewed similar projects.
-This is different from my initial hypothesis, however, it may still suggest an
-effect of choice bracketing. That is, this effect was only found when
+Instead, the results showed that choice similarity did not affect individual
+project allocations. However, when participants were given an all-or-nothing
+choice for the entire set of projects, those that viewed dissimilar projects
+were more likely to take the entire set projects than those that viewed similar
+projects. This is different from the initial hypothesis, however, it may still
+suggest an effect of choice bracketing. That is, this effect was only found when
 participants were asked about the entire portfolio of projects, rather than when
 they had a chance to make a choice about each project. The way that the question
 was framed may have acted to broadly bracket the choices by forcing the choice.
@@ -91,12 +94,12 @@ portfolio is preferred to one that is not diversified, because it reduces the
 probability of a loss. When some investments have losses, others will have
 gains; the root of "don't keep all your eggs in one basket." Typically,
 questions of gamble aggregation assume that each gamble is independent. That is,
-the gambles are uncorrelated. As such, in a way, aggregation of a portfolio
-already assumes that the portfolio is somewhat diversified (at least that the
-gambles aren't perfectly correlated).
+the gambles are uncorrelated. As such, aggregation of a portfolio already
+assumes that the portfolio is somewhat diversified (or at least that the gambles
+aren't perfectly correlated).
 
-As such, in the case of the similarity effect, the choice bracketing did not
-seem to encourage aggregation, but instead appears to have encouraged a naive
+In the case of the similarity effect, the choice bracketing did not seem to
+encourage aggregation, but instead appears to have encouraged a naive
 diversification [@hedesstrom2006; @read1995]. It could not have been actual
 diversification, because the projects did not contain correlational information.
 Instead, participants could have been more eager to accept the project portfolio
@@ -123,18 +126,20 @@ inertia" [@camilleri2011]. That is, "the tendency to repeat the last choice,
 irrespective of the obtained outcome" (p. 383). However, there is not much more
 elaboration beyond this. Repeated-play gambles show more underweighting than
 multi-play gambles. This is said to be due to a "reliance on a very small set of
-samples" [@camilleri2013, p. 64]. However, this explanation does not account
-for repeated-play effects independently.
+samples" [@camilleri2013, p. 64]. However, this explanation does not account for
+repeated-play effects independently.
 
 The experiments in this chapter shed some light about the mechanisms behind why
 choice bracketing may affect risk aggregation in repeated-play gambles without
-feedback. I proposed two explanations: participants may realise that some gains
-will offset the losses, or they may need explicit aggregation. Not finding
+feedback. Two explanations were proposed: participants may realise that some
+gains will offset the losses, or they may need explicit aggregation. Not finding
 evidence for the subtle choice bracketing manipulations suggests that people do
 not intuitively consider that the gains of their choices may offset the
 potential losses. Perhaps the possibility of recouped losses would become more
 salient when other participants are explicitly told of this possibility, as in
-@sokolhessner2009.
+@sokolhessner2009. Their explicit instruction manipulation is introduced above
+as appearing unrealistically strong, but the results of this chapter suggest
+that people do need very explicit scaffolding in order to use risk aggregation.
 
 ### Practical implications
 
@@ -144,8 +149,8 @@ encourage a joint evaluation of projects, this may be insufficient to encourage
 aggregation. Projects need to very explicitly be considered as individual
 components in a portfolio in order to facilitate better risk aggregation. Some
 companies are already implementing processes that make this more explicit
-[@lovallo2020]. This is especially important for those that would still have
-to evaluate projects separately.
+[@lovallo2020]. This is especially important for those that would still have to
+evaluate projects separately.
 
 Interestingly, participants were less risk averse about a portfolio of projects
 when industries differed, compared to when they were all from the same industry.
@@ -159,8 +164,8 @@ evaluating dissimilar business projects is more difficult to comparing similar
 projects. The current work suggests that managers may actually be *less* likely
 to realise the benefits of aggregation when they are in a less diversified
 company. As such, managers should complement an understanding of aggregation
-with that of diversification in order to avoid being biased by a lack of variety
-of projects despite a potentially high level of diversification.
+with that of diversification. This might help to avoid being biased by a lack of
+variety of projects despite a potentially high level of diversification.
 
 ### Future research
 
@@ -174,15 +179,15 @@ real-world managerial decision-making. This is especially important since
 @haigh2005 showed that professional traders show more myopic loss aversion than
 students. Further, the more subtle choice bracketing manipulations should be
 tested with managers since it is possible that they have a greater sense of
-naive aggregation are therefore be more amenable to such manipulations. The
-addition of extra payment for better performance on the task might also assist
-in making the task more isomorphic with real-world managerial decisions. In the
-present experiments, participants viewed the projects all in the space of one
-session. However, this is not completely isomorphic to real life, where managers
-make many other decisions that are unrelated to the large risky investments at
-their companies. Future research should test participants over a longer period
-of time in order to see whether the effects of the manipulations replicate in a
-more realistic environment.
+naive aggregation and are therefore more likely to be more amenable to such
+manipulations. The addition of extra payment for better performance on the task
+might also assist in making the task more isomorphic with real-world managerial
+decisions. In the present experiments, participants viewed the projects all in
+the space of one session. However, this is not completely isomorphic to real
+life, where managers make many other decisions that are unrelated to the large
+risky investments at their companies. Future research should test participants
+over a longer period of time in order to see whether the effects of the
+manipulations replicate in a more realistic environment.
 
 \newpage
 

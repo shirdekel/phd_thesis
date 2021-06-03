@@ -21,13 +21,13 @@ in the separate presentation phase,
 `r results_aggregation_1$individual_aggregated$separate`; and in the joint
 presentation phase, `r results_aggregation_1$individual_aggregated$joint`.
 
-However, I subsequently discovered that the code that generated this
+However, it was subsequently discovered that the code that generated this
 distribution mistakenly flipped the outcome values. This means that although it
-appeared from the distribution that the propability of loss was
+appeared from the distribution that the probability of loss was
 `r results_aggregation_1$loss_prob`, the actual probability of loss of the
 underlying values given the correct distribution was
-`r results_aggregation_1$loss_prob_correct`. As such, even though I found an
-effect of distribution, it is unclear if the effect was driven by participants
-actually accurately assessing the riskiness of the individual gambles, and
-therefore showing a difference between the isolated and aggregated gambles in a
-normative way.
+`r results_aggregation_1$loss_prob_correct`. As such, even though Experiment 1
+found an effect of distribution, it is unclear if the effect was driven by
+participants actually accurately assessing the riskiness of the individual
+gambles, and therefore showing a difference between the isolated and aggregated
+gambles in a normative way.

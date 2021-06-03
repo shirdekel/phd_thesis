@@ -28,8 +28,8 @@ above the case study and target projects. One important difference from
 Experiment 1 was that I clarified in the instructions text both that the
 anecdote was sampled randomly and that the anecdotes in the pool were all
 equally similar to the target project.
-Appendix \@ref(instructions-materials-anecdotes-2-appendix) shows screenshots of
-these web-pages.
+Appendix \@ref(instructions-materials-anecdotes-2-appendix) shows the
+instructions used in Experiment 2.
 
 ##### Allocation task {#allocation-anecdotes-2}
 
@@ -107,12 +107,11 @@ display.
 
 #### Procedure
 
-Following ethics and demographics web-pages, participants were introduced to the
-study through the general instructions. They then saw five sets of two web-pages
-(in randomised order). Each "set" contained two web-pages: the allocation task
-and a follow-up questions page (except for the anecdotes only condition, in
-which participants did not see the follow-up questions page). Each allocation
-task page contained specific instructions relevant to the condition, followed by
-the anecdote analysis and description, and the target projects description. The
-only exception was the statistics only display, for which there was no anecdote
-description or analysis.
+Participants were introduced to the study through the general instructions. They
+then saw five sets of two web-pages (in randomised order). Each "set" contained
+two web-pages: the allocation task and a follow-up questions page (except for
+the anecdotes only condition, in which participants did not see the follow-up
+questions page). Each allocation task page contained specific instructions
+relevant to the condition, followed by the anecdote analysis and description,
+and the target projects description. The only exception was the statistics only
+display, for which there was no anecdote description or analysis.

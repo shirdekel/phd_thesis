@@ -28,8 +28,8 @@ also told that the information in the anecdote is subsumed in the data of the
 aggregated study. Those in the anecdote + enhanced statistics condition saw the
 same as those in the anecdote + statistics condition, but were subsequently
 given the explanation of scientific thinking that @wainberg2018 used.
-Appendix \@ref(instructions-materials-anecdotes-1-appendix) shows screenshots of
-of these instructions.
+Appendix \@ref(instructions-materials-anecdotes-1-appendix) shows the
+instructions used in Experiment 1.
 
 ##### Allocation task
 
@@ -137,9 +137,8 @@ Appendix \@ref(follow-up-materials-anecdotes-1) for a screenshot of the display
 
 #### Procedure
 
-Following ethics and demographics web-pages, participants were introduced to the
-study through the general instructions and the specific instructions relevant to
-the condition. They then saw the allocation task, which included the anecdote
-analysis and description (for those not in the statistics condition), and the target
-projects description. Those that saw an anecdote were subsequently shown the
-follow-up questions.
+Participants were introduced to the study through the general instructions and
+the specific instructions relevant to the condition. They then saw the
+allocation task, which included the anecdote analysis and description (for those
+not in the statistics condition), and the target projects description. Those
+that saw an anecdote were subsequently shown the follow-up questions.

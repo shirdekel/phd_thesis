@@ -72,7 +72,8 @@ present experiments I found a more symmetrical effect, such that both the
 effects of the moderated anecdotal bias and the influence of statistics were
 found in both valence conditions. The difference between this and the finding
 from @jaramillo2019 might be due to the domain of the task in that people are
-more focused on negative outcomes in the medical domain.
+more focused on negative outcomes in the medical domain. It is also surprising
+not to find an asymmetry because of loss aversion.
 
 ### Theoretical implications
 
@@ -112,7 +113,8 @@ thing to do. What seems to be important is a sensitivity to relational, rather
 than surface level similarity. Future research should further investigate how
 varying the assumptions that people have about sampling from a data set of
 anecdotes influences their anecdotal bias. Such assumptions can include the size
-of the sample and the shape of the distribution.
+of the sample and the shape of the distribution. Further, future research should
+use realistic incentives to increase the ecological validity of the findings.
  
 ### Practical implications
 

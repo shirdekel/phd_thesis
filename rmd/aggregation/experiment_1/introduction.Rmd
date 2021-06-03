@@ -7,39 +7,45 @@ tar_load(results_aggregation_1)
 tar_load(plot_aggregation_1)
 ```
 
-In Experiment 1, I investigated the effect of three choice bracketing
-manipulations on risky choice in hypothetical resource allocation scenarios.
-Previous research had low ecological validity because of the use of multi-play
-paradigms or feedback. In this experiment, the risky choice task was a
-description-based repeated-play paradigm, meaning that participants had to make
-a choice about whether to accept a number of different hypothetical investments,
-but were not provided with feedback about their choices. I manipulated the
-similarity of the choices, whether they were presented together or separately,
-and whether participants were aware of the number of choices that they would be
-making.
+Experiment 1 investigates the effect of three choice bracketing manipulations on
+risky choice in hypothetical resource allocation scenarios. Previous research
+had low ecological validity because of the use of multi-play paradigms or
+feedback. In this experiment, the risky choice task was a description-based
+repeated-play paradigm. This means that participants had to make a choice about
+whether to accept a number of different hypothetical investments, but were not
+provided with the outcome of their choices after each decision. The variables of
+interest were the similarity of the choices, whether the choices were presented
+together or separately, and whether participants were aware of the number of
+choices that they would be making.
 
 The values and probabilities of the gambles were set up such that each
 individual gamble, as well as the aggregation of all the gambles, would be
 attractive to a rational agent interested in maximising EV. As such, the key
-dependent measure was the proportion of risky choices participants accept.
+dependent measure was the proportion of risky choices participants accepted.
 
-Previous research suggests that people will exhibit more risky choice when
-explicitly told to bracket their choices [@sokolhessner2009; @sokolhessner2012],
-when choices are presented jointly [e.g., @moher2010; @hsee1999], and when
-choices are similar [e.g., @dekay2005; @markman1995]. Therefore, I tested the
-following hypotheses:
+Previous research suggests that people will be willing to make more risky
+choices when explicitly told to bracket their choices [@sokolhessner2009;
+@sokolhessner2012]. Therefore, Experiment 1 tested the following:
 
-``` {hypothesis, awareness-aggregation-1, echo = TRUE}
+``` {hypothesis, awareness-aggregation-1, name = "Awareness main effect", echo = TRUE}
 Participants that know how many projects to expect will make more risky choices
 than participants that are unaware.
 ```
 
-``` {hypothesis, presentation-aggregation-1, echo = TRUE}
+Further, previous work suggests that joint presentation is a form of broad
+bracketing [e.g., @moher2010; @hsee1999]. Therefore, Experiment 1 tested the
+following:
+
+``` {hypothesis, presentation-aggregation-1, name = "Presentation main effect", echo = TRUE}
 Participants will make more risky choices when seeing projects jointly than when
 seeing them separately.
 ```
 
-``` {hypothesis, similarity-aggregation-1, echo = TRUE}
+Similarity of options has also been shown to affect the way people bracket their
+choices [e.g., @dekay2005; @markman1995]. Therefore, Experiment 1 tested the
+following:
+
+``` {hypothesis, similarity-aggregation-1, name = "Similarity main effect", echo = TRUE}
 Participants that see projects from the same industry will make more risky
 choices than participants that see projects from different industries.
 ```

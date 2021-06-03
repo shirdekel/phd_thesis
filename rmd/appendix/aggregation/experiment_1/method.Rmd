@@ -2,7 +2,7 @@
 
 #### Materials
 
-##### Instructions {#instructions-materials-aggregation-1-appendix}
+##### Instructions
 
 Participants were shown the instructions in
 Figure \@ref(fig:instructions-materials-aggregation-1).
@@ -18,7 +18,7 @@ here(
   image_trim()
 ```
 
-##### Outcome distribution decision {#outcome-distribution-materials-aggregation-1-appendix}
+##### Outcome distribution decision
 
 Figure \@ref(fig:project-choice-aggregated-aggregation-1) shows the outcome
 distribution display that participants saw in Experiment 1.
@@ -38,23 +38,21 @@ here(
 
 ###### Negative EV gambles
 
-I wanted to make sure that participants were generally making decisions that
-were in line with EV theory and that the sample was not abnormally risk
-tolerant. As such, I presented participants two project decisions that had a
-negative EV. Out of the `r descriptives_aggregation_1$total*2` negative EV
-gambles included (two per participant), all but
-`r results_aggregation_1$neg_sum_apa` were rejected.
+It was important to make sure that participants were generally making decisions
+that the sample was not abnormally risk tolerant. As such, participants saw two
+project decisions that had a negative EV. Out of the
+`r descriptives_aggregation_1$total*2` negative EV gambles included (two per
+participant), all but `r results_aggregation_1$neg_sum_apa` were rejected.
 
 ###### @samuelson1963 gambles
 
-I showed participants the original @samuelson1963 gamble, asked them whether
-they would accept 10 of that gamble, and whether they would accept those 10
-given the associated outcome distribution. I then showed them the same three
-questions, but using outcome magnitudes that were similar to the ones in the
-risky investment task. That is, instead of $100, $100 million.
+Participants saw the original @samuelson1963 gamble, were asked whether they
+would accept 10 of that gamble, and whether they would accept those 10 given the
+associated outcome distribution. They then saw the same three questions, but
+using outcome magnitudes that were similar to the ones in the risky investment
+task. That is, instead of $100, $100 million.
 
 ###### @redelmeier1992 gambles
 
-I then showed participants the same three types of gambles (single, 10, and
-aggregated), but with the values from the gambles that were used by
-@redelmeier1992.
+Participants saw the same three types of gambles (single, 10, and aggregated),
+but with the values from the gambles that were used by @redelmeier1992.

@@ -28,9 +28,10 @@ the anecdote + statistics high similarity display,
 `r results_anecdotes_2$combined$valence_negative$similarity_high_similarity_low`.
 However, the difference between responses to the statistics-only projects and
 the anecdote + statistics low similarity projects was not significant,
-`r results_anecdotes_2$combined$valence_negative$similarity_low_statistics_only`
+`r results_anecdotes_2$combined$valence_negative$similarity_low_statistics_only`.
 This provides evidence for the moderation of anecdotal bias by similarity for
-negative anecdotes.
+negative anecdotes. These findings suggest that people are sensitive to the
+relevance of the anecdote to the target problem.
 
 In the positive valence condition, allocations were higher in the statistics-only
 condition than in the anecdote + statistics low similarity condition,
@@ -42,7 +43,7 @@ Further, allocations were higher in the statistics-only condition than in the
 anecdote + statistics high similarity condition,
 `r results_anecdotes_2$combined$valence_positive$similarity_high_statistics_only`.
 This provides evidence for the moderation of anecdotal bias by similarity for
-positive anecdotes.
+positive anecdotes as for negative anecdotes.
 
 #### Effect of statistics
 

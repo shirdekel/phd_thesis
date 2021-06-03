@@ -1,5 +1,15 @@
 ### Method
 
+#### Participants
+
+##### Power analysis {#power-analysis-aggregation-2}
+
+The power analysis was conducted using the `pwr` package [@champely2020]. based
+on the presentation effect size from Experiment 1, since it was the smallest
+effect. The analysis suggested that a minimum sample size of
+`r aggregation2::power * 3` (`r aggregation2::power` $\cdot$ 3) was required for
+the presentation effect with an expected power of at least 80%.
+
 #### Materials
 
 ##### Follow-up {#follow-up-materials-aggregation-2-appendix}

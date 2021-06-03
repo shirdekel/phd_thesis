@@ -24,10 +24,10 @@ condition were told that NPV is a reliable metric. Those in the no NPV condition
 saw instructions that did not include the NPV explanation. Critically,
 participants were told to invest in products with a high objective value
 (because a better quality product is not always better in a consumer goods
-market). Since this might still not use this instruction when directly viewing
+market). Since they might still not use this instruction when directly viewing
 the projects, Experiment 3 used projects with attributes that more inherently
 conveyed quality. Appendix \@ref(instructions-materials-alignment-2-appendix)
-shows screenshots of these web-pages.
+shows the instructions used in Experiment 1.
 
 ##### Project display {#projects-materials-alignment-2}
 

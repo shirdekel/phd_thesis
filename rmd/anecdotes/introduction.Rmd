@@ -132,7 +132,8 @@ statistical inference). @wainberg2018 found that including a contradictory
 anecdote alongside the statistics (the anecdote + statistics condition) reduced
 the proportion of choosing Machine A. This indicated evidence for anecdotal
 bias. The addition of instructions that emphasise scientific thinking further
-reduced this bias.
+reduced this bias. However, this work did not consider the effect of the
+similarity of the machine in the anecdote to the machines in the budgeting task.
 
 ### Effect of similarity
 
