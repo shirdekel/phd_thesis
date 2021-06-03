@@ -28,6 +28,7 @@ library(bookdown)
 library(rmdfiltr)
 
 ## Custom thesis packages
+library(shiR)
 library(shirthesis)
 library(aggregation1)
 library(aggregation2)
