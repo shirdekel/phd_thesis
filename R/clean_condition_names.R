@@ -12,6 +12,7 @@ clean_condition_names <- function(data) {
           as.character() %>%
           snakecase::to_sentence_case() %>%
           str_replace("^Na$", "NA") %>%
+          str_replace("npv", "NPV") %>%
           as.factor()
       )
     )
