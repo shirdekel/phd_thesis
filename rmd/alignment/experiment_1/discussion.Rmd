@@ -1,19 +1,18 @@
 ### Discussion
 
-Experiment 1 found evidence for the effect of alignment on laypeople’s
-decision-making in resource allocation scenarios. Specifically, I found that
-when projects are comparable, people use NPV when they are told it is reliable,
-but not when they are told it is unreliable. However, they use NPV regardless of
-reliability when it is the only shared dimension across products.
+Experiment 1 found evidence for the effect of alignment on laypeople’s
+decision-making in resource allocation scenarios. Specifically, when projects
+were comparable, people used NPV when they were told that it was reliable, but
+not when they were told that it was unreliable. However, they used NPV
+regardless of reliability when it was the only shared dimension across products.
 
-In Experiment 1 I manipulated *verbal* NPV reliability. That is, participants
-were explicitly told whether NPV is considered to be a reliable metric or not.
+Experiment 1 manipulated *verbal* NPV reliability. That is, participants were
+explicitly told whether NPV was considered to be a reliable metric or not.
 However, in the real-world the reliability of a metric is more commonly
-expressed in numerical form, such as a range around and estimate. In Experiment
-2 I will attempt to replicate the alignment effects, but while manipulating the
-numerical reliability associated with each project, rather than the verbal
-reliability as I have previously used. Further, it might be the case that only
-those with sufficient experience with financial theory and analysis will be able
-to successfully draw inferences from such information. Therefore, in Experiment
-2 I used a sample of Masters of Management students, instead of the laypeople in
-Experiment 1.
+expressed in numerical form, such as a range around and estimate. Experiment 2
+will attempt to replicate the alignment effects, but while manipulating the
+*numerical* NPV reliability associated with each project, rather than the verbal
+reliability as used in Experiment 2. Further, people with sufficient experience
+with financial theory and analysis might be able to successfully draw inferences
+from such information. Therefore, Experiment 2 used a sample of Masters of
+Management students, instead of the laypeople used in Experiment 1.

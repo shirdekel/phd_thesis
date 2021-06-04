@@ -60,7 +60,7 @@ of a project in this task.
 (ref:project-choice-aggregation-1) Example of a project choice display in Experiment 1. Border added for clarity.
 
 ```{r project-choice-aggregation-1, fig.cap = "(ref:project-choice-aggregation-1)"}
-here(
+file.path(
   materials_aggregation_1,
   "project_choice_oil-well_separate_similarity_low_1.png"
 ) %>%
@@ -85,7 +85,7 @@ randomised.
 (ref:awareness-aware-aggregation-1) The display seen by those in the aware condition of Experiment 1. Border added for clarity.
 
 ```{r awareness-aware-aggregation-1, fig.cap = "(ref:awareness-aware-aggregation-1)"}
-here(
+file.path(
   materials_aggregation_1,
   "awareness_aware.png"
 ) %>%

@@ -7,59 +7,81 @@ tar_load(results_alignment_2)
 tar_load(plot_alignment_2)
 ```
 
-Experiment 1 investigated the effects of alignment and explicit NPV reliability
+Experiment 1 investigated the effects of alignment and explicit NPV reliability
 information on financial resource allocation decisions. The structural alignment
 literature suggests that people weigh alignable differences more heavily than
-non-alignable differences. I expected that people would use NPV more than any
-other product attributes (because it applied to every product). However, I
-expected this effect to vary with how reliable participants thought the value
-was. That is, if other project dimensions were alignable, then it should be
-easier to adjust the use of NPV based on its reliability. However, I predicted
-that in a low alignment condition there will be a reliance on NPV, as the sole
-alignable difference, regardless of its stated reliability. I used a no NPV
-condition in order to get a better understanding of the baseline responding to
-the materials without NPV. To measure these effects I considered the linear
-trend of how NPV across projects relates to the money allocated to the projects.
-Critically, participants saw both NPV and other features intrinsic to each
-project domain, and these were inversely related. Therefore, a positive NPV
-amount trend indicates a reliance on NPV, whereas a negative trend indicates a
-reliance on the intrinsic project features. Specifically, I tested the following
-hypothesises:
+non-alignable differences. It was expected that people would use NPV more than
+any other product attributes (because it applied to every product). However,
+this effect should vary with participants' perceived reliability of the value.
+That is, if other project dimensions were alignable, then it should be easier to
+adjust the use of NPV based on its reliability. However, it was predicted that
+in a low alignment there will be a reliance on NPV, as the sole
+alignable difference, regardless of its stated reliability. These effects were
+measured by considering the linear trend of how NPV, across projects, relates to
+the money allocated to the projects. Critically, participants saw both NPV and
+other features intrinsic to each project domain, and these were inversely
+related. Therefore, a positive NPV amount trend indicated a reliance on NPV,
+whereas a negative trend indicated a reliance on the intrinsic project features.
+First, Experiment 1 tested the following omnibus hypothesis:
 
-``` {hypothesis, three-way-alignment-2, echo = TRUE}
+``` {hypothesis, three-way-alignment-2, name = "Three way interaction", echo = TRUE}
 The alignment $\times$ reliability amount $\times$ NPV amount interaction will
 be significant.
 ```
 
-``` {hypothesis, allocation-alignment-alignment-2, echo = TRUE}
-The linear NPV amount trend will be higher, on average, in the low alignment
-condition compared to the high alignment condition.
+Initially, the specific effects were tested excluding the no NPV condition.
+Comparing across dissimilar projects will be difficult, so participants are
+expected to rely on NPV more in such a scenario than when they have other
+alignable attributes. Therefore, Experiment 1 tested the following:
+
+``` {hypothesis, allocation-alignment-alignment-2, name = "Alignment effect", echo = TRUE}
+The linear NPV amount trend will be higher, on average, in low alignment
+condition compared to high alignment.
 ```
 
-``` {hypothesis, allocation-alignment-reliability-npv-alignment-2, echo = TRUE}
-The effects of alignment, reliability amount, and NPV amount on allocations will
-interact, such that the NPV amount $\times$ reliability interaction will be
-stronger in the high alignment than in the low alignment condition.
+Participants are likely to moderate their allocations based on the provided
+reliability information. However, it is more likely that they will do this when
+they have multiple options for metrics to use than when only NPV is
+alignable. Therefore, Experiment 1 tested the following:
+
+``` {hypothesis, allocation-alignment-reliability-npv-alignment-2, name = "Moderation of NPV reliability by alignment", echo = TRUE}
+The NPV amount $\times$ reliability interaction will be stronger in the high
+alignment than in low alignment.
 ```
 
-``` {hypothesis, allocation-alignment-high-alignment-2, echo = TRUE}
-In the high alignment condition, the linear NPV amount trend will be higher in
+More specifically, it is expected that when projects are similar, participants
+will rely on NPV more (positive NPV amount trend) when they are told that it is
+reliable and rely more on the projects' intrinsic features (negative NPV amount
+trend) when they are told that it is unreliable. However, when projects are
+dissimilar, it is expected that participants will rely solely on NPV solely,
+regardless of what they are told about its reliability. Therefore, Experiment 1
+tested the following:
+
+``` {hypothesis, allocation-alignment-high-alignment-2, name = "NPV reliability in high alignment", echo = TRUE}
+In high alignment, the linear NPV amount trend will be higher in
 the high reliability condition than in the low reliability condition
 ```
 
-``` {hypothesis, allocation-alignment-low-alignment-2, echo = TRUE}
-In the low alignment condition, the linear NPV amount trend will not differ
+``` {hypothesis, allocation-alignment-low-alignment-2, name = "NPV reliability in low alignment", echo = TRUE}
+In low alignment, the linear NPV amount trend will not differ
 significantly between reliability conditions
 ```
 
-``` {hypothesis, allocation-alignment-high-no-NPV-alignment-2, echo = TRUE}
-In the high alignment condition, the linear NPV amount trend will only be higher
-than the no NPV reliability condition in the high reliability condition.
+A no NPV condition was used to gain a better understanding of the baseline
+responding to the materials without NPV. This was used to determine the extent
+of participants' reliance on NPV. When projects were similar, this condition was
+expected to be equivalent to the low reliability condition, as participants
+disregard NPV. When projects were dissimilar, this condition was expected to
+express the average participant value judgements for the project descriptions,
+which should result in a more or less flat NPV amount trend. Therefore,
+Experiment 1 tested the following:
+
+``` {hypothesis, allocation-alignment-high-no-NPV-alignment-2, name = "No NPV comparison in high alignment", echo = TRUE}
+In high alignment, the linear NPV amount trend will be higher in the high
+reliability condition than the no NPV reliability condition.
 ```
 
-``` {hypothesis, allocation-alignment-low-no-NPV-alignment-2, echo = TRUE}
-In the low alignment condition, the linear NPV amount trend will be higher than
-the no NPV reliability condition in both the low and high reliability
-conditions.
+``` {hypothesis, allocation-alignment-low-no-NPV-alignment-2, name = "No NPV comparison in low alignment", echo = TRUE}
+In low alignment, the linear NPV amount trend in both the low and high
+reliability conditions will be higher than the no NPV reliability condition.
 ```
-

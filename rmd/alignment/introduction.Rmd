@@ -1,3 +1,12 @@
+(ref:alignment-quote) ---@robinson1944
+
+```{block type='savequote', quote_author='(ref:alignment-quote)', include=knitr::is_latex_output(), echo = TRUE}
+It is not possible to compare apples and oranges. But it is possible to compare
+apples and oranges in terms of some specific attribute---to say that apples
+deliver twice as many calories per dollar or that oranges deliver twice as many
+vitamin C units per dollar.
+```
+
 # Project similarity bias and variance neglect in forecast metric evaluation {#alignment}
 
 \minitoc
@@ -8,25 +17,24 @@ One of the most important tasks that executives face is allocating resources
 within their company. This requires ranking different projects based on their
 importance and predicted success, and allocating limited resources respectively
 (not unlike a scientific funding agency). Ranking projects requires comparing
-them across a number of component dimensions. For example, an executive in an
-oil company might have multiple proposals on his or her desk for where to
-explore for oil next, and how to do so. Figuring out what makes one oil
-discovery project better than another one is relatively easy. However, consider
-a different scenario in which the executive has to allocate resources between an
-oil discovery project and an oil refinery project. The dimensions of an oil
-refinery project that distinguishes good from bad projects may be totally
-different from the dimensions of oil discovery projects that do the same. Think
-of a funding agency giving out fellowships, and deciding between two cognitive
-scientists, or a cognitive scientist and a physicist. What makes a physics
-proposal better for the field of physics than a cognitive science proposal is
-for cognitive science?
+them across a number of dimensions. For example, an executive in an oil company
+might have multiple proposals on his or her desk for where to explore for oil
+next and how to do so. Figuring out what makes one oil discovery project better
+than another one is relatively easy. However, consider a different scenario in
+which the executive has to allocate resources between an oil discovery project
+and an oil refinery project. The dimensions of an oil refinery project that
+distinguishes good from bad projects may be totally different from the
+dimensions of oil discovery projects that do the same. Think of a funding agency
+giving out fellowships and deciding between two cognitive scientists, or a
+cognitive scientist and a physicist. What makes a physics proposal better for
+the field of physics than a cognitive science proposal is for cognitive science?
 
 Structure-mapping theory [SMT\; @gentner1997; @gentner1983] provides a model of
 comparison that psychologically distinguishes these two kinds of allocation
 tasks. SMT models comparison as a process of bringing conceptual structures into
-alignment, which when possible, puts shared component dimensions into
+alignment which, when possible, puts shared component dimensions into
 correspondence. Alignment both highlights when two conceptual structures share
-dimensions, but also highlights how the two structures differ along those shared
+dimensions, and also highlights how the two structures differ along those shared
 dimensions, called *alignable differences*. For example, when comparing two oil
 discovery projects, all the relevant processes of planning an exploration and
 measuring the amount of hydrocarbons in a prospect might be identical, but the
@@ -40,10 +48,10 @@ different dimensional structure to those in the refinery business unit, such
 that it will be difficult to find meaningful alignments. More non-alignable
 differences mean that there are less opportunities to make meaningful
 comparisons, and so would make predicting project success and ranking their
-priority more difficult. In this chapter, I experimentally examined project
-comparisons, and how that affects resource allocation decisions. My working
-hypothesis was that comparisons with more alignable differences will make
-project predictions more precise, and project rankings easier and more
+priority more difficult. This chapter experimentally examined project
+comparisons and how such comparisons affect resource allocation decisions. The
+working hypothesis was that comparisons with more alignable differences will
+make project predictions more precise, and project rankings easier and more
 informative, than a comparison with non-alignable differences.
 
 However, what happens when the two domains are too disparate for a
@@ -54,7 +62,7 @@ then try to infer and abstract as much as seems reasonable to ease the
 alignment. This is in fact what occurs very frequently in business settings.
 Corporate enterprises continue to embrace diversification strategies in their
 investments, and so constantly have to make resource allocation choices that
-involve very disparate domains. To overcome these difficult comparisons
+involve very disparate domains. To overcome these difficult comparisons,
 executives rely on various financial measures that in theory can apply to any
 project or business proposal. These financial measures work well to ease the
 burden of the difficult comparison by abstracting away from the complexities of
@@ -63,24 +71,24 @@ costs, projected profits, etc. Initially hard-to-compare projects can therefore
 be more easily evaluated by comparing values on individual numerical measures.
 
 The most common financial measure that is used by executives in order to value
-projects is Net Present Value [NPV\; @graham2001]. NPV is the difference between
-the money that a project is forecasted to make and the initial investment in its
-development (accounting for the time value of money), as seen in
-Equation \@ref(eq:npv).
+business project proposals is Net Present Value [NPV\; @graham2001; @remer1993].
+NPV is the difference between the money that a project is forecasted to make and
+the initial investment in its development (accounting for the time value of
+money), as seen in Equation \@ref(eq:npv).
 
 NPV is commonly used to decide about resource allocation and investment. The
 simple rule is that if a project’s NPV is positive, then it is financially
 viable, and if NPV is negative, then it is not. However, the use of NPV has been
 criticised, both by academics and practitioners [@fox2008; @willigers2017]. The
-main criticism is that there is a lot of underlying variance within the NPV
-measure that is not made apparent by the final form of the measure: a single
-numerical value. For instance, NPV is dependent on the cash inflows that are
-projected for each year of the project. However, financial forecasting is known
-to often be inaccurate and prone to optimism bias [@lovallo2003; @puri2007].
-Therefore, there is bound to be variation in the reliability of NPV measures as
-a function of the forecasting error in the cash flow calculations. The duration
-of the project and the discount rate are further sources of variance that are
-hidden by the single numerical value of NPV.
+main criticism is that there is underlying variance within the NPV measure that
+is not made apparent by the final form of the measure, a single numerical value.
+For instance, NPV is dependent on the cash inflows that are projected for each
+year of the project. However, financial forecasting is known to often be
+inaccurate and prone to optimism bias [@lovallo2003; @puri2007]. Therefore,
+there is bound to be variation in the reliability of NPV measures as a function
+of the forecasting error in the cash flow calculations. The duration of the
+project and the discount rate are further sources of variance that are hidden by
+the single numerical value of NPV.
 
 As such, the secondary goal of this research was to investigate the extent to
 which people are sensitive to variance information (from financial forecasting)
@@ -91,37 +99,37 @@ have to rely on NPV. This matters because the NPV calculated from different
 domains may have different underlying forecasting error, which may compromise
 the utility of using NPV as the basis of the comparison. Do executives
 sufficiently account for the inherent variance in the measure that they rely on
-so much? Research showed that people are good at extracting variance information
+so much? Research shows that people are good at extracting variance information
 when experiencing numerical sequences [@rosenbaum2020]. However, people struggle
 to use variance information when it is represented numerically [@galesic2010;
 @konold1993; @vivalt2018; @batteux2020].
 
 ### Experiment summary
 
-In [Experiment 1](#alignment-2) I investigated the effect of alignment on the
+Experiment [1](#alignment-2) investigated the effect of alignment on the
 decision-making of naive participants’ resource allocation to a set of fictional
-projects. I manipulated NPV reliability by directly stating whether it is a
-reliable measure because I did not assume the naive participants would have the
-requisite knowledge to be sensitive to reliability information otherwise. I
-predicted that when projects are alignable, participants use NPV if they are
-told that it is a reliable measure, but do not use it if they are told that it
-is not reliable. However, when projects are not comparable, I predicted that
-participants will use NPV regardless of how reliable they are told NPV is.
+projects. NPV reliability was manipulated by directly stating whether it is a
+reliable measure because the naive participants were assumed not to have the
+requisite knowledge to be sensitive to reliability information otherwise. This
+experiment predicted that when projects are alignable, participants use NPV if
+they are told that it is a reliable measure, but do not use it if they are told
+that it is unreliable. However, when projects are not alignable, participants
+were predicted to use NPV regardless of how reliable they are told NPV is.
 
-In [Experiment 2](#alignment-3), I investigated the decision-making of
-management students in almost the same situation as Experiment 1. The main
-difference was that instead of telling participants the reliability of NPV, I
-manipulated the level of *numerical* reliability that is associated with it.
-That is, the width of numerical ranges around an NPV. I predicted that
-participants will rely more on NPV in the non-alignable projects than in the
-alignable projects. However, I predicted there will be no effect of numerical
+Experiment [2](#alignment-3), investigated the decision-making of management
+students in almost the same situation as Experiment [1](#alignment-2). The main
+difference was that instead of telling participants the reliability of NPV, this
+experiment manipulated the level of associated *numerical* NPV reliability. That
+is, the width of numerical ranges around an NPV. Participants were predicted to
+rely more on NPV in the non-alignable projects than in the alignable projects.
+However, this experiment predicted that there will be no effect of numerical
 reliability, since there is very little evidence that people are sensitive to
 variance information when represented numerically.
 
-In [Experiment 3](#alignment-8) I again tested the alignment and reliability
-effects in a non-business population, but manipulated both verbal and numerical
-reliability in the same experiment to allow for direct comparisons. I predicted
-an effect of reliability in the verbal reliability condition, but not in the
-numerical reliability condition. Further, I used project descriptions with
-clearer profitability indicators, and added a larger selection of business
-industries.
+Experiment [3](#alignment-8) again tested the alignment and reliability effects
+in a non-business population, but manipulated both verbal and numerical
+reliability in the same experiment to allow for direct comparisons. An effect of
+reliability was predicted in the verbal reliability condition, but not in the
+numerical reliability condition. Further, this experiment used project
+descriptions with clearer profitability indicators, and added a larger selection
+of business industries.

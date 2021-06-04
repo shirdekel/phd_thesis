@@ -35,7 +35,7 @@ Figure \@ref(fig:separate-distribution-present-aggregation-2)).
 (ref:separate-distribution-present-aggregation-2) An example of a display seen by those in the separate distribution-present condition of Experiment 2.
 
 ```{r separate-distribution-present-aggregation-2, fig.cap = "(ref:separate-distribution-present-aggregation-2)"}
-here(
+file.path(
   materials_aggregation_2,
   "project_choice_oil-well_separate_distribution_present_1.png"
 ) %>%
