@@ -4,17 +4,33 @@ A mixed factorial ANOVA was conducted to investigate the effects of alignment
 and verbally-instructed NPV reliability on participants’ allocations. As seen in
 Figure \@ref(fig:plot-alignment-2-allocation), the alignment $\times$
 reliability amount $\times$ NPV amount interaction was significant,
-`r results_alignment_2$allocation$alignment_reliability_amount_npv_amount`. This
-effect seems to be driven by the differences between the no NPV condition and
-the conditions with NPV across the two alignment conditions. Specifically, in
-the low alignment condition, the linear NPV trend was significantly lower in the
+`r results_alignment_2$allocation$alignment_reliability_amount_npv_amount`. The
+analyses excluding the no NPV condition showed the expected results. The NPV
+amount trend was higher in the low alignment condition than in the high
+alignment condition, `r results_alignment_2$allocation$low_high_linear`,
+averaging over reliability amount. This shows that people relied on NPV more
+when projects were dissimilar than when they were similar.
+
+Further, the NPV amount $\times$ reliability amount interaction was
+stronger in the high alignment condition than in the low alignment condition,
+`r results_alignment_2$allocation$low_high_linear_low_high`. Specifically, in
+high alignment, the NPV amount trend was higher in the high reliability
+condition than in the low reliability condition,
+`r results_alignment_2$allocation$low_high_linear_high`, whereas in low
+alignment, there was no significant difference between reliability conditions,
+`r results_alignment_2$allocation$low_high_linear_low`. This shows that people
+used the reliability information to moderate their allocations, but only did so
+when projects were similar and not when they were dissimilar.
+
+The comparison with the no NPV condition revealed the expected pattern. In high
+alignment, the linear NPV trend was only significantly lower in the no NPV
+condition than the high reliability condition,
+`r results_alignment_2$allocation$high_noNPV_linear_high`, and not the low
+reliability condition, `r results_alignment_2$allocation$low_noNPV_linear_high`.
+However, in low alignment, the linear NPV trend was significantly lower in the
 no NPV condition than both the low reliability condition,
 `r results_alignment_2$allocation$low_noNPV_linear_low`, and the high
 reliability condition, `r results_alignment_2$allocation$high_noNPV_linear_low`.
-However, in the high alignment condition, the linear NPV trend was only
-significantly lower in the no NPV condition than the high reliability condition,
-`r results_alignment_2$allocation$high_noNPV_linear_high`, and not the low
-reliability condition, `r results_alignment_2$allocation$low_noNPV_linear_high`.
 
 (ref:plot-alignment-2-allocation) Mean allocation.
 

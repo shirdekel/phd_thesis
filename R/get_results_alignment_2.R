@@ -3,13 +3,11 @@
 ##' fitting with lmer led to singularity even when reduced to just subject level
 ##' random intercept.
 ##'
-##' @param data_clean_alignment_2
-##' @param iv
-##' @param dv
+##' @param data
 ##' @return
 ##' @author Shir Dekel
 ##' @export
-get_results_alignment_2 <- function(data_clean_alignment_2, iv, dv) {
+get_results_alignment_2 <- function(data = alignment2::data) {
   results_1_dv <-
     c(
       "allocation",
@@ -20,9 +18,11 @@ get_results_alignment_2 <- function(data_clean_alignment_2, iv, dv) {
   results_1 <-
     results_1_dv %>%
     map(
-      ~ data_clean_alignment_2 %>%
-        nest_by(id, allocation, ranking, confidence, npv_amount,
-                reliability_amount, alignment) %>%
+      ~ data %>%
+        nest_by(
+          id, allocation, ranking, confidence, npv_amount,
+          reliability_amount, alignment
+        ) %>%
         get_all_results_alignment_2(.x)
     ) %>%
     set_names(results_1_dv)
@@ -36,10 +36,12 @@ get_results_alignment_2 <- function(data_clean_alignment_2, iv, dv) {
   results_2 <-
     results_2_dv %>%
     map(
-      ~ data_clean_alignment_2 %>%
+      ~ data %>%
         filter(!is.na(forecast_mean)) %>%
-        nest_by(id, forecast_mean, forecast_sd, npv_amount, reliability_amount,
-                alignment) %>%
+        nest_by(
+          id, forecast_mean, forecast_sd, npv_amount, reliability_amount,
+          alignment
+        ) %>%
         get_all_results_alignment_2(.x)
     ) %>%
     set_names(results_2_dv)
