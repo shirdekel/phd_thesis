@@ -2,9 +2,8 @@
 
 Chapter \@ref(alignment) found that people do not sufficiently weigh the
 importance of numerical variance information in resource allocation. This is
-important for when projects are dissimilar because the results showed that
-people rely more on NPV in low alignment. Not paying attention to the underlying
-variance obscures uncertainty inherent in the measure. However, this also has
+important for when projects are dissimilar because people might not pay
+attention to the variance that underlies NPV. However, there are also
 implications for high alignment scenarios. When projects are alignable this
 means that managers are likely to have a choice of using both abstract metrics
 as well as intrinsic project features. Managers may use a metric such as NPV
@@ -14,15 +13,14 @@ use different, potentially more reliable measures.
 
 An evaluation of a non-alignable set of projects can therefore lead to many
 potential pitfalls. Such a situation is likely to occur in most hierarchical
-organisations and be more common the more the organisation is diversified. In
-Chapter \@ref(interstitial-1) I discussed that an organisation that may realise
-the benefits of evaluating projects concurrently can change the frequency of
-project evaluation meetings to facilitate a portfolio approach. However, in the
-case of a diversified organisation, increasing the alignment between the
-projects being evaluated is likely to involve significantly more difficult
-structural changes in the organisation. For instance, this may mean divesting
-certain divisions of the organisation, as General Electric has been doing over
-the last few years.
+organisations and be more common the more the organisation is diversified.
+Chapter \@ref(interstitial-1) discussed that a solution to managers not
+aggregating the risk of multiple projects is a concurrent evaluation of projects
+as a portfolio. However, the solution to the evaluation of dissimilar project in
+the case of a diversified organisation is likely to involve significantly more
+difficult structural changes in the organisation. For instance, this may mean
+divesting certain divisions of the organisation, as General Electric has been
+doing over the last few years [@scott2018].
 
 Alternatively, organisations can develop a more normative use of metrics and
 take into account underlying uncertainty. However, this kind of change might
@@ -33,7 +31,7 @@ This is useful because a diversified organisation may not have enough points of
 reference for a project proposal within it. Doing this both does not require
 substantial restructuring of the organisation as in divestment and is already an
 on-going practice, as opposed to aiming to facilitate managers' statistical
-reasoning?
+reasoning.
 
 Evidence from similar projects may include an individual case study from another
 organisation, or research report that describes a statistical result. Case
@@ -45,16 +43,16 @@ anecdotal bias suggests that they might. Therefore, Chapter \@ref(anecdotes)
 considers the influence of an anecdote on project allocation when it conflicts
 with statistical evidence.
 
-Previous work showed that people often do not always give evidence appropriate
+Previous work showed that people often do not give evidence appropriate
 weighting in their decisions [@griffin1992]. Anecdotal and statistical evidence
 are potentially conflicting sources of evidence, so it is important to
 appropriately weigh their influence on a decision. It is possible for these
 sources of evidence to conflict because statistical estimates commonly refer to
 the mean value of a distribution, whereas individual cases may be sampled, for
-instance, from either of the tails of the distribution. This comparison would
-give the appearance of conflicting information, especially if the distribution
-is skewed. In the same way that in Chapter \@ref(alignment) the intrinsic
-project features conflicted with the abstract financial metric, in
+instance, from either of the tails of the distribution. This kind of comparison
+would give the appearance of conflicting information, especially if the
+distribution is skewed. In the same way that in Chapter \@ref(alignment) the
+intrinsic project features conflicted with the abstract financial metric, in
 Chapter \@ref(anecdotes) the description of an anecdote conflicted with the
 financial metrics of the target project.
 
@@ -66,7 +64,6 @@ in the high alignment condition means that those in the high alignment condition
 were still referring to the intrinsic project features to some extent.
 Specifically, the different measures' influence may have been integrated in a
 form of trade-off. However, there was no clear way of determining this, because
-the allocation measure was aggregated in the analysis. In
-Chapter \@ref(anecdotes), however, I set up the conditions such that it was
-possible to determine whether participants were using anecdotes exclusively,
-partially, or not at all.
+the allocation measure was aggregated in the analysis. Chapter \@ref(anecdotes),
+however, set up the conditions so that it was possible to determine whether
+participants were using anecdotes exclusively, partially, or not at all.

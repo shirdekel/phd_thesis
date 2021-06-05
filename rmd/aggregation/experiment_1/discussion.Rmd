@@ -116,7 +116,7 @@ not used in the high alignment project domain, nor in the order of the
 within-subjects manipulation of presentation. As such, it is unclear what role
 these elements played in the results, especially in the presentation condition,
 in which participants always saw the separate condition first. Second, as
-mentioned [above](#outcome-distribution-materials-aggregation-1), there was a
-mistake in the generation of the gamble values that meant that the individual
-gambles did not correspond with the distribution that participants saw. Both of
-these limitations were addressed in Experiment [2](#aggregation-2).
+mentioned above in Section \@ref(outcome-distribution-materials-aggregation-1),
+there was a mistake in the generation of the gamble values that meant that the
+individual gambles did not correspond with the distribution that participants
+saw. Both of these limitations were addressed in Experiment 2.

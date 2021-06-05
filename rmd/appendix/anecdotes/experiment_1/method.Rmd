@@ -58,13 +58,13 @@ the condition-specific instructions.
 (ref:general-instructions-materials-anecdotes-1) Experiment 1 general instructions. Note, the two boxes were split between two separate web-pages.
 
 ```{r general-instructions-materials-anecdotes-1, fig.cap = "(ref:general-instructions-materials-anecdotes-1)"}
-general_instructions_1 <- here(
+general_instructions_1 <- file.path(
   materials_anecdotes_1,
   "general_instructions_1.png"
 ) %>%
   image_read()
 
-general_instructions_2 <- here(
+general_instructions_2 <- file.path(
   materials_anecdotes_1,
   "general_instructions_2.png"
 ) %>%
@@ -81,7 +81,7 @@ c(
 (ref:specific-instructions-anecdote-only-materials-anecdotes-1) Experiment 1 specific instructions for those in the anecdotes only condition.
 
 ```{r specific-instructions-anecdote-only-materials-anecdotes-1, fig.cap = "(ref:specific-instructions-anecdote-only-materials-anecdotes-1)"}
-here(
+file.path(
   materials_anecdotes_1,
   "specific_instructions_anecdote_condition_anecdote_only.png"
 ) %>%
@@ -92,7 +92,7 @@ here(
 (ref:specific-instructions-combined-materials-anecdotes-1) Experiment 1 specific instructions for those in the anecdote + statistics condition.
 
 ```{r specific-instructions-combined-materials-anecdotes-1, fig.cap = "(ref:specific-instructions-combined-materials-anecdotes-1)"}
-here(
+file.path(
   materials_anecdotes_1,
   "specific_instructions_anecdote_condition_combined.png"
 ) %>%
@@ -103,7 +103,7 @@ here(
 (ref:specific-instructions-enhanced-materials-anecdotes-1) Experiment 1 specific instructions for those in the anecdote + enhanced statistics condition.
 
 ```{r specific-instructions-enhanced-materials-anecdotes-1, fig.cap = "(ref:specific-instructions-enhanced-materials-anecdotes-1)"}
-here(
+file.path(
   materials_anecdotes_1,
   "specific_instructions_anecdote_condition_enhanced.png"
 ) %>%
@@ -114,7 +114,7 @@ here(
 (ref:specific-instructions-statistics-only-materials-anecdotes-1) Experiment 1 specific instructions for those in the statistics only condition.
 
 ```{r specific-instructions-statistics-only-materials-anecdotes-1, fig.cap = "(ref:specific-instructions-statistics-only-materials-anecdotes-1)"}
-here(
+file.path(
   materials_anecdotes_1,
   "specific_instructions_anecdote_condition_statistics_only.png"
 ) %>%
@@ -141,7 +141,7 @@ Figure \@ref(fig:follow-up-materials-anecdotes-1) shows the follow-up questions
 (ref:follow-up-materials-anecdotes-1) Follow-up questions in Experiment 1.
 
 ```{r follow-up-materials-anecdotes-1, fig.cap = "(ref:follow-up-materials-anecdotes-1)"}
-here(
+file.path(
   materials_anecdotes_1,
   "follow_up.png"
 ) %>%

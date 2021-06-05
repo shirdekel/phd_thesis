@@ -50,7 +50,7 @@ details the counterbalancing and randomisation that I used.
 (ref:project-allocation-anecdote-valence-negative-similarity-low-materials-anecdotes-2) An example of the anecdote display in the negative valence, low similarity condition of Experiment 2.
 
 ```{r project-allocation-anecdote-valence-negative-similarity-low-materials-anecdotes-2, fig.cap = "(ref:project-allocation-anecdote-valence-negative-similarity-low-materials-anecdotes-2)"}
-here(
+file.path(
   materials_anecdotes_2,
   "project_allocation_anecdote_valence_negative_similarity_low.png"
 ) %>%
@@ -61,7 +61,7 @@ here(
 (ref:project-allocation-target-valence-negative-similarity-low-materials-anecdotes-2) An example of the target projects in the negative valence, low similarity condition of Experiment 2.
 
 ```{r project-allocation-target-valence-negative-similarity-low-materials-anecdotes-2, fig.cap = "(ref:project-allocation-target-valence-negative-similarity-low-materials-anecdotes-2)"}
-here(
+file.path(
   materials_anecdotes_2,
   "project_allocation_target_valence_negative_similarity_low.png"
 ) %>%
@@ -72,7 +72,7 @@ here(
 (ref:project-allocation-anecdote-valence-positive-similarity-high-materials-anecdotes-2) An example of an anecdote display in the positive valence, high similarity condition of Experiment 2.
 
 ```{r project-allocation-anecdote-valence-positive-similarity-high-materials-anecdotes-2, fig.cap = "(ref:project-allocation-anecdote-valence-positive-similarity-high-materials-anecdotes-2)"}
-here(
+file.path(
   materials_anecdotes_2,
   "project_allocation_anecdote_valence_positive_similarity_high.png"
 ) %>%
@@ -83,7 +83,7 @@ here(
 (ref:project-allocation-target-valence-positive-similarity-high-materials-anecdotes-2) An example of the target projects in the positive valence, high similarity condition of Experiment 2.
 
 ```{r project-allocation-target-valence-positive-similarity-high-materials-anecdotes-2, fig.cap = "(ref:project-allocation-target-valence-positive-similarity-high-materials-anecdotes-2)"}
-here(
+file.path(
   materials_anecdotes_2,
   "project_allocation_target_valence_positive_similarity_high.png"
 ) %>%

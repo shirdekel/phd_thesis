@@ -57,7 +57,7 @@ a loss for any single gamble ($P(\text{loss}_{single})$) was
 Figure \@ref(fig:project-choice-aggregation-1) shows an example of a description
 of a project in this task.
 
-(ref:project-choice-aggregation-1) Example of a project choice display in Experiment 1. Border added for clarity.
+(ref:project-choice-aggregation-1) Example of a project choice display in Experiment 1. Border added for clarity.
 
 ```{r project-choice-aggregation-1, fig.cap = "(ref:project-choice-aggregation-1)"}
 file.path(
@@ -82,7 +82,7 @@ proceeded without this message. Note, the financial and probability values were
 identical regardless of condition, and the order of each set of 10 projects was
 randomised.
 
-(ref:awareness-aware-aggregation-1) The display seen by those in the aware condition of Experiment 1. Border added for clarity.
+(ref:awareness-aware-aggregation-1) The display seen by those in the aware condition of Experiment1. Border added for clarity.
 
 ```{r awareness-aware-aggregation-1, fig.cap = "(ref:awareness-aware-aggregation-1)"}
 file.path(
@@ -110,7 +110,7 @@ Figure \@ref(fig:project-choice-aggregated-aggregation-1). A coding error was
 discovered after collecting data. This was an error in the generation of
 gambles, which meant that the outcome distribution decision data could not be
 used. Therefore, the effect of outcome distribution will not be discussed until
-Experiment [2](#aggregation-2), which fixed this issue.
+Experiment 2, which fixed this issue.
 Appendix \@ref(outcome-distribution-aggregation-1) presents an analysis of this
 data, and describes the coding error and its implications.
 

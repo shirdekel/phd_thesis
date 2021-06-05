@@ -24,7 +24,7 @@ information in their allocation decisions.
 (ref:projects-alignment-6) The projects display.
 
 ```{r projects-alignment-6, fig.cap = "(ref:projects-alignment-6)"}
-here(
+file.path(
   materials_alignment_6,
   "alignment_high_reliability_amount_high.png"
 ) %>%

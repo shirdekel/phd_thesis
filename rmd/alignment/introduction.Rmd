@@ -102,7 +102,7 @@ sufficiently account for the inherent variance in the measure that they rely on
 so much? Research shows that people are good at extracting variance information
 when experiencing numerical sequences [@rosenbaum2020]. However, people struggle
 to use variance information when it is represented numerically [@galesic2010;
-@konold1993; @vivalt2018; @batteux2020].
+@konold1993; @vivalt2021; @batteux2020].
 
 ### Experiment summary
 

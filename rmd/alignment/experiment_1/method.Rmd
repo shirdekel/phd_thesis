@@ -25,8 +25,8 @@ no NPV condition saw instructions that did not include the NPV explanation.
 Critically, participants were told to invest in products with a high objective
 value (because a better quality product is not always better in a consumer goods
 market). Since participants might still not use this instruction when directly
-viewing the projects, Experiment [3](#alignment-8) used projects with attributes
-that more inherently conveyed quality.
+viewing the projects, Experiment 3 used projects with attributes that more
+inherently conveyed quality.
 Appendix \@ref(instructions-materials-alignment-2-appendix) shows the
 instructions used in Experiment 1.
 
@@ -47,8 +47,8 @@ conditions each project description included an NPV.
 This alignment manipulation was reinforced by visual presentation. The table
 format is better afforded by the high alignment condition because all the
 dimensions are shared. However, this confounds alignment with presentation
-style. This is addressed in Experiment [3](#alignment-8) by equating the table
-format across both alignment conditions.
+style. This is addressed in Experiment 3 by equating the table format across
+both alignment conditions.
 
 (ref:projects-alignment-high-materials-alignment-2) An example of a high alignment display in Experiment 1.
 
@@ -66,7 +66,7 @@ file.path(
 (ref:projects-alignment-low-materials-alignment-2) An example of a low alignment display in Experiment 1. Border added for clarity.
 
 ```{r projects-alignment-low-materials-alignment-2, fig.cap = "(ref:projects-alignment-low-materials-alignment-2)"}
-here(
+file.path(
   materials_alignment_2,
   "projects_alignment_low.png"
 ) %>%
@@ -94,7 +94,7 @@ projects.
 (ref:allocation-alignment-2) The allocation task. Border added for clarity.
 
 ```{r allocation-alignment-2, fig.cap = "(ref:allocation-alignment-2)"}
-here(
+file.path(
   materials_alignment_2,
   "allocation.png"
 ) %>%

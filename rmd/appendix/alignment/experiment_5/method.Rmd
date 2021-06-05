@@ -23,7 +23,7 @@ seen in Figure \@ref(fig:forecasting-alignment-4).
 (ref:forecasting-alignment-4) An example of the forecasting task in Experiment 5.
 
 ```{r forecasting-alignment-4, fig.cap = "(ref:forecasting-alignment-4)"}
-here(
+file.path(
   materials_alignment_4,
   "forecasting.png"
 ) %>%

@@ -24,7 +24,7 @@ Figure \@ref(fig:instructions-aware-aggregation-4).
 (ref:instructions-naive-aggregation-4) Instructions for those in the naive condition of Experiment 4.
 
 ```{r instructions-naive-aggregation-4, fig.cap = "(ref:instructions-naive-aggregation-4)"}
-here(
+file.path(
   materials_aggregation_4,
   "instructions2_naive.png"
 ) %>%
@@ -35,7 +35,7 @@ here(
 (ref:instructions-aware-aggregation-4) Instructions for those in the aware condition of Experiment 4.
 
 ```{r instructions-aware-aggregation-4, fig.cap = "(ref:instructions-aware-aggregation-4)"}
-here(
+file.path(
   materials_aggregation_4,
   "instructions2_aware.png"
 ) %>%
@@ -57,7 +57,7 @@ naive condition saw the same display without this sentence.
 (ref:project-choice-aggregation-4) An example of a project display in Experiment 4.
 
 ```{r project-choice-aggregation-4, fig.cap = "(ref:project-choice-aggregation-4)"}
-here(
+file.path(
   materials_aggregation_4,
   "project_choice_aware_oil-well_1.png"
 ) %>%

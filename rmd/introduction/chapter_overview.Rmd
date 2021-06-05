@@ -11,9 +11,9 @@ disregard the normative strategy, but also struggle to moderate their decisions
 when it comes to more subtle statistical principles such as aggregation,
 variance, and sampling.
 
-In the previous section I identified three resource allocation processes that
-are currently under-studied and so are important to investigate further. First,
-the evaluation of individual project proposals might lead to managers only
+The previous section identified three resource allocation processes that are
+currently under-studied and so are important to investigate further. First, the
+evaluation of individual project proposals might lead to managers only
 considering such projects one at a time, despite the opportunity of aggregating
 a portfolio of such projects. The choice bracketing literature suggests that
 there are ways of facilitating such aggregation, but does not investigate this

@@ -36,7 +36,7 @@ reliability (either numerical through ranges or verbal through explicit labels).
 
 
 ```{r alignment-low-reliability-explicit, fig.cap = "Experiment 8 low alignment, verbal reliability display. Cropped for space (full display has eight projects)."}
-here(
+file.path(
   materials_alignment_7,
   "alignment_low_reliability_type_explicit.png"
 ) %>%
@@ -48,7 +48,7 @@ here(
 ```
 
 ```{r alignment-low-reliability-implicit, fig.cap = "Experiment 8 low alignment, numerical reliability display. Cropped for space (full display has eight projects)."}
-here(
+file.path(
   materials_alignment_7,
   "alignment_low_reliability_type_implicit.png"
 ) %>%
@@ -60,7 +60,7 @@ here(
 ```
 
 ```{r alignment-high-reliability-explicit, fig.cap = "Experiment 8 high alignment, high reliability display. Cropped for space (full display has eight projects)."}
-here(
+file.path(
   materials_alignment_7,
   "alignment_high_reliability_type_explicit.png"
 ) %>%
@@ -72,7 +72,7 @@ here(
 ```
 
 ```{r alignment-high-reliability-implicit, fig.cap = "Experiment 8 high alignment, numerical reliability display. Cropped for space (full display has eight projects)."}
-here(
+file.path(
   materials_alignment_7,
   "alignment_high_reliability_type_implicit.png"
 ) %>%

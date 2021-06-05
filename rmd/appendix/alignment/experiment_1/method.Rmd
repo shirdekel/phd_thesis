@@ -12,7 +12,7 @@ condition, respectively.
 (ref:instructions-reliability-low-alignment-2) Experiment 1 low reliability instructions. Border added for clarity.
 
 ```{r instructions-reliability-low-alignment-2, fig.cap = "(ref:instructions-reliability-low-alignment-2)"}
-here(
+file.path(
   materials_alignment_2,
   "instructions_reliability_low.png"
 ) %>%
@@ -27,7 +27,7 @@ here(
 (ref:instructions-reliability-high-alignment-2) Experiment 1 high reliability instructions. Border added for clarity.
 
 ```{r instructions-reliability-high-alignment-2, fig.cap = "(ref:instructions-reliability-high-alignment-2)"}
-here(
+file.path(
   materials_alignment_2,
   "instructions_reliability_high.png"
 ) %>%
@@ -42,7 +42,7 @@ here(
 (ref:instructions-reliability-no-npv-alignment-2) The instructions for the no NPV condition in Experiment 1. Border added for clarity.
 
 ```{r instructions-reliability-no-npv-alignment-2, fig.cap = "(ref:instructions-reliability-no-npv-alignment-2)"}
-here(
+file.path(
   materials_alignment_2,
   "instructions_reliability_no_npv.png"
 ) %>%
@@ -66,7 +66,7 @@ precision).
 (ref:forecasting-materials-alignment-2) The forecasting task.
 
 ```{r forecasting-materials-alignment-2, fig.cap = "(ref:forecasting-materials-alignment-2)"}
-here(
+file.path(
   materials_alignment_2,
   "forecasting.png"
 ) %>%
@@ -84,7 +84,7 @@ asked to rank the projects in order of investment priority.
 (ref:ranking-materials-alignment-2) The ranking task.
 
 ```{r ranking-materials-alignment-2, fig.cap = "(ref:ranking-materials-alignment-2)"}
-here(
+file.path(
   materials_alignment_2,
   "ranking.png"
 ) %>%
@@ -104,7 +104,7 @@ confident").
 (ref:confidence-materials-alignment-2) The confidence task.
 
 ```{r confidence-materials-alignment-2, fig.cap = "(ref:confidence-materials-alignment-2)"}
-here(
+file.path(
   materials_alignment_2,
   "confidence.png"
 ) %>%
@@ -122,7 +122,7 @@ were asked to justify their allocation decision in a free-response text-box.
 (ref:justification-materials-alignment-2) The justification task.
 
 ```{r justification-materials-alignment-2, fig.cap = "(ref:justification-materials-alignment-2)"}
-here(
+file.path(
   materials_alignment_2,
   "justification.png"
 ) %>%

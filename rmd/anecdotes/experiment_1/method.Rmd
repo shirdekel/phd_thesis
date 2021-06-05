@@ -54,7 +54,7 @@ respectively.
 (ref:project-allocation-anecdote-only-materials-anecdotes-1) Project display for the anecdote only condition in Experiment 1.
 
 ```{r project-allocation-anecdote-only-materials-anecdotes-1, fig.cap = "(ref:project-allocation-anecdote-only-materials-anecdotes-1)"}
-here(
+file.path(
   materials_anecdotes_1,
   "project_allocation_anecdote_only.png"
 ) %>%
@@ -65,7 +65,7 @@ here(
 (ref:project-allocation-statistics-materials-anecdotes-1) Project display for the statistics only, anecdote + statistics, and anecdote + enhanced statistics conditions in Experiment 1.
 
 ```{r project-allocation-statistics-materials-anecdotes-1, fig.cap = "(ref:project-allocation-statistics-materials-anecdotes-1)"}
-here(
+file.path(
   materials_anecdotes_1,
   "project_allocation_statistics.png"
 ) %>%
@@ -108,7 +108,7 @@ indication about whether these values were meant to generalise to other cases.
 (ref:anecdote-similarity-high-materials-anecdotes-1) Anecdote display for those in the high alignment condition in Experiment 1.
 
 ```{r anecdote-similarity-high-materials-anecdotes-1, fig.cap = "(ref:anecdote-similarity-high-materials-anecdotes-1)"}
-here(
+file.path(
   materials_anecdotes_1,
   "anecdote_similarity_high.png"
 ) %>%
@@ -119,7 +119,7 @@ here(
 (ref:anecdote-similarity-low-materials-anecdotes-1) Anecdote display for those in the low alignment condition in Experiment 1.
 
 ```{r anecdote-similarity-low-materials-anecdotes-1, fig.cap = "(ref:anecdote-similarity-low-materials-anecdotes-1)"}
-here(
+file.path(
   materials_anecdotes_1,
   "anecdote_similarity_low.png"
 ) %>%

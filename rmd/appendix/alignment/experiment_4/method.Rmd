@@ -29,7 +29,7 @@ depending on NPV reliability condition.
 (ref:instructions-reliability-low-materials-alignment-1) Experiment 4 low reliability instructions. Border added for clarity.
 
 ```{r instructions-reliability-low-materials-alignment-1, fig.cap = "(ref:instructions-reliability-low-materials-alignment-1)"}
-here(
+file.path(
   materials_alignment_1,
   "instructions_reliability_low.png"
 ) %>%
@@ -44,7 +44,7 @@ here(
 (ref:instructions-reliability-high-alignment-1) Experiment 4 high reliability instructions. Border added for clarity.
 
 ```{r instructions-reliability-high-alignment-1, fig.cap = "(ref:instructions-reliability-high-alignment-1)"}
-here(
+file.path(
   materials_alignment_1,
   "instructions_reliability_high.png"
 ) %>%

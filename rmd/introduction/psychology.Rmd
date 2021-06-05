@@ -260,7 +260,7 @@ manager, or potentially cause financial harm to the company (and subsequently
 lead to a job loss).
 
 Psychological research shows that laypeople are in general quite poor at using
-numerical variance information [@galesic2010; @konold1993; @vivalt2018;
+numerical variance information [@galesic2010; @konold1993; @vivalt2021;
 @batteux2020]. However, it is unclear to what extent managers would be sensitive
 to variance information in the metrics associated with the projects that they
 evaluate. On the one hand, perhaps managers' financial training will allow a

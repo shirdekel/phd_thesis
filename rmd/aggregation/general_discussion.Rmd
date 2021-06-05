@@ -14,21 +14,21 @@ consider the effect of choice bracketing on risk aggregation. As such, the
 paradigm used in this chapter allowed for the investigation of choice bracketing
 in a way that is isomorphic with real-life prescriptions.
 
-Experiment [1](#aggregation-1) found evidence for the effects of similarity,
-presentation, and awareness of the number of projects.
-Experiment [2](#aggregation-2) found evidence for the effect of an outcome
-distribution but did not replicate the presentation and awareness effects.
-Subsequent follow up experiments (presented in Appendices \@ref(aggregation-3)
-and \@ref(aggregation-4)) again tested the similarity and awareness effects.
-These experiments found evidence for naive diversification (an advantage for low
-similarity) when considering them all projects once and did not replicate the
-trial-by-trial interaction from Experiment [1](#aggregation-1).
+Experiment 1 found evidence for the effects of similarity, presentation, and
+awareness of the number of projects. Experiment 2 found evidence for the effect
+of an outcome distribution but did not replicate the presentation and awareness
+effects. Subsequent follow up experiments (presented in
+Appendices \@ref(aggregation-3) and \@ref(aggregation-4)) again tested the
+similarity and awareness effects. These experiments found evidence for naive
+diversification (an advantage for low similarity) when considering them all
+projects once and did not replicate the trial-by-trial interaction from
+Experiment 1.
 
 Therefore, in addition to the novelty of the paradigm itself, this chapter found
 that choice bracketing facilitates risk aggregation. As per
-Hypothesis \@ref(hyp:distribution-aggregation-2), Experiment [2](#aggregation-2)
-found that showing a distribution of outcome probabilities without inter-trial
-feedback reduced risk aversion. Further, there was mixed evidence for
+Hypothesis \@ref(hyp:distribution-aggregation-2), Experiment 2 found that
+showing a distribution of outcome probabilities without inter-trial feedback
+reduced risk aversion. Further, there was mixed evidence for
 Hypothesis \@ref(hyp:similarity-aggregation-1), such that people were less risk
 averse when the set of projects they saw were dissimilar, but only when offered
 them as a portfolio (see Appendix \@ref(aggregation-3)). There was only minimal
@@ -63,10 +63,9 @@ jointly, rather than separately. In the case of these experiments, the "hard to
 interpret" element of the decision set was the risk of the projects. Contrary to
 @hsee1999, it seems that risk was not always accounted for more when projects
 were presented jointly, rather than separately. More study is needed to
-understand whether the effects that were seen in
-Experiment [1](#results-aggregation-1) but not replicated in the subsequent
-experiments are due to statistical chance or specific elements of the
-experiment.
+understand whether the effects that were seen in Experiment 1 but not replicated
+in the subsequent experiments are due to statistical chance or specific elements
+of the experiment.
 
 Research on the effect of option similarity on choice [e.g., @markman1995]
 suggests that alignable differences are more important than non-alignable

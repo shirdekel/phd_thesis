@@ -29,7 +29,7 @@ Figure \@ref(fig:project-choice-aggregation-3) for an example.
 (ref:project-choice-aggregation-3) An example of a project display in Experiment 3.
 
 ```{r project-choice-aggregation-3, fig.cap = "(ref:project-choice-aggregation-3)"}
-here(
+file.path(
   materials_aggregation_3,
   "project_choice_oil-well.png"
 ) %>%
@@ -53,7 +53,7 @@ Figure \@ref(fig:project-expectation-aggregation-3)).
 (ref:project-expectation-aggregation-3) Experiment 3 project expectation question.
 
 ```{r project-expectation-aggregation-3, fig.cap = "(ref:project-expectation-aggregation-3)"}
-here(
+file.path(
   materials_aggregation_3,
   "project_expectation.png"
 ) %>%

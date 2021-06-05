@@ -1,12 +1,12 @@
 ### Results
 
-A mixed factorial ANOVA was conducted to investigate the effects of NPV amount,
-alignment, and numerical NPV reliability on participants’ project allocations.
-Figure \@ref(fig:plot-alignment-3-allocation) shows these data. The alignment
-$\times$ reliability amount $\times$ NPV amount interaction was
+A within-subjects factorial ANOVA was conducted to investigate the effects of
+NPV amount, alignment, and numerical NPV reliability on participants’ project
+allocations. Figure \@ref(fig:plot-alignment-3-allocation) shows these data. The
+alignment $\times$ reliability amount $\times$ NPV amount interaction was
 significant,
-`r results_alignment_3$allocation$alignment_reliability_amount_npv_amount`,
-however, this appeared to be driven by the difference between alignment
+`r results_alignment_3$allocation$alignment_reliability_amount_npv_amount`.
+However, this appears to be driven by the difference between alignment
 conditions in the interaction between the quadratic NPV amount trend and
 reliability amount,
 `r results_alignment_3$allocation$quadratic_low_high_low_high`, even after
@@ -19,15 +19,17 @@ the high alignment condition,
 `r results_alignment_3$allocation$linear_low_high_high`. However, averaging over
 reliability amount, the linear NPV trend was higher in the low alignment
 condition than in the high alignment condition,
-`r results_alignment_3$allocation$linear_low_high`.
+`r results_alignment_3$allocation$linear_low_high`. This suggests that
+participants relied more on NPV when projects were dissimilar than when they
+were similar.
 
-(ref:plot-alignment-3-allocation) Mean allocation.
+(ref:plot-alignment-3-allocation) Mean allocation. Error bars represent 95% confidence intervals based on the multivariate model.
 
 ```{r plot-alignment-3-allocation, fig.cap = "(ref:plot-alignment-3-allocation)"}
 plot_alignment_3$allocation
 ```
 
 The ranking data were congruent with these results, while the confidence data
-was less so. Further, the NPV knowledge data did not replicate the effect from
+were less so. Further, the NPV knowledge data did not replicate the effect from
 @long2018 [Study 1]. These analyses are reported in
 Appendix \@ref(results-alignment-3-appendix).

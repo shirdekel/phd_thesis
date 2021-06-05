@@ -46,7 +46,7 @@ the condition-specific instructions.
 (ref:general-instructions-materials-anecdotes-2) General instructions for Experiment 1. Border added for clarity.
 
 ```{r general-instructions-materials-anecdotes-2, fig.cap = "(ref:general-instructions-materials-anecdotes-2)"}
-here(
+file.path(
   materials_anecdotes_2,
   "general_instructions.png"
 ) %>%
@@ -57,7 +57,7 @@ here(
 (ref:specific-instructions-anecdote-only-materials-anecdotes-2) Experiment 2 specific instructions for those in the anecdotes only condition.
 
 ```{r specific-instructions-anecdote-only-materials-anecdotes-2, fig.cap = "(ref:specific-instructions-anecdote-only-materials-anecdotes-2)"}
-here(
+file.path(
   materials_anecdotes_2,
   "specific_instructions_anecdote_condition_anecdote_only.png"
 ) %>%
@@ -68,7 +68,7 @@ here(
 (ref:specific-instructions-combined-materials-anecdotes-2) Experiment 2 specific instructions for those in the combined condition.
 
 ```{r specific-instructions-combined-materials-anecdotes-2, fig.cap = "(ref:specific-instructions-combined-materials-anecdotes-2)"}
-here(
+file.path(
   materials_anecdotes_2,
   "specific_instructions_anecdote_condition_combined.png"
 ) %>%
@@ -79,7 +79,7 @@ here(
 (ref:specific-instructions-statistics-only-materials-anecdotes-2) Experiment 2 specific instructions for those in the statistics only condition.
 
 ```{r specific-instructions-statistics-only-materials-anecdotes-2, fig.cap = "(ref:specific-instructions-statistics-only-materials-anecdotes-2)"}
-here(
+file.path(
   materials_anecdotes_2,
   "specific_instructions_anecdote_condition_statistics_only.png"
 ) %>%
@@ -102,7 +102,7 @@ Figure \@ref(fig:follow-up-materials-anecdotes-2) shows the follow-up questions
 (ref:follow-up-materials-anecdotes-2) An example of one of the follow-up question displays in Experiment 2.
 
 ```{r follow-up-materials-anecdotes-2, fig.cap = "(ref:follow-up-materials-anecdotes-2)"}
-here(
+file.path(
   materials_anecdotes_2,
   "follow_up_1.png"
 ) %>%
@@ -115,7 +115,7 @@ here(
 (ref:interstitial-materials-anecdotes-2) An example of an interstitial display in Experiment 2.
 
 ```{r interstitial-materials-anecdotes-2, fig.cap = "(ref:interstitial-materials-anecdotes-2)"}
-here(
+file.path(
   materials_anecdotes_2,
   "interstitial_1.png"
 ) %>%

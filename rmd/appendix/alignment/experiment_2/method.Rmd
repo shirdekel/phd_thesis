@@ -9,7 +9,7 @@ Figure \@ref(fig:instructions-materials-alignment-3) shows the instructions.
 (ref:instructions-materials-alignment-3) Experiment 2 instructions. Border added for clarity.
 
 ```{r instructions-materials-alignment-3, fig.cap = "(ref:instructions-materials-alignment-3)"}
-here(
+file.path(
   materials_alignment_3,
   "instructions.png"
 ) %>%
@@ -31,13 +31,13 @@ and \@ref(fig:npv-test-2-materials-alignment-3).
 (ref:npv-test-1-materials-alignment-3) Experiment 2 NPV test. Border added for clarity.
 
 ```{r npv-test-1-materials-alignment-3, fig.cap = "(ref:npv-test-1-materials-alignment-3)", out.width = "90%"}
-npv_test_1 <- here(
+npv_test_1 <- file.path(
   materials_alignment_3,
   "npv_test_1.png"
 ) %>%
   image_read()
 
-npv_test_2 <- here(
+npv_test_2 <- file.path(
   materials_alignment_3,
   "npv_test_2.png"
 ) %>%
@@ -57,7 +57,7 @@ c(
 (ref:npv-test-2-materials-alignment-3) Experiment 2 NPV test answers. Border added for clarity.
 
 ```{r npv-test-2-materials-alignment-3, fig.cap = "(ref:npv-test-2-materials-alignment-3)", out.width = "60%"}
-here(
+file.path(
   materials_alignment_3,
   "npv_test_3.png"
 ) %>%
@@ -78,7 +78,7 @@ to rate their knowledge of NPV in various points in the study (see the
 (ref:npv-knowledge-materials-alignment-3) Experiment 2 NPV knowledge rating task. Border added for clarity.
 
 ```{r npv-knowledge-materials-alignment-3, fig.cap = "(ref:npv-knowledge-materials-alignment-3)"}
-here(
+file.path(
   materials_alignment_3,
   "npv_knowledge_1.png"
 ) %>%
@@ -92,7 +92,7 @@ here(
 ##### Variance lecture {#variance-lecture-materials-alignment-3}
 
 ```{r, eval=knitr::is_html_output(), out.width='100%', out.height='1000px'}
-here(
+file.path(
   materials_alignment_3,
   "variance_lecture.pdf"
 ) %>%
@@ -105,20 +105,10 @@ here(
 pdf_width <- 1.2
 
 split_path <-
-  here(
+  file.path(
     materials_alignment_3,
     "variance_lecture_split/"
   )
-
-## split_path %>%
-##   create_directory()
-
-## # split PDF into pages
-## here(
-##   materials_alignment_3,
-##   "variance_lecture.pdf"
-## ) %>%
-##   pdf_split(split_path)
 
 split_path %>%
   list.files(full.names = TRUE) %>%
