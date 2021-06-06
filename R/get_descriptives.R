@@ -105,10 +105,10 @@ get_descriptives <- function(data_clean, iv) {
     str_c(
       total_apa,
       str_c(
-        "(",
+        "people (",
         sex_female
       ),
-      "female) people were recruited from",
+      "female) were recruited from",
       sample_description,
       str_c(
         sex_text,
