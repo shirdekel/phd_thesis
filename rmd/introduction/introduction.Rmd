@@ -1,4 +1,4 @@
-(ref:introduction-quote) ---Elbert @hubbard1914
+(ref:introduction-quote) ---Elbert @hubbard1914 [p. 52]
 
 ```{block type='savequote', quote_author='(ref:introduction-quote)', include=knitr::is_latex_output(), echo = TRUE}
 Executive: A man who can make quick decisions and is sometimes right.

@@ -23,13 +23,13 @@ case study of a failed project and an analysis of why it failed. Those in the
 statistics only condition were told that they will see NPV and reliability
 information as a part of their target project descriptions, and were explained
 that these values were sourced from a study with a large sample. Those in the
-anecdote + statistics condition were given both of these instructions, and were
+anecdote & statistics condition were given both of these instructions, and were
 also told that the information in the anecdote is subsumed in the data of the
-aggregated study. Those in the anecdote + enhanced statistics condition saw the
-same as those in the anecdote + statistics condition, but were subsequently
+aggregated study. Those in the anecdote & enhanced statistics condition saw the
+same as those in the anecdote & statistics condition, but were subsequently
 given the explanation of scientific thinking that @wainberg2018 used.
 Appendix \@ref(instructions-materials-anecdotes-1-appendix) shows the
-instructions used in Experiment 1.
+instructions used in Experiment 1.
 
 ##### Allocation task
 
@@ -51,7 +51,7 @@ Participants entered their allocation data underneath this table, in two
 textboxes labelled *Project A allocation* and *Project B allocation*,
 respectively.
 
-(ref:project-allocation-anecdote-only-materials-anecdotes-1) Project display for the anecdote only condition in Experiment 1.
+(ref:project-allocation-anecdote-only-materials-anecdotes-1) Project display for the anecdote only condition in Experiment 1.
 
 ```{r project-allocation-anecdote-only-materials-anecdotes-1, fig.cap = "(ref:project-allocation-anecdote-only-materials-anecdotes-1)"}
 file.path(
@@ -62,7 +62,7 @@ file.path(
   image_trim()
 ```
 
-(ref:project-allocation-statistics-materials-anecdotes-1) Project display for the statistics only, anecdote + statistics, and anecdote + enhanced statistics conditions in Experiment 1.
+(ref:project-allocation-statistics-materials-anecdotes-1) Project display for the statistics only, anecdote & statistics, and anecdote & enhanced statistics conditions in Experiment 1.
 
 ```{r project-allocation-statistics-materials-anecdotes-1, fig.cap = "(ref:project-allocation-statistics-materials-anecdotes-1)"}
 file.path(
@@ -76,8 +76,8 @@ file.path(
 ##### Anecdote
 
 Participants that were presented with an anecdote (those in either the anecdote
-only, anecdote + statistics , or anecdote + enhanced statistics conditions) saw
-a description of a business project and an accompanying "analysis".
+only, anecdote & statistics, or anecdote & enhanced statistics conditions) saw a
+description of a business project and an accompanying "analysis".
 Figures \@ref(fig:anecdote-similarity-high-materials-anecdotes-1)
 and \@ref(fig:anecdote-similarity-low-materials-anecdotes-1) show the anecdote
 display for those in the high and low similarity conditions, respectively. The
@@ -103,9 +103,9 @@ the anecdote because of an insufficient oil extraction rated will seem more
 relevant since they both share the state of being lower than the cut-off in the
 analysis. Note, however, that there was uncertainty about the generalisability
 of these cut-off values because the participants did not receive a explicit
-indication about whether these values were meant to generalise to other cases.
+indication of whether these values were meant to generalise to other cases.
 
-(ref:anecdote-similarity-high-materials-anecdotes-1) Anecdote display for those in the high alignment condition in Experiment 1.
+(ref:anecdote-similarity-high-materials-anecdotes-1) Anecdote display for those in the high alignment condition in Experiment 1.
 
 ```{r anecdote-similarity-high-materials-anecdotes-1, fig.cap = "(ref:anecdote-similarity-high-materials-anecdotes-1)"}
 file.path(
@@ -116,7 +116,7 @@ file.path(
   image_trim()
 ```
 
-(ref:anecdote-similarity-low-materials-anecdotes-1) Anecdote display for those in the low alignment condition in Experiment 1.
+(ref:anecdote-similarity-low-materials-anecdotes-1) Anecdote display for those in the low alignment condition in Experiment 1.
 
 ```{r anecdote-similarity-low-materials-anecdotes-1, fig.cap = "(ref:anecdote-similarity-low-materials-anecdotes-1)"}
 file.path(
@@ -132,13 +132,14 @@ file.path(
 Participants that saw the anecdote were subsequently presented with follow-up
 questions. They were asked how similar they believe the anecdote was to the
 target project, how relevant it was for their allocations, and how relevant it
-would be for judgements about other projects of that type. See
-Appendix \@ref(follow-up-materials-anecdotes-1) for a screenshot of the display.
+would be for judgements about other projects of that type.
+Figure \@ref(fig:follow-up-materials-anecdotes-1) in the appendix shows these
+questions.
 
 #### Procedure
 
 Participants were introduced to the study through the general instructions and
-the specific instructions relevant to the condition. They then saw the
-allocation task, which included the anecdote analysis and description (for those
-not in the statistics condition), and the target projects description. Those
-that saw an anecdote were subsequently shown the follow-up questions.
+the specific instructions relevant to their condition. They were then presented
+with the allocation task, which included the anecdote analysis and description
+(for those not in the statistics condition) and the target projects description.
+Those that saw an anecdote were subsequently shown the follow-up questions.

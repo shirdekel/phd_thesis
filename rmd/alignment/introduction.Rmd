@@ -1,4 +1,4 @@
-(ref:alignment-quote) ---@robinson1944
+(ref:alignment-quote) ---@robinson1944 [p. 13]
 
 ```{block type='savequote', quote_author='(ref:alignment-quote)', include=knitr::is_latex_output(), echo = TRUE}
 It is not possible to compare apples and oranges. But it is possible to compare
