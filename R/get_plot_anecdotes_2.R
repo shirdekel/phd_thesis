@@ -6,6 +6,26 @@
 get_plot_anecdotes_2 <- function(data_clean_anecdotes_2) {
   allocation <-
     data_clean_anecdotes_2 %>%
+    mutate(
+      across(
+        similarity,
+        recode,
+        low = "Low",
+        high = "High",
+      ),
+      across(
+        anecdote_within,
+        recode,
+        anecdote = "Anecdote",
+        "statistics-only" = "Statistics only",
+      ),
+      across(
+        anecdote_between,
+        recode,
+        combined = "Anecdote & statistics",
+        anecdote_only = "Anecdote only",
+      )
+    ) %>%
     get_plot_simulation_anecdotes_2()
 
   similarity <-

@@ -49,7 +49,7 @@ plot_allocation_anecdotes_2 <- function(data_clean_anecdotes_2, valence) {
     labs(
       x = "Anecdote (between-subjects)",
       fill = "Similarity",
-      y = "Allocation",
+      y = "Mean allocation to the target project",
       colour = "Anecdote (within-subjects)",
       shape = "Anecdote (within-subjects)"
     ) +
