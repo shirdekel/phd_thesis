@@ -6,14 +6,25 @@
 get_plot_anecdotes_1 <- function(data_clean_anecdotes_1) {
   allocation <-
     data_clean_anecdotes_1 %>%
+    mutate(
+      across(
+        anecdote,
+        recode,
+        anecdote = "Anecdote only",
+        combined = "Anecdote & statistics",
+        enhanced = "Anecdote & enhanced statistics",
+        statistics = "Statistics only",
+      )
+    ) %>%
     apa_plot(
       iv1 = "anecdote",
       iv2 = "alignment",
       iv1.lab = "Evidence type",
       iv2.lab = "Similarity",
       dv = "allocation_projectA",
-      dv.lab = "Mean allocation"
-    )
+      dv.lab = "Mean allocation to the target project"
+    ) +
+    scale_x_discrete(guide = guide_axis(n.dodge = 2))
 
   similarity <-
     data_clean_anecdotes_1 %>%
@@ -80,7 +91,7 @@ get_plot_anecdotes_1 <- function(data_clean_anecdotes_1) {
     geom_smooth(method = lm, color = "black") +
     labs(
       x = "Specific relevance rating",
-      color = "Similarity",
+      linetype = "Similarity",
       y = "Mean allocation to the target project"
     ) +
     theme_apa()
