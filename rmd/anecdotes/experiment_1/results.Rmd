@@ -3,43 +3,44 @@
 #### The effect of similarity on anecdotal bias
 
 Figure \@ref(fig:plot-anecdotes-1-allocation) shows the results for the
-allocation data. I tested anecdotal bias by comparing the statistics only
-condition with the high and low similarity anecdote + (not enhanced) statistics
-conditions. The omnibus one-way ANOVA test of these three conditions was
-significant, `r results_anecdotes_1$allocation$condition`. Planned comparisons
-revealed that participants allocated more to the target project when seeing only
-statistics than when seeing the high similarity anecdote and statistics,
-`r results_anecdotes_1$allocation$combined_high_statistics_NA`; but not compared
-to seeing the low similarity anecdote and statistics,
-`r results_anecdotes_1$allocation$combined_low_statistics_NA`. Therefore, I
-found evidence of anecdotal bias only in the high similarity condition.
+allocation data. Anecdotal bias was tested by comparing the statistics only
+condition with both the high and the low similarity anecdote & (not enhanced)
+statistics conditions. The omnibus one-way ANOVA test of these three conditions
+was significant, `r results_anecdotes_1$allocation$condition`. Planned
+comparisons revealed that participants allocated more to the target project when
+seeing only statistics than when seeing the high similarity anecdote and
+statistics, `r results_anecdotes_1$allocation$combined_high_statistics_NA`; but
+not compared to seeing the low similarity anecdote and statistics,
+`r results_anecdotes_1$allocation$combined_low_statistics_NA`. These findings
+provide evidence of anecdotal bias only in the high similarity condition.
 
 #### The effect of enhanced statistics
 
-To investigate the effect of enhanced statistics I compared the conditions in
-which participants saw both an anecdote and statistics to the conditions in
+The effect of enhanced statistics was investigated by comparing the conditions
+in which participants saw both an anecdote and statistics to the conditions in
 which they saw the same, but with enhanced statistics. The two-way interaction
-between similarity and the two anecdote + statistics conditions was not
-significant, `r results_anecdotes_1$allocation$combined_enhanced_high_low`, as
-was the main effect of anecdote + statistics condition (averaging over
-similarity), `r results_anecdotes_1$allocation$combined_enhanced`. Therefore, I
-did not find evidence that providing participants with instructions with how to
-think statistically facilitated a focus on statistics.
+between similarity and the two types of anecdote & statistics condition was not
+significant, `r results_anecdotes_1$allocation$combined_enhanced_high_low`.
+Further, the main effect of anecdote & statistics condition (averaging over
+similarity) was also not significant,
+`r results_anecdotes_1$allocation$combined_enhanced`. This suggests that
+providing participants with instructions on how to think statistically is not
+sufficient to facilitate a focus on statistics.
 
 #### The effect of statistics
 
 A two-way ANOVA was conducted to investigate the interaction of similarity (low
-and high) and anecdote conditions (anecdote only, statistics + anecdote,
-excluding anecdote + enhanced statistics). This allowed me to identify the role
-of statistics. The interaction between anecdote condition and similarity,
-excluding the enhanced condition was significant,
-`r results_anecdotes_1$allocation$anecdote_combined_high_low`. Specifically, the
-difference between allocations when only seeing an anecdote and seeing the
-anecdote + statistics was greater when the anecdote was similar,
+and high) and anecdote condition (anecdote only and statistics & anecdote,
+excluding the anecdote & enhanced statistics condition). This identified the
+role of statistics in people's allocations. The interaction between anecdote
+condition and similarity (excluding the enhanced statistics condition) was
+significant, `r results_anecdotes_1$allocation$anecdote_combined_high_low`.
+Specifically, the difference between allocations when only seeing an anecdote
+and seeing the anecdote & statistics was greater when the anecdote was similar,
 `r results_anecdotes_1$allocation$high_anecdote_combined`; compared to when it
-was dissimilar, `r results_anecdotes_1$allocation$low_anecdote_combined`.
-Therefore, I found evidence of "partial" anecdotal bias in the high similarity
-condition, since the anecdote + statistics condition was lower than the
+was dissimilar, `r results_anecdotes_1$allocation$low_anecdote_combined`. These
+findings provide evidence of partial anecdotal bias in the high similarity
+condition, since the anecdote & statistics condition was lower than the
 statistics only condition, but higher than the anecdote only condition.
 
 (ref:plot-anecdotes-1-allocation) Mean allocation to Project A (the target project). Error bars represent 95% confidence intervals.
@@ -50,16 +51,16 @@ plot_anecdotes_1$allocation
 
 #### Relevance ratings
 
-I conducted regression analyses to determine the relationship between
+Regression analyses were conducted to determine the relationship between
 allocations and the follow-up relevance ratings. As seen in
 Figure \@ref(fig:plot-anecdotes-1-lm-allocation-relevance-specific-alignment)
 the specific relevance ratings interact with similarity condition,
 `r results_anecdotes_1$lm$allocation_relevance_specific_alignment`. It appears
 that specific relevance ratings are related to allocations, but only in the high
 similarity condition. Further, there were no significant associations with the
-general relevance ratings. This suggests that people are reasoning about the
+general relevance ratings. This suggests that people were reasoning about the
 connection between the anecdote and target, as opposed to simply reacting to the
-failed project and associating that with the project industry.
+failed project and associating that with that project's industry.
 
 (ref:plot-anecdotes-1-lm-allocation-relevance-specific-alignment) Mean allocations to the target project, by specific relevance rating and similarity condition.
 

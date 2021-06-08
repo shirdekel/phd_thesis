@@ -14,7 +14,7 @@ and \@ref(fig:plot-simulation-anecdotes-2-positive)). The null effect is
 analysed using the two one-sided tests (TOST) procedure, or *equivalence*
 testing [@lakens2018], and setting the smallest effect size of interest to the
 smallest difference that leads to a significant equivalence between the combined
-low similarity and statistics-only conditions in Experiment 1.
+low similarity and statistics only conditions in Experiment 1.
 Figure \@ref(fig:power-analysis-anecdotes-2) shows the results of this analysis.
 The analysis suggests a total sample size of `r anecdotes2::power$n_total`
 (`r anecdotes2::power$n` $\times$ 2).

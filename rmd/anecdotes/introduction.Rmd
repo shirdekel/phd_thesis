@@ -151,7 +151,7 @@ Further, neither work considered the effect of the similarity of the content of
 the anecdote to the target problem (the choice of firm or budgeting for
 machines).
 
-### Effect of similarity
+### Effect of similarity {#effect-of-similarity}
 
 The extent of one's reliance on an anecdote should arguably be moderated by its
 similarity to the target problem. Previous work has discussed the importance of

@@ -1,4 +1,4 @@
-## The psychology of resource allocation
+## The psychology of resource allocation {#psychology}
 
 Managers of large organisations are generally assumed to have a superior
 decision-making capability to non-managers. However, managerial decision-making

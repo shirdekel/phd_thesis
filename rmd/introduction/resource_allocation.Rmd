@@ -1,4 +1,4 @@
-## Resource allocation in hierarchical organisations
+## Resource allocation in hierarchical organisations {#resource-allocation}
 
 <!-- Large organisations have hierarchies -->
 

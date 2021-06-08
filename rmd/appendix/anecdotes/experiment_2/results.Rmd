@@ -5,7 +5,7 @@
 ##### Similarity manipulation check
 
 The similarity manipulation worked as expected, with the negative valence
-anecdote-only low similarity condition being allocated significantly more than
+anecdote only low similarity condition being allocated significantly more than
 those in the high similarity condition,
 `r results_anecdotes_2$anecdotes_only_similarity$valence_negative`. In the
 positive valence condition, those in the high similarity condition allocation

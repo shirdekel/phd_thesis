@@ -1,70 +1,73 @@
 ### Results
 
-I analysed the allocation data that was relevant to the Experiment 2 hypotheses.
-See Appendix \@ref(results-anecdotes-2-appendix) for manipulation check
+Only the data that were relevant to the Experiment 2 hypotheses are reported
+here. See Appendix \@ref(results-anecdotes-2-appendix) for manipulation check
 analyses, and analyses of the follow-up rating data.
 
 #### Overall effect of manipulations
 
 As seen in Figures \@ref(fig:plot-anecdotes-2-allocation-negative)
 and \@ref(fig:plot-anecdotes-2-allocation-positive), the similarity $\times$
-valence $\times$ anecdote interaction (excluding the statistics-only condition)
+valence $\times$ anecdote interaction (excluding the statistics only condition)
 was not significant,
 `r results_anecdotes_2$anecdote_between_similarity_valence`.
 However, the similarity $\times$ valence interaction was significant,
 `r results_anecdotes_2$similarity_valence` as was the anecdote $\times$ valence
-interaction, `r results_anecdotes_2$anecdote_between_valence`.
+interaction, `r results_anecdotes_2$anecdote_between_valence`. The analyses
+below investigated the specific hypothesised effects.
 
 #### Anecdotal bias moderated by similarity
 
-To investigate whether anecdotal bias was moderated by similarity, I compared
-allocations between the anecdote + statistics high and low similarity conditions and the
-statistics-only condition. I found that in the negative valence condition,
-participants allocated more in the statistics-only condition than in the
-anecdote + statistics high similarity condition,
+To investigate whether anecdotal bias was moderated by similarity, allocations
+were compared between each of the two anecdote & statistics conditions (high and
+low similarity) conditions and the statistics only condition. For negative
+anecdotes, participants allocated more in the statistics only condition
+than in the high similarity anecdote & statistics condition,
 `r results_anecdotes_2$combined$valence_negative$similarity_high_statistics_only`.
-Participants in the anecdote + statistics low similarity allocated more than when they saw
-the anecdote + statistics high similarity display,
+Participants allocated more when they saw the low similarity anecdote &
+statistics display than when they saw the high similarity anecdote & statistics
+display,
 `r results_anecdotes_2$combined$valence_negative$similarity_high_similarity_low`.
-However, the difference between responses to the statistics-only projects and
-the anecdote + statistics low similarity projects was not significant,
+However, the difference between allocations in the statistics only display and
+the low similarity anecdote & statistics display was not significant,
 `r results_anecdotes_2$combined$valence_negative$similarity_low_statistics_only`.
 This provides evidence for the moderation of anecdotal bias by similarity for
-negative anecdotes. These findings suggest that people are sensitive to the
-relevance of the anecdote to the target problem.
+negative anecdotes. People seem to be sensitive to the relevance of the anecdote
+to the target problem.
 
-In the positive valence condition, allocations were higher in the statistics-only
-condition than in the anecdote + statistics low similarity condition,
+For positive anecdotes, allocations were higher in the statistics only condition
+than in the low similarity anecdote & statistics condition,
 `r results_anecdotes_2$combined$valence_positive$similarity_low_statistics_only`.
-Allocations were also higher in the anecdote + statistics high similarity condition than in
-the anecdote + statistics low similarity condition,
+Allocations were also higher in the high similarity anecdote & statistics
+condition than in the low similarity anecdote & statistics condition,
 `r results_anecdotes_2$combined$valence_positive$similarity_high_similarity_low`.
-Further, allocations were higher in the statistics-only condition than in the
-anecdote + statistics high similarity condition,
+Further, allocations were higher in the statistics only condition than in the
+high similarity anecdote & statistics condition,
 `r results_anecdotes_2$combined$valence_positive$similarity_high_statistics_only`.
 This provides evidence for the moderation of anecdotal bias by similarity for
 positive anecdotes as for negative anecdotes.
 
 #### Effect of statistics
 
-As in Experiment 1, I investigated the extent to which the statistical
-information influenced participants' allocations. When in the negative valence
-condition, participants allocated more to the high similarity anecdote +
-statistics project than those in the high similarity anecdote-only condition,
+As in Experiment 1, Experiment 2 investigated the extent to which the
+statistical information influenced participants' allocations. For negative
+anecdotes, participants allocated more to the high similarity anecdote &
+statistics project than those in the high similarity anecdote only condition,
 `r results_anecdotes_2$similarity_high_anecdote$valence_negative`.
-When in the positive valence condition, they allocated more to the high similarity
-anecdote-only condition than those in the high similarity anecdote + statistics condition,
-`r results_anecdotes_2$similarity_high_anecdote$valence_positive`. This provides
-evidence for the influence of statistics on participants' allocations for both
-negative and positive anecdotes.
+When in the positive valence condition, they allocated more to the high
+similarity anecdote only condition than those in the high similarity anecdote &
+statistics condition,
+`r results_anecdotes_2$similarity_high_anecdote$valence_positive`.
+This provides evidence for the influence of statistics on participants'
+allocations for both negative and positive anecdotes.
 
-(ref:plot-anecdotes-2-allocation-negative) Mean allocation in Experiment 2 for the positive valence condition.
+(ref:plot-anecdotes-2-allocation-negative) Mean allocation in Experiment 2 for the negative valence condition.
 
 ```{r plot-anecdotes-2-allocation-negative, fig.cap = "(ref:plot-anecdotes-2-allocation-negative)"}
 plot_anecdotes_2$allocation$negative
 ```
 
-(ref:plot-anecdotes-2-allocation-positive) Mean allocation in Experiment 2 for the positive valence condition.
+(ref:plot-anecdotes-2-allocation-positive) Mean allocation in Experiment 2 for the positive valence condition.
 
 ```{r plot-anecdotes-2-allocation-positive, fig.cap = "(ref:plot-anecdotes-2-allocation-positive)"}
 plot_anecdotes_2$allocation$positive

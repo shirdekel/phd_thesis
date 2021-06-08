@@ -1,5 +1,9 @@
 ## Experiment 2 {#anecdotes-2-appendix}
 
+Figures \@ref(fig:plot-simulation-anecdotes-2-negative)
+and \@ref(fig:plot-simulation-anecdotes-2-positive) show the simulated data for
+the negative and positive valence conditions, respectively.
+
 (ref:plot-simulation-anecdotes-2-negative) Anecdotes Experiment 2 predicted data for the negative valence condition
 
 ```{r plot-simulation-anecdotes-2-negative, fig.cap = "(ref:plot-simulation-anecdotes-2-negative)"}
@@ -13,8 +17,8 @@ anecdotes2::plot_simulation$positive
 ```
 
 ``` {hypothesis, similarity-check-anecdotes-2, name = "Similarity manipulation check for positive anecdote", echo = TRUE}
-In the positive valence condition, allocations for the anecdote-only high
-similarity condition will be higher than those in the anecdote-only low
+In the positive valence condition, allocations for the anecdote only high
+similarity condition will be higher than those in the anecdote only low
 similarity condition.
 ```
 

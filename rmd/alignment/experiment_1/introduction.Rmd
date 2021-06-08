@@ -24,7 +24,7 @@ related. Therefore, a positive NPV amount trend indicated a reliance on NPV,
 whereas a negative trend indicated a reliance on the intrinsic project features.
 First, Experiment 1 tested the following omnibus hypothesis:
 
-``` {hypothesis, three-way-alignment-2, name = "Three way interaction", echo = TRUE}
+``` {hypothesis, three-way-alignment-2, name = "Overall effect", echo = TRUE}
 The alignment $\times$ reliability amount $\times$ NPV amount interaction will
 be significant.
 ```

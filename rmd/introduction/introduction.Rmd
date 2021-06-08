@@ -87,9 +87,9 @@ fail to moderate them appropriately when presented with critical information.
 Specifically, information about metric variance is ignored even when other
 metrics are available. Further, people seem to appropriately use statistical and
 anecdotal information based on relevance to the situation at hand, but ignore
-information about the sampling of the anecdote. Below I discuss the important
-financial consequences of not appropriately using these kinds of statistical
-principles. In short, people overall tend to make sound decisions, but fail to
+information about the sampling of the anecdote. Not appropriately using these
+kinds of statistical principles has important financial consequences, discussed
+below. In short, people overall tend to make sound decisions, but fail to
 appropriately moderate them in situations that have more subtle (but
 consequential) statistical implications.
 
@@ -98,8 +98,9 @@ experiment. However, past work generally shows the same biases in managers and
 laypeople [with some showing more bias, e.g., @haigh2005]. Further, future work
 will directly test managers to determine any potential expertise effects.
 
-Next, I will explain how the resource allocation process functions in
-hierarchical organisations, and why it is necessary to analyse such a process
-with a psychological approach. I will then review the literature on
-decision-making biases and how these may apply to resource allocation decisions.
-Finally, I will summarise the rest of the thesis chapters.
+Section \@ref(resource-allocation) will explain how the resource allocation
+process functions in hierarchical organisations, and why it is necessary to
+analyse such a process with a psychological approach. Section \@ref(psychology)
+reviews the literature on decision-making biases and how these may apply to
+resource allocation decisions. Finally, Section \@ref(chapter-overview) will
+summarise the rest of the thesis chapters.

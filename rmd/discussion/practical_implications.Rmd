@@ -1,17 +1,17 @@
-## Practical implications
+## Practical implications {#practical-implications}
 
 The findings of this thesis have a number of potential implications for
 managerial decision-making. Despite the uncertainty about potential expertise
-effects, in this section I will assume that the findings of this thesis
-generalise to experienced managers, if not in degree, at least qualitatively.
-Management researchers have suggested ways of overcoming psychological biases in
-managerial decision-making ever since such biases were identified. Many
+effects, this section assumes that the findings of the thesis generalise to
+experienced managers, if not in degree, at least qualitatively. Management
+researchers have suggested ways of overcoming psychological biases in managerial
+decision-making ever since such biases were identified. Many
 practitioner-oriented papers have used the findings of the judgement and
 uncertainty literature both to explain managerial decision-making processes and
 to suggest ways of reducing bias [@lovallo2014; @koller2012; @hall2012;
 @courtney1997; @courtney2013; @sibony2017], with only some specifically focused
-on resource allocation decisions [@birshan2013]. I will now review some of the
-implications the findings of this thesis may have on both organisational
+on resource allocation decisions [@birshan2013]. This section will review some
+of the implications the findings of this thesis may have on both organisational
 policies and manager decision-making.
 
 The findings of Chapter \@ref(aggregation) show that the way that business
@@ -54,11 +54,11 @@ between objects [e.g., @kurtz2013; @markman1993]. Therefore, managers should
 take care to first identify such relational structures first before making
 subsequent inferences.
 
-In each of these cases, addressing these psychological effects will help
-eliminate some of the biases in the resource allocation process, but will not
-address other related biases. For instance, the above effects all involve
-decisions that require an evaluation of financial forecast estimates such as
-future cash flows and the related uncertainty. Therefore, a further source of
-error could arise from the initial estimation of these probability and cash flow
-values. For instance, such estimates could be influenced by optimism or
-confidence biases, which can in turn be addressed [@flyvbjerg2018].
+Addressing these psychological effects will help eliminate some of the biases in
+the resource allocation process, but will not address other related biases. For
+instance, the above effects all involve decisions that require an evaluation of
+financial forecast estimates such as future cash flows and the related
+uncertainty. Therefore, a further source of error could arise from the initial
+estimation of these probability and cash flow values. For instance, such
+estimates could be influenced by optimism or confidence biases, which can in
+turn be addressed [@flyvbjerg2018].

@@ -14,7 +14,7 @@ descriptives_anecdotes_1$condition_allocation_table %>%
 
 #### Materials {#materials-anecdotes-1}
 
-##### Instructions
+##### Instructions {#instructions-materials-anecdotes-1}
 
 All participants initially saw general instructions that explained the task. The
 subsequent instructions that participants saw depended on their experimental

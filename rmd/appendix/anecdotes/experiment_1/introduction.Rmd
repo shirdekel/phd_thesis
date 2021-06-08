@@ -1,8 +1,8 @@
 ## Experiment 1 {#anecdotes-1-appendix}
 
 ``` {hypothesis, similarity-check-anecdotes-1, name = "Similarity manipulation check for negative anecdote", echo = TRUE}
-In the negative valence condition, allocations for the anecdote-only low
-similarity condition will be higher than those in the anecdote-only high
+In the negative valence condition, allocations for the anecdote only low
+similarity condition will be higher than those in the anecdote only high
 similarity condition.
 ```
 

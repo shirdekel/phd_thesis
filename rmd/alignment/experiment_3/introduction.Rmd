@@ -31,14 +31,14 @@ Experiment 3 was a replication of Experiment 1. A pilot experiment (detailed i
 Appendix \@ref(alignment-7)) found no significant differences in a similar
 numerical reliability condition to the one used in Experiment 3. This was
 therefore expected also for the present numerical reliability condition. The
-appendix shows the simulation of these hypothesised effects (see
+appendix shows a simulation of these hypothesised effects (see
 Figure \@ref(fig:plot-simulation-alignment-8)). Therefore, as well as again
 testing
 Hypotheses \@ref(hyp:three-way-alignment-2), \@ref(hyp:allocation-alignment-alignment-2), \@ref(hyp:allocation-alignment-reliability-npv-alignment-2), \@ref(hyp:allocation-alignment-high-alignment-2),
 and \@ref(hyp:allocation-alignment-low-alignment-2) for the verbal reliability
 condition, Experiment 3 tested the following:
 
-``` {hypothesis, four-way-alignment-8, name = "Four-way interaction", echo = TRUE}
+``` {hypothesis, four-way-alignment-8, name = "Overall effect", echo = TRUE}
 The alignment $\times$ reliability amount $\times$ reliability type $\times$ NPV
 amount interaction will be significant, such that the effects hypthesised above
 will be seen in the verbal reliability condition, but none of these effects
