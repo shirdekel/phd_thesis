@@ -51,6 +51,9 @@
 \usepackage[colorlinks=true,allcolors=Blue,linktocpage=true,pdfpagelabels]{hyperref}
 \usepackage{float}
 
+% SD 9 June 2021 - add ability to use typeset keys for explaining shortcuts
+\usepackage{menukeys}
+
 % Taken from https://tex.stackexchange.com/a/174306/233976,
 % https://tex.stackexchange.com/a/52625/233976, and
 % https://tex.stackexchange.com/a/185168/233976 because hypothesis is already
@@ -298,6 +301,12 @@ $if(acknowledgements)$
 \end{acknowledgements}
 $endif$
 
+%%%%% PREFACE
+$if(preface)$
+\begin{preface}
+ 	$preface$
+\end{preface}
+$endif$
 
 %%%%% ABSTRACT -- Nothing to do here except comment out if you don't want it.
 \begin{abstract}

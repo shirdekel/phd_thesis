@@ -12,6 +12,9 @@ degreedate: '`r format(Sys.time())`'
 abstract: |
   `r paste(readLines("rmd/front_matter/abstract.Rmd"), collapse = '\n  ')`
 
+preface: |
+  `r paste(readLines("rmd/front_matter/preface.Rmd"), collapse = '\n  ')`
+
 #######################
 ## bibliography path ##
 #######################
@@ -70,6 +73,7 @@ header-includes:
   - \usepackage{pdflscape}
   - \newcommand{\blandscape}{\begin{landscape}}
   - \newcommand{\elandscape}{\end{landscape}}
+  - \usepackage{menukeys}
 
 documentclass: book
 always_allow_html: true #this allows html stuff in word (.docx) output

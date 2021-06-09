@@ -1,0 +1,19 @@
+**Naviation**
+
+There are links throughout the PDF document. Clicking on these will take you to
+whatever they reference. This can be an hypothesis, a citation, a figure, a
+table, or a section. If you are using Preview (on a Mac) then you can
+subsequently return back to where you clicked on the link by pressing the key
+combination \keys{\cmd + [} (the command key with the left square bracket). In
+Adobe Acrobat the key combination is \keys{\cmd + \arrowkeyleft} (the command
+key with the left arrow key) for Mac and \keys{\Altwin + \arrowkeyleft} (the
+command key with the left arrow key) for Windows.
+
+**Reproducibility**
+
+This thesis was written using `rmarkdown` [@xie2018] with `bookdown` [@xie2016],
+using `renv` [@ushey2021] to create reproducible environments, and `targets`
+[@landau2021] to create a reproducible pipeline. Typesetting was done with
+\LaTeX based on the `oxforddown` template [@lyngs2019]. All the components
+required to reproduce this document can be found at the Github repository
+https://github.com/shirdekel/phd_thesis.

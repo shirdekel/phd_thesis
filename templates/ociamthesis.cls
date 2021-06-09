@@ -235,6 +235,21 @@
 \newenvironment{acknowledgements}%
 {   \begin{alwayssingle}\chapter*{Acknowledgements}
     \thispagestyle{empty}
+    \pagestyle{empty}
+    \setlength{\baselineskip}{\frontmatterbaselineskip}
+  }
+  {\end{alwayssingle}}
+
+% PREFACE
+%
+% The preface environment puts a large, bold, centered 
+% "Preface" label at the top of the page. The preface
+% itself appears in a quote environment, i.e. tabbed in at both sides, and
+% on its own page.
+
+\newenvironment{preface}%
+{   \begin{alwayssingle}\chapter*{Preface}
+    \thispagestyle{empty}
 	\pagestyle{empty}
 	\setlength{\baselineskip}{\frontmatterbaselineskip}
 }
