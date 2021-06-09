@@ -14,7 +14,7 @@ render_with_deps <- function(input,
     output_format = "all"
   )
 
-  file.remove(list.files(pattern = "*.(log|mtc|maf|aux|bbl|blg|xml)"))
+  file.remove(list.files(pattern = "*\\.(log|mtc\\d*|maf|aux|bcf|lof|lot|out|toc)$"))
 
   "compiled_thesis"
 }
