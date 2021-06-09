@@ -20,5 +20,7 @@ get_thesis_deps <- function() {
     file.path("templates") %>%
     list.files(full.names = TRUE)
 
-  lst(rmd, templates)
+  output <- "_output.yml"
+
+  lst(rmd, templates, output)
 }
