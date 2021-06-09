@@ -8,7 +8,7 @@ tar_load(plot_alignment_1)
 ```
 
 Experiment 4 further investigated the effects of alignment and verbal NPV
-reliability information on financial resource allocation decisions. I replicated
+reliability information on capital allocation decisions. I replicated
 the same methodology as in [Experiment 1](#method-alignment-2), except for two
 main changes. First, I manipulated the alignment conditions within subjects.
 Second, I removed the no NPV condition to the NPV reliability variable.
@@ -20,7 +20,7 @@ condition, they will rely more on NPV regardless of reliability condition.
 
 
 In addition to the all-project allocation data analysed above, here I report
-analyses for the just for the "target project". This is allocation of resources
+analyses for the just for the "target project". This is allocation of capital
 to the project that had the highest NPV, but the lowest value on concrete
 measures intrinsic to the actual product, e.g., the capacity of a laptop in
 gigabytes. Therefore, a higher allocation value indicated a higher reliance on

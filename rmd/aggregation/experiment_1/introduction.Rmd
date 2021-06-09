@@ -8,7 +8,7 @@ tar_load(plot_aggregation_1)
 ```
 
 Experiment 1 investigates the effect of three choice bracketing manipulations on
-risky choice in hypothetical resource allocation scenarios. Previous research
+risky choice in hypothetical capital allocation scenarios. Previous research
 had low ecological validity because of the use of multi-play paradigms or
 feedback. In this experiment, the risky choice task was a description-based
 repeated-play paradigm. This means that participants had to make a choice about

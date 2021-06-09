@@ -1,9 +1,9 @@
 ## Conclusion {#conclusion}
 
-Resource allocation decisions can be consequential for large organisations. This
+Capital allocation decisions can be consequential for large organisations. This
 thesis tested the conditions under which people behave rationally or are
-fallible when allocating resources. The experiments found that people struggle
-to incorporate concepts such as risk aggregation, estimate variance, and sample
+fallible when allocating capital. The experiments found that people struggle to
+incorporate concepts such as risk aggregation, estimate variance, and sample
 distribution into their decisions. People only seemed to be able to do this when
 the concept was expressed visually very explicitly. However, when there were
 multiple cues for choice evaluation, the results also showed that people were

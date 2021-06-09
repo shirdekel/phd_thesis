@@ -1,7 +1,7 @@
 ### Discussion
 
 Hypothesis \@ref(hyp:anecdote-similarity-anecdotes-1) was supported.
-Participants allocated less resources when seeing both the anecdote and
+Participants allocated less capital when seeing both the anecdote and
 statistics than when just seeing statistics. However, this effect was moderated
 by similarity since it was seen in the high similarity condition, but not in the
 low similarity condition. This shows that while anecdotal bias exists when the

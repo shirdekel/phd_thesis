@@ -2,7 +2,7 @@
 #####################
 ## thesis metadata ##
 #####################
-title: The psychology of managerial risky choice and resource allocation
+title: The psychology of managerial capital allocation
 author: Shir Dekel
 university: The University of Sydney
 university-logo: templates/usyd-logo.png

@@ -33,7 +33,7 @@ instructions used in Experiment 1.
 ##### Project display {#projects-materials-alignment-2}
 
 Participants read sets of fictional business projects for which to potentially
-allocate resources. The high alignment display was a table that listed various
+allocate capital. The high alignment display was a table that listed various
 attributes for five projects (see
 Figure \@ref(fig:projects-alignment-high-materials-alignment-2)). The low
 alignment display had each project expressed as individual paragraphs that
@@ -86,7 +86,7 @@ degree of dependence on NPV.
 
 ##### Allocation
 
-Participants completed a resource allocation task (see
+Participants completed a capital allocation task (see
 Figure \@ref(fig:allocation-alignment-2)), adapted from @bardolet2011, in which
 they were asked to allocate a hypothetical yearly budget across the given five
 projects.

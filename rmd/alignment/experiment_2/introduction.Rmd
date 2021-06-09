@@ -8,7 +8,7 @@ tar_load(plot_alignment_3)
 ```
 
 Experiment 2 investigated the effects of alignment and numerically-expressed
-variance information on financial resource allocation decisions. In Experiment 1
+variance information on capital allocation decisions. In Experiment 1
 the information about the variance inherent in the NPVs was communicated
 explicitly as the conclusion (e.g., "NPV is unreliable"). In Experiment 2
 however, only the actual variance information itself was communicated without

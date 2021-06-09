@@ -4,7 +4,7 @@
 We like stories, we like to summarize, and we like to simplify
 ```
 
-# Anecdote similarity moderates anecdotal bias in resource allocation {#anecdotes}
+# Anecdote similarity moderates anecdotal bias in capital allocation {#anecdotes}
 
 \minitoc
 
@@ -51,10 +51,10 @@ useful than those that are related by shared conceptual structure.
 
 Previous research has considered the role of similarity and analogical reasoning
 in business-related decision-making [@gavetti2005]. Further, other work has
-investigated the impact of anecdotes in resource allocation decisions, and
+investigated the impact of anecdotes in capital allocation decisions, and
 separately the impact of similarity on anecdotes (summarised below). However, it
 is unclear to what extent an anecdote's similarity to the target problem will
-affect the influence of anecdotes in resource allocation decisions. Further, it
+affect the influence of anecdotes in capital allocation decisions. Further, it
 is unclear whether people will be sensitive to information about the
 distribution from which the anecdote was sampled.
 
@@ -201,7 +201,7 @@ target.
 
 ### Experiment summary
 
-Experiment 1 investigated whether anecdotal bias in a resource allocation
+Experiment 1 investigated whether anecdotal bias in a capital allocation
 paradigm is moderated by similarity of the anecdotes. Further, it tested whether
 giving extra information about statistical thinking would encourage participants
 to consider the statistics over the anecdote. Experiment 1 used a negative

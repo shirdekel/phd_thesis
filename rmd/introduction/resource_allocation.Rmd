@@ -1,4 +1,4 @@
-## Resource allocation in hierarchical organisations {#resource-allocation}
+## Capital allocation in hierarchical organisations {#capital-allocation}
 
 <!-- Large organisations have hierarchies -->
 
@@ -27,18 +27,15 @@ strategic context may be set by top managers, but projects advanced by lower
 level managers also contribute to driving the strategy of the organisation
 [@noda1996; @burgelman1983; @bower1970].
 
-The way that resources are allocated in an organisation is very important to its
-growth and longevity. Analysing the performance of organisations using a
-resource-based view has led to a substantial field of research that has been
-related to many other approaches in the management literature [@mahoney1992;
-@barney1991]. The resource allocation process itself is one of the most
-important drivers of the strategic outcomes of an organisation [@bower1970;
-@bower2005]. A *resource* can refer to many types of assets that an organisation
+The way that capital is allocated in an organisation is very important to its
+growth and longevity. This process is a part of the broader process of resource
+allocation. A *resource* can refer to many types of assets that an organisation
 owns, both tangible and intangible, of which capital is only one
-[@wernerfelt1984]. In the resource allocation process, business-level managers
-formulate project proposals, which their division managers then evaluate. The
-division managers then choose the projects to send for final approval with the
-corporate managers.
+[@wernerfelt1984]. The capital allocation process itself is one of the most
+important drivers of the strategic outcomes of an organisation [@bower1970;
+@bower2005]. In capital allocation, business-level managers formulate project
+proposals, which their division managers then evaluate. The division managers
+then choose the projects to send for final approval with the corporate managers.
 
 <!-- They have limited information -->
 
@@ -83,7 +80,7 @@ proposals might also be affected by certain financial structures. For instance,
 managers might submit overly-optimistic project proposals if they know that the
 corporate team only accepts projects with a certain minimum NPV forecast.
 
-Another potential organisational influence on resource allocation is the extent
+Another potential organisational influence on capital allocation is the extent
 of diversification present in an organisation. A diversified organisation is one
 that possesses different divisions that are unrelated in some way. @penrose2009
 [p. 96] suggested that it is not useful to refer to a "diversified" firm or the
@@ -121,7 +118,7 @@ While much of the performance of an organisation depends on influences that are
 external to the individual managers (e.g., organisational, political),
 psychological factors are often also quite consequential. For instance, on the
 one hand, organisational factors such as relevant support teams and approval
-processes may influence resource allocation depending on the extent of an
+processes may influence capital allocation depending on the extent of an
 organisation's extent of diversification. On the other hand, psychological
 factors such as the perceived similarity of two project proposals may also
 impact allocation differently depending on the organisation's diversification.

@@ -13,15 +13,15 @@ vitamin C units per dollar.
 
 ## Introduction
 
-One of the most important tasks that executives face is allocating resources
+One of the most important tasks that executives face is allocating capital
 within their company. This requires ranking different projects based on their
-importance and predicted success, and allocating limited resources respectively
+importance and predicted success, and allocating limited capital respectively
 (not unlike a scientific funding agency). Ranking projects requires comparing
 them across a number of dimensions. For example, an executive in an oil company
 might have multiple proposals on his or her desk for where to explore for oil
 next and how to do so. Figuring out what makes one oil discovery project better
 than another one is relatively easy. However, consider a different scenario in
-which the executive has to allocate resources between an oil discovery project
+which the executive has to allocate capital between an oil discovery project
 and an oil refinery project. The dimensions of an oil refinery project that
 distinguishes good from bad projects may be totally different from the
 dimensions of oil discovery projects that do the same. Think of a funding agency
@@ -49,7 +49,7 @@ that it will be difficult to find meaningful alignments. More non-alignable
 differences mean that there are less opportunities to make meaningful
 comparisons, and so would make predicting project success and ranking their
 priority more difficult. This chapter experimentally examined project
-comparisons and how such comparisons affect resource allocation decisions. The
+comparisons and how such comparisons affect capital allocation decisions. The
 working hypothesis was that comparisons with more alignable differences will
 make project predictions more precise, and project rankings easier and more
 informative, than a comparison with non-alignable differences.
@@ -61,7 +61,7 @@ when forced to, people will grab at any piece of information that they can and
 then try to infer and abstract as much as seems reasonable to ease the
 alignment. This is in fact what occurs very frequently in business settings.
 Corporate enterprises continue to embrace diversification strategies in their
-investments, and so constantly have to make resource allocation choices that
+investments, and so constantly have to make capital allocation choices that
 involve very disparate domains. To overcome these difficult comparisons,
 executives rely on various financial measures that in theory can apply to any
 project or business proposal. These financial measures work well to ease the
@@ -76,7 +76,7 @@ NPV is the difference between the money that a project is forecasted to make and
 the initial investment in its development (accounting for the time value of
 money), as seen in Equation \@ref(eq:npv).
 
-NPV is commonly used to decide about resource allocation and investment. The
+NPV is commonly used to decide about capital allocation and investment. The
 simple rule is that if a project’s NPV is positive, then it is financially
 viable, and if NPV is negative, then it is not. However, the use of NPV has been
 criticised, both by academics and practitioners [@fox2008; @willigers2017]. The
@@ -92,8 +92,8 @@ the single numerical value of NPV.
 
 As such, the secondary goal of this research was to investigate the extent to
 which people are sensitive to variance information (from financial forecasting)
-when making resource allocation decisions. This consideration is especially
-important in the resource allocation situations illustrated above, in which
+when making capital allocation decisions. This consideration is especially
+important in the capital allocation situations illustrated above, in which
 executives need to compare between projects from disparate domains and therefore
 have to rely on NPV. This matters because the NPV calculated from different
 domains may have different underlying forecasting error, which may compromise
@@ -107,7 +107,7 @@ to use variance information when it is represented numerically [@galesic2010;
 ### Experiment summary
 
 Experiment [1](#alignment-2) investigated the effect of alignment on the
-decision-making of naive participants’ resource allocation to a set of fictional
+decision-making of naive participants’ capital allocation to a set of fictional
 projects. NPV reliability was manipulated by directly stating whether it is a
 reliable measure because the naive participants were assumed not to have the
 requisite knowledge to be sensitive to reliability information otherwise. This

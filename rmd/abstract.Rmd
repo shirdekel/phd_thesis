@@ -1,9 +1,9 @@
-Resource allocation decisions are critical for large organisations. Management
+Capital allocation decisions are critical for large organisations. Management
 research mainly considers such decisions from an organisational perspective,
 largely overlooking potential psychological influences. Therefore, this thesis
-investigated cognitive processes that affect resource allocation decisions.
-Three studies examined how participants integrated multiple kinds of cues when
-making their decisions. Each study presented participants with both statistical
+investigated cognitive processes that affect capital allocation decisions. Three
+studies examined how participants integrated multiple kinds of cues when making
+their decisions. Each study presented participants with both statistical
 information and non-numerical semantic information. In each study, participants
 had the opportunity to leverage a statistical principle that arguably should be
 the sole basis of the decision. The first study showed participants sequential
@@ -20,7 +20,7 @@ similar or dissimilar to the target project. Participants could have clarified
 the conflicting evidence by using provided information about the distribution
 from which the anecdote was sampled. However, they ignored this information.
 Despite this, participants moderated their use of anecdotes by the similarity of
-the anecdote to the target project. These results show that people's resource
+the anecdote to the target project. These results show that people's capital
 allocation decisions are bounded by a limited understanding of certain
 statistical principles, but that they are capable of more nuanced choice when
 properly scaffolded.

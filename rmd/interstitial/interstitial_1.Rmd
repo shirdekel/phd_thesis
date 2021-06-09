@@ -9,7 +9,7 @@ benefits of aggregation. Yet, in the current work, people instead tend to
 consider projects one at a time and only leverage the benefits of aggregation
 when given an explicit visualisation of what it entails.
 
-In real-life resource allocation scenarios, when managers evaluate projects
+In real-life capital allocation scenarios, when managers evaluate projects
 sequentially, presenting an aggregated distribution is not possible since the
 value of future projects is not yet known. Managers in this situation would need
 to aggregate intuitively by considering that for positive EV projects, some
@@ -32,7 +32,7 @@ budget. Otherwise, an organisation might have a initial "culling" phase, and a
 subsequent ranking phase. When initially considering a set of projects, some
 might be rejected according to certain rules. For instance, an NPV might not
 meet a certain minimum cut-off. The remaining projects in the set can then be
-ranked in order of priority and receive an allocation of resources from the
+ranked in order of priority and receive an allocation of capital from the
 budget.
 
 A few potential problems arise at the point that projects are considered jointly
@@ -40,7 +40,7 @@ for ranking and allocation. For instance, it might not be easy to compare
 between the projects in the set. As discussed in Chapter \@ref(introduction),
 diversification of business units has become very popular in large
 organisations. Therefore, most hierarchical organisations are likely to face
-difficult comparisons when deciding on how to rank and allocate resources to
+difficult comparisons when deciding on how to rank and allocate capital to
 projects that originated in different divisions. A non-hierarchical organisation
 that develops one type of product may be able to simply compare across any
 number of intrinsic project attributes, whereas a diversified organisation is

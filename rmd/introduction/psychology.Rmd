@@ -1,4 +1,4 @@
-## The psychology of resource allocation {#psychology}
+## The psychology of capital allocation {#psychology}
 
 Managers of large organisations are generally assumed to have a superior
 decision-making capability to non-managers. However, managerial decision-making
@@ -21,19 +21,19 @@ in certain environments [@haselton2009; @gigerenzer2008]. However, there are
 many situations in which such inconsistency with economic theory can have bad
 consequences.
 
-<!-- Previous research  -->
+<!-- Previous research -->
 
-Research has shown many ways in which the allocation of resources in an
+Research has shown many ways in which the allocation of capital in an
 organisation can be influenced by psychological biases. For instance,
 @benartzi2001 found that people tend to allocate their retirement fund equally
 between the available options, regardless of their composition. This bias was
 also found in capital allocation for hierarchical firms [@bardolet2011].
-Managers allocate resources equally across the available divisions in the firm,
+Managers allocate capital equally across the available divisions in the firm,
 regardless of performance. This behaviour may be damaging to firm performance
 because it means that lower performing business units may be getting subsidised
 by higher performing units, which are not operating at their full potential.
 
-Relatedly, people tend to continue expending resources into investments that
+Relatedly, people tend to continue expending capital into investments that
 appear to be failing [@staw1981]. This *escalating commitment* is another way
 that psychological biases can influence allocation in an organisation. This
 pattern of decision-making is likely a consequence of the sunk cost fallacy, in
@@ -73,8 +73,8 @@ so that they are not over-confident, they are still likely to provide inaccurate
 estimates of their degree of confidence.
 
 The above summarises many of the currently known psychological biases related to
-resource allocation. This thesis focuses on three essential processes within the
-resource allocation process. When evaluating projects in hierarchical
+capital allocation. This thesis focuses on three essential processes within the
+capital allocation process. When evaluating projects in hierarchical
 organisations, there is often 1. an element of risky choice, 2. a comparison
 between diversified businesses, and 3. a comparison between the target project
 and prior experience. Each of these is prone to separate biases, that are also
@@ -93,8 +93,7 @@ probability and comparing the resulting values [first documented in
 choices:
 
 A) a gamble that involves a 50% chance gaining $200 and a 50% chance of losing
-$100; or
-B) gaining/losing nothing.
+$100; or B) gaining/losing nothing.
 
 In option A, the EV is calculated as $200 \cdot 0.5 - 100 \cdot 0.5 = 50$. Since
 the EV for option A (50) is higher than the EV for option B (0), EUT would
@@ -135,12 +134,8 @@ The function that represents the value of a prospect describes both loss
 aversion and diminishing marginal utility, as seen in
 Equation \@ref(eq:value-function):
  
-\begin{equation}
-v(x) = \left\{ \begin{array}{l}
-x^\alpha \text{ if } x \ge 0 \\
--\lambda(-x)^\beta \text{ if } x < 0,
-(\#eq:value-function)
-\end{array} \right.
+\begin{equation} v(x) = \left\{ \begin{array}{l} x^\alpha \text{ if } x \ge 0 \\
+-\lambda(-x)^\beta \text{ if } x < 0, (\#eq:value-function) \end{array} \right.
 \end{equation}
 
 where $x$ is the possible outcome, $\lambda$ represents the loss aversion
@@ -176,7 +171,7 @@ tar_read(prospect_theory)
 
 <!-- Management connection -->
 
-This research is relevant to resource allocation because managers often need to
+This research is relevant to capital allocation because managers often need to
 evaluate project proposals that involve an element of risk. Therefore, managers
 are likely to be affected by similar effects on risk that have been shown in
 laypeople. However, hierarchical organisations offer an even more complex
@@ -241,7 +236,7 @@ that it will be difficult to find meaningful alignments. More non-alignable
 differences mean that there are less opportunities to make meaningful
 comparisons, and so would make predicting relative project success and ranking
 their priority more difficult. Chapter \@ref(alignment) experimentally examines
-business project comparisons and how project alignment affects resource
+business project comparisons and how project alignment affects capital
 allocation decisions.
 
 <!-- Metric variance -->
@@ -322,7 +317,7 @@ considered. Are managers sensitive to the deeper causal mechanisms that underlie
 the anecdotes they judge? Or are they simply influenced by surface similarity?
 Chapter \@ref(anecdotes) investigates the extent to which people moderate their
 reliance on anecdotes or aggregated data by the relevance of the anecdote to the
-target project during resource allocation. It also considers whether people are
+target project during capital allocation. It also considers whether people are
 sensitive to information about the distribution from which the anecdote was
 sampled.
 

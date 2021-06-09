@@ -30,13 +30,13 @@ GE's divisions include GE Aviation and GE Healthcare. Similarly, in the public
 sector, a hospital system may operate through multiple individual hospitals in
 different regions.
 
-<!-- This means resource allocation -->
+<!-- This means capital allocation -->
 
-Such organisations therefore need to make resource allocation decisions. That
-is, given a limited amount of resources (e.g., financial or organisational), how
-best to invest in the multiple divisions? Equally? Pick a winner? What metric
-should be used to compare across divisions? Resource allocation is a critical
-process to the operation and development of multi-divisional organisations.
+Such organisations therefore need to make capital allocation decisions. That is,
+given a limited amount of financial resources, how best to invest in the
+multiple divisions? Equally? Pick a winner? What metric should be used to
+compare across divisions? Capital allocation is a critical process to the
+operation and development of multi-divisional organisations.
 
 <!-- Many decisions come from one or few people -->
 
@@ -68,11 +68,11 @@ psychological biases.
 
 <!-- Examples of the consequences of biased manager decision-making? -->
 
-<!-- Not enough work on resource allocation biases -->
+<!-- Not enough work on capital allocation biases -->
 
-One class of biases has not been well studied: resource allocation biases. While
+One class of biases has not been well studied: capital allocation biases. While
 some previous work exists [e.g., @bardolet2011], many questions still remain
-unanswered. This is a rather large hole in the literature because resource
+unanswered. This is a rather large hole in the literature because capital
 allocation decisions are at the centre of executive and lower level managers’
 roles. When making capital allocation decisions, there are elements of the
 decision-making environment that can be deceiving for managers. This thesis
@@ -98,9 +98,9 @@ experiment. However, past work generally shows the same biases in managers and
 laypeople [with some showing more bias, e.g., @haigh2005]. Further, future work
 will directly test managers to determine any potential expertise effects.
 
-Section \@ref(resource-allocation) will explain how the resource allocation
+Section \@ref(capital-allocation) will explain how the capital allocation
 process functions in hierarchical organisations, and why it is necessary to
 analyse such a process with a psychological approach. Section \@ref(psychology)
 reviews the literature on decision-making biases and how these may apply to
-resource allocation decisions. Finally, Section \@ref(chapter-overview) will
+capital allocation decisions. Finally, Section \@ref(chapter-overview) will
 summarise the rest of the thesis chapters.

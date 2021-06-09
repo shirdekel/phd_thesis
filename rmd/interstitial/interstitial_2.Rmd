@@ -1,7 +1,7 @@
 # Looking for alignment in past cases {#interstitial-2}
 
 Chapter \@ref(alignment) found that people do not sufficiently weigh the
-importance of numerical variance information in resource allocation. This is
+importance of numerical variance information in capital allocation. This is
 important for when projects are dissimilar because people might not pay
 attention to the variance that underlies NPV. However, there are also
 implications for high alignment scenarios. When projects are alignable this

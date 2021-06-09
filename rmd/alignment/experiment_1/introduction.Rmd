@@ -8,7 +8,7 @@ tar_load(plot_alignment_2)
 ```
 
 Experiment 1 investigated the effects of alignment and explicit NPV reliability
-information on financial resource allocation decisions. The structural alignment
+information on capital allocation decisions. The structural alignment
 literature suggests that people weigh alignable differences more heavily than
 non-alignable differences. It was expected that people would use NPV more than
 any other product attributes (because it applied to every product). However,

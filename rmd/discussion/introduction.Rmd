@@ -9,7 +9,7 @@ and inference...portrayed people as fallible, not irrational.
 
 \minitoc
 
-This thesis investigated the psychology of resource allocation decisions. The
+This thesis investigated the psychology of capital allocation decisions. The
 influence of psychological factors on such decisions has not been sufficiently
 considered in the literature despite its importance to the performance of
 hierarchical organisations. This discrepancy is likely due to a greater focus of
@@ -20,7 +20,7 @@ study of the specific cognitive processes without the potential confound of
 experience. Though, it is also worth noting that in the one case where the work
 examined people with management experience, the pattern of results was largely
 the same as with naive participants. Each of the empirical chapters investigated
-distinct but related processes that are relevant to the resource allocation
+distinct but related processes that are relevant to the capital allocation
 process. These chapters investigated whether people are able to account for the
 benefits of aggregation when considering multiple projects
 (Chapter \@ref(aggregation)), the influence of project feature alignability and
@@ -52,7 +52,7 @@ projects together, specifying the total number of projects, and presenting
 projects that were all from the same industry did not reliably encourage
 aggregation.
 
-Chapter \@ref(alignment) investigated resource allocation when projects were
+Chapter \@ref(alignment) investigated capital allocation when projects were
 evaluated jointly and capital was allocated as a proportion of the budget,
 rather than a binary choice. The main manipulation was whether all the project
 attributes were alignable, or only the abstract financial metric (NPV) was
@@ -91,10 +91,10 @@ relevance, but do not understand the implications of more complex statistical
 principles.
 
 Together, these results show the bounds of people's decision-making capability
-in resource allocation. The participants in these experiments in general behaved
+in capital allocation. The participants in these experiments in general behaved
 rationally but struggled to incorporate more advanced statistical principles
 into their decisions. Further, when confronted with multi-attribute choice,
-participants tended to allocate resources using a trade-off strategy. This was
+participants tended to allocate capital using a trade-off strategy. This was
 seen in the conflict between intrinsic project attributes and NPV in
 Chapter \@ref(alignment) and the conflict between the anecdotal and statistical
 evidence in Chapter \@ref(anecdotes). Participants were able to moderate their

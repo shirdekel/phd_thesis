@@ -2,7 +2,7 @@
 
 Most of the hypotheses were supported. This chapter found that people's
 decisions are influenced by anecdotes even when aggregated data is available in
-a resource allocation context. There were three novel findings: 1. the anecdotal
+a capital allocation context. There were three novel findings: 1. the anecdotal
 bias effect was only seen when participants considered the anecdote as
 sufficiently relevant to the target project, 2. participants integrated
 statistics in their decisions, and 3. these effects are found in both negative
@@ -15,7 +15,7 @@ appeared irrelevant, participants relied on statistics almost entirely. The
 findings in the high similarity condition are largely congruent with findings
 from other work investigating anecdotal bias in business decision-making. As in
 @wainberg2013 and @wainberg2018, this chapter found that people allocate less
-resources to a project that is successful according to statistical evidence
+capital to a project that is successful according to statistical evidence
 co-presented with contradictory similar anecdote than to a project with just
 the statistics.
 

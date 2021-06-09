@@ -81,10 +81,10 @@ lecture slides).
 
 Participants saw the instructions, NPV explanation, and completed a simple test
 to demonstrate their understanding of NPV. They then completed four
-counterbalanced resource allocation trials (equivalent to each condition
+counterbalanced capital allocation trials (equivalent to each condition
 combination), and saw a brief presentation about the importance of paying
 attention to variance in financial decision-making. Subsequently, participants
-completed a further two resource allocation trials of two of the trials that
+completed a further two capital allocation trials of two of the trials that
 they subsequently saw earlier. They were shown the allocation values that they
 provided earlier, and were given the opportunity to change them. Participants
 rated their knowledge of NPV once before the NPV test, re-rated after the test,

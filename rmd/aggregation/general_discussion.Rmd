@@ -142,7 +142,7 @@ that people do need very explicit scaffolding in order to use risk aggregation.
 
 ### Practical implications
 
-This research implies some prescriptions for resource allocation
+This research implies some prescriptions for capital allocation
 decision-making. For instance, even if managers implement processes that
 encourage a joint evaluation of projects, this may be insufficient to encourage
 aggregation. Projects need to very explicitly be considered as individual
@@ -156,7 +156,7 @@ when industries differed, compared to when they were all from the same industry.
 Simply manipulating the similarity of financially-irrelevant semantics of a set
 of choices affected participants' risk aversion. This has implications for
 managerial settings. Executives in multi-business firms often have to make
-resource allocation decisions that involve comparing dissimilar projects. How
+capital allocation decisions that involve comparing dissimilar projects. How
 can an oil well exploration project be appropriately compared to an oil
 refinery? Or to a microchip project? Chapter \@ref(alignment) suggests that
 evaluating dissimilar business projects is more difficult to comparing similar

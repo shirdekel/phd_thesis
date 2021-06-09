@@ -96,8 +96,8 @@ Each project had an associated NPV, which was crossed with each project pair's
 intrinsic features. That is, each pair had one project with a high NPV and low
 intrinsic feature values, and one project with a low NPV and high intrinsic
 feature values. As such, we inferred a reliance on NPV if participants allocated
-the high NPV project more resources, or a reliance on the intrinsic features if
-participants allocated the low NPV project more resources.
+the high NPV project more capital, or a reliance on the intrinsic features if
+participants allocated the low NPV project more capital.
 
 #### Procedure
 

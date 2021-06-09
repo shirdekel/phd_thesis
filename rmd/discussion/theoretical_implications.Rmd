@@ -2,7 +2,7 @@
 
 The main theoretical contribution of this thesis is the addition of evidence
 that further specifies the conditions under which people make rational decisions
-in resource allocation scenarios. People made good decisions most of the time,
+in capital allocation scenarios. People made good decisions most of the time,
 but sometimes do not take into account important moderating factors in their
 decisions. Amos Tversky explained in his response to @cohen1981 [p. 355] that
 the work on heuristics and biases "portrayed people as fallible, not
@@ -15,8 +15,8 @@ deficits.
 
 Similarly, @simon1955 identified human rationality as *bounded*, meaning that
 people's cognitive processes are limited. The main aim of the thesis was to
-contribute evidence for the ways that resource allocation decisions are bounded.
-To this end, in each experiment, participants were given resource allocation
+contribute evidence for the ways that capital allocation decisions are bounded.
+To this end, in each experiment, participants were given capital allocation
 scenarios alongside both cues that describe their options and cues that frame
 the options in different ways. Identifying which cues were used by participants
 in their decisions, which cues were ignored, and which cues were integrated
@@ -24,12 +24,12 @@ allowed to specify the bounds of people's cognitive capacity in these decisions.
 The experiments showed that people struggle to use certain statistical
 principles in their decisions, but that they are also capable of making nuanced
 trade-offs and can be assisted by decision aides. Understanding how
-decision-making in resource allocation is constrained and biased is important in
+decision-making in capital allocation is constrained and biased is important in
 order to improve decision-making. Even if decisions are largely consistent with
 normative principles, falling prey to the biases identified in the thesis can
 have severe consequences for organisations.
 
-Chapter \@ref(aggregation) presented participants with a resource allocation
+Chapter \@ref(aggregation) presented participants with a capital allocation
 situation in which an understanding of risk aggregation would have led to
 beneficial outcomes. Investing in all the hypothetical projects would have led
 to a much higher chance of gaining money than losing any. Each choice bracketing
@@ -106,7 +106,7 @@ values were displayed visually as a distribution. However, a follow-up
 experiment to Chapter \@ref(alignment) (detailed in Appendix \@ref(alignment-6))
 found that even explicit instructions sometimes do not work. That is, even
 explaining the way that ranges can be used as reliability information and
-telling participants how to implement this in the resource allocation task did
+telling participants how to implement this in the capital allocation task did
 not facilitate proper use of ranges. Future work should investigate the impact
 of visualisation on people's use of variance information in these situations.
 Much work has investigated visualising uncertainty information [@bostrom2008;

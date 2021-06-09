@@ -1,7 +1,7 @@
 ### Discussion
 
 Experiment 1 found evidence for the effect of alignment on laypeople’s
-decision-making in resource allocation scenarios. Specifically, when projects
+decision-making in capital allocation scenarios. Specifically, when projects
 were comparable, people used NPV when they were told that it was reliable, but
 not when they were told that it was unreliable. However, they used NPV
 regardless of reliability when it was the only shared dimension across products.

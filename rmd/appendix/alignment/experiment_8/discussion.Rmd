@@ -8,10 +8,10 @@ effect of NPV in low reliability for the high alignment condition, but not the
 low alignment condition.
 
 This experiment shows that similar to the previous experiments, when controlling
-for presentation and domain, people still find it easier to allocate resources
+for presentation and domain, people still find it easier to allocate capital
 based on explicit reliability information when projects are comparable. However,
 due to the difference in scale across alignment conditions, a direct alignment
 effect was more difficult to test than with the previous experiments. Further,
 similar to Experiment 2, I showed that people without much business experience
-also struggle to use range information in resource allocation to such an extreme
+also struggle to use range information in capital allocation to such an extreme
 extent that they do not seem to be using any coherent allocation strategy.

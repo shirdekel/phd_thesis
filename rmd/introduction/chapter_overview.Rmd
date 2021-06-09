@@ -11,7 +11,7 @@ disregard the normative strategy, but also struggle to moderate their decisions
 when it comes to more subtle statistical principles such as aggregation,
 variance, and sampling.
 
-The previous section identified three resource allocation processes that are
+The previous section identified three capital allocation processes that are
 currently under-studied and so are important to investigate further. First, the
 evaluation of individual project proposals might lead to managers only
 considering such projects one at a time, despite the opportunity of aggregating
@@ -29,7 +29,7 @@ aggregated data, but it is unclear whether they will use relevance to moderate
 their decisions. Further, it is unclear if they will appropriately use
 information about the sample distribution.
 
-The rest of this thesis investigates the psychology of resource allocation
+The rest of this thesis investigates the psychology of capital allocation
 decisions in three chapters that describe empirical work, two theoretical
 chapters, and a general discussion chapter. Chapter \@ref(aggregation) describes
 two experiments that investigate the effects of choice bracketing on risk
