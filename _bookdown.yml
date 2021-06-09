@@ -5,7 +5,7 @@ rmd_files:
   - "index.Rmd"
   # Introduction
   - "rmd/introduction/introduction.Rmd"
-  - "rmd/introduction/resource_allocation.Rmd"
+  - "rmd/introduction/capital_allocation.Rmd"
   - "rmd/introduction/psychology.Rmd"
   - "rmd/introduction/chapter_overview.Rmd"
   # Aggregation
