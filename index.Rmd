@@ -10,7 +10,7 @@ submitted-text: A thesis submitted for the degree of
 degree: Doctor of Philosophy (Science)
 degreedate: '`r format(Sys.time())`'
 abstract: |
-  `r paste(readLines("rmd/abstract.Rmd"), collapse = '\n  ')`
+  `r paste(readLines("rmd/front_matter/abstract.Rmd"), collapse = '\n  ')`
 
 #######################
 ## bibliography path ##
@@ -112,5 +112,5 @@ knitr::knit_hooks$set(chunk = function(x, options) {
 knitr::knit_hooks$set(inline = papaja:::inline_numbers)
 ```
 
-```{r ebook-welcome, child = 'rmd/welcome.Rmd', eval=knitr::is_html_output()}
+```{r ebook-welcome, child = 'rmd/front_matter/welcome.Rmd', eval=knitr::is_html_output()}
 ```

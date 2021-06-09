@@ -15,6 +15,6 @@ Shir Dekel \
 :::
 
 ## Abstract {-}
-```{r abstract, child=here::here('rmd/abstract.Rmd')}
+```{r abstract, child=here::here('rmd/front_matter/abstract.Rmd')}
 ```
 
