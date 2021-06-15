@@ -1,23 +1,14 @@
-##' @title Get anecdotes 2 results
+##' @title Get anecdotes 1 results
 ##'
-##' @param data_clean_anecdotes_1
-##' @param iv
-##' @param dv
+##' @param data
 ##' @return
 ##' @author Shir Dekel
 ##' @export
-get_results_anecdotes_1 <- function(data_clean_anecdotes_1, iv, dv) {
+get_results_anecdotes_1 <- function(data = anecdotes1::data) {
   set_sum_contrasts()
   allocation_omnibus <-
-    data_clean_anecdotes_1 %>%
-    filter(!anecdote == "statistics") %>%
-    aov_ez(
-      id = "id",
-      dv = "allocation_projectA",
-      between = c("anecdote", "alignment"),
-      data = .,
-      type = 2
-    )
+    data %>%
+    get_omnibus_anecdotes_1_allocation()
 
   allocation_omnibus_apa <-
     allocation_omnibus %>%
@@ -39,22 +30,8 @@ get_results_anecdotes_1 <- function(data_clean_anecdotes_1, iv, dv) {
     pluck("full_result")
 
   allocation_omnibus_combined_statistics <-
-    data_clean_anecdotes_1 %>%
-    unite(condition, c(anecdote, alignment)) %>%
-    filter(
-      condition %in% c(
-        "combined_high",
-        "combined_low",
-        "statistics_NA"
-      )
-    ) %>%
-    aov_ez(
-      id = "id",
-      dv = "allocation_projectA",
-      between = "condition",
-      data = .,
-      type = 2
-    )
+    data %>%
+    get_omnibus_anecdotes_1_allocation_combined()
 
   allocation_omnibus_combined_statistics_apa <-
     allocation_omnibus_combined_statistics %>%
@@ -69,11 +46,11 @@ get_results_anecdotes_1 <- function(data_clean_anecdotes_1, iv, dv) {
     pluck("full_result")
 
   allocation_anecdote <-
-      allocation_omnibus %>%
-      emmeans("anecdote") %>%
-      contrast("pairwise", adjust = "none") %>%
-      apa_print() %>%
-      pluck("full_result")
+    allocation_omnibus %>%
+    emmeans("anecdote") %>%
+    contrast("pairwise", adjust = "none") %>%
+    apa_print() %>%
+    pluck("full_result")
 
   allocation <-
     c(
@@ -85,9 +62,8 @@ get_results_anecdotes_1 <- function(data_clean_anecdotes_1, iv, dv) {
       allocation_anecdote
     )
 
-
   similarity <-
-    data_clean_anecdotes_1 %>%
+    data %>%
     filter(!anecdote == "statistics") %>%
     aov_ez(
       id = "id",
@@ -100,7 +76,7 @@ get_results_anecdotes_1 <- function(data_clean_anecdotes_1, iv, dv) {
     pluck("full_result")
 
   relevance_specific <-
-    data_clean_anecdotes_1 %>%
+    data %>%
     filter(!anecdote == "statistics") %>%
     aov_ez(
       id = "id",
@@ -113,7 +89,7 @@ get_results_anecdotes_1 <- function(data_clean_anecdotes_1, iv, dv) {
     pluck("full_result")
 
   relevance_general_omnibus <-
-    data_clean_anecdotes_1 %>%
+    data %>%
     filter(!anecdote == "statistics") %>%
     aov_ez(
       id = "id",
@@ -142,7 +118,7 @@ get_results_anecdotes_1 <- function(data_clean_anecdotes_1, iv, dv) {
     )
 
   allocation_similarity <-
-    data_clean_anecdotes_1 %>%
+    data %>%
     filter(!anecdote == "statistics") %>%
     lm(
       allocation_projectA ~ follow_up_similarity_rating,
@@ -152,7 +128,7 @@ get_results_anecdotes_1 <- function(data_clean_anecdotes_1, iv, dv) {
     pluck("full_result", "follow_up_similarity_rating")
 
   allocation_relevance_specific_alignment <-
-    data_clean_anecdotes_1 %>%
+    data %>%
     filter(!anecdote == "statistics") %>%
     lm(
       allocation_projectA ~ follow_up_relevance_specific_rating * alignment,
@@ -162,7 +138,7 @@ get_results_anecdotes_1 <- function(data_clean_anecdotes_1, iv, dv) {
     pluck("full_result", "follow_up_relevance_specific_rating_alignment1")
 
   relevance_specific_similarity <-
-    data_clean_anecdotes_1 %>%
+    data %>%
     filter(!anecdote == "statistics") %>%
     lm(
       follow_up_relevance_specific_rating ~ follow_up_similarity_rating,

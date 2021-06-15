@@ -3,31 +3,56 @@
 ##' @return
 ##' @author Shir Dekel
 ##' @export
-get_plot_anecdotes_1 <- function(data_clean_anecdotes_1) {
+get_plot_anecdotes_1 <- function(data = anecdotes1::data) {
   allocation <-
-    data_clean_anecdotes_1 %>%
-    mutate(
-      across(
-        anecdote,
-        recode,
-        anecdote = "Anecdote only",
-        combined = "Anecdote & statistics",
-        enhanced = "Anecdote & enhanced statistics",
-        statistics = "Statistics only",
-      )
-    ) %>%
-    apa_plot(
-      iv1 = "anecdote",
-      iv2 = "alignment",
-      iv1.lab = "Evidence type",
-      iv2.lab = "Similarity",
-      dv = "allocation_projectA",
-      dv.lab = "Mean allocation to the target project"
+    data %>%
+    get_omnibus_anecdotes_1_allocation() %>%
+    afex::afex_plot(
+      x = "anecdote",
+      trace = "alignment",
+      mapping = c("shape", "color"),
+      factor_levels = list(
+        alignment = c(
+          low = "Low",
+          high = "High"
+        ),
+        anecdote = c(
+          anecdote = "Anecdote only",
+          enhanced = "Anecdote & enhanced statistics",
+          combined = "Anecdote & statistics"
+        )
+      ),
+      legend_title = "Similarity"
     ) +
+    labs(
+      x = "Anecdote",
+      y = "Mean allocation to the target project"
+    ) +
+    theme_apa() +
+    scale_x_discrete(guide = guide_axis(n.dodge = 2))
+
+  allocation_combined <-
+    data %>%
+    get_omnibus_anecdotes_1_allocation_combined() %>%
+    afex::afex_plot(
+      x = "condition",
+      factor_levels = list(
+        condition = c(
+          combined_high = "High similarity anecdote & statistics",
+          combined_low = "Low similarity anecdote & statistics",
+          statistics_NA = "Statistics only"
+        )
+      )
+    ) +
+    labs(
+      x = "Condition",
+      y = "Mean allocation to the target project"
+    ) +
+    theme_apa() +
     scale_x_discrete(guide = guide_axis(n.dodge = 2))
 
   similarity <-
-    data_clean_anecdotes_1 %>%
+    data %>%
     filter(!anecdote == "statistics") %>%
     aov_ez(
       id = "id",
@@ -42,7 +67,7 @@ get_plot_anecdotes_1 <- function(data_clean_anecdotes_1) {
     )
 
   relevance_specific <-
-    data_clean_anecdotes_1 %>%
+    data %>%
     filter(!anecdote == "statistics") %>%
     aov_ez(
       id = "id",
@@ -57,7 +82,7 @@ get_plot_anecdotes_1 <- function(data_clean_anecdotes_1) {
     )
 
   relevance_general <-
-    data_clean_anecdotes_1 %>%
+    data %>%
     filter(!anecdote == "statistics") %>%
     aov_ez(
       id = "id",
@@ -72,7 +97,7 @@ get_plot_anecdotes_1 <- function(data_clean_anecdotes_1) {
     )
 
   allocation_similarity <-
-    data_clean_anecdotes_1 %>%
+    data %>%
     filter(!anecdote == "statistics") %>%
     ggplot(aes_string(x = "follow_up_similarity_rating", y = "allocation_projectA")) +
     geom_point(alpha = 0.2) +
@@ -84,7 +109,7 @@ get_plot_anecdotes_1 <- function(data_clean_anecdotes_1) {
     theme_apa()
 
   allocation_relevance_specific_alignment <-
-    data_clean_anecdotes_1 %>%
+    data %>%
     filter(!anecdote == "statistics") %>%
     ggplot(aes_string(x = "follow_up_relevance_specific_rating", y = "allocation_projectA", linetype = "alignment")) +
     geom_point(alpha = 0.2) +
@@ -97,7 +122,7 @@ get_plot_anecdotes_1 <- function(data_clean_anecdotes_1) {
     theme_apa()
 
   relevance_specific_similarity <-
-    data_clean_anecdotes_1 %>%
+    data %>%
     filter(!anecdote == "statistics") %>%
     ggplot(aes_string(x = "follow_up_similarity_rating", y = "follow_up_relevance_specific_rating")) +
     geom_point(alpha = 0.2) +
@@ -117,6 +142,7 @@ get_plot_anecdotes_1 <- function(data_clean_anecdotes_1) {
 
   lst(
     allocation,
+    allocation_combined,
     similarity,
     relevance_specific,
     relevance_general,
