@@ -5,7 +5,7 @@ investigated cognitive processes that affect capital allocation decisions. Three
 studies examined how participants integrated multiple kinds of cues when making
 their decisions. Each study presented participants with both statistical
 information and non-numerical semantic information. In each study, participants
-had the opportunity to leverage a statistical principle that arguably should be
+had the opportunity to leverage a statistical concept that arguably should be
 the sole basis of the decision. The first study showed participants sequential
 risky choices without intermittent feedback. Participants could have combined
 the risk across decisions to reduce the overall potential loss. However, they
@@ -19,8 +19,8 @@ with conflicting statistical and anecdotal evidence. The anecdotes were either
 similar or dissimilar to the target project. Participants could have clarified
 the conflicting evidence by using provided information about the distribution
 from which the anecdote was sampled. However, they ignored this information.
-Despite this, participants moderated their use of anecdotes by the similarity of
-the anecdote to the target project. These results show that people's capital
-allocation decisions are bounded by a limited understanding of certain
-statistical principles, but that they are capable of more nuanced choice when
-properly scaffolded.
+Despite this, participants moderated their use of the anecdote by its similarity
+to the target project. These results show that people's capital allocation
+decisions are bounded by a limited understanding of certain statistical
+concepts, but that they are capable of more nuanced choice when properly
+scaffolded.

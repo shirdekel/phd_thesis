@@ -320,7 +320,7 @@ settings, thanks to Nobel laureate Harry Markowitz’s work on modern portfolio
 theory [-@markowitz1952].
 
 However, it is unclear whether the general public and even business managers use
-this principle, due to the extent of risk aversion in both those populations
+this concept, due to the extent of risk aversion in both those populations
 [e.g., @tversky1992; @march1987]. In fact, executives treat risk like the rest
 of us; they view investments one at a time, are risk averse in the domain of
 gains, and are risk seeking in the domain of losses [@maccrimmon1986;

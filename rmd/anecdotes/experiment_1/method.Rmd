@@ -21,21 +21,30 @@ subsequent instructions that participants saw depended on their experimental
 condition. Those in the anecdote only condition were told that they will see a
 case study of a failed project and an analysis of why it failed. Those in the
 statistics only condition were told that they will see NPV and reliability
-information as a part of their target project descriptions, and were explained
-that these values were sourced from a study with a large sample. Those in the
-anecdote & statistics condition were given both of these instructions, and were
-also told that the information in the anecdote is subsumed in the data of the
-aggregated study. Those in the anecdote & enhanced statistics condition saw the
-same as those in the anecdote & statistics condition, but were subsequently
-given the explanation of scientific thinking that @wainberg2018 used.
+information as a part of the descriptions of the two focal projects.
+Participants were explained that these values were sourced from a study with a
+large sample. Those in the anecdote & statistics condition were given both of
+these instructions, and were also told that the information in the anecdote is
+subsumed in the data of the aggregated study. Those in the anecdote & enhanced
+statistics condition saw the same as those in the anecdote & statistics
+condition, but were subsequently given the explanation of scientific thinking
+that @wainberg2018 used.
 Appendix \@ref(instructions-materials-anecdotes-1-appendix) shows the
 instructions used in Experiment 1.
 
 ##### Allocation task
 
 In the allocation task, participants allocated a percentage of a hypothetical
-budget between two target projects that come from different businesses within a
-company. Participants were presented with information about each business' name,
+budget between two projects that come from different businesses within a
+company. In this chapter, these projects will be referred to as the *focal*
+projects. One of these projects will be referred to in this chapter as the
+*target* project and the other as the *comparison* project. The target project
+was used as a reference for the similarity manipulation. That is, the anecdote
+was either high or low in similarity compared to the target project. Further,
+the data analyses presented in Section \@ref(results-anecdotes-1) used
+allocations to the target project as the DV.
+
+Participants were presented with information about each business' name,
 location, integration (vertical or horizontal), and organisational structure
 (centralised or decentralised). See
 Appendix \@ref(allocation-materials-anecdotes-1) for an explanation of these
@@ -51,7 +60,7 @@ Participants entered their allocation data underneath this table, in two
 textboxes labelled *Project A allocation* and *Project B allocation*,
 respectively.
 
-(ref:project-allocation-anecdote-only-materials-anecdotes-1) Project display for the anecdote only condition in Experiment 1.
+(ref:project-allocation-anecdote-only-materials-anecdotes-1) Focal project display for the anecdote only condition in Experiment 1.
 
 ```{r project-allocation-anecdote-only-materials-anecdotes-1, fig.cap = "(ref:project-allocation-anecdote-only-materials-anecdotes-1)"}
 file.path(
@@ -62,7 +71,7 @@ file.path(
   image_trim()
 ```
 
-(ref:project-allocation-statistics-materials-anecdotes-1) Project display for the statistics only, anecdote & statistics, and anecdote & enhanced statistics conditions in Experiment 1.
+(ref:project-allocation-statistics-materials-anecdotes-1) Focal project display for the statistics only, anecdote & statistics, and anecdote & enhanced statistics conditions in Experiment 1.
 
 ```{r project-allocation-statistics-materials-anecdotes-1, fig.cap = "(ref:project-allocation-statistics-materials-anecdotes-1)"}
 file.path(
@@ -81,8 +90,8 @@ description of a business project and an accompanying "analysis".
 Figures \@ref(fig:anecdote-similarity-high-materials-anecdotes-1)
 and \@ref(fig:anecdote-similarity-low-materials-anecdotes-1) show the anecdote
 display for those in the high and low similarity conditions, respectively. The
-project description had a similar layout to the target projects. That is, it
-contained information about the business name, location, integration, and
+project description had a similar layout to that of the focal projects. That is,
+it contained information about the business name, location, integration, and
 organisational structure of the business, and detailed predicted features of the
 project. Underneath this description was a paragraph of text that participants
 were told was an analysis of why the project failed. Therefore, this text
@@ -141,5 +150,5 @@ questions.
 Participants were introduced to the study through the general instructions and
 the specific instructions relevant to their condition. They were then presented
 with the allocation task, which included the anecdote analysis and description
-(for those not in the statistics condition) and the target projects description.
+(for those not in the statistics condition) and the focal projects description.
 Those that saw an anecdote were subsequently shown the follow-up questions.

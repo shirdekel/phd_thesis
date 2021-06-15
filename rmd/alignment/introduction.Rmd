@@ -71,10 +71,10 @@ costs, projected profits, etc. Initially hard-to-compare projects can therefore
 be more easily evaluated by comparing values on individual numerical measures.
 
 The most common financial measure that is used by executives in order to value
-business project proposals is Net Present Value [NPV\; @graham2001; @remer1993].
-NPV is the difference between the money that a project is forecasted to make and
-the initial investment in its development (accounting for the time value of
-money), as seen in Equation \@ref(eq:npv).
+business project proposals is Net Present Value [NPV\; @graham2001; @remer1993;
+@graham2015]. NPV is the difference between the money that a project is
+forecasted to make and the initial investment in its development (accounting for
+the time value of money), as seen in Equation \@ref(eq:npv).
 
 NPV is commonly used to decide about capital allocation and investment. The
 simple rule is that if a project’s NPV is positive, then it is financially

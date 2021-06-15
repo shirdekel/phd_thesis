@@ -124,7 +124,7 @@ The other important finding in this work was that highlighting relevant
 statistical features and providing some explanation of statistical inference
 reduced this anecdotal bias. This is important because it suggests that
 potential psychological biases can be reduced with a re-framing of the provided
-information and an explanation of the relevant statistical principles.
+information and an explanation of the relevant statistical concepts.
 
 @wainberg2018 conducted a similar study to @wainberg2013, but with a capital
 budgeting task, as opposed to a binary choice. Participants had to choose

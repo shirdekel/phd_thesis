@@ -6,8 +6,8 @@ table, or a section. If you are using Preview (on a Mac) then you can
 subsequently return back to where you clicked on the link by pressing the key
 combination \keys{\cmd + [} (the command key with the left square bracket). In
 Adobe Acrobat the key combination is \keys{\cmd + \arrowkeyleft} (the command
-key with the left arrow key) for Mac and \keys{\Altwin + \arrowkeyleft} (the
-command key with the left arrow key) for Windows.
+key with the left arrow key) for Mac and \keys{\Altwin + \arrowkeyleft} (the Alt
+key with the left arrow key) for Windows.
 
 **Reproducibility**
 

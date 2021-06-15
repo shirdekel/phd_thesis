@@ -25,7 +25,7 @@ page included a test of the basic information expressed in the instructions.
 This test also functioned as an attention check. As in Experiment 1,
 participants also saw instructions that were specific to their condition. These
 were shown on the same page as the rest of the project display, above the case
-study and target projects. The instructions clarified both that the anecdote was
+study and focal projects. The instructions clarified both that the anecdote was
 sampled randomly and that the anecdotes in the pool were all equally similar to
 the target project. Appendix \@ref(instructions-materials-anecdotes-2-appendix)
 shows the instructions used in Experiment 2.
@@ -34,16 +34,16 @@ shows the instructions used in Experiment 2.
 
 As in Experiment 1, the allocation task included a description and analysis of
 an anecdote (except for those in the anecdote only condition) and a project
-display with a table describing the two target projects.
+display with a table describing the two focal projects.
 Figures \@ref(fig:project-allocation-anecdote-valence-negative-similarity-low-materials-anecdotes-2)
 and \@ref(fig:project-allocation-target-valence-negative-similarity-low-materials-anecdotes-2)
-show the anecdote and target projects, respectively, for the negative valence
+show the anecdote and focal projects, respectively, for the negative valence
 low similarity condition.
 Figures \@ref(fig:project-allocation-anecdote-valence-positive-similarity-high-materials-anecdotes-2)
 and \@ref(fig:project-allocation-target-valence-positive-similarity-high-materials-anecdotes-2)
-show the anecdote and target projects, respectively, for the positive valence
+show the anecdote and focal projects, respectively, for the positive valence
 high similarity conditions. In the statistics only condition, participants only
-saw the target projects display. Appendix \@ref(allocation-anecdotes-2-appendix)
+saw the focal projects display. Appendix \@ref(allocation-anecdotes-2-appendix)
 details the counterbalancing and randomisation used in the experiment.
 
 (ref:project-allocation-anecdote-valence-negative-similarity-low-materials-anecdotes-2) An example of the anecdote display in the negative valence, low similarity condition of Experiment 2.
@@ -57,7 +57,7 @@ file.path(
   image_trim()
 ```
 
-(ref:project-allocation-target-valence-negative-similarity-low-materials-anecdotes-2) An example of the target projects in the negative valence, low similarity condition of Experiment 2.
+(ref:project-allocation-target-valence-negative-similarity-low-materials-anecdotes-2) An example of the focal projects in the negative valence, low similarity condition of Experiment 2.
 
 ```{r project-allocation-target-valence-negative-similarity-low-materials-anecdotes-2, fig.cap = "(ref:project-allocation-target-valence-negative-similarity-low-materials-anecdotes-2)"}
 file.path(
@@ -79,7 +79,7 @@ file.path(
   image_trim()
 ```
 
-(ref:project-allocation-target-valence-positive-similarity-high-materials-anecdotes-2) An example of the target projects in the positive valence, high similarity condition of Experiment 2.
+(ref:project-allocation-target-valence-positive-similarity-high-materials-anecdotes-2) An example of the focal projects in the positive valence, high similarity condition of Experiment 2.
 
 ```{r project-allocation-target-valence-positive-similarity-high-materials-anecdotes-2, fig.cap = "(ref:project-allocation-target-valence-positive-similarity-high-materials-anecdotes-2)"}
 file.path(
@@ -113,5 +113,6 @@ two pages: the allocation task and a follow-up questions page (except for the
 anecdotes only condition, in which participants did not see the follow-up
 questions page). Each allocation task page contained specific instructions
 relevant to the condition, followed by the anecdote analysis and description,
-and the target projects description. The only exception was the statistics only
-display, for which there was no anecdote description or analysis.
+and the description for the two focal projects. The only exception was the
+statistics only display, for which there was no anecdote description or
+analysis.

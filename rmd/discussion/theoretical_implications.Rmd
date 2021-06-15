@@ -22,11 +22,11 @@ the options in different ways. Identifying which cues were used by participants
 in their decisions, which cues were ignored, and which cues were integrated
 allowed to specify the bounds of people's cognitive capacity in these decisions.
 The experiments showed that people struggle to use certain statistical
-principles in their decisions, but that they are also capable of making nuanced
+concepts in their decisions, but that they are also capable of making nuanced
 trade-offs and can be assisted by decision aides. Understanding how
 decision-making in capital allocation is constrained and biased is important in
 order to improve decision-making. Even if decisions are largely consistent with
-normative principles, falling prey to the biases identified in the thesis can
+normative concepts, falling prey to the biases identified in the thesis can
 have severe consequences for organisations.
 
 Chapter \@ref(aggregation) presented participants with a capital allocation
@@ -39,7 +39,7 @@ prospects themselves. An intuitive understanding of aggregation involved
 considering that some of the gambles will pay-off and make up for those that
 lost. However, this was not seen, with only weak evidence that people were
 influenced by the more subtle choice bracketing manipulations. Instead, people
-only seemed to respond to the principle of aggregation when it was explicitly
+only seemed to respond to the concept of aggregation when it was explicitly
 showcased. Showing people a distribution of the outcome probabilities explicitly
 visualised the extent to which an aggregation of the risks can lead to an
 incredibly low chance of loss.
@@ -48,22 +48,23 @@ In Chapter \@ref(alignment) the NPVs that participants saw were critical to the
 allocation task. In the low alignment condition, NPV was the only alignable
 attribute in the comparison. In the high alignment condition, however, NPV was
 in competition with the intrinsic project feature values. An understanding of
-numerical variance would have allowed participants to moderate their allocations
-according to the implied reliability of the comparison metric. In the low
-alignment condition, NPV was the only easy way to compare across projects, so it
-was a more useful cue than the rest of the non-alignable values. However, in the
-high alignment condition, the extent of numerical variance associated with each
-NPV could have been used to determine NPV reliability. There were two ways to do
-this: 1. noticing that in the low numerical reliability condition the ranges
-were all overlapping, and 2. noticing the difference in the width of the ranges
-between the two within-subjects reliability amount conditions. By doing this,
-participants would have then been able to know to (in the high alignment
-condition) use NPV when ranges were narrow and use the intrinsic values more or
-exclusively when ranges were wider and overlapping. Participants were able to do
-this sort of moderated allocation when reliability was expressed explicitly as
-words, but not when it was expressed numerically.
+how to use numerical variance would have allowed participants to moderate their
+allocations according to the implied reliability of the comparison metric. In
+the low alignment condition, NPV was the only easy way to compare across
+projects, so it was a more useful cue than the rest of the non-alignable values.
+However, in the high alignment condition, the extent of numerical variance
+associated with each NPV could have been used to determine NPV reliability.
+There were two ways to do this: 1. noticing that in the low numerical
+reliability condition the ranges were all overlapping, and 2. noticing the
+difference in the width of the ranges between the two within-subjects
+reliability amount conditions. By doing this, participants would have then been
+able to know to (in the high alignment condition) use NPV when ranges were
+narrow and use the intrinsic values more or exclusively when ranges were wider
+and overlapping. Participants were able to do this sort of moderated allocation
+when reliability was expressed explicitly as words, but not when it was
+expressed numerically.
 
-In Chapter \@ref(anecdotes) participants did not make use of important
+In Chapter \@ref(anecdotes) participants did not make use of descriptive
 information about the sample distribution. As in Chapter \@ref(alignment),
 participants were confronted with a conflict of cues: statistical information
 vs. a potentially relevant anecdote. Regardless of the similarity manipulation,
@@ -79,11 +80,14 @@ is not necessarily more informative than the aggregated measure. On the other
 hand, if the underlying distribution was positively skewed, normally
 distributed, or even uniform, then the fact that the sampled anecdote appears
 highly relevant to the target project may actually mean that it is more
-informative than the aggregated measure.
+informative than the aggregated measure. Prior work shows that people can reason
+about distributions effectively when experiencing the sampling directly [e.g.,
+@hertwig2004; @carvalho2021]. Chapter \@ref(anecdotes) shows that people
+struggle to use this information when it is described verbally.
 
-While people struggled to understand and use difficult statistical principles
-they still seemed to be able to integrate multiple cues and create trade-offs.
-As discussed in Chapter \@ref(interstitial-2), in both Chapters \@ref(alignment)
+While people struggled to understand and use certain statistical concepts they
+still seemed to be able to integrate multiple cues and create trade-offs. As
+discussed in Chapter \@ref(interstitial-2), in both Chapters \@ref(alignment)
 and \@ref(anecdotes) participants were provided with more than one cue to use
 for project evaluation. In Chapter \@ref(alignment), people seemed to strike a
 trade-off between NPV and the intrinsic project features as opposed to choosing
@@ -99,7 +103,7 @@ further clarify to what extent constructs such as need for cognition or
 mathematical skill may explain individual differences.
 
 While trade-offs allow people to integrate multiple cues, decision aides allow
-people to use statistical principles for more complex moderation.
+people to use statistical concepts for more complex moderation.
 Chapter \@ref(aggregation) found that people's understanding of risk aggregation
 was facilitated when the mathematical work was done for them and the aggregated
 values were displayed visually as a distribution. However, a follow-up
@@ -121,8 +125,32 @@ also apply to the work in Chapter \@ref(anecdotes). Using a visual array as in
 of statistical evidence over anecdotes. However, an additional visualisation of
 the distribution of the underlying similarity to the target might also be
 necessary to facilitate understanding of the relevance of the sample
-distribution. Ultimately, it seems that visualisations of the effects of complex
+distribution. Ultimately, it seems that visualisations of the effects of certain
 statistical concepts are often necessary for people to use them appropriately.
+
+The boundary between the cues that participants were able to use and the
+statistical concepts that they did not use is unclear. That is, the cues that
+they were able to use were not trivial, and the concepts that they were not able
+to use are relatively basic. For instance, the finding in
+Chapter \@ref(anecdotes) that people were able to use relevance information to
+guide their allocations shows an ability to moderate choice based on quite
+specific information. On the other hand, the statistical concepts that
+participants ignored in each empirical chapter are all relatively intuitive.
+While concepts of aggregation, variance, and sample distribution are typically
+studied at a tertiary level, they can be understood when acted out or
+experienced.
+
+@clark1993 proposed a distinction between two levels of representing knowledge.
+At the implicit level an individual can only use a certain system of knowledge,
+while it is only at the explicit level that they develop insight into the
+system. For instance, young children can use closed class words such as "the" or
+"to", but only identify them as words later in development. Adults may have a
+similar distinction in knowledge representation. Concepts that can be used when
+experienced directly, such as in risky choice from experience, are not
+represented in a way that they can be used when presented descriptively, such as
+in risky choice from description. This kind of distinction may explain the why
+participants in the thesis experiments failed to use concepts that have been
+shown to be accessible to laypeople.
 
 Future research should also investigate the potential expertise effects that may
 influence the findings in the thesis. This is important because of the potential
@@ -135,18 +163,20 @@ For instance, @smith1991 reviewed the heuristics and biases literature and
 concluded that certain cognitive biases are not as strong for accounting
 professionals as they are for naive participants.
 
-On the other hand, these effects may actually be stronger in managers.
-Chapter \@ref(aggregation) showed that people tend to consider risky choices one
-at a time and therefore tend to be more risk averse to a set of projects than
-they would be if the risks were aggregated. Managers might be even more risk
-averse in these situations because of the increased stakes for their jobs.
-@lovallo2020 discussed the ways in which managers tend to have a blind spot for
-such project evaluations: they aggregate their personal stock market portfolio,
-but not their managerial one. Further, Chapter \@ref(alignment) found evidence
-of variance neglect for both laypeople and Masters of Management students. In
-the case of the work in Chapter \@ref(anecdotes), it is possible that business
-managers prefer anecdotal accounts to inform their decisions because of their
-higher salience, compared to statistical data. Managers are also more likely to
-feel as if the situation is relevant to them, which acording to @freling2020
-would suggest more anecdotal bias.
+On the other hand, these effects may actually be stronger in managers. For
+instance, @haigh2005 found that professional traders show more myopic loss
+aversion than students. Chapter \@ref(aggregation) showed that people tend to
+consider risky choices one at a time and therefore tend to be more risk averse
+to a set of projects than they would be if the risks were aggregated. Managers
+might be even more risk averse in these situations because of the increased
+stakes for their jobs. @lovallo2020 discussed the ways in which managers tend to
+have a blind spot for such project evaluations: they aggregate their personal
+stock market portfolio, but not their managerial one. Further,
+Chapter \@ref(alignment) found evidence of variance neglect for both laypeople
+and Masters of Management students. In the case of the work in
+Chapter \@ref(anecdotes), it is possible that business managers prefer anecdotal
+accounts to inform their decisions because of their higher salience, compared to
+statistical data. Managers are also more likely to feel as if the situation is
+relevant to them, which acording to @freling2020 would suggest more anecdotal
+bias.
 

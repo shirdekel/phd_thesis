@@ -72,43 +72,43 @@ the high alignment condition.
 Chapter \@ref(anecdotes) investigated the effect of anecdote similarity on
 allocations when the anecdote conflicted with the statistical data. Participants
 were asked to allocate a hypothetical budget between two projects. One of the
-projects was clearly superior in terms of the provided statistical measures, but
-some of the participants also saw a description of a project with a conflicting
-outcome. This anecdotal project was always in the same industry as one of the
-target projects. However, the anecdote description either contained substantive
-connections to the target or not. Further, the anecdote conflicted with the
-statistical measures because it was either successful (positive anecdote) or
-unsuccessful (negative anecdote). The results showed that participants'
-decisions were influenced by anecdotes only when they believed that they were
-actually relevant to the target project. Further, they still incorporated the
-statistical measures into their decision. This was found for both positive and
-negative anecdotes. However, participants were given information about the way
-that the anecdotes were sampled that suggested that the statistical information
-should have been used in all cases. Participants did not use this information in
-their decisions and still showed an anecdotal bias effect. Therefore, people
-seem to appropriately moderate their use of anecdotes based on the anecdotes'
-relevance, but do not understand the implications of more complex statistical
-principles.
+projects (the target project) was clearly superior in terms of the provided
+statistical measures, but some of the participants also saw a description of a
+project with a conflicting outcome (the anecdotal project). This anecdotal
+project was always in the same industry as the target project. However, the
+anecdote description either contained substantive connections to the target or
+not. Further, the anecdote conflicted with the statistical measures because it
+was either successful (positive anecdote) or unsuccessful (negative anecdote).
+The results showed that participants' decisions were influenced by anecdotes
+only when they believed that they were actually relevant to the target project.
+Further, they still incorporated the statistical measures into their decision.
+This was found for both positive and negative anecdotes. However, participants
+were given information about the way that the anecdotes were sampled that
+suggested that the statistical information should have been used in all cases.
+Participants did not use this information in their decisions and still showed an
+anecdotal bias effect. Therefore, people seem to appropriately moderate their
+use of anecdotes based on the anecdotes' relevance, but do not understand the
+implications of certain complex statistical concepts.
 
 Together, these results show the bounds of people's decision-making capability
 in capital allocation. The participants in these experiments in general behaved
-rationally but struggled to incorporate more advanced statistical principles
-into their decisions. Further, when confronted with multi-attribute choice,
-participants tended to allocate capital using a trade-off strategy. This was
-seen in the conflict between intrinsic project attributes and NPV in
+rationally but struggled to incorporate certain statistical concepts into their
+decisions. Further, when confronted with multi-attribute choice, participants
+tended to allocate capital using a trade-off strategy. This was seen in the
+conflict between intrinsic project attributes and NPV in
 Chapter \@ref(alignment) and the conflict between the anecdotal and statistical
 evidence in Chapter \@ref(anecdotes). Participants were able to moderate their
 allocations when the moderating factors were sufficiently clear (as in the
 verbal reliability condition in Chapter \@ref(alignment)). However, participants
 struggled to do this when the moderating factor involved an understanding of a
-more advanced statistical principle. Each empirical chapter included such a
-principle: risk aggregation in Chapter \@ref(aggregation), metric variance in
+relatively basic statistical concept. Each empirical chapter included such a
+concept: risk aggregation in Chapter \@ref(aggregation), metric variance in
 Chapter \@ref(alignment), and sample distribution in Chapter \@ref(alignment).
-However, a formal understanding of such principles does not seem to be necessary
+However, a formal understanding of such concepts does not seem to be necessary
 if they are expressed explicitly (as in the aggregated distribution in
 Chapter \@ref(aggregation)).
 
-The statistical principles used in these studies are all likely accessible for
+The statistical concepts used in these studies are all likely accessible for
 people without much formal mathematical knowledge. A basic concept of risk
 aggregation is clearly available to laypeople as seen in the responses to
 multi-play gambles (e.g., one vs. 100 gambles). Further, people certainly have a

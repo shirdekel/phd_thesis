@@ -4,11 +4,12 @@ Managers of large organisations are generally assumed to have a superior
 decision-making capability to non-managers. However, managerial decision-making
 involves many of the same processes that have been shown to be affected by
 psychological biases in the general population [@schwenk1984; @das1999;
-@mccray2002]. Further, an organisation's success ultimately depends on
-"strategic" decisions made by top level managers [@mazzolini1981]. Therefore,
-despite early work attempting to analyse such decisions using a structured
-organisational analysis [e.g., @mintzberg1976], it is important to understand
-the potential influence of psychological biases on managerial decisions.
+@mccray2002]. Further, an organisation's success ultimately depends on strategic
+decisions made by top level managers [@mazzolini1981]. Therefore, despite early
+work attempting to analyse such decisions using a structured organisational
+analysis [e.g., @mintzberg1976], it is important to understand the potential
+influence of psychological biases on managerial decisions. Research in the field
+of behavioural strategy has started to do this [@powell2011].
 
 Psychological research has shown that people tend to make decisions that are
 inconsistent with neoclassical economic theory. For instance, Expected Utility
@@ -17,21 +18,26 @@ information when making decisions. However, both laypeople and managers of
 organisations are limited in the amount of information that they have and their
 ability to use it [@simon1955; @cyert1956]. Such inconsistencies with economic
 prescription are likely to have evolutionary origins, so are sure to be adaptive
-in certain environments [@haselton2009; @gigerenzer2008]. However, there are
-many situations in which such inconsistency with economic theory can have bad
-consequences.
+in certain environments [@haselton2009; @gigerenzer2008; @bettis2017]. However,
+there are many situations in which such inconsistency with economic theory can
+have bad consequences.
 
 <!-- Previous research -->
 
 Research has shown many ways in which the allocation of capital in an
 organisation can be influenced by psychological biases. For instance,
 @benartzi2001 found that people tend to allocate their retirement fund equally
-between the available options, regardless of their composition. This bias was
-also found in capital allocation for hierarchical firms [@bardolet2011].
-Managers allocate capital equally across the available divisions in the firm,
-regardless of performance. This behaviour may be damaging to firm performance
-because it means that lower performing business units may be getting subsidised
-by higher performing units, which are not operating at their full potential.
+between the available options, regardless of their composition. This *naive
+diversification* bias was also found in capital allocation for hierarchical
+firms [@bardolet2011]. Managers allocated capital equally across the available
+divisions in the firm, regardless of performance. Analysis of real companies
+found that this behaviour is damaging to firm performance because it means that
+lower performing business units get subsidised by higher performing units, which
+are not operating at their full potential [@arrfelt2015; @bardolet2010].
+Subsequent studies found that business unit size also matters; capital
+allocation to both the smallest and largest units is disproportionate to their
+actual profitability levels [@bardolet2017]. This was attributed to a
+combination of naive diversification and political power effects.
 
 Relatedly, people tend to continue expending capital into investments that
 appear to be failing [@staw1981]. This *escalating commitment* is another way
@@ -40,7 +46,16 @@ pattern of decision-making is likely a consequence of the sunk cost fallacy, in
 which people avoid "cutting their losses" even when they know that they cannot
 recuperate an investment [@parayre1995].
 
-The way that information is presented can often influence allocations. For
+Managers also do not always seem to seek profit maximisation. @shapira2014
+offered managers and MBA students two investment from a hypothetical firm: one
+with the same expected returns as the average of the firm's current investments
+and one with lower returns than the firm's average returns. However, both
+investments were profitable, so to maximise firm profits both should be chosen.
+Instead, participants were more likely to only choose the first investment. It
+seems that the firm's average returns served as an anchor, so participants did
+not want to reduce the firm's average returns, regardless of profitability.
+
+The way that information is presented can also influence allocations. For
 instance, @yates1978 showed that people's evaluations are sensitive to the level
 of detail in the information provided. They found that people devalued
 descriptions of university courses more when they had less detail. This may be
@@ -48,19 +63,19 @@ relevant for managers evaluating project proposals. A proposal might appear more
 attractive simply due to the level of detail in it, even if the level of detail
 does not correspond with the quality of each proposal.
 
-Further, people tend to be over-confident in their decisions and forecasts
-[@langer1975; @mannes2013; @soll2004; @puri2007], as do IT professionals
-[@mckenzie2008] and managers [@lovallo2003; @kahneman1993; @baroneadesi2013].
-This is important for higher-level managers that evaluate project proposals,
-both because the metrics that rely on estimates may be biased by the
-over-confidence of the lower-level manager that created the proposal and because
-the higher-level manager may in turn be over-confident about the prospects of
-the proposal due to factors that are unrelated to the underlying value.
-Overconfidence is also seen when considering the success of projects in
-hindsight [@bukszar1988; @christensenszalanski1991]. This means that it less
-likely that managers will be able to effectively learn from both past mistakes
-and successes due to the potentially erroneous belief that the outcome was
-anticipated.
+Further, people tend to be over-confident in their decisions and forecasts. This
+has been shown in laypeople [@langer1975; @mannes2013; @soll2004; @puri2007], as
+well as in IT professionals [@mckenzie2008] and managers [@lovallo2003;
+@kahneman1993; @baroneadesi2013]. This is important for higher-level managers
+that evaluate project proposals because the metrics that rely on forecast
+estimates may be biased by the over-confidence of the lower-level manager that
+created the proposal. Further, the higher-level manager evaluating the proposal
+may in turn be over-confident about its prospects due to factors that are
+unrelated to the underlying value. Overconfidence is also seen when considering
+the success of projects in hindsight [@bukszar1988; @christensenszalanski1991].
+This means that it less likely that managers will be able to effectively learn
+from both past mistakes and successes due to the potentially erroneous belief
+that the outcome was anticipated.
 
 Managers often create sensitivity analyses, estimating the worst case, best
 case, and most likely scenario for a forecast. However, these are likely to be
@@ -74,12 +89,10 @@ estimates of their degree of confidence.
 
 The above summarises many of the currently known psychological biases related to
 capital allocation. This thesis focuses on three essential processes within the
-capital allocation process. When evaluating projects in hierarchical
-organisations, there is often 1. an element of risky choice, 2. a comparison
-between diversified businesses, and 3. a comparison between the target project
-and prior experience. Each of these is prone to separate biases, that are also
-interrelated. I review the literature for these processes in the subsequent
-subsections.
+capital allocation process: 1. risky choice, 2. the comparison between
+diversified businesses, and 3. the influence of prior experience. Each of these
+is prone to separate biases, that are also interrelated. The subsequent
+subsections review the literature for these processes.
 
 ### Risky choice
 
@@ -93,7 +106,9 @@ probability and comparing the resulting values [first documented in
 choices:
 
 A) a gamble that involves a 50% chance gaining $200 and a 50% chance of losing
-$100; or B) gaining/losing nothing.
+$100; or
+
+B) gaining/losing nothing.
 
 In option A, the EV is calculated as $200 \cdot 0.5 - 100 \cdot 0.5 = 50$. Since
 the EV for option A (50) is higher than the EV for option B (0), EUT would
@@ -171,50 +186,53 @@ tar_read(prospect_theory)
 
 <!-- Management connection -->
 
-This research is relevant to capital allocation because managers often need to
-evaluate project proposals that involve an element of risk. Therefore, managers
-are likely to be affected by similar effects on risk that have been shown in
-laypeople. However, hierarchical organisations offer an even more complex
-situation. @lovallo2020 found that the risk profiles of lower-level managers are
-lower than those of the top managers. They suggest that this may be due to
-lower-level managers' loss aversion to accepting projects that may jeopardise
-their job. However, the top managers recognise that a loss in one or more
-business units is likely to be offset by gains in other units. Such an
+This research is relevant to capital allocation because the project proposals
+that managers evaluate invariably involve an element of risk. Therefore,
+managers are likely to be affected by similar effects on risk that have been
+shown in laypeople. However, hierarchical organisations offer an even more
+complex situation. @lovallo2020 found that the risk profiles of lower-level
+managers are lower than those of the top managers. They suggest that this may be
+due to lower-level managers' loss aversion to accepting projects that may
+jeopardise their job. However, the top managers recognise that a loss in one or
+more business units is likely to be offset by gains in other units. Such an
 inconsistency in risk profiles across the levels of an hierarchical organisation
 fails to take advantage of the benefits of risk aggregation, which has long been
-understood in external markets [@markowitz1952]. @lovallo2020 suggested that
-lower-level managers’ failure to aggregate risk to the degree desired by top
-executives is costing companies approximately a third of the total EV of new
-project proposals. It is thus critical to identify ways to support risk
-aggregation across organizational hierarchies. The psychological literature
-shows that people's risk aggregation is facilitated through various choice
-bracketing manipulations. However, there has been no work that investigated such
-situations without providing participants with feedback in between decisions;
-this critically limits the external validity of this work because in the real
-world, organisations evaluate several projects before seeing the outcomes of any
-one decision. The experiments presented in Chapter \@ref(aggregation)
-investigate the effects of choice bracketing on risk aggregation without
-feedback.
+understood in external markets [@markowitz1952].
+
+@lovallo2020 suggested that lower-level managers’ failure to aggregate risk to
+the degree desired by top executives is costing companies approximately a third
+of the total EV of new project proposals. This is an example of a negative
+consequence associated with ignoring statistical concepts such as risk
+aggregation. It is thus critical to identify ways to support risk aggregation
+across organisational hierarchies. The psychological literature shows that
+people's risk aggregation is facilitated through various choice bracketing
+manipulations. However, there has been no work that investigated such situations
+without providing participants with feedback in between decisions; this
+critically limits the external validity of this work because in the real world,
+organisations evaluate several projects before seeing the outcomes of any one
+decision. The experiments presented in Chapter \@ref(aggregation) investigate
+the effects of choice bracketing on risk aggregation without feedback.
 
 ### Project similarity
 
 When evaluating project proposals, managers are likely to be influenced by the
 relative similarity of the available options to each other. The extent to which
-this may be true is important especially since the increase of diversified
-firms. Organisations are not only varied by the number of divisions which they
-possess, but also by the extent of diversification. This means that managers are
-likely to find themselves comparing across dissimilar types of projects.
+this may be true is important especially since the increase firm
+diversification. Organisations are not only varied by the number of divisions
+which they possess, but also by the extent of diversification. This means that
+managers are likely to find themselves comparing across dissimilar types of
+projects.
 
 As mentioned above, there are likely many organisational and financial reasons
 why the extent of diversification in an organisation would impact its
-performance. However, the impact of psychological factors such as how business
-project similarity affects comparing across projects has not been investigated.
-This approach is important because the relative similarity of projects has
-implications about how difficult the evaluation process becomes and therefore
-what kind of financial metrics are used. Having more similar projects to compare
-may mean more attributes on which to evaluate, whereas a dissimilar comparison
-may lead to a situation in which a manager has to rely on potentially unreliable
-metrics.
+performance. However, the impact of psychological factors has not been
+investigated. Specifically, project similarity, which is an organisational
+factor, is likely to affect the project comparison process, which is a
+psychological factor. This may then have downstream consequences on firm
+performance through, for instance, the kinds of financial metrics that are used
+and how they are evaluated. Having more similar projects to compare may mean
+more attributes on which to evaluate, whereas a dissimilar comparison may lead
+to a situation in which a manager has to rely on potentially unreliable metrics.
 
 Structure-mapping theory [SMT\; @gentner1997; @gentner1983] provides a model of
 comparison that psychologically distinguishes similar and dissimilar allocation
@@ -235,8 +253,8 @@ different dimensional structure to those in the refinery business unit, such
 that it will be difficult to find meaningful alignments. More non-alignable
 differences mean that there are less opportunities to make meaningful
 comparisons, and so would make predicting relative project success and ranking
-their priority more difficult. Chapter \@ref(alignment) experimentally examines
-business project comparisons and how project alignment affects capital
+their priority more difficult. Chapter \@ref(alignment) experimentally
+examines business project comparisons and how project alignment affects capital
 allocation decisions.
 
 <!-- Metric variance -->
@@ -245,14 +263,16 @@ When evaluating projects, managers make use of financial metrics, such as NPV.
 However, such metrics are reliant on forecast estimates of, for instance, future
 cash flows. Do managers take into account such inherent variance in their
 decisions? This is especially important to investigate given the above
-discussion. In cases of non-alignable comparison managers might be relying on a
+discussion. In cases of non-alignable comparison managers may rely on a
 potentially unreliable metric. On the other hand, in an alignable comparison,
 managers might have the option to moderate their choice based on the relative
 reliability of different metrics. It is important to remember that all such
 decisions are often very consequential for the manager. That is, the project
 could ultimately make the company money and lead to future opportunities for the
 manager, or potentially cause financial harm to the company (and subsequently
-lead to a job loss).
+lead to a job loss). This is another example of the way in which ignoring
+certain statistical concepts---here metric variance---can have negative
+consequences for an organisation.
 
 Psychological research shows that laypeople are in general quite poor at using
 numerical variance information [@galesic2010; @konold1993; @vivalt2021;
@@ -273,12 +293,12 @@ manager, a case from the organisation's history, or from an external source.
 This will especially be the case in a project evaluation scenario when a given
 project is hard to compare with the other projects at hand. However, managers
 evaluating project proposals may make inappropriate comparisons when considering
-the target project to other cases. For instance, people tend to limit the sample
-size of the set of comparison cases to a target problem to a small number. Often
-only a handful of cases, or even one. Doing this might mean only considering
-potentially irrelevant surface similarity to the current situation and not an
-alignment of the underlying causal structure. Further, this might mean not
-considering other similar projects.
+the target project to other cases. For instance, when comparing a target problem
+to other cases, people tend to limit the size of the comparison set to a small
+number. This is often only a handful of cases, or even one. Doing this might
+mean only considering potentially irrelevant surface similarity to the current
+situation and not aligning the underlying causal structure. Further, this might
+mean not considering other similar projects.
 
 @tversky1974 discussed a number of biases that may influence such processes. The
 availability bias is seen when people mistake the ease of retrieval of
@@ -319,5 +339,7 @@ Chapter \@ref(anecdotes) investigates the extent to which people moderate their
 reliance on anecdotes or aggregated data by the relevance of the anecdote to the
 target project during capital allocation. It also considers whether people are
 sensitive to information about the distribution from which the anecdote was
-sampled.
+sampled. Ignoring this statistical concept can have negative consequences for an
+organisation by potentially over- or under-estimating the relevance of a past
+case and therefore making an ill-informed investment.
 

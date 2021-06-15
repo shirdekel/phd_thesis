@@ -82,7 +82,7 @@ proceeded without this message. Note, the financial and probability values were
 identical regardless of condition, and the order of each set of 10 projects was
 randomised.
 
-(ref:awareness-aware-aggregation-1) The display seen by those in the aware condition of Experiment1. Border added for clarity.
+(ref:awareness-aware-aggregation-1) The display seen by those in the aware condition of Experiment 1. Border added for clarity.
 
 ```{r awareness-aware-aggregation-1, fig.cap = "(ref:awareness-aware-aggregation-1)"}
 file.path(

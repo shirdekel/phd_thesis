@@ -142,29 +142,36 @@ that people do need very explicit scaffolding in order to use risk aggregation.
 
 ### Practical implications
 
-This research implies some prescriptions for capital allocation
-decision-making. For instance, even if managers implement processes that
-encourage a joint evaluation of projects, this may be insufficient to encourage
-aggregation. Projects need to very explicitly be considered as individual
-components in a portfolio in order to facilitate better risk aggregation. Some
-companies are already implementing processes that make this more explicit
-[@lovallo2020]. This is especially important for those that would still have to
-evaluate projects separately.
+This research implies some prescriptions for capital allocation decision-making.
+For instance, even if managers implement processes that encourage a joint
+evaluation of projects, this may be insufficient to encourage aggregation.
+Projects need to very explicitly be considered as individual components in a
+portfolio in order to facilitate better risk aggregation. Some companies are
+already implementing processes that make this more explicit [@lovallo2020]. This
+is especially important for those that would still have to evaluate projects
+separately. Further, this work shows the importance of being explicit about the
+forecasted probabilities of project success. Doing this is necessary for the
+aggregation process. Even more ideal would be to forecast project success using
+an entire probability distribution for the different possible outcomes. However,
+research shows that people struggle to construct such distributions [e.g.,
+@alpert1982; @schaefer1973; @staelvonholstein1971; @tversky1974] and
+Chapter \@ref(alignment) shows that people struggle to use such variance
+information when making allocation decisions.
 
 Interestingly, participants were less risk averse about a portfolio of projects
 when industries differed, compared to when they were all from the same industry.
 Simply manipulating the similarity of financially-irrelevant semantics of a set
 of choices affected participants' risk aversion. This has implications for
 managerial settings. Executives in multi-business firms often have to make
-capital allocation decisions that involve comparing dissimilar projects. How
-can an oil well exploration project be appropriately compared to an oil
-refinery? Or to a microchip project? Chapter \@ref(alignment) suggests that
-evaluating dissimilar business projects is more difficult to comparing similar
-projects. The current work suggests that managers may actually be *less* likely
-to realise the benefits of aggregation when they are in a less diversified
-company. As such, managers should complement an understanding of aggregation
-with that of diversification. This might help to avoid being biased by a lack of
-variety of projects despite a potentially high level of diversification.
+capital allocation decisions that involve comparing dissimilar projects. How can
+an oil well exploration project be appropriately compared to an oil refinery? Or
+to a microchip project? Chapter \@ref(alignment) suggests that evaluating
+dissimilar business projects is more difficult to comparing similar projects.
+The current work suggests that managers may actually be *less* likely to realise
+the benefits of aggregation when they are in a less diversified company. As
+such, managers should complement an understanding of aggregation with that of
+diversification. This might help to avoid being biased by a lack of variety of
+projects despite a potentially high level of diversification.
 
 ### Future research
 
@@ -175,18 +182,19 @@ involve managers, ideally in multi-business firms. Investigating whether the
 choice bracketing findings from these experiments replicates in a sample of
 managers will help to determine whether these results could be applied to
 real-world managerial decision-making. This is especially important since
-@haigh2005 showed that professional traders show more myopic loss aversion than
-students. Further, the more subtle choice bracketing manipulations should be
-tested with managers since it is possible that they have a greater sense of
-naive aggregation and are therefore more likely to be more amenable to such
-manipulations. The addition of extra payment for better performance on the task
-might also assist in making the task more isomorphic with real-world managerial
-decisions. In the present experiments, participants viewed the projects all in
-the space of one session. However, this is not completely isomorphic to real
-life, where managers make many other decisions that are unrelated to the large
-risky investments at their companies. Future research should test participants
-over a longer period of time in order to see whether the effects of the
-manipulations replicate in a more realistic environment.
+@haigh2005 found that professional traders show more myopic loss aversion than
+students. Further, the similarity, awareness, and presentation manipulations
+should be tested with managers since it is possible that they have a greater
+sense of naive aggregation and are therefore more likely to be more amenable to
+such manipulations. The addition of extra payment for better performance on the
+task might also assist in making the task more isomorphic with real-world
+managerial decisions. In the present experiments, participants viewed the
+projects all in the space of one session. However, this is not completely
+isomorphic to real life, where managers make many other decisions that are
+unrelated to the large risky investments at their companies. Future research
+should test participants over a longer period of time [as in @beshears2016] in
+order to see whether the effects of the manipulations replicate in a more
+realistic environment.
 
 \newpage
 

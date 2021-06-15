@@ -39,12 +39,15 @@ Experiment 1 did not clarify certain assumptions about the way the displayed
 anecdote was sampled from the pool of anecdotes. In Experiment 2, participants
 were told that the anecdote was sampled randomly and that it was not uniquely
 similar to the target project. This should lead to a reliance on the statistical
-evidence, regardless of the anecdote's similarity. However, since people often
-struggle to use statistical concepts presented descriptively, it was expected
-that the effects of Experiment 1 will replicate in the negative valence
-condition. Further it was expected that there will be a reverse effect in the
-positive valence condition. The appendix shows a simulation of the hypothesised
-effects (see Figures \@ref(fig:plot-simulation-anecdotes-2-negative)
+evidence, regardless of the anecdote's similarity. However, people often
+struggle to use statistical concepts presented descriptively, as seen in the
+enhanced statistics condition in Experiment 1, the variance neglect in
+Chapter \@ref(alignment), and the lack of risk aggregation in descriptive risky
+choice as in Chapter \@ref(aggregation). Therefore, it was expected that the
+effects of Experiment 1 will replicate in the negative valence condition.
+Further it was expected that there will be a reverse effect in the positive
+valence condition. The appendix shows a simulation of the hypothesised effects
+(see Figures \@ref(fig:plot-simulation-anecdotes-2-negative)
 and \@ref(fig:plot-simulation-anecdotes-2-positive)). Therefore, Experiment 2
 tested the following:
 

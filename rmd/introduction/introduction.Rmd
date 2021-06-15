@@ -13,7 +13,7 @@ Executive: A man who can make quick decisions and is sometimes right.
 Much of modern life depends on large organisations. General Electric (GE) makes
 the engines that power our aircrafts, Johnson & Johnson makes our shampoo, and
 Google allows us to search the internet. The areas of our lives that are less
-affected by such private firms, depend on public sector organisations such as
+affected by such private firms depend on public sector organisations such as
 public hospitals, schools, and police. The justification for the existence of
 organisations of this size is that the particular combination of individual
 divisions, alongside a corporate management, will lead to better performance for
@@ -25,8 +25,8 @@ quality of the whole will be greater than the sum of its parts.
 
 Multi-divisional organisations are typically organised in a hierarchical
 structure, with a corporate management team and subsidiary divisions. Each
-division is usually made up of several business units. For instance, some of
-GE's divisions include GE Aviation and GE Healthcare. Similarly, in the public
+division can be made up of several business units. For instance, some of GE's
+divisions include GE Aviation and GE Healthcare. Similarly, in the public
 sector, a hospital system may operate through multiple individual hospitals in
 different regions.
 
@@ -40,14 +40,14 @@ operation and development of multi-divisional organisations.
 
 <!-- Many decisions come from one or few people -->
 
-The products and services that arise from organisations are (necessarily) a
-result of the work of many people. In GE, for instance, the factories that
-generate aircraft engines need to be staffed by production line workers,
-accountants are needed for bookkeeping, and software engineers are needed to
-design and maintain the production systems. Despite this, many important
-strategic decisions ultimately come from a very small number of people. The
-decisions that the CEO or other lower level executives make can have large
-consequences on the life of the company.
+The products and services that arise from organisations are necessarily a result
+of the work of many people. In GE, for instance, the factories that generate
+aircraft engines need to be staffed by production line workers, accountants are
+needed for bookkeeping, and software engineers are needed to design and maintain
+the production systems. Despite this, many important strategic decisions
+ultimately come from a very small number of people. The decisions that the CEO
+or other lower level executives make can have large consequences on the life of
+the company.
 
 <!-- Managers are biased -->
 
@@ -66,41 +66,52 @@ always alleviate this fallibility. Third, managers of large organisations often
 face uncertain environments, which increases the likelihood of managers facing
 psychological biases.
 
-<!-- Examples of the consequences of biased manager decision-making? -->
+There are many examples of companies that suffered due to such biases.
+Overconfidence and confirmation bias likely played a part in Blockbuster's
+famous refusal of an offer to buy Netflix in 2000 [@meissner2015]. @roxburgh2003
+identified how Equitable Life Assurance Society unnecessarily anchored on
+previous interest rate performance and was unprepared when rates changed. In an
+example of the sunk-cost fallacy, the London Stock Exchange continued investing
+in an automated-settlement system even when it no longer remained profitable.
+The Bank of England needed to step in and stop the project. Overconfidence in
+market entry is also a common issue, illustrated by EMI's introduction into the
+medical-diagnostics market with the CT scanner [@horn2005; @camerer1999]. By
+underestimating the competition and overestimating their own capabilities they
+eventually incurred losses and exited the market.
 
 <!-- Not enough work on capital allocation biases -->
 
 One class of biases has not been well studied: capital allocation biases. While
-some previous work exists [e.g., @bardolet2011], many questions still remain
-unanswered. This is a rather large hole in the literature because capital
-allocation decisions are at the centre of executive and lower level managers’
-roles. When making capital allocation decisions, there are elements of the
-decision-making environment that can be deceiving for managers. This thesis
-examines how the framing of a series of business projects affects people's
-decisions about those projects. Specifically, the same set of projects,
+some previous work investigating these biases exists [e.g., @bardolet2011], many
+questions still remain unanswered. This is a rather large hole in the literature
+because capital allocation decisions are at the centre of executive and lower
+level managers’ roles. When making capital allocation decisions, there are
+elements of the decision-making environment that can be deceiving for managers.
+This thesis examines how the framing of a series of business projects affects
+people's decisions about those projects. Specifically, the same set of projects,
 presented in aggregate form, is much more likely to be accepted. Further,
 sometimes people are distracted by extraneous semantic information, such as the
 relative similarity of the options.
 
-The results show that although people in general make sensible decisions, they
-fail to moderate them appropriately when presented with critical information.
-Specifically, information about metric variance is ignored even when other
-metrics are available. Further, people seem to appropriately use statistical and
-anecdotal information based on relevance to the situation at hand, but ignore
-information about the sampling of the anecdote. Not appropriately using these
-kinds of statistical principles has important financial consequences, discussed
-below. In short, people overall tend to make sound decisions, but fail to
-appropriately moderate them in situations that have more subtle (but
-consequential) statistical implications.
+The results of the thesis show that although people in general make sensible
+decisions, they fail to moderate them appropriately when presented with critical
+information. Specifically, information about metric variance is ignored even
+when other metrics are available. Further, people seem to appropriately use
+statistical and anecdotal information based on relevance to the situation at
+hand, but ignore information about the sampling of the anecdote. Not
+appropriately using these kinds of statistical concepts has important
+financial consequences, discussed below. In short, people overall tend to make
+sound decisions, but fail to appropriately moderate them in situations that have
+more subtle (but consequential) statistical implications.
 
-Note that all the experiments in the thesis use laypeople, except for one
-experiment. However, past work generally shows the same biases in managers and
-laypeople [with some showing more bias, e.g., @haigh2005]. Further, future work
-will directly test managers to determine any potential expertise effects.
+All the experiments in the thesis use laypeople, except for one experiment.
+However, past work generally shows the same biases in managers and laypeople
+[with some showing more bias, e.g., @haigh2005]. Further, upcoming studies will
+directly test managers to determine any potential expertise effects.
 
 Section \@ref(capital-allocation) will explain how the capital allocation
-process functions in hierarchical organisations, and why it is necessary to
+process functions in hierarchical organisations and why it is necessary to
 analyse such a process with a psychological approach. Section \@ref(psychology)
 reviews the literature on decision-making biases and how these may apply to
-capital allocation decisions. Finally, Section \@ref(chapter-overview) will
+capital allocation decisions. Section \@ref(chapter-overview) will then
 summarise the rest of the thesis chapters.
