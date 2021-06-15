@@ -3,34 +3,19 @@
 ##' @return
 ##' @author Shir Dekel
 ##' @export
-get_plot_anecdotes_2 <- function(data_clean_anecdotes_2) {
+get_plot_anecdotes_2 <- function(data = anecdotes2::data) {
   allocation <-
-    data_clean_anecdotes_2 %>%
-    mutate(
-      across(
-        similarity,
-        recode,
-        low = "Low",
-        high = "High",
-      ),
-      across(
-        anecdote_within,
-        recode,
-        anecdote = "Anecdote",
-        "statistics-only" = "Statistics only",
-      ),
-      across(
-        anecdote_between,
-        recode,
-        combined = "Anecdote & statistics",
-        anecdote_only = "Anecdote only",
-      )
-    ) %>%
-    get_plot_simulation_anecdotes_2()
+    data %>%
+    get_omnibus_anecdotes_2_allocation() %>%
+    plot_allocation_anecdotes_2()
+
+  allocation_difference <-
+    data %>%
+    get_omnibus_anecdotes_2_allocation_difference() %>%
+    plot_allocation_difference_anecdotes_2()
 
   similarity <-
-    data_clean_anecdotes_2 %>%
-    filter(anecdote_within == "anecdote") %>%
+    data %>%
     aov_ez(
       id = "id",
       dv = "similarity_rating",
@@ -46,8 +31,7 @@ get_plot_anecdotes_2 <- function(data_clean_anecdotes_2) {
     )
 
   relevance_specific <-
-    data_clean_anecdotes_2 %>%
-    filter(anecdote_within == "anecdote") %>%
+    data %>%
     aov_ez(
       id = "id",
       dv = "relevance_specific_rating",
@@ -63,8 +47,7 @@ get_plot_anecdotes_2 <- function(data_clean_anecdotes_2) {
     )
 
   relevance_general <-
-    data_clean_anecdotes_2 %>%
-    filter(anecdote_within == "anecdote") %>%
+    data %>%
     aov_ez(
       id = "id",
       dv = "relevance_general_rating",
@@ -80,8 +63,7 @@ get_plot_anecdotes_2 <- function(data_clean_anecdotes_2) {
     )
 
   allocation_similarity <-
-    data_clean_anecdotes_2 %>%
-    filter(anecdote_within == "anecdote") %>%
+    data %>%
     ggplot(aes_string(x = "similarity_rating", y = "allocation")) +
     facet_grid(cols = vars(valence)) +
     geom_point(alpha = 0.2) +
@@ -93,9 +75,7 @@ get_plot_anecdotes_2 <- function(data_clean_anecdotes_2) {
     theme_apa()
 
   allocation_relevance_specific_similarity <-
-
-    data_clean_anecdotes_2 %>%
-    filter(anecdote_within == "anecdote") %>%
+    data %>%
     ggplot(aes_string(x = "relevance_specific_rating", y = "allocation", linetype = "similarity")) +
     facet_grid(cols = vars(valence), rows = vars(anecdote_between)) +
     geom_point(alpha = 0.2) +
@@ -108,8 +88,7 @@ get_plot_anecdotes_2 <- function(data_clean_anecdotes_2) {
     theme_apa()
 
   relevance_specific_similarity <-
-    data_clean_anecdotes_2 %>%
-    filter(anecdote_within == "anecdote") %>%
+    data %>%
     ggplot(aes_string(x = "similarity_rating", y = "relevance_specific_rating")) +
     facet_grid(cols = vars(valence)) +
     geom_point(alpha = 0.2) +
@@ -127,9 +106,9 @@ get_plot_anecdotes_2 <- function(data_clean_anecdotes_2) {
       relevance_specific_similarity
     )
 
-
   lst(
     allocation,
+    allocation_difference,
     similarity,
     relevance_specific,
     relevance_general,

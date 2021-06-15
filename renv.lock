@@ -326,8 +326,15 @@
       "RemoteRepo": "anecdotes2",
       "RemoteUsername": "shirdekel",
       "RemoteRef": "HEAD",
-      "RemoteSha": "fd5865db38845f2bfdfbae1ca0243269b1dca05c",
-      "Hash": "00cc2a3d8ddb77ae08c7dbf91c2161de"
+      "RemoteSha": "02a35b40ab3f7196d38474dd4df137730c46ca79",
+      "Hash": "37dfb8614e0d301d96009eb366983dd3"
+    },
+    "antiword": {
+      "Package": "antiword",
+      "Version": "1.3",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "9a4527ec6b09bd67a83f200e38f0b531"
     },
     "arm": {
       "Package": "arm",
