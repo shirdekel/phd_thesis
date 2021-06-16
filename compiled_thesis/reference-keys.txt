@@ -47,6 +47,7 @@ fig:project-allocation-anecdote-only-materials-anecdotes-1
 fig:project-allocation-statistics-materials-anecdotes-1
 fig:anecdote-similarity-high-materials-anecdotes-1
 fig:anecdote-similarity-low-materials-anecdotes-1
+fig:plot-anecdotes-1-allocation-combined
 fig:plot-anecdotes-1-allocation
 fig:plot-anecdotes-1-lm-allocation-relevance-specific-alignment
 hyp:three-way-anecdotes-2
@@ -58,8 +59,8 @@ fig:project-allocation-anecdote-valence-negative-similarity-low-materials-anecdo
 fig:project-allocation-target-valence-negative-similarity-low-materials-anecdotes-2
 fig:project-allocation-anecdote-valence-positive-similarity-high-materials-anecdotes-2
 fig:project-allocation-target-valence-positive-similarity-high-materials-anecdotes-2
-fig:plot-anecdotes-2-allocation-negative
-fig:plot-anecdotes-2-allocation-positive
+fig:plot-anecdotes-2-allocation
+fig:plot-anecdotes-2-allocation-difference
 fig:instructions-materials-aggregation-1
 fig:project-choice-aggregated-aggregation-1
 fig:plot-aggregation-1-trials
@@ -181,7 +182,7 @@ fig:follow-up-materials-anecdotes-2
 fig:interstitial-materials-anecdotes-2
 fig:plot-anecdotes-2-similarity-rating
 introduction
-resource-allocation
+capital-allocation
 psychology
 chapter-overview
 aggregation
@@ -235,6 +236,7 @@ follow-up-aggregation-3
 aggregation-4
 alignment-appendix
 alignment-2-appendix
+materials-alignment-2-appendix
 instructions-materials-alignment-2-appendix
 forecasting-materials-alignment-2
 ranking-materials-alignment-2
