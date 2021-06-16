@@ -11,8 +11,16 @@ clean_condition_names <- function(data) {
         ~ .x %>%
           as.character() %>%
           snakecase::to_sentence_case() %>%
-          str_replace("^Na$", "NA") %>%
-          str_replace("npv", "NPV") %>%
+          str_replace_all(
+            c(
+              "^Na$" = "NA",
+              "npv" = "NPV",
+              "^Anecdote$" = "Anecdote only",
+              "Combined" = "Anecdote & statistics",
+              "Enhanced" = "Enhanced anecdote & statistics",
+              "Statistics" = "Statistics only"
+            )
+          ) %>%
           as.factor()
       )
     )
