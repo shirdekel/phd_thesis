@@ -12,12 +12,12 @@ not eventuated immediately (and do not allow for distribution sampling). The
 limited prior work using description-based repeated-play gambles did not
 consider the effect of choice bracketing on risk aggregation. As such, the
 paradigm used in this chapter allowed for the investigation of choice bracketing
-in a way that is isomorphic with real-life prescriptions.
+in a way that is more isomorphic with real-life prescriptions.
 
 Experiment 1 found evidence for the effects of similarity, presentation, and
 awareness of the number of projects. Experiment 2 found evidence for the effect
 of an outcome distribution but did not replicate the presentation and awareness
-effects. Subsequent follow up experiments (presented in
+effects. Subsequent follow up experiments (reported in
 Appendices \@ref(aggregation-3) and \@ref(aggregation-4)) again tested the
 similarity and awareness effects. These experiments found evidence for naive
 diversification (an advantage for low similarity) when considering them all
@@ -91,7 +91,7 @@ A diversified portfolio is one whose investments are uncorrelated or negatively
 correlated. According to Portfolio Theory [@markowitz1952], a diversified
 portfolio is preferred to one that is not diversified, because it reduces the
 probability of a loss. When some investments have losses, others will have
-gains; the root of "don't keep all your eggs in one basket." Typically,
+gains---the root of "don't keep all your eggs in one basket." Typically,
 questions of gamble aggregation assume that each gamble is independent. That is,
 the gambles are uncorrelated. As such, aggregation of a portfolio already
 assumes that the portfolio is somewhat diversified (or at least that the gambles
@@ -188,8 +188,8 @@ should be tested with managers since it is possible that they have a greater
 sense of naive aggregation and are therefore more likely to be more amenable to
 such manipulations. The addition of extra payment for better performance on the
 task might also assist in making the task more isomorphic with real-world
-managerial decisions. In the present experiments, participants viewed the
-projects all in the space of one session. However, this is not completely
+managerial decisions. Further, in the present experiments, participants viewed
+the projects all in the space of one session. However, this is not completely
 isomorphic to real life, where managers make many other decisions that are
 unrelated to the large risky investments at their companies. Future research
 should test participants over a longer period of time [as in @beshears2016] in

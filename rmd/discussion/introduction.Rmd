@@ -11,17 +11,17 @@ and inference...portrayed people as fallible, not irrational.
 
 This thesis investigated the psychology of capital allocation decisions. The
 influence of psychological factors on such decisions has not been sufficiently
-considered in the literature despite its importance to the performance of
+considered in the literature despite their importance to the performance of
 hierarchical organisations. This discrepancy is likely due to a greater focus of
 the role of organisational influences on firm performance in the management
 literature. The thesis did not investigate expertise effects, but instead
 focused largely on participants without management experience. This allowed a
 study of the specific cognitive processes without the potential confound of
-experience. Though, it is also worth noting that in the one case where the work
+experience. Though, it is also worth noting that, in the one case where the work
 examined people with management experience, the pattern of results was largely
 the same as with naive participants. Each of the empirical chapters investigated
 distinct but related processes that are relevant to the capital allocation
-process. These chapters investigated whether people are able to account for the
+process. These chapters investigated whether people were able to account for the
 benefits of aggregation when considering multiple projects
 (Chapter \@ref(aggregation)), the influence of project feature alignability and
 metric variance when comparing projects directly (Chapter \@ref(alignment)), and
@@ -30,13 +30,13 @@ statistical evidence (Chapter \@ref(anecdotes)).
 Section \@ref(summary-of-results) will first summarise the results of the
 empirical chapters, and Sections \@ref(theoretical-implications)
 and \@ref(practical-implications) will then discuss their theoretical and
-practical implications, respectively. Section \@ref(conclusion) concludes the
-thesis.
+practical implications, respectively. Section \@ref(conclusion) will conclude
+the thesis.
 
 ## Summary of results {#summary-of-results}
 
 Chapter \@ref(aggregation) investigated participants' choice of risky business
-projects that are displayed sequentially and without feedback in between
+projects, when these are displayed sequentially and without feedback in between
 decisions. This design modelled the real-life situation that managers face in
 hierarchical organisations: an evaluation of a set of separate business project
 proposals over time with no immediate indication of the performance of those
@@ -66,8 +66,8 @@ was alignable, participants relied on it almost exclusively. However, when
 reliability information was presented numerically, there was no moderation of
 allocation based on the ranges---participants used NPV even when they had an
 opportunity to use the intrinsic features of the project. Overall, however,
-participants tended to rely on NPV more in the low alignment condition than in
-the high alignment condition.
+participants tended to rely on NPV more when projects were low in alignment than
+when they were high in alignment.
 
 Chapter \@ref(anecdotes) investigated the effect of anecdote similarity on
 allocations when the anecdote conflicted with the statistical data. Participants
@@ -75,20 +75,20 @@ were asked to allocate a hypothetical budget between two projects. One of the
 projects (the target project) was clearly superior in terms of the provided
 statistical measures, but some of the participants also saw a description of a
 project with a conflicting outcome (the anecdotal project). This anecdotal
-project was always in the same industry as the target project. However, the
-anecdote description either contained substantive connections to the target or
+project was always in the same industry as the target project. The anecdote
+description, however, either contained substantive connections to the target or
 not. Further, the anecdote conflicted with the statistical measures because it
 was either successful (positive anecdote) or unsuccessful (negative anecdote).
 The results showed that participants' decisions were influenced by anecdotes
 only when they believed that they were actually relevant to the target project.
 Further, they still incorporated the statistical measures into their decision.
-This was found for both positive and negative anecdotes. However, participants
+This was found for both positive and negative anecdotes. Further, participants
 were given information about the way that the anecdotes were sampled that
 suggested that the statistical information should have been used in all cases.
 Participants did not use this information in their decisions and still showed an
 anecdotal bias effect. Therefore, people seem to appropriately moderate their
 use of anecdotes based on the anecdotes' relevance, but do not understand the
-implications of certain complex statistical concepts.
+implications of certain statistical concepts.
 
 Together, these results show the bounds of people's decision-making capability
 in capital allocation. The participants in these experiments in general behaved
@@ -100,23 +100,25 @@ Chapter \@ref(alignment) and the conflict between the anecdotal and statistical
 evidence in Chapter \@ref(anecdotes). Participants were able to moderate their
 allocations when the moderating factors were sufficiently clear (as in the
 verbal reliability condition in Chapter \@ref(alignment)). However, participants
-struggled to do this when the moderating factor involved an understanding of a
-relatively basic statistical concept. Each empirical chapter included such a
-concept: risk aggregation in Chapter \@ref(aggregation), metric variance in
-Chapter \@ref(alignment), and sample distribution in Chapter \@ref(alignment).
-However, a formal understanding of such concepts does not seem to be necessary
-if they are expressed explicitly (as in the aggregated distribution in
-Chapter \@ref(aggregation)).
+struggled to do this when the moderating factor involved using a relatively
+basic statistical concept. Each empirical chapter included such a concept: risk
+aggregation in Chapter \@ref(aggregation), metric variance in
+Chapter \@ref(alignment), and sample distribution in Chapter \@ref(anecdotes).
+The aggregated distribution in Chapter \@ref(aggregation) and the verbal
+reliability manipulation in Chapter \@ref(alignment) showed that a formal
+understanding of such concepts is not always necessary if they are expressed
+explicitly.
 
 The statistical concepts used in these studies are all likely accessible for
 people without much formal mathematical knowledge. A basic concept of risk
 aggregation is clearly available to laypeople as seen in the responses to
 multi-play gambles (e.g., one vs. 100 gambles). Further, people certainly have a
-basic understanding of numerical ranges and that a larger range means more
+basic understanding of numerical ranges and that a wider range means more
 spread. Despite likely having this understanding, participants in the above
 experiments were unable to use it in the decisions. Similarly, other work has
-shown that people are sensitive to sampling. Therefore, it is unlikely that the
-people in my studies simply lacked statistical education. In fact, it is not
-clear that these effects will disappear with more maths knowledge and business
-experience. Previous work showed that expertise does not always remove biases
-and in some cases it seems to augment such effects [e.g., @haigh2005].
+shown that people are sensitive to sampling [@carvalho2021]. Therefore, it is
+unlikely that the people in the thesis experiments simply lacked statistical
+education. In fact, it is not clear that these effects will disappear with more
+maths knowledge and business experience. Previous work showed that expertise
+does not always remove biases and in some cases it seems to augment such effects
+[e.g., @haigh2005].

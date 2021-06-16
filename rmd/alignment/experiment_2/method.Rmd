@@ -27,7 +27,7 @@ As seen in Figures \@ref(fig:projects-alignment-low-materials-alignment-3)
 and \@ref(fig:projects-alignment-high-materials-alignment-3), the project
 display was as in Experiment 1, except for the addition of another set of
 projects that differed in semantic content. That is, the projects were about
-different types of projects (to allow for a within-subjects manipulation). Along
+different types of products (to allow for a within-subjects manipulation). Along
 with the single NPV, participants saw the forecasted ranges of cash flow that
 were used to calculate the NPV. In the low numerical reliability condition, the
 ranges were $\pm85$% around the mean (e.g., $150-$1850 if the forecast mean was
@@ -65,9 +65,9 @@ file.path(
 
 ##### NPV knowledge ratings
 
-Participants were asked them to rate the confidence of their knowledge of NPV at
-multiple points in the experiment (see
-Appendix \@ref(npv-knowledge-materials-alignment-3)).
+Participants were asked to rate the confidence of their knowledge of NPV at
+multiple points in the experiment. The appendix shows an example of this display
+(see Figure \@ref(fig:npv-knowledge-materials-alignment-3)).
 
 ##### Variance lecture
 
@@ -79,15 +79,14 @@ lecture slides).
 
 #### Procedure {#procedure-alignment-3}
 
-Participants saw the instructions, NPV explanation, and completed a simple test
-to demonstrate their understanding of NPV. They then completed four
+Participants saw the instructions and NPV explanation, and completed a simple
+test to demonstrate their understanding of NPV. They then completed four
 counterbalanced capital allocation trials (equivalent to each condition
-combination), and saw a brief presentation about the importance of paying
-attention to variance in financial decision-making. Subsequently, participants
-completed a further two capital allocation trials of two of the trials that
-they subsequently saw earlier. They were shown the allocation values that they
-provided earlier, and were given the opportunity to change them. Participants
-rated their knowledge of NPV once before the NPV test, re-rated after the test,
-and again after the four project displays. They were then asked to rate their
-knowledge of NPV as they believe it had been both before and after the variance
-presentation.
+combination), and subsequently saw a brief presentation about the importance of
+paying attention to variance in financial decision-making. Participants then
+completed a further two capital allocation trials of two of the trials that they
+saw earlier. They were shown the allocation values that they provided earlier,
+and were given the opportunity to change them. Participants rated their
+knowledge of NPV once before the NPV test, re-rated after the test, and again
+after the four project displays. They were then asked to rate their knowledge of
+NPV as they believe it had been both before and after the variance presentation.

@@ -106,30 +106,30 @@ to use variance information when it is represented numerically [@galesic2010;
 
 ### Experiment summary
 
-Experiment [1](#alignment-2) investigated the effect of alignment on the
-decision-making of naive participants’ capital allocation to a set of fictional
-projects. NPV reliability was manipulated by directly stating whether it is a
-reliable measure because the naive participants were assumed not to have the
-requisite knowledge to be sensitive to reliability information otherwise. This
-experiment predicted that when projects are alignable, participants use NPV if
-they are told that it is a reliable measure, but do not use it if they are told
-that it is unreliable. However, when projects are not alignable, participants
-were predicted to use NPV regardless of how reliable they are told NPV is.
+Experiment 1 investigated the effect of alignment on the decision-making of
+naive participants’ capital allocation to a set of fictional projects. NPV
+reliability was manipulated by directly stating whether it is a reliable measure
+because the naive participants were assumed not to have the requisite knowledge
+to be sensitive to reliability information otherwise. This experiment predicted
+that when projects are alignable, participants use NPV if they are told that it
+is a reliable measure, but do not use it if they are told that it is unreliable.
+However, when projects are not alignable, participants were predicted to use NPV
+regardless of the stated NPV reliable.
 
-Experiment [2](#alignment-3), investigated the decision-making of management
-students in almost the same situation as Experiment [1](#alignment-2). The main
-difference was that instead of telling participants the reliability of NPV, this
-experiment manipulated the level of associated *numerical* NPV reliability. That
-is, the width of numerical ranges around an NPV. Participants were predicted to
-rely more on NPV in the non-alignable projects than in the alignable projects.
-However, this experiment predicted that there will be no effect of numerical
-reliability, since there is very little evidence that people are sensitive to
-variance information when represented numerically.
+Experiment 2 investigated the decision-making of management students in almost
+the same situation as Experiment 1. The main difference was that instead of
+telling participants the reliability of NPV, this experiment manipulated the
+level of associated *numerical* NPV reliability. That is, the width of numerical
+ranges around an NPV. Participants were predicted to rely more on NPV in the
+non-alignable projects than in the alignable projects. However, this experiment
+predicted that there will be no effect of numerical reliability, since there is
+very little evidence that people are sensitive to variance information when
+represented numerically.
 
-Experiment [3](#alignment-8) again tested the alignment and reliability effects
-in a non-business population, but manipulated both verbal and numerical
-reliability in the same experiment to allow for direct comparisons. An effect of
-reliability was predicted in the verbal reliability condition, but not in the
-numerical reliability condition. Further, this experiment used project
-descriptions with clearer profitability indicators, and added a larger selection
-of business industries.
+Experiment 3 again tested the alignment and reliability effects in a
+non-business population, but manipulated both verbal and numerical reliability
+in the same experiment to allow for direct comparisons. An effect of reliability
+was predicted in the verbal reliability condition, but not in the numerical
+reliability condition. Further, this experiment used project descriptions with
+clearer profitability indicators, and added a larger selection of business
+industries.

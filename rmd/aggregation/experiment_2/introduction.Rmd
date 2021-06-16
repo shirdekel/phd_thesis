@@ -26,14 +26,14 @@ of *non-identical* gamble distributions in this context. Doing this requires
 using a *Poisson* binomial distribution, which allows for multiple trials with
 different probabilities.
 
-Further, Experiment 2 addressed one of the limitations of Experiment 1 detailed
-in Section \@ref(discussion-aggregation-1) by manipulating all the main
-variables between-subjects. Manipulating presentation between-subjects, removes
-the potentially confounding factor of reduced risk aversion over time.
+Further, Experiment 2 addressed potential order effects in Experiment 1 by
+manipulating all the main variables between-subjects. Manipulating presentation
+between-subjects, removes the potentially confounding factor of reduced risk
+aversion over time.
 
 Experiment 2 again tested Hypotheses \@ref(hyp:awareness-aggregation-1),
-and \@ref(hyp:presentation-aggregation-1), from Experiment 1. Following the
-finding in Experiment 1 that participants in the aware condition seemed to
+and \@ref(hyp:presentation-aggregation-1), from Experiment 1. Further, following
+the finding in Experiment 1 that participants in the aware condition seemed to
 become more risk-taking as the experiment progressed, Experiment 2 tested the
 following:
 

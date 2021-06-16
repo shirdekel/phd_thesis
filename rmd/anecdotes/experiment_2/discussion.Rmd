@@ -3,7 +3,7 @@
 Hypotheses \@ref(hyp:anecdote-similarity-anecdotes-1)
 and \@ref(hyp:anecdote-similarity-anecdotes-2) were supported, as participants
 showed a stronger anecdotal bias effect when the anecdote was more similar to
-the target project, both for positive and negative anecdotes. Further, as per
+the target project, for both positive and negative anecdotes. Further, as per
 Hypotheses \@ref(hyp:statistics-negative-anecdotes-2)
 and \@ref(hyp:statistics-positive-anecdotes-2), participants incorporated the
 statistical information into their judgements, for both negative and positive

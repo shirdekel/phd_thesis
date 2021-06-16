@@ -7,19 +7,19 @@ tar_load(results_anecdotes_2)
 tar_load(plot_anecdotes_2)
 ```
 
-Experiment 1 replicated the anecdotal bias effect. That is, people used an
-anecdote more when presented with conflicting statistics than with anecdote
-alone and less than with statistics alone. However, anecdote similarity
-moderated this effect, such that anecdotal bias was stronger when the anecdote
-was similar to the current task, than when it was dissimilar. Experiment 1 only
-used a negative anecdote because previous research found anecdotal bias for
-negative, but not for positive anecdotes [@jaramillo2019]. However,
-@jaramillo2019 considered medical decision-making, so this effect of anecdote
-valence may be different in a business context. In the study, the positive
-anecdote involved a treatment that led to a reduction in symptoms and the
-negative anecdote involved symptoms persisting. This framing might mean
+Experiment 1 replicated the anecdotal bias effect found in the literature. That
+is, people used an anecdote more when presented with conflicting statistics than
+with anecdote alone and less than with statistics alone. However, anecdote
+similarity moderated this effect, such that anecdotal bias was stronger when the
+anecdote was similar to the current task, than when it was dissimilar.
+Experiment 1 only used a negative anecdote because previous research found
+anecdotal bias for negative, but not for positive anecdotes [@jaramillo2019].
+However, @jaramillo2019 considered medical decision-making, so this effect of
+anecdote valence may be different in a business context. In the study, the
+positive anecdote involved a treatment that led to a reduction in symptoms and
+the negative anecdote involved symptoms persisting. This framing might mean
 participants represented the positive anecdote as a return to a reference point
-and the negative anecdote as a continuation of a reduction in well-being
+and the negative anecdote as a continuation of a reduction in well-being,
 relative to the reference point. In business, however, both successful and
 failed business projects represents a deviation from a reference point. To test
 this difference further, Experiment 2 added an anecdote valence manipulation
@@ -29,25 +29,25 @@ similarity were manipulated within-subjects. Further, Experiment 2 did not
 include the anecdote & enhanced statistics manipulation, because Experiment 1
 did not find evidence for its effect. All participants saw the statistics only
 condition, as it did not contain an anecdote, and therefore did not need to be
-manipulated between-subjects. Each participant therefore saw five displays, with
-one statistics only condition; and four displays for either the anecdote only
-condition, or the anecdote & statistics condition. These four anecdote displays
-consisted of the similarity (low and high) $\times$ valence (negative and
-positive) conditions.
+manipulated between-subjects. Each participant therefore saw five displays: one
+display for the statistics only condition; and four displays for either the
+anecdote only condition, or the anecdote & statistics condition. These four
+anecdote displays consisted of the similarity (low and high) $\times$ valence
+(negative and positive) conditions.
 
-Experiment 1 did not clarify certain assumptions about the way the displayed
-anecdote was sampled from the pool of anecdotes. In Experiment 2, participants
-were told that the anecdote was sampled randomly and that it was not uniquely
-similar to the target project. This should lead to a reliance on the statistical
-evidence, regardless of the anecdote's similarity. However, people often
-struggle to use statistical concepts presented descriptively, as seen in the
-enhanced statistics condition in Experiment 1, the variance neglect in
-Chapter \@ref(alignment), and the lack of risk aggregation in descriptive risky
-choice as in Chapter \@ref(aggregation). Therefore, it was expected that the
-effects of Experiment 1 will replicate in the negative valence condition.
-Further it was expected that there will be a reverse effect in the positive
-valence condition. The appendix shows a simulation of the hypothesised effects
-(see Figures \@ref(fig:plot-simulation-anecdotes-2-negative)
+Experiment 1 did not clarify certain assumptions about the distribution from
+which the anecdote was sampled. In Experiment 2, participants were told that the
+anecdote was sampled randomly and that it was not uniquely similar to the target
+project. This should lead to a reliance on the statistical evidence, regardless
+of the anecdote's similarity. However, people often struggle to use statistical
+concepts presented descriptively, as seen in the enhanced statistics condition
+in Experiment 1, the variance neglect in Chapter \@ref(alignment), and the lack
+of risk aggregation in descriptive risky choice as in
+Chapter \@ref(aggregation). Therefore, it was expected that the effects of
+Experiment 1 will replicate in the negative valence condition. Further it was
+expected that there will be a reverse effect in the positive valence condition.
+The appendix shows a simulation of the hypothesised effects (see
+Figures \@ref(fig:plot-simulation-anecdotes-2-negative)
 and \@ref(fig:plot-simulation-anecdotes-2-positive)). Therefore, Experiment 2
 tested the following:
 

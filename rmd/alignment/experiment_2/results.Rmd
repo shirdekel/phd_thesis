@@ -6,7 +6,7 @@ allocations. Figure \@ref(fig:plot-alignment-3-allocation) shows these data. Th
 alignment $\times$ reliability amount $\times$ NPV amount interaction was
 significant,
 `r results_alignment_3$allocation$alignment_reliability_amount_npv_amount`.
-However, this appears to be driven by the difference between alignment
+However, this appeared to be driven by the difference between alignment
 conditions in the interaction between the quadratic NPV amount trend and
 reliability amount,
 `r results_alignment_3$allocation$quadratic_low_high_low_high`, even after

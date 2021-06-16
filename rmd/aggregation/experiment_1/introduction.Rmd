@@ -7,7 +7,7 @@ tar_load(results_aggregation_1)
 tar_load(plot_aggregation_1)
 ```
 
-Experiment 1 investigates the effect of three choice bracketing manipulations on
+Experiment 1 investigated the effect of three choice bracketing manipulations on
 risky choice in hypothetical capital allocation scenarios. Previous research
 had low ecological validity because of the use of multi-play paradigms or
 feedback. In this experiment, the risky choice task was a description-based
@@ -42,8 +42,7 @@ seeing them separately.
 ```
 
 Similarity of options has also been shown to affect the way people bracket their
-choices [e.g., @dekay2005; @markman1995]. Therefore, Experiment 1 tested the
-following:
+choices [e.g., @dekay2005]. Therefore, Experiment 1 tested the following:
 
 ``` {hypothesis, similarity-aggregation-1, name = "Similarity main effect", echo = TRUE}
 Participants that see projects from the same industry will make more risky

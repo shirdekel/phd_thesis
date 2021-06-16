@@ -1,11 +1,11 @@
 ## General discussion
 
-Most of the hypotheses were supported. This chapter found that people's
-decisions are influenced by anecdotes even when aggregated data is available in
-a capital allocation context. There were three novel findings: 1. the anecdotal
+Most of the hypotheses were supported. This chapter found that, in a capital
+allocation context, people's decisions are influenced by anecdotes even when
+aggregated data are available. There were three novel findings: 1. the anecdotal
 bias effect was only seen when participants considered the anecdote as
 sufficiently relevant to the target project, 2. participants integrated
-statistics in their decisions, and 3. these effects are found in both negative
+statistics in their decisions, and 3. these effects were found in both negative
 and positive anecdotes.
 
 The first novel finding from these experiments was that participants moderated
@@ -14,10 +14,10 @@ causally relevant, participants used it in their decisions. However, when it
 appeared irrelevant, participants relied on statistics almost entirely. The
 findings in the high similarity condition are largely congruent with findings
 from other work investigating anecdotal bias in business decision-making. As in
-@wainberg2013 and @wainberg2018, this chapter found that people allocate less
+@wainberg2013 and @wainberg2018, this chapter found that people allocated less
 capital to a project that is successful according to statistical evidence
-co-presented with contradictory similar anecdote than to a project with just
-the statistics.
+co-presented with contradictory similar anecdote, than to a project with the
+statistics alone.
 
 It seems that participants made the distinction between the low and high
 similarity conditions based on the underlying structure of the anecdote. The low
@@ -26,8 +26,8 @@ as in the high similarity condition. For instance, in one variation, both the
 high and low similarity anecdotes involved oil well projects. However, the high
 similarity anecdotes also matched with the target project on a number of
 specific features. This means that participants were sensitive to the specific
-information presented to them in the anecdote description and "analysis", and
-did not simply use the project type for their inferences. Further, participants'
+information presented to them in the anecdote description and analysis, and did
+not simply use the project type for their inferences. Further, participants'
 answers to the follow up questions indicated that they did not consider the
 anecdote to be necessarily relevant to other projects from the same industry. In
 other words, participants did not appear to carelessly use anecdotal evidence in
@@ -35,7 +35,7 @@ their decisions, but instead appeared to carefully consider the anecdote based
 on its particular causal structure.
 
 The second novel finding from these experiments was that participants that saw
-both statistics and anecdotal evidence did not completely disregard the
+the statistics with anecdotal evidence did not completely disregard the
 statistical measures. @wainberg2013 found a complete effect of anecdotal bias,
 because in their study the anecdote only and anecdote & statistics conditions
 were equivalent. This meant that the statistics they provided had a negligible
@@ -51,15 +51,15 @@ result of the sampled population. Since @freling2020 found a stronger effect of
 anecdote when decisions were more personally relevant, the manager sample in
 @wainberg2013 may have simply been more personally invested in the task than the
 laypeople in the experiments in this chapter. Similarly, @yang2015 found that
-anxiety increases anecdotal bias in risky choice. It might also be due to the
-anecdote & statistics condition not being equivalent between @wainberg2013 and
-the present work. Specifically, the statistics shown in the anecdote &
-statistics condition in @wainberg2013 were not the same ones that were shown in
-the same study's statistics only condition, unlike in both the present
-experiments and @wainberg2018. Instead, it was the anecdote & enhanced
-statistics condition that contained the same statistics as in the statistics
-only condition. This suggests that people integrate statistics when they are
-sufficiently clear and no further interpretation is required.
+anxiety increases anecdotal bias in risky choice. The discrepancy might also,
+however, be due to the anecdote & statistics condition not being equivalent
+between @wainberg2013 and the present work. Specifically, the statistics shown
+in the anecdote & statistics condition in @wainberg2013 were not the same ones
+that were shown in the same study's statistics only condition, unlike in both
+the present experiments and @wainberg2018. Instead, it was the anecdote &
+enhanced statistics condition that contained the same statistics as in the
+statistics only condition. This suggests that people only integrate statistics
+when they are sufficiently clear and no further interpretation is required.
 
 The third novel finding from these experiments was that anecdotal bias was found
 in both negative and positive anecdotes. Most studies in the literature
@@ -83,10 +83,11 @@ Regardless, it is still surprising not to find an asymmetry because of the
 predictions of prospect theory. Loss aversion suggests that participants would
 have avoided the projects associated with the negative anecdotes more than they
 would have chosen those associated with the positive anecdotes. On the other
-hand, each choice is associated with the conflicting statistical information, so
-this may cancel out the change from the reference point. Future research should
-use more realistic incentives in order to investigate this effect further. Doing
-this will also increase the ecological validity of the rest of the findings.
+hand, each choice was associated with the conflicting statistical information,
+so this may cancel out the change from the reference point. Future research
+should use more realistic incentives in order to investigate this effect
+further. Doing this will also increase the ecological validity of the rest of
+the findings.
 
 ### Theoretical implications
 
@@ -120,7 +121,7 @@ distribution of this similarity across cases in the sample from which the
 anecdote was sampled. People should use an anecdote when casual structure is
 significantly more relevant than other cases in available data.
 
-However, similarity can also be misleading. For instance, if someone is highly
+However, similarity can also be misleading. For instance, if a case is highly
 similar, but not along some key hidden dimension that is the real causal
 mechanism to care about, then using the anecdote may be the wrong thing to do.
 What seems to be important is a sensitivity to relational, rather than surface
@@ -137,14 +138,14 @@ statistical information. Managers of large companies are often in a difficult
 position; they have incomplete information and an uncertain environment. Despite
 this, different biases and responses to those biases can be anticipated for
 different levels of uncertainty. For instance, a manager may be presented with
-both a convincing case study that suggests a certain course of action and
+both a convincing case study that suggests a certain course of action, and
 aggregated data. The manager needs to be able to weigh the evidence accordingly.
 
 The work in this chapter suggests that there are three elements to consider: 1.
 the quality of the aggregated data (determined by factors such as the sample
 size), 2. the relative similarity of the cases in the data pool to the target
 situation, and 3. the similarity of the anecdote to the target. For instance, if
-the anecdote is uniquely similar to the target situation, and it is
+the anecdote is relevantly similar to the target situation, and it is
 significantly more similar than the rest of the cases in the data set, then it
 should have more weight than an anecdote that comes from a pool of cases that
 are all equally similar to the target. @lovallo2012 found that similarity
@@ -152,14 +153,15 @@ judgements increase prediction accuracy beyond a simple regression model. Taking
 into account the relative similarity to other cases is likely to further
 increase predictive validity.
 
-In a situation in which aggregated data is not available, however, managers
+In a situation in which aggregated data are not available, however, managers
 should rely more on anecdotes that are more similar in causal structure. That
 is, they should be wary of merely using the surface similarity to make
 inferences, and instead consider the underlying relational structures. The
 present data suggest that laypeople can do this to an extent, with participants
 not being completely swayed by the mere similarity of the type of business
 project. However, future research should investigate this further to better
-understand the boundaries of people's analogical reasoning in such situations.
+understand the boundaries of people's analogical reasoning in capital allocation
+decisions.
 
 \newpage
 

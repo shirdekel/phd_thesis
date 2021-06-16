@@ -19,8 +19,8 @@ condition than in the low reliability condition,
 `r results_alignment_2$allocation$low_high_linear_high`, whereas in low
 alignment, there was no significant difference between reliability conditions,
 `r results_alignment_2$allocation$low_high_linear_low`. This shows that people
-used the reliability information to moderate their allocations, but only did so
-when projects were similar and not when they were dissimilar.
+only used the reliability information to moderate their allocations when
+projects were similar and not when they were dissimilar.
 
 The comparison with the no NPV condition revealed the expected pattern. In high
 alignment, the linear NPV trend was only significantly lower in the no NPV
@@ -40,8 +40,8 @@ plot_alignment_2$allocation
 
 The ranking, confidence, and forecast mean data were all largely congruent with
 the allocation findings (see Appendix \@ref(results-alignment-2-appendix)). The
-results showed that forecasts of those in the low alignment condition had higher
-standard deviations than those in the high alignment condition (see
+results also showed that forecasts of those in the low alignment condition had
+higher standard deviations than those in the high alignment condition (see
 Appendix \@ref(forecast-sd-alignment-2)). However, this did not replicate in
 subsequent experiments (see Appendices \@ref(forecast-sd-alignment-4)
 and \@ref(forecast-sd-alignment-5)).

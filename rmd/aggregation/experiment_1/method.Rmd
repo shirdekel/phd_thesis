@@ -16,7 +16,7 @@ descriptives_aggregation_1$condition_allocation_table %>%
 
 Participants were told to imagine that they are executives in a large company
 and that they will need to decide about investing in a number of hypothetical
-business projects. The appendix shows a screenshot of these instructions in
+business projects. The appendix shows these instructions in
 Figure \@ref(fig:instructions-materials-aggregation-1).
 
 ##### Risky investment task {#task-aggregation-1}
@@ -26,7 +26,7 @@ whether they would invest in that project or not. Each description included the
 name of the hypothetical business, the amount they forecast the project to cost,
 the amount the project is forecast to make, and probabilities for these
 forecasts. The project values were selected so that the projects appeared
-attractive when aggregated and unattractive when segregated [see @langer2001].
+attractive when aggregated, and unattractive when segregated [see @langer2001].
 These values were different for each project, but followed a set of constraints
 for each project's EV and the probability of any loss given the outcome
 distribution of all 10 projects ($P(\text{loss}_{aggregated})$). Further, there
@@ -51,8 +51,8 @@ distribution used in the experiment was `r results_aggregation_1$loss_prob`.
 This was calculated by summing all probabilities in the Poisson binomial
 distribution whose outcomes were less than zero. For comparison,
 $P(\text{loss}_{aggregated})$ = `r results_aggregation_1$loss_prob_samuelson`
-for 10 plays of the @samuelson1963 gamble. Note that the highest probability of
-a loss for any single gamble ($P(\text{loss}_{single})$) was
+for 10 plays of the @samuelson1963 gamble. The highest probability of a loss for
+any single gamble ($P(\text{loss}_{single})$) was
 `r results_aggregation_1$max_probability_negative`.
 Figure \@ref(fig:project-choice-aggregation-1) shows an example of a description
 of a project in this task.
@@ -78,7 +78,7 @@ displayed on the one webpage, whereas in the separate presentation condition
 each was displayed on a different webpage. Participants in the aware condition
 saw the display shown in Figure \@ref(fig:awareness-aware-aggregation-1) before
 their separate presentation display. Those in the naive condition simply
-proceeded without this message. Note, the financial and probability values were
+proceeded without this message. The financial and probability values were
 identical regardless of condition, and the order of each set of 10 projects was
 randomised.
 
@@ -95,8 +95,8 @@ file.path(
   image_border(color = "black", geometry = "5x5")
 ```
 
-Although the project descriptions are succinct, and the decisions in the task
-are made quickly, they reflect real decisions in businesses in critical ways.
+Although the project descriptions were succinct, and the decisions in the task
+were made quickly, they reflect real decisions in businesses in critical ways.
 Companies that consider their forecast estimates probabilistically (i.e., do not
 simply use the most likely estimate as the only estimate) do frame their options
 as likelihoods of certain monetary outcomes.

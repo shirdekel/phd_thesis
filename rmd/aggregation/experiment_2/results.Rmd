@@ -10,7 +10,7 @@ difference between presentation conditions was not significant,
 `r results_aggregation_2$proportion$presentation`. Similarly, the
 difference between awareness conditions was not significant,
 `r results_aggregation_2$proportion$awareness`. However, those that that saw a
-distribution tended to choose to invest significantly more
+distribution chose to invest significantly more
 (`r results_aggregation_2$distribution_mean$present$choice`) than those that did
 not see a distribution
 (`r results_aggregation_2$distribution_mean$absent$choice`),

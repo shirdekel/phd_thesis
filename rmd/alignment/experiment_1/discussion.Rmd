@@ -9,10 +9,10 @@ regardless of reliability when it was the only shared dimension across products.
 Experiment 1 manipulated *verbal* NPV reliability. That is, participants were
 explicitly told whether NPV was considered to be a reliable metric or not.
 However, in the real-world the reliability of a metric is more commonly
-expressed in numerical form, such as a range around and estimate. Experiment 2
-will attempt to replicate the alignment effects, but while manipulating the
-*numerical* NPV reliability associated with each project, rather than the verbal
-reliability as used in Experiment 2. Further, people with sufficient experience
-with financial theory and analysis might be able to successfully draw inferences
-from such information. Therefore, Experiment 2 used a sample of Masters of
-Management students, instead of the laypeople used in Experiment 1.
+expressed in numerical form, such as a range around an estimate. Experiment 2
+attempted to replicate the alignment effects, while manipulating the *numerical*
+NPV reliability associated with each project, rather than the verbal reliability
+as used in Experiment 1. Further, people with sufficient experience with
+financial theory and analysis might be able to successfully draw inferences from
+such information. Therefore, Experiment 2 used a sample of Masters of Management
+students, instead of the laypeople used in Experiment 1.

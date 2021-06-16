@@ -15,7 +15,7 @@ the similarity $\times$ valence interaction was significant,
 $\times$ valence interaction,
 `r results_anecdotes_2$allocation$anecdote_between_valence`. The analyses below investigated the specific hypothesised effects.
 
-(ref:plot-anecdotes-2-allocation) Mean allocation to the target project in Experiment 2. Error bars represent 95% confidence intervals, calculated from the model-based standard error. Note that due to the mixed within-between design, these error bars do not permit comparisons across repeated-measures factors.
+(ref:plot-anecdotes-2-allocation) Mean allocation to the target project in Experiment 2. Error bars represent 95% confidence intervals, calculated from the model-based standard error. Note that due to the mixed within-between design, these error bars do not permit inferences "by eye" across repeated-measures factors.
 
 ```{r plot-anecdotes-2-allocation, fig.cap = "(ref:plot-anecdotes-2-allocation)"}
 plot_anecdotes_2$allocation
@@ -26,17 +26,17 @@ plot_anecdotes_2$allocation
 To investigate whether anecdotal bias was moderated by similarity, a difference
 measure was calculated between each participant's allocation to the statistics
 only condition and their allocation to each of the two anecdote & statistics
-conditions conditions (high and low similarity). Note that the statistics only
-comparison value was different for each valence condition to create equivalent
-comparisons. For negative valence, the allocation to the high NPV project was
-used; while for positive valence, the allocation to the low NPV project was
-used. Figure \@ref(fig:plot-anecdotes-2-allocation-difference) shows these data.
-The similarity $\times$ valence interaction was significant,
+conditions conditions (high and low similarity). The statistics only comparison
+value was different for each valence condition to create equivalent comparisons.
+For negative valence, the allocation to the high NPV project was used; while for
+positive valence, the allocation to the low NPV project was used.
+Figure \@ref(fig:plot-anecdotes-2-allocation-difference) shows these data. The
+similarity $\times$ valence interaction was significant,
 `r results_anecdotes_2$allocation_difference$similarity_valence`, as was the
-main effect of similarity,
-`r results_anecdotes_2$allocation_difference$similarity`. The main effect of
-valence was not significant,
-`r results_anecdotes_2$allocation_difference$valence`.
+main effect of valence,
+`r results_anecdotes_2$allocation_difference$valence`. The main effect of
+similarity was not significant,
+`r results_anecdotes_2$allocation_difference$similarity`.
 
 The interaction was analysed further by comparing the two similarity conditions
 for each valence condition. For negative anecdotes, the allocation difference
@@ -45,9 +45,9 @@ dissimilar, `r results_anecdotes_2$allocation_difference$negative_low_high`. For
 positive anecdotes, the allocation difference was greater when the anecdote was
 dissimilar to the target than when it was similar,
 `r results_anecdotes_2$allocation_difference$positive_low_high`. This provides
-evidence for the moderation of anecdotal bias by similarity for negative
-anecdotes. People seem to be sensitive to the relevance of the anecdote to the
-target problem.
+evidence for the moderation of anecdotal bias by similarity for both negative
+and positive anecdotes. People seem to be sensitive to the relevance of the
+anecdote to the target problem.
 
 (ref:plot-anecdotes-2-allocation-difference) Mean allocation difference in Experiment 2 between the statistics only condition and the anecdote & statistics condition. The horizontal dashed line shows the point in which the two allocations were equivalent. Values that are higher than this line represent participants that allocated more when seeing only the statistics than when seeing the statistics with an anecdote. Error bars represent 95% confidence intervals, calculated from the within-subjects SEs using the method from @cousineau2014.
 

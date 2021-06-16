@@ -1,18 +1,19 @@
 ### Discussion {#discussion-aggregation-4}
 
-Experiment 2 found support for the distribution effect hypothesis. Seeing an
-outcome distribution of a business project portfolio had a strong effect on
+Experiment 2 found support for
+Hypothesis \@ref(hyp:distribution-aggregation-2)). Seeing an outcome
+distribution of a business project portfolio had a strong effect on
 participants' decision-making. Participants indicated that they would invest in
 more projects and were more likely to indicate that they would invest in the
 entire portfolio. However, the awareness and presentation effects found in
 Experiment 1 (see Section \@ref(results-aggregation-1)) did not replicate.
 
-This finding provides evidence for choice bracketing. That is, people do seem to
-be primarily considering gambles one at a time. Further, this finding suggests
-that that the main bottleneck for appropriately aggregating a set of gambles is
-a computational one. That is, people simply cannot mentally combine the outcomes
-and probabilities in a way that sufficiently approximates the outcome
-distribution display.
+These findings provide evidence for choice bracketing. That is, people do seem
+to be primarily considering gambles one at a time. Further, these findings
+suggest that that the main bottleneck for appropriately aggregating a set of
+gambles is a computational one. That is, people simply cannot mentally combine
+the outcomes and probabilities in a way that sufficiently approximates the
+outcome distribution display.
 
 The lack of replication of the awareness and presentation effects provides
 evidence against a naive aggregation account of the distribution effect.

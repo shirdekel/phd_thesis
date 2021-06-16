@@ -1,9 +1,9 @@
 ### Discussion
 
 Experiment 2 replicated the alignment effect found in Experiment 1 with
-participants with real-world business experience. Further, Experiment 2 found
-evidence for Hypothesis \@ref(hyp:allocation-alignment-alignment-2), as people
-seemed to rely more on NPV when faced with a set of dissimilar project than when
+participants with real-world business experience. That is,
+Hypothesis \@ref(hyp:allocation-alignment-alignment-2) was supported, as people
+relied more on NPV when faced with a set of dissimilar project than when
 projects were all from the same domain. Experiment 2 also found evidence for
 Hypothesis \@ref(hyp:allocation-npv-reliability-alignment-3), with no
 significant differences between the numerical reliability amount conditions.

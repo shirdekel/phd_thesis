@@ -1,10 +1,10 @@
 ### Discussion
 
 Hypothesis \@ref(hyp:anecdote-similarity-anecdotes-1) was supported.
-Participants allocated less capital when seeing both the anecdote and
-statistics than when just seeing statistics. However, this effect was moderated
-by similarity since it was seen in the high similarity condition, but not in the
-low similarity condition. This shows that while anecdotal bias exists when the
+Participants allocated less capital when seeing the anecdote with statistics
+than when seeing the statistics alone. This effect was moderated by similarity,
+however, as it was seen in the high similarity condition, but not in the low
+similarity condition. This shows that while anecdotal bias exists when the
 anecdote is similar, participants are not influenced when the causal mechanisms
 do not match. Contrary to Hypothesis \@ref(hyp:statistics-anecdotes-1), despite
 being influenced by the anecdote, participants still made some use of the
@@ -17,8 +17,8 @@ the statistical information did not contribute to reducing participants'
 reliance on anecdotes.
 
 Experiment 1 was limited because it only considered an anecdote with a
-*negative* valence. That is, the case study was of a project that failed.
-However, in real life these case studies are often ones with *positive* valence.
+*negative* valence. That is, the case study was of a project that failed. In
+real life, however, these case studies are often ones with *positive* valence.
 That is, a story of a successful company. In fact, in business, the anecdotes
 that are used might be more likely to be positive, because of survivorship bias.
 @jaramillo2019 found an anecdotal bias effect in negative anecdotes, but not in
@@ -30,19 +30,19 @@ anecdotal bias effect.
 
 It was unclear if the effects found in Experiment 1 were related to
 participants' perceptions of the type of sampling used in selecting the
-anecdotes. The instructions in Experiment 1 do not explain how the anecdote
-displayed to participants was chosen. Whether sampling is intentional or random
-has been shown to affect people's decision-making [e.g., @hayes2019]. In the
-case of the current experiments, the sampling assumption changes the extent to
-which it is rational to use the anecdote or not. It may be considered rational
-to choose the anecdote over the aggregated data if 1. the anecdote was not
-sampled randomly from the pool of anecdotes, and 2. the anecdote is more similar
-to the target project than any of the other anecdotes in the pool in relevant
-ways. That is, if the anecdote was chosen because of its high relevance to the
-target project, it would be irrational to ignore it. In Experiment 1 it was
-unclear whether participants might have held these beliefs. In order to control
-for these assumptions, in Experiment 2 text was added to the instructions that
-clarified that the anecdote 1. was sampled randomly from the pool of anecdotes,
-and 2. is not significantly more similar to the target project than any of the
-other anecdotes in the pool.
+anecdotes. The instructions in Experiment 1 did not explain how the anecdote
+displayed to participants was chosen. Whether sampling is believed to be
+intentional or random has been shown to affect people's decision-making [e.g.,
+@hayes2019]. In the case of the current experiments, the sampling assumption
+changes the extent to which it is rational to use the anecdote or not. It may be
+rational to choose the anecdote over the aggregated data if 1. the anecdote was
+not sampled randomly from the pool of anecdotes, and 2. the anecdote is more
+similar to the target project than any of the other anecdotes in the pool in
+relevant ways. That is, if the anecdote was chosen because of its high relevance
+to the target project, it would be irrational to ignore it. In Experiment 1 it
+was unclear whether participants might have held these beliefs. In order to
+control for these assumptions, in Experiment 2, text was added to the
+instructions that clarified that the anecdote 1. was sampled randomly from the
+pool of anecdotes, and 2. is not significantly more similar to the target
+project than any of the other anecdotes in the pool.
 

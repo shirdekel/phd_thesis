@@ -1,13 +1,13 @@
 # Joint evaluation of multiple projects {#interstitial-1}
 
 Chapter \@ref(aggregation) found that people struggle to aggregate risk even
-when provided with choice-bracketing cues that could have built on an intuitive
+when provided with choice bracketing cues that could have built on an intuitive
 sense of how aggregation reduces risk. The finding that people are more likely
 to accept many gambles at once [e.g., @samuelson1963; @wedell1994], even without
 any aids to calculate risk, suggests that people can gain an intuition for the
-benefits of aggregation. Yet, in the current work, people instead tend to
-consider projects one at a time and only leverage the benefits of aggregation
-when given an explicit visualisation of what it entails.
+benefits of aggregation. Yet, in the current work, people instead considered
+projects one at a time and only leveraged the benefits of aggregation when given
+an explicit visualisation of what it entails.
 
 This shows that it is important to change organisational policy to encourage
 considering business projects jointly. Doing this means that the risk can be
@@ -16,8 +16,8 @@ managers evaluate projects sequentially, an aggregated distribution can also be
 presented using any number of projects that were considered in the recent past.
 This means that a strategy of project risk aggregation can be implemented at any
 stage in an organisation's lifespan. Relatively new ventures can implement these
-recommendations by waiting until a certain number of projects have been accrued
-before aggregating.
+recommendations by waiting until a certain number of project proposals have been
+accrued before aggregating.
 
 Considering projects jointly is also useful for accountability purposes. The
 usual incentive structure in organisations that judges each project outcome
@@ -27,10 +27,10 @@ evaluation. Framing a set of projects as a portfolio means that any subsequent
 success or failure of one project can be traced back to the entire batch, and
 the performance of the whole portfolio can be evaluated.
 
-Business projects might not always be either accepted or rejected, as in
+usiness projects might not always be either accepted or rejected, as in
 Chapter \@ref(aggregation). Instead, top-level managers might ask for project
 proposals from lower-level managers, and then allocate funds from the available
-budget. Otherwise, an organisation might have a initial "culling" phase, and a
+budget. An organisation might also have a initial "culling" phase, and a
 subsequent ranking phase. When initially considering a set of projects, some
 might be rejected according to certain rules. For instance, an NPV might not
 meet a certain minimum cut-off. The remaining projects in the set can then be
@@ -46,9 +46,8 @@ difficult comparisons when deciding on how to rank and allocate capital to
 projects that originated in different divisions. A non-hierarchical organisation
 that develops one type of product may be able to simply compare across any
 number of intrinsic project attributes, whereas a diversified organisation is
-likely to have to rely on more abstract financial metrics, such as NPV. Abstract
-here refers to the fact that most financial metrics can be applied in almost any
-domain.
+likely to have to rely on more abstract financial metrics, such as NPV. Such
+metrics are "abstract" because they can be applied in almost any domain.
  
 For instance, when comparing across two oil well projects, there can be both
 attributes intrinsic to the project, such as the amount of hydrocarbons that are
@@ -81,7 +80,7 @@ Chapter \@ref(alignment) considered the situation in which people are already
 presented with choices together and asked to evaluate the projects by allocating
 a hypothetical budget.
 
-Further, Chapter \@ref(alignment) identifies the factors that affect people's
+Further, Chapter \@ref(alignment) identified the factors that affect people's
 decisions independently from the potential risk of losing hypothetical money,
 which is a large reason for the effects in the previous chapter. Risk aversion
 was accounted for by making it clear that no losses are possible. This was
@@ -97,8 +96,7 @@ meant to simulate an integrated and diversified firm, respectively. This
 manipulation was not as strong because there were no project attributes that
 could be aligned or not. That is, there was nothing actually non-alignable. This
 may explain the equivocal similarity effect. Chapter \@ref(alignment) more fully
-manipulates alignability by having project attributes be critical to the
-evaluation. Therefore, Chapter \@ref(alignment) will show the project features
-explicitly and manipulate alignment, so that the difficulty of the comparison is
-more obvious.
+manipulated alignability by having project attributes be critical to the
+evaluation. These project features were shown explicitly so that the difficulty
+of the comparison is more obvious.
 

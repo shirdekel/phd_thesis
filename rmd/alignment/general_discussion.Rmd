@@ -22,8 +22,8 @@ Alignable differences have been shown to be important to decision making in many
 settings [@markman2010; @markman1995]. The experiments in this chapter are novel
 in the investigation of alignment effects in a capital allocation paradigm.
 Further, these experiments considered the extent to which the reliability of an
-alignable measure (NPV) affects its use in choice. The experiments found that
-this is dependent on the availability of other alignable differences in the
+alignable measure (NPV) affects the way people use it. The experiments found
+that this is dependent on the availability of other alignable differences in the
 choice set. If other alignable differences are available, then participants are
 willing to reduce their use of a supposedly unreliable alignable measure (and
 use it when told that it is reliable). However, when no other alignable
@@ -35,20 +35,19 @@ Financial measures such as NPV are useful because of their alignability. That
 is, they act as an alignable difference regardless of the inherent similarity of
 a set of projects. Psychologically, these measures are useful because they allow
 for relevant inferences [@lassaline1996] and because they offer an abstraction
-of concrete details [@doumas2013].
-
-However, the theoretical account of structural alignment does not directly speak
-to the real-world implications when there is a need for non-alignable
-comparisons. NPV is a type of abstraction that allows comparison between
-different aspects of a company. For instance, comparing an oil field project
-with a refinery project might be made easier by using NPV. On the other hand,
-this increased alignment might actually hide important information because it
-does not consider the finer complexities inherent within each business unit. The
-forecasts that are the basis of NPV are based on different indicators in each
-business unit, there are likely differences in variance between each unit's
-estimates. As such, one can imagine a continuum of similarity comparisons in
-which usefulness of comparison increases with the level of alignability, but is
-moderated by the level of abstraction that is required to make the alignment.
+of concrete details [@doumas2013]. However, the theoretical account of
+structural alignment does not directly speak to the real-world implications when
+there is a need for non-alignable comparisons. NPV is a type of abstraction that
+allows comparison between different aspects of a company. For instance,
+comparing an oil field project with a refinery project might be made easier by
+using NPV. On the other hand, this increased alignment might actually hide
+important information because it does not consider the finer complexities
+inherent within each business unit. The forecasts use to calculate NPV are based
+on different indicators in each business unit, and there are likely to be
+differences in variance between each unit's estimates. As such, one can imagine
+a continuum of similarity comparisons in which usefulness of comparison
+increases with the level of alignability, but is moderated by the level of
+abstraction that is required to achieve the alignment.
 
 The finding that people, even with some business experience, do not sufficiently
 consider variance information is surprising, but understandable. It is
@@ -56,7 +55,7 @@ surprising because so much of financial decision making depends on considering
 different sources of variance (e.g., risk, volatility, and uncertainty).
 However, it is understandable because research from psychology and statistics
 education shows that statistics students and people in general have a poor
-ability to draw statistical inferences [@galesic2010; @konold1993]. Future
+ability to draw statistical inferences [e.g., @galesic2010; @konold1993]. Future
 research should investigate the conditions under which people’s sensitivity to
 variance information can be facilitated. For instance, it is unclear whether it
 is merely salience that is lacking, and that therefore visual aids could be

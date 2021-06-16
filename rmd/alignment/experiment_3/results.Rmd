@@ -30,7 +30,7 @@ This shows that, as in Experiment 1, participants moderate their allocations
 based on verbally-expressed NPV reliability.
 
 Contrary to Experiment 1, the interaction between the linear NPV amount trend
-and NPV reliability amount was also significant in the low alignment condition,
+and NPV reliability amount was significant in low alignment,
 `r results_alignment_8$allocation$alignment_low_reliability_type_explicit_reliability_amount`.
 This suggests that participants were also able to moderate their allocations
 based on verbal reliability in the low alignment condition. Despite the lack of
@@ -61,7 +61,7 @@ and high alignment condition,
 This shows that participants did not use numerical reliability to moderate their
 allocations.
 
-(ref:plot-alignment-8-allocation) Mean project allocation for all conditions. Error bars represent 95% confidence intervals based on the multivariate model. However, in this case the intervals are so narrow that they are mostly obscured by the mean indicators in the plot.
+(ref:plot-alignment-8-allocation) Mean project allocation for all conditions. Error bars represent 95% confidence intervals based on the multivariate model. Here, however, the intervals are so narrow that they are mostly obscured by the mean indicators in the plot.
 
 ```{r plot-alignment-8-allocation, fig.cap = "(ref:plot-alignment-8-allocation)"}
 plot_alignment_8$allocation

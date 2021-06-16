@@ -108,7 +108,7 @@ of the follow-up questions display.
 #### Procedure
 
 Participants were introduced to the study through the general instructions page.
-They then saw five sets of two pages (in randomised order). Each "set" contained
+They then saw five sets of two pages (in randomised order). Each set contained
 two pages: the allocation task and a follow-up questions page (except for the
 anecdotes only condition, in which participants did not see the follow-up
 questions page). Each allocation task page contained specific instructions

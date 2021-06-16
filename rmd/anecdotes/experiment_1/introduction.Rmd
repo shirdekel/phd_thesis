@@ -24,13 +24,13 @@ Previous research found that people are more persuaded by negative anecdotes
 than by positive statistical data in capital allocation scenarios
 [@wainberg2018]. While other work has shown that similar anecdotes are more
 persuasive than dissimilar anecdotes [@hoeken2009\; Study 3], it is unclear how
-similarity changes the anecdotal bias effect. As such, the main question is
-whether anecdotal bias will be greater when the anecdote is similar, compared to
-when it is dissimilar. The target project is supported by the statistics, but is
+similarity changes the anecdotal bias effect. As such, the main question was
+whether anecdotal bias will be greater when the anecdote is similar than when it
+is dissimilar. The target project was supported by the statistics, but is
 inconsistent with the anecdotes. Further, Experiment 1 only used negative
-anecdotes. So, evidence of anecdotal bias is given when a statistics only
-condition is higher than an anecdote & statistics condition. Therefore,
-Experiment 1 tested the following:
+anecdotes. So, evidence of anecdotal bias is given when allocation in a
+statistics only condition is higher than allocation to an anecdote & statistics
+condition. Therefore, Experiment 1 tested the following:
 
 ``` {hypothesis, anecdote-similarity-anecdotes-1, name = "Anecdotal bias is moderated by the similarity of negative anecdotes", echo = TRUE}
 Allocations to the target project will be higher when only the statistics are
@@ -56,7 +56,7 @@ similarity anecdote only condition without enhancing the statistics explanation.
 Participants with additional information explaining the importance of
 "scientific thinking" and statistical data may be less affected by anecdotes, as
 in the *judgment orientation II* condition in @wainberg2018, here called the
-"enhanced statistics condition." Here, Experiment 1 tests whether this effect
+*enhanced statistics condition*. Experiment 1 tests whether this effect
 protecting against anecdotal bias would replicate in a capital allocation
 scenario. Therefore, Experiment 1 tested the following:
 

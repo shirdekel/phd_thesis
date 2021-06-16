@@ -8,21 +8,21 @@ tar_load(plot_alignment_2)
 ```
 
 Experiment 1 investigated the effects of alignment and explicit NPV reliability
-information on capital allocation decisions. The structural alignment
-literature suggests that people weigh alignable differences more heavily than
-non-alignable differences. It was expected that people would use NPV more than
-any other product attributes (because it applied to every product). However,
-this effect should vary with participants' perceived reliability of the value.
-That is, if other project dimensions were alignable, then it should be easier to
-adjust the use of NPV based on its reliability. However, it was predicted that
-in a low alignment there will be a reliance on NPV, as the sole
-alignable difference, regardless of its stated reliability. These effects were
-measured by considering the linear trend of how NPV, across projects, relates to
-the money allocated to the projects. Critically, participants saw both NPV and
-other features intrinsic to each project domain, and these were inversely
-related. Therefore, a positive NPV amount trend indicated a reliance on NPV,
-whereas a negative trend indicated a reliance on the intrinsic project features.
-First, Experiment 1 tested the following omnibus hypothesis:
+information on capital allocation decisions. The structural alignment literature
+suggests that people weigh alignable differences more heavily than non-alignable
+differences. It was expected that people would use NPV more than any other
+product attributes (because it applied to every product). However, this effect
+should vary with participants' perceived reliability of the value. That is, if
+other project dimensions were alignable, then it should be easier to adjust the
+use of NPV based on its reliability. However, it was predicted that in low
+alignment there will be a reliance on NPV, as the sole alignable difference,
+regardless of its stated reliability. These effects were measured by considering
+the linear trend of how NPV, across projects, relates to the money allocated to
+the projects. Critically, participants saw both NPV and other features intrinsic
+to each project domain, and these were inversely related. Therefore, a positive
+NPV amount trend indicated a reliance on NPV, whereas a negative trend indicated
+a reliance on the intrinsic project features. First, Experiment 1 tested the
+following omnibus hypothesis:
 
 ``` {hypothesis, three-way-alignment-2, name = "Overall effect", echo = TRUE}
 The alignment $\times$ reliability amount $\times$ NPV amount interaction will
@@ -36,7 +36,7 @@ alignable attributes. Therefore, Experiment 1 tested the following:
 
 ``` {hypothesis, allocation-alignment-alignment-2, name = "Alignment effect", echo = TRUE}
 The linear NPV amount trend will be higher, on average, in low alignment
-condition compared to high alignment.
+than in high alignment.
 ```
 
 Participants are likely to moderate their allocations based on the provided
@@ -78,7 +78,7 @@ Experiment 1 tested the following:
 
 ``` {hypothesis, allocation-alignment-high-no-NPV-alignment-2, name = "No NPV comparison in high alignment", echo = TRUE}
 In high alignment, the linear NPV amount trend will be higher in the high
-reliability condition than the no NPV reliability condition.
+reliability condition than in the no NPV reliability condition.
 ```
 
 ``` {hypothesis, allocation-alignment-low-no-NPV-alignment-2, name = "No NPV comparison in low alignment", echo = TRUE}

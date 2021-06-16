@@ -9,7 +9,7 @@ the concept was expressed visually very explicitly. However, when there were
 multiple cues for choice evaluation, the results also showed that people were
 capable of integrating conflicting information in their decisions. Identifying
 such cognitive bounds helps to better understand how people evaluate multiple
-choices and helps future research to develop methods to facilitate better
+choices and helps future research develop methods to facilitate better
 decisions.
 
 \newpage

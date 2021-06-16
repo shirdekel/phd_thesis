@@ -21,13 +21,15 @@ scenarios alongside both cues that describe their options and cues that frame
 the options in different ways. Identifying which cues were used by participants
 in their decisions, which cues were ignored, and which cues were integrated
 allowed to specify the bounds of people's cognitive capacity in these decisions.
-The experiments showed that people struggle to use certain statistical
-concepts in their decisions, but that they are also capable of making nuanced
-trade-offs and can be assisted by decision aides. Understanding how
-decision-making in capital allocation is constrained and biased is important in
-order to improve decision-making. Even if decisions are largely consistent with
-normative concepts, falling prey to the biases identified in the thesis can
-have severe consequences for organisations.
+The experiments showed that people struggle to use certain statistical concepts
+in their decisions, but that they are also capable of making nuanced trade-offs
+and can be assisted by decision aides. Understanding how decision-making in
+capital allocation is constrained and biased is important in order to improve
+decision-making. Even if decisions are largely consistent with normative
+concepts, falling prey to the biases identified in this thesis can have severe
+consequences for organisations.
+
+### Statistical concepts
 
 Chapter \@ref(aggregation) presented participants with a capital allocation
 situation in which an understanding of risk aggregation would have led to
@@ -44,7 +46,7 @@ showcased. Showing people a distribution of the outcome probabilities explicitly
 visualised the extent to which an aggregation of the risks can lead to an
 incredibly low chance of loss.
 
-In Chapter \@ref(alignment) the NPVs that participants saw were critical to the
+In Chapter \@ref(alignment), the NPVs that participants saw were critical to the
 allocation task. In the low alignment condition, NPV was the only alignable
 attribute in the comparison. In the high alignment condition, however, NPV was
 in competition with the intrinsic project feature values. An understanding of
@@ -64,32 +66,32 @@ and overlapping. Participants were able to do this sort of moderated allocation
 when reliability was expressed explicitly as words, but not when it was
 expressed numerically.
 
-In Chapter \@ref(anecdotes) participants did not make use of descriptive
-information about the sample distribution. As in Chapter \@ref(alignment),
-participants were confronted with a conflict of cues: statistical information
-vs. a potentially relevant anecdote. Regardless of the similarity manipulation,
-a consideration of the sample from which the anecdote was sampled should have
-informed how the anecdote was used. Imagine a distribution that represents the
-similarity of all the individual projects in the sample. That is, the x-axis
-represents the similarity to the target project and the y-axis is the frequency
-of projects that represent each level of similarity. Even if the sampled
-anecdote appears very relevant to the target project, if the underlying
-distribution of the sample is highly negatively skewed, such that most projects
-in the sample are equivalently similar to the target, then the sampled anecdote
-is not necessarily more informative than the aggregated measure. On the other
-hand, if the underlying distribution was positively skewed, normally
-distributed, or even uniform, then the fact that the sampled anecdote appears
-highly relevant to the target project may actually mean that it is more
-informative than the aggregated measure. Prior work shows that people can reason
-about distributions effectively when experiencing the sampling directly [e.g.,
-@hertwig2004; @carvalho2021]. Chapter \@ref(anecdotes) shows that people
-struggle to use this information when it is described verbally.
+In Chapter \@ref(anecdotes), participants did not make use of descriptive
+information about the anecdote sample distribution. As in
+Chapter \@ref(alignment), participants were confronted with a conflict of cues:
+statistical information vs. a potentially relevant anecdote. Regardless of the
+similarity manipulation, a consideration of the sample from which the anecdote
+was sampled should have informed how the anecdote was used. Imagine a
+distribution that represents the similarity of all the individual projects in
+the sample. That is, the x-axis represents the similarity to the target project
+and the y-axis is the frequency of projects that represent each level of
+similarity. Even if the sampled anecdote appears very relevant to the target
+project, if the underlying distribution of the sample is highly negatively
+skewed, such that most projects in the sample are equivalently similar to the
+target, then the sampled anecdote is not necessarily more informative than the
+aggregated measure. On the other hand, if the underlying distribution was
+positively skewed, normally distributed, or even uniform, then the fact that the
+sampled anecdote appears highly relevant to the target project may actually mean
+that it is more informative than the aggregated measure. Prior work shows that
+people can reason about distributions effectively when experiencing the sampling
+directly [e.g., @hertwig2004; @carvalho2021]. Chapter \@ref(anecdotes) shows
+that people struggle to use this information when it is described verbally.
 
 While people struggled to understand and use certain statistical concepts they
 still seemed to be able to integrate multiple cues and create trade-offs. As
-discussed in Chapter \@ref(interstitial-2), in both Chapters \@ref(alignment)
-and \@ref(anecdotes) participants were provided with more than one cue to use
-for project evaluation. In Chapter \@ref(alignment), people seemed to strike a
+discussed in Chapter \@ref(interstitial-2), both Chapters \@ref(alignment)
+and \@ref(anecdotes) provided participants with more than one cue to use for
+project evaluation. In Chapter \@ref(alignment), people seemed to strike a
 trade-off between NPV and the intrinsic project features as opposed to choosing
 one or the other with a consistent strategy. In Chapter \@ref(anecdotes), the
 anecdotal and statistical evidence provided conflicting cues for each target
@@ -102,8 +104,10 @@ explained through satisficing [@simon1955] or a constraint satisfaction model
 further clarify to what extent constructs such as need for cognition or
 mathematical skill may explain individual differences.
 
+### Decision aides
+
 While trade-offs allow people to integrate multiple cues, decision aides allow
-people to use statistical concepts for more complex moderation.
+people to use statistical concepts for more nuanced moderation.
 Chapter \@ref(aggregation) found that people's understanding of risk aggregation
 was facilitated when the mathematical work was done for them and the aggregated
 values were displayed visually as a distribution. However, a follow-up
@@ -111,22 +115,26 @@ experiment to Chapter \@ref(alignment) (detailed in Appendix \@ref(alignment-6
 found that even explicit instructions sometimes do not work. That is, even
 explaining the way that ranges can be used as reliability information and
 telling participants how to implement this in the capital allocation task did
-not facilitate proper use of ranges. Future work should investigate the impact
-of visualisation on people's use of variance information in these situations.
-Much work has investigated visualising uncertainty information [@bostrom2008;
-@maceachren1992; @kinkeldey2017; @padilla2018; @davis1997; @ristovski2014;
-@brodlie2012; @johnson2003; @potter2012; @lipkus1999; @lipkus2007;
-@spiegelhalter2011; @pang1997; @kox2018; @lapinski2009; @torsneyweir2015]. A
-Hypothetical Outcome Plot [HOP\; @kale2019; @hullman2015] expresses variance
-information as dynamic plots and is one method that is likely to be beneficial
-to people's understanding of ranges as used in this thesis. Visualisation could
-also apply to the work in Chapter \@ref(anecdotes). Using a visual array as in
-@jaramillo2019 is likely to facilitate people's understanding of the importance
-of statistical evidence over anecdotes. However, an additional visualisation of
-the distribution of the underlying similarity to the target might also be
-necessary to facilitate understanding of the relevance of the sample
-distribution. Ultimately, it seems that visualisations of the effects of certain
-statistical concepts are often necessary for people to use them appropriately.
+not facilitate proper use of ranges.
+
+Future work should investigate the impact of visualisation on people's use of
+variance information in these situations. Much work has investigated visualising
+uncertainty information [@bostrom2008; @maceachren1992; @kinkeldey2017;
+@padilla2018; @davis1997; @ristovski2014; @brodlie2012; @johnson2003;
+@potter2012; @lipkus1999; @lipkus2007; @spiegelhalter2011; @pang1997; @kox2018;
+@lapinski2009; @torsneyweir2015]. A Hypothetical Outcome Plot [HOP\; @kale2019;
+@hullman2015] expresses variance information as dynamic plots and is one method
+that is likely to be beneficial to people's understanding of ranges as used in
+this thesis. Visualisation could also apply to the work in
+Chapter \@ref(anecdotes). Using a visual array as in @jaramillo2019 is likely to
+facilitate people's understanding of the importance of statistical evidence over
+anecdotes. However, an additional visualisation of the distribution of the
+underlying similarity to the target might also be necessary to facilitate
+understanding of the relevance of the sample distribution. Ultimately,
+visualisations of the effects of certain statistical concepts might be necessary
+for people to use them appropriately.
+
+### How bounded is bounded rationality?
 
 The boundary between the cues that participants were able to use and the
 statistical concepts that they did not use is unclear. That is, the cues that
@@ -141,25 +149,27 @@ studied at a tertiary level, they can be understood when acted out or
 experienced.
 
 @clark1993 proposed a distinction between two levels of representing knowledge.
-At the implicit level an individual can only use a certain system of knowledge,
-while it is only at the explicit level that they develop insight into the
-system. For instance, young children can use closed class words such as "the" or
-"to", but only identify them as words later in development. Adults may have a
-similar distinction in knowledge representation. Concepts that can be used when
-experienced directly, such as in risky choice from experience, are not
+At the *implicit* level an individual can only make use of a certain system of
+knowledge, while it is only at the *explicit* level that they develop insight
+into that system. For instance, young children can use closed class words such
+as "the" or "to", but only identify them as words later in development. Adults
+may have a similar distinction in knowledge representation. Concepts that can be
+used when experienced directly, such as in risky choice from experience, are not
 represented in a way that they can be used when presented descriptively, such as
-in risky choice from description. This kind of distinction may explain the why
+in risky choice from description. This kind of distinction may explain why
 participants in the thesis experiments failed to use concepts that have been
 shown to be accessible to laypeople.
 
+### Expertise effects
+
 Future research should also investigate the potential expertise effects that may
-influence the findings in the thesis. This is important because of the potential
+influence the findings of the thesis. This is important because of the potential
 downstream effects of biased managerial decision-making. For instance, it is
 unclear to what extent psychological factors such as the ones discussed in this
-thesis may account for the finding that undiversified firms perform better than
-diversified firms. On the one hand, business professionals tend to work with
-numbers, so the effects found in this thesis may be less pronounced for them.
-For instance, @smith1991 reviewed the heuristics and biases literature and
+thesis may account for the finding that undiversified firms often perform better
+than diversified firms. On the one hand, business professionals tend to work
+with numbers, so the effects found in this thesis may be less pronounced for
+them. For instance, @smith1991 reviewed the heuristics and biases literature and
 concluded that certain cognitive biases are not as strong for accounting
 professionals as they are for naive participants.
 
@@ -171,11 +181,12 @@ to a set of projects than they would be if the risks were aggregated. Managers
 might be even more risk averse in these situations because of the increased
 stakes for their jobs. @lovallo2020 discussed the ways in which managers tend to
 have a blind spot for such project evaluations: they aggregate their personal
-stock market portfolio, but not their managerial one. Further,
+stock market portfolio, but not their intra-firm project portfolio.
+
 Chapter \@ref(alignment) found evidence of variance neglect for both laypeople
-and Masters of Management students. In the case of the work in
+and Masters of Management students. Further, in the case of the work in
 Chapter \@ref(anecdotes), it is possible that business managers prefer anecdotal
-accounts to inform their decisions because of their higher salience, compared to
+cases to inform their decisions because of their higher salience, compared to
 statistical data. Managers are also more likely to feel as if the situation is
 relevant to them, which acording to @freling2020 would suggest more anecdotal
 bias.

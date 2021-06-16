@@ -36,18 +36,18 @@ Participants read sets of fictional business projects for which to potentially
 allocate capital. The high alignment display was a table that listed various
 attributes for five projects (see
 Figure \@ref(fig:projects-alignment-high-materials-alignment-2)). The low
-alignment display had each project expressed as individual paragraphs that
-described the relevant attributes through full sentences (see
-Figure \@ref(fig:projects-alignment-low-materials-alignment-2)). For the high
-alignment display, the product was the same, and the concrete attributes were
-consistent, while in the low alignment display, each project was a different
-product with concrete attributes relevant to that project. For both alignment
-conditions each project description included an NPV.
+alignment display presented each project as individual paragraphs that described
+the relevant attributes with full sentences (see
+Figure \@ref(fig:projects-alignment-low-materials-alignment-2)). In the high
+alignment display, all projects were of the same product type and the concrete
+attributes were consistent. In the low alignment display, each project was of a
+different product with concrete attributes relevant to that project. For both
+alignment conditions, each project description included an NPV.
 
 This alignment manipulation was reinforced by visual presentation. The table
-format is better afforded by the high alignment condition because all the
-dimensions are shared. However, this confounds alignment with presentation
-style. This is addressed in Experiment 3 by equating the table format across
+format was better afforded by the high alignment condition because all the
+dimensions were shared. However, this confounded alignment with presentation
+style. This was addressed in Experiment 3 by equating the table format across
 both alignment conditions.
 
 (ref:projects-alignment-high-materials-alignment-2) An example of a high alignment display in Experiment 1.
@@ -109,13 +109,14 @@ file.path(
 ##### Additional measures
 
 Other measures were included apart from allocation. The stimuli and analyses for
-these are reported in the appendix. Specifically, participants were asked to
-forecast the future returns of the projects (see
-Appendix \@ref(forecasting-materials-alignment-2)), rank the projects (see
-Appendix \@ref(ranking-materials-alignment-2)), indicate their confidence in
-their decisions (see Appendix \@ref(confidence-materials-alignment-2)), and
+these measures are reported in Appendices \@ref(materials-alignment-2-appendix)
+and \@ref(results-alignment-2-appendix), respectively. Specifically,
+participants were asked to forecast the future returns of the projects (see
+Figure \@ref(fig:forecasting-materials-alignment-2)), rank the projects (see
+Figure \@ref(fig:ranking-materials-alignment-2)), indicate their confidence in
+their decisions (see Figure \@ref(fig:confidence-materials-alignment-2)), and
 justify their decisions (see
-Appendix \@ref(justification-materials-alignment-2)).
+Figure \@ref(fig:justification-materials-alignment-2)).
 
 #### Procedure
 

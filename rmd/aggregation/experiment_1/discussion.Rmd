@@ -1,13 +1,12 @@
 ### Discussion {#discussion-aggregation-1}
 
 Experiment 1 found evidence for most of the hypotheses. Specifically, people
-make more risky choices when considering those choices jointly on the same page,
-compared to on separate pages; and when they know how many choices were in the
-set. Further, the results show an interaction between project similarity and
-presentation, as well as tentative evidence that people are less risk averse
-when risky choices are aggregated for them. Exploratory analyses showed that
-participants' risk aversion seemed to decrease as they proceeded through the
-trials, but only when participants were aware of the number of projects.
+made more risky choices when considering those choices jointly on the same page,
+compared to on separate pages; and when they knew how many choices were in the
+set. Further, the results showed an interaction between project similarity and
+presentation. Exploratory analyses showed that participants' risk aversion
+decreased as they proceeded through the trials, but only when participants were
+aware of the number of projects.
 
 #### Presentation effect
 
@@ -16,7 +15,7 @@ aggregation explanation would mean that participants are combining the gambles
 into a mental representation of the probability distribution and then deciding
 based on the attractiveness of that distribution. A joint presentation of
 choices would facilitate this combination. On the other hand, people may also be
-using a sort of "naive" aggregation process when they are encouraged to group
+using a sort of naive aggregation process when they are encouraged to group
 their choices together. A naive aggregation explanation would suggest that
 participants in the joint condition are simply more likely to realise that a few
 big wins could offset a few losses. Participants could have been encouraged by
@@ -26,40 +25,39 @@ the gains of some projects will pay off the losses of the other projects.
 
 #### Awareness effect
 
-Experiment 1 found an awareness effect such that participants that viewed the
-projects separately were more likely to invest in the projects as the trials
-went on, regardless of the actual gambles. Having an awareness of the total
-number of projects in the set could increase the likelihood that participants
-would naively aggregate. Specifically, knowing the number of total projects
-might increase the salience of the idea that the gains of some projects will
-offset the losses of others, because it reinforces a focus on the entire set.
-Another possibility is that participants had a certain aspiration level
-[@lopes1996] that they were attempting to reach. This might mean that they
-invested more as the task proceeded after realising that the gambles were not
-becoming significantly more favourable. @barron2003 [p. 219] specifically did
-not tell participants about the number of gambles they would experience to
-"avoid an 'end of task' effect (e.g. a change in risk attitude)". @barron2003
-provided participants with feedback, but this should not be necessary for an
-aspiration level explanation since participants only need to be aware of the
-potential for certain gains.
+Experiment 1 found that participants that viewed the projects separately were
+more likely to invest in the projects as the trials went on, regardless of the
+actual gambles. Having an awareness of the total number of projects in the set
+could increase the likelihood that participants would naively aggregate.
+Specifically, knowing the number of total projects might increase the salience
+of the idea that the gains of some projects will offset the losses of others,
+because it reinforces a focus on the entire set. Another possibility is that
+participants had a certain aspiration level [@lopes1996] that they were
+attempting to reach. This might mean that they invested more as the task
+proceeded after realising that the gambles were not becoming significantly more
+favourable. @barron2003 [p. 219] specifically did not tell participants about
+the number of gambles they would experience to "avoid an 'end of task' effect
+(e.g. a change in risk attitude)". @barron2003 provided participants with
+feedback, but this should not be necessary for an aspiration level explanation
+since participants only need to be aware of the potential for certain gains.
 
 This result may also be due to a Gambler's fallacy effect or the law of small
 numbers. This effect is characterised by people's expectation of a pattern to
 follow the underlying distribution of the function that generates each
 component. For instance, someone observing the results of a coin flip that look
 like HTTHTTTT might anticipate that the likelihood of "heads" is higher than
-that of a "tails", despite the actual likelihood being 50% for either. This
-effect occurs in sequential decision-making, so may be relevant for the
-repeated-play decisions in Experiment 1. @barron2010 found that the gambler's
-fallacy (in a roulette prediction task) emerges when information about past
-outcomes was displayed sequentially, but not when it is displayed all at once.
-@haisley2008 found evidence for the gambler's fallacy with a repeated-play
-gamble paradigm. As such, it is possible that an effect such as the Gambler's
-fallacy can explain the effect of the awareness manipulation. That is,
-participants may have thought that after a few gambles that they considered
-risky, the last ones were more likely to materialise. Further, this would be
-more likely to occur for those that knew the total number of projects, because
-they knew when the sequence was approaching its end.
+that of "tails", despite the actual likelihood being 50% for either. This effect
+occurs in sequential decision-making, so may be relevant for the repeated-play
+decisions in Experiment 1. @barron2010 found that the gambler's fallacy (in a
+roulette prediction task) emerges when information about past outcomes was
+displayed sequentially, but not when it is displayed all at once. @haisley2008
+found evidence for the gambler's fallacy with a repeated-play gamble paradigm.
+As such, it is possible that an effect such as the Gambler's fallacy can explain
+the effect of the awareness manipulation. That is, participants may have thought
+that after a few gambles that they considered risky, the last ones were more
+likely to materialise. Further, this would be more likely to occur for those
+that knew the total number of projects, because they knew when the sequence was
+approaching its end.
 
 #### Similarity effect {#similarity-discussion-aggregation-1}
 
@@ -70,7 +68,7 @@ is harder to explain since it was not hypothesised. In fact, the results seem to
 suggest the opposite to what was originally expected. Initially, it was
 predicted that people would be less risk averse in the high similarity
 condition, due to the better ability to consider the isolated projects as a
-grouped set. Similarity was through to act as a broad bracket, and therefore
+grouped set. Similarity was thought to act as a broad bracket, and therefore
 increase aggregation. That is, it was expected that seeing a set of similar
 projects would help participants aggregate risk when seeing them separately,
 more than when projects are dissimilar. Instead, project acceptance was actually

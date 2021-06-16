@@ -14,30 +14,31 @@ on capital allocation decisions [@birshan2013]. This section will review some of
 the implications the findings of this thesis may have on both organisational
 policies and manager decision-making.
 
-The findings of Chapter \@ref(aggregation) show that the way that business
-projects are framed is important for the way that people perceive their risk.
-Specifically, in order to better account for the risks of business projects it
-is important to make it easier for managers to 1. group projects together,
-and 2. aggregate a portfolio of projects for them. This suggests implementing
-organisational changes that will facilitate the capital allocation process. For
-instance, @lovallo2020 suggested that companies change the frequency that they
-evaluate projects to better allow for an aggregation of the projects. Doing this
-will enable an explicit computation of the aggregated values and therefore a
-visualisation of the outcome probability distribution. Such a process could
-facilitate aggregation without a need to rely on managers' intuition during
-sequential project evaluation decisions.
+The findings of Chapter \@ref(aggregation) show that the way that the framing of
+business project proposals important for the way that people perceive their
+risk. Specifically, in order to better account for the risks of business
+projects it is important to 1. make it easier for managers to group projects
+together, and 2. aggregate a portfolio of projects for them. This suggests
+implementing organisational changes that will facilitate the capital allocation
+process. For instance, @lovallo2020 suggested that companies change the
+frequency that they evaluate projects to better allow for an aggregation of the
+projects. Doing this will enable an explicit computation of the aggregated
+values and therefore a visualisation of the outcome probability distribution.
+Such a process could facilitate aggregation without a need to rely on managers'
+intuition during sequential project evaluation decisions.
 
 One implication of Chapter \@ref(alignment) is that it is important to expose
-the variance underlying abstract financial measures. Further, translating such
-numerical variance estimates into clear verbal information would help facilitate
-managers' understanding and implementation of such estimates. Organisational
-changes could include reducing diversification so that there is less reliance on
-abstract metrics. This would allow for more of a comparison between alignable
-project attributes, potentially reducing forecast error. @koller2017 found that
-companies with more similar business units report faster growth and greater
-profitability than competitors, compared to companies with dissimilar business
-units. Further, companies can also work to develop better metrics and establish
-norms about how much to discount a metric given its underlying variance.
+the variance that underlies abstract financial measures. Further, translating
+such numerical variance estimates into clear verbal information would help
+facilitate managers' understanding and implementation of such estimates.
+Organisational changes could include reducing diversification so that there is
+less reliance on abstract metrics. This would allow for more of a comparison
+between alignable project attributes, potentially reducing forecast error.
+@koller2017 found that companies with more similar business units report faster
+growth and greater profitability than competitors, compared to companies with
+dissimilar business units. Further, companies can also work to develop better
+metrics and establish norms about how much to discount a metric given its
+underlying variance.
 
 The main implication of Chapter \@ref(anecdotes) is that managers should pay
 attention to the way that they compare target projects to other cases. It is
@@ -60,5 +61,5 @@ instance, the above effects all involve decisions that require an evaluation of
 financial forecast estimates such as future cash flows and the related
 uncertainty. Therefore, a further source of error could arise from the initial
 estimation of these probability and cash flow values. For instance, such
-estimates could be influenced by optimism or confidence biases, which can in
-turn be addressed [@flyvbjerg2018].
+estimates could be influenced by optimism or confidence biases. These biases,
+however, can in turn be addressed [@flyvbjerg2018].

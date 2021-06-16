@@ -22,23 +22,23 @@ descriptives_alignment_8$condition_allocation_table %>%
 Participants saw similar instructions to the previous experiments, with an added
 explanation of the NPV reliability information for each reliability type
 condition (see Appendix \@ref(instructions-materials-alignment-8-appendix)).
-Further, they completed a test of basic NPV understanding. This test was
-functioned also as an attention check as, although it was required to answer,
-the response should only be one of two letters.
+Further, they completed a test of basic NPV understanding. This test functioned
+also as an attention check as, although it was required to answer, the response
+should only be one of two letters.
 
 ##### Project display
 
-The project displays were similar to the previous experiments. However, here
+The project displays were similar to the previous experiments. Here, however,
 participants saw the same presentation style in both alignment conditions. Each
 display had a table describing the projects in the set, with ranking and
 allocation inputs. The project details were presented as dot points within the
 relevant cells of the table.
 Figure \@ref(fig:projects-alignment-low-reliability-explicit-low-materials-alignment-8)
-shows an example of a low alignment, low verbal reliability display and
+shows an example of a low alignment, low verbal reliability display; and
 Figure \@ref(fig:projects-alignment-high-reliability-implicit-high-materials-alignment-8)
 shows an example of a high alignment, high numerical reliability display.
 
-(ref:projects-alignment-low-reliability-explicit-low-materials-alignment-8) An example of a low alignment, low verbal reliability display in Experiment 3.
+(ref:projects-alignment-low-reliability-explicit-low-materials-alignment-8) An example of a low alignment, low verbal reliability display in Experiment 3.
 
 ```{r projects-alignment-low-reliability-explicit-low-materials-alignment-8, fig.cap = "(ref:projects-alignment-low-reliability-explicit-low-materials-alignment-8)"}
 file.path(
@@ -49,7 +49,7 @@ file.path(
   image_trim()
 ```
 
-(ref:projects-alignment-high-reliability-implicit-high-materials-alignment-8) An example of a high alignment, high numerical reliability display in Experiment 3.
+(ref:projects-alignment-high-reliability-implicit-high-materials-alignment-8) An example of a high alignment, high numerical reliability display in Experiment3.
 
 ```{r projects-alignment-high-reliability-implicit-high-materials-alignment-8, fig.cap = "(ref:projects-alignment-high-reliability-implicit-high-materials-alignment-8)"}
 file.path(
@@ -63,10 +63,10 @@ file.path(
 Three elements were counterbalanced: 1. the association of reliability amount
 and project set (two variations), 2. the association of business name with NPV
 (five latin square variations), and 3. project variation (five variations per
-alignment condition). Project variation meant the project type for the high
-alignment condition. For low alignment this meant the intrinsic feature variant
-for the relevant project type. Table column order and project display order were
-both randomised.
+alignment condition). For high alignment, project variation meant the project
+type. For low alignment, this meant the intrinsic feature variant for the
+relevant project type. Table column order and project display order were both
+randomised.
 
 ##### Interstitial
 

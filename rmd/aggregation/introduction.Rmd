@@ -34,8 +34,8 @@ multi-business firm to begin to estimate whether the output of a mine resulted
 in the expected return on investment. These are the decisions that this chapter
 investigates: sequences of large risky choices without immediate outcomes.
 
-Risk aggregation is the combination of probability and/or variance information
-associated with certain outcomes for the purpose of understanding that
+Risk aggregation is the combination of probability or variance information (or
+both) associated with certain outcomes for the purpose of understanding that
 information more comprehensively [@bjornsen2019]. However, the psychological
 literature suggests that this process may be difficult for people to use. Work
 on prospect theory [@kahneman1979] suggests that people's evaluation of gambles
@@ -60,19 +60,20 @@ set of independent gambles. However, most of this work provided participants
 with the outcomes of their choices before the subsequent choice. In these
 paradigms participants experienced individual outcomes from the eventual outcome
 distribution of the gambles, meaning that aggregation was confounded with
-learning. As mentioned above, in real-life there is usually a significant delay
-between the choice a person or firm makes and the outcome of that choice, and
-there are likely to be several interim choices in the meantime. This is
-especially true for business executives, who would typically have to wait months
-or years before beginning to understand the consequences of their decision, and
-even then the outcome may be unclear. However, previous work did not investigate
-the effect of choice bracketing on risky choice without feedback. This is
-surprising, since choice bracketing is exactly the kind of process that should
-promote aggregation in these more realistic decisions. As such, this chapter
-investigated new ways of encouraging participants to bracket their risky
-choices, but with a paradigm that involves a series of independent choices
-without feedback. In this way, the paradigm is more isometric with real-life
-risky choice.
+learning.
+
+As mentioned above, in real-life there is usually a significant delay between
+the choice a person or firm makes and the outcome of that choice, and there are
+likely to be several interim choices in the meantime. This is especially true
+for business executives, who would typically have to wait months or years before
+beginning to understand the consequences of their decision, and even then the
+outcome may be unclear. However, previous work did not investigate the effect of
+choice bracketing on risky choice without feedback. This is surprising, since
+choice bracketing is exactly the kind of process that should promote aggregation
+in these more realistic decisions. As such, this chapter investigated new ways
+of encouraging participants to bracket their risky choices, but with a paradigm
+that involves a series of independent choices without feedback. In this way, the
+paradigm is more isometric with real-life risky choice.
 
 ### Multi-play gambles
 
@@ -80,7 +81,7 @@ Despite the difficulties of risk aggregation, people seem to aggregate "naively"
 when considering multiple gambles. @samuelson1963 told of a colleague who
 rejected a gamble that involved a 50% chance of gaining $200 and a 50% of losing
 $100, despite the gamble's positive Expected Value (EV). That is, $200 \cdot
-0.5 - 100 \cdot 0.5 = +50$. Rejection of a positive EV gamble out of fear of the
+0.5 - 100 \cdot 0.5 = 50$. Rejection of a positive EV gamble out of fear of the
 possible loss is classic loss aversion. However, the same colleague said he
 would accept 100 plays of the same gamble. Samuelson argued that this choice is
 irrational.[^normative] Intuitively, it is clear that over the course of 100
@@ -95,7 +96,7 @@ gamble).[^terminology]
     However, a normative discussion is out of the scope of the present work.
 
 [^terminology]: This chapter uses the terminology for gamble types used in
-    @bristow2011 and @camilleri2013.
+    @bristow2011, and @camilleri2013.
 
 @wedell1994 replicated the @samuelson1963 anecdote experimentally with a gamble
 involving a potential gain of $100 and a potential loss of $50. Participants
@@ -111,13 +112,13 @@ seen when participants do not perceive gamble outcomes as fungible [@dekay2006;
 [@bristow2011].
 
 However, multi-play effects are likely robust, since there is also evidence that
-such gambles reduce a variety of cognitive biases, such as common-ratio effects
-[@keren1987; @keren1991; @dekay2006], preference reversals [@wedell1990],
-ambiguity aversion [@liu2009], and the illusion of control [@koehler1994].
-Participants are also more likely to use explicitly provided EVs in multi-play
-gambles [@li2003], show eye movements more congruent with an EV model than
-single-play gambles [@su2013], and judge multi-play gambles as riskier
-[@joag1990].
+such gambles reduce a variety of cognitive biases. These include common-ratio
+effects [@keren1987; @keren1991; @dekay2006], preference reversals
+[@wedell1990], ambiguity aversion [@liu2009], and the illusion of control
+[@koehler1994]. Participants are also more likely to use explicitly provided EVs
+in multi-play gambles [@li2003], show eye movements more congruent with an EV
+model than single-play gambles [@su2013], and judge multi-play gambles as
+riskier [@joag1990].
 
 People prefer multi-play gambles that are displayed with an aggregated outcome
 distribution of those gambles than those without [@benartzi1999;
@@ -131,8 +132,8 @@ fungible [@dekay2005]. However, when this effect is demonstrated, the multi-play
 gamble is usually set up such that its (binomial) outcome distribution shows a
 relatively low chance of losing any money and a very low chance of losing a lot
 of money. For instance, Figure \@ref(fig:samuelson-distribution-10) shows the
-outcome distribution of the @samuelson1963 gamble played 10 times. These kinds
-of outcome distributions do the aggregating work for the participants, making
+outcome distribution of the @samuelson1963 gamble played 10 times. Outcome
+distributions of this sort do the aggregating work for the participants, making
 the attractiveness of the multi-play gamble clearer. This work suggests that
 participants can comprehend and respond to aggregated risk, but that they
 struggle to compute the aggregation without external help.
@@ -151,11 +152,11 @@ with individual choices whose outcomes and outcome probabilities are different
 from one choice to another, and these choices occur at different points in time.
 In a business setting this can be seen in decisions about whether to invest in
 new projects; proposals and opportunities differ widely and occur at different
-times. Managers are not ever simply asked: "Here are 10 identical investments to
+times. Managers are not ever simply asked: "here are 10 identical investments to
 consider; do you want all or none of them?"
 
 In *repeated-play* (rather than multi-play) gamble paradigms, participants make
-decisions about a series of different gambles. Research using this paradigm
+decisions about a series of individual gambles. Research using this paradigm
 found that people are less risk averse both when outcomes for a series of
 gambles are evaluated less frequently and the subsequent decisions are made less
 frequently [@gneezy1997; @thaler1997; @bellemare2005; @beshears2016]. People are
@@ -180,11 +181,11 @@ settings, where any return on investment often takes years to manifest.
 
 Only a limited number of studies have used a repeated-play paradigm without
 feedback. For instance, @jessup2008 and @hertwig2004 investigated the effects of
-feedback in repeated-play gambles on the weighting of small probabilities, so
-therefore had a no-feedback control condition. Other work similarly used
-individual description-based gambles presented sequentially [e.g., @ert2013;
-@joag1990]. However, these studies did not attempt to facilitate participants'
-risk aggregation. @haisley2008 provided limited evidence for facilitating risk
+feedback in repeated-play gambles on the weighting of small probabilities, and
+had a no-feedback control condition. Other work similarly used individual
+description-based gambles presented sequentially [e.g., @ert2013; @joag1990].
+However, these studies did not attempt to facilitate participants' risk
+aggregation. @haisley2008 provided limited evidence for facilitating risk
 aggregation. They gave participants the opportunity to buy five (negative EV)
 lottery tickets, and either presented them one at a time, or together.
 Participants bought fewer tickets, when they considered them jointly, thereby
@@ -252,7 +253,7 @@ across decisions. @dekay2005 found that multi-play effects are not seen when
 choices are not considered fungible. For instance, participants aggregated
 across dollar amounts, but not across patients in a medical decision. As such,
 people may behave similarly when considering a set of dissimilar choices if they
-consider them not fungible.
+do not consider them fungible.
 
 There is further suggestive evidence that the similarity of a set of choices to
 one another will affect choice bracketing. Choices whose differences are easy to
@@ -289,7 +290,7 @@ bracketing because it forces a participant to view of all the components of a
 decision together. Participants may therefore be more likely to consider
 aggregating the risk involved in a set of choices when all those choices are in
 view. Joint presentation potentially reduces the working memory load otherwise
-needed to maintain those set of choices. As such, it is quite possible that a
+needed to maintain that set of choices. As such, it is quite possible that a
 combination of highly similar choices, presented jointly will lead to the
 highest likelihood of broad bracketing, and thus risk aggregation.
 
@@ -346,16 +347,16 @@ entire portfolio of choices represents a worthwhile risk.
 
 This chapter investigates risky choice in the context of business project
 investment internal to a company because this is a real-world context where
-choice bracketing is important and currently under-utilised [@lovallo2020]. The
-participants in my studies were taken from a population that does not have
-extensive managerial experience. However, in such a population a lack of risk
-aggregation is most likely more common, and the variables used here are readily
-applicable to the financial decisions that laypeople make. For instance, one of
-the real-world applications of the choice bracketing literature has been to use
-outcome distributions and increased time horizons to encourage investment in
-high risk, but high EV, retirement funds [e.g., @benartzi1999]. Otherwise,
+choice bracketing is important and currently under-appreciated [@lovallo2020].
+The participants in these experiments were taken from a population that does not
+have extensive managerial experience. However, in such a population a lack of
+risk aggregation is most likely more common, and the variables used here are
+readily applicable to the financial decisions that laypeople make. For instance,
+one of the real-world applications of the choice bracketing literature has been
+to use outcome distributions and increased time horizons to encourage investment
+in high risk, but high EV, retirement funds [e.g., @benartzi1999]. Otherwise,
 people typically prefer low risk, low EV, funds. Further, using laypeople
 eliminates potential differences in prior experience with the management-based
-decision-context. Future research will focus on managers with context-specific
+decision-context. Upcoming research will focus on managers with context-specific
 experience to investigate the effects of that experience.
 
