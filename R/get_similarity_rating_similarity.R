@@ -8,6 +8,6 @@
 ##' @param model_similarity_rating
 get_similarity_rating_similarity <- function(model_similarity_rating) {
   model_similarity_rating %>%
-    apa_print() %>%
+    apa_print(es = "pes", mse = FALSE) %>%
     pluck("full_result", "similarity")
 }

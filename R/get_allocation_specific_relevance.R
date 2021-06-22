@@ -19,15 +19,13 @@
 ##'     High similarity: positive correlation between allocation and specific
 ##'     relevance rating
 
-##' double check this
-
 ##' @return
 ##' @author Shir Dekel
 ##' @export
-##' @param data_analysis
-get_allocation_specific_relevance <- function(data_analysis) {
+##' @param data
+get_allocation_specific_relevance <- function(data) {
   emm_allocation_specific_relevance <-
-    data_analysis %>%
+    data %>%
     lm(
       allocation ~
       valence * similarity * relevance_specific_rating,
@@ -37,12 +35,12 @@ get_allocation_specific_relevance <- function(data_analysis) {
 
   individual <-
     emm_allocation_specific_relevance %>%
-    contrast(by = "valence") %>%
+    contrast(by = "valence", adjust =  "none") %>%
     apa_print() %>%
     pluck("full_result")
 
   emm_allocation_specific_relevance %>%
-    contrast(interaction = "pairwise", by = "valence") %>%
+    contrast(interaction = "pairwise", by = "valence", adjust =  "none") %>%
     apa_print() %>%
     pluck("full_result") %>%
     c(individual, .)
