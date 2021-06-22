@@ -139,6 +139,9 @@ tab:condition-allocation-alignment-5
 fig:plot-alignment-5-forecast-mean
 fig:plot-alignment-5-forecast-sd
 tab:condition-allocation-alignment-6
+fig:instructions-no-hint-alignment-6
+fig:instructions-salience-only-alignment-6
+fig:instructions-salience-hint-alignment-6
 fig:projects-alignment-6
 fig:plot-alignment-6-allocation
 fig:plot-alignment-6-ranking
@@ -205,7 +208,9 @@ materials-alignment-2
 instructions-materials-alignment-2
 projects-materials-alignment-2
 alignment-3
+method-alignment-2
 procedure-alignment-3
+results-alignment-2
 alignment-8
 interstitial-2
 anecdotes
