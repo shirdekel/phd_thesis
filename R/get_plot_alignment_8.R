@@ -3,9 +3,9 @@
 ##' @return
 ##' @author Shir Dekel
 ##' @export
-get_plot_alignment_8 <- function(data_clean_alignment_8) {
+get_plot_alignment_8 <- function(data = alignment8::data) {
   data_clean_filtered <-
-    data_clean_alignment_8 %>%
+    data %>%
     nest_by(
       id,
       reliability_amount,
@@ -20,7 +20,6 @@ get_plot_alignment_8 <- function(data_clean_alignment_8) {
     data_clean_filtered %>%
     get_omnibus_alignment_8("allocation") %>%
     afex_plot_alignment_8(dv_label = "Allocation (%)")
-
 
   ranking <-
     data_clean_filtered %>%
