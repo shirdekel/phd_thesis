@@ -3,39 +3,23 @@
 ##' @return
 ##' @author Shir Dekel
 ##' @export
-get_plot_alignment_4 <- function(data_clean_alignment_4) {
+get_plot_alignment_4 <- function(data = alignment4::data) {
   forecast_mean <-
-    data_clean_alignment_4 %>%
+    data %>%
     nest_by(
       id, forecast_mean,
       npv_amount, reliability_amount, alignment
     ) %>%
-    arrange(npv_amount) %>%
-    aov_ez(
-      id = "id",
-      dv = "forecast_mean",
-      between = c("alignment", "reliability_amount"),
-      within = "npv_amount",
-      data = .,
-      type = 2
-    ) %>%
+    get_omnibus_alignment_4("forecast_mean") %>%
     afex_plot_alignment_4("forecast_mean")
 
   forecast_sd <-
-    data_clean_alignment_4 %>%
+    data %>%
     nest_by(
       id, forecast_sd,
       npv_amount, reliability_amount, alignment
     ) %>%
-    arrange(npv_amount) %>%
-    aov_ez(
-      id = "id",
-      dv = "forecast_sd",
-      between = c("alignment", "reliability_amount"),
-      within = "npv_amount",
-      data = .,
-      type = 2
-    ) %>%
+    get_omnibus_alignment_4("forecast_sd") %>%
     afex_plot_alignment_4("forecast_sd")
 
   lst(
