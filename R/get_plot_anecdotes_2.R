@@ -77,7 +77,7 @@ get_plot_anecdotes_2 <- function(data = anecdotes2::data) {
   allocation_relevance_specific_similarity <-
     data %>%
     ggplot(aes_string(x = "relevance_specific_rating", y = "allocation", linetype = "similarity")) +
-    facet_grid(cols = vars(valence), rows = vars(anecdote_between)) +
+    facet_grid(cols = vars(valence)) +
     geom_point(alpha = 0.2) +
     geom_smooth(method = "lm", color = "black") +
     labs(
