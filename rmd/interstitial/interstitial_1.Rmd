@@ -27,7 +27,7 @@ evaluation. Framing a set of projects as a portfolio means that any subsequent
 success or failure of one project can be traced back to the entire batch, and
 the performance of the whole portfolio can be evaluated.
 
-usiness projects might not always be either accepted or rejected, as in
+Business projects might not always be either accepted or rejected, as in
 Chapter \@ref(aggregation). Instead, top-level managers might ask for project
 proposals from lower-level managers, and then allocate funds from the available
 budget. An organisation might also have a initial "culling" phase, and a

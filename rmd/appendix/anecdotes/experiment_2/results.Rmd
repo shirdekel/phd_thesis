@@ -4,22 +4,22 @@
 
 ##### Similarity manipulation check
 
-The similarity manipulation worked as expected, with the negative valence
-anecdote only low similarity condition being allocated significantly more than
-those in the high similarity condition,
-`r results_anecdotes_2$anecdotes_only_similarity$valence_negative`. In the
-positive valence condition, those in the high similarity condition allocation
-significantly more than those in the low similarity condition,
-`r results_anecdotes_2$anecdotes_only_similarity$valence_positive`
+The similarity manipulation worked as expected, with the negative anecdote only
+low similarity condition being allocated significantly more than those in the
+high similarity condition,
+`r results_anecdotes_2$allocation$anecdotes_only_similarity$valence_negative`. For positive
+anecdotes, participants allocated more to the high similarity condition than
+those in the low similarity condition,
+`r results_anecdotes_2$allocation$anecdotes_only_similarity$valence_positive`
 
 #### Ratings
 
 ##### Similarity manipulation check
 
-Our similarity manipulation seems to have worked, with participants rating
-anecdotes in the high similarity conditions as more similar to the target than
-those in the low similarity condition,
-`r results_anecdotes_2$similarity_rating_similarity`.
+Evidence for the similarity manipulation working was also seen in the rating
+data. Participants rated anecdotes in the high similarity condition as more
+similar to the target than those in the low similarity condition,
+`r results_anecdotes_2$follow_up$similarity_rating_similarity`.
 
 (ref:plot-anecdotes-2-similarity-rating) Mean similarity rating of Project A (the target project) to the anecdote. Error bars represent 95% confidence intervals.
 
@@ -32,30 +32,30 @@ plot_anecdotes_2$similarity
 As hypothesised, allocation was influenced by perceived similarity. That is, in
 the negative valence condition, there was a negative correlation between
 allocation and similarity rating,
-`r results_anecdotes_2$allocation_similarity_rating$negative_high_low`.
+`r results_anecdotes_2$follow_up$allocation_similarity_rating$negative_high_low`.
 However, in the positive valence condition,
 there was a positive correlation between allocation and similarity rating,
-`r results_anecdotes_2$allocation_similarity_rating$positive_high_low`.
+`r results_anecdotes_2$follow_up$allocation_similarity_rating$positive_high_low`.
 
 ##### The relationship between allocation and specific-relevance is moderated by similarity
 
-In the negative valence condition, there was a significant difference between
+In the negative valence condition, there was no significant difference between
 the slopes of the high and low similarity conditions,
-`r results_anecdotes_2$allocation_specific_relevance$high_low_negative`.
+`r results_anecdotes_2$follow_up$allocation_specific_relevance$high_low_negative`.
 In the low similarity condition, allocation and specific-relevance rating were
 not correlated,
-`r results_anecdotes_2$allocation_specific_relevance$negative_loweffect`,
-whereas, in the low similarity condition, they were correlated negatively
-`r results_anecdotes_2$allocation_specific_relevance$negative_higheffect`.
+`r results_anecdotes_2$follow_up$allocation_specific_relevance$negative_loweffect`,
+as in the low similarity condition,
+`r results_anecdotes_2$follow_up$allocation_specific_relevance$negative_higheffect`.
 
-In the positive valence condition, there was a significant difference between
+In the positive valence condition, there was no significant difference between
 the slopes of the high and low similarity conditions,
-`r results_anecdotes_2$allocation_specific_relevance$high_low_positive`.
+`r results_anecdotes_2$follow_up$allocation_specific_relevance$high_low_positive`.
 In the low similarity condition, allocation and specific-relevance rating were
 not correlated,
-`r results_anecdotes_2$allocation_specific_relevance$positive_loweffect`,
-whereas, in the low similarity condition, they were correlated positively
-`r results_anecdotes_2$allocation_specific_relevance$positive_higheffect`.
+`r results_anecdotes_2$follow_up$allocation_specific_relevance$positive_loweffect`,
+as in the low similarity condition,
+`r results_anecdotes_2$follow_up$allocation_specific_relevance$positive_higheffect`.
 
 ##### People do not consider general-relevance in their allocation
 

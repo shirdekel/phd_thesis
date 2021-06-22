@@ -2,7 +2,7 @@
 
 #### Participants
 
-`r descriptives_alignment_7$apa`. All conditions were presented within-subjects:
+`r descriptives_alignment_7$apa` All conditions were presented within-subjects:
 alignment (low and high), NPV reliability type (numerical and verbal), NPV
 amount (low and high), and NPV reliability amount (low and high).
 
@@ -25,8 +25,8 @@ participants had to compare between two railway projects, and then separately
 between two logistics projects, etc. However, in the low alignment display,
 participants had to compare railway projects to logistics projects directly.
 This was manipulated within-subjects, such that project descriptions were
-identical across alignment conditions and only the the type of comparison (and
-the associated preamble text).
+identical across alignment conditions and only the type of comparison (and the
+associated preamble text) varied.
 
 Figures \@ref(fig:alignment-low-reliability-explicit), \@ref(fig:alignment-low-reliability-implicit), \@ref(fig:alignment-high-reliability-explicit), \@ref(fig:alignment-high-reliability-implicit)
 show the four conditions that participants saw (counterbalanced). Each
@@ -35,7 +35,7 @@ of project, three specific features of the project, an NPV, and an indication of
 reliability (either numerical through ranges or verbal through explicit labels).
 
 
-```{r alignment-low-reliability-explicit, fig.cap = "Experiment 8 low alignment, verbal reliability display. Cropped for space (full display has eight projects)."}
+```{r alignment-low-reliability-explicit, fig.cap = "Experiment 8 low alignment, verbal reliability display. Cropped for space (full display had eight projects)."}
 file.path(
   materials_alignment_7,
   "alignment_low_reliability_type_explicit.png"
@@ -47,7 +47,7 @@ file.path(
   image_trim()
 ```
 
-```{r alignment-low-reliability-implicit, fig.cap = "Experiment 8 low alignment, numerical reliability display. Cropped for space (full display has eight projects)."}
+```{r alignment-low-reliability-implicit, fig.cap = "Experiment 8 low alignment, numerical reliability display. Cropped for space (full display had eight projects)."}
 file.path(
   materials_alignment_7,
   "alignment_low_reliability_type_implicit.png"
@@ -59,7 +59,7 @@ file.path(
   image_trim()
 ```
 
-```{r alignment-high-reliability-explicit, fig.cap = "Experiment 8 high alignment, high reliability display. Cropped for space (full display has eight projects)."}
+```{r alignment-high-reliability-explicit, fig.cap = "Experiment 8 high alignment, verbal reliability display. Cropped for space (full display had eight projects)."}
 file.path(
   materials_alignment_7,
   "alignment_high_reliability_type_explicit.png"
@@ -71,7 +71,7 @@ file.path(
   image_trim()
 ```
 
-```{r alignment-high-reliability-implicit, fig.cap = "Experiment 8 high alignment, numerical reliability display. Cropped for space (full display has eight projects)."}
+```{r alignment-high-reliability-implicit, fig.cap = "Experiment 8 high alignment, numerical reliability display. Cropped for space (full display had eight projects)."}
 file.path(
   materials_alignment_7,
   "alignment_high_reliability_type_implicit.png"
@@ -84,20 +84,20 @@ file.path(
 ```
 
 The value of each type of reliability was also manipulated. Explicit reliability
-was manipulated by varying whether participants were told that a project pair is
-in an industry in which NPV is considered a reliable or unreliable measure.
+was manipulated by varying whether participants were told that a project pair
+was in an industry in which NPV is considered a reliable or unreliable measure.
 Implicit reliability was manipulated by presenting NPVs alongside numerical
-ranges instead of verbal reliability information about them, and varying
-whether the range is high or low. Both of these were manipulated within-display,
-such that for four projects in each display NPV is reliable, and for four it is
-unreliable.
+ranges instead of verbal reliability information about them, and varying whether
+the range was high or low. Both of these were manipulated within-display, such
+that NPV was reliable for four projects in each display, and NPV was unreliable
+for the other four.
 
 Each project had an associated NPV, which was crossed with each project pair's
 intrinsic features. That is, each pair had one project with a high NPV and low
 intrinsic feature values, and one project with a low NPV and high intrinsic
-feature values. As such, we inferred a reliance on NPV if participants allocated
-the high NPV project more capital, or a reliance on the intrinsic features if
-participants allocated the low NPV project more capital.
+feature values. As such, a reliance on NPV was inferred if participants
+allocated the high NPV project more capital, or a reliance on the intrinsic
+features if participants allocated the low NPV project more capital.
 
 #### Procedure
 

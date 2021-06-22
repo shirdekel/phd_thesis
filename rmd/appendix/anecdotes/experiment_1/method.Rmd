@@ -4,38 +4,38 @@
 
 ##### Power analysis {#power-analysis-anecdotes-1}
 
-I determined the sample size for Experiment 1 by conducting power analyses using
-the `Superpower` package [@lakens2019]. The package uses experimental design,
-and predicted means and standard deviation, to conduct a priori power
-calculations. I used data from @wainberg2018, @jaramillo2019, and @hoeken2009
-[Study 3] to determine realistic means and standard deviations for the evidence
-and similarity factors, and then calculated the sample size that would allow for
-an expected power of at least 80% according to the power functions.
+The sample size for Experiment 1 was determined by conducting power analyses
+using the `Superpower` package [@lakens2019]. The package uses experimental
+design, and predicted means and standard deviation, to conduct a priori power
+calculations. Data from @wainberg2018, @jaramillo2019, and @hoeken2009 [Study 3]
+was used to determine realistic means and standard deviations for the evidence
+and similarity factors. According to the power functions, the resulting sample
+size is assumed to allow for an expected power of at least 80%.
 
-I used data from @wainberg2018 to determine the predicted means for the anecdote
-conditions. Specifically, I used the values from the anecdote + statistics,
-anecdote + enhanced statistics, and statistics only conditions as the values for
-my high similarity condition (because in @wainberg2018 the anecdote was always
-of a similar case) for the corresponding anecdote conditions. @wainberg2018 did
-not use an anecdote only condition, but @wainberg2013 did and found no
-significant differences between the anecdote only condition and the anecdote +
-statistics condition. As such, I used the same mean value for both these
+Data from @wainberg2018 were used to determine the predicted means for the
+anecdote conditions. Specifically, the values for the high similarity condition
+were taken from the anecdote & statistics, anecdote & enhanced statistics, and
+statistics only conditions for the corresponding anecdote conditions. This was
+done because in @wainberg2018 the anecdote was always of a similar case.
+@wainberg2018 did not use an anecdote only condition, but @wainberg2013 did and
+found no significant differences between the anecdote only condition and the
+anecdote & statistics condition. As such, the same mean value was used for both
 conditions.
 
-I hypothesised that there will only be an effect of similarity for the anecdote
-only and anecdote + statistics conditions. As such, I used the data from
-@hoeken2009 [Study 3] to determine the corresponding mean values for the low
-similarity condition. Specifically, I multiplied each predicted mean by the
-Cohen's $d_z$ of the similarity effect in @hoeken2009 [Study 3].
+It was hypothesised that there will only be an effect of similarity for the
+anecdote only and anecdote & statistics conditions. As such, the data from
+@hoeken2009 [Study 3] were used to determine the corresponding mean values for
+the low similarity condition. Specifically, each predicted mean was multiplied
+by the Cohen's $d_z$ of the similarity effect in @hoeken2009 [Study 3].
 
-To determine the predicted standard deviation, I re-analysed the data from
-@jaramillo2019 [Experiment 2] and @hoeken2009 [Study 3] to determine the
-coefficient of variation (CV) of each condition. I then converted them to a
+To determine the predicted standard deviation, the data from @jaramillo2019
+[Experiment 2] and @hoeken2009 [Study 3] were re-analysed to determine the
+coefficient of variation (CV) of each condition. Each CV was then converted to a
 standard deviation value in the relevant scale by multiplying the mean of the CV
 values by the predicted means from above.
 
 As seen in Figure \@ref(fig:power-analysis-anecdotes-1), the power analysis
-suggests that a minimum sample size of `r anecdotes1::power$n_total`
+suggested that a minimum sample size of `r anecdotes1::power$n_total`
 (`r anecdotes1::power$n` $\cdot$ 7) is required for the interaction effect with
 an expected power of at least 80%.
 
@@ -55,7 +55,7 @@ Figures \@ref(fig:specific-instructions-anecdote-only-materials-anecdotes-1), 
 and \@ref(fig:specific-instructions-statistics-only-materials-anecdotes-1) show
 the condition-specific instructions.
 
-(ref:general-instructions-materials-anecdotes-1) Experiment 1 general instructions. Note, the two boxes were split between two separate web-pages.
+(ref:general-instructions-materials-anecdotes-1) Experiment 1 general instructions. The two boxes were split between two separate web-pages.
 
 ```{r general-instructions-materials-anecdotes-1, fig.cap = "(ref:general-instructions-materials-anecdotes-1)"}
 general_instructions_1 <- file.path(
@@ -78,7 +78,7 @@ c(
   image_append(stack = TRUE)
 ```
 
-(ref:specific-instructions-anecdote-only-materials-anecdotes-1) Experiment 1 specific instructions for those in the anecdotes only condition.
+(ref:specific-instructions-anecdote-only-materials-anecdotes-1) Experiment 1 specific instructions for those in the anecdotes only condition.
 
 ```{r specific-instructions-anecdote-only-materials-anecdotes-1, fig.cap = "(ref:specific-instructions-anecdote-only-materials-anecdotes-1)"}
 file.path(
@@ -89,7 +89,7 @@ file.path(
   image_trim()
 ```
 
-(ref:specific-instructions-combined-materials-anecdotes-1) Experiment 1 specific instructions for those in the anecdote + statistics condition.
+(ref:specific-instructions-combined-materials-anecdotes-1) Experiment 1 specific instructions for those in the anecdote & statistics condition.
 
 ```{r specific-instructions-combined-materials-anecdotes-1, fig.cap = "(ref:specific-instructions-combined-materials-anecdotes-1)"}
 file.path(
@@ -100,7 +100,7 @@ file.path(
   image_trim()
 ```
 
-(ref:specific-instructions-enhanced-materials-anecdotes-1) Experiment 1 specific instructions for those in the anecdote + enhanced statistics condition.
+(ref:specific-instructions-enhanced-materials-anecdotes-1) Experiment 1 specific instructions for those in the anecdote & enhanced statistics condition.
 
 ```{r specific-instructions-enhanced-materials-anecdotes-1, fig.cap = "(ref:specific-instructions-enhanced-materials-anecdotes-1)"}
 file.path(
@@ -111,7 +111,7 @@ file.path(
   image_trim()
 ```
 
-(ref:specific-instructions-statistics-only-materials-anecdotes-1) Experiment 1 specific instructions for those in the statistics only condition.
+(ref:specific-instructions-statistics-only-materials-anecdotes-1) Experiment 1 specific instructions for those in the statistics only condition.
 
 ```{r specific-instructions-statistics-only-materials-anecdotes-1, fig.cap = "(ref:specific-instructions-statistics-only-materials-anecdotes-1)"}
 file.path(
@@ -126,19 +126,19 @@ file.path(
 
 A horizontally integrated company is one which is made up of multiple businesses
 that operate in similar markets, and may have previously been competitors
-(@gaughan2012). A vertically integrated company, on the other hand, is one which
+[@gaughan2012]. A vertically integrated company, on the other hand, is one which
 is made up of multiple business than operate in the same market, but in
-different levels of the supply chain (@gaughan2012a). A centralised
+different levels of the supply chain [@gaughan2012a]. A centralised
 organisational structure is one in which a company decisions tend to come from a
 specific business unit or leader, whereas a decentralised structure is one in
 which decisions can be made by separate units or people independently
-(@kenton2021).
+[@kenton2021].
 
 ##### Follow-up {#follow-up-materials-anecdotes-1}
 
 Figure \@ref(fig:follow-up-materials-anecdotes-1) shows the follow-up questions.
 
-(ref:follow-up-materials-anecdotes-1) Follow-up questions in Experiment 1.
+(ref:follow-up-materials-anecdotes-1) Follow-up questions in Experiment 1.
 
 ```{r follow-up-materials-anecdotes-1, fig.cap = "(ref:follow-up-materials-anecdotes-1)"}
 file.path(

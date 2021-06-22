@@ -1,50 +1,53 @@
 ## Experiment 1 {#anecdotes-1-appendix}
 
-``` {hypothesis, similarity-check-anecdotes-1, name = "Similarity manipulation check for negative anecdote", echo = TRUE}
-In the negative valence condition, allocations for the anecdote only low
-similarity condition will be higher than those in the anecdote only high
-similarity condition.
+Below are hypotheses that were tested, but were not sufficiently relevant for
+Chapter \@ref(anecdotes) to be reported in the main text.
+
+```{hypothesis, similarity-check-anecdotes-1, name = "Allocation similarity manipulation check for negative anecdote", echo = TRUE}
+For negative anecdotes, allocations for the anecdote only low similarity
+condition will be higher than those in the anecdote only high similarity
+condition.
 ```
 
-``` {hypothesis, allocation-similarity-anecdotes-1, name = "Relationship between allocation and perceived similarity for positive anecdote", echo = TRUE}
+```{hypothesis, allocation-similarity-anecdotes-1, name = "Relationship between allocation and perceived similarity for negative anecdote", echo = TRUE}
 In the negative valence condition, the correlation between allocation and
 similarity rating will be negative
 ```
 
-``` {hypothesis, allocation-specific-relevance-anecdotes-1, name = "Relationship between allocation and specific-relevance for positive anecdote", echo = TRUE}
+```{hypothesis, allocation-specific-relevance-anecdotes-1, name = "Relationship between allocation and specific-relevance for negative anecdote", echo = TRUE}
 In the negative valence condition, there will be no correlation between
 allocation and specific-relevance rating in the low similarity condition, but a
 negative correlation in the high similarity condition.
 ```
 
-After the allocation task, I asked participants to rate the relevance of the
-anecdote to the target project. I predicted that those that saw only an
+After the allocation task, participants were asked to rate the relevance of the
+anecdote to the target project. It was predicted that those that saw only an
 anecdote would be more influenced by the similarity of the anecdote than those
 that saw an anecdote as well as statistics. Therefore, the following hypotheses
-are tested:
+were tested:
 
-``` {hypothesis, relevance-specific-anecdotes-1, echo = TRUE}
+```{hypothesis, relevance-specific-anecdotes-1, echo = TRUE}
 The similarity effect on specific relevance will be greater in the anecdote only
 condition than in the anecdote + statistics condition.
 ```
 
-``` {hypothesis, relevance-specific-enhanced-anecdotes-1, echo = TRUE}
+```{hypothesis, relevance-specific-enhanced-anecdotes-1, echo = TRUE}
 The similarity effect on specific relevance will be greater in the statistics +
 anecdote condition than in the anecdote + enhanced statistics condition.
 ```
 
-Further, I asked participants to rate the relevance of the anecdote to other
-projects in the same industry. I predicted that those that saw only an anecdote
+Further, participants were asked to rate the relevance of the anecdote to other
+projects in the same industry. It was predicted that those that saw only an anecdote
 would be more influenced by the similarity of the anecdote than those that saw
 an anecdote as well as statistics. Therefore, the following hypotheses are
 tested:
 
-``` {hypothesis, relevance-general-anecdotes-1, echo = TRUE}
+```{hypothesis, relevance-general-anecdotes-1, echo = TRUE}
 The similarity effect on general relevance will be greater in the anecdote only
 condition than in the anecdote + statistics condition.
 ```
 
-``` {hypothesis, relevance-general-enhanced-anecdotes-1, echo = TRUE}
+```{hypothesis, relevance-general-enhanced-anecdotes-1, echo = TRUE}
 The similarity effect on general relevance will be greater in the statistics +
 anecdote condition than in the anecdote + enhanced statistics condition.
 ```

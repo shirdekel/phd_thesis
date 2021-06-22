@@ -37,7 +37,7 @@ the finding in Experiment 1 that participants in the aware condition seemed to
 become more risk-taking as the experiment progressed, Experiment 2 tested the
 following:
 
-``` {hypothesis, awareness-trials-aggregation-2, name = "Interaction of trial number and awareness", echo = TRUE}
+```{hypothesis, awareness-trials-aggregation-2, name = "Interaction of trial number and awareness", echo = TRUE}
 Participants will make more risky choices as the trials progress, but only when
 they are aware of the total number of projects in the set.
 ```
@@ -46,7 +46,7 @@ Further, multi-play gambles with outcome distributions have been shown to reduce
 risk aversion compared to multi-play gambles without distributions [e.g.,
 @redelmeier1992; @webb2017]. Therefore, Experiment 2 tested the following:
 
-``` {hypothesis, distribution-aggregation-2, name = "Distribution effect", echo = TRUE}
+```{hypothesis, distribution-aggregation-2, name = "Distribution effect", echo = TRUE}
 Participants will make more risky choices when presented with an aggregated
 outcome distribution than when making the same decisions individually.
 ```

@@ -1,4 +1,4 @@
-## Experiment 3 {#aggregation-3}
+## Experiment 3 {#aggregation-3}
 
 ```{r setup-aggregation-3}
 tar_load(descriptives_aggregation_3)
@@ -7,9 +7,10 @@ tar_load(results_aggregation_3)
 tar_load(plot_aggregation_3)
 ```
 
-Experiment 3 investigated the effect of similarity on project choice. The
+Experiment 3 investigated the effect of similarity on project choice. The
 previous experiments did not counterbalance the project domain when displaying
-the 10 projects to participants. In Experiment 3, I used 10 different potential
+the 10 projects to participants. Experiment 3 used 10 different potential
 business domains when constructing the project descriptions in order to reduce
-any potential effect that the specific domain may have on people's choice. I
-again tested Hypothesis \@ref(hyp:similarity-aggregation-1).
+any potential effect that the specific domain may have on people's choice.
+Therefore, Experiment 3 again tested
+Hypothesis \@ref(hyp:similarity-aggregation-1).

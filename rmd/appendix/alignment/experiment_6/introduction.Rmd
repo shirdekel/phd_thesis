@@ -1,4 +1,4 @@
-## Experiment 6
+## Experiment 6
 
 ```{r setup-alignment-5}
 tar_load(descriptives_alignment_5)
@@ -6,10 +6,10 @@ tar_load(results_alignment_5)
 tar_load(plot_alignment_5)
 ```
 
-Experiment 6 further investigated the effects of alignment and NPV Presence
-information on forecasting. In Experiment 5 I did not clearly replicate the
-forecasting results of Experiment 1, potentially due to low power, so in this
-experiment I collected a much larger sample size. As before, I hypothesised that
-people’s forecasting would be less variable when comparing projects with
+Experiment 6 further investigated the effects of alignment and NPV Presence
+information on forecasting. Experiment 5 did not clearly replicate the
+forecasting results of Experiment 1, potentially due to low power, so this
+experiment collected a much larger sample size. As before, it was hypothesised
+that people’s forecasting would be less variable when comparing projects with
 alignable differences, than when comparing projects with non-alignable
 differences.

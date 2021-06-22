@@ -2,10 +2,10 @@
 
 #### Project investment
 
-The project investment data was analysed as proportions of choice per
+The project investment data were analysed as proportions of choice per
 participant, as in Experiment 1. Each experimental condition was compared to the
 same control condition (separate presentation, naive awareness, and distribution
-absent). Figure \@ref(fig:plot-aggregation-2-proportion) shows this data. The
+absent). Figure \@ref(fig:plot-aggregation-2-proportion) shows these data. The
 difference between presentation conditions was not significant,
 `r results_aggregation_2$proportion$presentation`. Similarly, the
 difference between awareness conditions was not significant,

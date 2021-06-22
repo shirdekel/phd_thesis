@@ -51,7 +51,7 @@ Figures \@ref(fig:plot-simulation-anecdotes-2-negative)
 and \@ref(fig:plot-simulation-anecdotes-2-positive)). Therefore, Experiment 2
 tested the following:
 
-``` {hypothesis, three-way-anecdotes-2, name = "Overall effect", echo = TRUE}
+```{hypothesis, three-way-anecdotes-2, name = "Overall effect", echo = TRUE}
 Three-way interaction of similarity $\times$ valence $\times$ anecdote,
 excluding statistics only
 ```
@@ -61,7 +61,7 @@ Therefore, as well as again testing
 Hypothesis \@ref(hyp:anecdote-similarity-anecdotes-1) for negative anecdotes,
 Experiment 2 tested the following:
 
-``` {hypothesis, anecdote-similarity-anecdotes-2, name = "Anecdotal bias moderated by similarity for positive anecdotes", echo = TRUE}
+```{hypothesis, anecdote-similarity-anecdotes-2, name = "Anecdotal bias moderated by similarity for positive anecdotes", echo = TRUE}
 For positive anecdotes, allocations will be higher in the statistics only
 condition than in both the anecdote & statistics conditions (high and low
 similarity). Within these two anecdote & statistics conditions, allocations will
@@ -73,13 +73,13 @@ Experiment 1 found that participants do somewhat integrate statistics in their
 decisions. This effect was expected to replicate in Experiment 2. Therefore,
 Experiment 2 tested the following:
 
-``` {hypothesis, statistics-negative-anecdotes-2, name = "Effect of statistics for negative anecdotes", echo = TRUE}
+```{hypothesis, statistics-negative-anecdotes-2, name = "Effect of statistics for negative anecdotes", echo = TRUE}
 For negative anecdotes, allocations will be higher for the high similarity
 anecdote & statistics condition than for the high similarity anecdote only
 condition.
 ```
 
-``` {hypothesis, statistics-positive-anecdotes-2, name = "Effect of statistics for positive anecdotes", echo = TRUE}
+```{hypothesis, statistics-positive-anecdotes-2, name = "Effect of statistics for positive anecdotes", echo = TRUE}
 For positive anecdotes, allocations will be higher for the high similarity
 anecdote only condition than for the high similarity statistics & anecdote
 condition.

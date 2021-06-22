@@ -1,6 +1,5 @@
 ### Discussion
 
-Experiment 6 did not replicate the findings of Experiment 1, finding
-contradictory effects of alignment on forecast variance. However, participants
-still seemed to pay attention to the task, as seen in their higher forecasts for
-the high NPV project when NPV was present.
+Experiment 6 did not replicate the effect of alignment on forecast SD seen in
+Experiment 1. However, participants still seemed to pay attention to the task,
+as seen in their higher forecasts for the high NPV project when NPV was present.

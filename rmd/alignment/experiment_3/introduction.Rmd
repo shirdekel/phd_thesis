@@ -39,7 +39,7 @@ Hypotheses \@ref(hyp:three-way-alignment-2), \@ref(hyp:allocation-alignment-al
 and \@ref(hyp:allocation-alignment-low-alignment-2) for the verbal reliability
 condition, Experiment 3 tested the following:
 
-``` {hypothesis, four-way-alignment-8, name = "Overall effect", echo = TRUE}
+```{hypothesis, four-way-alignment-8, name = "Overall effect", echo = TRUE}
 The alignment $\times$ reliability amount $\times$ reliability type $\times$ NPV
 amount interaction will be significant, such that the effects hypothesised above
 will be seen in the verbal reliability condition, but none of these effects

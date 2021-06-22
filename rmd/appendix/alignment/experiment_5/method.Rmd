@@ -12,15 +12,13 @@ descriptives_alignment_4$condition_allocation_table %>%
 
 #### Materials
 
-##### Instructions
-
 ##### Risky investment task
 
-We only used the forecasting task used in Experiment 1, except that it was fixed
-by adding the relevant percentage intervals that were left out in Experiment 1,
-seen in Figure \@ref(fig:forecasting-alignment-4).
+The only task that was used was the forecasting task used in Experiment 1,
+except that it was fixed by adding the relevant percentage intervals that were
+left out in Experiment 1, seen in Figure \@ref(fig:forecasting-alignment-4).
 
-(ref:forecasting-alignment-4) An example of the forecasting task in Experiment 5.
+(ref:forecasting-alignment-4) An example of the forecasting task in Experiment 5. Border added for clarity.
 
 ```{r forecasting-alignment-4, fig.cap = "(ref:forecasting-alignment-4)"}
 file.path(
@@ -28,10 +26,12 @@ file.path(
   "forecasting.png"
 ) %>%
   image_read() %>%
-  image_trim()
+  image_trim() %>%
+  image_border(color = "white", geometry = "5x5") %>%
+  image_border(color = "black", geometry = "5x5")
 ```
 
 #### Procedure
 
-The procedure was the same as in Experiment 1, except participants only
+The procedure was the same as in Experiment 1, except participants only
 completed the forecasting task.

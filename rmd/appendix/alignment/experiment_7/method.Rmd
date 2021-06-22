@@ -10,16 +10,78 @@ descriptives_alignment_6$condition_allocation_table %>%
   apa_table("Experiment 7 group allocation.")
 ```
 
-#### Materials
+#### Instructions
 
-The materials were similar to Experiment 1, as the same laptop displays were
-used, but I added the *Cash inflow range* row to the table (see
-Figure \@ref(fig:projects-alignment-6)). Further, participants in the No Hint
-condition saw the same instructions as in Experiment 1, those in the Salience
-Only condition saw the instructions along with a sentence that draws attention
-to the *Cash inflow range* row, and those in the Salience + Hint condition saw
-the instructions along with a specific description of how to use the variance
-information in their allocation decisions.
+As seen in Figure \@ref(fig:instructions-no-hint-alignment-6), participants in
+the no hint condition saw the same instructions as in Experiment 1. As seen in
+Figure \@ref(fig:instructions-salience-only-alignment-6), those in the salience
+only condition saw the instructions along with a sentence that drew attention to
+the *Cash inflow range* row. As seen in
+Figure \@ref(fig:instructions-salience-hint-alignment-6), those in the
+salience + hint condition saw the instructions along with a specific description
+of how to use the variance information in their allocation decisions.
+
+(ref:instructions-no-hint-alignment-6) Instructions for the no hint condition. Border added for clarity.
+
+```{r instructions-no-hint-alignment-6, fig.cap = "(ref:instructions-no-hint-alignment-6)"}
+file.path(
+  materials_alignment_6,
+  "instructions_no_hint.png"
+) %>%
+  image_read() %>%
+  image_contrast() %>%
+  image_trim() %>%
+  image_border(color = "white", geometry = "5x5") %>%
+  image_border(color = "black", geometry = "5x5")
+```
+
+(ref:instructions-salience-only-alignment-6) Instructions for the salience only condition. Border added for clarity.
+
+```{r instructions-salience-only-alignment-6, fig.cap = "(ref:instructions-salience-only-alignment-6)"}
+file.path(
+  materials_alignment_6,
+  "instructions_salience_only.png"
+) %>%
+  image_read() %>%
+  image_trim() %>%
+  image_border(color = "white", geometry = "5x5") %>%
+  image_border(color = "black", geometry = "5x5")
+```
+
+(ref:instructions-salience-hint-alignment-6) Instructions for the salience + hint condition. Border added for clarity.
+
+```{r instructions-salience-hint-alignment-6, fig.cap = "(ref:instructions-salience-hint-alignment-6)"}
+no_hint <-
+  file.path(
+    materials_alignment_6,
+    "instructions_no_hint.png"
+  ) %>%
+  image_read() %>%
+  image_trim()
+
+salience_hint <-
+  file.path(
+    materials_alignment_6,
+    "instructions_salience_hint.png"
+  ) %>%
+  image_read() %>%
+  image_trim() %>%
+  image_border(color = "white", geometry = "0x30")
+
+c(
+  no_hint,
+  salience_hint
+) %>%
+  image_append(stack = TRUE) %>%
+  image_trim() %>%
+  image_border(color = "white", geometry = "5x5") %>%
+  image_border(color = "black", geometry = "5x5")
+```
+
+#### Project display
+
+The project displays were the same as Experiment 2 (see
+Figure \@ref(fig:projects-alignment-6)).
 
 (ref:projects-alignment-6) The projects display.
 
@@ -34,6 +96,6 @@ file.path(
 
 #### Procedure
 
-Participants completed a demographics page, read the instruction page as per
-their Hint condition, and then proceeded to complete one set of allocations.
+Participants read the instruction page as per their hint condition, and then
+proceeded to complete one set of ranking and allocations.
 

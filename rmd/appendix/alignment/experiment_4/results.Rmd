@@ -18,7 +18,7 @@ trend of NPV amount was stronger in the low alignment,
 condition, `r results_alignment_1$allocation$linear_high`. However, neither of
 these trends were individually significant.
 
-(ref:plot-alignment-1-allocation) Mean project allocation in Experiment 4. Error bars represent 95% confidence intervals based on the multivariate model. Note that this mixed factorial design does not allow for using confidence intervals to make inferences by "eye" across conditions.
+(ref:plot-alignment-1-allocation) Mean project allocation in Experiment 4. Error bars represent 95% confidence intervals based on the multivariate model. Note that this mixed factorial design does not allow for using confidence intervals to make inferences by "eye" across conditions.
 
 ```{r plot-alignment-1-allocation, fig.cap = "(ref:plot-alignment-1-allocation)"}
 plot_alignment_1$allocation
@@ -34,7 +34,7 @@ allocations. As seen in Figure \@ref(fig:plot-alignment-1-confidence), the
 difference between alignment conditions was not significant,
 `r results_alignment_1$confidence$alignment`. However, the reliability $\times$
 alignment interaction was significant, as well as the NPV amount $\times$
-alignment interaction. I conducted an exploratory analysis of the relevant
+alignment interaction. An exploratory analysis was conducted of the relevant
 simple effects for each interaction, applying a Šidák correction to the p values
 for each effect. None of the simple effects were significant after the
 correction.

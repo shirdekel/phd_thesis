@@ -7,7 +7,7 @@
 Participants were shown the instructions in
 Figure \@ref(fig:instructions-materials-aggregation-1).
 
-(ref:instructions-materials-aggregation-1) Experiment 1 instructions.
+(ref:instructions-materials-aggregation-1) Experiment 1 instructions. Border added for clarity.
 
 ```{r instructions-materials-aggregation-1, fig.cap = "(ref:instructions-materials-aggregation-1)"}
 file.path(
@@ -15,7 +15,9 @@ file.path(
   "instructions.png"
 ) %>%
   image_read() %>%
-  image_trim()
+  image_trim() %>%
+  image_border(color = "white", geometry = "5x5") %>%
+  image_border(color = "black", geometry = "5x5")
 ```
 
 ##### Outcome distribution decision
@@ -23,7 +25,7 @@ file.path(
 Figure \@ref(fig:project-choice-aggregated-aggregation-1) shows the outcome
 distribution display that participants saw in Experiment 1.
 
-(ref:project-choice-aggregated-aggregation-1) The outcome distribution of the 10 gambles used in Experiment 1.
+(ref:project-choice-aggregated-aggregation-1) The outcome distribution of the 10 gambles used in Experiment 1. Border added for clarity.
 
 ```{r project-choice-aggregated-aggregation-1, fig.cap = "(ref:project-choice-aggregated-aggregation-1)"}
 file.path(
@@ -31,7 +33,9 @@ file.path(
   "project_choice_aggregated.png"
 ) %>%
   image_read() %>%
-  image_trim()
+  image_trim() %>%
+  image_border(color = "white", geometry = "5x5") %>%
+  image_border(color = "black", geometry = "5x5")
 ```
 
 ##### Follow-up gambles {#follow-up-materials-aggregation-1-appendix}
@@ -39,10 +43,11 @@ file.path(
 ###### Negative EV gambles
 
 It was important to make sure that participants were generally making decisions
-that the sample was not abnormally risk tolerant. As such, participants saw two
-project decisions that had a negative EV. Out of the
-`r descriptives_aggregation_1$total*2` negative EV gambles included (two per
-participant), all but `r results_aggregation_1$neg_sum_apa` were rejected.
+that were in line with EV theory and that the sample was not abnormally risk
+tolerant. As such, participants saw two project decisions that had a negative
+EV. Out of the `r descriptives_aggregation_1$total*2` negative EV gambles
+included (two per participant), all but `r results_aggregation_1$neg_sum_apa`
+were rejected.
 
 ###### @samuelson1963 gambles
 
@@ -50,7 +55,7 @@ Participants saw the original @samuelson1963 gamble, were asked whether they
 would accept 10 of that gamble, and whether they would accept those 10 given the
 associated outcome distribution. They then saw the same three questions, but
 using outcome magnitudes that were similar to the ones in the risky investment
-task. That is, instead of $100, $100 million.
+task. That is, $100 million instead of $100.
 
 ###### @redelmeier1992 gambles
 

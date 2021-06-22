@@ -1,4 +1,4 @@
-## Experiment 7 {#alignment-6}
+## Experiment 7 {#alignment-6}
 
 ```{r setup-alignment-6}
 tar_load(descriptives_alignment_6)
@@ -7,16 +7,16 @@ tar_load(results_alignment_6)
 tar_load(plot_alignment_6)
 ```
 
-Experiment 7 investigated potential ways to facilitate people's use of variance
+Experiment 7 investigated potential ways to facilitate people's use of variance
 in capital allocation. Arguably, people's decisions should be moderated by
 variance, especially with a small set of projects. That is, when considering
 between two potential measures to use for capital allocation, underlying
 variance should serve as a moderator for decision making, with measures with
-narrow ranges being relied upon more than those with wider ranges. As such, in
-this experiment I presented participants with the same capital allocation
-scenario as in Experiment 1, but only in low numerical reliability displays. I
-varied both the variance associated with NPV, and the extent to which I
-explicitly hinted to them to use the variance information. I predicted that
-participants would be more likely to moderate their allocations through variance
-when told explicitly to do so with increased salience for variance, than when
-only salience is increase, or when no hint is given.
+narrow ranges being relied upon more than those with wider ranges. As such, this
+experiment presented participants with the same capital allocation scenario as
+in Experiment 2, but only in low numerical reliability displays. Experiment 7
+varied both the variance associated with NPV, and the extent to which
+participants were explicitly hinted to use the variance information. It was
+predicted that participants would be more likely to moderate their allocations
+through variance when told explicitly to do so with increased salience for
+variance, than when only salience is increase, or when no hint is given.

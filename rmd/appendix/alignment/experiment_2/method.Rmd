@@ -70,10 +70,10 @@ file.path(
 
 ##### NPV knowledge ratings {#npv-knowledge-materials-alignment-3}
 
-I used a similar design to @long2018 [Study 1] to test whether this sample may
-be overconfident in their understanding on NPV. Therefore, I asked participants
-to rate their knowledge of NPV in various points in the study (see the
-[procedure](#procedure-alignment-3)).
+A similar design to @long2018 [Study 1] was used to test whether this sample may
+be overconfident in their understanding on NPV. Therefore, participants were
+asked to rate their knowledge of NPV in various points in the study (see the
+procedure in Section \@ref(procedure-alignment-3)).
 
 (ref:npv-knowledge-materials-alignment-3) Experiment 2 NPV knowledge rating task. Border added for clarity.
 
@@ -89,7 +89,12 @@ file.path(
   image_border(color = "black", geometry = "5x5")
 ```
 
+\newpage
+\newpage
+
 ##### Variance lecture {#variance-lecture-materials-alignment-3}
+
+See below the slides for the variance lecture.
 
 ```{r, eval=knitr::is_html_output(), out.width='100%', out.height='1000px'}
 file.path(
@@ -101,6 +106,7 @@ file.path(
 
 ```{r, results='asis', eval=knitr::is_latex_output(), linewidth = 70}
 ## From https://ulyngs.github.io/oxforddown/customisations-and-extensions.html#embed-pdf
+## \fbox added from https://tex.stackexchange.com/a/20641/233976
 
 pdf_width <- 1.2
 
@@ -115,11 +121,11 @@ split_path %>%
   # for each PDF page, insert it nicely and
   # end with a page break
   paste0(
-    "\\begin{center} \\makebox[\\linewidth][c]{\\includegraphics[width=",
+    "\\begin{center} \\makebox[\\linewidth][c]{\\fbox{\\includegraphics[width=",
     pdf_width,
     "\\linewidth]{",
     .,
-    "}} \\end{center}"
+    "}}} \\end{center}\n"
   ) %>%
   cat()
 ```

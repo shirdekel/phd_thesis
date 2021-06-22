@@ -4,26 +4,26 @@
 
 ##### Power analysis {#power-analysis-anecdotes-2}
 
-I conducted a power analysis through simulation of the effects implied by the
-hypotheses in [Experiment 2](#anecdotes-2). I simulated data with the same mean
-values as Experiment 1 for the effects that were previously significant (i.e.,
-similarity, statistics, and moderation effects), and no effect for the
-differences that were non-significant (as shown in
+A power analysis was conducted through simulation of the effects implied by the
+hypotheses in Experiment 2. Data were simulated with the same mean values as
+Experiment 1 for the effects that were previously significant (i.e., similarity,
+statistics, and moderation effects), and no effect for the differences that were
+non-significant (as shown in
 Figures \@ref(fig:plot-simulation-anecdotes-2-negative)
-and \@ref(fig:plot-simulation-anecdotes-2-positive)). The null effect is
+and \@ref(fig:plot-simulation-anecdotes-2-positive)). The null effect was
 analysed using the two one-sided tests (TOST) procedure, or *equivalence*
 testing [@lakens2018], and setting the smallest effect size of interest to the
 smallest difference that leads to a significant equivalence between the combined
-low similarity and statistics only conditions in Experiment 1.
-Figure \@ref(fig:power-analysis-anecdotes-2) shows the results of this analysis.
-The analysis suggests a total sample size of `r anecdotes2::power$n_total`
+low similarity and statistics only conditions in Experiment 1.
+Figure \@ref(fig:power-analysis-anecdotes-2) shows the results of this analysis,
+which suggested a total sample size of `r anecdotes2::power$n_total`
 (`r anecdotes2::power$n` $\times$ 2).
 
 \newpage
 
 \blandscape
 
-(ref:power-analysis-anecdotes-2) Anecdotes Experiment 2 power curve. Labels indicate lowest sample size above 80% power.
+(ref:power-analysis-anecdotes-2) Anecdotes Experiment 2 power curve. Labels indicate lowest sample size above 80% power.
 
 ```{r power-analysis-anecdotes-2, fig.width = 13, fig.height = 7, fig.cap = "(ref:power-analysis-anecdotes-2)"}
 anecdotes2::power$power_curve
@@ -43,7 +43,7 @@ Figures \@ref(fig:specific-instructions-anecdote-only-materials-anecdotes-2), 
 and \@ref(fig:specific-instructions-statistics-only-materials-anecdotes-2) show
 the condition-specific instructions.
 
-(ref:general-instructions-materials-anecdotes-2) General instructions for Experiment 1. Border added for clarity.
+(ref:general-instructions-materials-anecdotes-2) General instructions for Experiment 2.
 
 ```{r general-instructions-materials-anecdotes-2, fig.cap = "(ref:general-instructions-materials-anecdotes-2)"}
 file.path(
@@ -54,7 +54,7 @@ file.path(
   image_trim()
 ```
 
-(ref:specific-instructions-anecdote-only-materials-anecdotes-2) Experiment 2 specific instructions for those in the anecdotes only condition.
+(ref:specific-instructions-anecdote-only-materials-anecdotes-2) Experiment 2 specific instructions for those in the anecdotes only condition.
 
 ```{r specific-instructions-anecdote-only-materials-anecdotes-2, fig.cap = "(ref:specific-instructions-anecdote-only-materials-anecdotes-2)"}
 file.path(
@@ -65,7 +65,7 @@ file.path(
   image_trim()
 ```
 
-(ref:specific-instructions-combined-materials-anecdotes-2) Experiment 2 specific instructions for those in the combined condition.
+(ref:specific-instructions-combined-materials-anecdotes-2) Experiment 2 specific instructions for those in the combined condition.
 
 ```{r specific-instructions-combined-materials-anecdotes-2, fig.cap = "(ref:specific-instructions-combined-materials-anecdotes-2)"}
 file.path(
@@ -76,7 +76,7 @@ file.path(
   image_trim()
 ```
 
-(ref:specific-instructions-statistics-only-materials-anecdotes-2) Experiment 2 specific instructions for those in the statistics only condition.
+(ref:specific-instructions-statistics-only-materials-anecdotes-2) Experiment 2 specific instructions for those in the statistics only condition.
 
 ```{r specific-instructions-statistics-only-materials-anecdotes-2, fig.cap = "(ref:specific-instructions-statistics-only-materials-anecdotes-2)"}
 file.path(
@@ -90,16 +90,18 @@ file.path(
 ##### Allocation task {#allocation-anecdotes-2-appendix}
 
 The following were counterbalanced: 1. project variation (five latin square
-variations; the association of each display content with each within-subject
-condition); 2. anecdote variation (two variations), which is the association of
-each project display and being either the target or comparison project. The
-following were randomised: 1. table column order, and 2. project display order.
+variations), which is the association of each display content with each
+within-subject condition; and 2. anecdote variation (two variations), which is
+the association of each project display and being either the target or
+comparison project. Table column order and project display order were
+randomised.
 
 ##### Follow-up questions {#follow-up-materials-anecdotes-2}
 
-Figure \@ref(fig:follow-up-materials-anecdotes-2) shows the follow-up questions.
+Figure \@ref(fig:follow-up-materials-anecdotes-2) shows an example of the
+follow-up questions.
 
-(ref:follow-up-materials-anecdotes-2) An example of one of the follow-up question displays in Experiment 2.
+(ref:follow-up-materials-anecdotes-2) An example of one of the follow-up question displays in Experiment 2.
 
 ```{r follow-up-materials-anecdotes-2, fig.cap = "(ref:follow-up-materials-anecdotes-2)"}
 file.path(
@@ -112,7 +114,10 @@ file.path(
 
 ##### Interstitial display {#interstitial-materials-anecdotes-2}
 
-(ref:interstitial-materials-anecdotes-2) An example of an interstitial display in Experiment 2.
+Figure \@ref(fig:interstitial-materials-anecdotes-2) shows an example of one of
+the interstitial displays.
+
+(ref:interstitial-materials-anecdotes-2) An example of an interstitial display in Experiment 2.
 
 ```{r interstitial-materials-anecdotes-2, fig.cap = "(ref:interstitial-materials-anecdotes-2)"}
 file.path(

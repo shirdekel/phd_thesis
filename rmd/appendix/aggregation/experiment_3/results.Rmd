@@ -2,8 +2,8 @@
 
 #### Project investment
 
-The project investment data was analysed as in
-[Experiment 2](#results-aggregation-2). 
+The project investment data were analysed as in Experiment 2 (see
+Section \@ref(results-aggregation-2)).
 Figures \@ref(fig:plot-aggregation-3-choice)
 and \@ref(fig:plot-aggregation-3-proportion) show the choice and proportion
 data, respectively. The difference between similarity conditions was not
@@ -43,7 +43,7 @@ results_aggregation_3$similarity_project_order$table %>%
 
 ##### Project expectation
 
-We asked participants how many projects they expected to see. As
+Participants were asked how many projects they expected to see. As
 Figure \@ref(fig:plot-aggregation-3-project-expectation) shows, the difference
 between similarity conditions was not significant,
 `r results_aggregation_3$project_expectation`.
@@ -56,7 +56,7 @@ plot_aggregation_3$project_expectation
 
 ##### Project number
 
-We asked participants how many projects they think they saw.
+Participants were asked how many projects they thought they saw.
 Figure \@ref(fig:plot-aggregation-3-project-number) shows that overall people
 correctly estimate the number of projects.
 
@@ -82,7 +82,7 @@ plot_aggregation_3$portfolio_binary
 
 ##### Portfolio choice - number
 
-Subsequently, we asked participants how many projects they would invest in out
+Subsequently, participants were asked how many projects they would invest in out
 of the 10 that they saw. As
 Figure \@ref(fig:plot-aggregation-3-portfolio-number) shows, the difference
 between similarity conditions was not significant,

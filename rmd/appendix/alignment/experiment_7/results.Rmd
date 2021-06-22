@@ -15,10 +15,10 @@ plot_alignment_6$allocation
 
 #### Ranking
 
-A mixed factorial ANOVA was conducted to investigate the effects of hint
-and NPV variance on participants’ project rankings. As seen in
+A mixed factorial ANOVA was conducted to investigate the effects of hint and NPV
+variance on participants’ project rankings. As seen in
 Figure \@ref(fig:plot-alignment-6-ranking), only the main effect of NPV amount
-was significant.
+was significant, `r results_alignment_6$ranking$npv_amount`.
 
 (ref:plot-alignment-6-ranking) Mean ranking.
 

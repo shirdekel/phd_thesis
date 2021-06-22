@@ -4,10 +4,10 @@
 
 ##### Power analysis {#power-analysis-aggregation-2}
 
-The power analysis was conducted using the `pwr` package [@champely2020]. based
-on the presentation effect size from Experiment 1, since it was the smallest
+The power analysis was conducted using the `pwr` package [@champely2020], based
+on the presentation effect size from Experiment 1, since it was the smallest
 effect. The analysis suggested that a minimum sample size of
-`r aggregation2::power * 3` (`r aggregation2::power` $\cdot$ 3) was required for
+`r aggregation2::power * 4` (`r aggregation2::power` $\cdot$ 4) was required for
 the presentation effect with an expected power of at least 80%.
 
 #### Materials
@@ -15,7 +15,7 @@ the presentation effect with an expected power of at least 80%.
 ##### Follow-up {#follow-up-materials-aggregation-2-appendix}
 
 Figure \@ref(fig:project-number-aggregation-2) shows the project number
-question (maximum value was set to 20).
+question. The maximum value that they could enter was set to 20.
 Figures \@ref(fig:portfolio-binary-aggregation-2)
 and \@ref(fig:portfolio-number-aggregation-2) ask participants whether they are
 willing to take all or none of the projects; and how many projects would they
@@ -23,7 +23,7 @@ choose if they could pick randomly (maximum value was set to 20). Those in the
 distribution absent condition were asked the same questions, but without the
 distribution and its explanation.
 
-(ref:project-number-aggregation-2) Experiment 2 project number question.
+(ref:project-number-aggregation-2) Experiment 2 project number question. Border added for clarity.
 
 ```{r project-number-aggregation-2, fig.cap = "(ref:project-number-aggregation-2)", out.width = "50%"}
 file.path(
@@ -31,10 +31,12 @@ file.path(
   "project_number.png"
 ) %>%
   image_read() %>%
-  image_trim()
+  image_trim() %>%
+  image_border(color = "white", geometry = "5x5") %>%
+  image_border(color = "black", geometry = "5x5")
 ```
 
-(ref:portfolio-binary-aggregation-2) Experiment 2 binary portfolio question.
+(ref:portfolio-binary-aggregation-2) Experiment 2 binary portfolio question. Border added for clarity.
 
 ```{r portfolio-binary-aggregation-2, fig.cap = "(ref:portfolio-binary-aggregation-2)"}
 file.path(
@@ -42,10 +44,12 @@ file.path(
   "porfolio_binary_distribution_present.png"
 ) %>%
   image_read() %>%
-  image_trim()
+  image_trim() %>%
+  image_border(color = "white", geometry = "5x5") %>%
+  image_border(color = "black", geometry = "5x5")
 ```
 
-(ref:portfolio-number-aggregation-2) Experiment 2 numerical portfolio question.
+(ref:portfolio-number-aggregation-2) Experiment 2 numerical portfolio question. Border added for clarity.
 
 ```{r portfolio-number-aggregation-2, fig.cap = "(ref:portfolio-number-aggregation-2)"}
 file.path(
@@ -53,12 +57,8 @@ file.path(
   "porfolio_number_distribution_present.png"
 ) %>%
   image_read() %>%
-  image_trim()
+  image_trim() %>%
+  image_border(color = "white", geometry = "5x5") %>%
+  image_border(color = "black", geometry = "5x5")
 ```
 
-#### Procedure
-
-Participants responded to demographic questions, read the instructions, and
-completed the risky investment task in their respective conditions. After seeing
-the individual projects, participants were then asked the three follow-up
-questions.

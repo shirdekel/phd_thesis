@@ -4,24 +4,25 @@
 
 ##### Power analysis {#power-analysis-alignment-8}
 
-I conducted a power analysis through simulation of the effects hypothesised in
-Experiment 3 (and the simple effects implied by them). I simulated
-data with the same regression coefficients as Experiment 2 for the explicit
-condition, no effects for the implicit condition (as shown in
+A power analysis was conducted through simulation of the effects hypothesised in
+Experiment 3 (and the simple effects implied by them). The simulated data used
+the same regression coefficients as Experiment 2 for the explicit condition, no
+effects for the implicit condition (as shown in
 Figure \@ref(fig:plot-simulation-alignment-8)), and the intercept and residual
-variance of Experiment 2. I analysed the null effects using the two one-sided
+variance of Experiment 2. The null effects were analysed using the two one-sided
 tests (TOST) procedure, or *equivalence* testing [@lakens2018], and setting the
 smallest effect size of interest to the smallest difference that leads to a
 significant equivalence between low and high implicit reliability for low
-alignment in Experiment 3. Figure \@ref(fig:power-curve-alignment-8) shows the
-resulting power curve. The analysis suggests a total sample size of
-`r alignment8::power$n_total` (`r alignment8::power$n` $\cdot$ 4).
+alignment in Experiment 8 (see Appendix \@ref(alignment-7)).
+Figure \@ref(fig:power-curve-alignment-8) shows the resulting power curve. The
+analysis suggests a total sample size of `r alignment8::power$n_total`
+(`r alignment8::power$n` $\cdot$ 4).
 
 \newpage
 
 \blandscape
 
-(ref:power-curve-alignment-8) Alignment Experiment 3 power curve. Labels indicate lowest sample size above 80% power.
+(ref:power-curve-alignment-8) Alignment Experiment 3 power curve. Labels indicate lowest sample size above 80% power.
 
 ```{r power-curve-alignment-8, fig.width = 13, fig.height = 7, fig.cap = "(ref:power-curve-alignment-8)"}
 alignment8::power$power_curve
@@ -32,7 +33,7 @@ alignment8::power$power_curve
 \newpage
 
 
-#### Materials 
+#### Materials
 
 ##### Instructions {#instructions-materials-alignment-8-appendix}
 
@@ -40,7 +41,7 @@ Figures \@ref(fig:instructions-reliability-explicit-materials-alignment-8)
 and \@ref(fig:instructions-reliability-implicit-materials-alignment-8) show the
 instructions for the verbal and numerical reliability conditions, respectively.
 
-(ref:instructions-reliability-explicit-materials-alignment-8) Experiment 3 verbal reliability instructions. Border added for clarity.
+(ref:instructions-reliability-explicit-materials-alignment-8) Experiment 3 verbal reliability instructions. Border added for clarity.
 
 ```{r instructions-reliability-explicit-materials-alignment-8, fig.cap = "(ref:instructions-reliability-explicit-materials-alignment-8)"}
 file.path(
@@ -53,7 +54,7 @@ file.path(
   image_border(color = "black", geometry = "5x5")
 ```
 
-(ref:instructions-reliability-implicit-materials-alignment-8) Experiment 3 numerical reliability instructions. Border added for clarity.
+(ref:instructions-reliability-implicit-materials-alignment-8) Experiment 3 numerical reliability instructions. Border added for clarity.
 
 ```{r instructions-reliability-implicit-materials-alignment-8, fig.cap = "(ref:instructions-reliability-implicit-materials-alignment-8)"}
 file.path(
@@ -71,7 +72,7 @@ file.path(
 Figure \@ref(fig:interstitial-materials-alignment-8) shows an example of an
 interstitial display.
 
-(ref:interstitial-materials-alignment-8) An example of an interstitial display in Experiment 3. Border added for clarity.
+(ref:interstitial-materials-alignment-8) An example of an interstitial display in Experiment 3. Border added for clarity.
 
 ```{r interstitial-materials-alignment-8, fig.cap = "(ref:interstitial-materials-alignment-8)"}
 file.path(

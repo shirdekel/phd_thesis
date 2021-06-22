@@ -9,7 +9,7 @@ and \@ref(fig:instructions-reliability-no-npv-alignment-2) show the instruction
 given to those in the low NPV reliability, high NPV reliability, and no NPV
 condition, respectively.
 
-(ref:instructions-reliability-low-alignment-2) Experiment 1 low reliability instructions. Border added for clarity.
+(ref:instructions-reliability-low-alignment-2) Experiment 1 low reliability instructions. Border added for clarity.
 
 ```{r instructions-reliability-low-alignment-2, fig.cap = "(ref:instructions-reliability-low-alignment-2)"}
 file.path(
@@ -24,7 +24,7 @@ file.path(
   image_border(color = "black", geometry = "5x5")
 ```
 
-(ref:instructions-reliability-high-alignment-2) Experiment 1 high reliability instructions. Border added for clarity.
+(ref:instructions-reliability-high-alignment-2) Experiment 1 high reliability instructions. Border added for clarity.
 
 ```{r instructions-reliability-high-alignment-2, fig.cap = "(ref:instructions-reliability-high-alignment-2)"}
 file.path(
@@ -39,7 +39,7 @@ file.path(
   image_border(color = "black", geometry = "5x5")
 ```
 
-(ref:instructions-reliability-no-npv-alignment-2) The instructions for the no NPV condition in Experiment 1. Border added for clarity.
+(ref:instructions-reliability-no-npv-alignment-2) The instructions for the no NPV condition in Experiment 1. Border added for clarity.
 
 ```{r instructions-reliability-no-npv-alignment-2, fig.cap = "(ref:instructions-reliability-no-npv-alignment-2)"}
 file.path(
@@ -59,11 +59,11 @@ file.path(
 Participants were asked to respond to a forecasting task [adapted from
 @long2018], seen in Figure \@ref(fig:forecasting-materials-alignment-2).
 Participants were asked to predict each project’s rate of return after one
-month. This allowed me to calculate each participant’s forecasting mean and
+month. This allowed to calculate each participant’s forecasting mean and
 standard deviation (the latter as inversely proportional to forecasting
 precision).
 
-(ref:forecasting-materials-alignment-2) The forecasting task.
+(ref:forecasting-materials-alignment-2) The forecasting task. Border added for clarity.
 
 ```{r forecasting-materials-alignment-2, fig.cap = "(ref:forecasting-materials-alignment-2)"}
 file.path(
@@ -81,7 +81,7 @@ file.path(
 As seen in Figure \@ref(fig:ranking-materials-alignment-2), participants were
 asked to rank the projects in order of investment priority.
 
-(ref:ranking-materials-alignment-2) The ranking task.
+(ref:ranking-materials-alignment-2) The ranking task. Border added for clarity.
 
 ```{r ranking-materials-alignment-2, fig.cap = "(ref:ranking-materials-alignment-2)"}
 file.path(
@@ -91,7 +91,9 @@ file.path(
   image_read() %>%
   image_trim() %>%
   image_convert(type = "grayscale") %>%
-  image_contrast()
+  image_contrast() %>%
+  image_border(color = "white", geometry = "5x5") %>%
+  image_border(color = "black", geometry = "5x5")
 ```
 
 ##### Confidence {#confidence-materials-alignment-2}
@@ -101,7 +103,7 @@ asked to indicate how confident they were about each of their allocation
 decisions on a scale from 0 ("Not confident at all") to 100 ("Extremely
 confident").
 
-(ref:confidence-materials-alignment-2) The confidence task.
+(ref:confidence-materials-alignment-2) The confidence task. Border added for clarity.
 
 ```{r confidence-materials-alignment-2, fig.cap = "(ref:confidence-materials-alignment-2)"}
 file.path(
@@ -111,7 +113,9 @@ file.path(
   image_read() %>%
   image_trim() %>%
   image_convert(type = "grayscale") %>%
-  image_contrast()
+  image_contrast() %>%
+  image_border(color = "white", geometry = "5x5") %>%
+  image_border(color = "black", geometry = "5x5")
 ```
 
 ##### Justification {#justification-materials-alignment-2}
@@ -119,7 +123,7 @@ file.path(
 As Figure \@ref(fig:justification-materials-alignment-2) shows, participants
 were asked to justify their allocation decision in a free-response text-box.
 
-(ref:justification-materials-alignment-2) The justification task.
+(ref:justification-materials-alignment-2) The justification task. Border added for clarity.
 
 ```{r justification-materials-alignment-2, fig.cap = "(ref:justification-materials-alignment-2)"}
 file.path(
@@ -129,5 +133,7 @@ file.path(
   image_read() %>%
   image_trim() %>%
   image_convert(type = "grayscale") %>%
-  image_contrast()
+  image_contrast() %>%
+  image_border(color = "white", geometry = "5x5") %>%
+  image_border(color = "black", geometry = "5x5")
 ```

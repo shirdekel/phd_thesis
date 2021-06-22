@@ -1,12 +1,13 @@
-## Experiment 3 {#alignment-8-appendix}
+## Experiment 3 {#alignment-8-appendix}
 
-I simulated the effects I hypothesised in Experiment 3 in See
-Figure \@ref(fig:plot-simulation-alignment-8). These effects were taken as a
-composite of Experiment 1 data (without the no NPV condition) for the verbal
-reliability type condition, and data from a pilot study (see
-Appendix \@ref(alignment-7)) for the numerical reliability type condition.
+Figure \@ref(fig:plot-simulation-alignment-8) shows the simulated hypothesised
+effects for Experiment 3. These effects were constructed as a composite of
+Experiment 1 data (without the no NPV condition) for the verbal reliability type
+condition, and data from a pilot study (see Appendix \@ref(alignment-7)) for the
+numerical reliability type condition. Variance was removed to see the effects
+clearer.
 
-(ref:plot-simulation-alignment-8) Experiment 3 predicted data
+(ref:plot-simulation-alignment-8) Experiment 3 predicted data.
 
 ```{r plot-simulation-alignment-8, fig.cap = "(ref:plot-simulation-alignment-8)"}
 alignment8::plot_simulation

@@ -46,7 +46,7 @@ A repeated-measures ANOVA was conducted to investigate the effects of experiment
 phase condition on participants’ NPV knowledge rating.
 Figure \@ref(fig:plot-alignment-3-npv-knowledge) shows these data. The main
 effect of phase was significant, `r results_alignment_3$npv_knowledge$rating`.
-The post-explanation rating was significantly higher than he pre-explanation
+The post-explanation rating was significantly higher than the pre-explanation
 rating,
 `r results_alignment_3$npv_knowledge$X1_X2`. However, there were no significant
 differences in rating between any of the later phases.

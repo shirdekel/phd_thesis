@@ -23,12 +23,10 @@ conditions for both those in the low alignment
 `r results_alignment_8$allocation$alignment_low_reliability_type_implicit_reliability_amount_null`
 and high alignment conditions
 `r results_alignment_8$allocation$alignment_high_reliability_type_implicit_reliability_amount_null`.
-However, this is likely to be because I used a "lowest effect size of interest"
-that originated from an analysis used before data collection that was different
-to the one that one used after data collection. Specifically, a univariate
-linear model was originally used (treating NPV amount as a continuous
-predictor), whereas the data was ultimately analysed using a multivariate linear
-model (treating NPV amount as a repeated measures factor).
-
-<!-- #### Ranking -->
+However, this is likely to be because the "lowest effect size of interest"
+estimate originated from an analysis used before data collection that was
+different to the one that one used after data collection. Specifically, a
+univariate linear model was originally used (treating NPV amount as a continuous
+predictor), whereas the data were ultimately analysed using a multivariate
+linear model (treating NPV amount as a repeated measures factor).
 

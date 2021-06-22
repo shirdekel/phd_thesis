@@ -1,21 +1,21 @@
 ### Results
 
 A mixed factorial ANOVA was conducted to investigate the effects of alignment
-and NPV reliability type on participants project allocations. I was unable to
-conduct a direct comparison of the two alignment conditions due to the different
-allocation input scales, so I compared the NPV reliability amount $\times$ NPV
-amount interaction separately in each alignment condition (see
+and NPV reliability type on participants project allocations. A direct
+comparison of the two alignment conditions was not possible due to the different
+allocation input scales, so the NPV reliability amount $\times$ NPV amount
+interaction was tested separately in each alignment condition (see
 Figures \@ref(fig:plot-alignment-7-allocation-alignment-low)
 and \@ref(fig:plot-alignment-7-allocation-alignment-high)). This interaction was
 significant for both the high alignment condition,
-`r results_alignment_7$allocation$alignment_high$reliability_type_reliability_amount_npv_cond`;
+`r results_alignment_7$allocation$alignment_high$reliability_type_npv_cond_reliability_amount`;
 and the low alignment condition,
-`r results_alignment_7$allocation$alignment_low$reliability_type_reliability_amount_npv_cond`.
+`r results_alignment_7$allocation$alignment_low$reliability_type_npv_cond_reliability_amount`.
 However, there was a significant effect of NPV in the low verbal reliability
-condition in the high alignment condition,
-`r results_alignment_7$allocation$alignment_high$exp_lowlow_lowhigh`; but not
-for the low alignment condition,
-`r results_alignment_7$allocation$alignment_high$imp_lowlow_lowhigh`.
+condition in high alignment,
+`r results_alignment_7$allocation$alignment_high$exp_lowlow_lowhigh`; but not in
+low alignment,
+`r results_alignment_7$allocation$alignment_low$exp_lowlow_lowhigh`.
 
 (ref:plot-alignment-7-allocation-alignment-low) Mean project allocation, for the low alignment condition. Error bars represent 95% confidence intervals.
 

@@ -12,8 +12,8 @@ descriptives_alignment_5$condition_allocation_table %>%
 
 #### Materials
 
-The materials were the same as in Experiment 5.
+The materials were the same as in Experiment 5.
 
 #### Procedure
 
-The procedure was the same as in Experiment 5.
+The procedure was the same as in Experiment 5.

@@ -29,7 +29,7 @@ Research has shown that people are poor at reasoning with numerical variance
 information [@galesic2010; @konold1993; @vivalt2021; @batteux2020]. Therefore,
 Experiment 2 tested the following:
 
-``` {hypothesis, allocation-npv-reliability-alignment-3, name = "No effect of numerical reliability", echo = TRUE}
+```{hypothesis, allocation-npv-reliability-alignment-3, name = "No effect of numerical reliability", echo = TRUE}
 The NPV amount $\times$ reliability amount interaction will not be significant
 in either alignment condition.
 ```

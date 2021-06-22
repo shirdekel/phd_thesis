@@ -1,4 +1,4 @@
-## Experiment 8 {#alignment-7}
+## Experiment 8 {#alignment-7}
 
 ```{r setup-alignment-7}
 tar_load(descriptives_alignment_7)
@@ -7,14 +7,14 @@ tar_load(results_alignment_7)
 tar_load(plot_alignment_7)
 ```
 
-Experiment 8 tested the alignment and reliability effects found in the previous
-experiments addressing the limitations of the previous experiments. In
-Experiments 1 and 4 I found an verbal reliability effect, in which laypeople
-allocated more capital to a high NPV project, depending on how reliable they
-were told NPV was as a measure. In Experiment 2 I found a lack of an numerical
-reliability effect, in which business students allocated an equivalent amount of
-capital to projects associated with a high variance NPV, as projects with a
-low NPV. Testing these two effects in two different populations did not account
-for potential expertise effects. As such, in Experiment 8 I tested both effects
-with a naive sample. Further, I used projects whose features more clearly
-indicate their profitability, and included more project domains.
+Experiment 8 tested the alignment and reliability effects found in the previous
+experiments, while addressing their limitations. Experiments 1 and 4 found a
+verbal reliability effect. That is, laypeople allocated more capital to a high
+NPV project, depending on how reliable they were told NPV was as a measure.
+Experiment 2 found a lack of a numerical reliability effect. That is, business
+students allocated an equivalent amount of capital to projects associated with a
+high variance NPV, as projects with a low NPV. Testing these two effects in two
+different populations did not account for potential expertise effects. As such,
+Experiment 8 tested both effects with a naive sample. Further, Experiment 8 used
+projects whose features more clearly indicate their profitability, and included
+more project domains.

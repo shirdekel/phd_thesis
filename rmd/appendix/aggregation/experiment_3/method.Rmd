@@ -14,19 +14,19 @@ descriptives_aggregation_3$condition_allocation_table %>%
 
 ##### Instructions
 
-Participants were shown the same instructions as in
-[Experiment 1](#instructions-materials-aggregation-1).
+Participants were shown the same instructions as in Experiment 1 (see
+Section \@ref(instructions-materials-aggregation-1)).
 
 ##### Risky investment task {#task-aggregation-3}
 
-Participants saw displays with the same gamble values as those in
-[Experiment 2](#task-aggregation-2), but with some changes in wording and
-sentence structure. I kept the same gamble information, but added extra prose
-describing the projects and randomised the order of the sentences, so that the
-descriptions would not appear so similar. See
+Participants saw displays with the same gamble values as those in Experiment 2
+(see Section \@ref(task-aggregation-2)), but with some changes in wording and
+sentence structure. The gamble information was the same, but extra prose was
+added to describe the projects. Further, the order of the sentences was
+randomised, so that the descriptions would not appear so similar. See
 Figure \@ref(fig:project-choice-aggregation-3) for an example.
 
-(ref:project-choice-aggregation-3) An example of a project display in Experiment 3.
+(ref:project-choice-aggregation-3) An example of a project display in Experiment 3. Border added for clarity.
 
 ```{r project-choice-aggregation-3, fig.cap = "(ref:project-choice-aggregation-3)"}
 file.path(
@@ -34,23 +34,25 @@ file.path(
   "project_choice_oil-well.png"
 ) %>%
   image_read() %>%
-  image_trim()
+  image_trim() %>%
+  image_border(color = "white", geometry = "5x5") %>%
+  image_border(color = "black", geometry = "5x5")
 ```
 
-The similarity manipulation was as in Experiment 1. However, here I varied
-project domain so that in the high similarity condition participants saw one of
-the ten project domains.
+The similarity manipulation was as in Experiment 1. However, project domain was
+varied so that in the high similarity condition participants saw one of ten
+project domains.
 
 ##### Follow-up {#follow-up-aggregation-3}
 
-The follow-up questions were similar to those in
-[Experiment 2](#follow-up-aggregation-2), except in the portfolio number
-question I added the number of projects that they saw (10). Further, I added a
-question asking how many projects participants were expecting to see at the
-beginning of the experiment (see
+The follow-up questions were similar to those in Experiment 2 (see
+Section \@ref(follow-up-aggregation-2)), except in the portfolio number question
+participants were also shown the total number of projects that they saw (10).
+Further, another question was added, asking how many projects participants were
+expecting to see at the beginning of the experiment (see
 Figure \@ref(fig:project-expectation-aggregation-3)).
 
-(ref:project-expectation-aggregation-3) Experiment 3 project expectation question.
+(ref:project-expectation-aggregation-3) Experiment 3 project expectation question. Border added for clarity.
 
 ```{r project-expectation-aggregation-3, fig.cap = "(ref:project-expectation-aggregation-3)"}
 file.path(
@@ -58,12 +60,13 @@ file.path(
   "project_expectation.png"
 ) %>%
   image_read() %>%
-  image_trim()
+  image_trim() %>%
+  image_border(color = "white", geometry = "5x5") %>%
+  image_border(color = "black", geometry = "5x5")
 ```
 
 #### Procedure
 
-Participants responded to demographic questions, read the instructions, and
-completed the risky investment task in their respective conditions. After seeing
-the individual projects, participants were then asked the four follow-up
-questions.
+Participants read the instructions and completed the risky investment task in
+their respective conditions. After seeing the individual projects, participants
+were then asked the four follow-up questions.

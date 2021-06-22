@@ -4,10 +4,10 @@
 
 ##### Project number
 
-We asked participants how many projects they think they saw.
+Participants were asked how many projects they thought they saw.
 Figure \@ref(fig:plot-aggregation-2-project-number) shows that overall people
-to correctly estimate the number of projects, with more accuracy for those in
-the aware condition.
+correctly estimated the number of projects, with more accuracy for those in the
+aware condition.
 
 (ref:plot-aggregation-2-project-number) Number of projects participants reported seeing, by condition.
 
@@ -38,7 +38,7 @@ plot_aggregation_2$portfolio_binary
 
 ##### Portfolio choice - number
 
-Subsequently, we asked participants how many projects they would invest in out
+Subsequently, participants were asked how many projects they would invest in out
 of the 10 that they saw. As
 Figure \@ref(fig:plot-aggregation-2-portfolio-number) shows, the difference
 between presentation conditions was not significant,
@@ -57,11 +57,11 @@ plot_aggregation_2$portfolio_number
 #### Gambles
 
 Figures \@ref(fig:plot-aggregation-2-trials)
-and \@ref(fig:plot-aggregation-2-gamble-values) show the overall people seemed
-to prefer gambles with higher probabilities of gain, sometimes regardless of
-expected value or value of the gain.
+and \@ref(fig:plot-aggregation-2-gamble-values) show that the overall people
+seemed to prefer gambles with higher probabilities of gain, sometimes regardless
+of expected value or value of the gain.
 
-(ref:plot-aggregation-2-trials) Mean project acceptance for the 10 gambles. The format of the labels indicate: (gain probability, gain value; loss probability, loss value).
+(ref:plot-aggregation-2-trials) Mean project acceptance for the 10 gambles. The format of the labels indicates: (gain probability, gain value; loss probability, loss value).
 
 ```{r plot-aggregation-2-trials, fig.cap = "(ref:plot-aggregation-2-trials)"}
 plot_aggregation_2$trials

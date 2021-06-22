@@ -3,4 +3,4 @@
 \minitoc
 
 This appendix contains supplementary materials and analyses for the two
-experiments reported in Chapter \@ref(alignment). 
+experiments reported in Chapter \@ref(anecdotes).

@@ -32,7 +32,7 @@ anecdotes. So, evidence of anecdotal bias is given when allocation in a
 statistics only condition is higher than allocation to an anecdote & statistics
 condition. Therefore, Experiment 1 tested the following:
 
-``` {hypothesis, anecdote-similarity-anecdotes-1, name = "Anecdotal bias is moderated by the similarity of negative anecdotes", echo = TRUE}
+```{hypothesis, anecdote-similarity-anecdotes-1, name = "Anecdotal bias is moderated by the similarity of negative anecdotes", echo = TRUE}
 Allocations to the target project will be higher when only the statistics are
 presented and when the statistics are accompanied by a low similarity anecdote,
 in comparison to when the statistics are accompanied by a high similarity
@@ -47,7 +47,7 @@ similarity anecdote along with the statistics will not use any statistical
 information. Testing the high similarity condition will allow for an equivalent
 test to @wainberg2013. Therefore, Experiment 1 tested the following:
 
-``` {hypothesis, statistics-anecdotes-1, name = "Effect of statistics for negative anecdotes", echo = TRUE}
+```{hypothesis, statistics-anecdotes-1, name = "Effect of statistics for negative anecdotes", echo = TRUE}
 Participants will allocate capital equivalently to the target project when in
 the high similarity anecdote & statistics condition and when in the high
 similarity anecdote only condition without enhancing the statistics explanation.
@@ -60,7 +60,7 @@ in the *judgment orientation II* condition in @wainberg2018, here called the
 protecting against anecdotal bias would replicate in a capital allocation
 scenario. Therefore, Experiment 1 tested the following:
 
-``` {hypothesis, enhanced-statistics-anecdotes-1, name = "Effect of enhanced statistics for negative anecdotes", echo = TRUE}
+```{hypothesis, enhanced-statistics-anecdotes-1, name = "Effect of enhanced statistics for negative anecdotes", echo = TRUE}
 Participants will allocate more capital to the target project when in the high
 similarity anecdote & enhanced statistics condition than when in the high
 similarity anecdote & statistics condition.
