@@ -26,6 +26,7 @@ library(rmdfiltr)
 library(knitr)
 library(bookdown)
 library(rmdfiltr)
+library(magick)
 
 ## Custom thesis packages
 library(shiR)
