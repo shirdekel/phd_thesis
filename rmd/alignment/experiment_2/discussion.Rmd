@@ -3,7 +3,7 @@
 Experiment 2 replicated the alignment effect found in Experiment 1 with
 participants with real-world business experience. That is,
 Hypothesis \@ref(hyp:allocation-alignment-alignment-2) was supported, as people
-relied more on NPV when faced with a set of dissimilar project than when
+relied more on NPV when faced with a set of dissimilar projects than when
 projects were all from the same domain. Experiment 2 also found evidence for
 Hypothesis \@ref(hyp:allocation-npv-reliability-alignment-3), with no
 significant differences between the numerical reliability amount conditions.
@@ -17,16 +17,25 @@ reliability information. Specifically, participants appeared to only focus on
 the NPV itself, and not on any variations in the underlying noisiness of the
 measure for a specific project.
   
-However, it is unclear whether laypeople would also display this variance
-neglect. Further, in Experiments 1 and 2, the business projects consisted of a
-limited number of domains. It is unclear to what extent these specific domains
-influenced the results. These projects were centred around consumer products,
-which were originally chosen to be more easily accessible to participants
-without business experience. However, with these projects, individual features
-do not necessarily indicate a project's profitability. For instance, a laptop
-with a low capacity can be more profitable than a laptop with a high capacity
-due to the existence of consumer goods markets. Experiment 3 addressed these
-limitations.
+The participants in Experiment 2 seemed to rely on NPV more than those in
+Experiment 1. This was seen by the steeper linear trends in Experiment 2. This
+discrepancy may be due to the difference in domain experience and exposure to
+financial metrics in formal study. However, the extra explanation and testing of
+NPV for the management students may have also increased its salience. In sum,
+the Experiment 2 sample showed clearer trends of NPV reliance, but importantly
+was still affected by similarity even when it was manipulated within-subjects.
+
+Experiment 1 tested NPV reliability expressed verbally, while Experiment 2
+tested NPV reliability expressed numerically. However, the difference in
+findings was confounded by the different populations that were sampled. Further,
+in both experiments, the business projects consisted of a limited number of
+domains. It is unclear to what extent these specific domains influenced the
+results. These projects were centred around consumer products, which were
+originally chosen to be more easily accessible to participants without business
+experience. However, with these projects, individual features do not necessarily
+indicate a project's profitability. For instance, a laptop with a low capacity
+can be more profitable than a laptop with a high capacity due to the existence
+of consumer goods markets. Experiment 3 addressed these limitations.
 
 Another limitation of the last two experiments was the potential presentation
 style confound. The two alignment conditions differed in the number of alignable

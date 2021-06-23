@@ -26,9 +26,9 @@ plot_anecdotes_2$allocation
 To investigate whether anecdotal bias was moderated by similarity, a difference
 measure was calculated between each participant's allocation to the statistics
 only condition and their allocation to each of the two anecdote & statistics
-conditions conditions (high and low similarity). The statistics only comparison
-value was different for each valence condition to create equivalent comparisons.
-For negative valence, the allocation to the high NPV project was used; while for
+conditions (high and low similarity). The statistics only comparison value was
+different for each valence condition to create equivalent comparisons. For
+negative valence, the allocation to the high NPV project was used; while for
 positive valence, the allocation to the low NPV project was used.
 Figure \@ref(fig:plot-anecdotes-2-allocation-difference) shows these data. The
 similarity $\times$ valence interaction was significant,
@@ -38,8 +38,25 @@ main effect of valence,
 similarity was not significant,
 `r results_anecdotes_2$allocation_difference$similarity`.
 
-The interaction was analysed further by comparing the two similarity conditions
-for each valence condition. For negative anecdotes, the allocation difference
+The effect of the anecdote is represented differently for each valence
+condition. As such, the interaction was analysed further by comparing the two
+similarity conditions for each valence condition. For negative anecdotes, the
+statistical values (e.g., NPV) associated with the target project were higher
+than those for the comparison project. If participants were influenced by the
+negative anecdote they would therefore allocate less to the target. For negative
+anecdotes, a lower allocation to the target project is represented in
+Figure \@ref(fig:plot-anecdotes-2-allocation-difference) as a positive
+value---the difference in allocation from when the participant did not see an
+anecdote. For positive anecdotes, the statistics were lower for the target
+project, so an influence of the anecdote is seen as a negative value in
+Figure \@ref(fig:plot-anecdotes-2-allocation-difference). A moderation of the
+anecdotal bias effect by similarity for negative anecdotes would suggest a
+higher difference score in high similarity than in low similarity. That is, more
+influence of the anecdote when it is similar than when it is dissimilar. For
+positive anecdotes a moderation would suggest the reverse: a higher difference
+score in low similarity than in high similarity.
+
+For negative anecdotes, the allocation difference
 was greater when the anecdote was similar to the target than when it was
 dissimilar, `r results_anecdotes_2$allocation_difference$negative_low_high`. For
 positive anecdotes, the allocation difference was greater when the anecdote was
@@ -69,3 +86,23 @@ statistics condition,
 `r results_anecdotes_2$allocation$similarity_high_anecdote$valence_positive`.
 This provides evidence for the influence of statistics on participants'
 allocations for both negative and positive anecdotes.
+
+#### Relevance ratings
+
+Regression analyses were conducted to determine the relationship between
+allocations and the follow-up relevance ratings.
+Figure \@ref(fig:plot-anecdotes-2-lm-allocation-relevance-specific-similarity)
+shows these data. While the specific relevance ratings for negative anecdotes
+showed the same trends as in Experiment 1, the interaction was not significant.
+Similarly, the ratings trends for positive anecdotes were as hypothesised, but
+their interaction not significant. It appears that specific relevance ratings
+were related to allocations, but only in the high similarity condition. Further,
+there were no significant associations with the general relevance ratings. This
+provides limited evidence that people were reasoning about the connection
+between the anecdote and target.
+
+(ref:plot-anecdotes-2-lm-allocation-relevance-specific-similarity) Mean allocations to the target project, by specific relevance rating, similarity condition, and valence condition.
+
+```{r plot-anecdotes-2-lm-allocation-relevance-specific-similarity, fig.cap = "(ref:plot-anecdotes-2-lm-allocation-relevance-specific-similarity)"}
+plot_anecdotes_2$lm$allocation_relevance_specific_similarity
+```

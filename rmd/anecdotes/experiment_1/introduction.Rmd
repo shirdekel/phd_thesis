@@ -56,9 +56,12 @@ similarity anecdote only condition without enhancing the statistics explanation.
 Participants with additional information explaining the importance of
 "scientific thinking" and statistical data may be less affected by anecdotes, as
 in the *judgment orientation II* condition in @wainberg2018, here called the
-*enhanced statistics condition*. Experiment 1 tests whether this effect
-protecting against anecdotal bias would replicate in a capital allocation
-scenario. Therefore, Experiment 1 tested the following:
+*anecdote & enhanced statistics condition*. Unlike the anecdote & enhanced
+statistics condition in @wainberg2013, the statistical information here is
+actually "enhanced" because of the accompanying text. Experiment 1 tests whether
+the effect from @wainberg2018---additional information protecting against
+anecdotal bias---would replicate in a capital allocation scenario. Therefore,
+Experiment 1 tested the following:
 
 ```{hypothesis, enhanced-statistics-anecdotes-1, name = "Effect of enhanced statistics for negative anecdotes", echo = TRUE}
 Participants will allocate more capital to the target project when in the high

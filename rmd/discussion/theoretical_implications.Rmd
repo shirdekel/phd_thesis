@@ -152,13 +152,16 @@ experienced.
 At the *implicit* level an individual can only make use of a certain system of
 knowledge, while it is only at the *explicit* level that they develop insight
 into that system. For instance, young children can use closed class words such
-as "the" or "to", but only identify them as words later in development. Adults
-may have a similar distinction in knowledge representation. Concepts that can be
-used when experienced directly, such as in risky choice from experience, are not
-represented in a way that they can be used when presented descriptively, such as
-in risky choice from description. This kind of distinction may explain why
-participants in the thesis experiments failed to use concepts that have been
-shown to be accessible to laypeople.
+as "the" or "to", but only identify them as words later in development. Further,
+children’s play often implicitly contains many mathematical concepts, despite
+the children’s struggle to explicitly reason with the exact same concepts in
+more formal problem-solving (@sarama2009). Adults may have a similar distinction
+in knowledge representation. Concepts that can be used when experienced
+directly, such as in risky choice from experience, are not represented in a way
+that they can be used when presented descriptively, such as in risky choice from
+description. This kind of distinction may explain why participants in the thesis
+experiments failed to use concepts that have been shown to be accessible to
+laypeople.
 
 ### Expertise effects
 

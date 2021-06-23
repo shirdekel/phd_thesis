@@ -32,7 +32,7 @@ no NPV condition than both the low reliability condition,
 `r results_alignment_2$allocation$low_noNPV_linear_low`, and the high
 reliability condition, `r results_alignment_2$allocation$high_noNPV_linear_low`.
 
-(ref:plot-alignment-2-allocation) Mean allocation. Error bars represent 95% confidence intervals based on the multivariate model. Note that this mixed factorial design does not allow for using confidence intervals to make inferences by "eye" across conditions.
+(ref:plot-alignment-2-allocation) Mean allocation. In mixed factorial designs, error bars cannot be used to make inferences by "eye" across all conditions. Therefore, error bars were not included, and instead raw data was plotted in the background. When interpreting this figure, consider the linear trends in NPV Amount.
 
 ```{r plot-alignment-2-allocation, fig.cap = "(ref:plot-alignment-2-allocation)"}
 plot_alignment_2$allocation

@@ -6,7 +6,10 @@ aggregated data are available. There were three novel findings: 1. the anecdotal
 bias effect was only seen when participants considered the anecdote as
 sufficiently relevant to the target project, 2. participants integrated
 statistics in their decisions, and 3. these effects were found in both negative
-and positive anecdotes.
+and positive anecdotes. Further, people did not consider verbal sample
+distribution information, which could have helped to moderate their decisions.
+This is surprising since other work showed that generalisations are sensitive to
+sampling [@carvalho2021].
 
 The first novel finding from these experiments was that participants moderated
 their use of anecdotal evidence. Specifically, when the anecdote appeared to be
@@ -128,7 +131,10 @@ What seems to be important is a sensitivity to relational, rather than surface
 level similarity. Future research should further investigate how varying the
 assumptions that people have about sampling from a data set of anecdotes
 influences their anecdotal bias. Such assumptions can include the size of the
-sample and the shape of the distribution.
+sample, the shape of the distribution, and where in the distribution the
+anecdote came from. Prior work found that people are sensitive to distributional
+properties when generalizing [@carvalho2021], but it is not clear if this will
+replicate with descriptive cues such as in the experiments in this chapter.
  
 ### Practical implications
 

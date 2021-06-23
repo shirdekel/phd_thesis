@@ -116,9 +116,15 @@ multi-play gambles (e.g., one vs. 100 gambles). Further, people certainly have a
 basic understanding of numerical ranges and that a wider range means more
 spread. Despite likely having this understanding, participants in the above
 experiments were unable to use it in the decisions. Similarly, other work has
-shown that people are sensitive to sampling [@carvalho2021]. Therefore, it is
-unlikely that the people in the thesis experiments simply lacked statistical
-education. In fact, it is not clear that these effects will disappear with more
-maths knowledge and business experience. Previous work showed that expertise
-does not always remove biases and in some cases it seems to augment such effects
-[e.g., @haigh2005].
+shown that generalisations are sensitive to sampling [@carvalho2021]. Therefore,
+it is unlikely that the people in the thesis experiments simply lacked any
+understanding of these statistical concepts or (at least sensitivity to this
+kind of information). Instead there appear to be important contextual factors
+that critically support or prevent people from showing their intuitive
+understanding. Unfortunately, the methods used in this thesis more closely
+resemble real decisions managers make, than the prior research that showed
+people do think with these kinds of statistical concepts. Further, it is not
+clear that these effects will simply disappear with just more maths knowledge
+and business experience. Previous work showed that expertise does not always
+remove biases and in some cases it seems to augment such effects [e.g.,
+@haigh2005].

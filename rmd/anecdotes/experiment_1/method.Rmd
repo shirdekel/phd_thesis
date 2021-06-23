@@ -37,12 +37,14 @@ instructions used in Experiment 1.
 In the allocation task, participants allocated a percentage of a hypothetical
 budget between two projects that come from different businesses within a
 company. In this chapter, these two projects will be referred to as the *focal*
-projects. One of these projects will be referred to in this chapter as the
-*target* project and the other as the *comparison* project. The target project
-was used as a reference for the similarity manipulation. That is, the anecdote
-was either high or low in similarity compared to the target project. Further,
-the data analyses presented in Section \@ref(results-anecdotes-1) used
-allocations to the target project as the DV.
+projects. One of these projects will be referred to as the *target* project and
+the other as the *comparison* project. The target project was used as a
+reference for the similarity manipulation. That is, the anecdote was either high
+or low in similarity compared to the target project. Further, the data analyses
+presented in Section \@ref(results-anecdotes-1) used allocations to the target
+project as the DV. The comparison project was simply the other focal project to
+which participants were allocating. It was always a different type of project to
+both the target and anecdote projects.
 
 Participants were presented with information about each business' name,
 location, integration (vertical or horizontal), and organisational structure
@@ -112,7 +114,7 @@ failure of the anecdote because of an insufficient oil extraction rated will
 seem more relevant since they both share the state of being lower than the
 cut-off in the analysis. Note, however, that there was uncertainty about the
 generalisability of these cut-off values because the participants did not
-receive a explicit indication of whether these values were meant to generalise
+receive an explicit indication of whether these values were meant to generalise
 to other cases.
 
 (ref:anecdote-similarity-high-materials-anecdotes-1) Anecdote display for those in the high alignment condition in Experiment 1.

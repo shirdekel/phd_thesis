@@ -7,7 +7,9 @@ the target project, for both positive and negative anecdotes. Further, as per
 Hypotheses \@ref(hyp:statistics-negative-anecdotes-2)
 and \@ref(hyp:statistics-positive-anecdotes-2), participants incorporated the
 statistical information into their judgements, for both negative and positive
-anecdotes.
+anecdotes. Unlike in Experiment 1, the relevance rating data did not provide as
+clear indication that participants were using only the specific project
+information rather than merely its industry.
 
 Experiment 2 therefore found that, unlike in the medical domain, the effect of
 anecdotes in financial decision-making does not depend on anecdote valence.

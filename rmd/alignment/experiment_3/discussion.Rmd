@@ -5,14 +5,14 @@ and \@ref(hyp:allocation-alignment-high-alignment-2) were supported in the
 verbal reliability condition. This shows that, while overall participants prefer
 to use NPV as a proxy for project quality in their allocations, they still use
 verbal reliability information. Specifically, when projects are similar, people
-use NPV when they are told that it is reliable, and use alternative metrics when
-told that it is not reliable. However, Experiment 3 did not find evidence for
-Hypothesis \@ref(hyp:allocation-alignment-low-alignment-2). Instead,
-Experiment 3 found that even in the low alignment condition, participants still
-moderated their use of NPV. They still used NPV regardless of reliability
-condition, shown by the positive NPV amount trend in both reliability
-conditions. However, Experiment 3 shows that participants used NPV less when
-told that it was unreliable.
+use NPV when they are told that it is reliable, and use alternative metrics more
+so when told that it is not reliable. However, Experiment 3 did not find
+evidence for Hypothesis \@ref(hyp:allocation-alignment-low-alignment-2).
+Instead, Experiment 3 found that even in the low alignment condition,
+participants still moderated their use of NPV. They still used NPV regardless of
+reliability condition, shown by the positive NPV amount trend in both
+reliability conditions. However, Experiment 3 shows that participants used NPV
+less when told that it was unreliable.
 
 Further, Experiment 3 did not find support for
 Hypothesis \@ref(hyp:four-way-alignment-8) mostly likely because of the

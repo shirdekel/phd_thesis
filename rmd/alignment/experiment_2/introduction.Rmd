@@ -40,7 +40,7 @@ allocations. Therefore, participants were presented with a short lecture on the
 importance of paying attention variance in financial decision-making. However,
 results were inconclusive, so see Appendix \@ref(alignment-3-appendix) for a
 more detailed discussion. Further, Experiment 2 investigated whether
-participants would have a higher sense of understanding NPV than they really do
-[as in @long2018]. These results are also reported in
+participants would be over-confident in their understanding of NPV [as in
+@long2018]. These results are also reported in
 Appendix \@ref(alignment-3-appendix) as they were not sufficiently relevant to
 this chapter.

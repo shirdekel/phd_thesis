@@ -36,9 +36,11 @@ The first consideration when using a case study is its merit relative to
 available aggregated statistical data. That is, if the case study is a single
 data point in a set of other relevant cases, then using the statistical
 properties of the larger sample is more inferentially informative than using a
-single case from within the sample. Despite this, research has shown that people
-can prefer anecdotal evidence over statistical data [e.g., @reinard1988;
-@shen2015; @jaramillo2019; @freling2020].
+single case from within the sample (unlike perhaps when the single case is
+somehow the most relevant example from the sample). Despite the utility and
+availability of large sample data, research has shown that people can prefer
+anecdotal evidence over statistical data [e.g., @reinard1988; @shen2015;
+@jaramillo2019; @freling2020].
 
 However, if this larger sample is not available (or is ignored), then the second
 consideration when using a case study is the extent of its similarity to the
@@ -102,9 +104,11 @@ deficiencies and clients. However, participants were not explicitly provided the
 proportions for these values. In the *statistics only* condition, the
 proportions and clients without deficiencies were made explicit. The *anecdote &
 enhanced statistics* condition added the anecdotes to the statistics only
-condition. The *anecdote & enhanced statistics---judgment orientation* condition
-emphasised the importance of proportions and keeping absolute numbers in their
-relevant context.
+condition. The terminology here is confusing because nothing about the way the
+statistics are presented to the participants is "enhanced" beyond how they are
+presented in the statistics only condition. However, the *anecdote & enhanced
+statistics---judgment orientation* condition emphasised the importance of
+proportions and keeping absolute numbers in their relevant context.
 
 @wainberg2013 found evidence for anecdotal bias. They measured the proportion of
 participants choosing the firm favoured by the statistical data. Those that saw

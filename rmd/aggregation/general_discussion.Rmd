@@ -1,6 +1,19 @@
 ## General discussion
 
-This chapter found that choice bracketing facilitated risk aggregation in
+When making one decision about a series of risky choices, it is clear that
+people have an intuitive sense of the advantages of risk aggregation [e.g.,
+@samuelson1963]. However, because risky choices are typically made one at a time
+in the real world, this chapter aimed to identify whether (and how) this
+intuition could be leveraged in this more realistic scenario. Overall, there was
+little evidence that subtle cues could tap into this intuitive advantage of risk
+aggregation, and clear visualisations of outcome distributions were needed to
+assist people's risk aggregation. This suggests that the act of deciding can
+create a strong cognitive barrier to treating a series of decisions as if they
+were one. However, as elaborated below, the success of the outcome distribution
+for overcoming this cognitive barrier in the current paradigm is a novel and
+important finding.
+
+This chapter found that some choice bracketing facilitated risk aggregation in
 description-based repeated-play gambles. This paradigm has never been a target
 of research. Early work on risk aggregation involved multi-play gambles, which
 treated gambles as simultaneous and identical. However, most risky choice
@@ -20,19 +33,18 @@ of an outcome distribution but did not replicate the presentation and awareness
 effects. Subsequent follow up experiments (reported in
 Appendices \@ref(aggregation-3) and \@ref(aggregation-4)) again tested the
 similarity and awareness effects. These experiments found evidence for naive
-diversification (an advantage for low similarity) when considering them all
-projects once and did not replicate the trial-by-trial interaction from
-Experiment 1.
+diversification (an advantage for low similarity) when considering all projects
+once and did not replicate the trial-by-trial interaction from Experiment 1.
 
 Therefore, in addition to the novelty of the paradigm itself, this chapter found
-that choice bracketing facilitates risk aggregation. As per
-Hypothesis \@ref(hyp:distribution-aggregation-2), Experiment 2 found that
-showing a distribution of outcome probabilities without inter-trial feedback
-reduced risk aversion. Further, there was mixed evidence for
-Hypothesis \@ref(hyp:similarity-aggregation-1), such that people were less risk
-averse when the set of projects they saw were dissimilar, but only when offered
-them as a portfolio (see Appendix \@ref(aggregation-3)). There was only minimal
-evidence for Hypotheses \@ref(hyp:awareness-aggregation-1)
+that choice bracketing facilitates risk aggregation, if aided by the aggregated
+distribution. As per Hypothesis \@ref(hyp:distribution-aggregation-2),
+Experiment 2 found that showing a distribution of outcome probabilities without
+inter-trial feedback reduced risk aversion. Further, there was mixed evidence
+for Hypothesis \@ref(hyp:similarity-aggregation-1), such that people were less
+risk averse when the set of projects they saw were dissimilar, but only when
+offered them as a portfolio (see Appendix \@ref(aggregation-3)). There was only
+minimal evidence for Hypotheses \@ref(hyp:awareness-aggregation-1)
 and \@ref(hyp:presentation-aggregation-1), suggesting that viewing projects
 together and an awareness of the number of projects are not sufficient to
 encourage aggregation. Altogether, it seems that subtle contextual cues are
@@ -52,20 +64,20 @@ faced with non-identical sequential choices and do not receive immediate
 feedback. This work is the first to provide evidence for this aggregation effect
 with non-identical gambles without feedback.
 
-The other choice bracketing findings are less congruent with previous research.
-@sokolhessner2009 and @sokolhessner2012 found that encouraging participants to
-make decisions akin to a professional investor increased the amount of risky
-choices they made. The results showed that a subtler manipulation---whether or
-not participants were aware of the number of choices to be made---is not
-sufficient to encourage aggregation. @hsee1999 found that useful, but
-hard-to-interpret, attributes were used more when the options were presented
-jointly, rather than separately. In the case of these experiments, the "hard to
-interpret" element of the decision set was the risk of the projects. Contrary to
-@hsee1999, it seems that risk was not always accounted for more when projects
-were presented jointly, rather than separately. More study is needed to
-understand whether the effects that were seen in Experiment 1 but not replicated
-in the subsequent experiments are due to statistical chance or specific elements
-of the experiment.
+The other choice bracketing findings that showed little success with aiding
+aggregation are less congruent with previous research. @sokolhessner2009 and
+@sokolhessner2012 found that encouraging participants to make decisions akin to
+a professional investor increased the amount of risky choices they made. The
+results showed that a subtler manipulation---whether or not participants were
+aware of the number of choices to be made---is not sufficient to encourage
+aggregation. @hsee1999 found that useful, but hard-to-interpret, attributes were
+used more when the options were presented jointly, rather than separately. In
+the case of these experiments, the "hard to interpret" element of the decision
+set was the risk of the projects. Contrary to @hsee1999, it seems that risk was
+not always accounted for more when projects were presented jointly, rather than
+separately. More study is needed to understand whether the effects that were
+seen in Experiment 1 but not replicated in the subsequent experiments are due to
+statistical chance or specific elements of the experiment.
 
 Research on the effect of option similarity on choice [e.g., @markman1995]
 suggests that alignable differences are more important than non-alignable
@@ -156,7 +168,11 @@ an entire probability distribution for the different possible outcomes. However,
 research shows that people struggle to construct such distributions [e.g.,
 @alpert1982; @schaefer1973; @staelvonholstein1971; @tversky1974] and
 Chapter \@ref(alignment) shows that people struggle to use such variance
-information when making allocation decisions.
+information when making allocation decisions. Regardless, the benefits of risk
+aggregation can be used even if forecast information is limited (e.g., only a
+point estimate and a probability) and only one project is being considered.
+Specifically, a proposed project can be seen in a larger context by aggregating
+it with projects from the immediate past.
 
 Interestingly, participants were less risk averse about a portfolio of projects
 when industries differed, compared to when they were all from the same industry.

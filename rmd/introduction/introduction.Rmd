@@ -100,14 +100,13 @@ when other metrics are available. Further, people seem to appropriately use
 statistical and anecdotal information based on relevance to the situation at
 hand, but ignore information about the sampling of the anecdote. Not
 appropriately using these kinds of statistical concepts has important
-financial consequences, discussed below. In short, people overall tend to make
-sound decisions, but fail to appropriately moderate them in situations that have
-more subtle (but consequential) statistical implications.
+financial consequences, discussed below.
 
 All the experiments in the thesis use laypeople, except for one experiment.
 However, past work generally shows the same biases in managers and laypeople
-[with some showing more bias, e.g., @haigh2005]. Further, upcoming studies will
-directly test managers to determine any potential expertise effects.
+[with some showing more bias in managers, e.g., @haigh2005]. Further, upcoming
+studies will directly test managers to determine any potential expertise
+effects.
 
 Section \@ref(capital-allocation) will explain how the capital allocation
 process functions in hierarchical organisations and why it is necessary to

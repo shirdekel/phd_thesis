@@ -8,46 +8,53 @@ hypothesised allocation effects are reported in
 Appendix \@ref(results-alignment-8-allocation). The predicted four-way
 interaction (alignment $\times$ reliability amount $\times$ NPV amount $\times$
 reliability type) was not significant,
-`r results_alignment_8$allocation$four_way`. However, most of the
-hypothesised specific effects were found.
+`r results_alignment_8$allocation$four_way`. Regardless, the primary hypotheses
+were supported, but realised in a different overall pattern than predicted,
+elaborated below.
 
 #### Verbal reliability
 
 The three-way interaction (alignment $\times$ reliability amount $\times$ NPV
 amount) in the verbal reliability condition was not significant,
 `r results_alignment_8$allocation$reliability_type_explicit_three_way`. This is
-most likely due to the size of the two-way interactions in each alignment
-condition being relatively similar, despite the expectation of no interaction in
-the low alignment condition (as was seen in Experiment 1). In high alignment,
-the interaction between the linear NPV amount trend and NPV reliability amount
-was significant,
+because NPV reliability interacted with NPV amount in both alignment conditions.
+This is a different pattern from Experiment 1 where there was no effect of NPV
+reliability in the low alignment condition. In high alignment, the interaction
+between the linear NPV amount trend and NPV reliability amount was significant,
 `r results_alignment_8$allocation$alignment_high_reliability_type_explicit_reliability_amount`.
 Specifically, the trend was stronger in the high reliability amount condition,
 `r results_alignment_8$allocation$alignment_high_reliability_type_explicit_reliability_amount_high_npv_amount`,
 than in the low reliability amount condition,
 `r results_alignment_8$allocation$alignment_high_reliability_type_explicit_reliability_amount_low_npv_amount`.
 This shows that, as in Experiment 1, participants moderate their allocations
-based on verbally-expressed NPV reliability.
-
-Contrary to Experiment 1, the interaction between the linear NPV amount trend
-and NPV reliability amount was significant in low alignment,
+based on verbally-expressed NPV reliability. In low alignment, there was also an
+interaction between the linear NPV amount trend and NPV reliability amount was
+significant in low alignment,
 `r results_alignment_8$allocation$alignment_low_reliability_type_explicit_reliability_amount`.
 This suggests that participants were also able to moderate their allocations
-based on verbal reliability in the low alignment condition. Despite the lack of
-a three-way interaction in the verbal reliability condition (that would have
-indicated a difference in the two alignment two-way interactions), the linear
-NPV amount trend was stronger in the low alignment condition than in the high
-alignment condition when averaging over reliability amount,
+based on verbal reliability in the low alignment condition.
+
+However, another aspect of the data suggests a greater use of NPV in the low
+alignment condition. The linear NPV amount trend was stronger in the low
+alignment condition than in the high alignment condition when averaging over
+reliability amount,
 `r results_alignment_8$allocation$reliability_type_explicit_alignment`. This
 suggests that when NPV reliability was expressed verbally, as in Experiment 1,
 participants relied more on NPV when projects were dissimilar than when they
 were similar.
 
+Overall, participants used NPV less when it was described as less reliable in
+both high and low alignment conditions, and further, used NPV more when projects
+were less alignable regardless of how reliable NPV was described to be.
+
 #### Numerical reliability
 
-In the numerical reliability condition, the linear NPV amount trend was not
-significantly "equivalent" between those in the low and high alignment
-conditions (averaging over reliability amount),
+The numerical reliability data were analysed differently to the verbal
+reliability data because of the different hypothesised effects. The two effects
+of interest here were the alignment and reliability effects. In the numerical
+reliability condition, it was hypothesised that the linear NPV amount trend
+would be equivalent between those in the low and high alignment conditions,
+averaging over reliability amount. However, this effect was not significant,
 `r results_alignment_8$allocation$reliability_type_implicit_alignment_null`. In
 fact, a post-hoc comparison suggests that the low alignment trend was stronger
 (with Bonferroni adjustment),
@@ -66,3 +73,10 @@ allocations.
 ```{r plot-alignment-8-allocation, fig.cap = "(ref:plot-alignment-8-allocation)"}
 plot_alignment_8$allocation
 ```
+
+Similar to the verbal reliability condition, the use of NPV was stronger in the
+low alignment condition than it was in the high alignment condition. However,
+unlike the verbal reliability condition, participants did not moderate their use
+of NPV based on numerical reliability in either the low or the high alignment
+condition. In the verbal reliability condition, they moderated their choices in
+both alignment conditions.

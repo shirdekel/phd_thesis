@@ -5,13 +5,13 @@
 #' @author Shir Dekel
 #' @export
 afex_plot_alignment_1 <- function(afex_aov, dv_label = "Allocation (%)") {
-  suppressWarnings({
+  suppressMessages({
     afex_aov %>%
       afex_plot(
         x = "npv_amount",
         trace = "reliability_amount",
         panel = "alignment",
-        error = "within",
+        error = "none",
         mapping = c("shape", "color"),
         data_geom = geom_point,
         emmeans_arg = list(model = "multivariate"),
