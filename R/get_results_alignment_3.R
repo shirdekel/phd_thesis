@@ -1,12 +1,10 @@
 ##' @title Get alignment 3 results
 ##'
-##' @param data_clean_alignment_3
-##' @param iv
-##' @param dv
+##' @param data
 ##' @return
 ##' @author Shir Dekel
 ##' @export
-get_results_alignment_3 <- function(data_clean_alignment_3, iv, dv) {
+get_results_alignment_3 <- function(data = alignment3::data) {
   results_1_dv <-
     c(
       "allocation",
@@ -17,7 +15,7 @@ get_results_alignment_3 <- function(data_clean_alignment_3, iv, dv) {
   results_1 <-
     results_1_dv %>%
     map(
-      ~ data_clean_alignment_3 %>%
+      ~ data %>%
         filter(phase == "pre") %>%
         nest_by(
           id, allocation, ranking, confidence, npv_amount,
@@ -28,7 +26,7 @@ get_results_alignment_3 <- function(data_clean_alignment_3, iv, dv) {
     set_names(results_1_dv)
 
   npv_knowledge_omnibus <-
-    data_clean_alignment_3 %>%
+    data %>%
     filter(phase == "pre") %>%
     nest_by(id, rating, npv_knowledge) %>%
     aov_ez(

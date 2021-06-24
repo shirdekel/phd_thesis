@@ -1,12 +1,10 @@
 ##' @title Get alignment 5 results
 ##'
-##' @param data_clean_alignment_5
-##' @param iv
-##' @param dv
+##' @param data
 ##' @return
 ##' @author Shir Dekel
 ##' @export
-get_results_alignment_5 <- function(data_clean_alignment_5, iv, dv) {
+get_results_alignment_5 <- function(data = alignment5::data) {
   dv_label <-
     c(
       "forecast_mean",
@@ -15,7 +13,7 @@ get_results_alignment_5 <- function(data_clean_alignment_5, iv, dv) {
 
   dv_label %>%
     map(
-      ~ data_clean_alignment_5 %>%
+      ~ data %>%
         nest_by(
           id, forecast_mean, forecast_sd, npv_amount, reliability_amount,
           alignment

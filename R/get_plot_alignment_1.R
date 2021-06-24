@@ -3,14 +3,14 @@
 ##' @return
 ##' @author Shir Dekel
 ##' @export
-get_plot_alignment_1 <- function(data_clean_alignment_1) {
+get_plot_alignment_1 <- function(data = alignment1::data) {
   allocation <-
-    data_clean_alignment_1 %>%
+    data %>%
     get_omnibus_alignment_1("allocation") %>%
     afex_plot_alignment_1(dv_label = "Allocation (%)")
 
   confidence <-
-    data_clean_alignment_1 %>%
+    data %>%
     get_omnibus_alignment_1("confidence") %>%
     afex_plot_alignment_1(dv_label = "Confidence")
 

@@ -3,11 +3,11 @@
 ##' @return
 ##' @author Shir Dekel
 ##' @export
-get_plot_alignment_7 <- function(data_clean_alignment_7) {
+get_plot_alignment_7 <- function(data = alignment7::data) {
   allocation <-
     c("low", "high") %>%
     map(
-    ~ data_clean_alignment_7 %>%
+    ~ data %>%
       filter(alignment == .x) %>%
     nest_by(
       id,

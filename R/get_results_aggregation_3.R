@@ -1,12 +1,10 @@
 ##' @title Experiment 3 results
 
 ##' @param data
-##' @param iv
-##' @param dv
 ##' @return
 ##' @author Shir Dekel
 ##' @export
-get_results_aggregation_3 <- function(data, iv, dv) {
+get_results_aggregation_3 <- function(data = aggregation3::data) {
   choice <-
     data %>%
     nest_by(id, similarity, choice) %>%

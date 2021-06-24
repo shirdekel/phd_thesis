@@ -3,16 +3,16 @@
 ##' @return
 ##' @author Shir Dekel
 ##' @export
-get_plot_alignment_6 <- function(data_clean_alignment_6) {
+get_plot_alignment_6 <- function(data = alignment6::data) {
 
   allocation <-
-      data_clean_alignment_6 %>%
+      data %>%
       nest_by(id, allocation, npv_amount, variance, hint) %>%
       get_omnibus_alignment_6("allocation") %>%
       afex_plot_alignment_6(dv_label = "Allocation (%)")
 
   ranking <-
-      data_clean_alignment_6 %>%
+      data %>%
       nest_by(id, ranking, npv_amount, variance, hint) %>%
       get_omnibus_alignment_6("ranking") %>%
       afex_plot_alignment_6(dv_label = "Ranking")

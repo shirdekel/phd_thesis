@@ -3,8 +3,8 @@
 #' @return
 #' @author Shir Dekel
 #' @export
-get_omnibus_alignment_6 <- function(data_clean_alignment_6, dv) {
-  data_clean_alignment_6 %>%
+get_omnibus_alignment_6 <- function(data, dv) {
+  data %>%
     arrange(npv_amount) %>%
     aov_ez(
         id = "id",

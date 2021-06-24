@@ -1,12 +1,10 @@
 ##' @title Experiment 4 results
 
 ##' @param data
-##' @param iv
-##' @param dv
 ##' @return
 ##' @author Shir Dekel
 ##' @export
-get_results_aggregation_4 <- function(data, iv, dv) {
+get_results_aggregation_4 <- function(data = aggregation4::data) {
   choice <-
     data %>%
     nest_by(id, awareness, choice) %>%

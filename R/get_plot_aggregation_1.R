@@ -3,9 +3,9 @@
 ##' @return
 ##' @author Shir Dekel
 ##' @export
-get_plot_aggregation_1 <- function(data_clean) {
+get_plot_aggregation_1 <- function(data = aggregation1::data) {
   data_proportion <-
-    data_clean %>%
+    data %>%
     nest_by(id, awareness, presentation, similarity, proportion)
 
   dv.lab <- "Mean proportions of project acceptance"
@@ -38,7 +38,7 @@ get_plot_aggregation_1 <- function(data_clean) {
     )
 
   trials <-
-    data_clean %>%
+    data %>%
     ggplot(aes(x = project_order, y = choice, linetype = similarity)) +
     geom_smooth(method = "loess", color = "black") +
     facet_wrap(vars(awareness, presentation), labeller = "label_both") +
@@ -47,7 +47,7 @@ get_plot_aggregation_1 <- function(data_clean) {
     labs(y = "Proportion of project acceptance")
 
   trials_separate_awareness <-
-    data_clean %>%
+    data %>%
     filter(presentation == "separate") %>%
     ggplot(aes(x = project_order, y = choice, linetype = awareness)) +
     geom_smooth(method = "loess", color = "black") +

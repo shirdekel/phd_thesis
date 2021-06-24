@@ -3,10 +3,9 @@
 #' @return
 #' @author Shir Dekel
 #' @export
-get_results_all_alignment_7 <- function(data_clean_alignment_7,
-                                        alignment_condition, dv) {
+get_results_all_alignment_7 <- function(data, alignment_condition, dv) {
   omnibus <-
-    data_clean_alignment_7 %>%
+    data %>%
     nest_by(
       id, allocation, ranking, npv_cond, reliability_amount, reliability_type,
       alignment, project

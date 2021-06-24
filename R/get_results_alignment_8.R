@@ -1,14 +1,12 @@
 ##' @title Get alignment results
 ##'
-##' @param data_clean_alignment_8
-##' @param iv
-##' @param dv
+##' @param data
 ##' @return
 ##' @author Shir Dekel
 ##' @export
-get_results_alignment_8 <- function(data_clean_alignment_8, iv, dv) {
+get_results_alignment_8 <- function(data = alignment8::data) {
   allocation_omnibus <-
-    data_clean_alignment_8 %>%
+    data %>%
     nest_by(
       id,
       reliability_amount,

@@ -3,7 +3,7 @@
 ##' @return
 ##' @author Shir Dekel
 ##' @export
-get_plot_aggregation_2 <- function(data) {
+get_plot_aggregation_2 <- function(data = aggregation2::data) {
 
   data_split <-
     split_data(data)

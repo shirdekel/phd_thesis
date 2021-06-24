@@ -1,16 +1,14 @@
 ##' @title Get aggregation 1 results
 ##'
-##' @param data_clean_aggregation_1
-##' @param iv
-##' @param dv
+##' @param data
 ##' @return
 ##' @author Shir Dekel
 ##' @export
-get_results_aggregation_1 <- function(data_clean_aggregation_1, iv, dv) {
+get_results_aggregation_1 <- function(data = aggregation1::data) {
   set_sum_contrasts()
 
   model <-
-    data_clean_aggregation_1 %>%
+    data %>%
     nest_by(id, similarity, awareness, presentation, proportion) %>%
     aov_ez(
       dv = "proportion",
@@ -41,7 +39,7 @@ get_results_aggregation_1 <- function(data_clean_aggregation_1, iv, dv) {
     pluck("full_result")
 
   neg_sum_apa <-
-    data_clean_aggregation_1 %>%
+    data %>%
     nest_by(id, choice_neg_1, choice_neg_2) %>%
     mutate(neg_sum = sum(choice_neg_1, choice_neg_2)) %>%
     pull(neg_sum) %>%
@@ -61,7 +59,9 @@ get_results_aggregation_1 <- function(data_clean_aggregation_1, iv, dv) {
 
   max_probability_negative <-
     prob_positive %>%
-    {1 - .} %>%
+    {
+      1 - .
+    } %>%
     max()
 
   aggregated_values <-
@@ -107,7 +107,7 @@ get_results_aggregation_1 <- function(data_clean_aggregation_1, iv, dv) {
     )
 
   data_individual <-
-    data_clean_aggregation_1 %>%
+    data %>%
     nest_by(id, presentation, proportion)
 
   gambles_individual <-
@@ -117,7 +117,7 @@ get_results_aggregation_1 <- function(data_clean_aggregation_1, iv, dv) {
       pull(proportion))
 
   gambles_aggregated <-
-    data_clean_aggregation_1 %>%
+    data %>%
     nest_by(id, choice_aggregated) %>%
     pull(choice_aggregated)
 
@@ -127,7 +127,7 @@ get_results_aggregation_1 <- function(data_clean_aggregation_1, iv, dv) {
     set_names("separate", "joint")
 
   trials_separate_awareness_model <-
-    data_clean_aggregation_1 %>%
+    data %>%
     filter(presentation == "separate") %>%
     glm(choice ~ awareness * project_order, ., family = binomial)
 

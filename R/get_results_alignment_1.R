@@ -1,14 +1,12 @@
 ##' @title Get alignment results
 ##'
-##' @param data_clean_alignment_1
-##' @param iv
-##' @param dv
+##' @param data
 ##' @return
 ##' @author Shir Dekel
 ##' @export
-get_results_alignment_1 <- function(data_clean_alignment_1, iv, dv) {
+get_results_alignment_1 <- function(data = alignment1::data) {
   allocation_omnibus <-
-    data_clean_alignment_1 %>%
+    data %>%
     get_omnibus_alignment_1("allocation")
 
   allocation_apa <-
@@ -45,7 +43,7 @@ get_results_alignment_1 <- function(data_clean_alignment_1, iv, dv) {
     pluck("full_result")
 
   confidence_omnibus <-
-    data_clean_alignment_1 %>%
+    data %>%
     get_omnibus_alignment_1("confidence")
 
   confidence_apa <-

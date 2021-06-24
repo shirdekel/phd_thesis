@@ -3,7 +3,7 @@
 ##' @return
 ##' @author Shir Dekel
 ##' @export
-get_plot_aggregation_3 <- function(data) {
+get_plot_aggregation_3 <- function(data = aggregation3::data) {
 
   choice_binary <-
     data %>%

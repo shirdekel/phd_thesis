@@ -3,9 +3,9 @@
 ##' @return
 ##' @author Shir Dekel
 ##' @export
-get_plot_alignment_5 <- function(data_clean_alignment_5) {
+get_plot_alignment_5 <- function(data = alignment5::data) {
   forecast_mean <-
-    data_clean_alignment_5 %>%
+    data %>%
     nest_by(
       id, forecast_mean,
       npv_amount, reliability_amount, alignment
@@ -22,7 +22,7 @@ get_plot_alignment_5 <- function(data_clean_alignment_5) {
     afex_plot_alignment_4("forecast_mean")
 
   forecast_sd <-
-    data_clean_alignment_5 %>%
+    data %>%
     nest_by(
       id, forecast_sd,
       npv_amount, reliability_amount, alignment
