@@ -4,56 +4,139 @@
 ##' @author Shir Dekel
 ##' @export
 get_plot_aggregation_1 <- function(data = aggregation1::data) {
-  data_proportion <-
+  proportion_omnibus <-
     data %>%
-    nest_by(id, awareness, presentation, similarity, proportion)
+    get_omnibus_aggregation_1()
 
-  dv.lab <- "Mean proportions of project acceptance"
+  dv_label <- "Mean proportions of project acceptance"
+  dodge_width <- 0.5
 
   awareness <-
-    apa_plot(
-      data = data_proportion,
-      iv1 = "awareness",
-      iv1.lab = "Awareness of project set size",
-      dv = "proportion",
-      dv.lab = dv.lab
-    )
+    proportion_omnibus %>%
+    afex_plot(
+      x = "awareness",
+      mapping = c("shape", "color"),
+      error_arg = list(width = 0.05),
+      data_geom = ggbeeswarm::geom_quasirandom,
+      point_arg = list(size = 3),
+      factor_levels = list(
+        awareness = c(
+          naive = "Naive",
+          aware = "Aware"
+        )
+      )
+    ) +
+    labs(
+      x = "Awareness",
+      y = dv_label
+    ) +
+    papaja::theme_apa() +
+    theme(legend.position = "none")
 
   presentation <-
-    apa_plot(
-      data = data_proportion,
-      iv1 = "presentation",
-      dv = "proportion",
-      dv.lab = dv.lab
-    )
+    proportion_omnibus %>%
+    afex_plot(
+      x = "presentation",
+      mapping = c("shape", "color"),
+      error = "within",
+      error_arg = list(width = 0.05),
+      data_geom = ggbeeswarm::geom_quasirandom,
+      point_arg = list(size = 3),
+      factor_levels = list(
+        presentation = c(
+          separate = "Separate",
+          joint = "Joint"
+        )
+      )
+    ) +
+    labs(
+      x = "Presentation",
+      y = dv_label
+    ) +
+    papaja::theme_apa() +
+    theme(legend.position = "none")
+
 
   similarity_presentation <-
-    apa_plot(
-      data = data_proportion,
-      iv1 = "similarity",
-      iv1.lab = "Similarity",
-      iv2 = "presentation",
-      dv = "proportion",
-      dv.lab = dv.lab
+    proportion_omnibus %>%
+    afex_plot(
+      x = "similarity",
+      trace = "presentation",
+      mapping = c("shape", "color"),
+      error = "none",
+      data_geom = ggbeeswarm::geom_quasirandom,
+      data_arg = list(
+        dodge.width = dodge_width,
+        color = "darkgrey"
+      ),
+      point_arg = list(size = 3),
+      dodge = dodge_width,
+      factor_levels = list(
+        presentation = c(
+          separate = "Separate",
+          joint = "Joint"
+        ),
+        similarity = c(
+          low = "Low",
+          high = "High"
+        )
+      ),
+      legend_title = "Presentation"
+    ) +
+    labs(
+      x = "Similarity",
+      y = dv_label
+    ) +
+    papaja::theme_apa()
+
+  data_trials <-
+    data %>%
+    mutate(
+      across(
+        c(awareness, similarity, presentation),
+        str_to_sentence
+      )
     )
 
   trials <-
-    data %>%
-    ggplot(aes(x = project_order, y = choice, linetype = similarity)) +
-    geom_smooth(method = "loess", color = "black") +
-    facet_wrap(vars(awareness, presentation), labeller = "label_both") +
+    data_trials %>%
+    ggplot(
+      aes(
+        x = project_order,
+        y = choice,
+        color = awareness,
+        linetype = awareness
+      )
+    ) +
+    geom_smooth(method = "loess") +
+    facet_wrap(vars(similarity, presentation), labeller = "label_both") +
     scale_x_continuous("Trial", breaks = 1:10) +
     papaja::theme_apa() +
-    labs(y = "Proportion of project acceptance")
+    labs(
+      y = "Proportion of project acceptance",
+      color = "Awareness",
+      linetype = "Awareness"
+    )
 
   trials_separate_awareness <-
-    data %>%
-    filter(presentation == "separate") %>%
-    ggplot(aes(x = project_order, y = choice, linetype = awareness)) +
-    geom_smooth(method = "loess", color = "black") +
+    data_trials %>%
+    filter(presentation == "Separate") %>%
+    ggplot(
+      aes(
+        x = project_order,
+        y = choice,
+        color = awareness,
+        linetype = awareness
+      )
+    ) +
+    geom_smooth(method = "loess") +
     scale_x_continuous("Trial", breaks = 1:10) +
     papaja::theme_apa() +
-    labs(y = "Proportion of project acceptance")
+    labs(
+      y = "Proportion of project acceptance",
+      color = "Awareness",
+      linetype = "Awareness"
+    )
 
   lst(
     awareness,

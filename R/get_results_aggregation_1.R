@@ -7,35 +7,27 @@
 get_results_aggregation_1 <- function(data = aggregation1::data) {
   set_sum_contrasts()
 
-  model <-
+  proportion_omnibus <-
     data %>%
-    nest_by(id, similarity, awareness, presentation, proportion) %>%
-    aov_ez(
-      dv = "proportion",
-      id = "id",
-      between = c("similarity", "awareness"),
-      within = c("presentation"),
-      anova_table = "pes",
-      type = 2
-    )
+    get_omnibus_aggregation_1()
 
   anova <-
-    model %>%
-    apa_print(es = "pes", mse = FALSE) %>%
+    proportion_omnibus %>%
+    papaja::apa_print(es = "pes", mse = FALSE) %>%
     pluck("full_result")
 
   simple_effects <-
-    model %>%
+    proportion_omnibus %>%
     emmeans(~ similarity * presentation) %>%
     pairs(adjust = "none") %>%
-    apa_print() %>%
+    papaja::apa_print() %>%
     pluck("full_result")
 
   simple_effects_all <-
-    model %>%
+    proportion_omnibus %>%
     emmeans(~ similarity * presentation * awareness) %>%
     pairs(adjust = "none") %>%
-    apa_print() %>%
+    papaja::apa_print() %>%
     pluck("full_result")
 
   neg_sum_apa <-
@@ -133,7 +125,7 @@ get_results_aggregation_1 <- function(data = aggregation1::data) {
 
   trials_separate_awareness <-
     trials_separate_awareness_model %>%
-    apa_print()
+    papaja::apa_print()
 
   trials_separate_awareness_slope <-
     trials_separate_awareness_model %>%

@@ -9,34 +9,34 @@ get_plot_alignment_3 <- function(data = alignment3::data) {
     filter(phase == "pre") %>%
     nest_by(id, allocation, npv_amount, reliability_amount, alignment) %>%
     get_omnibus_alignment_3("allocation") %>%
-    afex_plot_alignment_1(dv_label = "Allocation (%)")
+    afex_plot_alignment_3(dv_label = "Mean allocation (%)")
 
-ranking <-
+  ranking <-
     data %>%
     filter(phase == "pre") %>%
     nest_by(id, ranking, npv_amount, reliability_amount, alignment) %>%
     get_omnibus_alignment_3("ranking") %>%
-    afex_plot_alignment_1(dv_label = "Ranking (%)")
+    afex_plot_alignment_3(dv_label = "Mean ranking")
 
-confidence <-
+  confidence <-
     data %>%
     filter(phase == "pre") %>%
     nest_by(id, confidence, npv_amount, reliability_amount, alignment) %>%
     get_omnibus_alignment_3("confidence") %>%
-    afex_plot_alignment_1(dv_label = "Confidence (%)")
+    afex_plot_alignment_3(dv_label = "Mean confidence rating")
 
   npv_knowledge <-
-      data %>%
-      filter(phase == "pre") %>%
-      nest_by(id, rating, npv_knowledge) %>%
-      aov_ez(
-          id = "id",
-          dv = "npv_knowledge",
-          within = "rating",
-          data = .,
-          type = 2
-      ) %>%
-      afex_plot_npv_knowledge()
+    data %>%
+    filter(phase == "pre") %>%
+    nest_by(id, rating, npv_knowledge) %>%
+    aov_ez(
+      id = "id",
+      dv = "npv_knowledge",
+      within = "rating",
+      data = .,
+      type = 2
+    ) %>%
+    afex_plot_npv_knowledge()
 
   lst(
     allocation,

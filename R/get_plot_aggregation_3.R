@@ -4,7 +4,6 @@
 ##' @author Shir Dekel
 ##' @export
 get_plot_aggregation_3 <- function(data = aggregation3::data) {
-
   choice_binary <-
     data %>%
     apa_plot(
@@ -55,7 +54,7 @@ get_plot_aggregation_3 <- function(data = aggregation3::data) {
       dv.lab = "Mean number of expected projects")
 
   choice_trials <-
-    plot_choice_trials(data, linetype = similarity)
+    plot_choice_trials(data, similarity)
 
   project_number <-
     plot_project_number(data, similarity)

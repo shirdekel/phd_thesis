@@ -24,8 +24,8 @@ split_data <- function(data) {
                     fct_relevel("aware")))
 
   data_effects <-
-    list(data_presentation, data_distribution, data_awareness) %>%
-    set_names("presentation", "distribution", "awareness")
+    list(data_presentation, data_awareness, data_distribution) %>%
+    set_names("presentation", "awareness", "distribution")
 
   return(data_effects)
 

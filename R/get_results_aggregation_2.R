@@ -10,8 +10,25 @@ get_results_aggregation_2 <- function(data = aggregation2::data) {
   choice <-
     get_results_glmer(data_split, "choice")
 
+  proportion_omnibus <-
+    list(
+      data_split,
+      names(data_split)
+    ) %>%
+    pmap(
+      ~ .x %>%
+        get_omnibus_aggregation("proportion", .y)
+    )
+
   proportion <-
-    get_results_ttest(data_split, "proportion")
+    proportion_omnibus %>%
+    map(
+      ~ .x %>%
+        papaja::apa_print(es = "pes", mse = FALSE) %>%
+        pluck("full_result") %>%
+        unlist() %>%
+        unname()
+    )
 
   portfolio_binary <-
     get_results_glmer(data_split, "portfolio_binary")

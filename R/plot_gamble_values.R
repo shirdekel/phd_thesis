@@ -9,20 +9,20 @@ plot_gamble_values <- function(data) {
     data %>%
     ggplot(aes(y = choice, x = expected_value)) +
     geom_smooth(method = "loess", color = "black") +
-    theme_apa()
+    papaja::theme_apa()
 
   probability_positive_plot <-
     data %>%
     ggplot(aes(y = choice, x = probability_positive)) +
     geom_smooth(method = "loess", color = "black") +
-    theme_apa() +
+    papaja::theme_apa() +
     theme(axis.title.y = element_blank())
 
   outcome_positive_plot <-
     data %>%
     ggplot(aes(y = choice, x = outcome_positive)) +
     geom_smooth(method = "loess", color = "black") +
-    theme_apa()+
+    papaja::theme_apa()+
     theme(axis.title.y = element_blank())
 
   gamble_values_plot <-

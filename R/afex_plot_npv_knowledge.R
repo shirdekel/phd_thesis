@@ -24,5 +24,5 @@ afex_plot_npv_knowledge <- function(afex_aov) {
       x = "Experiment phase",
       y = "NPV knowledge rating"
     ) +
-    theme_apa()
+    papaja::theme_apa()
 }

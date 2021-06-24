@@ -72,20 +72,38 @@ get_plot_anecdotes_2 <- function(data = anecdotes2::data) {
       x = "Similarity rating",
       y = "Mean allocation to the target project"
     ) +
-    theme_apa()
+    papaja::theme_apa()
 
   allocation_relevance_specific_similarity <-
     data %>%
-    ggplot(aes_string(x = "relevance_specific_rating", y = "allocation", linetype = "similarity")) +
+    mutate(
+      across(
+        similarity,
+        ~ .x %>%
+          fct_relevel("low", "high") %>%
+          recode(low = "Low", high = "High")
+      ),
+      across(
+        valence,
+        recode,
+        negative = "Negative valence",
+        positive = "Positive valence"
+      )
+    ) %>%
+    ggplot(aes_string(
+      x = "relevance_specific_rating", y = "allocation",
+      linetype = "similarity", color = "similarity"
+    )) +
     facet_grid(cols = vars(valence)) +
     geom_point(alpha = 0.2) +
-    geom_smooth(method = "lm", color = "black") +
+    geom_smooth(method = "lm") +
     labs(
       x = "Specific relevance rating",
       color = "Similarity",
+      linetype = "Similarity",
       y = "Mean allocation to the target project"
     ) +
-    theme_apa()
+    papaja::theme_apa()
 
   relevance_specific_similarity <-
     data %>%
@@ -97,7 +115,7 @@ get_plot_anecdotes_2 <- function(data = anecdotes2::data) {
       x = "Similarity rating",
       y = "Specific relevance rating"
     ) +
-    theme_apa()
+    papaja::theme_apa()
 
   lm <-
     lst(

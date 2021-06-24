@@ -7,14 +7,6 @@
 get_results_alignment_8 <- function(data = alignment8::data) {
   allocation_omnibus <-
     data %>%
-    nest_by(
-      id,
-      reliability_amount,
-      npv_amount,
-      allocation,
-      alignment,
-      reliability_type
-    ) %>%
     get_omnibus_alignment_8("allocation")
 
   four_way <-

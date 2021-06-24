@@ -46,7 +46,7 @@ plot_prospect_theory <- function() {
       nudge_y = c(0.12, -0.12),
       size = 5,
     ) +
-    theme_apa() +
+    papaja::theme_apa() +
     labs(
       x = "Change from reference point",
       y = "Utility"

@@ -27,6 +27,9 @@ library(knitr)
 library(bookdown)
 library(rmdfiltr)
 library(magick)
+library(cowplot)
+library(ggbeeswarm)
+library(scales)
 
 ## Custom thesis packages
 library(shiR)

@@ -28,5 +28,5 @@ afex_plot_alignment_6 <- function(afex_aov, dv_label) {
       x = "NPV Amount ($)",
       y = dv_label
     ) +
-    theme_apa()
+    papaja::theme_apa()
 }

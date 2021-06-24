@@ -4,6 +4,7 @@
 ##' @author Shir Dekel
 ##' @export
 get_plot_anecdotes_1 <- function(data = anecdotes1::data) {
+  dodge_width <- 0.5
   allocation <-
     data %>%
     get_omnibus_anecdotes_1_allocation() %>%
@@ -11,6 +12,14 @@ get_plot_anecdotes_1 <- function(data = anecdotes1::data) {
       x = "anecdote",
       trace = "alignment",
       mapping = c("shape", "color"),
+      error_arg = list(width = 0.1),
+      data_geom = ggbeeswarm::geom_quasirandom,
+      point_arg = list(size = 3),
+      data_arg = list(
+        dodge.width = dodge_width,
+        color = "darkgrey"
+      ),
+      dodge = dodge_width,
       factor_levels = list(
         alignment = c(
           low = "Low",
@@ -18,8 +27,8 @@ get_plot_anecdotes_1 <- function(data = anecdotes1::data) {
         ),
         anecdote = c(
           anecdote = "Anecdote only",
-          enhanced = "Anecdote & enhanced statistics",
-          combined = "Anecdote & statistics"
+          combined = "Anecdote & statistics",
+          enhanced = "Anecdote & enhanced statistics"
         )
       ),
       legend_title = "Similarity"
@@ -28,19 +37,23 @@ get_plot_anecdotes_1 <- function(data = anecdotes1::data) {
       x = "Anecdote",
       y = "Mean allocation to the target project"
     ) +
-    theme_apa() +
-    scale_x_discrete(guide = guide_axis(n.dodge = 2))
+    papaja::theme_apa() +
+    scale_x_discrete(labels = scales::wrap_format(20))
 
   allocation_combined <-
     data %>%
     get_omnibus_anecdotes_1_allocation_combined() %>%
     afex::afex_plot(
       x = "condition",
+      mapping = c("shape", "color"),
+      error_arg = list(width = 0.1),
+      data_geom = ggbeeswarm::geom_quasirandom,
+      point_arg = list(size = 3),
       factor_levels = list(
         condition = c(
-          combined_high = "High similarity anecdote & statistics",
+          statistics_NA = "Statistics only",
           combined_low = "Low similarity anecdote & statistics",
-          statistics_NA = "Statistics only"
+          combined_high = "High similarity anecdote & statistics"
         )
       )
     ) +
@@ -48,8 +61,10 @@ get_plot_anecdotes_1 <- function(data = anecdotes1::data) {
       x = "Condition",
       y = "Mean allocation to the target project"
     ) +
-    theme_apa() +
-    scale_x_discrete(guide = guide_axis(n.dodge = 2))
+    papaja::theme_apa() +
+    scale_x_discrete(labels = scales::wrap_format(20)) +
+    theme(legend.position = "none")
+
 
   similarity <-
     data %>%
@@ -64,7 +79,8 @@ get_plot_anecdotes_1 <- function(data = anecdotes1::data) {
     afex_plot(
       x = "anecdote",
       trace = "alignment"
-    )
+    ) +
+    papaja::theme_apa()
 
   relevance_specific <-
     data %>%
@@ -79,7 +95,8 @@ get_plot_anecdotes_1 <- function(data = anecdotes1::data) {
     afex_plot(
       x = "anecdote",
       trace = "alignment"
-    )
+    ) +
+    papaja::theme_apa()
 
   relevance_general <-
     data %>%
@@ -94,7 +111,8 @@ get_plot_anecdotes_1 <- function(data = anecdotes1::data) {
     afex_plot(
       x = "anecdote",
       trace = "alignment"
-    )
+    ) +
+    papaja::theme_apa()
 
   allocation_similarity <-
     data %>%
@@ -106,20 +124,34 @@ get_plot_anecdotes_1 <- function(data = anecdotes1::data) {
       x = "Similarity rating",
       y = "Mean allocation to the target project"
     ) +
-    theme_apa()
+    papaja::theme_apa()
 
   allocation_relevance_specific_alignment <-
     data %>%
+    mutate(
+      across(
+        alignment,
+        ~ .x %>%
+          fct_relevel("low", "high") %>%
+          recode(low = "Low", high = "High")
+      )
+    ) %>%
     filter(!anecdote == "statistics") %>%
-    ggplot(aes_string(x = "follow_up_relevance_specific_rating", y = "allocation_projectA", linetype = "alignment")) +
+    ggplot(aes_string(
+      x = "follow_up_relevance_specific_rating",
+      y = "allocation_projectA",
+      color = "alignment",
+      linetype = "alignment"
+    )) +
     geom_point(alpha = 0.2) +
-    geom_smooth(method = lm, color = "black") +
+    geom_smooth(method = lm) +
     labs(
       x = "Specific relevance rating",
+      color = "Similarity",
       linetype = "Similarity",
       y = "Mean allocation to the target project"
     ) +
-    theme_apa()
+    papaja::theme_apa()
 
   relevance_specific_similarity <-
     data %>%
@@ -131,7 +163,7 @@ get_plot_anecdotes_1 <- function(data = anecdotes1::data) {
       x = "Similarity rating",
       y = "Specific relevance rating"
     ) +
-    theme_apa()
+    papaja::theme_apa()
 
   lm <-
     lst(
