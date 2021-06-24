@@ -61,6 +61,7 @@ fig:project-allocation-anecdote-valence-positive-similarity-high-materials-anecd
 fig:project-allocation-target-valence-positive-similarity-high-materials-anecdotes-2
 fig:plot-anecdotes-2-allocation
 fig:plot-anecdotes-2-allocation-difference
+fig:plot-anecdotes-2-lm-allocation-relevance-specific-similarity
 fig:instructions-materials-aggregation-1
 fig:project-choice-aggregated-aggregation-1
 fig:plot-aggregation-1-trials

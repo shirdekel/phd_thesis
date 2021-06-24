@@ -475,15 +475,15 @@
     },
     "bookdown": {
       "Package": "bookdown",
-      "Version": "0.22.3",
+      "Version": "0.22.4",
       "Source": "GitHub",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
       "RemoteRepo": "bookdown",
-      "RemoteUsername": "rstudio",
-      "RemoteRef": "HEAD",
-      "RemoteSha": "c8883c9bbd70400144b396b7cfc66e5e4f2ae8a5",
-      "Hash": "659903ca9bdc2a86fe93c7d9e68c36fb"
+      "RemoteUsername": "shirdekel",
+      "RemoteRef": "split-bib",
+      "RemoteSha": "005f0683cbfb6d93c88ce6ae3c71de33926f3717",
+      "Hash": "e97841ae04d918bf614cc2957da67f5c"
     },
     "boot": {
       "Package": "boot",
@@ -1246,10 +1246,10 @@
     },
     "mime": {
       "Package": "mime",
-      "Version": "0.10",
+      "Version": "0.11",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "26fa77e707223e1ce042b2b5d09993dc"
+      "Hash": "8974a907200fc9948d636fe7d85ca9fb"
     },
     "minqa": {
       "Package": "minqa",
@@ -1626,8 +1626,8 @@
       "RemoteRepo": "rlang",
       "RemoteUsername": "r-lib",
       "RemoteRef": "HEAD",
-      "RemoteSha": "b501cf763097f796f90982dead5e646bdd9dd3f0",
-      "Hash": "acfd5a70beafa435c0fd98f8457a4651"
+      "RemoteSha": "9bed9dd6237ebba56d805a7c7a8037d91623064f",
+      "Hash": "42b09ac30edcd21320248c0e7d38ec8c"
     },
     "rmarkdown": {
       "Package": "rmarkdown",
