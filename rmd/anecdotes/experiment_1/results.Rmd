@@ -14,7 +14,7 @@ to seeing the low similarity anecdote with statistics,
 `r results_anecdotes_1$allocation$combined_low_statistics_NA`. These findings
 provide evidence of anecdotal bias only in the high similarity condition.
 
-(ref:plot-anecdotes-1-allocation-combined) Mean allocation to the target project. Error bars represent 95% confidence intervals.
+(ref:plot-anecdotes-1-allocation-combined) Mean allocation to the target project for the statistics only condition and the two anecdote & statistics conditions. Error bars represent 95% confidence intervals. Raw data are plotted in the background.
 
 ```{r plot-anecdotes-1-allocation-combined, fig.cap = "(ref:plot-anecdotes-1-allocation-combined)"}
 plot_anecdotes_1$allocation_combined
@@ -34,7 +34,7 @@ not significant, `r results_anecdotes_1$allocation$combined_enhanced`. This
 suggests that providing participants with instructions on how to think
 statistically is not sufficient to facilitate a focus on statistics.
 
-(ref:plot-anecdotes-1-allocation) Mean allocation to the target project. Error bars represent 95% confidence intervals.
+(ref:plot-anecdotes-1-allocation) Mean allocation to the target project, by similarity and anecdote conditions (excluding the statistics only condition). Error bars represent 95% confidence intervals. Raw data are plotted in the background.
 
 ```{r plot-anecdotes-1-allocation, fig.cap = "(ref:plot-anecdotes-1-allocation)"}
 plot_anecdotes_1$allocation
@@ -72,7 +72,7 @@ the general relevance ratings. This suggests that people were reasoning about
 the connection between the anecdote and target, as opposed to simply reacting to
 the failed project and associating that with that project's industry.
 
-(ref:plot-anecdotes-1-lm-allocation-relevance-specific-alignment) Mean allocations to the target project, by specific relevance rating and similarity condition.
+(ref:plot-anecdotes-1-lm-allocation-relevance-specific-alignment) Mean allocation to the target project, by specific relevance rating and similarity condition. LOESS method was used for smoothing over trials and the shading represents 95% confidence intervals. Raw data are plotted in the background.
 
 ```{r plot-anecdotes-1-lm-allocation-relevance-specific-alignment, fig.cap = "(ref:plot-anecdotes-1-lm-allocation-relevance-specific-alignment)"}
 plot_anecdotes_1$lm$allocation_relevance_specific_alignment

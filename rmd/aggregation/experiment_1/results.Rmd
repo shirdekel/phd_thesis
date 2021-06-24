@@ -21,19 +21,19 @@ condition, `r results_aggregation_1$lowjoint_lowseparate`. These findings
 suggest that it is possible to facilitate risk aggregation with subtle choice
 bracketing manipulations.
 
-(ref:plot-aggregation-1-awareness) Mean proportions of decisions to invest in each set of 10 projects, by awareness conditions. Error bars represent 95% confidence intervals.
+(ref:plot-aggregation-1-awareness) Mean proportions of decisions to invest in each set of 10 projects, by awareness condition. Error bars represent 95% confidence intervals. Raw data are plotted in the background.
 
 ```{r plot-aggregation-1-awareness, fig.cap = "(ref:plot-aggregation-1-awareness)"}
 plot_aggregation_1$awareness
 ```
 
-(ref:plot-aggregation-1-presentation) Mean proportions of decisions to invest in each set of 10 projects, by presentation conditions. Error bars represent 95% confidence intervals.
+(ref:plot-aggregation-1-presentation) Mean proportions of decisions to invest in each set of 10 projects, by presentation condition. Error bars represent 95% confidence intervals. Here, however, the intervals are so narrow that they are sometimes obscured by the mean indicators in the plot. Raw data are plotted in the background.
 
 ```{r plot-aggregation-1-presentation, fig.cap = "(ref:plot-aggregation-1-presentation)"}
 plot_aggregation_1$presentation
 ```
 
-(ref:plot-aggregation-1-similarity-presentation) Mean proportions of decisions to invest in each set of 10 projects, by similarity and presentation conditions. Error bars represent 95% confidence intervals.
+(ref:plot-aggregation-1-similarity-presentation) Mean proportions of decisions to invest in each set of 10 projects, by similarity and presentation conditions. In mixed factorial designs, error bars cannot be used to make inferences by "eye" across all conditions. Therefore, error bars are not included. Raw data are plotted in the background.
 
 ```{r plot-aggregation-1-similarity-presentation, fig.cap = "(ref:plot-aggregation-1-similarity-presentation)"}
 plot_aggregation_1$similarity_presentation
@@ -57,7 +57,7 @@ naive condition,
 participants that were told the total number of projects became less risk averse
 as the experiment proceeded, regardless of the gamble values.
 
-(ref:plot-aggregation-1-trials-separate-awareness) Proportion of project acceptance in the separate presentation condition, by trial, and awareness conditions. LOESS is used for smoothing over trials and the shading represents 95% confidence intervals.
+(ref:plot-aggregation-1-trials-separate-awareness) Proportion of project acceptance in the separate presentation condition, by trial and awareness conditions. LOESS method was used for smoothing over trials and the shading represents 95% confidence intervals.
 
 ```{r plot-aggregation-1-trials-separate-awareness, fig.cap = "(ref:plot-aggregation-1-trials-separate-awareness)"}
 plot_aggregation_1$trials_separate_awareness

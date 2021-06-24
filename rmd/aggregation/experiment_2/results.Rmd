@@ -16,7 +16,7 @@ not see a distribution
 (`r results_aggregation_2$distribution_mean$absent$choice`),
 `r results_aggregation_2$proportion$distribution`.
 
-(ref:plot-aggregation-2-proportion) Mean proportion of project acceptance for the presentation, awareness, and distribution effects. Note, the condition on the left of each effect is the reference condition (separate presentation, naive awareness, distribution absent). As such, it is identical for the three effects. Error bars represent 95% confidence intervals.
+(ref:plot-aggregation-2-proportion) Mean proportion of project acceptance for the presentation, awareness, and distribution effects. The condition on the left of each effect is the reference condition (separate presentation, naive awareness, distribution absent). As such, it is identical for the three effects. Error bars represent 95% confidence intervals. Raw data are plotted in the background.
 
 ```{r plot-aggregation-2-proportion, fig.cap = "(ref:plot-aggregation-2-proportion)"}
 plot_aggregation_2$choice_proportion
@@ -25,7 +25,7 @@ plot_aggregation_2$choice_proportion
 Further, as Figure \@ref(fig:plot-aggregation-2-choice-trials) shows, it
 doesn't seem as if the previous awareness by trial effect was replicated.
 
-(ref:plot-aggregation-2-choice-trials) Mean project acceptance for separate presentation, distribution absent condition, by awareness and trial. LOESS is used for smoothing over trials and the shading represents 95% confidence intervals.
+(ref:plot-aggregation-2-choice-trials) Mean project acceptance for separate presentation, distribution absent condition, by awareness and trial. LOESS method was used for smoothing over trials and the shading represents 95% confidence intervals.
 
 ```{r plot-aggregation-2-choice-trials, fig.cap = "(ref:plot-aggregation-2-choice-trials)"}
 plot_aggregation_2$choice_trials

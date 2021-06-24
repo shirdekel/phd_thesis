@@ -70,7 +70,7 @@ Figure \@ref(fig:plot-anecdotes-1-lm-relevance-specific-similarity) similarity
 ratings were positively correlated to specific relevance ratings,
 `r results_anecdotes_1$lm$relevance_specific_similarity`.
 
-(ref:plot-anecdotes-1-lm-allocation-similarity) Mean allocations to the target
+(ref:plot-anecdotes-1-lm-allocation-similarity) Mean allocation to the target
 project by similarity rating. The shading represents 95% confidence intervals.
 
 ```{r plot-anecdotes-1-lm-allocation-similarity, fig.cap = "(ref:plot-anecdotes-1-lm-allocation-similarity)"}

@@ -23,7 +23,7 @@ condition than in the high alignment condition,
 participants relied more on NPV when projects were dissimilar than when they
 were similar.
 
-(ref:plot-alignment-3-allocation) Mean allocation. Error bars represent 95% confidence intervals based on the multivariate model.
+(ref:plot-alignment-3-allocation) Mean allocation across NPV amount, by alignment and reliability amount conditions. Error bars represent 95% confidence intervals, calculated from the within-subjects SEs using the method from @cousineau2014. Raw data are plotted in the background.
 
 ```{r plot-alignment-3-allocation, fig.cap = "(ref:plot-alignment-3-allocation)"}
 plot_alignment_3$allocation
