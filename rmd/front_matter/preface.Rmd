@@ -1,4 +1,4 @@
-\noindent \textbf{Naviation}
+\noindent \textbf{Naviating the document on a computer}
 
 There are links throughout the PDF document, identified by
 \textcolor{mylinkcolor}{dark blue} text. Clicking on these will take you to the
