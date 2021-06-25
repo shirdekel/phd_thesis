@@ -69,7 +69,7 @@ This shows that participants did not use numerical reliability to moderate their
 allocations.
 
 
-(ref:plot-alignment-8-allocation) Mean allocation across NPV amount, by alignment, reliability amount, and reliability type conditions. Error bars represent 95% confidence intervals, calculated from the within-subjects SEs using the method from @cousineau2014. Here, however, the intervals are so narrow that they are sometimes obscured by the mean indicators in the plot. Raw data are plotted in the background.
+(ref:plot-alignment-8-allocation) Mean allocation across NPV amount, by alignment, reliability amount, and reliability type conditions. Error bars represent 95% confidence intervals, calculated from the within-subjects SEs using the method from @cousineau2014. Raw data are plotted in the background.
 
 ```{r plot-alignment-8-allocation, fig.height = 10, fig.width = 8, fig.cap = "(ref:plot-alignment-8-allocation)"}
 plot_alignment_8$allocation
