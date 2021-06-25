@@ -76,7 +76,7 @@ mini-lof: false  # include mini-list of figures by start of each chapter?
 linespacing: 22pt plus2pt # 22pt is official for submission & library copies
 frontmatter-linespacing: 17pt plus1pt minus1pt #spacing in roman-numbered pages (acknowledgments, table of contents, etc.)
 
-includeline-num: false #show line numbering in PDF?
+includeline-num: true #show line numbering in PDF?
 
 # For lua filters to work
 citeproc: no
