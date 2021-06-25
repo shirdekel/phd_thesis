@@ -20,3 +20,14 @@ using `renv` [@ushey2021] to create reproducible environments, and `targets`
 \LaTeX based on the `oxforddown` template [@lyngs2019]. All the components
 required to reproduce this document can be found at the Github repository
 https://github.com/shirdekel/phd_thesis.
+
+\hfill\break
+
+\noindent \textbf{Ethics}
+
+The research in this thesis was approved by The University of Sydney Human
+Research Ethics Committee (HREC).
+
+Project No.: 2019/056
+
+Project Title: Business decision making
