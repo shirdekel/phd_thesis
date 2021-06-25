@@ -6,89 +6,62 @@
 % Originally by Keith A. Gillow (gillow@maths.ox.ac.uk), 1997
 % Modified by Sam Evans (sam@samuelevansresearch.org), 2007
 % Modified by John McManigle (john@oxfordechoes.com), 2015
-% Modified by Ulrik Lyngs (ulrik.lyngs@cs.ox.ac.uk), 2018, for use with R Markdown
+% Modified by Ulrik Lyngs (ulrik.lyngs@cs.ox.ac.uk), 2018-, for use with R Markdown
 % Modified by Shir Dekel (shirdekel@yahoo.com.au), 2021, for use for his thesis.
 %
 % Ulrik Lyngs, 25 Nov 2018: Following John McManigle, broad permissions are granted to use, modify, and distribute this software
 % as specified in the MIT License included in this distribution's LICENSE file.
 %
-% John tried to comment this file extensively, so read through it to see how to use the various options.  Remember
-% that in LaTeX, any line starting with a % is NOT executed.  Several places below, you have a choice of which line to use
+% John commented this file extensively, so read through to see how to use the various options.  Remember that in LaTeX,
+% any line starting with a % is NOT executed.  Several places below, you have a choice of which line to use
 % out of multiple options (eg draft vs final, for PDF vs for binding, etc.)  When you pick one, add a % to the beginning of
 % the lines you don't want.
 
 
-%%%%% CHOOSE PAGE LAYOUT
+%%%%% PAGE LAYOUT
 % The most common choices should be below.  You can also do other things, like replacing "a4paper" with "letterpaper", etc.
 
-% This one will format for two-sided binding (ie left and right pages have mirror margins; blank pages inserted where needed):
+% This one formats for two-sided binding (ie left and right pages have mirror margins; blank pages inserted where needed):
 %\documentclass[a4paper,twoside]{templates/ociamthesis}
-% This one will format for one-sided binding (ie left margin > right margin; no extra blank pages):
+% This one formats for one-sided binding (ie left margin > right margin; no extra blank pages):
 %\documentclass[a4paper]{ociamthesis}
-% This one will format for PDF output (ie equal margins, no extra blank pages):
+% This one formats for PDF output (ie equal margins, no extra blank pages):
 %\documentclass[a4paper,nobind]{templates/ociamthesis}
-%UL 2 Dec 2018: pass this in from YAML
-%SD dvipnames provides the ability to specify specific colours to hyperref,
-% through xcolor. Can't be specified in xcolor package load directly, because of
-% a conflict with another package that uses xcolor.
-\documentclass[a4paper, nobind, dvipsnames]{templates/ociamthesis}
 
-% UL 5 January 2021 - add packages used by kableExtra
-\usepackage{booktabs}
-\usepackage{longtable}
-\usepackage{array}
-\usepackage{multirow}
-\usepackage{wrapfig}
-\usepackage{colortbl}
-\usepackage{pdflscape}
-\usepackage{tabu}
-\usepackage{threeparttable}
-\usepackage{threeparttablex}
-\usepackage[normalem]{ulem}
-\usepackage{makecell}
-% SD turn on colorlinks, instead of borders, colour all links navy blue, and
-% only make toc numbers hyperlinked
-\usepackage[colorlinks=true,allcolors=Blue,linktocpage=true,pdfpagelabels]{hyperref}
+% As you can see from the uncommented line below, oxforddown template uses the a4paper size, 
+% and passes in the binding option from the YAML header in index.Rmd:
+\documentclass[a4paper, nobind]{templates/ociamthesis}
+
+
+%%%%% ADDING LATEX PACKAGES
+% add hyperref package with options from YAML %
+\usepackage[pdfpagelabels]{hyperref}
+% change the default coloring of links to something sensible
+\usepackage{xcolor}
+
+\definecolor{mylinkcolor}{RGB}{45,48,145}
+\definecolor{myurlcolor}{RGB}{45,48,145}
+\definecolor{mycitecolor}{RGB}{45,48,145}
+
+\hypersetup{
+  hidelinks,
+  colorlinks,
+  linktocpage,
+  linkcolor=mylinkcolor,
+  urlcolor=myurlcolor,
+  citecolor=mycitecolor
+}
+
+
+
+% add float package to allow manual control of figure positioning %
 \usepackage{float}
 
-% SD 9 June 2021 - add ability to use typeset keys for explaining shortcuts
-\usepackage{menukeys}
-
-% Taken from https://tex.stackexchange.com/a/174306/233976,
-% https://tex.stackexchange.com/a/52625/233976, and
-% https://tex.stackexchange.com/a/185168/233976 because hypothesis is already
-% defined by bookdown.
-\usepackage{amsthm}
-\makeatletter
-\def\thmhead@plain#1#2#3{%
-  \thmname{#1}\thmnumber{\@ifnotempty{#1}{ }\@upn{#2}}%
-  \thmnote{---#3}}
-\let\thmhead\thmhead@plain
-\makeatother
-
-%UL set section header spacing
-\usepackage{titlesec}
-% 
-\titlespacing\subsubsection{0pt}{24pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
-
-% UL 30 Nov 2018 pandoc puts lists in 'tightlist' command when no space between bullet points in Rmd file
-\providecommand{\tightlist}{%
-  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
- 
-% UL 1 Dec 2018, fix to include code in shaded environments
-
-%UL set whitespace around verbatim environments
-\usepackage{etoolbox}
-\makeatletter
-\preto{\@verbatim}{\topsep=0pt \partopsep=0pt }
-\makeatother
-
-%UL 26 Mar 2019, enable strikethrough
+% enable strikethrough
 \usepackage[normalem]{ulem}
 
-%UL use soul package for correction highlighting
+% use soul package for correction highlighting
 \usepackage{color, soul}
-\usepackage{xcolor}
 \definecolor{correctioncolor}{HTML}{CCCCFF}
 \sethlcolor{correctioncolor}
 \newcommand{\ctext}[3][RGB]{%
@@ -102,6 +75,101 @@
 \soulregister\autocite7
 \soulregister\textcite7
 \soulregister\pageref7
+
+%%%%% FIXING / ADDING THINGS THAT'S SPECIAL TO R MARKDOWN'S USE OF LATEX TEMPLATES
+% pandoc puts lists in 'tightlist' command when no space between bullet points in Rmd file,
+% so we add this command to the template
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+ 
+% UL 1 Dec 2018, fix to include code in shaded environments
+
+% User-included things with header_includes or in_header will appear here
+% kableExtra packages will appear here if you use library(kableExtra)
+% Avoid extra spacing due to figures
+\raggedbottom
+
+% Manually landscape from https://stackoverflow.com/a/27334272/13945974
+\usepackage{pdflscape}
+\newcommand{\blandscape}{\begin{landscape}}
+\newcommand{\elandscape}{\end{landscape}}
+
+% Add ability to use typeset keys for explaining shortcuts
+\usepackage{menukeys}
+
+% Add indent to all paragraphs as per APA
+\usepackage{indentfirst}
+
+% Taken from https://tex.stackexchange.com/a/174306/233976,
+% https://tex.stackexchange.com/a/52625/233976, and
+% https://tex.stackexchange.com/a/185168/233976 because hypothesis is already
+% defined by bookdown.
+\usepackage{amsthm}
+\makeatletter
+\def\thmhead@plain#1#2#3{%
+  \thmname{#1}\thmnumber{\@ifnotempty{#1}{ }\@upn{#2}}%
+  \thmnote{---#3}}
+\let\thmhead\thmhead@plain
+\makeatother
+
+% PREFACE
+% 
+% The preface environment puts a large, bold, centered 
+% "Preface" label at the top of the page. The preface
+% itself appears in a quote environment, i.e. tabbed in at both sides, and
+% on its own page.
+
+\newenvironment{preface}%
+{   \begin{alwayssingle}\chapter*{Preface}
+    \thispagestyle{empty}
+    \pagestyle{empty}
+    \setlength{\baselineskip}{\frontmatterbaselineskip}
+  }
+  {\end{alwayssingle}}
+
+% ORIGINALITY
+% 
+% The originality environment puts a large, bold, centered 
+% "Statement of originality" label at the top of the page. The statement
+% itself appears in a quote environment, i.e. tabbed in at both sides, and
+% on its own page.
+
+\newenvironment{originality}%
+{   \begin{alwayssingle}\chapter*{Statement of originality}
+    \thispagestyle{empty}
+    \pagestyle{empty}
+    \setlength{\baselineskip}{\frontmatterbaselineskip}
+  }
+  {\end{alwayssingle}}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{colortbl}
+\usepackage{pdflscape}
+\usepackage{tabu}
+\usepackage{threeparttable}
+\usepackage{threeparttablex}
+\usepackage[normalem]{ulem}
+\usepackage{makecell}
+\usepackage{xcolor}
+
+
+%UL set section header spacing
+\usepackage{titlesec}
+% 
+\titlespacing\subsubsection{0pt}{24pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+
+
+%UL set whitespace around verbatim environments
+\usepackage{etoolbox}
+\makeatletter
+\preto{\@verbatim}{\topsep=0pt \partopsep=0pt }
+\makeatother
+
+
 
 %%%%%%% PAGE HEADERS AND FOOTERS %%%%%%%%%
 \usepackage{fancyhdr}
@@ -134,9 +202,14 @@
 %%%%% SELECT YOUR DRAFT OPTIONS
 % This adds a "DRAFT" footer to every normal page.  (The first page of each chapter is not a "normal" page.)
 
+% IP feb 2021: option to include line numbers in PDF
+\usepackage{lineno}
+\linenumbers
+
 % This highlights (in blue) corrections marked with (for words) \mccorrect{blah} or (for whole
 % paragraphs) \begin{mccorrection} . . . \end{mccorrection}.  This can be useful for sending a PDF of
 % your corrected thesis to your examiners for review.  Turn it off, and the blue disappears.
+
 
 %%%%% BIBLIOGRAPHY SETUP
 % Note that your bibliography will require some tweaking depending on your department, preferred format, etc.
@@ -161,9 +234,9 @@
 
 %%%%% THESIS / TITLE PAGE INFORMATION
 % Everybody needs to complete the following:
-\title{The psychology of managerial capital allocation}
+\title{The Psychology of Managerial Capital Allocation}
 \author{Shir Dekel}
-\college{}
+\college{Faculty of Science}
 
 % Master's candidates who require the alternate title page (with candidate number and word count)
 % must also un-comment and complete the following three lines:
@@ -173,7 +246,7 @@
 % Your full degree name.  (But remember that DPhils aren't "in" anything.  They're just DPhils.)
 \degree{Doctor of Philosophy (Science)}
 % Term and year of submission, or date if your board requires (eg most masters)
-\degreedate{2021-06-24 11:06:55}
+\degreedate{2021-06-25 15:46:08}
 
 
 %%%%% YOUR OWN PERSONAL MACROS
@@ -225,9 +298,9 @@
 %
 % Oxford University logo on title page
 %
-\def\crest{{\includegraphics{templates/usyd-logo.png}}}
+\def\crest{{\includegraphics[width=5cm]{templates/usyd-logo.png}}}
 \renewcommand{\university}{The University of Sydney}
-\renewcommand{\submittedtext}{A thesis submitted for the degree of}
+\renewcommand{\submittedtext}{A thesis submitted to fulfil requirements for the degree of}
 
 
 % Leave this line alone; it gets things started for the real document.
@@ -241,7 +314,7 @@
 % do.  Throughout, 0 = chapter; 1 = section; 2 = subsection; 3 = subsubsection, 4 = paragraph...
 
 % The level that gets a number:
-\setcounter{secnumdepth}{2}
+\setcounter{secnumdepth}{4}
 % The level that shows up in the ToC:
 \setcounter{tocdepth}{2}
 
@@ -257,25 +330,42 @@
 % Title page is created here
 \maketitle
 
+%%%%% SD STATEMENT OF ORIGINALITY
+\begin{originality}
+ 	This is to certify that to the best of my knowledge, the content of this thesis
+  is my own work. This thesis has not been submitted for any degree or other
+  purposes.
+
+  I certify that the intellectual content of this thesis is the product of my own
+  work and that all the assistance received in preparing this thesis and sources
+  have been acknowledged.
+
+  \vspace{3cm}
+
+  Shir Dekel
+\end{originality}
+
 %%%%% DEDICATION -- If you'd like one, un-comment the following.
 
 %%%%% ACKNOWLEDGEMENTS -- Nothing to do here except comment out if you don't want it.
 
-%%%%% PREFACE
+%%%%% SD PREFACE
 \begin{preface}
- 	\textbf{Naviation}
+ 	\noindent \textbf{Naviating the document on a computer}
 
-  There are links throughout the PDF document, identified by \textcolor{Blue}{dark
-  blue} text. Clicking on these will take you to whatever they reference. This can
-  be an hypothesis, a footnote, a citation, a figure, a table, or a section. If
-  you are using Preview (on a Mac) then you can subsequently return back to where
-  you clicked on the link by pressing the key combination \keys{\cmd + [} (the
-  command key with the left square bracket). In Adobe Acrobat the key combination
-  is \keys{\cmd + \arrowkeyleft} (the command key with the left arrow key) for Mac
+  There are links throughout the PDF document, identified by
+  \textcolor{mylinkcolor}{dark blue} text. Clicking on these will take you to the
+  relevant hypothesis, footnote, citation, figure, table, section, or URL. If you
+  are using Preview (on a Mac) then you can subsequently return back to where you
+  clicked on the link by pressing the key combination \keys{\cmd + [} (the command
+  key with the left square bracket). In Adobe Acrobat the key combination is
+  \keys{\cmd + \arrowkeyleft} (the command key with the left arrow key) for Mac
   and \keys{\Altwin + \arrowkeyleft} (the Alt key with the left arrow key) for
   Windows.
 
-  \textbf{Reproducibility}
+  \hfill\break
+
+  \noindent \textbf{Reproducibility}
 
   This thesis was written using \texttt{rmarkdown} \autocite{xie2018} with \texttt{bookdown} \autocite{xie2016},
   using \texttt{renv} \autocite{ushey2021} to create reproducible environments, and \texttt{targets}
@@ -283,23 +373,34 @@
   \LaTeX based on the \texttt{oxforddown} template \autocite{lyngs2019}. All the components
   required to reproduce this document can be found at the Github repository
   \url{https://github.com/shirdekel/phd_thesis}.
+
+  \hfill\break
+
+  \noindent \textbf{Ethics}
+
+  The research in this thesis was approved by The University of Sydney Human
+  Research Ethics Committee (HREC).
+
+  Project No.: 2019/056
+
+  Project Title: Business decision making
 \end{preface}
 
 %%%%% ABSTRACT -- Nothing to do here except comment out if you don't want it.
 \begin{abstract}
-	Capital allocation decisions are critical for large organisations. Management
- research mainly considers such decisions from an organisational perspective,
- largely overlooking potential psychological influences. Therefore, this thesis
- investigated cognitive processes that affect capital allocation decisions. Three
- studies examined how participants integrated multiple kinds of cues when making
- their decisions. Each study presented participants with both statistical
- information and non-numerical semantic information. In each study, participants
- had the opportunity to leverage a statistical concept that arguably should be
- the sole basis of the decision. The first study showed participants sequential
- risky choices without intermittent feedback. Participants could have combined
- the risk across decisions to reduce the overall potential loss. However, they
- struggled to do this, unless it was depicted visually. The second study asked
- participants to allocate a budget across a set of business projects.
+	\noindent Capital allocation decisions are critical for large organisations.
+ Management research mainly considers such decisions from an organisational
+ perspective, largely overlooking potential psychological influences. Therefore,
+ this thesis investigated cognitive processes that affect capital allocation
+ decisions. Three studies examined how participants integrated multiple kinds of
+ cues when making their decisions. Each study presented participants with both
+ statistical information and non-numerical semantic information. In each study,
+ participants had the opportunity to leverage a statistical concept that arguably
+ should be the sole basis of the decision. The first study showed participants
+ sequential risky choices without intermittent feedback. Participants could have
+ combined the risk across decisions to reduce the overall potential loss.
+ However, they struggled to do this, unless it was depicted visually. The second
+ study asked participants to allocate a budget across a set of business projects.
  Participants could have used the variance associated with the provided forecast
  estimates to choose which metrics to use for the allocation. However, they only
  appropriately used this information when it was expressed verbally, and did not
@@ -1536,19 +1637,19 @@ bracketing manipulations.
 
 
 \begin{figure}
-\includegraphics[width=1\linewidth]{thesis_files/figure-latex/plot-aggregation-1-awareness-1} \caption{Mean proportions of decisions to invest in each set of 10 projects, by awareness conditions. Error bars represent 95\% confidence intervals.}\label{fig:plot-aggregation-1-awareness}
+\includegraphics[width=1\linewidth]{thesis_files/figure-latex/plot-aggregation-1-awareness-1} \caption{Mean proportions of decisions to invest in each set of 10 projects, by awareness condition. Error bars represent 95\% confidence intervals. Raw data are plotted in the background.}\label{fig:plot-aggregation-1-awareness}
 \end{figure}
 
 
 
 \begin{figure}
-\includegraphics[width=1\linewidth]{thesis_files/figure-latex/plot-aggregation-1-presentation-1} \caption{Mean proportions of decisions to invest in each set of 10 projects, by presentation conditions. Error bars represent 95\% confidence intervals.}\label{fig:plot-aggregation-1-presentation}
+\includegraphics[width=1\linewidth]{thesis_files/figure-latex/plot-aggregation-1-presentation-1} \caption{Mean proportions of decisions to invest in each set of 10 projects, by presentation condition. Error bars represent 95\% confidence intervals. Here, however, the intervals are so narrow that they are sometimes obscured by the mean indicators in the plot. Raw data are plotted in the background.}\label{fig:plot-aggregation-1-presentation}
 \end{figure}
 
 
 
 \begin{figure}
-\includegraphics[width=1\linewidth]{thesis_files/figure-latex/plot-aggregation-1-similarity-presentation-1} \caption{Mean proportions of decisions to invest in each set of 10 projects, by similarity and presentation conditions. Error bars represent 95\% confidence intervals.}\label{fig:plot-aggregation-1-similarity-presentation}
+\includegraphics[width=1\linewidth]{thesis_files/figure-latex/plot-aggregation-1-similarity-presentation-1} \caption{Mean proportions of decisions to invest in each set of 10 projects, by similarity and presentation conditions. In mixed factorial designs, error bars cannot be used to make inferences by ``eye'' across all conditions. Therefore, error bars are not included. Raw data are plotted in the background.}\label{fig:plot-aggregation-1-similarity-presentation}
 \end{figure}
 
 \subsubsection{Trial-by-trial analysis}
@@ -1572,7 +1673,7 @@ as the experiment proceeded, regardless of the gamble values.
 
 
 \begin{figure}
-\includegraphics[width=1\linewidth]{thesis_files/figure-latex/plot-aggregation-1-trials-separate-awareness-1} \caption{Proportion of project acceptance in the separate presentation condition, by trial, and awareness conditions. LOESS is used for smoothing over trials and the shading represents 95\% confidence intervals.}\label{fig:plot-aggregation-1-trials-separate-awareness}
+\includegraphics[width=1\linewidth]{thesis_files/figure-latex/plot-aggregation-1-trials-separate-awareness-1} \caption{Proportion of project acceptance in the separate presentation condition, by trial and awareness conditions. LOESS method was used for smoothing over trials and the shading represents 95\% confidence intervals.}\label{fig:plot-aggregation-1-trials-separate-awareness}
 \end{figure}
 
 \hypertarget{discussion-aggregation-1}{%
@@ -1829,19 +1930,19 @@ participant, as in Experiment~1. Each experimental condition was compared to the
 same control condition (separate presentation, naive awareness, and distribution
 absent). Figure~\ref{fig:plot-aggregation-2-proportion} shows these data. The
 difference between presentation conditions was not significant,
-\(d_s\) = 0.00, 95\% CI {[}-0.43, 0.43{]}, \(t\)(80) = 0.00, \(p\) = 1.000. Similarly, the
+\(F(1, 80) = 0.00\), \(p > .999\), \(\hat{\eta}^2_p = .000\). Similarly, the
 difference between awareness conditions was not significant,
-\(d_s\) = 0.15, 95\% CI {[}-0.29, 0.58{]}, \(t\)(79) = 0.66, \(p\) = .508. However, those that that saw a
+\(F(1, 79) = 0.44\), \(p = .508\), \(\hat{\eta}^2_p = .006\). However, those that that saw a
 distribution chose to invest significantly more
 (51.19\%) than those that did
 not see a distribution
 (39.02\%),
-\(d_s\) = 0.47, 95\% CI {[}0.03, 0.90{]}, \(t\)(81) = 2.11, \(p\) = .038.
+\(F(1, 81) = 4.46\), \(p = .038\), \(\hat{\eta}^2_p = .052\).
 
 
 
 \begin{figure}
-\includegraphics[width=1\linewidth]{thesis_files/figure-latex/plot-aggregation-2-proportion-1} \caption{Mean proportion of project acceptance for the presentation, awareness, and distribution effects. Note, the condition on the left of each effect is the reference condition (separate presentation, naive awareness, distribution absent). As such, it is identical for the three effects. Error bars represent 95\% confidence intervals.}\label{fig:plot-aggregation-2-proportion}
+\includegraphics[width=1\linewidth]{thesis_files/figure-latex/plot-aggregation-2-proportion-1} \caption{Mean proportion of project acceptance for the presentation, awareness, and distribution effects. The condition on the left of each effect is the reference condition (separate presentation, naive awareness, distribution absent). As such, it is identical for the three effects. Error bars represent 95\% confidence intervals. Raw data are plotted in the background.}\label{fig:plot-aggregation-2-proportion}
 \end{figure}
 
 Further, as Figure~\ref{fig:plot-aggregation-2-choice-trials} shows, it
@@ -1850,7 +1951,7 @@ doesn't seem as if the previous awareness by trial effect was replicated.
 
 
 \begin{figure}
-\includegraphics[width=1\linewidth]{thesis_files/figure-latex/plot-aggregation-2-choice-trials-1} \caption{Mean project acceptance for separate presentation, distribution absent condition, by awareness and trial. LOESS is used for smoothing over trials and the shading represents 95\% confidence intervals.}\label{fig:plot-aggregation-2-choice-trials}
+\includegraphics[width=1\linewidth]{thesis_files/figure-latex/plot-aggregation-2-choice-trials-1} \caption{Mean project acceptance for separate presentation, distribution absent condition, by awareness and trial. LOESS method was used for smoothing over trials and the shading represents 95\% confidence intervals.}\label{fig:plot-aggregation-2-choice-trials}
 \end{figure}
 
 \subsubsection{Follow-up}
@@ -2592,7 +2693,7 @@ reliability condition, \(M = 60.29\), 95\% CI \([24.14,~96.43]\), \(t(112) = 3.3
 
 
 \begin{figure}
-\includegraphics[width=1\linewidth]{thesis_files/figure-latex/plot-alignment-2-allocation-1} \caption{Mean allocation. In mixed factorial designs, error bars cannot be used to make inferences by ``eye'' across all conditions. Therefore, error bars were not included, and instead raw data was plotted in the background. When interpreting this figure, consider the linear trends in NPV Amount.}\label{fig:plot-alignment-2-allocation}
+\includegraphics[width=1\linewidth]{thesis_files/figure-latex/plot-alignment-2-allocation-1} \caption{Mean allocation across NPV amount, by alignment and reliability amount conditions. In mixed factorial designs, error bars cannot be used to make inferences by ``eye'' across all conditions. Therefore, error bars are not included. Raw data are plotted in the background. When interpreting this figure, consider the linear trends in NPV amount.}\label{fig:plot-alignment-2-allocation}
 \end{figure}
 
 The ranking, confidence, and forecast mean data were all largely congruent with
@@ -2772,7 +2873,7 @@ were similar.
 
 
 \begin{figure}
-\includegraphics[width=1\linewidth]{thesis_files/figure-latex/plot-alignment-3-allocation-1} \caption{Mean allocation. Error bars represent 95\% confidence intervals based on the multivariate model.}\label{fig:plot-alignment-3-allocation}
+\includegraphics[width=1\linewidth]{thesis_files/figure-latex/plot-alignment-3-allocation-1} \caption{Mean allocation across NPV amount, by alignment and reliability amount conditions. Error bars represent 95\% confidence intervals, calculated from the within-subjects SEs using the method from \textcite{cousineau2014}. Raw data are plotted in the background.}\label{fig:plot-alignment-3-allocation}
 \end{figure}
 
 The ranking data were congruent with these results, while the confidence data
@@ -3031,7 +3132,7 @@ allocations.
 
 
 \begin{figure}
-\includegraphics[width=1\linewidth]{thesis_files/figure-latex/plot-alignment-8-allocation-1} \caption{Mean project allocation for all conditions. Error bars represent 95\% confidence intervals based on the multivariate model. Here, however, the intervals are so narrow that they are mostly obscured by the mean indicators in the plot.}\label{fig:plot-alignment-8-allocation}
+\includegraphics[width=1\linewidth]{thesis_files/figure-latex/plot-alignment-8-allocation-1} \caption{Mean allocation across NPV amount, by alignment, reliability amount, and reliability type conditions. Error bars represent 95\% confidence intervals, calculated from the within-subjects SEs using the method from \textcite{cousineau2014}. Raw data are plotted in the background.}\label{fig:plot-alignment-8-allocation}
 \end{figure}
 
 Similar to the verbal reliability condition, the use of NPV was stronger in the
@@ -3702,7 +3803,7 @@ provide evidence of anecdotal bias only in the high similarity condition.
 
 
 \begin{figure}
-\includegraphics[width=1\linewidth]{thesis_files/figure-latex/plot-anecdotes-1-allocation-combined-1} \caption{Mean allocation to the target project. Error bars represent 95\% confidence intervals.}\label{fig:plot-anecdotes-1-allocation-combined}
+\includegraphics[width=1\linewidth]{thesis_files/figure-latex/plot-anecdotes-1-allocation-combined-1} \caption{Mean allocation to the target project for the statistics only condition and the two anecdote \& statistics conditions. Error bars represent 95\% confidence intervals. Raw data are plotted in the background.}\label{fig:plot-anecdotes-1-allocation-combined}
 \end{figure}
 
 \subsubsection{The effect of enhanced statistics}
@@ -3722,7 +3823,7 @@ statistically is not sufficient to facilitate a focus on statistics.
 
 
 \begin{figure}
-\includegraphics[width=1\linewidth]{thesis_files/figure-latex/plot-anecdotes-1-allocation-1} \caption{Mean allocation to the target project. Error bars represent 95\% confidence intervals.}\label{fig:plot-anecdotes-1-allocation}
+\includegraphics[width=1\linewidth]{thesis_files/figure-latex/plot-anecdotes-1-allocation-1} \caption{Mean allocation to the target project, by similarity and anecdote conditions (excluding the statistics only condition). Error bars represent 95\% confidence intervals. Raw data are plotted in the background.}\label{fig:plot-anecdotes-1-allocation}
 \end{figure}
 
 \subsubsection{The effect of statistics}
@@ -3760,7 +3861,7 @@ the failed project and associating that with that project's industry.
 
 
 \begin{figure}
-\includegraphics[width=1\linewidth]{thesis_files/figure-latex/plot-anecdotes-1-lm-allocation-relevance-specific-alignment-1} \caption{Mean allocations to the target project, by specific relevance rating and similarity condition.}\label{fig:plot-anecdotes-1-lm-allocation-relevance-specific-alignment}
+\includegraphics[width=1\linewidth]{thesis_files/figure-latex/plot-anecdotes-1-lm-allocation-relevance-specific-alignment-1} \caption{Mean allocation to the target project, by specific relevance rating and similarity condition. LOESS method was used for smoothing over trials and the shading represents 95\% confidence intervals. Raw data are plotted in the background.}\label{fig:plot-anecdotes-1-lm-allocation-relevance-specific-alignment}
 \end{figure}
 
 \subsection{Discussion}
@@ -4028,7 +4129,7 @@ the similarity \(\times\) valence interaction was significant,
 
 
 \begin{figure}
-\includegraphics[width=1\linewidth]{thesis_files/figure-latex/plot-anecdotes-2-allocation-1} \caption{Mean allocation to the target project in Experiment~2. Error bars represent 95\% confidence intervals, calculated from the model-based standard error. Note that due to the mixed within-between design, these error bars do not permit inferences ``by eye'' across repeated-measures factors.}\label{fig:plot-anecdotes-2-allocation}
+\includegraphics[width=1\linewidth]{thesis_files/figure-latex/plot-anecdotes-2-allocation-1} \caption{Mean allocation to the target project, by similarity and valence conditions. In mixed factorial designs, error bars cannot be used to make inferences by ``eye'' across all conditions. Therefore, error bars are not included. Raw data are plotted in the background.}\label{fig:plot-anecdotes-2-allocation}
 \end{figure}
 
 \subsubsection{Anecdotal bias moderated by similarity}
@@ -4079,7 +4180,7 @@ anecdote to the target problem.
 
 
 \begin{figure}
-\includegraphics[width=1\linewidth]{thesis_files/figure-latex/plot-anecdotes-2-allocation-difference-1} \caption{Mean allocation difference in Experiment~2 between the statistics only condition and the anecdote \& statistics condition. The horizontal dashed line shows the point in which the two allocations were equivalent. Values that are higher than this line represent participants that allocated more when seeing only the statistics than when seeing the statistics with an anecdote. Error bars represent 95\% confidence intervals, calculated from the within-subjects SEs using the method from \textcite{cousineau2014}.}\label{fig:plot-anecdotes-2-allocation-difference}
+\includegraphics[width=1\linewidth]{thesis_files/figure-latex/plot-anecdotes-2-allocation-difference-1} \caption{Mean allocation difference between the statistics only condition and the anecdote \& statistics condition, by similarity and valence conditions. The horizontal dashed line shows the point in which the two allocations were equivalent. Values that are higher than this line represent participants that allocated more when seeing only the statistics than when seeing the statistics with an anecdote. Error bars represent 95\% confidence intervals, calculated from the within-subjects SEs using the method from \textcite{cousineau2014}. Raw data are plotted in the background.}\label{fig:plot-anecdotes-2-allocation-difference}
 \end{figure}
 
 \subsubsection{Effect of statistics}
@@ -4114,7 +4215,7 @@ between the anecdote and target.
 
 
 \begin{figure}
-\includegraphics[width=1\linewidth]{thesis_files/figure-latex/plot-anecdotes-2-lm-allocation-relevance-specific-similarity-1} \caption{Mean allocations to the target project, by specific relevance rating, similarity condition, and valence condition.}\label{fig:plot-anecdotes-2-lm-allocation-relevance-specific-similarity}
+\includegraphics[width=1\linewidth]{thesis_files/figure-latex/plot-anecdotes-2-lm-allocation-relevance-specific-similarity-1} \caption{Mean allocation to the target project, by specific relevance rating, similarity condition, and valence condition. LOESS method was used for smoothing over trials and the shading represents 95\% confidence intervals. Raw data are plotted in the background.}\label{fig:plot-anecdotes-2-lm-allocation-relevance-specific-similarity}
 \end{figure}
 
 \subsection{Discussion}
@@ -4901,15 +5002,15 @@ aware condition.
 Participants were then asked if they would rather invest in all or none of the
 projects. As Figure~\ref{fig:plot-aggregation-2-portfolio-binary} shows, the
 difference between presentation conditions was not significant,
-\(\hat{\beta} = -0.30\), 95\% CI \([-1.19, 0.58]\), \(z = -0.67\), \(p = .500\). The
+\(\hat{\beta} = 0.15\), 95\% CI \([-0.29, 0.60]\), \(z = 0.67\), \(p = .500\). The
 awareness effect was also not significant,
-\(\hat{\beta} = -0.55\), 95\% CI \([-1.44, 0.34]\), \(z = -1.21\), \(p = .225\). However,
+\(\hat{\beta} = 0.28\), 95\% CI \([-0.17, 0.72]\), \(z = 1.21\), \(p = .225\). However,
 those that that saw a distribution chose to invest in all 10 projects
 significantly more
 (71.43\%) than
 those that did not see a distribution
 (36.59\%),
-\(OR = 4.33\), 95\% CI \([1.76, 11.24]\), \(z = 3.11\), \(p = .002\).
+.
 
 
 
@@ -5750,20 +5851,20 @@ procedure in Section~\ref{procedure-alignment-3}).
 
 See below the slides for the variance lecture.
 
-\begin{center} \makebox[\linewidth][c]{\fbox{\includegraphics[width=1.2\linewidth]{/Library/Frameworks/R.framework/Versions/4.0/Resources/library/alignment3/materials/variance_lecture_split//_00000000000001.pdf}}} \end{center}
- \begin{center} \makebox[\linewidth][c]{\fbox{\includegraphics[width=1.2\linewidth]{/Library/Frameworks/R.framework/Versions/4.0/Resources/library/alignment3/materials/variance_lecture_split//_00000000000002.pdf}}} \end{center}
- \begin{center} \makebox[\linewidth][c]{\fbox{\includegraphics[width=1.2\linewidth]{/Library/Frameworks/R.framework/Versions/4.0/Resources/library/alignment3/materials/variance_lecture_split//_00000000000003.pdf}}} \end{center}
- \begin{center} \makebox[\linewidth][c]{\fbox{\includegraphics[width=1.2\linewidth]{/Library/Frameworks/R.framework/Versions/4.0/Resources/library/alignment3/materials/variance_lecture_split//_00000000000004.pdf}}} \end{center}
- \begin{center} \makebox[\linewidth][c]{\fbox{\includegraphics[width=1.2\linewidth]{/Library/Frameworks/R.framework/Versions/4.0/Resources/library/alignment3/materials/variance_lecture_split//_00000000000005.pdf}}} \end{center}
- \begin{center} \makebox[\linewidth][c]{\fbox{\includegraphics[width=1.2\linewidth]{/Library/Frameworks/R.framework/Versions/4.0/Resources/library/alignment3/materials/variance_lecture_split//_00000000000006.pdf}}} \end{center}
- \begin{center} \makebox[\linewidth][c]{\fbox{\includegraphics[width=1.2\linewidth]{/Library/Frameworks/R.framework/Versions/4.0/Resources/library/alignment3/materials/variance_lecture_split//_00000000000007.pdf}}} \end{center}
- \begin{center} \makebox[\linewidth][c]{\fbox{\includegraphics[width=1.2\linewidth]{/Library/Frameworks/R.framework/Versions/4.0/Resources/library/alignment3/materials/variance_lecture_split//_00000000000008.pdf}}} \end{center}
- \begin{center} \makebox[\linewidth][c]{\fbox{\includegraphics[width=1.2\linewidth]{/Library/Frameworks/R.framework/Versions/4.0/Resources/library/alignment3/materials/variance_lecture_split//_00000000000009.pdf}}} \end{center}
- \begin{center} \makebox[\linewidth][c]{\fbox{\includegraphics[width=1.2\linewidth]{/Library/Frameworks/R.framework/Versions/4.0/Resources/library/alignment3/materials/variance_lecture_split//_00000000000010.pdf}}} \end{center}
- \begin{center} \makebox[\linewidth][c]{\fbox{\includegraphics[width=1.2\linewidth]{/Library/Frameworks/R.framework/Versions/4.0/Resources/library/alignment3/materials/variance_lecture_split//_00000000000011.pdf}}} \end{center}
- \begin{center} \makebox[\linewidth][c]{\fbox{\includegraphics[width=1.2\linewidth]{/Library/Frameworks/R.framework/Versions/4.0/Resources/library/alignment3/materials/variance_lecture_split//_00000000000012.pdf}}} \end{center}
- \begin{center} \makebox[\linewidth][c]{\fbox{\includegraphics[width=1.2\linewidth]{/Library/Frameworks/R.framework/Versions/4.0/Resources/library/alignment3/materials/variance_lecture_split//_00000000000013.pdf}}} \end{center}
- \begin{center} \makebox[\linewidth][c]{\fbox{\includegraphics[width=1.2\linewidth]{/Library/Frameworks/R.framework/Versions/4.0/Resources/library/alignment3/materials/variance_lecture_split//_00000000000014.pdf}}} \end{center}
+\begin{figure} \makebox[\linewidth][c]{\fbox{\includegraphics[width=1.2\linewidth]{/Library/Frameworks/R.framework/Versions/4.0/Resources/library/alignment3/materials/variance_lecture_split//_00000000000001.pdf}}} \caption{Variance lecture slide 1.} \end{figure}
+ \begin{figure} \makebox[\linewidth][c]{\fbox{\includegraphics[width=1.2\linewidth]{/Library/Frameworks/R.framework/Versions/4.0/Resources/library/alignment3/materials/variance_lecture_split//_00000000000002.pdf}}} \caption{Variance lecture slide 2.} \end{figure}
+ \begin{figure} \makebox[\linewidth][c]{\fbox{\includegraphics[width=1.2\linewidth]{/Library/Frameworks/R.framework/Versions/4.0/Resources/library/alignment3/materials/variance_lecture_split//_00000000000003.pdf}}} \caption{Variance lecture slide 3.} \end{figure}
+ \begin{figure} \makebox[\linewidth][c]{\fbox{\includegraphics[width=1.2\linewidth]{/Library/Frameworks/R.framework/Versions/4.0/Resources/library/alignment3/materials/variance_lecture_split//_00000000000004.pdf}}} \caption{Variance lecture slide 4.} \end{figure}
+ \begin{figure} \makebox[\linewidth][c]{\fbox{\includegraphics[width=1.2\linewidth]{/Library/Frameworks/R.framework/Versions/4.0/Resources/library/alignment3/materials/variance_lecture_split//_00000000000005.pdf}}} \caption{Variance lecture slide 5.} \end{figure}
+ \begin{figure} \makebox[\linewidth][c]{\fbox{\includegraphics[width=1.2\linewidth]{/Library/Frameworks/R.framework/Versions/4.0/Resources/library/alignment3/materials/variance_lecture_split//_00000000000006.pdf}}} \caption{Variance lecture slide 6.} \end{figure}
+ \begin{figure} \makebox[\linewidth][c]{\fbox{\includegraphics[width=1.2\linewidth]{/Library/Frameworks/R.framework/Versions/4.0/Resources/library/alignment3/materials/variance_lecture_split//_00000000000007.pdf}}} \caption{Variance lecture slide 7.} \end{figure}
+ \begin{figure} \makebox[\linewidth][c]{\fbox{\includegraphics[width=1.2\linewidth]{/Library/Frameworks/R.framework/Versions/4.0/Resources/library/alignment3/materials/variance_lecture_split//_00000000000008.pdf}}} \caption{Variance lecture slide 8.} \end{figure}
+ \begin{figure} \makebox[\linewidth][c]{\fbox{\includegraphics[width=1.2\linewidth]{/Library/Frameworks/R.framework/Versions/4.0/Resources/library/alignment3/materials/variance_lecture_split//_00000000000009.pdf}}} \caption{Variance lecture slide 9.} \end{figure}
+ \begin{figure} \makebox[\linewidth][c]{\fbox{\includegraphics[width=1.2\linewidth]{/Library/Frameworks/R.framework/Versions/4.0/Resources/library/alignment3/materials/variance_lecture_split//_00000000000010.pdf}}} \caption{Variance lecture slide 10.} \end{figure}
+ \begin{figure} \makebox[\linewidth][c]{\fbox{\includegraphics[width=1.2\linewidth]{/Library/Frameworks/R.framework/Versions/4.0/Resources/library/alignment3/materials/variance_lecture_split//_00000000000011.pdf}}} \caption{Variance lecture slide 11.} \end{figure}
+ \begin{figure} \makebox[\linewidth][c]{\fbox{\includegraphics[width=1.2\linewidth]{/Library/Frameworks/R.framework/Versions/4.0/Resources/library/alignment3/materials/variance_lecture_split//_00000000000012.pdf}}} \caption{Variance lecture slide 12.} \end{figure}
+ \begin{figure} \makebox[\linewidth][c]{\fbox{\includegraphics[width=1.2\linewidth]{/Library/Frameworks/R.framework/Versions/4.0/Resources/library/alignment3/materials/variance_lecture_split//_00000000000013.pdf}}} \caption{Variance lecture slide 13.} \end{figure}
+ \begin{figure} \makebox[\linewidth][c]{\fbox{\includegraphics[width=1.2\linewidth]{/Library/Frameworks/R.framework/Versions/4.0/Resources/library/alignment3/materials/variance_lecture_split//_00000000000014.pdf}}} \caption{Variance lecture slide 14.} \end{figure}
 
 \hypertarget{results-alignment-3-appendix}{%
 \subsection{Results}\label{results-alignment-3-appendix}}
@@ -5864,7 +5965,7 @@ analysis suggests a total sample size of 448
 
 \newpage
 
-\begin{landscape}
+\blandscape
 
 
 
@@ -5872,7 +5973,7 @@ analysis suggests a total sample size of 448
 \includegraphics[width=1\linewidth]{thesis_files/figure-latex/power-curve-alignment-8-1} \caption{Alignment Experiment~3 power curve. Labels indicate lowest sample size above 80\% power.}\label{fig:power-curve-alignment-8}
 \end{figure}
 
-\end{landscape}
+\elandscape
 
 \newpage
 
@@ -6845,7 +6946,7 @@ ratings were positively correlated to specific relevance ratings,
 
 
 \begin{figure}
-\includegraphics[width=1\linewidth]{thesis_files/figure-latex/plot-anecdotes-1-lm-allocation-similarity-1} \caption{Mean allocations to the target
+\includegraphics[width=1\linewidth]{thesis_files/figure-latex/plot-anecdotes-1-lm-allocation-similarity-1} \caption{Mean allocation to the target
 project by similarity rating. The shading represents 95\% confidence intervals.}\label{fig:plot-anecdotes-1-lm-allocation-similarity}
 \end{figure}
 
@@ -6926,7 +7027,7 @@ which suggested a total sample size of 96
 
 \newpage
 
-\begin{landscape}
+\blandscape
 
 
 
@@ -6934,7 +7035,7 @@ which suggested a total sample size of 96
 \includegraphics[width=1\linewidth]{thesis_files/figure-latex/power-analysis-anecdotes-2-1} \caption{Anecdotes Experiment~2 power curve. Labels indicate lowest sample size above 80\% power.}\label{fig:power-analysis-anecdotes-2}
 \end{figure}
 
-\end{landscape}
+\elandscape
 
 \newpage
 
@@ -7074,13 +7175,6 @@ rating.
 
 
 %%%%% REFERENCES
-
-% JEM: Quote for the top of references (just like a chapter quote if you're using them).  Comment to skip.
-% \begin{savequote}[8cm]
-% The first kind of intellectual and artistic personality belongs to the hedgehogs, the second to the foxes \dots
-%   \qauthor{--- Sir Isaiah Berlin \cite{berlin_hedgehog_2013}}
-% \end{savequote}
-
 \setlength{\baselineskip}{0pt} % JEM: Single-space References
 
 {\renewcommand*\MakeUppercase[1]{#1}%
