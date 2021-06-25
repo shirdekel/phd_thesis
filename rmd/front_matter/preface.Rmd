@@ -1,16 +1,18 @@
-**Naviation**
+\noindent \textbf{Naviation}
 
-There are links throughout the PDF document, identified by \textcolor{Blue}{dark
-blue} text. Clicking on these will take you to whatever they reference. This can
-be an hypothesis, a footnote, a citation, a figure, a table, or a section. If
-you are using Preview (on a Mac) then you can subsequently return back to where
-you clicked on the link by pressing the key combination \keys{\cmd + [} (the
-command key with the left square bracket). In Adobe Acrobat the key combination
-is \keys{\cmd + \arrowkeyleft} (the command key with the left arrow key) for Mac
+There are links throughout the PDF document, identified by
+\textcolor{mylinkcolor}{dark blue} text. Clicking on these will take you to the
+relevant hypothesis, footnote, citation, figure, table, section, or URL. If you
+are using Preview (on a Mac) then you can subsequently return back to where you
+clicked on the link by pressing the key combination \keys{\cmd + [} (the command
+key with the left square bracket). In Adobe Acrobat the key combination is
+\keys{\cmd + \arrowkeyleft} (the command key with the left arrow key) for Mac
 and \keys{\Altwin + \arrowkeyleft} (the Alt key with the left arrow key) for
 Windows.
 
-**Reproducibility**
+\hfill\break
+
+\noindent \textbf{Reproducibility}
 
 This thesis was written using `rmarkdown` [@xie2018] with `bookdown` [@xie2016],
 using `renv` [@ushey2021] to create reproducible environments, and `targets`
