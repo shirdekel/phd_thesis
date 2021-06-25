@@ -62,7 +62,7 @@ running-header-position-leftmark: LO #marks the chapter. If layout is 'nobind', 
 running-header-position-rightmark: RE  #marks the section.
 
 ## section numbering ##
-section-numbering-depth: 2 # to which depth should headings be numbered?
+section-numbering-depth: 4 # to which depth should headings be numbered?
 
 ## tables of content ##
 toc-depth: 2 # to which depth should headings be included in table of contents?
