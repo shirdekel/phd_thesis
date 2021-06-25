@@ -7,6 +7,7 @@ author: Shir Dekel
 college: Faculty of Science
 university: The University of Sydney
 university-logo: templates/usyd-logo.png
+university-logo-width: 5cm
 submitted-text: A thesis submitted to fulfil requirements for the degree of
 degree: Doctor of Philosophy (Science)
 degreedate: '`r format(Sys.time())`'
@@ -25,6 +26,25 @@ bibliography: references.bib
 ########################
 ## PDF layout options ###
 #########################
+
+### citation and bibliography style ###
+bibliography-heading-in-pdf: References
+
+# biblatex options #
+# unless you run into 'biber' error messages, use natbib as it lets you customise your bibliography directly
+use-biblatex: true
+bib-latex-options: "style=apa, backend=biber, refsegment=chapter"
+
+### link highlighting ###
+colored-not-bordered-links: true # true = highlight text of links - false = highlight links with border
+
+# Set the link text/bord coloring here, in RGB. 
+# Comment out a variable to just use whatever the text's existing color is. 
+# If you wish NOT to highlight links, set colored-not-bordered-links: true, 
+# and comment out the colors below
+urlcolor-rgb: "0,0,139"
+citecolor-rgb: "0,33,71"
+# linkcolor-rgb: "0,33,71"  # coloring normal links looks a bit excessive, as it highlights also all links in the table of contents
 
 ## binding / margins ##
 page-layout: nobind #'nobind' for equal margins (PDF output), 'twoside' for two-sided binding (mirror margins and blank pages), leave blank for one-sided binding (left margin > right margin)
@@ -56,16 +76,10 @@ mini-lof: false  # include mini-list of figures by start of each chapter?
 linespacing: 22pt plus2pt # 22pt is official for submission & library copies
 frontmatter-linespacing: 17pt plus1pt minus1pt #spacing in roman-numbered pages (acknowledgments, table of contents, etc.)
 
+includeline-num: false #show line numbering in PDF?
+
 # For lua filters to work
 citeproc: no
-
-### citation and bibliography style ###
-bibliography-heading-in-pdf: References
-
-# biblatex options #
-# unless you run into 'biber' error messages, use natbib as it lets you customise your bibliography directly
-use-biblatex: true
-bib-latex-options: "style=apa, backend=biber, refsegment=chapter"
 
 header-includes:
   # Avoid extra spacing due to figures
@@ -75,7 +89,6 @@ header-includes:
   - \usepackage{pdflscape}
   - \newcommand{\blandscape}{\begin{landscape}}
   - \newcommand{\elandscape}{\end{landscape}}
-  - \usepackage{menukeys}
 
 documentclass: book
 always_allow_html: true #this allows html stuff in word (.docx) output

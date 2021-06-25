@@ -6,56 +6,77 @@
 % Originally by Keith A. Gillow (gillow@maths.ox.ac.uk), 1997
 % Modified by Sam Evans (sam@samuelevansresearch.org), 2007
 % Modified by John McManigle (john@oxfordechoes.com), 2015
-% Modified by Ulrik Lyngs (ulrik.lyngs@cs.ox.ac.uk), 2018, for use with R Markdown
+% Modified by Ulrik Lyngs (ulrik.lyngs@cs.ox.ac.uk), 2018-, for use with R Markdown
 % Modified by Shir Dekel (shirdekel@yahoo.com.au), 2021, for use for his thesis.
 %
 % Ulrik Lyngs, 25 Nov 2018: Following John McManigle, broad permissions are granted to use, modify, and distribute this software
 % as specified in the MIT License included in this distribution's LICENSE file.
 %
-% John tried to comment this file extensively, so read through it to see how to use the various options.  Remember
-% that in LaTeX, any line starting with a % is NOT executed.  Several places below, you have a choice of which line to use
+% John commented this file extensively, so read through to see how to use the various options.  Remember that in LaTeX,
+% any line starting with a % is NOT executed.  Several places below, you have a choice of which line to use
 % out of multiple options (eg draft vs final, for PDF vs for binding, etc.)  When you pick one, add a % to the beginning of
 % the lines you don't want.
 
 
-%%%%% CHOOSE PAGE LAYOUT
+%%%%% PAGE LAYOUT
 % The most common choices should be below.  You can also do other things, like replacing "a4paper" with "letterpaper", etc.
 
-% This one will format for two-sided binding (ie left and right pages have mirror margins; blank pages inserted where needed):
+% This one formats for two-sided binding (ie left and right pages have mirror margins; blank pages inserted where needed):
 %\documentclass[a4paper,twoside]{templates/ociamthesis}
-% This one will format for one-sided binding (ie left margin > right margin; no extra blank pages):
+% This one formats for one-sided binding (ie left margin > right margin; no extra blank pages):
 %\documentclass[a4paper]{ociamthesis}
-% This one will format for PDF output (ie equal margins, no extra blank pages):
+% This one formats for PDF output (ie equal margins, no extra blank pages):
 %\documentclass[a4paper,nobind]{templates/ociamthesis}
-%UL 2 Dec 2018: pass this in from YAML
 %SD dvipnames provides the ability to specify specific colours to hyperref,
 % through xcolor. Can't be specified in xcolor package load directly, because of
 % a conflict with another package that uses xcolor.
 \documentclass[a4paper, $if(page-layout)$$page-layout$$endif$, dvipsnames]{templates/ociamthesis}
 
-% UL 5 January 2021 - add packages used by kableExtra
-\usepackage{booktabs}
-\usepackage{longtable}
-\usepackage{array}
-\usepackage{multirow}
-\usepackage{wrapfig}
-\usepackage{colortbl}
-\usepackage{pdflscape}
-\usepackage{tabu}
-\usepackage{threeparttable}
-\usepackage{threeparttablex}
-\usepackage[normalem]{ulem}
-\usepackage{makecell}
 % SD turn on colorlinks, instead of borders, colour all links navy blue, and
 % only make toc numbers hyperlinked
 \usepackage[colorlinks=true,allcolors=Blue,linktocpage=true,pdfpagelabels]{hyperref}
-\usepackage{float}
+% As you can see from the uncommented line below, oxforddown template uses the a4paper size, 
+% and passes in the binding option from the YAML header in index.Rmd:
+% \documentclass[a4paper, $if(page-layout)$$page-layout$$endif$]{templates/ociamthesis}
 
 % SD 9 June 2021 - add ability to use typeset keys for explaining shortcuts
 \usepackage{menukeys}
 
 % SD 25 June 2021 - add indent to all paragraph as per APA
 \usepackage{indentfirst}
+%%%%% ADDING LATEX PACKAGES
+% add hyperref package with options from YAML %
+% \usepackage[pdfpagelabels]{hyperref}
+% change the default coloring of links to something sensible
+\usepackage{xcolor}
+
+$if(linkcolor-rgb)$
+\definecolor{mylinkcolor}{RGB}{$linkcolor-rgb$}
+$endif$
+$if(urlcolor-rgb)$
+\definecolor{myurlcolor}{RGB}{$urlcolor-rgb$}
+$endif$
+$if(citecolor-rgb)$
+\definecolor{mycitecolor}{RGB}{$citecolor-rgb$}
+$endif$
+
+$if(colored-not-bordered-links)$
+\hypersetup{
+  hidelinks,
+  colorlinks,
+  linkcolor=$if(linkcolor-rgb)$mylinkcolor$else$.$endif$,
+  urlcolor=$if(urlcolor-rgb)$myurlcolor$else$.$endif$,
+  citecolor=$if(citecolor-rgb)$mycitecolor$else$.$endif$
+}
+
+$else$
+\hypersetup{
+  colorlinks=false,
+  linkbordercolor=$if(linkcolor-rgb)$mylinkcolor$else$.$endif$,
+  urlbordercolor=$if(urlcolor-rgb)$myurlcolor$else$.$endif$,
+  citebordercolor=$if(citecolor-rgb)$mycitecolor$else$.$endif$
+}
+$endif$
 
 % Taken from https://tex.stackexchange.com/a/174306/233976,
 % https://tex.stackexchange.com/a/52625/233976, and
@@ -69,12 +90,31 @@
 \let\thmhead\thmhead@plain
 \makeatother
 
-%UL set section header spacing
-\usepackage{titlesec}
-% 
-\titlespacing\subsubsection{0pt}{24pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+% add float package to allow manual control of figure positioning %
+\usepackage{float}
 
-% UL 30 Nov 2018 pandoc puts lists in 'tightlist' command when no space between bullet points in Rmd file
+% enable strikethrough
+\usepackage[normalem]{ulem}
+
+% use soul package for correction highlighting
+\usepackage{color, soul}
+\definecolor{correctioncolor}{HTML}{CCCCFF}
+\sethlcolor{correctioncolor}
+\newcommand{\ctext}[3][RGB]{%
+  \begingroup
+  \definecolor{hlcolor}{#1}{#2}\sethlcolor{hlcolor}%
+  \hl{#3}%
+  \endgroup
+}
+\soulregister\ref7
+\soulregister\cite7
+\soulregister\autocite7
+\soulregister\textcite7
+\soulregister\pageref7
+
+%%%%% FIXING / ADDING THINGS THAT'S SPECIAL TO R MARKDOWN'S USE OF LATEX TEMPLATES
+% pandoc puts lists in 'tightlist' command when no space between bullet points in Rmd file,
+% so we add this command to the template
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
  
@@ -93,31 +133,26 @@ $highlighting-macros$
 }
 $endif$
 
+% User-included things with header_includes or in_header will appear here
+% kableExtra packages will appear here if you use library(kableExtra)
+$for(header-includes)$
+$header-includes$
+$endfor$
+
+
+%UL set section header spacing
+\usepackage{titlesec}
+% 
+\titlespacing\subsubsection{0pt}{24pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+
+
 %UL set whitespace around verbatim environments
 \usepackage{etoolbox}
 \makeatletter
 \preto{\@verbatim}{\topsep=0pt \partopsep=0pt }
 \makeatother
 
-%UL 26 Mar 2019, enable strikethrough
-\usepackage[normalem]{ulem}
 
-%UL use soul package for correction highlighting
-\usepackage{color, soul}
-\usepackage{xcolor}
-\definecolor{correctioncolor}{HTML}{CCCCFF}
-\sethlcolor{correctioncolor}
-\newcommand{\ctext}[3][RGB]{%
-  \begingroup
-  \definecolor{hlcolor}{#1}{#2}\sethlcolor{hlcolor}%
-  \hl{#3}%
-  \endgroup
-}
-\soulregister\ref7
-\soulregister\cite7
-\soulregister\autocite7
-\soulregister\textcite7
-\soulregister\pageref7
 
 %%%%%%% PAGE HEADERS AND FOOTERS %%%%%%%%%
 \usepackage{fancyhdr}
@@ -153,6 +188,12 @@ $endif$
 % This adds a "DRAFT" footer to every normal page.  (The first page of each chapter is not a "normal" page.)
 $if(draft-mark)$
 \fancy$draft-mark-foot-or-head$[$draft-mark-position$]{\emph{DRAFT Printed on \today}}
+$endif$
+
+% IP feb 2021: option to include line numbers in PDF
+$if(includeline-num)$
+\usepackage{lineno}
+\linenumbers
 $endif$
 
 % This highlights (in blue) corrections marked with (for words) \mccorrect{blah} or (for whole
@@ -249,7 +290,7 @@ $endif$
 %
 % Oxford University logo on title page
 %
-\def\crest{{\includegraphics{$university-logo$}}}
+\def\crest{{\includegraphics[width=$university-logo-width$]{$university-logo$}}}
 \renewcommand{\university}{$university$}
 \renewcommand{\submittedtext}{$submitted-text$}
 
@@ -359,7 +400,14 @@ $endif$
 % formatted.  The template can handle any kind of list though, so this might be a good place for a
 % glossary, etc.
 $if(abbreviations)$
-\include{$abbreviations$}
+% First parameter can be changed eg to "Glossary" or something.
+% Second parameter is the max length of bold terms.
+\begin{mclistof}{$abbreviations-heading$}{$abbreviations-width$}
+
+$abbreviations$
+
+\end{mclistof} 
+
 $endif$
 
 % The Roman pages, like the Roman Empire, must come to its inevitable close.
@@ -374,13 +422,6 @@ $body$
 
 
 %%%%% REFERENCES
-
-% JEM: Quote for the top of references (just like a chapter quote if you're using them).  Comment to skip.
-% \begin{savequote}[8cm]
-% The first kind of intellectual and artistic personality belongs to the hedgehogs, the second to the foxes \dots
-%   \qauthor{--- Sir Isaiah Berlin \cite{berlin_hedgehog_2013}}
-% \end{savequote}
-
 $if(use-biblatex)$
 \setlength{\baselineskip}{0pt} % JEM: Single-space References
 
