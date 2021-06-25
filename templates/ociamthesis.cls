@@ -250,11 +250,25 @@
 \newenvironment{preface}%
 {   \begin{alwayssingle}\chapter*{Preface}
     \thispagestyle{empty}
+    \pagestyle{empty}
+    \setlength{\baselineskip}{\frontmatterbaselineskip}
+  }
+  {\end{alwayssingle}}
+
+% ORIGINALITY
+%
+% The originality environment puts a large, bold, centered 
+% "Statement of originality" label at the top of the page. The statement
+% itself appears in a quote environment, i.e. tabbed in at both sides, and
+% on its own page.
+
+\newenvironment{originality}%
+{   \begin{alwayssingle}\chapter*{Statement of originality}
+    \thispagestyle{empty}
 	\pagestyle{empty}
 	\setlength{\baselineskip}{\frontmatterbaselineskip}
 }
 {\end{alwayssingle}}
-
 
 %ABSTRACT
 %

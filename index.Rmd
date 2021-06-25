@@ -9,11 +9,12 @@ university-logo: templates/usyd-logo.png
 submitted-text: A thesis submitted for the degree of
 degree: Doctor of Philosophy (Science)
 degreedate: '`r format(Sys.time())`'
-abstract: |
-  `r paste(readLines("rmd/front_matter/abstract.Rmd"), collapse = '\n  ')`
-
+originality: |
+  `r paste(readLines("rmd/front_matter/originality.Rmd"), collapse = '\n  ')`
 preface: |
   `r paste(readLines("rmd/front_matter/preface.Rmd"), collapse = '\n  ')`
+abstract: |
+  `r paste(readLines("rmd/front_matter/abstract.Rmd"), collapse = '\n  ')`
 
 #######################
 ## bibliography path ##
