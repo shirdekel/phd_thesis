@@ -42,6 +42,7 @@ colored-not-bordered-links: true # true = highlight text of links - false = high
 # Comment out a variable to just use whatever the text's existing color is. 
 # If you wish NOT to highlight links, set colored-not-bordered-links: true, 
 # and comment out the colors below
+# "45,48,145" is equivalent to `Blue` from `dvipsnames`
 urlcolor-rgb: "45,48,145"
 citecolor-rgb: "45,48,145"
 linkcolor-rgb: "45,48,145"
