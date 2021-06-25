@@ -16,3 +16,5 @@ bookdown::word_document2:
   toc: true
   pandoc_args: !expr rmdfiltr::add_wordcount_filter(rmdfiltr::add_replace_ampersands_filter(rmdfiltr::add_citeproc_filter(args = NULL)))
   md_extensions: "-auto_identifiers"
+  includes:
+    in_header: "templates/preamble.tex"

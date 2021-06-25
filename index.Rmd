@@ -81,15 +81,6 @@ includeline-num: false #show line numbering in PDF?
 # For lua filters to work
 citeproc: no
 
-header-includes:
-  # Avoid extra spacing due to figures
-  - \raggedbottom
-  # Manually landscape
-  # from https://stackoverflow.com/a/27334272/13945974
-  - \usepackage{pdflscape}
-  - \newcommand{\blandscape}{\begin{landscape}}
-  - \newcommand{\elandscape}{\end{landscape}}
-
 documentclass: book
 always_allow_html: true #this allows html stuff in word (.docx) output
 # Needed for non-biblatex output (Word and HTML)
