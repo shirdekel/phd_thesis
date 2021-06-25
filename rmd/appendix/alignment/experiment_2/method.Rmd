@@ -116,16 +116,21 @@ split_path <-
     "variance_lecture_split/"
   )
 
-split_path %>%
-  list.files(full.names = TRUE) %>%
+slides <-
+  split_path %>%
+  list.files(full.names = TRUE)
+
+slides %>%
   # for each PDF page, insert it nicely and
   # end with a page break
   paste0(
-    "\\begin{center} \\makebox[\\linewidth][c]{\\fbox{\\includegraphics[width=",
+    "\\begin{figure} \\makebox[\\linewidth][c]{\\fbox{\\includegraphics[width=",
     pdf_width,
     "\\linewidth]{",
     .,
-    "}}} \\end{center}\n"
+    "}}} \\caption{Variance lecture slide ",
+    seq_along(slides),
+    ".} \\end{figure}\n"
   ) %>%
   cat()
 ```
