@@ -6,6 +6,24 @@
 \newcommand{\blandscape}{\begin{landscape}}
 \newcommand{\elandscape}{\end{landscape}}
 
+% Add ability to use typeset keys for explaining shortcuts
+\usepackage{menukeys}
+
+% Add indent to all paragraphs as per APA
+\usepackage{indentfirst}
+
+% Taken from https://tex.stackexchange.com/a/174306/233976,
+% https://tex.stackexchange.com/a/52625/233976, and
+% https://tex.stackexchange.com/a/185168/233976 because hypothesis is already
+% defined by bookdown.
+\usepackage{amsthm}
+\makeatletter
+\def\thmhead@plain#1#2#3{%
+  \thmname{#1}\thmnumber{\@ifnotempty{#1}{ }\@upn{#2}}%
+  \thmnote{---#3}}
+\let\thmhead\thmhead@plain
+\makeatother
+
 % PREFACE
 % 
 % The preface environment puts a large, bold, centered 

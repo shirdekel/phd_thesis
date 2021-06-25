@@ -39,11 +39,6 @@
 % and passes in the binding option from the YAML header in index.Rmd:
 % \documentclass[a4paper, $if(page-layout)$$page-layout$$endif$]{templates/ociamthesis}
 
-% SD 9 June 2021 - add ability to use typeset keys for explaining shortcuts
-\usepackage{menukeys}
-
-% SD 25 June 2021 - add indent to all paragraph as per APA
-\usepackage{indentfirst}
 %%%%% ADDING LATEX PACKAGES
 % add hyperref package with options from YAML %
 % \usepackage[pdfpagelabels]{hyperref}
@@ -77,18 +72,6 @@ $else$
   citebordercolor=$if(citecolor-rgb)$mycitecolor$else$.$endif$
 }
 $endif$
-
-% Taken from https://tex.stackexchange.com/a/174306/233976,
-% https://tex.stackexchange.com/a/52625/233976, and
-% https://tex.stackexchange.com/a/185168/233976 because hypothesis is already
-% defined by bookdown.
-\usepackage{amsthm}
-\makeatletter
-\def\thmhead@plain#1#2#3{%
-  \thmname{#1}\thmnumber{\@ifnotempty{#1}{ }\@upn{#2}}%
-  \thmnote{---#3}}
-\let\thmhead\thmhead@plain
-\makeatother
 
 % add float package to allow manual control of figure positioning %
 \usepackage{float}
