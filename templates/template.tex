@@ -27,21 +27,15 @@
 %\documentclass[a4paper]{ociamthesis}
 % This one formats for PDF output (ie equal margins, no extra blank pages):
 %\documentclass[a4paper,nobind]{templates/ociamthesis}
-%SD dvipnames provides the ability to specify specific colours to hyperref,
-% through xcolor. Can't be specified in xcolor package load directly, because of
-% a conflict with another package that uses xcolor.
-\documentclass[a4paper, $if(page-layout)$$page-layout$$endif$, dvipsnames]{templates/ociamthesis}
 
-% SD turn on colorlinks, instead of borders, colour all links navy blue, and
-% only make toc numbers hyperlinked
-\usepackage[colorlinks=true,allcolors=Blue,linktocpage=true,pdfpagelabels]{hyperref}
 % As you can see from the uncommented line below, oxforddown template uses the a4paper size, 
 % and passes in the binding option from the YAML header in index.Rmd:
-% \documentclass[a4paper, $if(page-layout)$$page-layout$$endif$]{templates/ociamthesis}
+\documentclass[a4paper, $if(page-layout)$$page-layout$$endif$]{templates/ociamthesis}
+
 
 %%%%% ADDING LATEX PACKAGES
 % add hyperref package with options from YAML %
-% \usepackage[pdfpagelabels]{hyperref}
+\usepackage[pdfpagelabels]{hyperref}
 % change the default coloring of links to something sensible
 \usepackage{xcolor}
 
@@ -72,6 +66,7 @@ $else$
   citebordercolor=$if(citecolor-rgb)$mycitecolor$else$.$endif$
 }
 $endif$
+
 
 % add float package to allow manual control of figure positioning %
 \usepackage{float}
@@ -185,6 +180,7 @@ $endif$
 $if(corrections)$
 \correctionstrue
 $endif$
+
 
 %%%%% BIBLIOGRAPHY SETUP
 % Note that your bibliography will require some tweaking depending on your department, preferred format, etc.
@@ -314,7 +310,7 @@ $else$
 \maketitle
 $endif$
 
-%%%%% ORIGINALITY
+%%%%% SD STATEMENT OF ORIGINALITY
 $if(originality)$
 \begin{originality}
  	$originality$
@@ -335,7 +331,7 @@ $if(acknowledgements)$
 \end{acknowledgements}
 $endif$
 
-%%%%% PREFACE
+%%%%% SD PREFACE
 $if(preface)$
 \begin{preface}
  	$preface$
