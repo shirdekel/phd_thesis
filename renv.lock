@@ -175,10 +175,10 @@
     },
     "StanHeaders": {
       "Package": "StanHeaders",
-      "Version": "2.26.1",
+      "Version": "2.21.0-7",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "ab5801a309a108b091f321719f7a7487"
+      "Hash": "0459d4dd7a8c239be18469a30c23dd4b"
     },
     "TMB": {
       "Package": "TMB",
