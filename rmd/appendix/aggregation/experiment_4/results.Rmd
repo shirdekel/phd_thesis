@@ -1,6 +1,6 @@
 ### Results
 
-#### Project investment
+#### Project Investment
 
 The project investment data were analysed as in Experiment 2 (see
 Section \@ref(results-aggregation-2)).
@@ -41,7 +41,7 @@ results_aggregation_4$awareness_project_order$table %>%
 
 #### Follow-up
 
-##### Project expectation
+##### Project Expectation
 
 Participants were asked how many projects they expected to see.
 Figure \@ref(fig:plot-aggregation-4-project-expectation) shows that those in the
@@ -55,7 +55,7 @@ the fact that they were told how many projects there were.
 plot_aggregation_4$project_expectation
 ```
 
-##### Project number
+##### Project Number
 
 Participants were asked how many projects they thought they saw.
 Figure \@ref(fig:plot-aggregation-4-project-number) shows that overall people

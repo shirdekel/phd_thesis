@@ -3,12 +3,12 @@
 #### Participants
 
 `r descriptives_alignment_8$apa` Table \@ref(tab:condition-allocation-alignment-8)
-shows the between-subjects condition allocation. The two reliability amount
-conditions (low and high) were presented within subjects and the order of their
-presentation was randomised. As before, NPV amount was varied within subjects.
-Therefore, each participant saw two separate project displays.
-Appendix \@ref(power-analysis-alignment-8) describes the power analysis
-conducted to arrive at the sample size.
+shows the allocation of participants to the different conditions. The two
+reliability level conditions (low and high) were presented within subjects and
+the order of their presentation was randomised. Similar to the previous
+experiments, NPV varied within subjects. Therefore, each participant saw two
+separate project displays. Appendix \@ref(power-analysis-alignment-8) describes
+the power analysis conducted to arrive at the sample size.
 
 ```{r condition-allocation-alignment-8}
 descriptives_alignment_8$condition_allocation_table %>%
@@ -19,20 +19,20 @@ descriptives_alignment_8$condition_allocation_table %>%
 
 ##### Instructions
 
-Participants saw similar instructions to the previous experiments, with an added
-explanation of the NPV reliability information for each reliability type
-condition (see Appendix \@ref(instructions-materials-alignment-8-appendix)).
-Further, they completed a test of basic NPV understanding. This test functioned
-also as an attention check as, although it was required to answer, the response
-should only be one of two letters.
+Participants were given instructions similar to those in the previous
+experiments, with an added explanation about the NPV reliability information for
+each reliability type (see
+Appendix \@ref(instructions-materials-alignment-8-appendix)). Further, they
+completed a test of basic NPV understanding. Further, they completed a test on
+basic NPV understanding, which also functioned as an attention check.
 
-##### Project display
+##### Project Display
 
-The project displays were similar to the previous experiments. Here, however,
-participants saw the same presentation style in both alignment conditions. Each
-display had a table describing the projects in the set, with ranking and
-allocation inputs. The project details were presented as dot points within the
-relevant cells of the table.
+The project displays were similar to those used in the previous experiments.
+However, participants were given the same presentation style for both alignment
+conditions. Each display had a table describing the projects in the set,
+including ranking and allocation inputs. Project details were presented as
+bullet points within the relevant cells of the table.
 Figure \@ref(fig:projects-alignment-low-reliability-explicit-low-materials-alignment-8)
 shows an example of a low alignment, low verbal reliability display; and
 Figure \@ref(fig:projects-alignment-high-reliability-implicit-high-materials-alignment-8)
@@ -60,19 +60,21 @@ file.path(
   image_trim()
 ```
 
-Three elements were counterbalanced: 1. the association of reliability amount
-and project set (two variations), 2. the association of business name with NPV
-(five latin square variations), and 3. project variation (five variations per
-alignment condition). For high alignment, project variation meant the project
-type. For low alignment, this meant the intrinsic feature variant for the
-relevant project type. Table column order and project display order were both
-randomised.
+Three elements were counterbalanced: (a) the association between reliability
+level and project set (two variations), (b) the association between business
+name and NPV (five latin square variations), and (c) project variation (five
+variations per alignment condition). When counterbalancing for the high
+alignment group, projects varied by project type (e.g., whether the five
+projects all described oil wells or microchips). When counterbalancing for the
+low alignment group, projects varied by their intrinsic features (e.g., whether
+the oil well project in the set indicated a probability of finding oil of 96% or
+90%). Table column order and project display order were both randomised.
 
-##### Interstitial
+##### Interstitial Page
 
-Before each project display, participants saw an "interstitial" page, whose role
-was to 1. introduce the next display, and 2. check the participant's attention
-(not required to answer, so can be skipped if the interstitial text isn't read).
-See Figure \@ref(fig:interstitial-materials-alignment-8) in the appendix for an
-example.
+Prior to each project being displayed, participants were shown an interstitial
+page, which was used to (a) introduce the next display, and (b) check the
+participant's attention (given that no input was required, participants could
+easily skip the page without reading the text). See
+Appendix \@ref(interstitial-materials-alignment-8) for an example.
 

@@ -7,40 +7,40 @@ tar_load(results_alignment_3)
 tar_load(plot_alignment_3)
 ```
 
-Experiment 2 investigated the effects of alignment and numerically-expressed
-variance information on capital allocation decisions. In Experiment 1 the
-information about the variance inherent in the NPVs was communicated explicitly
-as the conclusion (e.g., "NPV is unreliable"). In Experiment 2, however, only
-the actual variance information itself was communicated without the conclusion
-about its reliability. Specifically, participants saw the range of predicted
-values (akin to a confidence interval). Therefore, while Experiment 1
-manipulated *verbal* reliability, Experiment 2 manipulated *numerical*
-reliability. Further, Experiment 2 studied participants with more business
-experience than the previously used laypeople samples. This experiment tested
-whether the previous findings of an alignment effect will replicate with people
-with more business experience. The experiment also tested whether this
-population is sensitive to variance in forecasts.
+Experiment 2 investigated the effects of project alignment and
+numerically-expressed NPV reliability information on capital allocation
+decisions. In Experiment 1, the information about NPV reliability was
+communicated explicitly (e.g., "NPV is unreliable"). However, in Experiment 2,
+only the actual NPV information itself was communicated without the conclusion
+about its reliability. Specifically, participants were given a range of
+predicted values (akin to a confidence interval). Therefore, while Experiment 1
+manipulated *verbal* NPV reliability, Experiment 2 manipulated *numerical* NPV
+reliability. Further, Experiment 2 included participants with more business
+experience. This experiment tested whether the previous findings of an alignment
+effect would be replicated using participants with more business experience. The
+experiment also tested whether this population is sensitive to variance in
+forecasts.
 
 Hypothesis \@ref(hyp:allocation-alignment-alignment-2) was again tested to
 investigate the alignment effect in the new sample. However, the other
-hypotheses from Experiment 1 were not tested again because Experiment 2
+hypotheses tested in Experiment 1 were not retested because Experiment 2
 manipulated numerical reliability and did not include a no NPV condition.
 Research has shown that people are poor at reasoning with numerical variance
 information [@galesic2010; @konold1993; @vivalt2021; @batteux2020]. Therefore,
-Experiment 2 tested the following:
+Experiment 2 tested the following hypothesis:
 
-```{hypothesis, allocation-npv-reliability-alignment-3, name = "No effect of numerical reliability", echo = TRUE}
-The NPV amount $\times$ reliability amount interaction will not be significant
+```{hypothesis, allocation-npv-reliability-alignment-3, name = "no effect of numerical reliability", echo = TRUE}
+The NPV $\times$ reliability amount interaction will not be significant
 in either alignment condition.
 ```
 
-Experiment 2 also investigated the potential to quickly change participants'
-understanding, if they did not initially use numerical reliability for their
+Experiment 2 also investigated the ability to quickly change participants'
+understanding, if they did not initially use numerical NPV reliability in their
 allocations. Therefore, participants were presented with a short lecture on the
-importance of paying attention variance in financial decision-making. However,
-results were inconclusive, so see Appendix \@ref(alignment-3-appendix) for a
-more detailed discussion. Further, Experiment 2 investigated whether
+importance of paying attention to variance in financial decision-making.
+However, the results were inconclusive (see Appendix \@ref(alignment-3-appendix)
+for a more detailed discussion). Further, Experiment 2 investigated whether
 participants would be over-confident in their understanding of NPV [as in
 @long2018]. These results are also reported in
-Appendix \@ref(alignment-3-appendix) as they were not sufficiently relevant to
+Appendix \@ref(alignment-3-appendix) because they are not highly relevant to
 this chapter.

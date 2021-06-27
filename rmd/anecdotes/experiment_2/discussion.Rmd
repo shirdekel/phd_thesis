@@ -1,18 +1,19 @@
 ### Discussion
 
 Hypotheses \@ref(hyp:anecdote-similarity-anecdotes-1)
-and \@ref(hyp:anecdote-similarity-anecdotes-2) were supported, as participants
-showed a stronger anecdotal bias effect when the anecdote was more similar to
-the target project, for both positive and negative anecdotes. Further, as per
+and \@ref(hyp:anecdote-similarity-anecdotes-2) were supported because
+participants showed a stronger anecdotal bias effect when both positive and
+negative anecdotes had greater similarity to the target project. Further, as per
 Hypotheses \@ref(hyp:statistics-negative-anecdotes-2)
-and \@ref(hyp:statistics-positive-anecdotes-2), participants incorporated the
-statistical information into their judgements, for both negative and positive
+and \@ref(hyp:statistics-positive-anecdotes-2), participants incorporated
+statistical information in their judgements, for both negative and positive
 anecdotes. Unlike in Experiment 1, the relevance rating data did not provide as
 clear indication that participants were using only the specific project
 information rather than merely its industry.
 
-Experiment 2 therefore found that, unlike in the medical domain, the effect of
-anecdotes in financial decision-making does not depend on anecdote valence.
-Further, as in Experiment 1, and unlike in @wainberg2013, the anecdotal bias
-effect does not seem to be complete, with statistics still playing some role in
-participants' decisions despite the effect of the anecdote.
+Therefore, Experiment 2 found that, unlike in the medical domain, the effect of
+anecdotes in financial decision-making does not depend on anecdotal valence.
+Further, similar to the findings of Experiment 1, and unlike those of
+@wainberg2013, the anecdotal bias effect does not appear to be complete, with
+statistics still playing some role in participants' decisions, despite the
+effect of the anecdote.

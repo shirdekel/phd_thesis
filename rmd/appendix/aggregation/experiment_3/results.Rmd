@@ -1,6 +1,6 @@
 ### Results
 
-#### Project investment
+#### Project Investment
 
 The project investment data were analysed as in Experiment 2 (see
 Section \@ref(results-aggregation-2)).
@@ -41,7 +41,7 @@ results_aggregation_3$similarity_project_order$table %>%
 
 #### Follow-up
 
-##### Project expectation
+##### Project Expectation
 
 Participants were asked how many projects they expected to see. As
 Figure \@ref(fig:plot-aggregation-3-project-expectation) shows, the difference
@@ -54,7 +54,7 @@ between similarity conditions was not significant,
 plot_aggregation_3$project_expectation
 ```
 
-##### Project number
+##### Project Number
 
 Participants were asked how many projects they thought they saw.
 Figure \@ref(fig:plot-aggregation-3-project-number) shows that overall people

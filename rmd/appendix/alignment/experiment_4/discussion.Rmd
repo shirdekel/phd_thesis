@@ -11,7 +11,7 @@ were told that it was reliable and tended to use it less when they were told
 that it was unreliable. Further, there was no evidence that this effect was
 moderated by alignment condition, contrary to
 Hypothesis \@ref(hyp:allocation-alignment-reliability-npv-alignment-2). However,
-the linear NPV amount trend was higher in the high than low alignment condition,
+the linear NPV trend was higher in the high than low alignment condition,
 when averaging over reliability amount, as predicted in
 Hypothesis \@ref(hyp:allocation-alignment-alignment-2). This suggests that
 overall participants still make more use of NPV information when it is hard to

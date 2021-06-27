@@ -17,7 +17,7 @@ clean_condition_names <- function(data) {
               "npv" = "NPV",
               "^Anecdote$" = "Anecdote only",
               "Combined" = "Anecdote & statistics",
-              "Enhanced" = "Enhanced anecdote & statistics",
+              "Enhanced" = "Anecdote & enhanced statistics",
               "Statistics" = "Statistics only"
             )
           ) %>%

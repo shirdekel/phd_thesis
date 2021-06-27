@@ -23,7 +23,7 @@ choose if they could pick randomly (maximum value was set to 20). Those in the
 distribution absent condition were asked the same questions, but without the
 distribution and its explanation.
 
-(ref:project-number-aggregation-2) Experiment 2 project number question. Border added for clarity.
+(ref:project-number-aggregation-2) Experiment 2 project number question.
 
 ```{r project-number-aggregation-2, fig.cap = "(ref:project-number-aggregation-2)", out.width = "50%"}
 file.path(
@@ -36,7 +36,7 @@ file.path(
   image_border(color = "black", geometry = "5x5")
 ```
 
-(ref:portfolio-binary-aggregation-2) Experiment 2 binary portfolio question. Border added for clarity.
+(ref:portfolio-binary-aggregation-2) Experiment 2 binary portfolio question.
 
 ```{r portfolio-binary-aggregation-2, fig.cap = "(ref:portfolio-binary-aggregation-2)"}
 file.path(
@@ -49,7 +49,7 @@ file.path(
   image_border(color = "black", geometry = "5x5")
 ```
 
-(ref:portfolio-number-aggregation-2) Experiment 2 numerical portfolio question. Border added for clarity.
+(ref:portfolio-number-aggregation-2) Experiment 2 numerical portfolio question.
 
 ```{r portfolio-number-aggregation-2, fig.cap = "(ref:portfolio-number-aggregation-2)"}
 file.path(

@@ -2,15 +2,15 @@
 
 #### Ranking
 
-A mixed factorial ANOVA was conducted to investigate the effects of NPV amount,
+A mixed factorial ANOVA was conducted to investigate the effects of NPV,
 alignment, and numerical NPV reliability on participants’ project rankings.
 Figure \@ref(fig:plot-alignment-3-ranking) shows these data. The alignment
-$\times$ reliability amount $\times$ NPV amount interaction was not
+$\times$ reliability amount $\times$ NPV interaction was not
 significant,
 `r results_alignment_3$ranking$alignment_reliability_amount_npv_amount`.
-However, the alignment $\times$ NPV amount interaction was significant,
+However, the alignment $\times$ NPV interaction was significant,
 `r results_alignment_2$ranking$alignment_npv_amount`; as well as the reliability
-amount $\times$ NPV amount interaction,
+amount $\times$ NPV interaction,
 `r results_alignment_2$ranking$reliability_amount_npv_amount`. As in the
 allocation data, the linear NPV trend did not differ between reliability amount
 condition in neither the low alignment condition,
@@ -28,10 +28,10 @@ plot_alignment_3$ranking
 
 #### Confidence
 
-A mixed factorial ANOVA was conducted to investigate the effects of NPV amount,
+A mixed factorial ANOVA was conducted to investigate the effects of NPV,
 alignment, and numerical NPV reliability on participants’ confidence ratings.
 Figure \@ref(fig:plot-alignment-3-confidence) shows these data. Only the main
-effect of NPV amount was significant,
+effect of NPV was significant,
 `r results_alignment_3$confidence$npv_amount`.
 
 (ref:plot-alignment-3-confidence) Mean confidence.

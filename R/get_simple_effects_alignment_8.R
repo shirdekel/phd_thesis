@@ -4,7 +4,7 @@
 ##' @author Shir Dekel
 ##' @export
 get_simple_effects_alignment_8 <- function(omnibus) {
-  ## High alignment: NPV amount x reliability amount x reliability type
+  ## High alignment: NPV x reliability amount x reliability type
 
   alignment_high_three_way <-
     omnibus %>%
@@ -20,7 +20,7 @@ get_simple_effects_alignment_8 <- function(omnibus) {
     pluck("full_result", "linear_implicit_explicit_low_high_high")
 
 
-  ## Explicit reliability: NPV amount x reliability amount x alignment
+  ## Explicit reliability: NPV x reliability amount x alignment
 
   reliability_type_explicit_three_way <-
     omnibus %>%
@@ -35,7 +35,7 @@ get_simple_effects_alignment_8 <- function(omnibus) {
     apa_print() %>%
     pluck("full_result", "linear_low_high_low_high_explicit")
 
-  ## Low alignment: NPV amount x reliability type
+  ## Low alignment: NPV x reliability type
 
   alignment_low_two_way <-
     omnibus %>%
@@ -50,7 +50,7 @@ get_simple_effects_alignment_8 <- function(omnibus) {
     apa_print() %>%
     pluck("full_result", "linear_implicit_explicit_low")
 
-  ## High and low alignment explicit reliability: NPV amount x reliability amount
+  ## High and low alignment explicit reliability: NPV x reliability amount
 
   alignment_reliability_type_explicit_reliability_amount <-
     omnibus %>%

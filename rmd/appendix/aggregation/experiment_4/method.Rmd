@@ -3,7 +3,7 @@
 #### Participants
 
 `r descriptives_aggregation_4$apa` Table \@ref(tab:condition-allocation-aggregation-4)
-shows the between-subjects condition allocation.
+shows the allocation of participants to the different conditions.
 
 ```{r condition-allocation-aggregation-4}
 descriptives_aggregation_4$condition_allocation_table %>%
@@ -21,7 +21,7 @@ saw the instructions in Figure \@ref(fig:instructions-naive-aggregation-4), and
 those in the aware condition saw the instructions in
 Figure \@ref(fig:instructions-aware-aggregation-4).
 
-(ref:instructions-naive-aggregation-4) Instructions for those in the naive condition of Experiment 4. Border added for clarity.
+(ref:instructions-naive-aggregation-4) Instructions for those in the naive condition of Experiment 4.
 
 ```{r instructions-naive-aggregation-4, fig.cap = "(ref:instructions-naive-aggregation-4)"}
 file.path(
@@ -34,7 +34,7 @@ file.path(
   image_border(color = "black", geometry = "5x5")
 ```
 
-(ref:instructions-aware-aggregation-4) Instructions for those in the aware condition of Experiment 4. Border added for clarity.
+(ref:instructions-aware-aggregation-4) Instructions for those in the aware condition of Experiment 4.
 
 ```{r instructions-aware-aggregation-4, fig.cap = "(ref:instructions-aware-aggregation-4)"}
 file.path(
@@ -47,7 +47,7 @@ file.path(
   image_border(color = "black", geometry = "5x5")
 ```
 
-##### Risky investment task
+##### Risky Investment Task
 
 Participants saw similar displays to those in Experiment 3 (see
 Section \@ref(task-aggregation-3)). However, here participants viewed 20
@@ -58,7 +58,7 @@ considering in the context of the total 20. See
 Figure \@ref(fig:project-choice-aggregation-4) for an example. Those in the
 naive condition saw the same display without this sentence.
 
-(ref:project-choice-aggregation-4) An example of a project display in Experiment 4. Border added for clarity.
+(ref:project-choice-aggregation-4) An example of a project display in Experiment 4.
 
 ```{r project-choice-aggregation-4, fig.cap = "(ref:project-choice-aggregation-4)"}
 file.path(

@@ -87,11 +87,11 @@ file.path(
   image_trim()
 ```
 
-##### Allocation task {#allocation-anecdotes-2-appendix}
+##### Allocation Task {#allocation-anecdotes-2-appendix}
 
-The following were counterbalanced: 1. project variation (five latin square
+The following were counterbalanced: (a) project variation (five latin square
 variations), which is the association of each display content with each
-within-subject condition; and 2. anecdote variation (two variations), which is
+within-subject condition; and (b) anecdote variation (two variations), which is
 the association of each project display and being either the target or
 comparison project. Table column order and project display order were
 randomised.
@@ -112,7 +112,7 @@ file.path(
   image_trim()
 ```
 
-##### Interstitial display {#interstitial-materials-anecdotes-2}
+##### Interstitial Display {#interstitial-materials-anecdotes-2}
 
 Figure \@ref(fig:interstitial-materials-anecdotes-2) shows an example of one of
 the interstitial displays.

@@ -1,35 +1,34 @@
 ### Results {#results-alignment-2}
 
 A within-subjects factorial ANOVA was conducted to investigate the effects of
-NPV amount, alignment, and numerical NPV reliability on participants’ project
-allocations. Figure \@ref(fig:plot-alignment-3-allocation) shows these data. The
-alignment $\times$ reliability amount $\times$ NPV amount interaction was
-significant,
+NPV, project alignment, and numerical NPV reliability on participants' project
+allocations (see Figure \@ref(fig:plot-alignment-3-allocation)). The alignment
+$\times$ NPV reliability $\times$ NPV interaction was significant,
 `r results_alignment_3$allocation$alignment_reliability_amount_npv_amount`.
 However, this appeared to be driven by the difference between alignment
-conditions in the interaction between the quadratic NPV amount trend and
-reliability amount,
+conditions in the interaction between the quadratic NPV trend and NPV
+reliability,
 `r results_alignment_3$allocation$quadratic_low_high_low_high`, even after
-applying a Šidák correction. The same interaction but with the linear NPV trend
-was not significant,
+applying a Šidák correction. The same interaction but using a the linear NPV
+trend was not significant,
 `r results_alignment_3$allocation$linear_low_high_low_high`. Further, the linear
-NPV trend did not differ between reliability amount condition in neither the low
-alignment condition, `r results_alignment_3$allocation$linear_low_high_low`, nor
+NPV trend did not differ between the reliability conditions in either the low
+alignment condition, `r results_alignment_3$allocation$linear_low_high_low` or
 the high alignment condition,
-`r results_alignment_3$allocation$linear_low_high_high`. However, averaging over
-reliability amount, the linear NPV trend was higher in the low alignment
+`r results_alignment_3$allocation$linear_low_high_high`. However, averaged
+across reliability level, the linear NPV trend was stronger in the low alignment
 condition than in the high alignment condition,
 `r results_alignment_3$allocation$linear_low_high`. This suggests that
-participants relied more on NPV when projects were dissimilar than when they
-were similar.
+participants relied more on NPV when projects were dissimilar compared with when
+they were similar.
 
-(ref:plot-alignment-3-allocation) Mean allocation across NPV amount, by alignment and reliability amount conditions. Error bars represent 95% confidence intervals, calculated from the within-subjects SEs using the method from @cousineau2014. Raw data are plotted in the background.
+(ref:plot-alignment-3-allocation) Mean allocation across NPV, by alignment and reliability conditions. Error bars represent 95% confidence intervals, calculated from the within-subjects standard errors using the method from @cousineau2014. Raw data are plotted in the background.
 
 ```{r plot-alignment-3-allocation, fig.cap = "(ref:plot-alignment-3-allocation)"}
 plot_alignment_3$allocation
 ```
 
 The ranking data were congruent with these results, while the confidence data
-were less so. Further, the NPV knowledge data did not replicate the effect from
-@long2018 [Study 1]. These analyses are reported in
+were less so. Further, the findings on over-confidence from @long2018 [Study 1]
+were not replicated with NPV knowledge. These analyses are reported in
 Appendix \@ref(results-alignment-3-appendix).

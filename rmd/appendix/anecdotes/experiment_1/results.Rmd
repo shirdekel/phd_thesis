@@ -62,10 +62,10 @@ plot_anecdotes_1$relevance_general
 ```
 
 Regression analyses were conducted to determine the relationship between
-allocations and the follow-up ratings of similarity and relevance. As seen in
+allocations and the follow-up ratings of similarity and relevance. As shown in
 Figure \@ref(fig:plot-anecdotes-1-lm-allocation-similarity), similarity ratings
 were negatively correlated to allocations,
-`r results_anecdotes_1$lm$allocation_similarity`. Finally, as seen in
+`r results_anecdotes_1$lm$allocation_similarity`. Finally, as shown in
 Figure \@ref(fig:plot-anecdotes-1-lm-relevance-specific-similarity) similarity
 ratings were positively correlated to specific relevance ratings,
 `r results_anecdotes_1$lm$relevance_specific_similarity`.

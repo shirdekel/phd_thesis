@@ -34,7 +34,7 @@ coefficient of variation (CV) of each condition. Each CV was then converted to a
 standard deviation value in the relevant scale by multiplying the mean of the CV
 values by the predicted means from above.
 
-As seen in Figure \@ref(fig:power-analysis-anecdotes-1), the power analysis
+As shown in Figure \@ref(fig:power-analysis-anecdotes-1), the power analysis
 suggested that a minimum sample size of `r anecdotes1::power$n_total`
 (`r anecdotes1::power$n` $\cdot$ 7) is required for the interaction effect with
 an expected power of at least 80%.
@@ -122,7 +122,7 @@ file.path(
   image_trim()
 ```
 
-##### Allocation task {#allocation-materials-anecdotes-1}
+##### Allocation Task {#allocation-materials-anecdotes-1}
 
 A horizontally integrated company is one which is made up of multiple businesses
 that operate in similar markets, and may have previously been competitors

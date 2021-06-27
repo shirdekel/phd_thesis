@@ -3,7 +3,7 @@
 #### Participants
 
 `r descriptives_alignment_4$apa` Table \@ref(tab:condition-allocation-alignment-4)
-shows the between-subjects condition allocation.
+shows the allocation of participants to the different conditions.
 
 ```{r condition-allocation-alignment-4}
 descriptives_alignment_4$condition_allocation_table %>%
@@ -12,13 +12,13 @@ descriptives_alignment_4$condition_allocation_table %>%
 
 #### Materials
 
-##### Risky investment task
+##### Risky Investment Task
 
 The only task that was used was the forecasting task used in Experiment 1,
 except that it was fixed by adding the relevant percentage intervals that were
 left out in Experiment 1, seen in Figure \@ref(fig:forecasting-alignment-4).
 
-(ref:forecasting-alignment-4) An example of the forecasting task in Experiment 5. Border added for clarity.
+(ref:forecasting-alignment-4) An example of the forecasting task in Experiment 5.
 
 ```{r forecasting-alignment-4, fig.cap = "(ref:forecasting-alignment-4)"}
 file.path(

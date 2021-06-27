@@ -7,66 +7,67 @@ tar_load(results_anecdotes_1)
 tar_load(plot_anecdotes_1)
 ```
 
-Experiment 1 investigated the effects of similarity and anecdotal bias on
-capital allocation. Participants were asked to allocate a hypothetical budget
-between two business projects. They also saw a case study that was either
-similar or dissimilar to the target project (but still from the same industry).
-Further, participants were allocated to the same conditions as in @wainberg2018,
-except that of the two judgement orientation conditions, only the *judgment
-orientation II* condition was used. Further, an anecdote only condition was
-used. For the conditions with statistical evidence, participants also saw
-aggregated information about the success of similar projects in the form of Net
-Present Value (NPV) as well as a reliability measure. One project was clearly
-better than the other when considering the statistical data, but the anecdotal
-evidence suggested the opposite.
+Experiment 1 investigated the effects of anecdotal similarity and bias on
+capital allocation. Participants were assigned to the same conditions as those
+in @wainberg2018 except that an anecdote only condition was included and the
+judgement orientation I condition was excluded. They were then asked to allocate
+a hypothetical budget between two business projects. Participants were also
+presented with a case study that was either similar or dissimilar to the target
+project (but still from the same industry). Further, for the conditions in which
+statistical evidence was provided, participants were presented with aggregated
+information about the success of similar projects in the form of NPV as well as
+a reliability measure. One project was clearly better than the other in terms of
+the statistical data, but the anecdotal evidence suggested the opposite.
 
-Previous research found that people are more persuaded by negative anecdotes
+Previous research has found that people are persuaded more by negative anecdotes
 than by positive statistical data in capital allocation scenarios
-[@wainberg2018]. While other work has shown that similar anecdotes are more
+[@wainberg2018]. While studies have shown that similar anecdotes are more
 persuasive than dissimilar anecdotes [@hoeken2009\; Study 3], it is unclear how
-similarity changes the anecdotal bias effect. As such, the main question was
-whether anecdotal bias will be greater when the anecdote is similar than when it
-is dissimilar. The target project was supported by the statistics, but is
-inconsistent with the anecdotes. Further, Experiment 1 only used negative
-anecdotes. So, evidence of anecdotal bias is given when allocation in a
-statistics only condition is higher than allocation to an anecdote & statistics
-condition. Therefore, Experiment 1 tested the following:
+similarity moderates the anecdotal bias effect. Thus, the main question is
+whether anecdotal bias will be greater when the anecdote is similar to the
+target project compared with when it is dissimilar. The target project was
+supported by the statistics but was inconsistent with the anecdotes. Further,
+Experiment 1 only used negative anecdotes. Therefore, the experiment would show
+evidence of anecdotal bias if participants assigned to the statistics only
+condition allocated more money to the target project compared with those in the
+anecdote & statistics condition. Thus, Experiment 1 tested the following
+hypothesis:
 
-```{hypothesis, anecdote-similarity-anecdotes-1, name = "Anecdotal bias is moderated by the similarity of negative anecdotes", echo = TRUE}
-Allocations to the target project will be higher when only the statistics are
-presented and when the statistics are accompanied by a low similarity anecdote,
-in comparison to when the statistics are accompanied by a high similarity
-anecdote. In addition, allocations are predicted to not be affected by the low
-similarity anecdote at all. That is, the statistics only condition should not
-differ from the low similarity anecdote & statistics condition.
+```{hypothesis, anecdote-similarity-anecdotes-1, name = "anecdotal bias is moderated by the similarity of negative anecdotes", echo = TRUE}
+Budget allocations to the target project will be higher when statistics only are
+presented compared with when statistics are accompanied by an anecdote with high
+similarity to the target project. In addition, budget allocations will not be
+affected by anecdotes with low similarity. That is, the statistics only
+condition will not differ from the low-similarity anecdote & statistics
+condition.
 ```
 
 Experiment 1 predicted that that the anecdotal bias effect will be complete, as
-in @wainberg2013. Specifically, the participants presented with the high
-similarity anecdote along with the statistics will not use any statistical
-information. Testing the high similarity condition will allow for an equivalent
-test to @wainberg2013. Therefore, Experiment 1 tested the following:
+in @wainberg2013. Specifically, the participants presented with the
+high-similarity anecdote along with the statistics would not use any statistical
+information. Testing the high similarity condition will provide an equivalent
+test to that of @wainberg2013. Therefore, Experiment 1 tested the following:
 
-```{hypothesis, statistics-anecdotes-1, name = "Effect of statistics for negative anecdotes", echo = TRUE}
-Participants will allocate capital equivalently to the target project when in
-the high similarity anecdote & statistics condition and when in the high
-similarity anecdote only condition without enhancing the statistics explanation.
+```{hypothesis, statistics-anecdotes-1, name = "effect of statistics for negative anecdotes", echo = TRUE}
+Participants in the high-similarity anecdote & statistics condition (without the
+statistics explanation) and those in the high-similarity anecdote only condition
+will allocate capital equally to the target project.
 ```
 
-Participants with additional information explaining the importance of
-"scientific thinking" and statistical data may be less affected by anecdotes, as
-in the *judgment orientation II* condition in @wainberg2018, here called the
-*anecdote & enhanced statistics condition*. Unlike the anecdote & enhanced
-statistics condition in @wainberg2013, the statistical information here is
-actually "enhanced" because of the accompanying text. Experiment 1 tests whether
-the effect from @wainberg2018---additional information protecting against
-anecdotal bias---would replicate in a capital allocation scenario. Therefore,
-Experiment 1 tested the following:
+Participants with additional information on the importance of scientific
+thinking and statistical data may be less affected by anecdotes. @wainberg2018
+termed this the *judgement orientation II* condition, while in this experiment
+it is termed the *anecdote & enhanced statistics condition*. Unlike the anecdote
+& enhanced statistics condition in @wainberg2013, the statistical information
+here is actually "enhanced" because of the accompanying text. Experiment 1
+tested whether the effect of additional information on anecdotal bias would be
+replicated in a capital allocation scenario. Therefore, Experiment 1 tested the
+following hypothesis:
 
-```{hypothesis, enhanced-statistics-anecdotes-1, name = "Effect of enhanced statistics for negative anecdotes", echo = TRUE}
-Participants will allocate more capital to the target project when in the high
-similarity anecdote & enhanced statistics condition than when in the high
-similarity anecdote & statistics condition.
+```{hypothesis, enhanced-statistics-anecdotes-1, name = "effect of enhanced statistics for negative anecdotes", echo = TRUE}
+Participants in the high-similarity anecdote & enhanced statistics condition
+will allocate more capital to the target project than those in the
+high-similarity anecdote & statistics condition.
 ```
 
 

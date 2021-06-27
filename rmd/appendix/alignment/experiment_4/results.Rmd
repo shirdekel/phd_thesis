@@ -1,19 +1,19 @@
 ### Results {#results-alignment-1}
 
 A mixed factorial ANOVA was conducted to investigate the effects of alignment,
-verbal NPV reliability, and NPV amount on participants’ project allocations. As
+verbal NPV reliability, and NPV on participants’ project allocations. As
 seen in Figure \@ref(fig:plot-alignment-1-allocation), the alignment $\times$
-reliability amount $\times$ NPV amount interaction was not significant,
+reliability amount $\times$ NPV interaction was not significant,
 `r results_alignment_1$allocation$reliability_amount_npv_amount_alignment`. This
-is most likely due to the fact that the reliability amount $\times$ NPV amount
+is most likely due to the fact that the reliability amount $\times$ NPV
 interaction was significant in the high alignment condition,
 `r results_alignment_1$allocation$low_high_linear_high`, the low alignment
 condition, `r results_alignment_1$allocation$low_high_linear_low`, as well as
 averaging over alignment conditions,
 `r results_alignment_1$allocation$reliability_amount_npv_amount`. Despite this,
-the alignment $\times$ NPV amount interaction was significant,
+the alignment $\times$ NPV interaction was significant,
 `r results_alignment_1$allocation$npv_amount_alignment`, such that the linear
-trend of NPV amount was stronger in the low alignment,
+trend of NPV was stronger in the low alignment,
 `r results_alignment_1$allocation$linear_low` than in the high alignment
 condition, `r results_alignment_1$allocation$linear_high`. However, neither of
 these trends were individually significant.
@@ -29,11 +29,11 @@ plot_alignment_1$allocation
 #### Confidence
 
 A mixed factorial ANOVA was conducted to investigate the effects of alignment,
-verbal NPV reliability, and NPV amount on participants’ confidence in their
-allocations. As seen in Figure \@ref(fig:plot-alignment-1-confidence), the
+verbal NPV reliability, and NPV on participants’ confidence in their
+allocations. As shown in Figure \@ref(fig:plot-alignment-1-confidence), the
 difference between alignment conditions was not significant,
 `r results_alignment_1$confidence$alignment`. However, the reliability $\times$
-alignment interaction was significant, as well as the NPV amount $\times$
+alignment interaction was significant, as well as the NPV $\times$
 alignment interaction. An exploratory analysis was conducted of the relevant
 simple effects for each interaction, applying a Šidák correction to the p values
 for each effect. None of the simple effects were significant after the
@@ -43,7 +43,7 @@ The raw mean differences indicated that there was a greater difference between
 reliability conditions in the low alignment condition,
 `r results_alignment_1$confidence$low_high_low` compared to the high alignment
 condition, `r results_alignment_1$confidence$low_high_high`. Further, there was
-a stronger linear trend of NPV amount in the low alignment condition,
+a stronger linear trend of NPV in the low alignment condition,
 `r results_alignment_1$confidence$linear_low` compared to the high alignment
 condition, `r results_alignment_1$confidence$linear_high`.
 

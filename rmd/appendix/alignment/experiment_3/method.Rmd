@@ -41,7 +41,7 @@ Figures \@ref(fig:instructions-reliability-explicit-materials-alignment-8)
 and \@ref(fig:instructions-reliability-implicit-materials-alignment-8) show the
 instructions for the verbal and numerical reliability conditions, respectively.
 
-(ref:instructions-reliability-explicit-materials-alignment-8) Experiment 3 verbal reliability instructions. Border added for clarity.
+(ref:instructions-reliability-explicit-materials-alignment-8) Experiment 3 verbal reliability instructions.
 
 ```{r instructions-reliability-explicit-materials-alignment-8, fig.cap = "(ref:instructions-reliability-explicit-materials-alignment-8)"}
 file.path(
@@ -54,7 +54,7 @@ file.path(
   image_border(color = "black", geometry = "5x5")
 ```
 
-(ref:instructions-reliability-implicit-materials-alignment-8) Experiment 3 numerical reliability instructions. Border added for clarity.
+(ref:instructions-reliability-implicit-materials-alignment-8) Experiment 3 numerical reliability instructions.
 
 ```{r instructions-reliability-implicit-materials-alignment-8, fig.cap = "(ref:instructions-reliability-implicit-materials-alignment-8)"}
 file.path(
@@ -67,12 +67,12 @@ file.path(
   image_border(color = "black", geometry = "5x5")
 ```
 
-##### Interstitial display {#interstitial-materials-alignment-8}
+##### Interstitial Display {#interstitial-materials-alignment-8}
 
 Figure \@ref(fig:interstitial-materials-alignment-8) shows an example of an
 interstitial display.
 
-(ref:interstitial-materials-alignment-8) An example of an interstitial display in Experiment 3. Border added for clarity.
+(ref:interstitial-materials-alignment-8) An example of an interstitial display in Experiment 3.
 
 ```{r interstitial-materials-alignment-8, fig.cap = "(ref:interstitial-materials-alignment-8)"}
 file.path(

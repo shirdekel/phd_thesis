@@ -2,7 +2,7 @@
 
 #### Follow-up
 
-##### Project number
+##### Project Number
 
 Participants were asked how many projects they thought they saw.
 Figure \@ref(fig:plot-aggregation-2-project-number) shows that overall people

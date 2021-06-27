@@ -32,7 +32,7 @@ get_condition_allocation_table <- function(data, iv) {
   if (!is_empty(allocation_columns)) {
     condition_allocation_table <-
       condition_allocation_table %>%
-      adorn_totals("row")
+      adorn_totals("row", fill = " ")
   }
   return(condition_allocation_table)
 }

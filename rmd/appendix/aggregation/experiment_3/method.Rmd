@@ -3,7 +3,7 @@
 #### Participants
 
 `r descriptives_aggregation_3$apa` Table \@ref(tab:condition-allocation-aggregation-3)
-shows the between-subjects condition allocation.
+shows the allocation of participants to the different conditions.
 
 ```{r condition-allocation-aggregation-3}
 descriptives_aggregation_3$condition_allocation_table %>%
@@ -17,7 +17,7 @@ descriptives_aggregation_3$condition_allocation_table %>%
 Participants were shown the same instructions as in Experiment 1 (see
 Section \@ref(instructions-materials-aggregation-1)).
 
-##### Risky investment task {#task-aggregation-3}
+##### Risky Investment Task {#task-aggregation-3}
 
 Participants saw displays with the same gamble values as those in Experiment 2
 (see Section \@ref(task-aggregation-2)), but with some changes in wording and
@@ -26,7 +26,7 @@ added to describe the projects. Further, the order of the sentences was
 randomised, so that the descriptions would not appear so similar. See
 Figure \@ref(fig:project-choice-aggregation-3) for an example.
 
-(ref:project-choice-aggregation-3) An example of a project display in Experiment 3. Border added for clarity.
+(ref:project-choice-aggregation-3) An example of a project display in Experiment 3.
 
 ```{r project-choice-aggregation-3, fig.cap = "(ref:project-choice-aggregation-3)"}
 file.path(
@@ -52,7 +52,7 @@ Further, another question was added, asking how many projects participants were
 expecting to see at the beginning of the experiment (see
 Figure \@ref(fig:project-expectation-aggregation-3)).
 
-(ref:project-expectation-aggregation-3) Experiment 3 project expectation question. Border added for clarity.
+(ref:project-expectation-aggregation-3) Experiment 3 project expectation question.
 
 ```{r project-expectation-aggregation-3, fig.cap = "(ref:project-expectation-aggregation-3)"}
 file.path(

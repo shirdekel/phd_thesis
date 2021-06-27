@@ -12,7 +12,7 @@ amount (low and high), and NPV reliability amount (low and high).
 
 Participants saw instructions similar to the previous experiments.
 
-##### Project display
+##### Project Display
 
 Participants saw and responded to four webpage displays. At the top of each
 display was a text preamble, and underneath this a table that contained project

@@ -1,21 +1,21 @@
 ### Discussion
 
-Experiment 2 replicated the alignment effect found in Experiment 1 with
-participants with real-world business experience. That is,
-Hypothesis \@ref(hyp:allocation-alignment-alignment-2) was supported, as people
-relied more on NPV when faced with a set of dissimilar projects than when
-projects were all from the same domain. Experiment 2 also found evidence for
-Hypothesis \@ref(hyp:allocation-npv-reliability-alignment-3), with no
-significant differences between the numerical reliability amount conditions.
-While Experiment 2 did not replicate the interaction found in Experiment 1, it
-should be emphasised that these are two different effects. In Experiment 1,
-participants were explicitly told about the reliability of the NPV measure,
-whereas in Experiment 2, they were provided with variance information that
-merely implies NPV reliability. Thus, Experiment 2 showed that business students
-are affected by comparability of project sets, but not by numerical NPV
-reliability information. Specifically, participants appeared to only focus on
-the NPV itself, and not on any variations in the underlying noisiness of the
-measure for a specific project.
+Based on participants with real-world business experience, Experiment 2
+replicated the alignment effect found in Experiment 1. That is, participants
+relied more on NPV when faced with a set of dissimilar projects than when faced
+with similar projects, supporting
+Hypothesis \@ref(hyp:allocation-alignment-alignment-2). Experiment 2 also found
+evidence for Hypothesis \@ref(hyp:allocation-npv-reliability-alignment-3), with
+no significant differences between the numerical reliability conditions. While
+Experiment 2 did not replicate the interaction found in Experiment 1, it should
+be emphasised that these are two different effects. In Experiment 1,
+participants were explicitly told whether the NPV measure was reliable, while in
+Experiment 2, they were provided with variance information that merely implied
+NPV reliability. Thus, the results of Experiment 2 show that business students
+were affected by the comparability of projects but not by numerical NPV
+reliability information. Specifically, participants appeared to focus only on
+the NPV itself for a specific project, not on the underlying noisiness of the
+measure.
   
 The participants in Experiment 2 seemed to rely on NPV more than those in
 Experiment 1. This was seen by the steeper linear trends in Experiment 2. This
@@ -30,19 +30,19 @@ tested NPV reliability expressed numerically. However, the difference in
 findings was confounded by the different populations that were sampled. Further,
 in both experiments, the business projects consisted of a limited number of
 domains. It is unclear to what extent these specific domains influenced the
-results. These projects were centred around consumer products, which were
-originally chosen to be more easily accessible to participants without business
-experience. However, with these projects, individual features do not necessarily
-indicate a project's profitability. For instance, a laptop with a low capacity
-can be more profitable than a laptop with a high capacity due to the existence
-of consumer goods markets. Experiment 3 addressed these limitations.
+results. These projects were centred around consumer products, which were chosen
+to be more easily accessible to participants without business experience.
+However, the individual features of a project do not necessarily indicate its
+profitability. For instance, a laptop with a low storage capacity may be more
+profitable than one with a high storage capacity because of consumer goods
+markets. Experiment 3 addressed these limitations.
 
-Another limitation of the last two experiments was the potential presentation
-style confound. The two alignment conditions differed in the number of alignable
-differences, but also in the way that the information was presented. The
-information in the low alignment condition was presented in paragraphs, whereas
-the information in the high alignment condition was presented in tables. While
-it is likely that each of these data types would be presented in this way in a
-business setting, it is important to rule out that this manipulation did not
-also unnecessarily increase task difficulty. Therefore, Experiment 3 attempted
-to replicate this effect, while controlling for presentation style.
+Another limitation of Experiments 1 and 2 was the potential confounding effect
+of presentation style. The two alignment conditions differed in the number of
+alignable differences, but also in the way that the information was presented.
+The information in the low alignment condition was presented as paragraphs,
+while the information in the high alignment condition was presented as a table.
+While it is likely that these data types would be presented in this way in the
+business setting, it is important to rule out that this difference did not
+unnecessarily increase task difficulty. Therefore, Experiment 3 attempted to
+replicate this effect while controlling for presentation style

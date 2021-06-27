@@ -15,9 +15,9 @@ gambles are explicitly aggregated. In contrast to most of the repeated-play
 choice literature, each choice was presented without subsequent feedback.
 Further, in contrast to Experiment 1, the distribution were displayed alongside
 each gamble, as opposed to only at the very end. This is an important
-manipulation because finding out whether it is effective will 1. add to the
+manipulation because finding out whether it is effective will (a) add to the
 understanding of the conditions necessary for mathematical aggregation (beyond a
-mere intuitive sense of aggregation), and 2. suggest new ways to encourage
+mere intuitive sense of aggregation), and (b) suggest new ways to encourage
 aggregation in real-world applications.
 
 In past work, participants were shown ordinary binomial distributions, since
@@ -35,7 +35,7 @@ Experiment 2 again tested Hypotheses \@ref(hyp:awareness-aggregation-1),
 and \@ref(hyp:presentation-aggregation-1), from Experiment 1. Further, following
 the finding in Experiment 1 that participants in the aware condition seemed to
 become more risk-taking as the experiment progressed, Experiment 2 tested the
-following:
+following hypothesis:
 
 ```{hypothesis, awareness-trials-aggregation-2, name = "Interaction of trial number and awareness", echo = TRUE}
 Participants will make more risky choices as the trials progress, but only when
@@ -44,7 +44,8 @@ they are aware of the total number of projects in the set.
 
 Further, multi-play gambles with outcome distributions have been shown to reduce
 risk aversion compared to multi-play gambles without distributions [e.g.,
-@redelmeier1992; @webb2017]. Therefore, Experiment 2 tested the following:
+@redelmeier1992; @webb2017]. Therefore, Experiment 2 tested the following
+hypothesis:
 
 ```{hypothesis, distribution-aggregation-2, name = "Distribution effect", echo = TRUE}
 Participants will make more risky choices when presented with an aggregated

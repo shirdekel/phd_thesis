@@ -1,4 +1,4 @@
-## Practical implications {#practical-implications}
+## Practical Implications {#practical-implications}
 
 The findings of this thesis have a number of potential implications for
 managerial decision-making. Despite the uncertainty about potential expertise
@@ -17,8 +17,8 @@ policies and manager decision-making.
 The findings of Chapter \@ref(aggregation) show that the way that the framing of
 business project proposals important for the way that people perceive their
 risk. Specifically, in order to better account for the risks of business
-projects it is important to 1. make it easier for managers to group projects
-together, and 2. aggregate a portfolio of projects for them. This suggests
+projects it is important to (a) make it easier for managers to group projects
+together, and (b) aggregate a portfolio of projects for them. This suggests
 implementing organisational changes that will facilitate the capital allocation
 process. For instance, @lovallo2020 suggested that companies change the
 frequency that they evaluate projects to better allow for an aggregation of the

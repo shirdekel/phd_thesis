@@ -3,7 +3,7 @@
 #### Participants
 
 `r descriptives_aggregation_1$apa` Table \@ref(tab:condition-allocation-aggregation-1)
-shows the between-subjects condition allocation.
+shows the allocation of participants to the different conditions.
 
 ```{r condition-allocation-aggregation-1}
 descriptives_aggregation_1$condition_allocation_table %>%
@@ -19,7 +19,7 @@ and that they will need to decide about investing in a number of hypothetical
 business projects. The appendix shows these instructions in
 Figure \@ref(fig:instructions-materials-aggregation-1).
 
-##### Risky investment task {#task-aggregation-1}
+##### Risky Investment Task {#task-aggregation-1}
 
 Participants saw 10 short descriptions of business projects, and were asked
 whether they would invest in that project or not. Each description included the
@@ -57,7 +57,7 @@ any single gamble ($P(\text{loss}_{single})$) was
 Figure \@ref(fig:project-choice-aggregation-1) shows an example of a description
 of a project in this task.
 
-(ref:project-choice-aggregation-1) Example of a project choice display in Experiment 1. Border added for clarity.
+(ref:project-choice-aggregation-1) Example of a project choice display in Experiment 1.
 
 ```{r project-choice-aggregation-1, fig.cap = "(ref:project-choice-aggregation-1)"}
 file.path(
@@ -82,7 +82,7 @@ proceeded without this message. The financial and probability values were
 identical regardless of condition, and the order of each set of 10 projects was
 randomised.
 
-(ref:awareness-aware-aggregation-1) The display seen by those in the aware condition of Experiment 1. Border added for clarity.
+(ref:awareness-aware-aggregation-1) The display seen by those in the aware condition of Experiment 1.
 
 ```{r awareness-aware-aggregation-1, fig.cap = "(ref:awareness-aware-aggregation-1)"}
 file.path(
@@ -101,7 +101,7 @@ Companies that consider their forecast estimates probabilistically (i.e., do not
 simply use the most likely estimate as the only estimate) do frame their options
 as likelihoods of certain monetary outcomes.
 
-##### Outcome distribution decision {#outcome-distribution-materials-aggregation-1}
+##### Outcome Distribution Decision {#outcome-distribution-materials-aggregation-1}
 
 Participants were asked if they would invest in the last 10 projects they saw
 and were provided with a graph of the outcome probability distribution of the 10
@@ -114,7 +114,7 @@ Experiment 2, which fixed this issue.
 Appendix \@ref(outcome-distribution-aggregation-1) presents an analysis of this
 data, and describes the coding error and its implications.
 
-##### Follow-up gambles
+##### Follow-up Gambles
 
 Participants were shown four further sets of gambles (11 total) that functioned
 to check participant attention and replicate the gambles from @samuelson1963 and

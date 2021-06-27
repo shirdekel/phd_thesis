@@ -45,7 +45,7 @@ afex_plot_alignment_8 <- function(afex_aov, dv_label) {
       legend_title = "Reliability amount"
     ) +
     labs(
-      x = "NPV amount ($)",
+      x = "NPV ($)",
       y = dv_label
     ) +
     papaja::theme_apa()

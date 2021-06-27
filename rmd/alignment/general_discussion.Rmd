@@ -1,89 +1,87 @@
-## General discussion
+## General Discussion
 
-Across three experiments there were two main findings: 1. NPV is used more when
-options are hard to compare in the low alignment conditions; and 2. people do
-not consider numerical variance information, despite this being important to the
-reliability of the NPV forecasts. This pattern with numerical reliability
+Across three experiments there were two main findings: (a) NPV is used more when
+options are difficult to compare in the low alignment conditions; and (b) people
+do not consider numerical variance information, despite this being important to
+the reliability of the NPV forecasts. This pattern with numerical reliability
 information contrasted with the frequent use of verbal indicators of
 reliability. This numerical variance neglect is surprising, since other work
 showed that people can readily extract variance information when experiencing
 numerical sequences [@rosenbaum2020]. Both the verbal and numerical effects were
-consistent across both naive and experienced populations, which indicates their
-persistence. People make use of metrics with alignable differences when in a
-situation that requires comparison across disparate options. However, they do
-not sufficiently moderate their use of such metrics even when they have
-alternative attributes to use.
+consistent for both naive and experienced participants, indicating their
+persistence. People make use of metrics with alignable differences when required
+to compare disparate options. However, they do not sufficiently modify their use
+of such metrics, even when they are presented with alternative attributes.
 
-Experiment 1 found that when participants were told that NPV was unreliable,
-they did not use it in their allocation decisions, but when they were told that
-it was reliable they did. Experiment 2 found that people with some business
-experience relied on NPV more for capital allocation when the rest of the
-information was non-alignable, compared to when it was alignable. However,
-participants did not take into account the numerical reliability information
-when making these decisions. Experiment 3 found further evidence of these
-effects, within one experimental design.
+Experiment 1 found that participants did not use NPV in their allocation
+decisions when they were told that it was unreliable but did use it when told it
+was reliable. Experiment 2 found that participants with some business experience
+relied more on NPV for capital allocation when the rest of the information was
+non-alignable compared with when it was alignable. However, they did not take
+into account numerical reliability information when making these decisions.
+Experiment 3 found further evidence of these effects within one experimental
+design.
 
-Alignable differences have been shown to be important to decision making in many
-settings [@markman2010; @markman1995]. The experiments in this chapter are novel
-in the investigation of alignment effects in a capital allocation paradigm.
-Further, these experiments considered the extent to which the reliability of an
-alignable measure (NPV) affects the way people use it. The experiments found
-that this is dependent on the availability of other alignable differences in the
-choice set. If other alignable differences are available, then participants are
-willing to reduce their use of a supposedly unreliable alignable measure (and
-use it when told that it is reliable). However, when no other alignable
-differences are available, then the unreliable, but alignable, measure is used
-less. This was found in both Experiment 1 and 3, as well as to lesser extent in
-a pilot study (reported in Appendix \@ref(alignment-1)).
+Alignable differences have been shown to be important into decision-making in
+many settings [@markman2010; @markman1995]. The experiments presented in this
+chapter are novel in terms of the effects of project alignment on capital
+allocation. Further, these experiments considered the extent to which the
+reliability of an alignable measure (NPV) affects the way in which it is used.
+This depended on the availability of other alignable differences in the set of
+choices. If other alignable differences were available, then participants were
+willing to reduce their use of a reportedly unreliable alignable measure (or use
+it when told that it was reliable). However, when no other alignable differences
+were available, then the alignable, albeit unreliable, measure was more likely
+to be used. This was found in both Experiments 1 and 3, as well as as in the
+pilot study to a lesser extent (reported in Appendix \@ref(alignment-1)).
 
 Financial measures such as NPV are useful because of their alignability. That
-is, they act as an alignable difference regardless of the inherent similarity of
-a set of projects. Psychologically, these measures are useful because they allow
-for relevant inferences [@lassaline1996] and because they offer an abstraction
-of concrete details [@doumas2013]. However, the theoretical account of
-structural alignment does not directly speak to the real-world implications when
-there is a need for non-alignable comparisons. NPV is a type of abstraction that
-allows comparison between different aspects of a company. For instance,
-comparing an oil field project with a refinery project might be made easier by
-using NPV. On the other hand, this increased alignment might actually hide
+is, they may serve as an alignable difference, regardless of the inherent
+similarities between a set of projects. Psychologically, these measures are
+useful because they allow for relevant inferences [@lassaline1996] and because
+they offer an abstraction of concrete details [@doumas2013]. However, the
+structural alignment account does not directly speak to real-world implications
+when there is a need for non-alignable comparisons. NPV is a type of abstraction
+that facilitates the comparison of different aspects of a company. For instance,
+the use of NPV may facilitate the comparison of an oil field project with a
+refinery project. However, this increased alignment could actually hide
 important information because it does not consider the finer complexities
-inherent within each business unit. The forecasts use to calculate NPV are based
-on different indicators in each business unit, and there are likely to be
-differences in variance between each unit's estimates. As such, one can imagine
-a continuum of similarity comparisons in which usefulness of comparison
-increases with the level of alignability, but is moderated by the level of
-abstraction that is required to achieve the alignment.
+inherent in each business unit. The forecasts used to calculate NPV for each
+business unit are based on different indicators, and there are likely to be
+differences between each unit's estimates. Thus, one can imagine a continuum of
+comparisons in which the usefulness of comparison increases with the level of
+alignability, but it is moderated by the level of abstraction that is required
+to achieve the alignment.
 
-The finding that people, even with some business experience, do not sufficiently
-consider variance information is surprising, but understandable. It is
-surprising because so much of financial decision making depends on considering
-different sources of variance (e.g., risk, volatility, and uncertainty).
-However, it is understandable because research from psychology and statistics
-education shows that statistics students and people in general have a poor
-ability to draw statistical inferences [e.g., @galesic2010; @konold1993]. Future
-research should investigate the conditions under which people’s sensitivity to
-variance information can be facilitated. For instance, it is unclear whether it
-is merely salience that is lacking, and that therefore visual aids could be
-useful, or whether further explicit explanation of the statistical inference is
-necessary. Pilot experiments suggest that participants still struggle to use
-numerical reliability information, even when given very explicit instructions
-(see Appendix \@ref(alignment-6)).
+The finding that participants, even those with some business experience, did not
+sufficiently consider variance information is surprising but understandable. It
+is surprising because financial decision-making largely depends on the
+consideration of different sources of variance (e.g., risk, volatility, and
+uncertainty). At the same time, it is understandable because research from
+psychology and statistics education shows that statistics students and people in
+general have a poor ability to draw statistical inferences [e.g., @galesic2010;
+@konold1993]. Future research should investigate the conditions under which
+individuals' sensitivity to variance information may be facilitated. For
+instance, it is unclear whether it is merely salience that is lacking, meaning
+that visual aids could be useful, or whether a further explicit explanation of
+statistical inference is necessary. The findings of a pilot experiment suggest
+that participants struggle to use numerical NPV reliability information, even
+when given explicit instructions (see Appendix \@ref(alignment-6)).
 
 A possible limitation of these experiments is the use of NPV as the only
-financial metric. In the business world there are many metrics that serve
-similar functions and would be used as a tool to deal with non-alignable
-options, as NPV was in the current study. Therefore, future research should
-attempt to replicate the current findings with different financial measures.
+financial metric. In the business world, there are many metrics that serve
+similar functions and are used as tools to deal with non-alignable options.
+Therefore, future research should attempt to replicate the current findings
+using different financial measures.
 
 Future research should also investigate the boundary conditions of the
-reliability effect. That is, people seem to be responding to explicit
-reliability information, but not to variance information that implies
-reliability. Future research should attempt to identify the minimal kind of
-information about variance that participants need in order to understand the
-relevant implications about reliability. Participants may simply not notice the
-variability information, or assume that it irrelevant. For instance, future
-research could test participants in a condition in which the variability
-information is more salient.
+reliability effect. That is, people appear to respond to explicit reliability
+information but not to variance information that only implies reliability.
+Future research should attempt to identify the minimal variance information that
+participants need to understand the relevant implications for reliability.
+Participants may simply not notice the variance information or assume that it is
+irrelevant. For instance, future research could test participants in a condition
+in which the variance information is more salient.
 
 \newpage
 

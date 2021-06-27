@@ -7,42 +7,41 @@ tar_load(results_alignment_8)
 tar_load(plot_alignment_8)
 ```
 
-Experiment 3 investigated the effects of alignment, reliability type, NPV
-amount, and reliability amount on allocations. Experiment 1 manipulated
-reliability amount by using *verbal* prompts. That is, participants were told
-explicitly whether or not NPV was reliable for a certain project industry.
-Experiment 2 investigated whether people were able to extract this same kind of
-reliability information from *numerical* prompts. That is, participants saw NPVs
-with either wide or narrow ranges, indicating either low or high reliability of
-the metric, respectively. However, Experiment 1 sampled laypeople, whereas
-Experiment 2 sampled a Masters of Management course. Therefore, it was not
-possible to compare the two reliability types (verbal and numerical) without
-ruling out the potential confound of population type. As such, Experiment 3
-manipulated NPV amount, alignment, and reliability amount, but also added a
-reliability type factor. Further, presentation style was a possible confound in
-the alignment manipulation of the previous experiments. That is, the business
-projects in the high alignment condition were always displayed as a part of a
-table, whereas the projects in the low alignment condition were displayed in
-prose, as paragraphs. Experiment 3 fixed this by using the same presentation
-style across alignment condition.
+Experiment 3 investigated the effects of project alignment, NPV, NPV reliability
+type and NPV reliability level on participants' budget allocations. Experiment 1
+manipulated NPV reliability using verbal prompts. That is, participants were
+explicitly told whether or not NPV was reliable for a certain project.
+Experiment 2 investigated whether people were able to extract the same
+reliability information using numerical prompts. That is, participants were
+provided with NPVs with either wide or narrow ranges, indicating either low or
+high reliability, respectively. Moreover, given that laypeople were sampled for
+Experiment 1, and Master of Management students were sampled for Experiment 2,
+it was not possible to compare the two reliability types (verbal and numerical)
+without ruling out the potential confounding effect of population type. Thus,
+similar to Experiments 1 and 2, Experiment 3 manipulated project alignment, NPV
+and NPV reliability level but also added reliability type. Further, presentation
+style was a possible confounding factor in the previous experiments. That is,
+projects in the high alignment condition were always displayed in a table, while
+projects in the low alignment condition were always displayed as paragraphs.
+This possible confounder was excluded in Experiment 3 by using the same
+presentation style for both alignment conditions.
 
-The expected pattern of results in the verbal reliability condition of
-Experiment 3 was a replication of Experiment 1. For the numerical reliability
-condition, findings from a pilot experiment (detailed in
-Appendix \@ref(alignment-7)) were used for predictions. This experiment found no
-significant differences in a similar numerical reliability condition to the one
-used in Experiment 3. This was therefore expected also for the present numerical
-reliability condition. The appendix shows a simulation of these hypothesised
-effects (see Figure \@ref(fig:plot-simulation-alignment-8)). Therefore, as well
-as again testing
+In Experiment 3, the expected results for the verbal reliability condition
+replicated those of Experiment 1. For the numerical reliability condition, the
+findings from a pilot experiment (detailed in Appendix \@ref(alignment-7)) were
+used for the predictions. The pilot experiment found no significant differences
+between numerical reliability conditions, which were similar to those used in
+Experiment 3. Therefore, this result was also expected for the present numerical
+reliability conditions. Appendix \@ref(alignment-8-appendix) shows a simulation
+of these hypothesised effects. Therefore, as well as retesting
 Hypotheses \@ref(hyp:three-way-alignment-2), \@ref(hyp:allocation-alignment-alignment-2), \@ref(hyp:allocation-alignment-reliability-npv-alignment-2), \@ref(hyp:allocation-alignment-high-alignment-2),
 and \@ref(hyp:allocation-alignment-low-alignment-2) for the verbal reliability
-condition, Experiment 3 tested the following:
+condition, Experiment 3 tested the following hypothesis:
 
-```{hypothesis, four-way-alignment-8, name = "Overall effect", echo = TRUE}
-The alignment $\times$ reliability amount $\times$ reliability type $\times$ NPV
-amount interaction will be significant, such that the effects hypothesised above
-will be seen in the verbal reliability condition, but none of these effects
-will be seen in the numerical reliability condition.
+```{hypothesis, four-way-alignment-8, name = "overall effect", echo = TRUE}
+The alignment $\times$ reliability level $\times$ reliability type $\times$ NPV
+interaction is significant such that the alignment, reliability level, and NPV
+effects are significant for the verbal reliability condition but not for the
+numerical reliability condition.
 ```
 

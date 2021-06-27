@@ -3,9 +3,9 @@
 #### Participants
 
 `r descriptives_alignment_1$apa` Table \@ref(tab:condition-allocation-alignment-1)
-shows the between-subjects condition allocation. The two alignment conditions
+shows the allocation of participants to the different conditions. The two alignment conditions
 (low and high) were presented within subjects and the order of their
-presentation was randomised. Further, NPV amount was varied within subjects.
+presentation was randomised. Further, NPV was varied within subjects.
 
 ```{r condition-allocation-alignment-1}
 descriptives_alignment_1$condition_allocation_table %>%
@@ -27,7 +27,7 @@ Figures \@ref(fig:instructions-reliability-low-materials-alignment-1)
 and \@ref(fig:instructions-reliability-high-alignment-1) show the instructions
 for each NPV reliability condition.
 
-(ref:instructions-reliability-low-materials-alignment-1) Experiment 4 low reliability instructions. Border added for clarity.
+(ref:instructions-reliability-low-materials-alignment-1) Experiment 4 low reliability instructions.
 
 ```{r instructions-reliability-low-materials-alignment-1, fig.cap = "(ref:instructions-reliability-low-materials-alignment-1)"}
 file.path(
@@ -42,7 +42,7 @@ file.path(
   image_border(color = "black", geometry = "5x5")
 ```
 
-(ref:instructions-reliability-high-alignment-1) Experiment 4 high reliability instructions. Border added for clarity.
+(ref:instructions-reliability-high-alignment-1) Experiment 4 high reliability instructions.
 
 ```{r instructions-reliability-high-alignment-1, fig.cap = "(ref:instructions-reliability-high-alignment-1)"}
 file.path(

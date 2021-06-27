@@ -51,3 +51,4 @@ library(anecdotes2)
 
 conflict_prefer("filter", "dplyr")
 conflict_prefer("set_names", "rlang")
+conflict_prefer("discard", "purrr")

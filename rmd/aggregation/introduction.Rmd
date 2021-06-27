@@ -6,7 +6,7 @@ undertaking it. Before you proceed, step back and look at the big picture, lest
 you act rashly on raw impulse.
 ```
 
-# Effect of choice bracketing on risk aggregation in repeated-play gambles with no feedback {#aggregation}
+# Effect of Choice Bracketing on Risk Aggregation in Repeated-Play Gambles With no Feedback {#aggregation}
 
 \chaptermark{Effect of choice bracketing on risk aggregation}
 
@@ -75,7 +75,7 @@ of encouraging participants to bracket their risky choices, but with a paradigm
 that involves a series of independent choices without feedback. In this way, the
 paradigm is more isometric with real-life risky choice.
 
-### Multi-play gambles
+### Multi-Play Gambles
 
 Despite the difficulties of risk aggregation, people seem to aggregate "naively"
 when considering multiple gambles. @samuelson1963 told of a colleague who
@@ -144,7 +144,7 @@ struggle to compute the aggregation without external help.
 tar_read(samuelson_distribution)
 ```
 
-### Repeated-play gambles
+### Repeated-Play Gambles
 
 Decisions in real life are usually sequential, and rarely identical as in the
 multi-play paradigm [cf. @barron2003]. That is, people tend to be confronted
@@ -198,7 +198,7 @@ designed to research how to facilitate risk aggregation and reduce loss
 aversion. This chapter is novel because its goal is to facilitate risk
 aggregation without the experimental artefact of immediate feedback.
 
-### Choice bracketing
+### Choice Bracketing
 
 Research in psychology and economics has identified ways of facilitating risk
 aggregation by encouraging people to group their choices. Specifically, people
@@ -306,7 +306,7 @@ averse when receiving feedback for each trial, compared to every three trials.
 Testing a presentation manipulation without the confound of feedback will help
 to clarify this effect.
 
-### Internal capital market investment context
+### Internal Capital Market Investment Context
 
 Executives of large, successful firms are often viewed as fearless risk-takers
 who take on risky projects to generate innovation and growth. However, the

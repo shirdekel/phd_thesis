@@ -1,4 +1,4 @@
-## General discussion
+## General Discussion
 
 When making one decision about a series of risky choices, it is clear that
 people have an intuitive sense of the advantages of risk aggregation [e.g.,
@@ -52,7 +52,7 @@ often not sufficient to encourage risk aggregation and that people need risk to
 be is aggregated for them explicitly in order to understand the benefits of
 aggregation.
 
-### Theoretical implications
+### Theoretical Implications
 
 The finding that participants are less risk averse when provided with an
 aggregated outcome distribution is congruent with previous work [e.g.,
@@ -117,7 +117,7 @@ Instead, participants could have been more eager to accept the project portfolio
 due to the higher variability between projects (due to the similarity
 manipulation).
 
-#### How does choice bracketing facilitate aggregation?
+#### How Does Choice Bracketing Facilitate Aggregation?
 
 Much of the literature [e.g., @benartzi1999] is not clear about why choice
 bracketing occurs. Some explain the effect of bracketing on aggregation using
@@ -152,7 +152,7 @@ salient when other participants are explicitly told of this possibility, as in
 as appearing unrealistically strong, but the results of this chapter suggest
 that people do need very explicit scaffolding in order to use risk aggregation.
 
-### Practical implications
+### Practical Implications
 
 This research implies some prescriptions for capital allocation decision-making.
 For instance, even if managers implement processes that encourage a joint
@@ -189,7 +189,7 @@ such, managers should complement an understanding of aggregation with that of
 diversification. This might help to avoid being biased by a lack of variety of
 projects despite a potentially high level of diversification.
 
-### Future research
+### Future Research
 
 The main novelty of the experiments in this chapter comes from increasing
 ecological validity of risky choice problems by removing inter-trial feedback.

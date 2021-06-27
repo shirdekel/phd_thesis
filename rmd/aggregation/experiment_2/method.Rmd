@@ -3,7 +3,7 @@
 #### Participants
 
 `r descriptives_aggregation_2$apa` Table \@ref(tab:condition-allocation-aggregation-2)
-shows the between-subjects condition allocation.
+shows the allocation of participants to the different conditions.
 Appendix \@ref(power-analysis-aggregation-2) describes the power analysis
 conducted to arrive at this sample size.
 
@@ -19,7 +19,7 @@ descriptives_aggregation_2$condition_allocation_table %>%
 Participants were shown the same instructions as in Experiment 1 (see
 Section \@ref(instructions-materials-aggregation-1)).
 
-##### Risky investment task {#task-aggregation-2}
+##### Risky Investment Task {#task-aggregation-2}
 
 Participants saw a similar display to the one in Experiment 1 (see
 Section \@ref(task-aggregation-1)), but with new gamble values, in order to fix

@@ -1,4 +1,4 @@
-## Theoretical implications {#theoretical-implications}
+## Theoretical Implications {#theoretical-implications}
 
 The main theoretical contribution of this thesis is the addition of evidence
 that further specifies the conditions under which people make rational decisions
@@ -29,7 +29,7 @@ decision-making. Even if decisions are largely consistent with normative
 concepts, falling prey to the biases identified in this thesis can have severe
 consequences for organisations.
 
-### Statistical concepts
+### Statistical Concepts
 
 Chapter \@ref(aggregation) presented participants with a capital allocation
 situation in which an understanding of risk aggregation would have led to
@@ -56,8 +56,8 @@ the low alignment condition, NPV was the only easy way to compare across
 projects, so it was a more useful cue than the rest of the non-alignable values.
 However, in the high alignment condition, the extent of numerical variance
 associated with each NPV could have been used to determine NPV reliability.
-There were two ways to do this: 1. noticing that in the low numerical
-reliability condition the ranges were all overlapping, and 2. noticing the
+There were two ways to do this: (a) noticing that in the low numerical
+reliability condition the ranges were all overlapping, and (b) noticing the
 difference in the width of the ranges between the two within-subjects
 reliability amount conditions. By doing this, participants would have then been
 able to know to (in the high alignment condition) use NPV when ranges were
@@ -104,7 +104,7 @@ explained through satisficing [@simon1955] or a constraint satisfaction model
 further clarify to what extent constructs such as need for cognition or
 mathematical skill may explain individual differences.
 
-### Decision aides
+### Decision Aides
 
 While trade-offs allow people to integrate multiple cues, decision aides allow
 people to use statistical concepts for more nuanced moderation.
@@ -134,7 +134,7 @@ understanding of the relevance of the sample distribution. Ultimately,
 visualisations of the effects of certain statistical concepts might be necessary
 for people to use them appropriately.
 
-### How bounded is bounded rationality?
+### How Bounded is Bounded Rationality?
 
 The boundary between the cues that participants were able to use and the
 statistical concepts that they did not use is unclear. That is, the cues that
@@ -163,7 +163,7 @@ description. This kind of distinction may explain why participants in the thesis
 experiments failed to use concepts that have been shown to be accessible to
 laypeople.
 
-### Expertise effects
+### Expertise Effects
 
 Future research should also investigate the potential expertise effects that may
 influence the findings of the thesis. This is important because of the potential
@@ -187,7 +187,7 @@ have a blind spot for such project evaluations: they aggregate their personal
 stock market portfolio, but not their intra-firm project portfolio.
 
 Chapter \@ref(alignment) found evidence of variance neglect for both laypeople
-and Masters of Management students. Further, in the case of the work in
+and Master of Management students. Further, in the case of the work in
 Chapter \@ref(anecdotes), it is possible that business managers prefer anecdotal
 cases to inform their decisions because of their higher salience, compared to
 statistical data. Managers are also more likely to feel as if the situation is

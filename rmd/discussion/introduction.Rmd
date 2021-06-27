@@ -33,7 +33,7 @@ and \@ref(practical-implications) will then discuss their theoretical and
 practical implications, respectively. Section \@ref(conclusion) will conclude
 the thesis.
 
-## Summary of results {#summary-of-results}
+## Summary of Results {#summary-of-results}
 
 Chapter \@ref(aggregation) investigated participants' choice of risky business
 projects, when these are displayed sequentially and without feedback in between

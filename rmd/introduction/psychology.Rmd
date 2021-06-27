@@ -1,4 +1,4 @@
-## The psychology of capital allocation {#psychology}
+## The Psychology of Capital Allocation {#psychology}
 
 Managers of large organisations are generally assumed to have a superior
 decision-making capability to non-managers. However, managerial decision-making
@@ -89,12 +89,12 @@ estimates of their degree of confidence.
 
 The above summarises many of the currently known psychological biases related to
 capital allocation. This thesis focuses on three essential processes within the
-capital allocation process: 1. risky choice, 2. the comparison between
-diversified businesses, and 3. the influence of prior experience. Each of these
+capital allocation process: (a) risky choice, (b) the comparison between
+diversified businesses, and (c) the influence of prior experience. Each of these
 is prone to separate biases, that are also interrelated. The subsequent
 subsections review the literature for these processes.
 
-### Risky choice
+### Risky Choice
 
 <!-- Utility -->
 
@@ -146,7 +146,7 @@ cultures in which it has been tested [@weber1998], and even in capuchin monkeys
 behaviour.
 
 The function that represents the value of a prospect describes both loss
-aversion and diminishing marginal utility, as seen in
+aversion and diminishing marginal utility, as shown in
 Equation \@ref(eq:value-function):
  
 \begin{equation} v(x) = \left\{ \begin{array}{l} x^\alpha \text{ if } x \ge 0 \\
@@ -213,7 +213,7 @@ organisations evaluate several projects before seeing the outcomes of any one
 decision. The experiments presented in Chapter \@ref(aggregation) investigate
 the effects of choice bracketing on risk aggregation without feedback.
 
-### Project similarity
+### Project Similarity
 
 When evaluating project proposals, managers are likely to be influenced by the
 relative similarity of the available options to each other. The extent to which
@@ -285,7 +285,7 @@ Chapter \@ref(alignment) investigates whether people are as sensitive to
 verbally-instructed reliability information as they are to numerical reliability
 information.
 
-### Reasoning from past cases
+### Reasoning From Past Cases
 
 Managers often use past events to reason and make predictions about the future
 [@einhorn1987]. Such past events may be those that happened to the individual

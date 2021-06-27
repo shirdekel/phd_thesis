@@ -6,7 +6,7 @@
 
 Figure \@ref(fig:instructions-materials-alignment-3) shows the instructions.
 
-(ref:instructions-materials-alignment-3) Experiment 2 instructions. Border added for clarity.
+(ref:instructions-materials-alignment-3) Experiment 2 instructions.
 
 ```{r instructions-materials-alignment-3, fig.cap = "(ref:instructions-materials-alignment-3)"}
 file.path(
@@ -24,11 +24,11 @@ file.path(
 
 Participants were given more extensive information about NPV than in the
 previous experiment and were tested on their ability to calculate simple
-averages from given numerical ranges, as seen in
+averages from given numerical ranges, as shown in
 Figures \@ref(fig:npv-test-1-materials-alignment-3)
 and \@ref(fig:npv-test-2-materials-alignment-3).
 
-(ref:npv-test-1-materials-alignment-3) Experiment 2 NPV test. Border added for clarity.
+(ref:npv-test-1-materials-alignment-3) Experiment 2 NPV test.
 
 ```{r npv-test-1-materials-alignment-3, fig.cap = "(ref:npv-test-1-materials-alignment-3)", out.width = "90%"}
 npv_test_1 <- file.path(
@@ -54,7 +54,7 @@ c(
   image_border(color = "black", geometry = "5x5")
 ```
 
-(ref:npv-test-2-materials-alignment-3) Experiment 2 NPV test answers. Border added for clarity.
+(ref:npv-test-2-materials-alignment-3) Experiment 2 NPV test answers.
 
 ```{r npv-test-2-materials-alignment-3, fig.cap = "(ref:npv-test-2-materials-alignment-3)", out.width = "60%"}
 file.path(
@@ -74,8 +74,10 @@ A similar design to @long2018 [Study 1] was used to test whether this sample may
 be overconfident in their understanding on NPV. Therefore, participants were
 asked to rate their knowledge of NPV in various points in the study (see the
 procedure in Section \@ref(procedure-alignment-3)).
+Figure \@ref(fig:npv-knowledge-materials-alignment-3) shows an example of one
+such display.
 
-(ref:npv-knowledge-materials-alignment-3) Experiment 2 NPV knowledge rating task. Border added for clarity.
+(ref:npv-knowledge-materials-alignment-3) Experiment 2 NPV knowledge rating task.
 
 ```{r npv-knowledge-materials-alignment-3, fig.cap = "(ref:npv-knowledge-materials-alignment-3)"}
 file.path(

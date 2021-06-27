@@ -3,12 +3,12 @@
 #### Participants
 
 `r descriptives_anecdotes_2$apa` Table \@ref(tab:condition-allocation-anecdotes-2)
-shows the between-subjects condition allocation. Similarity and valence were
-manipulated within-subjects. Therefore, each participant was in one of two
-between-subjects anecdote conditions, and saw five displays (statistics only,
-and one for each of the four similarity and valence conditions).
-Appendix \@ref(power-analysis-anecdotes-2) describes the power analysis
-conducted to arrive at this sample size.
+shows the allocation of participants to the different conditions. Anecdote
+similarity and valence were manipulated within subjects. Therefore, each
+participant was assigned to one of two between-subjects anecdote conditions and
+saw five displays (statistics only, and one of each of the four similarity and
+valence conditions). Appendix \@ref(power-analysis-anecdotes-2) describes the
+power analysis conducted to arrive at this sample size.
 
 ```{r condition-allocation-anecdotes-2}
 descriptives_anecdotes_2$condition_allocation_table %>%
@@ -19,32 +19,33 @@ descriptives_anecdotes_2$condition_allocation_table %>%
 
 ##### Instructions
 
-Participants were shown similar instructions to Experiment 1 (see
+Participants were shown similar instructions to those in Experiment 1 (see
 Section \@ref(instructions-materials-anecdotes-1)). The general instructions
 page included a test of the basic information expressed in the instructions.
 This test also functioned as an attention check. As in Experiment 1,
-participants also saw instructions that were specific to their condition. These
-were shown on the same page as the rest of the project display, above the case
-study and focal projects. The instructions clarified both that the anecdote was
-sampled randomly and that the anecdotes in the pool were all equally similar to
+participants were also shown instructions that were specific to their condition.
+These were shown on the same page as the rest of the project display, above the
+case study and focal projects. The instructions clarified that the anecdote had
+been randomly sampled and that all anecdotes in the pool were equally similar to
 the target project. Appendix \@ref(instructions-materials-anecdotes-2-appendix)
 shows the instructions used in Experiment 2.
 
-##### Allocation task {#allocation-anecdotes-2}
+##### Allocation Task {#allocation-anecdotes-2}
 
-As in Experiment 1, the allocation task included a description and analysis of
-an anecdote (except for those in the anecdote only condition) and a project
-display with a table describing the two focal projects.
+As in Experiment 1, the allocation task included a table describing the two
+focal projects and (apart from the statistics only condition) a description and
+analysis of an anecdote.
 Figures \@ref(fig:project-allocation-anecdote-valence-negative-similarity-low-materials-anecdotes-2)
 and \@ref(fig:project-allocation-target-valence-negative-similarity-low-materials-anecdotes-2)
-show the anecdote and focal projects, respectively, for the negative valence
+show the anecdote and focal projects, respectively, for the negative valence,
 low similarity condition.
 Figures \@ref(fig:project-allocation-anecdote-valence-positive-similarity-high-materials-anecdotes-2)
 and \@ref(fig:project-allocation-target-valence-positive-similarity-high-materials-anecdotes-2)
-show the anecdote and focal projects, respectively, for the positive valence
-high similarity conditions. In the statistics only condition, participants only
-saw the focal projects display. Appendix \@ref(allocation-anecdotes-2-appendix)
-details the counterbalancing and randomisation used in the experiment.
+show the anecdote and focal projects, respectively, for the positive valence,
+high similarity conditions. In the statistics only condition, participants were
+only shown the focal projects display.
+Appendix \@ref(allocation-anecdotes-2-appendix) details the counterbalancing and
+randomisation used in the experiment.
 
 (ref:project-allocation-anecdote-valence-negative-similarity-low-materials-anecdotes-2) An example of the anecdote display in the negative valence, low similarity condition of Experiment 2.
 
@@ -90,29 +91,29 @@ file.path(
   image_trim()
 ```
 
-##### Interstitial
+##### Interstitial Page
 
-Before each display, participants saw an "interstitial" page, whose role was 1.
-to introduce the next display, and 2. to provide an attention check (not
-required to answer, so can be skipped if the interstitial text isn't read). See
-Figure \@ref(fig:interstitial-materials-anecdotes-2) in the appendix for an
-example.
+Prior to the display, participants were shown an interstitial page, which was
+used to (a) introduce the display and (b) check the participant's attention
+(given that no input was required, participants could easily skip the page
+without reading the text). See
+Appendix \@ref(interstitial-materials-anecdotes-2).
 
-##### Follow-up questions
+##### Follow-up Questions
 
 Participants were shown similar follow-up questions as in Experiment 1, except
-that here the rating scales were 1-7, instead of 1-6. See
-Figure \@ref(fig:follow-up-materials-anecdotes-2) in the appendix for an example
-of the follow-up questions display.
+that in Experiment 2, rating scales were 1--7 instead of 1--6. See
+Appendix \@ref(follow-up-materials-anecdotes-2) for a sample display of the
+follow-up questions.
 
 #### Procedure
 
-Participants were introduced to the study through the general instructions page.
-They then saw five sets of two pages (in randomised order). Each set contained
-two pages: the allocation task and a follow-up questions page (except for the
-anecdotes only condition, in which participants did not see the follow-up
-questions page). Each allocation task page contained specific instructions
-relevant to the condition, followed by the anecdote analysis and description,
-and the description for the two focal projects. The only exception was the
-statistics only display, for which there was no anecdote description or
-analysis.
+Participants were introduced to the study via the general instructions page.
+They were then shown five sets (presented in a random order) containing two
+pages each: a page showing the allocation task and a page with follow-up
+questions (except for the anecdotes only condition, in which participants were
+not shown the follow-up questions page). Each allocation task page contained
+specific instructions relevant to the condition followed by the anecdote
+analysis and description, and the description of the two focal projects. The only
+exception was the statistics only display, for which there was no anecdote
+description or analysis.

@@ -8,7 +8,7 @@ presentation. Exploratory analyses showed that participants' risk aversion
 decreased as they proceeded through the trials, but only when participants were
 aware of the number of projects.
 
-#### Presentation effect
+#### Presentation Effect
 
 The presentation effect may be a result of one of two mechanisms. A mathematical
 aggregation explanation would mean that participants are combining the gambles
@@ -23,7 +23,7 @@ the joint display to consider the set of projects together. This could then lead
 to the conclusion that investing in a higher number of gambles might mean that
 the gains of some projects will pay off the losses of the other projects.
 
-#### Awareness effect
+#### Awareness Effect
 
 Experiment 1 found that participants that viewed the projects separately were
 more likely to invest in the projects as the trials went on, regardless of the
@@ -37,7 +37,7 @@ attempting to reach. This might mean that they invested more as the task
 proceeded after realising that the gambles were not becoming significantly more
 favourable. @barron2003 [p. 219] specifically did not tell participants about
 the number of gambles they would experience to "avoid an 'end of task' effect
-(e.g. a change in risk attitude)". @barron2003 provided participants with
+(e.g., a change in risk attitude)". @barron2003 provided participants with
 feedback, but this should not be necessary for an aspiration level explanation
 since participants only need to be aware of the potential for certain gains.
 
@@ -59,7 +59,7 @@ likely to materialise. Further, this would be more likely to occur for those
 that knew the total number of projects, because they knew when the sequence was
 approaching its end.
 
-#### Similarity effect {#similarity-discussion-aggregation-1}
+#### Similarity Effect {#similarity-discussion-aggregation-1}
 
 Experiment 1 did not find a main effect of similarity in the individual choice
 data as predicted in Hypothesis \@ref(hyp:similarity-aggregation-1). Instead,

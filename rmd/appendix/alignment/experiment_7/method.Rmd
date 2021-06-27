@@ -3,7 +3,7 @@
 #### Participants
 
 `r descriptives_alignment_6$apa` Table \@ref(tab:condition-allocation-alignment-6)
-shows the between-subjects condition allocation.
+shows the allocation of participants to the different conditions.
 
 ```{r condition-allocation-alignment-6}
 descriptives_alignment_6$condition_allocation_table %>%
@@ -12,16 +12,16 @@ descriptives_alignment_6$condition_allocation_table %>%
 
 #### Instructions
 
-As seen in Figure \@ref(fig:instructions-no-hint-alignment-6), participants in
-the no hint condition saw the same instructions as in Experiment 1. As seen in
+As shown in Figure \@ref(fig:instructions-no-hint-alignment-6), participants in
+the no hint condition saw the same instructions as in Experiment 1. As shown in
 Figure \@ref(fig:instructions-salience-only-alignment-6), those in the salience
 only condition saw the instructions along with a sentence that drew attention to
-the *Cash inflow range* row. As seen in
+the *Cash inflow range* row. As shown in
 Figure \@ref(fig:instructions-salience-hint-alignment-6), those in the
 salience + hint condition saw the instructions along with a specific description
 of how to use the variance information in their allocation decisions.
 
-(ref:instructions-no-hint-alignment-6) Instructions for the no hint condition. Border added for clarity.
+(ref:instructions-no-hint-alignment-6) Instructions for the no hint condition.
 
 ```{r instructions-no-hint-alignment-6, fig.cap = "(ref:instructions-no-hint-alignment-6)"}
 file.path(
@@ -35,7 +35,7 @@ file.path(
   image_border(color = "black", geometry = "5x5")
 ```
 
-(ref:instructions-salience-only-alignment-6) Instructions for the salience only condition. Border added for clarity.
+(ref:instructions-salience-only-alignment-6) Instructions for the salience only condition.
 
 ```{r instructions-salience-only-alignment-6, fig.cap = "(ref:instructions-salience-only-alignment-6)"}
 file.path(
@@ -48,7 +48,7 @@ file.path(
   image_border(color = "black", geometry = "5x5")
 ```
 
-(ref:instructions-salience-hint-alignment-6) Instructions for the salience + hint condition. Border added for clarity.
+(ref:instructions-salience-hint-alignment-6) Instructions for the salience + hint condition.
 
 ```{r instructions-salience-hint-alignment-6, fig.cap = "(ref:instructions-salience-hint-alignment-6)"}
 no_hint <-
@@ -78,7 +78,7 @@ c(
   image_border(color = "black", geometry = "5x5")
 ```
 
-#### Project display
+#### Project Display
 
 The project displays were the same as Experiment 2 (see
 Figure \@ref(fig:projects-alignment-6)).

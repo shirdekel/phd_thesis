@@ -1,14 +1,21 @@
 ##' @title Get descriptives
-##' @param data_clean
+##' @param data
 ##' @param iv
 ##' @return
 ##' @author Shir Dekel
 ##' @export
-get_descriptives <- function(data_clean, iv) {
+get_descriptives <- function(data, iv) {
   condition_allocation_table <-
-    data_clean %>%
+    data %>%
     get_condition_allocation_table(iv) %>%
-    janitor::clean_names(case = "sentence")
+    janitor::clean_names(case = "sentence") %>%
+    rename_with(
+      recode,
+      "Alignment" = "Project alignment",
+      "Reliability amount" = "Reliability of net present value (NPV)",
+      "Anecdote between" = "Evidence type",
+      "Anecdote" = "Evidence type"
+    )
 
   total <-
     condition_allocation_table %>%
@@ -21,9 +28,9 @@ get_descriptives <- function(data_clean, iv) {
 
   ## Alignment 3 should be the only experiment in which specific sex data was
   ## not collected
-  if (any(names(data_clean) %in% "sex")) {
+  if (any(names(data) %in% "sex")) {
     sex <-
-      data_clean %>%
+      data %>%
       nest_by(id, sex) %>%
       ungroup() %>%
       count(sex)
@@ -45,15 +52,27 @@ get_descriptives <- function(data_clean, iv) {
   numerical_names_raw <-
     c("age", "business_exp", "business_edu", "total_time")
 
+  unit_raw <-
+    c(
+      "years" %>%
+        rep(3),
+      "min"
+    )
+
   numerical_names <-
-    data_clean %>%
+    data %>%
     names() %>%
     extract_from(numerical_names_raw)
+
+  unit <-
+    numerical_names_raw %in%
+    numerical_names %>%
+    unit_raw[.]
 
   numerical <-
     numerical_names %>%
     map(
-      ~ data_clean %>%
+      ~ data %>%
         summarise(
           across(
             all_of(.x),
@@ -66,46 +85,49 @@ get_descriptives <- function(data_clean, iv) {
           papaja::printnum(drop0trailing = TRUE)))
     ) %>%
     set_names(numerical_names) %>%
-    map(
+    map2(
+      unit,
       ~ str_c(
         .x$mean,
+        " ",
+        .y,
         " (*SD* = ",
         .x$sd,
-        ", *min* = ",
+        ", *min.* = ",
         .x$min,
-        ", *max* = ",
+        ", *max.* = ",
         .x$max,
         ")"
       )
     )
 
   sample <-
-    data_clean %>%
+    data %>%
     pull(sample) %>%
     unique()
 
   if (sample == "prolific") {
     sample_description <-
-      "the online recruitment platform Prolific. Participants were compensated at a rate of £5 an hour."
+      "the online recruitment platform Prolific. Participants were compensated at a rate of £5 an hour (Prolific is based in the UK)."
   } else if (sample == "sona") {
     sample_description <-
-      "a Psychology undergraduate sample at The University of Sydney. Participants were compensated with course credit."
+      "a cohort of psychology undergraduates at The University of Sydney. Participants were compensated with course credit."
   } else if (sample == "masters") {
     sample_description <-
-      "a Masters of Management course at an Australian university."
+      "a Master of Management degree at an Australian university."
   } else if (sample == "reddit") {
     sample_description <-
       "Reddit. Participants were compensated with a virtual Gold Award, which gives the recipient a week of a premium version of Reddit and 100 virtual coins."
   } else if (sample == "prolific_sona") {
     sample_description <-
-      "both the online recruitment platform Prolific and a Psychology undergraduate sample at The University of Sydney. Participants from Prolific were compensated at a rate of £5 an hour, and participants from the undergraduate sample were compensated with course credit."
+      "both the online recruitment platform Prolific and a cohort of psychology undergraduates at The University of Sydney. Participants from Prolific were compensated at a rate of £5 an hour (Prolific is based in the UK), and participants from the undergraduate sample were compensated with course credit."
   }
 
   apa <-
     str_c(
       total_apa,
       str_c(
-        "people (",
+        "participants (",
         sex_female
       ),
       "female) were recruited from",
@@ -124,11 +146,13 @@ get_descriptives <- function(data_clean, iv) {
         apa,
         "Participants reported an average of",
         numerical$business_exp,
-        "years of work in a business setting, and an average of",
+        "working in a business setting, and an average of",
         numerical$business_edu,
-        "years of business education. The mean completion time was",
-        numerical$total_time,
-        "minutes.",
+        "of business education. The mean completion time of the task was",
+        str_c(
+          numerical$total_time,
+          "."
+        ),
         sep = " "
       )
   }
