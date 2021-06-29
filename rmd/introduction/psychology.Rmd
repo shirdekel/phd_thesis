@@ -265,7 +265,7 @@ cash flows. Do managers take into account such inherent variance in their
 decisions? This is especially important to investigate given the above
 discussion. In cases of non-alignable comparison managers may rely on a
 potentially unreliable metric. On the other hand, in an alignable comparison,
-managers might have the option to moderate their choice based on the relative
+managers might have the option to based their decisions on the relative
 reliability of different metrics. It is important to remember that all such
 decisions are often very consequential for the manager. That is, the project
 could ultimately make the company money and lead to future opportunities for the
@@ -335,11 +335,11 @@ made between easily identifiable but potentially functionally irrelevant
 attributes, and relational similarity, in which the underlying mechanism is
 considered. Are managers sensitive to the deeper causal mechanisms that underlie
 the anecdotes they judge? Or are they simply influenced by surface similarity?
-Chapter \@ref(anecdotes) investigates the extent to which people moderate their
-reliance on anecdotes or aggregated data by the relevance of the anecdote to the
-target project during capital allocation. It also considers whether people are
-sensitive to information about the distribution from which the anecdote was
-sampled. Ignoring this statistical concept can have negative consequences for an
-organisation by potentially over- or under-estimating the relevance of a past
-case and therefore making an ill-informed investment.
+Chapter \@ref(anecdotes) investigates the extent to which people use anecdotes
+or aggregated data based on the relevance of the anecdote to the target project
+during capital allocation. It also considers whether people are sensitive to
+information about the distribution from which the anecdote was sampled. Ignoring
+this statistical concept can have negative consequences for an organisation by
+potentially over- or under-estimating the relevance of a past case and therefore
+making an ill-informed investment.
 

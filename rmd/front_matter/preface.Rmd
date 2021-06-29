@@ -1,24 +1,58 @@
 \noindent \textbf{Naviating the document on a computer}
 
-There are links throughout the PDF document, identified by
-\textcolor{mylinkcolor}{dark blue} text. Clicking on these will take you to the
-relevant hypothesis, footnote, citation, figure, table, section, or URL. If you
-are using Preview (on a Mac) then you can subsequently return back to where you
-clicked on the link by pressing the key combination \keys{\cmd + [} (the command
-key with the left square bracket). In Adobe Acrobat the key combination is
-\keys{\cmd + \arrowkeyleft} (the command key with the left arrow key) for Mac
-and \keys{\Altwin + \arrowkeyleft} (the Alt key with the left arrow key) for
-Windows.
+There are links throughout the PDF document that facilitate navigation between
+cross-references. For most PDF viewers these are identified by
+\textcolor{mylinkcolor}{dark blue} text. Otherwise, if you are using Adobe
+Acrobat you may instead have to look for the cursor to turn into a hand pointer
+(\faHandPointer[regular]). Clicking on these links will take you to the relevant
+hypothesis (e.g., Hypothesis \@ref(hyp:awareness-aggregation-1)),
+footnote,[^example] citation [e.g., @samuelson1963], figure (e.g.,
+Figure \@ref(fig:prospect-theory)), table (e.g.,
+Table \@ref(tab:condition-allocation-aggregation-1)), or section (e.g.,
+Chapter \@ref(introduction)) that they reference.
+
+[^example]: Example of a footnote.
+
+If you are using Preview (on a Mac) then you can subsequently return back to
+where you clicked on the link by pressing the key combination \keys{\cmd + [}
+(the command key with the left square bracket). In Adobe Acrobat the key
+combination is \keys{\cmd + \arrowkeyleft} (the command key with the left arrow
+key) for Mac and \keys{\Altwin + \arrowkeyleft} (the Alt key with the left arrow
+key) for Windows.
+
+The thesis can also be navigated by section using the linked page numbers in the
+Table of Contents below. To display the Table of Contents as a sidebar in
+Preview go to \menu{View > Table of Contents} and then click \menu{Show} at the
+top right of the sidebar. Alternatively, you can use the key combination
+\keys{\Altmac + \cmd + 3} (the option and command keys with the number 3). To
+display the Table of Contents as a sidebar in Adobe Acrobat go to \menu{View >
+Show/Hide > Navigation panes > Bookmarks}.
+
+\hfill\break
+
+\noindent \textbf{Appendices}
+
+Many experiments were conducted throughout the development of this thesis.
+Further, each experiment included multiple measures and analyses, and not all of
+these were directly relevant for the thesis. Therefore, the main body of the
+text contains the content that was deemed most important, while three appendices
+contained the rest of the content. These appendices contain reports of
+supplementary experiments, experimental materials, additional measures, data
+simulations, power analyses, and extra explanatory material. The appendices are
+organised by the relevant empirical chapter:
+Appendix \@ref(aggregation-appendix) for Chapter \@ref(aggregation),
+Appendix \@ref(alignment-appendix) for Chapter \@ref(alignment), and
+Appendix \@ref(anecdotes-appendix) for Chapter \@ref(anecdotes).
 
 \hfill\break
 
 \noindent \textbf{Reproducibility}
 
-This thesis was written using `rmarkdown` [@xie2018] with `bookdown` [@xie2016],
-using `renv` [@ushey2021] to create reproducible environments, and `targets`
-[@landau2021] to create a reproducible pipeline. Typesetting was done with
-\LaTeX based on the `oxforddown` template [@lyngs2019]. All the components
-required to reproduce this document can be found at the Github repository
+The thesis was compiled using `rmarkdown` [@xie2018] with `bookdown` [@xie2016].
+`renv` [@ushey2021] was used to create reproducible environments and `targets`
+[@landau2021] was used to create a reproducible pipeline. Typesetting was done
+with \LaTeX, based on the `oxforddown` template [@lyngs2019]. All the components
+required to reproduce this document can be found at the GitHub repository:
 https://github.com/shirdekel/phd_thesis.
 
 \hfill\break
@@ -31,3 +65,4 @@ Research Ethics Committee (HREC).
 Project No.: 2019/056
 
 Project Title: Business decision making
+

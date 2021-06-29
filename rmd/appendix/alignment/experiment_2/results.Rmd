@@ -5,18 +5,18 @@
 A mixed factorial ANOVA was conducted to investigate the effects of NPV,
 alignment, and numerical NPV reliability on participants’ project rankings.
 Figure \@ref(fig:plot-alignment-3-ranking) shows these data. The alignment
-$\times$ reliability amount $\times$ NPV interaction was not
+$\times$ reliability level $\times$ NPV interaction was not
 significant,
 `r results_alignment_3$ranking$alignment_reliability_amount_npv_amount`.
 However, the alignment $\times$ NPV interaction was significant,
 `r results_alignment_2$ranking$alignment_npv_amount`; as well as the reliability
 amount $\times$ NPV interaction,
 `r results_alignment_2$ranking$reliability_amount_npv_amount`. As in the
-allocation data, the linear NPV trend did not differ between reliability amount
+allocation data, the linear NPV trend did not differ between reliability level
 condition in neither the low alignment condition,
 `r results_alignment_3$ranking$linear_low_high_low`, nor the high alignment
 condition, `r results_alignment_3$ranking$linear_low_high_high`. However,
-averaging over reliability amount, the linear NPV trend was higher in the low
+averaging over reliability level, the linear NPV trend was higher in the low
 alignment condition than in the high alignment condition,
 `r results_alignment_3$ranking$linear_low_high`.
 
@@ -40,7 +40,42 @@ effect of NPV was significant,
 plot_alignment_3$confidence
 ```
 
-#### NPV knowledge
+#### Variance Lecture
+
+The allocation and ranking data show that participants were affected by the
+similarity of options, but were not affected by variance information. After the
+main task of this experiment, participants were shown a short lecture about the
+importance of variance information when making allocation decisions. They were
+then presented with half of their previous allocations and gave them an
+opportunity to amend their allocations. It was hypothesised that participants
+will be more sensitive to variance after the educational intervention.
+
+A mixed factorial ANOVA was conducted to investigate the effects of phase on
+participants' project allocations. As shown in
+Figure \@ref(fig:plot-alignment-3-variance-lecture), the four-way interaction
+was not significant,
+`r results_alignment_3$variance_lecture$alignment_between_npv_amount_phase_reliability_amount`.
+Further, the NPV $\times$ phase $\times$ reliability level interactions were not
+significant for either the low alignment condition,
+`r results_alignment_3$variance_lecture$linear_pre_post_low_high_low`; or the
+high alignment conditions,
+`r results_alignment_3$variance_lecture$linear_pre_post_low_high_high`. In the
+low alignment condition, the linear NPV trend (averaged over reliability level)
+was significantly weaker after the lecture, compared with the linear NPV trend
+before the lecture, `r results_alignment_3$variance_lecture$linear_pre_post_low`.
+However, this comparison was not significant in the high alignment condition,
+`r results_alignment_3$variance_lecture$linear_pre_post_high`. These results
+suggest that participants did not become better informed by NPV numerical
+reliability after the variance lecture. There was, however, some reduction in
+reliance on NPV overall when projects were dissimilar.
+
+(ref:plot-alignment-3-variance-lecture) Mean allocation by NPV, reliability level, alignment, and phase.
+
+```{r plot-alignment-3-variance-lecture, fig.height = 10, fig.width = 8, fig.pos = "!htbp", fig.cap = "(ref:plot-alignment-3-variance-lecture)"}
+plot_alignment_3$variance_lecture
+```
+
+#### NPV Knowledge
 
 A repeated-measures ANOVA was conducted to investigate the effects of experiment
 phase condition on participants’ NPV knowledge rating.
@@ -56,4 +91,3 @@ differences in rating between any of the later phases.
 ```{r plot-alignment-3-npv-knowledge, fig.cap = "(ref:plot-alignment-3-npv-knowledge)"}
 plot_alignment_3$npv_knowledge
 ```
-

@@ -66,7 +66,7 @@ correctly estimate the number of projects.
 plot_aggregation_3$project_number
 ```
 
-##### Portfolio choice - binary
+##### Portfolio Choice - Binary
 
 Participants were then asked if they would rather invest in all or none of the
 projects. As Figure \@ref(fig:plot-aggregation-3-portfolio-binary) shows, those
@@ -80,7 +80,7 @@ in all of the projects,
 plot_aggregation_3$portfolio_binary
 ```
 
-##### Portfolio choice - number
+##### Portfolio Choice - Number
 
 Subsequently, participants were asked how many projects they would invest in out
 of the 10 that they saw. As

@@ -2,7 +2,7 @@
 
 #### Participants
 
-##### Power analysis {#power-analysis-anecdotes-1}
+##### Power Analysis {#power-analysis-anecdotes-1}
 
 The sample size for Experiment 1 was determined by conducting power analyses
 using the `Superpower` package [@lakens2019]. The package uses experimental

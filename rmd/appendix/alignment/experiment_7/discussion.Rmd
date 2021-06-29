@@ -1,7 +1,7 @@
 ### Discussion
 
 Experiment 7 found that explicitly telling participants how to use variance
-information to moderate their allocations did not help them do so. However,
+information to inform their allocations did not help them do so. However,
 there was an increased reliance on NPV with more hints in the ranking data. This
 suggests that the hint manipulations potentially simply increase participants'
 attention to NPV. It is possible that the study was under-powered, as there was

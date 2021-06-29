@@ -2,7 +2,7 @@
 
 #### Participants
 
-##### Power analysis {#power-analysis-aggregation-2}
+##### Power Analysis {#power-analysis-aggregation-2}
 
 The power analysis was conducted using the `pwr` package [@champely2020], based
 on the presentation effect size from Experiment 1, since it was the smallest

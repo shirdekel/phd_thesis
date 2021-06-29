@@ -1,4 +1,4 @@
-# Joint evaluation of multiple projects {#interstitial-1}
+# Joint Evaluation of Multiple Projects {#interstitial-1}
 
 Chapter \@ref(aggregation) found that people struggle to aggregate risk even
 when provided with choice bracketing cues that could have built on an intuitive

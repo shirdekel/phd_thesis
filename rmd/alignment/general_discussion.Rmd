@@ -4,14 +4,14 @@ Across three experiments there were two main findings: (a) NPV is used more when
 options are difficult to compare in the low alignment conditions; and (b) people
 do not consider numerical variance information, despite this being important to
 the reliability of the NPV forecasts. This pattern with numerical reliability
-information contrasted with the frequent use of verbal indicators of
-reliability. This numerical variance neglect is surprising, since other work
-showed that people can readily extract variance information when experiencing
-numerical sequences [@rosenbaum2020]. Both the verbal and numerical effects were
+information contrasted with the frequent use of verbal indicators of reliability
+level. This numerical variance neglect is surprising, since other work showed
+that people can readily extract variance information when experiencing numerical
+sequences [@rosenbaum2020]. Both the verbal and numerical effects were
 consistent for both naive and experienced participants, indicating their
 persistence. People make use of metrics with alignable differences when required
-to compare disparate options. However, they do not sufficiently modify their use
-of such metrics, even when they are presented with alternative attributes.
+to compare disparate options. However, they do not always use alternative
+metrics, even when they are available.
 
 Experiment 1 found that participants did not use NPV in their allocation
 decisions when they were told that it was unreliable but did use it when told it
@@ -50,8 +50,8 @@ inherent in each business unit. The forecasts used to calculate NPV for each
 business unit are based on different indicators, and there are likely to be
 differences between each unit's estimates. Thus, one can imagine a continuum of
 comparisons in which the usefulness of comparison increases with the level of
-alignability, but it is moderated by the level of abstraction that is required
-to achieve the alignment.
+alignability but depends on the level of abstraction that is required to achieve
+the alignment.
 
 The finding that participants, even those with some business experience, did not
 sufficiently consider variance information is surprising but understandable. It
@@ -75,13 +75,13 @@ Therefore, future research should attempt to replicate the current findings
 using different financial measures.
 
 Future research should also investigate the boundary conditions of the
-reliability effect. That is, people appear to respond to explicit reliability
-information but not to variance information that only implies reliability.
-Future research should attempt to identify the minimal variance information that
-participants need to understand the relevant implications for reliability.
-Participants may simply not notice the variance information or assume that it is
-irrelevant. For instance, future research could test participants in a condition
-in which the variance information is more salient.
+reliability type effect. That is, people appear to respond to explicit
+reliability information but not to variance information that only implies
+reliability. Future research should attempt to identify the minimal variance
+information that participants need to understand the relevant implications for
+reliability. Participants may simply not notice the variance information or
+assume that it is irrelevant. For instance, future research could test
+participants in a condition in which the variance information is more salient.
 
 \newpage
 

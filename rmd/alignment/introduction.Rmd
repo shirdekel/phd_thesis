@@ -104,13 +104,13 @@ information when it is represented numerically [@galesic2010; @konold1993;
 Experiment 1 investigated the effect of project alignment on the decision-making
 of naive participants asked to allocate capital to a set of fictional projects.
 Naive participants were assumed to have no requisite knowledge about NPV
-reliability; thus, NPV reliability was manipulated by directly telling
+reliability; thus, NPV reliability level was manipulated by directly telling
 participants whether or not the given NPV was reliable. For this experiment, it
 was predicted that when projects are alignable, participants who are told NPV is
 reliable would use it in their decision-making, while participants who are told
 that NPV was unreliable would not use it in their decision-making. However, when
 projects are not alignable, it was predicted that participants would use NPV,
-regardless of the stated NPV reliability.
+regardless of the stated NPV reliability level.
 
 Experiment 2 investigated the decision-making of management students in a
 similar situation to Experiment 1. The main difference was that instead of
@@ -122,9 +122,13 @@ alignable projects. However, it was predicted that numerical reliability level
 would have no effect because there is little evidence that people are sensitive
 to variance information when it is shown numerically.
 
-Experiment 3 also tested the effects of alignment and reliability in a
-non-business population but manipulated both verbal and numerical reliability to
-enable a direct comparison. A reliability effect was predicted for the verbal
-reliability condition but not the numerical reliability condition. Further, this
-experiment used project descriptions with clearer profitability indicators and
-added a larger selection of business industries.
+Experiment 3 also tested the effects of project alignment and reliability level
+in a non-business population but manipulated both verbal and numerical
+reliability to enable a direct comparison. The term *reliability level* is used
+to describe the manipulation of whether NPV was expressed as a reliable measure
+or not, while *reliability type* is used to describe the manipulation of whether
+reliability was expressed verbally or numerically. Experiment 3 predicted a
+reliability level effect for the verbal reliability condition but not the
+numerical reliability condition. Further, this experiment used project
+descriptions with clearer profitability indicators and added a larger selection
+of business industries.

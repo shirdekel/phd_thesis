@@ -7,9 +7,8 @@ Considering projects one by one might mean that risk is not aggregated across
 projects and therefore value is lost. The difficultly to compare will lead to
 both potentially relying on unreliable metrics, and relying on improper
 anecdotal evidence. The thesis is that people often go half-way. They do not
-completely disregard the normative strategy, but also struggle to moderate their
-decisions when it comes to statistical concepts such as aggregation, variance,
-and sampling.
+completely disregard the normative strategy, but also struggle to use
+statistical concepts such as aggregation, variance, and sampling.
 
 The previous section identified three capital allocation processes that are
 currently under-studied and so are important to investigate further. First, the
@@ -25,9 +24,9 @@ sensitive to the variance inherent in the financial metrics they rely on. Third,
 a difficulty to compare across existing projects might instead mean a reliance
 on prior case studies from personal or external experience. Research on
 anecdotal bias suggests that managers might rely more on such case studies than
-on aggregated data, but it is unclear whether they will use anecdote relevance
-to moderate their decisions. Further, it is unclear if they will appropriately
-use information about the anecdote's sample distribution.
+on aggregated data, but it is unclear whether their decisions will depend on
+anecdote relevance. Further, it is unclear if they will appropriately use
+information about the anecdote's sample distribution.
 
 The rest of this thesis investigates the psychology of capital allocation
 decisions in three chapters that describe empirical work, two theoretical

@@ -1,4 +1,4 @@
-# Chapter \@ref(aggregation) appendix {#aggregation-appendix}
+# Chapter \@ref(aggregation) Appendix {#aggregation-appendix}
 
 \minitoc
 

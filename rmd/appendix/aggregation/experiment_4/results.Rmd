@@ -68,7 +68,7 @@ aware condition.
 plot_aggregation_4$project_number
 ```
 
-##### Portfolio choice - binary
+##### Portfolio Choice - Binary
 
 Participants were then asked if they would rather invest in all or none of the
 projects. As Figure \@ref(fig:plot-aggregation-4-portfolio-binary), there was no
@@ -81,7 +81,7 @@ in all of the projects,
 plot_aggregation_4$portfolio_binary
 ```
 
-##### Portfolio choice - number
+##### Portfolio Choice - Number
 
 Subsequently, we asked participants how many projects they would invest in out
 of the 20 that they saw. As

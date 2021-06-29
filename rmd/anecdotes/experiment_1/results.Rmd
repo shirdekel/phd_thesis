@@ -23,18 +23,20 @@ plot_anecdotes_1$allocation_combined
 
 #### The Effect of Enhanced Statistics
 
-The effect of enhanced statistics was investigated by comparing the difference
-between similarity conditions between the anecdote & statistics and anecdote &
-enhanced statistics conditions (see
-Figure \@ref(fig:plot-anecdotes-1-allocation)). The two-way interaction was not
-significant, `r results_anecdotes_1$allocation$combined_enhanced_high_low`.
+The effect of enhanced statistics was investigated by testing the interaction of
+anecdote similarity and evidence type (anecdote & statistics and anecdote &
+enhanced statistics conditions, excluding the anecdote only and statistics only
+conditions). As shown in
+Figure \@ref(fig:plot-anecdotes-1-allocation), the two-way interaction was not
+significant,
+`r results_anecdotes_1$allocation$combined_enhanced_high_low`.
 Further, the difference between the anecdote & statistics condition and the
-anecdote & enhanced statistics condition (averaged over similarity condition)
+anecdote & enhanced statistics condition (averaged over similarity conditions)
 was also not significant, `r results_anecdotes_1$allocation$combined_enhanced`.
 This suggests that providing participants with information about how to think
 statistically is not sufficient to facilitate a focus on statistics.
 
-(ref:plot-anecdotes-1-allocation) Mean allocation to the target project, by similarity and anecdote conditions (excluding the statistics only condition). Error bars represent 95% confidence intervals. Raw data are plotted in the background.
+(ref:plot-anecdotes-1-allocation) Mean allocation to the target project, by anecdote similarity and evidence type conditions (excluding the statistics only condition). Error bars represent 95% confidence intervals. Raw data are plotted in the background.
 
 ```{r plot-anecdotes-1-allocation, fig.cap = "(ref:plot-anecdotes-1-allocation)"}
 plot_anecdotes_1$allocation
@@ -43,12 +45,12 @@ plot_anecdotes_1$allocation
 #### The Effect of Statistics
 
 To identify the influence of statistics on participants' allocations, a two-way
-ANOVA of the interactions between similarity (low and high) and anecdote
-(anecdote only and anecdote & statistics conditions, excluding the anecdote &
-enhanced statistics condition) was conducted (see
-Figure \@ref(fig:plot-anecdotes-1-allocation)). The interaction between anecdote
-condition and similarity (excluding the enhanced statistics condition) was
-significant, `r results_anecdotes_1$allocation$anecdote_combined_high_low`.
+ANOVA of the interactions between anecdote similarity (low and high) and
+evidence type (anecdote only and anecdote & statistics conditions, excluding the
+anecdote & enhanced statistics and statistics only conditions) was conducted
+(see Figure \@ref(fig:plot-anecdotes-1-allocation)). The interaction between
+anecdote condition and similarity (excluding the enhanced statistics condition)
+was significant, `r results_anecdotes_1$allocation$anecdote_combined_high_low`.
 Specifically, the difference in allocations between the anecdote only condition
 and the anecdote & statistics condition was greater when the anecdote was
 similar, `r results_anecdotes_1$allocation$high_anecdote_combined`; compared

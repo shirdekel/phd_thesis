@@ -13,7 +13,7 @@ interaction was not significant,
 the anecdote only condition and the anecdote & enhanced statistics condition was
 not significant, `r results_anecdotes_1$allocation$anecdote_enhanced_high_low`.
 
-#### Manipulation check
+#### Manipulation Check
 
 Figure \@ref(fig:plot-anecdotes-1-similarity-rating) shows participants' ratings
 of the similarity of the anecdote to the target project. As intended,

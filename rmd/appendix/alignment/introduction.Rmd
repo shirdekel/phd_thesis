@@ -1,4 +1,4 @@
-# Chapter \@ref(alignment) appendix {#alignment-appendix}
+# Chapter \@ref(alignment) Appendix {#alignment-appendix}
 
 \minitoc
 

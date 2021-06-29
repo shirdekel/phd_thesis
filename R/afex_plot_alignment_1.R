@@ -37,7 +37,7 @@ afex_plot_alignment_1 <- function(afex_aov, dv_label = "Allocation (%)") {
           high = "High alignment"
         )
       ),
-      legend_title = "Reliability amount"
+      legend_title = "Reliability level"
     ) +
     labs(
       x = "NPV ($)",

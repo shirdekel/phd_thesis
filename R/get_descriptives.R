@@ -12,7 +12,7 @@ get_descriptives <- function(data, iv) {
     rename_with(
       recode,
       "Alignment" = "Project alignment",
-      "Reliability amount" = "Reliability of net present value (NPV)",
+      "Reliability amount" = "Reliability level of net present value (NPV)",
       "Anecdote between" = "Evidence type",
       "Anecdote" = "Evidence type"
     )

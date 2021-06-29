@@ -3,8 +3,8 @@
 #### Participants
 
 `r descriptives_alignment_7$apa` All conditions were presented within-subjects:
-alignment (low and high), NPV reliability type (numerical and verbal), NPV
-amount (low and high), and NPV reliability amount (low and high).
+alignment (low and high), NPV reliability type (numerical and verbal), NPV (low
+and high), and NPV reliability level (low and high).
 
 #### Materials
 

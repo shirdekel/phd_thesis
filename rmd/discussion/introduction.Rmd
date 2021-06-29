@@ -63,8 +63,8 @@ presented verbally, participants used it appropriately when all project
 attributes were completely alignable. That is, they used it when it was reliable
 and used the intrinsic project features when it was unreliable. When only NPV
 was alignable, participants relied on it almost exclusively. However, when
-reliability information was presented numerically, there was no moderation of
-allocation based on the ranges---participants used NPV even when they had an
+reliability information was presented numerically, participants' allocation did
+not depend on the ranges---participants used NPV even when they had an
 opportunity to use the intrinsic features of the project. Overall, however,
 participants tended to rely on NPV more when projects were low in alignment than
 when they were high in alignment.
@@ -86,9 +86,9 @@ This was found for both positive and negative anecdotes. Further, participants
 were given information about the way that the anecdotes were sampled that
 suggested that the statistical information should have been used in all cases.
 Participants did not use this information in their decisions and still showed an
-anecdotal bias effect. Therefore, people seem to appropriately moderate their
-use of anecdotes based on the anecdotes' relevance, but do not understand the
-implications of certain statistical concepts.
+anecdotal bias effect. Therefore, people seem to appropriately use anecdotes
+based on their relevance, but do not understand the implications of certain
+statistical concepts.
 
 Together, these results show the bounds of people's decision-making capability
 in capital allocation. The participants in these experiments in general behaved
@@ -97,11 +97,11 @@ decisions. Further, when confronted with multi-attribute choice, participants
 tended to allocate capital using a trade-off strategy. This was seen in the
 conflict between intrinsic project attributes and NPV in
 Chapter \@ref(alignment) and the conflict between the anecdotal and statistical
-evidence in Chapter \@ref(anecdotes). Participants were able to moderate their
-allocations when the moderating factors were sufficiently clear (as in the
-verbal reliability condition in Chapter \@ref(alignment)). However, participants
-struggled to do this when the moderating factor involved using a relatively
-basic statistical concept. Each empirical chapter included such a concept: risk
+evidence in Chapter \@ref(anecdotes). Participants' allocations were informed by
+relevant factors when these were sufficiently clear (as in the verbal
+reliability condition in Chapter \@ref(alignment)). However, participants
+struggled to do this when the factor involved using a relatively basic
+statistical concept. Each empirical chapter included such a concept: risk
 aggregation in Chapter \@ref(aggregation), metric variance in
 Chapter \@ref(alignment), and sample distribution in Chapter \@ref(anecdotes).
 The aggregated distribution in Chapter \@ref(aggregation) and the verbal

@@ -1,17 +1,17 @@
 ### Results
 
 A mixed factorial ANOVA was conducted to investigate the effects of project
-alignment and NPV reliability on participants' budget allocations. As shown in
-Figure \@ref(fig:plot-alignment-2-allocation), the alignment $\times$
-reliability $\times$ NPV interaction was significant,
+alignment and NPV reliability level on participants' budget allocations. As
+shown in Figure \@ref(fig:plot-alignment-2-allocation), the alignment $\times$
+NPV reliability level $\times$ NPV interaction was significant,
 `r results_alignment_2$allocation$alignment_reliability_amount_npv_amount`. The
 analyses excluding the no NPV condition showed the expected results. The NPV
-trend averaged across both reliability conditions was stronger for the low
+trend averaged across both reliability level conditions was stronger for the low
 alignment conditions than for the high alignment conditions,
 `r results_alignment_2$allocation$low_high_linear`. This shows that people
 relied more on NPV when projects were dissimilar than when they were similar.
 
-Further, the NPV $\times$ reliability interaction was stronger in the high
+Further, the NPV $\times$ NPV reliability level interaction was stronger in the high
 alignment conditions than in the low alignment conditions,
 `r results_alignment_2$allocation$low_high_linear_low_high`. Specifically, in
 the high alignment conditions, the NPV trend was stronger in the high NPV
@@ -24,16 +24,16 @@ allocation decisions when projects were similar, not when they were dissimilar.
 
 The comparison with the no NPV condition revealed the expected pattern. For the
 high alignment group, the linear NPV trend was significantly weaker in the no
-NPV reliability condition than in the high NPV reliability condition,
+NPV condition than in the high NPV reliability condition,
 `r results_alignment_2$allocation$high_noNPV_linear_high`, but not the low
 NPV reliability condition, `r results_alignment_2$allocation$low_noNPV_linear_high`.
 However, in the low alignment group, the linear NPV trend was significantly
-weaker for the no NPV reliability condition compared with both the low NPV
-reliability condition, `r results_alignment_2$allocation$low_noNPV_linear_low`,
+weaker for the no NPV condition compared with both the low NPV reliability
+condition, `r results_alignment_2$allocation$low_noNPV_linear_low`,
 and the high NPV reliability condition,
 `r results_alignment_2$allocation$high_noNPV_linear_low`.
 
-(ref:plot-alignment-2-allocation) Mean allocation across NPV, by alignment and reliability conditions. In mixed factorial designs, error bars cannot be used to make inferences by "eye" across all conditions. Therefore, error bars are not included. Raw data are plotted in the background. When interpreting this figure, consider the linear trends in NPV.
+(ref:plot-alignment-2-allocation) Mean allocation across NPV, by project alignment and reliability level conditions. In mixed factorial designs, error bars cannot be used to make inferences by "eye" across all conditions. Therefore, error bars are not included. Raw data are plotted in the background. When interpreting this figure, consider the linear trends in NPV.
 
 ```{r plot-alignment-2-allocation, fig.cap = "(ref:plot-alignment-2-allocation)"}
 plot_alignment_2$allocation

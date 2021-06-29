@@ -27,7 +27,7 @@ Previous research suggests that people will be willing to make more risky
 choices when explicitly told to bracket their choices [@sokolhessner2009;
 @sokolhessner2012]. Therefore, Experiment 1 tested the following hypothesis:
 
-```{hypothesis, awareness-aggregation-1, name = "Awareness main effect", echo = TRUE}
+```{hypothesis, awareness-aggregation-1, name = "awareness main effect", echo = TRUE}
 Participants that know how many projects to expect will make more risky choices
 than participants that are unaware.
 ```
@@ -36,7 +36,7 @@ Further, previous work suggests that joint presentation is a form of broad
 bracketing [e.g., @moher2010; @hsee1999]. Therefore, Experiment 1 tested the
 following hypothesis:
 
-```{hypothesis, presentation-aggregation-1, name = "Presentation main effect", echo = TRUE}
+```{hypothesis, presentation-aggregation-1, name = "presentation main effect", echo = TRUE}
 Participants will make more risky choices when seeing projects jointly than when
 seeing them separately.
 ```
@@ -44,7 +44,7 @@ seeing them separately.
 Similarity of options has also been shown to affect the way people bracket their
 choices [e.g., @dekay2005]. Therefore, Experiment 1 tested the following hypothesis:
 
-```{hypothesis, similarity-aggregation-1, name = "Similarity main effect", echo = TRUE}
+```{hypothesis, similarity-aggregation-1, name = "similarity main effect", echo = TRUE}
 Participants that see projects from the same industry will make more risky
 choices than participants that see projects from different industries.
 ```

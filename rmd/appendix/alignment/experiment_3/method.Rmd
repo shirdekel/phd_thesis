@@ -2,7 +2,7 @@
 
 #### Participants
 
-##### Power analysis {#power-analysis-alignment-8}
+##### Power Analysis {#power-analysis-alignment-8}
 
 A power analysis was conducted through simulation of the effects hypothesised in
 Experiment 3 (and the simple effects implied by them). The simulated data used

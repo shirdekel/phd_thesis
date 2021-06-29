@@ -25,7 +25,7 @@ afex_plot_alignment_6 <- function(afex_aov, dv_label) {
       legend_title = "Variance"
     ) +
     labs(
-      x = "NPV Amount ($)",
+      x = "NPV ($)",
       y = dv_label
     ) +
     papaja::theme_apa()

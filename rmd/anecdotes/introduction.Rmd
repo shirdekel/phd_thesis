@@ -4,7 +4,7 @@
 We like stories, we like to summarize, and we like to simplify
 ```
 
-# Anecdote Similarity Moderates Anecdotal Bias in Capital Allocation {#anecdotes}
+# Anecdotal Bias in Capital Allocation Depends on Anecdote Similarity {#anecdotes}
 
 \minitoc
 
@@ -157,7 +157,7 @@ similarity to the target problem.
 
 ### Effect of Similarity {#effect-of-similarity}
 
-Arguably, the extent of one's reliance on an anecdote should be moderated by its
+Arguably, the extent of one's reliance on an anecdote should depend on its
 similarity to the target problem. Previous work has examined the importance of
 weighting previous cases according to their similarity to the present situation
 [@gilboa1995; @lovallo2012]. For instance, consider a medical treatment with
@@ -189,8 +189,8 @@ Apart from the need to determine the effect of similarity on the anecdotal bias
 effect, it is important to clarify how such an effect might work. Research on
 analogical reasoning has distinguished between simple surface similarity and
 deeper relational similarity [@gentner1983]. As mentioned above, one's use of an
-anecdote should be moderated by the extent to which it is associated by an
-underlying causal mechanism or mere surface similarity. Imagine a manager of a
+anecdote should depend on the extent to which it is associated by an underlying
+causal mechanism or mere surface similarity. Imagine a manager of a
 multi-divisional company deciding on the allocation of capital between an oil
 well project and a technology project. Would hearing of a recent failed oil well
 project at another company influence the manager's allocation decision? If so,
@@ -205,15 +205,15 @@ surface similarity with the target project.
 ### Experiment Summary
 
 Experiment 1 investigated whether anecdotal bias in a capital allocation
-paradigm is moderated by anecdotal similarity. Further, it tested whether
-providing additional statistical information encourages participants to consider
-the statistics over the anecdote. Experiment 1 used a negative anecdote, which
-is an example of an unsuccessful case. This kind of anecdote has been shown to
-produce anecdotal bias in both medical [@jaramillo2019] and business
-[@wainberg2018] decision-making. However, @jaramillo2019 found less bias in
-positive anecdotes, which are examples of successful cases, and @wainberg2018
-did not consider these at all. Therefore, Experiment 2 attempted to replicate
-the effect of similarity on anecdotal bias using a positive anecdote. Further,
-Experiment 2 provided participants with information about the sample
-distribution of the anecdote, whereas Experiment 1 did not. This allowed for an
-informal test of whether people are sensitive to such information.
+paradigm depends on anecdote similarity. Further, it tested whether providing
+additional statistical information encourages participants to consider the
+statistics over the anecdote. Experiment 1 used a negative anecdote, which is an
+example of an unsuccessful case. This kind of anecdote has been shown to produce
+anecdotal bias in both medical [@jaramillo2019] and business [@wainberg2018]
+decision-making. However, @jaramillo2019 found less bias in positive anecdotes,
+which are examples of successful cases, and @wainberg2018 did not consider these
+at all. Therefore, Experiment 2 attempted to replicate the effect of similarity
+on anecdotal bias using a positive anecdote. Further, Experiment 2 provided
+participants with information about the sample distribution of the anecdote,
+whereas Experiment 1 did not. This allowed for an informal test of whether
+people are sensitive to such information.

@@ -3,15 +3,15 @@
 Hypothesis \@ref(hyp:anecdote-similarity-anecdotes-1) was supported.
 Participants in the anecdote & statistics condition allocated less capital to
 the target project compared with those in the statistics only condition.
-However, this effect was moderated by anecdotal similarity because this only
-occurred in the high similarity condition, not in the low similarity condition.
-Thus, while anecdotal bias was evident when the anecdote was similar to the
-target project, participants were not influenced when the causal mechanisms did
-not align. Contrary to Hypothesis \@ref(hyp:statistics-anecdotes-1), despite
-being influenced by the anecdote, participants still made some use of the
-statistics. This is different from the findings of @wainberg2013, who found no
-difference between the anecdote only and anecdote and statistics conditions,
-indicating a complete anecdotal bias effect.
+However, this effect depended on anecdote similarity because this only occurred
+in the high similarity condition, not in the low similarity condition. Thus,
+while anecdotal bias was evident when the anecdote was similar to the target
+project, participants were not influenced when the causal mechanisms did not
+align. Contrary to Hypothesis \@ref(hyp:statistics-anecdotes-1), despite being
+influenced by the anecdote, participants still made some use of the statistics.
+This is different from the findings of @wainberg2013, who found no difference
+between the anecdote only and anecdote and statistics conditions, indicating a
+complete anecdotal bias effect.
 Hypothesis \@ref(hyp:enhanced-statistics-anecdotes-1) was also not supported
 because the added enhanced statistical instructions used to encourage
 participants to use the statistical information did not reduce participants'
@@ -26,7 +26,7 @@ negative but not positive anecdotes. This may be because the stimuli consisted
 of medical decisions and, in this domain, the loss of health may be more
 strongly noted than an equivalent gain in health. In Experiment 2 (discussed in
 the subsequent section) a positive anecdote was added to investigate whether
-anecdotal valence would affect anecdotal bias.
+anecdote valence would affect anecdotal bias.
 
 It is unclear whether the effects found in Experiment 1 were related to
 participants' perceptions of the type of sampling used to select the anecdotes.

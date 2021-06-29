@@ -4,7 +4,7 @@
 ##' @author Shir Dekel
 ##' @export
 get_simple_effects_alignment_8 <- function(omnibus) {
-  ## High alignment: NPV x reliability amount x reliability type
+  ## High alignment: NPV x reliability level x reliability type
 
   alignment_high_three_way <-
     omnibus %>%
@@ -20,7 +20,7 @@ get_simple_effects_alignment_8 <- function(omnibus) {
     pluck("full_result", "linear_implicit_explicit_low_high_high")
 
 
-  ## Explicit reliability: NPV x reliability amount x alignment
+  ## Explicit reliability: NPV x reliability level x alignment
 
   reliability_type_explicit_three_way <-
     omnibus %>%
@@ -50,7 +50,7 @@ get_simple_effects_alignment_8 <- function(omnibus) {
     apa_print() %>%
     pluck("full_result", "linear_implicit_explicit_low")
 
-  ## High and low alignment explicit reliability: NPV x reliability amount
+  ## High and low alignment explicit reliability: NPV x reliability level
 
   alignment_reliability_type_explicit_reliability_amount <-
     omnibus %>%
@@ -107,7 +107,7 @@ get_simple_effects_alignment_8 <- function(omnibus) {
     apa_print() %>%
     pluck("full_result", "linear_low_high_low_explicit")
 
-  ## Low alignment: implicit vs explicit reliability (averaged over reliability amount)
+  ## Low alignment: implicit vs explicit reliability (averaged over reliability level)
 
   alignment_low_reliability_type <-
     omnibus %>%
@@ -156,7 +156,7 @@ get_simple_effects_alignment_8 <- function(omnibus) {
     apa_print() %>%
     pluck("full_result", "linear_low_high_implicit")
 
-  ## Low and high alignment implicit reliability: low vs high reliability amount
+  ## Low and high alignment implicit reliability: low vs high reliability level
   ## - null
 
   alignment_reliability_type_implicit_reliability_amount_null <-
@@ -180,7 +180,7 @@ get_simple_effects_alignment_8 <- function(omnibus) {
     alignment_reliability_type_implicit_reliability_amount_null %>%
     pluck("full_result", "linear_low_high_high_implicit")
 
-  ## Low and high alignment implicit reliability: low vs high reliability amount
+  ## Low and high alignment implicit reliability: low vs high reliability level
 
   alignment_reliability_type_implicit_reliability_amount <-
     omnibus %>%
@@ -203,7 +203,7 @@ get_simple_effects_alignment_8 <- function(omnibus) {
     alignment_reliability_type_implicit_reliability_amount %>%
     pluck("full_result", "linear_low_high_high_implicit")
 
-  ## Explicit reliability: low vs high alignment (averaged over reliability amount)
+  ## Explicit reliability: low vs high alignment (averaged over reliability level)
 
   reliability_type_explicit_alignment <-
     omnibus %>%

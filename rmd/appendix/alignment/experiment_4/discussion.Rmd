@@ -9,10 +9,10 @@ participants also did this in the low reliability condition. That is, regardless
 of the type of project display, participants tended to use NPV more when they
 were told that it was reliable and tended to use it less when they were told
 that it was unreliable. Further, there was no evidence that this effect was
-moderated by alignment condition, contrary to
+depended on alignment condition, contrary to
 Hypothesis \@ref(hyp:allocation-alignment-reliability-npv-alignment-2). However,
 the linear NPV trend was higher in the high than low alignment condition,
-when averaging over reliability amount, as predicted in
+when averaging over reliability level, as predicted in
 Hypothesis \@ref(hyp:allocation-alignment-alignment-2). This suggests that
 overall participants still make more use of NPV information when it is hard to
 compare between projects.

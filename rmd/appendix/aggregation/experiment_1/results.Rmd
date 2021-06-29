@@ -1,6 +1,6 @@
 ### Results {#results-aggregation-1-appendix}
 
-#### Trial-by-trial analysis {#trial-by-trial-aggregation-1}
+#### Trial-by-Trial Analysis {#trial-by-trial-aggregation-1}
 
 Figure \@ref(fig:plot-aggregation-1-trials) shows proportions of project
 acceptance across all conditions and trials.
@@ -11,7 +11,7 @@ acceptance across all conditions and trials.
 plot_aggregation_1$trials
 ```
 
-#### Outcome distribution {#outcome-distribution-aggregation-1}
+#### Outcome Distribution {#outcome-distribution-aggregation-1}
 
 A paired-samples t-test was conducted to compare participants' decision to
 invest in the 10 projects while seeing an aggregated distribution, and their

@@ -8,7 +8,7 @@ you act rashly on raw impulse.
 
 # Effect of Choice Bracketing on Risk Aggregation in Repeated-Play Gambles With no Feedback {#aggregation}
 
-\chaptermark{Effect of choice bracketing on risk aggregation}
+\chaptermark{Effect of Choice Bracketing on Risk Aggregation}
 
 \minitoc
 

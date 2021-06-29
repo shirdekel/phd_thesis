@@ -19,8 +19,8 @@ Participants, who did not necessarily have business experience, were first shown
 an instructions page with information about the task and NPV. These instructions
 also informed participants about whether NPV as a financial measure was reliable
 or unreliable for the specific project. Participants in the low NPV reliability
-conditions were told that NPV was an unreliable metric, while those in the high
-NPV reliability conditions were told that NPV was a reliable metric.
+level conditions were told that NPV was an unreliable metric, while those in the
+high NPV reliability level conditions were told that NPV was a reliable metric.
 Instructions provided to participants in the no NPV condition did not include an
 explanation of NPV or its reliability. Critically, participants were asked to
 invest in products with a high objective value (because a higher-quality product

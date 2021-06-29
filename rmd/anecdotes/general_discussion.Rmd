@@ -7,20 +7,19 @@ anecdotal bias effect was only seen when participants considered the anecdote
 sufficiently relevant to the target project, (b) participants integrated
 statistics into their decisions, and (c) these effects were found in both
 negative and positive anecdotes. Further, people did not consider verbal sample
-distribution information, which could have helped to moderate their decisions.
+distribution information, which could have helped to inform their decisions.
 This is surprising since other work showed that generalisations are sensitive to
 sampling [@carvalho2021].
 
-The first novel finding from these experiments is that participants modified
-their use of anecdotal evidence depending on the anecdote's similarity.
-Specifically, if the anecdote appeared relevant, participants used it in their
-decisions. However, when it appeared irrelevant, participants almost entirely
-relied on statistics. The findings for high anecdotal similarity are largely
-congruent with findings from other work investigating anecdotal bias in business
-decision-making. As in @wainberg2013 and @wainberg2018, this chapter found that
-people allocated less capital to a project when presented with statistical
-evidence and a similar but contradictory anecdote than when they were presented
-with statistics alone.
+The first novel finding from these experiments is that participants' use of
+anecdotal evidence depended on the anecdote's similarity. Specifically, if the
+anecdote appeared relevant, participants used it in their decisions. However,
+when it appeared irrelevant, participants almost entirely relied on statistics.
+The findings for high anecdote similarity are largely congruent with findings
+from other work investigating anecdotal bias in business decision-making. As in
+@wainberg2013 and @wainberg2018, this chapter found that people allocated less
+capital to a project when presented with statistical evidence and a similar but
+contradictory anecdote than when they were presented with statistics alone.
 
 It appears that participants distinguished between the low- and high-similarity
 anecdotes based on the structure of the anecdote. The low similarity condition

@@ -3,18 +3,18 @@
 A within-subjects factorial ANOVA was conducted to investigate the effects of
 NPV, project alignment, and numerical NPV reliability on participants' project
 allocations (see Figure \@ref(fig:plot-alignment-3-allocation)). The alignment
-$\times$ NPV reliability $\times$ NPV interaction was significant,
+$\times$ NPV reliability level $\times$ NPV interaction was significant,
 `r results_alignment_3$allocation$alignment_reliability_amount_npv_amount`.
 However, this appeared to be driven by the difference between alignment
 conditions in the interaction between the quadratic NPV trend and NPV
-reliability,
+reliability level,
 `r results_alignment_3$allocation$quadratic_low_high_low_high`, even after
 applying a Šidák correction. The same interaction but using a the linear NPV
 trend was not significant,
 `r results_alignment_3$allocation$linear_low_high_low_high`. Further, the linear
-NPV trend did not differ between the reliability conditions in either the low
-alignment condition, `r results_alignment_3$allocation$linear_low_high_low` or
-the high alignment condition,
+NPV trend did not differ between the reliability level conditions in either the
+low alignment condition, `r results_alignment_3$allocation$linear_low_high_low`
+or the high alignment condition,
 `r results_alignment_3$allocation$linear_low_high_high`. However, averaged
 across reliability level, the linear NPV trend was stronger in the low alignment
 condition than in the high alignment condition,
@@ -22,7 +22,7 @@ condition than in the high alignment condition,
 participants relied more on NPV when projects were dissimilar compared with when
 they were similar.
 
-(ref:plot-alignment-3-allocation) Mean allocation across NPV, by alignment and reliability conditions. Error bars represent 95% confidence intervals, calculated from the within-subjects standard errors using the method from @cousineau2014. Raw data are plotted in the background.
+(ref:plot-alignment-3-allocation) Mean allocation across NPV, by project alignment and reliability level conditions. Error bars represent 95% confidence intervals, calculated from the within-subjects standard errors using the method from @cousineau2014. Raw data are plotted in the background.
 
 ```{r plot-alignment-3-allocation, fig.cap = "(ref:plot-alignment-3-allocation)"}
 plot_alignment_3$allocation
@@ -30,5 +30,6 @@ plot_alignment_3$allocation
 
 The ranking data were congruent with these results, while the confidence data
 were less so. Further, the findings on over-confidence from @long2018 [Study 1]
-were not replicated with NPV knowledge. These analyses are reported in
-Appendix \@ref(results-alignment-3-appendix).
+were not replicated with NPV knowledge, and the variance lecture did not
+facilitate participants' use of numerical reliability information. These
+analyses are reported in Appendix \@ref(results-alignment-3-appendix).

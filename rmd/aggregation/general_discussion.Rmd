@@ -100,7 +100,7 @@ they had a chance to make a choice about each project. The way that the question
 was framed may have acted to broadly bracket the choices by forcing the choice.
 
 A diversified portfolio is one whose investments are uncorrelated or negatively
-correlated. According to Portfolio Theory [@markowitz1952], a diversified
+correlated. According to portfolio theory [@markowitz1952], a diversified
 portfolio is preferred to one that is not diversified, because it reduces the
 probability of a loss. When some investments have losses, others will have
 gains---the root of "don't keep all your eggs in one basket." Typically,
@@ -113,9 +113,33 @@ In the case of the similarity effect, the choice bracketing did not seem to
 encourage aggregation, but instead appears to have encouraged a naive
 diversification [@hedesstrom2006; @read1995]. It could not have been actual
 diversification, because the projects did not contain correlational information.
-Instead, participants could have been more eager to accept the project portfolio
+Rather, participants could have been more eager to accept the project portfolio
 due to the higher variability between projects (due to the similarity
 manipulation).
+
+This finding suggests that there may be trade-off between aggregation and
+diversification. The literature shows that people prefer multi-play gambles to
+single-play gambles. However, participants in this chapter were more likely to
+aggregate diverse repeated-play gambles to similar repeated-play gambles when
+these were bracketed broadly. Therefore, people are likely to still need choice
+bracketing. That is, diverse repeated-play gambles that are not bracketed are
+simply individual single-play gambles.
+
+One way to test this explanation is by using identical gambles. This chapter
+used unique gambles to increase ecological validity. However, the above
+explanation would predict that participants prefer non-identical repeated-play
+gambles to identical repeated-play gambles when these are bracketed. However,
+when these gambles are not presented as a portfolio, it is likely that the
+identical gambles would be preferred overall because the non-identical gambles
+would be represented as individual single-play gambles.
+
+It is also possible that similarity effects were not seen because the sequence
+of gambles itself led to naive aggregation for all conditions. One way that this
+could be tested is by interweaving other tasks in between the gambles to break
+them up. Then similarity may play a role by allowing bracketing across otherwise
+distinct gambles. Multiple sets of gambles can be interweaved with similarity
+alone creating the potential sets. The prediction is that without similarity the
+gambles would not be aggregated.
 
 #### How Does Choice Bracketing Facilitate Aggregation?
 

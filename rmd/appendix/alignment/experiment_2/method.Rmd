@@ -20,7 +20,7 @@ file.path(
   image_border(color = "black", geometry = "5x5")
 ```
 
-##### NPV test {#npv-test-materials-alignment-3}
+##### NPV Test {#npv-test-materials-alignment-3}
 
 Participants were given more extensive information about NPV than in the
 previous experiment and were tested on their ability to calculate simple
@@ -68,7 +68,7 @@ file.path(
   image_border(color = "black", geometry = "5x5")
 ```
 
-##### NPV knowledge ratings {#npv-knowledge-materials-alignment-3}
+##### NPV Knowledge Ratings {#npv-knowledge-materials-alignment-3}
 
 A similar design to @long2018 [Study 1] was used to test whether this sample may
 be overconfident in their understanding on NPV. Therefore, participants were
@@ -94,7 +94,7 @@ file.path(
 \newpage
 \newpage
 
-##### Variance lecture {#variance-lecture-materials-alignment-3}
+##### Variance Lecture {#variance-lecture-materials-alignment-3}
 
 See below the slides for the variance lecture.
 

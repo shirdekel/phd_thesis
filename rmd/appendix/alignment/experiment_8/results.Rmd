@@ -3,7 +3,7 @@
 A mixed factorial ANOVA was conducted to investigate the effects of alignment
 and NPV reliability type on participants project allocations. A direct
 comparison of the two alignment conditions was not possible due to the different
-allocation input scales, so the NPV reliability amount $\times$ NPV
+allocation input scales, so the NPV reliability level $\times$ NPV
 interaction was tested separately in each alignment condition (see
 Figures \@ref(fig:plot-alignment-7-allocation-alignment-low)
 and \@ref(fig:plot-alignment-7-allocation-alignment-high)). This interaction was

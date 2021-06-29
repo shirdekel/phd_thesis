@@ -2,9 +2,9 @@
 
 #### Participants
 
-`r descriptives_alignment_3$apa` Both the reliability (low and high) and
-alignment (low and high) conditions were presented to subjects, and the order of
-presentation was counterbalanced.
+`r descriptives_alignment_3$apa` Both the reliability level (low and high) and
+project alignment (low and high) conditions were presented to subjects, and the
+order of presentation was counterbalanced.
 
 #### Materials
 

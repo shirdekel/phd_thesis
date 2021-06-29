@@ -94,13 +94,13 @@ sometimes people are distracted by extraneous semantic information, such as the
 relative similarity of the options.
 
 The results of the thesis show that although people in general make sensible
-decisions, they fail to moderate them appropriately when presented with critical
-information. Specifically, information about metric variance is ignored even
-when other metrics are available. Further, people seem to appropriately use
-statistical and anecdotal information based on relevance to the situation at
-hand, but ignore information about the sampling of the anecdote. Not
-appropriately using these kinds of statistical concepts has important
-financial consequences, discussed below.
+decisions, they fail to use critical information to inform their decisions.
+Specifically, information about metric variance is ignored even when other
+metrics are available. Further, people seem to appropriately use statistical and
+anecdotal information based on relevance to the situation at hand, but ignore
+information about the sampling of the anecdote. Not appropriately using these
+kinds of statistical concepts has important financial consequences, discussed
+below.
 
 All the experiments in the thesis use laypeople, except for one experiment.
 However, past work generally shows the same biases in managers and laypeople

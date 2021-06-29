@@ -34,7 +34,7 @@ get_plot_anecdotes_1 <- function(data = anecdotes1::data) {
       legend_title = "Similarity"
     ) +
     labs(
-      x = "Anecdote",
+      x = "Evidence type",
       y = "Mean allocation to the target project"
     ) +
     papaja::theme_apa() +

@@ -10,12 +10,12 @@ tar_load(plot_anecdotes_2)
 Experiment 1 replicated the anecdotal bias effect found in the literature. That
 is, participants allocated less capital to a project when presented with an
 anecdote & conflicting statistics compared with when they were presented with
-the statistics only. However, anecdotal similarity moderated this effect, such
+the statistics only. However, this effect depended on anecdote similarity, such
 that anecdotal bias was stronger when the anecdote was similar to the current
 task compared with when it was dissimilar. a negative anecdote only was used
 Experiment 1 because previous research has found anecdotal bias for negative but
 not for positive anecdotes [@jaramillo2019]. However, @jaramillo2019
-investigated medical decision-making, and the effect of anecdotal valence may be
+investigated medical decision-making, and the effect of anecdote valence may be
 different in a business context. In the study by @jaramillo2019, the positive
 anecdote involved a treatment that led to a reduction in symptoms, while the
 negative anecdote involved symptoms persisting. This framing may have led
@@ -23,9 +23,9 @@ participants to perceive the positive anecdote as a return to a reference point
 and the negative anecdote as a continuation of a reduction in wellbeing relative
 to the reference point. In business, however, both successful and failed
 business projects represent a deviation from a reference point. To test this
-difference further, manipulation of anecdotal valence was added to Experiment 2.
+difference further, manipulation of anecdote valence was added to Experiment 2.
 
-To increase the experiment’s power, anecdotal valence and anecdotal similarity
+To increase the experiment's power, anecdote valence and anecdote similarity
 were manipulated within subjects. Further, Experiment 2 did not include the
 anecdote & enhanced statistics condition because Experiment 1 found no
 evidence for its effect. All participants saw the statistics only condition,
@@ -40,7 +40,7 @@ In Experiment 1, assumptions about the pool from which the anecdote was sampled
 were not clarified. In Experiment 2, participants were told that the anecdote
 was sampled randomly and that it was not uniquely similar to the target project.
 This was expected to lead to a reliance on statistical evidence, regardless of
-the anecdote’s similarity. However, people often struggle to use statistical
+the anecdote's similarity. However, people often struggle to use statistical
 concepts presented descriptively, as seen in the enhanced statistics condition
 in Experiment 1, the neglect of variance shown in Chapter \@ref(alignment), and
 the lack of risk aggregation in descriptive risky decisions shown in
@@ -55,12 +55,12 @@ The three-way similarity $\times$ valence $\times$ anecdote (excluding
 statistics only) interaction is significant
 ```
 
-The main effect of interest was the moderating effect of similarity on anecdotal
+The main effect of interest was the effect of anecdote similarity on anecdotal
 bias. Therefore, as well as retesting
 Hypothesis \@ref(hyp:anecdote-similarity-anecdotes-1) for negative anecdotes,
 Experiment 2 tested the following hypothesis:
 
-```{hypothesis, anecdote-similarity-anecdotes-2, name = "anecdotal bias moderated by similarity for positive anecdotes", echo = TRUE}
+```{hypothesis, anecdote-similarity-anecdotes-2, name = "anecdotal bias depends on the similarity of positive anecdotes", echo = TRUE}
 For positive anecdotes, budget allocations to the target project will be higher
 in the statistics only condition than in both the anecdote & statistics
 conditions (high and low similarity). Within these two anecdote & statistics

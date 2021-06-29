@@ -3,15 +3,14 @@
 The main theoretical contribution of this thesis is the addition of evidence
 that further specifies the conditions under which people make rational decisions
 in capital allocation scenarios. People made good decisions most of the time,
-but sometimes do not take into account important moderating factors in their
-decisions. Amos Tversky explained in his response to @cohen1981 [p. 355] that
-the work on heuristics and biases "portrayed people as fallible, not
-irrational." That is, people are not constantly making mistakes, but often
-behave rationally, largely due to adaptive heuristics. However, sometimes
-shortcuts that are usually helpful can fail. Studying such biases is similar to
-the way that optical illusions help understand the visual system. In both cases,
-these are systems that most of the time function properly, but sometimes reveal
-deficits.
+but sometimes do not use relevant information in their decisions. Amos Tversky
+explained in his response to @cohen1981 [p. 355] that the work on heuristics and
+biases "portrayed people as fallible, not irrational." That is, people are not
+constantly making mistakes, but often behave rationally, largely due to adaptive
+heuristics. However, sometimes shortcuts that are usually helpful can fail.
+Studying such biases is similar to the way that optical illusions help
+understand the visual system. In both cases, these are systems that most of the
+time function properly, but sometimes reveal deficits.
 
 Similarly, @simon1955 identified human rationality as *bounded*, meaning that
 people's cognitive processes are limited. The main aim of the thesis was to
@@ -50,21 +49,20 @@ In Chapter \@ref(alignment), the NPVs that participants saw were critical to th
 allocation task. In the low alignment condition, NPV was the only alignable
 attribute in the comparison. In the high alignment condition, however, NPV was
 in competition with the intrinsic project feature values. An understanding of
-how to use numerical variance would have allowed participants to moderate their
-allocations according to the implied reliability of the comparison metric. In
-the low alignment condition, NPV was the only easy way to compare across
-projects, so it was a more useful cue than the rest of the non-alignable values.
-However, in the high alignment condition, the extent of numerical variance
-associated with each NPV could have been used to determine NPV reliability.
-There were two ways to do this: (a) noticing that in the low numerical
-reliability condition the ranges were all overlapping, and (b) noticing the
-difference in the width of the ranges between the two within-subjects
-reliability amount conditions. By doing this, participants would have then been
-able to know to (in the high alignment condition) use NPV when ranges were
-narrow and use the intrinsic values more or exclusively when ranges were wider
-and overlapping. Participants were able to do this sort of moderated allocation
-when reliability was expressed explicitly as words, but not when it was
-expressed numerically.
+how to use numerical variance would have allowed participants to allocate
+capital according to the implied reliability of the comparison metric. In the
+low alignment condition, NPV was the only easy way to compare across projects,
+so it was a more useful cue than the rest of the non-alignable values. However,
+in the high alignment condition, the extent of numerical variance associated
+with each NPV could have been used to determine NPV reliability. There were two
+ways to do this: (a) noticing that in the low numerical reliability condition
+the ranges were all overlapping, and (b) noticing the difference in the width of
+the ranges between the two within-subjects reliability level conditions. By
+doing this, participants would have then been able to know to (in the high
+alignment condition) use NPV when ranges were narrow and use the intrinsic
+values more or exclusively when ranges were wider and overlapping. Participants
+were able to do this sort of conditional allocation when reliability was
+expressed explicitly as words, but not when it was expressed numerically.
 
 In Chapter \@ref(anecdotes), participants did not make use of descriptive
 information about the anecdote sample distribution. As in
@@ -107,7 +105,7 @@ mathematical skill may explain individual differences.
 ### Decision Aides
 
 While trade-offs allow people to integrate multiple cues, decision aides allow
-people to use statistical concepts for more nuanced moderation.
+people to use statistical concepts for more nuanced decision-making.
 Chapter \@ref(aggregation) found that people's understanding of risk aggregation
 was facilitated when the mathematical work was done for them and the aggregated
 values were displayed visually as a distribution. However, a follow-up
@@ -141,12 +139,11 @@ statistical concepts that they did not use is unclear. That is, the cues that
 they were able to use were not trivial, and the concepts that they were not able
 to use are relatively basic. For instance, the finding in
 Chapter \@ref(anecdotes) that people were able to use relevance information to
-guide their allocations shows an ability to moderate choice based on quite
-specific information. On the other hand, the statistical concepts that
-participants ignored in each empirical chapter are all relatively intuitive.
-While concepts of aggregation, variance, and sample distribution are typically
-studied at a tertiary level, they can be understood when acted out or
-experienced.
+guide their allocations shows an ability to quite specific information to inform
+choice. On the other hand, the statistical concepts that participants ignored in
+each empirical chapter are all relatively intuitive. While concepts of
+aggregation, variance, and sample distribution are typically studied at a
+tertiary level, they can be understood when acted out or experienced.
 
 @clark1993 proposed a distinction between two levels of representing knowledge.
 At the *implicit* level an individual can only make use of a certain system of

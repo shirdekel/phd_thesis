@@ -5,7 +5,7 @@
 A mixed factorial ANOVA was conducted to investigate the effects of alignment
 and verbally-instructed NPV reliability on participants’ rankings of the
 target project. As shown in Figure \@ref(fig:plot-alignment-2-ranking), the
-alignment $\times$ reliability amount $\times$ NPV interaction was
+alignment $\times$ reliability level $\times$ NPV interaction was
 significant,
 `r results_alignment_2$ranking$alignment_reliability_amount_npv_amount`. This
 effect seems to be driven by the differences between the no NPV condition and
@@ -30,7 +30,7 @@ plot_alignment_2$ranking
 A mixed factorial ANOVA was conducted to investigate the effects of alignment
 and verbally-instructed NPV reliability on participants’ confidence rating of
 their decisions. As shown in Figure \@ref(fig:plot-alignment-2-confidence), the
-alignment $\times$ reliability amount $\times$ NPV interaction was not
+alignment $\times$ reliability level $\times$ NPV interaction was not
 significant,
 `r results_alignment_2$confidence$alignment_reliability_amount_npv_amount`.
 Contrary to the allocation and ranking data, in
@@ -49,16 +49,16 @@ reliability condition, `r results_alignment_2$confidence$low_noNPV_linear_high`.
 plot_alignment_2$confidence
 ```
 
-#### Forecast mean
+#### Forecast Mean
 
 A mixed factorial ANOVA was conducted to investigate the effects of alignment
 and verbally-instructed NPV reliability on participants’ forecast means. As seen
 in Figure \@ref(fig:plot-alignment-2-forecast-mean), the alignment $\times$
-reliability amount $\times$ NPV interaction was not significant,
+reliability level $\times$ NPV interaction was not significant,
 `r results_alignment_2$forecast_mean$alignment_reliability_amount_npv_amount`.
 However, the alignment $\times$ NPV interaction was significant,
 `r results_alignment_2$forecast_mean$alignment_npv_amount`; as well as the
-reliability amount $\times$ NPV interaction,
+reliability level $\times$ NPV interaction,
 `r results_alignment_2$forecast_mean$reliability_amount_npv_amount`. The simple
 effects appear to be as above. Specifically, in the low alignment condition, the
 linear NPV trend was significantly lower in the no NPV condition than both the
@@ -83,7 +83,7 @@ plot_alignment_2$forecast_mean
 A mixed factorial ANOVA was conducted to investigate the effects of alignment
 and verbally-instructed NPV reliability on participants’ forecast SDs. As seen
 in Figure \@ref(fig:plot-alignment-2-forecast-sd), the alignment $\times$
-reliability amount $\times$ NPV interaction was significant,
+reliability level $\times$ NPV interaction was significant,
 `r results_alignment_2$forecast_sd$alignment_reliability_amount_npv_amount`.
 However, none of the linear NPV trends were significantly different from each
 other as above. Of relevance, the low alignment condition on average had higher

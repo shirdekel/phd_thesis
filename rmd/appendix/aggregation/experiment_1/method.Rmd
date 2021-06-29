@@ -20,7 +20,7 @@ file.path(
   image_border(color = "black", geometry = "5x5")
 ```
 
-##### Outcome distribution decision
+##### Outcome Distribution Decision
 
 Figure \@ref(fig:project-choice-aggregated-aggregation-1) shows the outcome
 distribution display that participants saw in Experiment 1.
@@ -38,9 +38,9 @@ file.path(
   image_border(color = "black", geometry = "5x5")
 ```
 
-##### Follow-up gambles {#follow-up-materials-aggregation-1-appendix}
+##### Follow-up Gambles {#follow-up-materials-aggregation-1-appendix}
 
-###### Negative EV gambles
+###### Negative EV Gambles
 
 It was important to make sure that participants were generally making decisions
 that were in line with EV theory and that the sample was not abnormally risk
@@ -49,7 +49,7 @@ EV. Out of the `r descriptives_aggregation_1$total*2` negative EV gambles
 included (two per participant), all but `r results_aggregation_1$neg_sum_apa`
 were rejected.
 
-###### @samuelson1963 gambles
+###### @samuelson1963 Gambles
 
 Participants saw the original @samuelson1963 gamble, were asked whether they
 would accept 10 of that gamble, and whether they would accept those 10 given the
@@ -57,7 +57,7 @@ associated outcome distribution. They then saw the same three questions, but
 using outcome magnitudes that were similar to the ones in the risky investment
 task. That is, $100 million instead of $100.
 
-###### @redelmeier1992 gambles
+###### @redelmeier1992 Gambles
 
 Participants saw the same three types of gambles (single, 10, and aggregated),
 but with the values from the gambles that were used by @redelmeier1992.

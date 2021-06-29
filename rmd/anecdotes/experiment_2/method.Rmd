@@ -5,10 +5,11 @@
 `r descriptives_anecdotes_2$apa` Table \@ref(tab:condition-allocation-anecdotes-2)
 shows the allocation of participants to the different conditions. Anecdote
 similarity and valence were manipulated within subjects. Therefore, each
-participant was assigned to one of two between-subjects anecdote conditions and
-saw five displays (statistics only, and one of each of the four similarity and
-valence conditions). Appendix \@ref(power-analysis-anecdotes-2) describes the
-power analysis conducted to arrive at this sample size.
+participant was assigned to one of two between-subjects evidence type conditions
+(anecdote only and anecdote & statistics) and saw five displays (statistics
+only, and one of each of the four similarity and valence conditions).
+Appendix \@ref(power-analysis-anecdotes-2) describes the power analysis
+conducted to arrive at this sample size.
 
 ```{r condition-allocation-anecdotes-2}
 descriptives_anecdotes_2$condition_allocation_table %>%

@@ -35,7 +35,7 @@ afex_plot_alignment_4 <- function(afex_aov, dv_label) {
       legend_title = "NPV Presence"
     ) +
     labs(
-      x = "NPV Amount ($)",
+      x = "NPV ($)",
       y = dv_label
     ) +
     papaja::theme_apa()

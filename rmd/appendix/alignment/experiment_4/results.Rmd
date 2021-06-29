@@ -3,9 +3,9 @@
 A mixed factorial ANOVA was conducted to investigate the effects of alignment,
 verbal NPV reliability, and NPV on participants’ project allocations. As
 seen in Figure \@ref(fig:plot-alignment-1-allocation), the alignment $\times$
-reliability amount $\times$ NPV interaction was not significant,
+reliability level $\times$ NPV interaction was not significant,
 `r results_alignment_1$allocation$reliability_amount_npv_amount_alignment`. This
-is most likely due to the fact that the reliability amount $\times$ NPV
+is most likely due to the fact that the reliability level $\times$ NPV
 interaction was significant in the high alignment condition,
 `r results_alignment_1$allocation$low_high_linear_high`, the low alignment
 condition, `r results_alignment_1$allocation$low_high_linear_low`, as well as

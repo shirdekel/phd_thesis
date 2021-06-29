@@ -1,4 +1,4 @@
-# Chapter \@ref(anecdotes) appendix {#anecdotes-appendix}
+# Chapter \@ref(anecdotes) Appendix {#anecdotes-appendix}
 
 \minitoc
 

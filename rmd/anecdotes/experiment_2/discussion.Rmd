@@ -12,7 +12,7 @@ clear indication that participants were using only the specific project
 information rather than merely its industry.
 
 Therefore, Experiment 2 found that, unlike in the medical domain, the effect of
-anecdotes in financial decision-making does not depend on anecdotal valence.
+anecdotes in financial decision-making does not depend on anecdote valence.
 Further, similar to the findings of Experiment 1, and unlike those of
 @wainberg2013, the anecdotal bias effect does not appear to be complete, with
 statistics still playing some role in participants' decisions, despite the
