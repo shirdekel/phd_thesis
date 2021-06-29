@@ -55,6 +55,65 @@ get_results_alignment_3 <- function(data = alignment3::data) {
     npv_knowledge_apa %>%
     append(npv_knowledge_simple_effects)
 
+  variance_lecture_omnibus <-
+    data %>%
+    get_variance_lecture_omnibus()
+
+  variance_lecture_apa <-
+    variance_lecture_omnibus %>%
+    apa_print(es = "pes", mse = FALSE) %>%
+    pluck("full_result")
+
+  variance_lecture_three_way <-
+    variance_lecture_omnibus %>%
+    emmeans(
+      c(
+        "npv_amount",
+        "phase",
+        "alignment_between",
+        "reliability_amount"
+      ),
+      model = "multivariate"
+    ) %>%
+    contrast(
+      interaction = c("poly", "consec", "consec"),
+      by = "alignment_between"
+    ) %>%
+    apa_print() %>%
+    pluck("full_result")
+
+  variance_lecture_two_way <-
+    variance_lecture_omnibus %>%
+    emmeans(
+      c(
+        "npv_amount",
+        "phase",
+        "alignment_between"
+      ),
+      model = "multivariate"
+    ) %>%
+    contrast(
+      interaction = c("poly", "consec"),
+      by = "alignment_between"
+    ) %>%
+    apa_print() %>%
+    pluck("full_result")
+
+
+  variance_lecture <-
+    variance_lecture_apa %>%
+    append(
+      c(
+        variance_lecture_three_way,
+        variance_lecture_two_way
+      )
+    )
+
   results_1 %>%
-    append(lst(npv_knowledge))
+    append(
+      c(
+        lst(npv_knowledge),
+        lst(variance_lecture)
+      )
+    )
 }

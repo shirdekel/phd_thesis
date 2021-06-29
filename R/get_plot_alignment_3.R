@@ -38,10 +38,58 @@ get_plot_alignment_3 <- function(data = alignment3::data) {
     ) %>%
     afex_plot_npv_knowledge()
 
+  dodge_width <- 0.5
+
+  variance_lecture <-
+    data %>%
+    get_variance_lecture_omnibus() %>%
+    afex_plot(
+      x = "npv_amount",
+      trace = "reliability_amount",
+      panel = c("phase", "alignment_between"),
+      mapping = c("shape", "color"),
+      error = "within",
+      error_arg = list(width = 0.1),
+      data_geom = ggbeeswarm::geom_quasirandom,
+      data_arg = list(
+        dodge.width = dodge_width,
+        color = "darkgrey"
+      ),
+      dodge = dodge_width,
+      factor_levels = list(
+        npv_amount = c(
+          X100 = "100",
+          X300 = "300",
+          X500 = "500",
+          X700 = "700",
+          X900 = "900"
+        ),
+        phase = c(
+          pre = "Pre-lecture",
+          post = "Post-lecture"
+        ),
+        reliability_amount = c(
+          low = "Low",
+          high = "High"
+        ),
+        alignment_between = c(
+          low = "Low alignment",
+          high = "High alignment"
+        )
+      ),
+      legend_title = "Reliability level"
+    ) +
+    labs(
+      x = "NPV ($)",
+      y = "Mean allocation (%)"
+    ) +
+    papaja::theme_apa()
+
   lst(
     allocation,
     ranking,
     confidence,
-    npv_knowledge
+    npv_knowledge,
+    variance_lecture
   )
 }
