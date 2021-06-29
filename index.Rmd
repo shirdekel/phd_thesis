@@ -11,6 +11,7 @@ university-logo-width: 5cm
 submitted-text: A thesis submitted to fulfil requirements for the degree of
 degree: Doctor of Philosophy (Science)
 degreedate: '`r format(Sys.time())`'
+dedication: '\foreignlanguage{hebrew}{לאמא ואבא}'
 originality: |
   `r paste(readLines("rmd/front_matter/originality.Rmd"), collapse = '\n  ')`
 acknowledgements: |
