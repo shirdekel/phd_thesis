@@ -1,0 +1,35 @@
+I am immensely grateful for my supervisors Dr Micah Goldwater, Professor Dan
+Lovallo, and Dr Bruce Burns. Micah was there for me from the initial struggles
+for an idea, to the stress of unexpected findings, to the last-minute questions
+about wording minutiae. Thank you for the spontaneous hallway conversations and
+for prioritising me when it was necessary. Dan's work and thought inspired much
+of the thesis experiments. Thank you for passing on valuable insights from your
+mentors, for challenging me, and for opening so many doors. Bruce's incisive
+feedback gave me confidence in the experiment development and subsequent
+writing. Thank you for the attention to detail and for our extended
+conversations.
+
+My family were critical to the thesis even before its inception. My parents were
+always a model for critical and creative thought and raised me to be curious. In
+a way, the PhD really began with my backyard inventions and experiments. I am
+also grateful for my sisters for our Friday nights jams and for allowing me to
+always have someone I can strive to impress.
+
+Thank you to everyone else that supported me. To Rachel, for the love,
+understanding, calls, runs, activities, and donut deliveries. To Nicky, Jacob,
+and Mich for being my second family throughout *our* thesis. To Yoav and Josh
+for being my spiritual housemates and for tolerating their measly monthly quota.
+Special thanks to those that made an effort to read a portion of the thesis and
+contributed helpful insights (and to David for actually doing so).
+
+Two years ago, my coding knowledge consisted of what I learnt at the *HTML
+Basics* class that I took when I was nine years old. Since then, I wrote the
+text of my thesis in Emacs and developed almost everything else as reproducible
+code. This would have not been possible without the support of the online `R`
+community on GitHub, Stack Exchange, and Twitter.
+
+Chapters \@ref(alignment), \@ref(interstitial-2), and \@ref(anecdotes) of this
+thesis were edited by Elite Editing, and editorial intervention was restricted
+to Standards D and E of the Australian Standards for Editing Practice.
+
+Thank you all.

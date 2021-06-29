@@ -13,6 +13,8 @@ degree: Doctor of Philosophy (Science)
 degreedate: '`r format(Sys.time())`'
 originality: |
   `r paste(readLines("rmd/front_matter/originality.Rmd"), collapse = '\n  ')`
+acknowledgements: |
+  `r paste(readLines("rmd/front_matter/acknowledgements.Rmd"), collapse = '\n  ')`
 preface: |
   `r paste(readLines("rmd/front_matter/preface.Rmd"), collapse = '\n  ')`
 abstract: |
