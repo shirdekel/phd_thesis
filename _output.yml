@@ -1,4 +1,5 @@
 bookdown::pdf_book:
+  latex_engine: xelatex
   citation_package: biblatex
   template: templates/template.tex
   keep_tex: true
