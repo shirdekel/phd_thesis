@@ -1,7 +1,7 @@
 ### Discussion
 
-Hypotheses \@ref(hyp:anecdote-similarity-anecdotes-1)
-and \@ref(hyp:anecdote-similarity-anecdotes-2) were supported because
+Hypotheses \@ref(hyp:anecdote-similarity-negative-anecdotes-2)
+and \@ref(hyp:anecdote-similarity-positive-anecdotes-2) were supported because
 participants showed a stronger anecdotal bias effect when both positive and
 negative anecdotes had greater similarity to the target project. Further, as per
 Hypotheses \@ref(hyp:statistics-negative-anecdotes-2)

@@ -49,7 +49,7 @@ file.path(
   image_trim()
 ```
 
-(ref:projects-alignment-high-reliability-implicit-high-materials-alignment-8) An example of a high alignment, high numerical reliability display in Experiment3.
+(ref:projects-alignment-high-reliability-implicit-high-materials-alignment-8) An example of a high alignment, high numerical reliability display in Experiment 3.
 
 ```{r projects-alignment-high-reliability-implicit-high-materials-alignment-8, fig.cap = "(ref:projects-alignment-high-reliability-implicit-high-materials-alignment-8)"}
 file.path(

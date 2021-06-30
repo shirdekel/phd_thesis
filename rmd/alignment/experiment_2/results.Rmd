@@ -9,7 +9,7 @@ However, this appeared to be driven by the difference between alignment
 conditions in the interaction between the quadratic NPV trend and NPV
 reliability level,
 `r results_alignment_3$allocation$quadratic_low_high_low_high`, even after
-applying a Šidák correction. The same interaction but using a the linear NPV
+applying a \v{S}idák correction. The same interaction but using a the linear NPV
 trend was not significant,
 `r results_alignment_3$allocation$linear_low_high_low_high`. Further, the linear
 NPV trend did not differ between the reliability level conditions in either the
@@ -29,7 +29,7 @@ plot_alignment_3$allocation
 ```
 
 The ranking data were congruent with these results, while the confidence data
-were less so. Further, the findings on over-confidence from @long2018 [Study 1]
+were less so. Further, the findings on over-confidence from @long2018 [Study 1]
 were not replicated with NPV knowledge, and the variance lecture did not
 facilitate participants' use of numerical reliability information. These
 analyses are reported in Appendix \@ref(results-alignment-3-appendix).

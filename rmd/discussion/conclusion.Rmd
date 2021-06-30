@@ -1,16 +1,16 @@
 ## Conclusion {#conclusion}
 
-Capital allocation decisions can be consequential for large organisations. This
+Capital allocation decisions are consequential for large organisations. This
 thesis tested the conditions under which people behave rationally or are
-fallible when allocating capital. The experiments found that people struggle to
-incorporate concepts such as risk aggregation, estimate variance, and sample
-distribution into their decisions. People only seemed to be able to do this when
-the concept was expressed visually very explicitly. However, when there were
-multiple cues for choice evaluation, the results also showed that people were
-capable of integrating conflicting information in their decisions. Identifying
-such cognitive bounds helps to better understand how people evaluate multiple
-choices and helps future research develop methods to facilitate better
-decisions.
+fallible when allocating capital. The experiments found that participants
+struggle to incorporate concepts such as risk aggregation, estimate variance,
+and sample distribution into their decisions. Participants only seemed to be
+able to do this when the concept was expressed visually very explicitly.
+However, when there were multiple cues for choice evaluation, the results also
+showed that participants were capable of integrating conflicting information in
+their decisions. Identifying such cognitive bounds helps to better understand
+how people evaluate multiple choices and helps future research develop methods
+to facilitate better decisions.
 
 \newpage
 

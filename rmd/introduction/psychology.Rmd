@@ -1,19 +1,20 @@
 ## The Psychology of Capital Allocation {#psychology}
 
 Managers of large organisations are generally assumed to have a superior
-decision-making capability to non-managers. However, managerial decision-making
-involves many of the same processes that have been shown to be affected by
-psychological biases in the general population [@schwenk1984; @das1999;
-@mccray2002]. Further, an organisation's success ultimately depends on strategic
-decisions made by top level managers [@mazzolini1981]. Therefore, despite early
-work attempting to analyse such decisions using a structured organisational
-analysis [e.g., @mintzberg1976], it is important to understand the potential
-influence of psychological biases on managerial decisions. Research in the field
-of behavioural strategy has started to do this [@powell2011].
+decision-making capability compared with non-managers. However, managerial
+decision-making involves many of the same processes that have been shown to be
+affected by psychological biases in the general population [@schwenk1984;
+@das1999; @mccray2002]. Further, an organisation's success ultimately depends on
+strategic decisions made by top level managers [@mazzolini1981]. Therefore,
+despite early work attempting to analyse such decisions using a structured
+organisational analysis [e.g., @mintzberg1976], it is important to understand
+the potential influence of psychological biases on managerial decisions.
+Research in the field of behavioural strategy has started to do this
+[@powell2011].
 
 Psychological research has shown that people tend to make decisions that are
-inconsistent with neoclassical economic theory. For instance, Expected Utility
-Theory [EUT\; @friedman1948; @vonneumann1944] assumed that people have complete
+inconsistent with neoclassical economic theory. For instance, expected utility
+theory [EUT\; @friedman1948; @vonneumann1944] assumed that people have complete
 information when making decisions. However, both laypeople and managers of
 organisations are limited in the amount of information that they have and their
 ability to use it [@simon1955; @cyert1956]. Such inconsistencies with economic
@@ -47,13 +48,14 @@ which people avoid "cutting their losses" even when they know that they cannot
 recuperate an investment [@parayre1995].
 
 Managers also do not always seem to seek profit maximisation. @shapira2014
-offered managers and MBA students two investment from a hypothetical firm: one
-with the same expected returns as the average of the firm's current investments
-and one with lower returns than the firm's average returns. However, both
-investments were profitable, so to maximise firm profits both should be chosen.
-Instead, participants were more likely to only choose the first investment. It
-seems that the firm's average returns served as an anchor, so participants did
-not want to reduce the firm's average returns, regardless of profitability.
+offered managers and Master of Business Administration (MBA) students two
+investments from a hypothetical firm: one with the same expected returns as the
+average of the firm's current investments and one with lower returns than the
+firm's average returns. However, both investments were profitable, so to
+maximise firm profits both should be chosen. Instead, participants were more
+likely to only choose the first investment. It seems that the firm's average
+returns served as an anchor, so participants did not want to reduce the firm's
+average returns, regardless of profitability.
 
 The way that information is presented can also influence allocations. For
 instance, @yates1978 showed that people's evaluations are sensitive to the level
@@ -73,9 +75,9 @@ created the proposal. Further, the higher-level manager evaluating the proposal
 may in turn be over-confident about its prospects due to factors that are
 unrelated to the underlying value. Overconfidence is also seen when considering
 the success of projects in hindsight [@bukszar1988; @christensenszalanski1991].
-This means that it less likely that managers will be able to effectively learn
-from both past mistakes and successes due to the potentially erroneous belief
-that the outcome was anticipated.
+This means that it is less likely that managers will be able to effectively
+learn from both past mistakes and successes due to the potentially erroneous
+belief that the outcome was anticipated.
 
 Managers often create sensitivity analyses, estimating the worst case, best
 case, and most likely scenario for a forecast. However, these are likely to be
@@ -99,7 +101,7 @@ subsections review the literature for these processes.
 <!-- Utility -->
 
 Neoclassical theories such as EUT suggest that when faced with multiple risky
-options people should choose the option with the highest Expected Value (EV),
+options people should choose the option with the highest expected value (EV),
 all else being equal. This means multiplying the value of each option by its
 probability and comparing the resulting values [first documented in
 @pascal1999]. For instance, imagine being presented with the following two
@@ -115,21 +117,21 @@ the EV for option A (50) is higher than the EV for option B (0), EUT would
 suggest that option A should be chosen.
 
 This basic principle was extended by @bernoulli1954, who suggested that a
-persons’ subjective value of money differs depending on their current wealth.
+person's subjective value of money differs depending on their current wealth.
 This *diminishing marginal utility* suggests that the more money a person
 already has, the less value acquiring more money will have for him. For example,
 the experience of a rich man that finds $10 on the street is very different to
 the experience of a homeless man that finds $10 [@bradley2013]. Even though $10
 was gained in both cases, $10 has less value to a person that already has, for
-example, $1000, than for a person that initially only has $10. This principle is
-usually modelled as an power function (with a fractional exponent).
+example, $1,000, than for a person that initially only has $10. This principle
+is usually modelled as an power function (with a fractional exponent).
 
 <!-- Prospect theory -->
 
 Prospect theory [@kahneman1979; @tversky1992] challenged EUT by suggesting that
-people’s subjective value of money does not depend on their state of wealth---it
+people's subjective value of money does not depend on their state of wealth---it
 depends on a change of wealth from a reference point. This is important because
-people’s subjective value of money is different depending if they are gaining or
+people's subjective value of money is different depending if they are gaining or
 losing money. Specifically, losses have a stronger psychological impact than
 equivalent gains. This disparity is one of the most settled and consistent
 findings in psychology and economics, having been well-replicated [e.g,
@@ -173,7 +175,7 @@ Figure \@ref(fig:prospect-theory) shows loss aversion as the function being
 steeper in the domain of losses than the domain of gains. It shows diminishing
 marginal utility by the slight curve of the function. Equivalent changes in
 actual wealth from the references point (x-axis) have different impacts on the
-changes’ subjective value (y-axis). An increase in wealth ($x = 1$) brings about
+changes' subjective value (y-axis). An increase in wealth ($x = 1$) brings about
 an equivalent increase of value ($y = 1^{0.88} = 1$). However, a decrease in the
 same amount of wealth ($x = -1$) brings about a decrease in value 2.25 times the
 value of the equivalent gain ($y = -2.25 \cdot (-(-1))^{0.88} = -2.25$).
@@ -199,7 +201,7 @@ inconsistency in risk profiles across the levels of an hierarchical organisation
 fails to take advantage of the benefits of risk aggregation, which has long been
 understood in external markets [@markowitz1952].
 
-@lovallo2020 suggested that lower-level managers’ failure to aggregate risk to
+@lovallo2020 suggested that lower-level managers' failure to aggregate risk to
 the degree desired by top executives is costing companies approximately a third
 of the total EV of new project proposals. This is an example of a negative
 consequence associated with ignoring statistical concepts such as risk
@@ -219,7 +221,7 @@ When evaluating project proposals, managers are likely to be influenced by the
 relative similarity of the available options to each other. The extent to which
 this may be true is important especially since the increase firm
 diversification. Organisations are not only varied by the number of divisions
-which they possess, but also by the extent of diversification. This means that
+which they possess but also by the extent of diversification. This means that
 managers are likely to find themselves comparing across dissimilar types of
 projects.
 
@@ -234,16 +236,16 @@ and how they are evaluated. Having more similar projects to compare may mean
 more attributes on which to evaluate, whereas a dissimilar comparison may lead
 to a situation in which a manager has to rely on potentially unreliable metrics.
 
-Structure-mapping theory [SMT\; @gentner1997; @gentner1983] provides a model of
+Structure-mapping theory [@gentner1997; @gentner1983] provides a model of
 comparison that psychologically distinguishes similar and dissimilar allocation
-tasks. SMT models comparison as a process of bringing conceptual structures into
-alignment which, when possible, puts shared dimensions into correspondence.
-Alignment both highlights when two conceptual structures share dimensions, but
-also highlights how the two structures differ along those shared dimensions,
-called *alignable differences*. For example, when comparing two oil discovery
-projects, all the relevant processes of planning an exploration and measuring
-the amount of hydrocarbons in a prospect might be identical, but the specific
-amount measured will be different. This is the alignable difference: a
+tasks. This framework models comparison as a process of bringing conceptual
+structures into alignment which, when possible, puts shared dimensions into
+correspondence. Alignment both highlights when two conceptual structures share
+dimensions, but also highlights how the two structures differ along those shared
+dimensions, called *alignable differences*. For example, when comparing two oil
+discovery projects, all the relevant processes of planning an exploration and
+measuring the amount of hydrocarbons in a prospect might be identical, but the
+specific amount measured will be different. This is the alignable difference: a
 difference between the two projects that is constrained within the same
 conceptual structure. However, when comparing between an oil field and a
 refinery, there will be significantly more *non-alignable differences*, because
@@ -253,8 +255,8 @@ different dimensional structure to those in the refinery business unit, such
 that it will be difficult to find meaningful alignments. More non-alignable
 differences mean that there are less opportunities to make meaningful
 comparisons, and so would make predicting relative project success and ranking
-their priority more difficult. Chapter \@ref(alignment) experimentally
-examines business project comparisons and how project alignment affects capital
+their priority more difficult. Chapter \@ref(alignment) experimentally examines
+business project comparisons and how project alignment affects capital
 allocation decisions.
 
 <!-- Metric variance -->
@@ -281,7 +283,7 @@ to variance information in the metrics associated with the projects that they
 evaluate. On the one hand, perhaps managers' financial training will allow a
 consideration of such variance estimates, but this might not manifest in a
 situation in which managers have already been shown to be prone to biases.
-Chapter \@ref(alignment) investigates whether people are as sensitive to
+Chapter \@ref(alignment) investigates whether participants are as sensitive to
 verbally-instructed reliability information as they are to numerical reliability
 information.
 
@@ -293,12 +295,12 @@ manager, a case from the organisation's history, or from an external source.
 This will especially be the case in a project evaluation scenario when a given
 project is hard to compare with the other projects at hand. However, managers
 evaluating project proposals may make inappropriate comparisons when considering
-the target project to other cases. For instance, when comparing a target problem
-to other cases, people tend to limit the size of the comparison set to a small
-number. This is often only a handful of cases, or even one. Doing this might
-mean only considering potentially irrelevant surface similarity to the current
-situation and not aligning the underlying causal structure. Further, this might
-mean not considering other similar projects.
+the target project to other cases. For instance, people tend to limit the size
+of the comparison set to a small number. This is often only a handful of cases,
+or even one. Doing this might mean only considering potentially irrelevant
+surface similarity to the current situation and not aligning the underlying
+causal structure. Further, this might mean not considering other similar
+projects.
 
 @tversky1974 discussed a number of biases that may influence such processes. The
 availability bias is seen when people mistake the ease of retrieval of
@@ -318,14 +320,15 @@ reliability of the information that they have to make a prediction. This might
 mean that managers may struggle to ideally weigh evidence of varying degrees of
 reliability.
 
-External sources that might be used to compare to a target situation include
+External sources that may be used to compare to a target situation include
 business case studies. Considering such examples of prior business decisions or
-events are the way that most MBAs learn about the business world. Publications
-such as Forbes or Harvard Business Review publicise various businesses'
-successes and failures and so may create an allure to use such case studies in
-the decision-making process. On the other hand, managers may have access to more
-aggregated data about their industry from, for instance, consultancy companies.
-How do managers use these various types of evidence in their decision-making?
+events are the way that most MBA students learn about the business world.
+Publications such as Forbes or Harvard Business Review publicise various
+businesses' successes and failures and so may create an allure to use such case
+studies in the decision-making process. On the other hand, managers may have
+access to more aggregated data about their industry from, for instance,
+consultancy companies. How do managers use these various types of evidence in
+their decision-making?
 
 Research on this topic suggests that managers tend to prefer anecdotes over
 statistics, unless aided [@wainberg2018]. This is a concern because @gavetti2005

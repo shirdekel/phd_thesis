@@ -59,7 +59,7 @@ Figure \@ref(fig:project-allocation-statistics-materials-anecdotes-1)).
 Participants entered their allocation data beneath this table in two text boxes
 labelled *Project A allocation* and *Project B allocation*, respectively.
 
-(ref:project-allocation-anecdote-only-materials-anecdotes-1) Focal project display for the anecdote only condition in Experiment 1.
+(ref:project-allocation-anecdote-only-materials-anecdotes-1) Focal project display for the anecdote only condition in Experiment 1. Here, Project A was the target project and Project B was the comparison project.
 
 ```{r project-allocation-anecdote-only-materials-anecdotes-1, fig.cap = "(ref:project-allocation-anecdote-only-materials-anecdotes-1)"}
 file.path(
@@ -70,7 +70,7 @@ file.path(
   image_trim()
 ```
 
-(ref:project-allocation-statistics-materials-anecdotes-1) Focal project display for the statistics only, anecdote & statistics, and anecdote & enhanced statistics conditions in Experiment 1.
+(ref:project-allocation-statistics-materials-anecdotes-1) Focal project display for the statistics only, anecdote & statistics, and anecdote & enhanced statistics conditions in Experiment 1. Here, Project A was the target project and Project B was the comparison project.
 
 ```{r project-allocation-statistics-materials-anecdotes-1, fig.cap = "(ref:project-allocation-statistics-materials-anecdotes-1)"}
 file.path(

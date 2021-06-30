@@ -10,17 +10,17 @@ writing. Thank you for the attention to detail and for our extended
 conversations.
 
 My family were critical to the thesis even before its inception. My parents were
-always a model for critical and creative thought and raised me to be curious. In
-a way, the PhD really began with my backyard inventions and experiments. I am
+always a model for critical and creative thought and encouraged my curiosity.
+In a way, the PhD really began with my backyard inventions and experiments. I am
 also grateful for my sisters for our Friday nights jams and for allowing me to
 always have someone I can strive to impress.
 
-Thank you to everyone else that supported me. To Rachel, for the love,
+Thank you to everyone else who supported me. To Rachel, for the love,
 understanding, calls, runs, activities, and donut deliveries. To Nicky, Jacob,
 and Mich for being my second family throughout *our* thesis. To Yoav and Josh
 for being my spiritual housemates and for tolerating their measly monthly quota.
-Special thanks to those that made an effort to read a portion of the thesis and
-contributed helpful insights (and to David for actually doing so).
+And to those who made an effort to read a portion of the thesis and contributed
+helpful insights (and to David for actually doing so).
 
 Two years ago, my coding knowledge consisted of what I learnt at the *HTML
 Basics* class that I took when I was nine years old. Since then, I wrote the

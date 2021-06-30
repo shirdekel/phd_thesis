@@ -73,7 +73,9 @@ file.path(
   image_read() %>%
   image_trim() %>%
   image_convert(type = "grayscale") %>%
-  image_contrast()
+  image_contrast() %>%
+  image_border(color = "white", geometry = "5x5") %>%
+  image_border(color = "black", geometry = "5x5")
 ```
 
 ##### Ranking {#ranking-materials-alignment-2}

@@ -2,7 +2,12 @@
 
 Figures \@ref(fig:plot-simulation-anecdotes-2-negative)
 and \@ref(fig:plot-simulation-anecdotes-2-positive) show the simulated data for
-the negative and positive valence conditions, respectively.
+the negative and positive valence conditions, respectively. These figures are
+different from the equivalent figures in the main text. Here, the same
+statistics only value was used for both valence conditions, whereas in the main
+text the relevant values for each condition were used. Further, the main text
+reports the difference score from the relevant statistics only values, whereas
+here the raw means are shown.
 
 (ref:plot-simulation-anecdotes-2-negative) Anecdotes Experiment 2 predicted data for the negative valence condition
 

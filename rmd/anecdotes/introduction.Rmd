@@ -172,7 +172,7 @@ arises from a specific causal model based on the shared genetics of the two
 cases.
 
 There have been mixed results regarding the effect of anecdote similarity on the
-extent of anecdotal bias. @hoeken2009 [Study 3] found evidence for the effect of
+extent of anecdotal bias. @hoeken2009 [Study 3] found evidence for the effect of
 similarity on anecdotal bias for a variety of claims. As well as manipulating
 whether participants received a claim supported by anecdotal or statistical
 evidence, they manipulated whether the anecdotal evidence was similar or

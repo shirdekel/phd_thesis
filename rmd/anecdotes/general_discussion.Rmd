@@ -90,7 +90,7 @@ increase the ecological validity of the findings.
 
 The findings presented in this chapter add to the current understanding of the
 way in which people use different types of evidence in their decision-making.
-Previous works have mostly investigated the relative influence of statistics and
+Previous research mostly investigated the relative influence of statistics and
 anecdotes by comparing anecdotal with statistical conditions. The current work
 shows that comparing a joint anecdote & statistics condition with both an
 anecdote only and statistics only condition enables a more specific

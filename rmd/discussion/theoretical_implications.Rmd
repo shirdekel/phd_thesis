@@ -77,7 +77,7 @@ similarity. Even if the sampled anecdote appears very relevant to the target
 project, if the underlying distribution of the sample is highly negatively
 skewed, such that most projects in the sample are equivalently similar to the
 target, then the sampled anecdote is not necessarily more informative than the
-aggregated measure. On the other hand, if the underlying distribution was
+aggregated measure. On the other hand, if the underlying distribution is
 positively skewed, normally distributed, or even uniform, then the fact that the
 sampled anecdote appears highly relevant to the target project may actually mean
 that it is more informative than the aggregated measure. Prior work shows that
@@ -120,16 +120,16 @@ variance information in these situations. Much work has investigated visualising
 uncertainty information [@bostrom2008; @maceachren1992; @kinkeldey2017;
 @padilla2018; @davis1997; @ristovski2014; @brodlie2012; @johnson2003;
 @potter2012; @lipkus1999; @lipkus2007; @spiegelhalter2011; @pang1997; @kox2018;
-@lapinski2009; @torsneyweir2015]. A Hypothetical Outcome Plot [HOP\; @kale2019;
-@hullman2015] expresses variance information as dynamic plots and is one method
-that is likely to be beneficial to people's understanding of ranges as used in
-this thesis. Visualisation could also apply to the work in
+@lapinski2009; @torsneyweir2015]. For instance, a Hypothetical Outcome Plot
+[@kale2019; @hullman2015] expresses variance information as dynamic plots and is
+one method that is likely to be beneficial to people's understanding of ranges
+as used in this thesis. Visualisation could also apply to the work in
 Chapter \@ref(anecdotes). Using a visual array as in @jaramillo2019 is likely to
 facilitate people's understanding of the importance of statistical evidence over
 anecdotes. However, an additional visualisation of the distribution of the
-underlying similarity to the target might also be necessary to facilitate
+underlying similarity to the target may also be necessary to facilitate
 understanding of the relevance of the sample distribution. Ultimately,
-visualisations of the effects of certain statistical concepts might be necessary
+visualisations of the effects of certain statistical concepts may be necessary
 for people to use them appropriately.
 
 ### How Bounded is Bounded Rationality?
@@ -152,7 +152,7 @@ into that system. For instance, young children can use closed class words such
 as "the" or "to", but only identify them as words later in development. Further,
 children’s play often implicitly contains many mathematical concepts, despite
 the children’s struggle to explicitly reason with the exact same concepts in
-more formal problem-solving (@sarama2009). Adults may have a similar distinction
+more formal problem-solving [@sarama2009]. Adults may have a similar distinction
 in knowledge representation. Concepts that can be used when experienced
 directly, such as in risky choice from experience, are not represented in a way
 that they can be used when presented descriptively, such as in risky choice from
@@ -162,7 +162,7 @@ laypeople.
 
 ### Expertise Effects
 
-Future research should also investigate the potential expertise effects that may
+Future research should investigate the potential expertise effects that may
 influence the findings of the thesis. This is important because of the potential
 downstream effects of biased managerial decision-making. For instance, it is
 unclear to what extent psychological factors such as the ones discussed in this
@@ -188,6 +188,6 @@ and Master of Management students. Further, in the case of the work in
 Chapter \@ref(anecdotes), it is possible that business managers prefer anecdotal
 cases to inform their decisions because of their higher salience, compared to
 statistical data. Managers are also more likely to feel as if the situation is
-relevant to them, which acording to @freling2020 would suggest more anecdotal
+relevant to them, which acording to @freling2020 would predict more anecdotal
 bias.
 

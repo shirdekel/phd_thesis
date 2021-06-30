@@ -29,28 +29,28 @@ scientist and a physicist in awarding a fellowship. What makes a physics
 proposal better for the field of physics than a cognitive science proposal for
 cognitive science?
 
-Structure-mapping theory [SMT\; @gentner1997; @gentner1983] provides a model of
+Structure-mapping theory [@gentner1997; @gentner1983] provides a model of
 comparison that psychologically distinguishes these two kinds of allocation
-tasks. SMT models comparison as a process of mapping and alignment of the shared
-dimensions of two conceptual structures. This mapping process reveals the shared
-dimensions of the two structures as well as the differences in those shared
-dimensions (known as *alignable differences*). For example, when comparing two
-oil exploration projects, the process for measuring the quantity of hydrocarbons
-in a prospective oil field may be identical, but the specific quantities
-measured will differ. This is known as an alignable difference; that is, the
-difference constrained within the same dimension. However, when comparing an oil
-field and a refinery, there will be a significantly higher number of
-*non-alignable differences*, because the two domains do not share component
-dimensions. That is, the dimensional structure of processes in the exploration
-project will be substantially different from that of processes in the refinery
-project, making it difficult to find meaningful alignments. With a higher number
-of non-alignable differences, there are fewer opportunities to make meaningful
-comparisons, leading to greater difficulty in predicting project success and
-ranking projects. This chapter experimentally examined project comparisons and
-how such comparisons may affect capital allocation decisions. The working
-hypothesis is that projects that have a higher number of alignable differences
-will lead to more precise and informed project predictions and rankings compared
-with projects with non-alignable differences.
+tasks. This framework models comparison as a process of mapping and alignment of
+the shared dimensions of two conceptual structures. This mapping process reveals
+the shared dimensions of the two structures as well as the differences in those
+shared dimensions (known as *alignable differences*). For example, when
+comparing two oil exploration projects, the process for measuring the quantity
+of hydrocarbons in a prospective oil field may be identical, but the specific
+quantities measured will differ. This is known as an alignable difference; that
+is, the difference constrained within the same dimension. However, when
+comparing an oil field and a refinery, there will be a significantly higher
+number of *non-alignable differences*, because the two domains do not share
+component dimensions. That is, the dimensional structure of processes in the
+exploration project will be substantially different from that of processes in
+the refinery project, making it difficult to find meaningful alignments. With a
+higher number of non-alignable differences, there are fewer opportunities to
+make meaningful comparisons, leading to greater difficulty in predicting project
+success and ranking projects. This chapter experimentally examined project
+comparisons and how such comparisons may affect capital allocation decisions.
+The working hypothesis is that projects that have a higher number of alignable
+differences will lead to more precise and informed project predictions and
+rankings compared with projects with non-alignable differences.
 
 However, what happens when a task demands that two domains be aligned but they
 are too disparate to align? Experimentally, this territory is somewhat

@@ -70,7 +70,7 @@ file.path(
 
 ##### NPV Knowledge Ratings {#npv-knowledge-materials-alignment-3}
 
-A similar design to @long2018 [Study 1] was used to test whether this sample may
+A similar design to @long2018 [Study 1] was used to test whether this sample may
 be overconfident in their understanding on NPV. Therefore, participants were
 asked to rate their knowledge of NPV in various points in the study (see the
 procedure in Section \@ref(procedure-alignment-3)).

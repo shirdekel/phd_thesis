@@ -31,8 +31,8 @@ These values were different for each project, but followed a set of constraints
 for each project's EV and the probability of any loss given the outcome
 distribution of all 10 projects ($P(\text{loss}_{aggregated})$). Further, there
 was a constraint on the gambles' loss aversion coefficient ($\lambda$), which is
-a measure of people's greater sensitivity to losses compared to gains. The
-constraints were:
+a measure of people's sensitivity to losses compared to gains. The constraints
+were:
 
 1.  $\text{EV} > 0$;
 
@@ -105,19 +105,18 @@ as likelihoods of certain monetary outcomes.
 
 Participants were asked if they would invest in the last 10 projects they saw
 and were provided with a graph of the outcome probability distribution of the 10
-projects. The appendix shows this graph in
-Figure \@ref(fig:project-choice-aggregated-aggregation-1). A coding error was
-discovered after collecting data. This was an error in the generation of
-gambles, which meant that the outcome distribution decision data could not be
-used. Therefore, the effect of outcome distribution will not be discussed until
-Experiment 2, which fixed this issue.
-Appendix \@ref(outcome-distribution-aggregation-1) presents an analysis of this
+projects. Figure \@ref(fig:project-choice-aggregated-aggregation-1) shows this
+graph. A coding error was discovered after collecting data. This was an error in
+the generation of gambles, which meant that the outcome distribution decision
+data could not be used. Therefore, the effect of outcome distribution will not
+be discussed until Experiment 2, which fixed this issue.
+Appendix \@ref(outcome-distribution-aggregation-1) presents an analysis of these
 data, and describes the coding error and its implications.
 
 ##### Follow-up Gambles
 
-Participants were shown four further sets of gambles (11 total) that functioned
-to check participant attention and replicate the gambles from @samuelson1963 and
+Participants were shown four further sets of gambles (11 total) that checked
+participant attention and replicated the gambles from @samuelson1963 and
 @redelmeier1992. See Appendix \@ref(follow-up-materials-aggregation-1-appendix)
 for details.
 

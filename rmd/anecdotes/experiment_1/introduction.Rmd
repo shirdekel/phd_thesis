@@ -22,7 +22,7 @@ the statistical data, but the anecdotal evidence suggested the opposite.
 Previous research has found that people are persuaded more by negative anecdotes
 than by positive statistical data in capital allocation scenarios
 [@wainberg2018]. While studies have shown that similar anecdotes are more
-persuasive than dissimilar anecdotes [@hoeken2009\; Study 3], it is unclear how
+persuasive than dissimilar anecdotes [@hoeken2009\; Study 3], it is unclear how
 the anecdotal bias effect may depend on anecdote similarity. Thus, the main
 question is whether anecdotal bias will be greater when the anecdote is similar
 to the target project compared with when it is dissimilar. The target project
@@ -30,8 +30,8 @@ was supported by the statistics but was inconsistent with the anecdotes.
 Further, Experiment 1 only used negative anecdotes. Therefore, the experiment
 would show evidence of anecdotal bias if participants assigned to the statistics
 only condition allocated more money to the target project compared with those in
-the anecdote & statistics condition. Thus, Experiment 1 tested the following
-hypothesis:
+the anecdote & statistics condition. Therefore, Experiment 1 tested the
+following hypothesis:
 
 ```{hypothesis, anecdote-similarity-anecdotes-1, name = "anecdotal bias depends on the similarity of negative anecdotes", echo = TRUE}
 Budget allocations to the target project will be higher when statistics only are
@@ -50,8 +50,8 @@ test to that of @wainberg2013. Therefore, Experiment 1 tested the following:
 
 ```{hypothesis, statistics-anecdotes-1, name = "effect of statistics for negative anecdotes", echo = TRUE}
 Participants in the high-similarity anecdote & statistics condition (without the
-statistics explanation) and those in the high-similarity anecdote only condition
-will allocate capital equally to the target project.
+enhanced statistics explanation) and those in the high-similarity anecdote only
+condition will allocate capital equally to the target project.
 ```
 
 Participants with additional information on the importance of scientific

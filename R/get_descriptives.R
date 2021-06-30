@@ -108,7 +108,7 @@ get_descriptives <- function(data, iv) {
 
   if (sample == "prolific") {
     sample_description <-
-      "the online recruitment platform Prolific. Participants were compensated at a rate of £5 an hour (Prolific is based in the UK)."
+      "the online recruitment platform Prolific. Participants were compensated at a rate of \\pounds 5 an hour (Prolific is based in the UK)."
   } else if (sample == "sona") {
     sample_description <-
       "a cohort of psychology undergraduates at The University of Sydney. Participants were compensated with course credit."
@@ -120,7 +120,7 @@ get_descriptives <- function(data, iv) {
       "Reddit. Participants were compensated with a virtual Gold Award, which gives the recipient a week of a premium version of Reddit and 100 virtual coins."
   } else if (sample == "prolific_sona") {
     sample_description <-
-      "both the online recruitment platform Prolific and a cohort of psychology undergraduates at The University of Sydney. Participants from Prolific were compensated at a rate of £5 an hour (Prolific is based in the UK), and participants from the undergraduate sample were compensated with course credit."
+      "both the online recruitment platform Prolific and a cohort of psychology undergraduates at The University of Sydney. Participants from Prolific were compensated at a rate of \\pounds 5 an hour (Prolific is based in the UK), and participants from the undergraduate sample were compensated with course credit."
   }
 
   apa <-

@@ -59,7 +59,7 @@ file.path(
   image_trim()
 ```
 
-(ref:project-allocation-target-valence-negative-similarity-low-materials-anecdotes-2) An example of the focal projects in the negative valence, low similarity condition of Experiment 2.
+(ref:project-allocation-target-valence-negative-similarity-low-materials-anecdotes-2) An example of the focal projects in the negative valence, low similarity condition of Experiment 2. Here, Project 1 was the target project and Project 2 was the comparison project.
 
 ```{r project-allocation-target-valence-negative-similarity-low-materials-anecdotes-2, fig.cap = "(ref:project-allocation-target-valence-negative-similarity-low-materials-anecdotes-2)"}
 file.path(
@@ -81,7 +81,7 @@ file.path(
   image_trim()
 ```
 
-(ref:project-allocation-target-valence-positive-similarity-high-materials-anecdotes-2) An example of the focal projects in the positive valence, high similarity condition of Experiment 2.
+(ref:project-allocation-target-valence-positive-similarity-high-materials-anecdotes-2) An example of the focal projects in the positive valence, high similarity condition of Experiment 2. Here, Project 2 was the target project and Project 1 was the comparison project.
 
 ```{r project-allocation-target-valence-positive-similarity-high-materials-anecdotes-2, fig.cap = "(ref:project-allocation-target-valence-positive-similarity-high-materials-anecdotes-2)"}
 file.path(

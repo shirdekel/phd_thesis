@@ -60,7 +60,7 @@ reasons why it may be concerning that much of an organisation's future---and by
 extension often many more components of the economy---depends on the decisions
 of a few individual. First, the role of survivorship bias in obtaining the
 manager's role is unclear, because the number of managers that used the same
-management strategy and failed is unknown. Second, decades of work have shown
+management strategy and failed is unknown. Second, decades of research has shown
 that people's decision-making is often fallible and that job experience does not
 always alleviate this fallibility. Third, managers of large organisations often
 face uncertain environments, which increases the likelihood of managers facing
@@ -68,16 +68,16 @@ psychological biases.
 
 There are many examples of companies that suffered due to such biases.
 Overconfidence and confirmation bias likely played a part in Blockbuster's
-famous refusal of an offer to buy Netflix in 2000 [@meissner2015]. @roxburgh2003
-identified how Equitable Life Assurance Society unnecessarily anchored on
-previous interest rate performance and was unprepared when rates changed. In an
-example of the sunk-cost fallacy, the London Stock Exchange continued investing
-in an automated-settlement system even when it no longer remained profitable.
-The Bank of England needed to step in and stop the project. Overconfidence in
-market entry is also a common issue, illustrated by EMI's introduction into the
-medical-diagnostics market with the CT scanner [@horn2005; @camerer1999]. By
-underestimating the competition and overestimating their own capabilities they
-eventually incurred losses and exited the market.
+famous refusal of an offer to buy Netflix in 2000 [@meissner2015]. Further,
+@roxburgh2003 identified how Equitable Life Assurance Society unnecessarily
+anchored on previous interest rate performance and was unprepared when rates
+changed. In an example of the sunk-cost fallacy, the London Stock Exchange
+continued investing in an automated settlement system even when it no longer
+remained profitable. The Bank of England needed to step in and stop the project.
+Overconfidence in market entry is also a common issue, illustrated by EMI's
+introduction into the medical-diagnostics market with the CT scanner [@horn2005;
+@camerer1999]. By underestimating the competition and overestimating their own
+capabilities they eventually incurred losses and exited the market.
 
 <!-- Not enough work on capital allocation biases -->
 

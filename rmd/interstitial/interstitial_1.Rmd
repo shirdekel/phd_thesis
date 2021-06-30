@@ -63,7 +63,7 @@ abstract metrics are as reliable as the intrinsic project features.
 A concern that arises out of a reliance on such metrics is that underlying
 variance is not taken into account. Forecast estimates such as NPV rely on many
 assumptions and contain much inherent uncertainty, so managers that use them
-should be cautious about over-relying on them. Chapter \@ref(alignment) tested
+should be cautious about over-relying on them. Chapter \@ref(alignment) tests
 people's sensitivity to forecast estimate variance information. That is, will
 people use NPV more when the variance information suggests that it is a reliable
 measure, than when the information suggests that it is unreliable?
@@ -76,27 +76,27 @@ focused on both because they were not explicitly manipulated and because the
 task involved a binary choice (accept or reject). A relative allocation measure
 for multiple projects with systematically varied attributes would allow to
 determine the influence of those different attributes. Therefore,
-Chapter \@ref(alignment) considered the situation in which people are already
+Chapter \@ref(alignment) considers the situation in which people are already
 presented with choices together and asked to evaluate the projects by allocating
 a hypothetical budget.
 
-Further, Chapter \@ref(alignment) identified the factors that affect people's
+Further, Chapter \@ref(alignment) identifies the factors that affect people's
 decisions independently from the potential risk of losing hypothetical money,
 which is a large reason for the effects in the previous chapter. Risk aversion
-was accounted for by making it clear that no losses are possible. This was
+is accounted for by making it clear that no losses are possible. This is
 achieved by using only positive NPVs, which implies that the project is not
 forecasted to lose money.
 
-Chapter \@ref(alignment) also manipulated how easy the project attributes are to
-compare in order to identify the ways that decision-making in a diversified
-organisation might be different to that of a more integrated organisation.
+Chapter \@ref(alignment) also manipulates how easy the project attributes are to
+compare. This helps identify the ways that decision-making in a diversified
+organisation may be different to that of a more integrated organisation.
 Chapter \@ref(aggregation) manipulated similarity by either showing a set of
 projects from the same industry or a set from different industries. This was
 meant to simulate an integrated and diversified firm, respectively. This
 manipulation was not as strong because there were no project attributes that
 could be aligned or not. That is, there was nothing actually non-alignable. This
-may explain the equivocal similarity effect. Chapter \@ref(alignment) more fully
-manipulated alignability by having project attributes be critical to the
-evaluation. These project features were shown explicitly so that the difficulty
-of the comparison is more obvious.
+may explain the equivocal similarity effect. In Chapter \@ref(alignment),
+alignability is more fully manipulated by having project attributes be critical
+to the evaluation. These project features are shown explicitly so that the
+difficulty of the comparison is more obvious.
 

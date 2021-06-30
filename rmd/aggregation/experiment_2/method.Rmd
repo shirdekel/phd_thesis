@@ -45,8 +45,8 @@ file.path(
 
 ##### Follow-up {#follow-up-aggregation-2}
 
-Participants were asked how many projects they think they saw, whether they were
-willing to accept all or none of the projects, and how many they would be
+Participants were asked how many projects they thought they saw, whether they
+were willing to accept all or none of the projects, and how many they would be
 willing to accept if they had to choose a number.
 Appendix \@ref(follow-up-materials-aggregation-2-appendix) shows these
 questions.

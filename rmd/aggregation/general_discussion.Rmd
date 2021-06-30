@@ -77,7 +77,7 @@ set was the risk of the projects. Contrary to @hsee1999, it seems that risk was
 not always accounted for more when projects were presented jointly, rather than
 separately. More study is needed to understand whether the effects that were
 seen in Experiment 1 but not replicated in the subsequent experiments are due to
-statistical chance or specific elements of the experiment.
+statistical chance or unexplored elements of the experiment.
 
 Research on the effect of option similarity on choice [e.g., @markman1995]
 suggests that alignable differences are more important than non-alignable
@@ -135,7 +135,7 @@ would be represented as individual single-play gambles.
 
 It is also possible that similarity effects were not seen because the sequence
 of gambles itself led to naive aggregation for all conditions. One way that this
-could be tested is by interweaving other tasks in between the gambles to break
+could be tested is by interweaving other tasks in-between the gambles to break
 them up. Then similarity may play a role by allowing bracketing across otherwise
 distinct gambles. Multiple sets of gambles can be interweaved with similarity
 alone creating the potential sets. The prediction is that without similarity the

@@ -14,18 +14,18 @@ on capital allocation decisions [@birshan2013]. This section will review some of
 the implications the findings of this thesis may have on both organisational
 policies and manager decision-making.
 
-The findings of Chapter \@ref(aggregation) show that the way that the framing of
-business project proposals important for the way that people perceive their
-risk. Specifically, in order to better account for the risks of business
-projects it is important to (a) make it easier for managers to group projects
-together, and (b) aggregate a portfolio of projects for them. This suggests
-implementing organisational changes that will facilitate the capital allocation
-process. For instance, @lovallo2020 suggested that companies change the
-frequency that they evaluate projects to better allow for an aggregation of the
-projects. Doing this will enable an explicit computation of the aggregated
-values and therefore a visualisation of the outcome probability distribution.
-Such a process could facilitate aggregation without a need to rely on managers'
-intuition during sequential project evaluation decisions.
+The findings of Chapter \@ref(aggregation) show that the framing of business
+project proposals is important for the way that people perceive their risk.
+Specifically, in order to better account for the risks of business projects it
+is important to (a) make it easier for managers to group projects together, and
+(b) aggregate a portfolio of projects for them. This suggests implementing
+organisational changes that will facilitate the capital allocation process. For
+instance, @lovallo2020 suggested that companies change the frequency that they
+evaluate projects to better allow for an aggregation of the projects. Doing this
+will enable an explicit computation of the aggregated values and therefore a
+visualisation of the outcome probability distribution. Such a process could
+facilitate aggregation without a need to rely on managers' intuition during
+sequential project evaluation decisions.
 
 One implication of Chapter \@ref(alignment) is that it is important to expose
 the variance that underlies abstract financial measures. Further, translating
@@ -35,7 +35,7 @@ Organisational changes could include reducing diversification so that there is
 less reliance on abstract metrics. This would allow for more of a comparison
 between alignable project attributes, potentially reducing forecast error.
 @koller2017 found that companies with more similar business units report faster
-growth and greater profitability than competitors, compared to companies with
+growth and greater profitability than competitors, compared with companies with
 dissimilar business units. Further, companies can also work to develop better
 metrics and establish norms about how much to discount a metric given its
 underlying variance.
@@ -62,4 +62,4 @@ financial forecast estimates such as future cash flows and the related
 uncertainty. Therefore, a further source of error could arise from the initial
 estimation of these probability and cash flow values. For instance, such
 estimates could be influenced by optimism or confidence biases. These biases,
-however, can in turn be addressed [@flyvbjerg2018].
+however, can in turn also be addressed [@flyvbjerg2018].

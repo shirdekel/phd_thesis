@@ -7,7 +7,7 @@
 The sample size for Experiment 1 was determined by conducting power analyses
 using the `Superpower` package [@lakens2019]. The package uses experimental
 design, and predicted means and standard deviation, to conduct a priori power
-calculations. Data from @wainberg2018, @jaramillo2019, and @hoeken2009 [Study 3]
+calculations. Data from @wainberg2018, @jaramillo2019, and @hoeken2009 [Study 3]
 was used to determine realistic means and standard deviations for the evidence
 and similarity factors. According to the power functions, the resulting sample
 size is assumed to allow for an expected power of at least 80%.
@@ -24,12 +24,12 @@ conditions.
 
 It was hypothesised that there will only be an effect of similarity for the
 anecdote only and anecdote & statistics conditions. As such, the data from
-@hoeken2009 [Study 3] were used to determine the corresponding mean values for
+@hoeken2009 [Study 3] were used to determine the corresponding mean values for
 the low similarity condition. Specifically, each predicted mean was multiplied
-by the Cohen's $d_z$ of the similarity effect in @hoeken2009 [Study 3].
+by the Cohen's $d_z$ of the similarity effect in @hoeken2009 [Study 3].
 
 To determine the predicted standard deviation, the data from @jaramillo2019
-[Experiment 2] and @hoeken2009 [Study 3] were re-analysed to determine the
+[Experiment 2] and @hoeken2009 [Study 3] were re-analysed to determine the
 coefficient of variation (CV) of each condition. Each CV was then converted to a
 standard deviation value in the relevant scale by multiplying the mean of the CV
 values by the predicted means from above.

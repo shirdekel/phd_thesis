@@ -99,8 +99,8 @@ Similarly, the ratings trends for positive anecdotes were as hypothesised, but
 their interaction not significant. It appears that specific relevance ratings
 were related to allocations, but only in the high similarity condition. Further,
 there were no significant associations with the general relevance ratings. This
-provides limited evidence that people were reasoning about the connection
-between the anecdote and target.
+provides limited evidence that people were explicitly reasoning about the
+connection between the anecdote and target.
 
 (ref:plot-anecdotes-2-lm-allocation-relevance-specific-similarity) Mean allocation to the target project, by specific relevance rating, similarity condition, and valence condition. LOESS method was used for smoothing over trials and the shading represents 95% confidence intervals. Raw data are plotted in the background.
 

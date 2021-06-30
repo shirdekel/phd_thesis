@@ -1,8 +1,8 @@
 (ref:conclusion-quote) ---Amos Tversky
 
 ```{block type='savequote', quote_author='(ref:conclusion-quote)', include=knitr::is_latex_output(), echo = TRUE}
-work...primarily concerned with the psychological processes that govern judgment
-and inference...portrayed people as fallible, not irrational.
+Work ... primarily concerned with the psychological processes that govern
+judgment and inference ... portrayed people as fallible, not irrational.
 ```
 
 # Discussion {#discussion}
@@ -59,15 +59,15 @@ attributes were alignable, or only the abstract financial metric (NPV) was
 alignable. NPV was also manipulated to be considered as either a reliable metric
 or not. This information was expressed either as explicit verbal instruction or
 as numerical ranges. The results showed that when reliability information was
-presented verbally, participants used it appropriately when all project
+presented verbally, participants used NPV appropriately when all project
 attributes were completely alignable. That is, they used it when it was reliable
 and used the intrinsic project features when it was unreliable. When only NPV
 was alignable, participants relied on it almost exclusively. However, when
 reliability information was presented numerically, participants' allocation did
 not depend on the ranges---participants used NPV even when they had an
 opportunity to use the intrinsic features of the project. Overall, however,
-participants tended to rely on NPV more when projects were low in alignment than
-when they were high in alignment.
+participants relied on NPV more when projects were low in alignment than when
+they were high in alignment.
 
 Chapter \@ref(anecdotes) investigated the effect of anecdote similarity on
 allocations when the anecdote conflicted with the statistical data. Participants
@@ -122,9 +122,8 @@ understanding of these statistical concepts or (at least sensitivity to this
 kind of information). Instead there appear to be important contextual factors
 that critically support or prevent people from showing their intuitive
 understanding. Unfortunately, the methods used in this thesis more closely
-resemble real decisions managers make, than the prior research that showed
-people do think with these kinds of statistical concepts. Further, it is not
-clear that these effects will simply disappear with just more maths knowledge
-and business experience. Previous work showed that expertise does not always
-remove biases and in some cases it seems to augment such effects [e.g.,
-@haigh2005].
+resemble real decisions managers make than the prior research that showed people
+do reason with these kinds of statistical concepts. Further, it is not clear
+that these effects will simply disappear with just more maths knowledge and
+business experience. Previous work showed that expertise does not always remove
+biases and in some cases it seems to augment such effects [e.g., @haigh2005].

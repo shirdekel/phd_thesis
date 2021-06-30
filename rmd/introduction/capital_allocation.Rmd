@@ -56,12 +56,12 @@ metrics that estimate the returns on the investment. There are many such
 metrics; they usually attempt to encapsulate a trade-off between predicted
 future gains, present losses (in the form of the capital spent to pay for the
 investment), and opportunity costs. Examples include net present value (NPV),
-internal rate of return (IRR), return on investment (ROI), cost-benefit (CB),
-and pay-back period (PBP). This thesis focuses on NPV, since it is one of the
-most frequently used metrics for project evaluation [@graham2001; @remer1993;
-@graham2015]. NPV is the difference between the money that a project is
-forecasted to make and the initial investment in its development (accounting for
-the time value of money), as shown in Equation \@ref(eq:npv):
+internal rate of return, return on investment, cost-benefit, and pay-back
+period. This thesis focuses on NPV, since it is one of the most frequently used
+metrics for project evaluation [@graham2001; @remer1993; @graham2015]. NPV is
+the difference between the money that a project is forecasted to make and the
+initial investment in its development (accounting for the time value of money),
+as shown in Equation \@ref(eq:npv):
 
 \begin{equation}
 \text{NPV}=\sum_{t=0}^n \frac{R_t}{(1+i)^t}, (\#eq:npv)

@@ -1,7 +1,7 @@
 ### Discussion {#discussion-aggregation-4}
 
 Experiment 2 found support for
-Hypothesis \@ref(hyp:distribution-aggregation-2)). Seeing an outcome
+Hypothesis \@ref(hyp:distribution-aggregation-2). Seeing an outcome
 distribution of a business project portfolio had a strong effect on
 participants' decision-making. Participants indicated that they would invest in
 more projects and were more likely to indicate that they would invest in the

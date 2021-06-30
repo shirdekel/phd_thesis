@@ -13,7 +13,7 @@ sample saw an outcome probability distribution as in the previous literature
 [e.g., @redelmeier1992; @webb2017] to determine their risk aversion when the
 gambles are explicitly aggregated. In contrast to most of the repeated-play
 choice literature, each choice was presented without subsequent feedback.
-Further, in contrast to Experiment 1, the distribution were displayed alongside
+Further, in contrast to Experiment 1, the distribution was displayed alongside
 each gamble, as opposed to only at the very end. This is an important
 manipulation because finding out whether it is effective will (a) add to the
 understanding of the conditions necessary for mathematical aggregation (beyond a

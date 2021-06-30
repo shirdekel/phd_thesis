@@ -16,8 +16,8 @@ alignment conditions than in the low alignment conditions,
 `r results_alignment_2$allocation$low_high_linear_low_high`. Specifically, in
 the high alignment conditions, the NPV trend was stronger in the high NPV
 reliability condition than in the low NPV reliability condition,
-`r results_alignment_2$allocation$low_high_linear_high`, while in the low
-alignment conditions, there was no significant difference between the two
+`r results_alignment_2$allocation$low_high_linear_high`. In the low alignment
+conditions, there was no significant difference between the two
 reliability conditions, `r results_alignment_2$allocation$low_high_linear_low`.
 This shows that participants only used the NPV reliability information in their
 allocation decisions when projects were similar, not when they were dissimilar.

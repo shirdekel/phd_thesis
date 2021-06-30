@@ -9,10 +9,10 @@ tar_load(plot_anecdotes_2)
 
 Experiment 1 replicated the anecdotal bias effect found in the literature. That
 is, participants allocated less capital to a project when presented with an
-anecdote & conflicting statistics compared with when they were presented with
+anecdote and conflicting statistics compared with when they were presented with
 the statistics only. However, this effect depended on anecdote similarity, such
 that anecdotal bias was stronger when the anecdote was similar to the current
-task compared with when it was dissimilar. a negative anecdote only was used
+task compared with when it was dissimilar. A negative anecdote only was used
 Experiment 1 because previous research has found anecdotal bias for negative but
 not for positive anecdotes [@jaramillo2019]. However, @jaramillo2019
 investigated medical decision-making, and the effect of anecdote valence may be
@@ -36,16 +36,16 @@ anecdote only condition or the anecdote & statistics condition. These four
 anecdote displays consisted of the similarity (low and high) $\times$ valence
 (negative and positive) conditions.
 
-In Experiment 1, assumptions about the pool from which the anecdote was sampled
-were not clarified. In Experiment 2, participants were told that the anecdote
+In Experiment 1, assumptions about the pool from which the anecdote was sampled
+were not clarified. In Experiment 2, participants were told that the anecdote
 was sampled randomly and that it was not uniquely similar to the target project.
 This was expected to lead to a reliance on statistical evidence, regardless of
 the anecdote's similarity. However, people often struggle to use statistical
 concepts presented descriptively, as seen in the enhanced statistics condition
-in Experiment 1, the neglect of variance shown in Chapter \@ref(alignment), and
+in Experiment 1, the neglect of variance shown in Chapter \@ref(alignment), and
 the lack of risk aggregation in descriptive risky decisions shown in
 Chapter \@ref(aggregation). Therefore, it was expected that the results of
-Experiment 1 would be replicated for the negative valence condition. Further, it
+Experiment 1 would be replicated for the negative valence condition. Further, it
 was expected that there would be a reverse effect in the positive valence
 condition. Appendix \@ref(anecdotes-2-appendix) shows a simulation of the
 hypothesised effects. Therefore, Experiment 2 tested the following hypothesis:
@@ -56,16 +56,28 @@ statistics only) interaction is significant
 ```
 
 The main effect of interest was the effect of anecdote similarity on anecdotal
-bias. Therefore, as well as retesting
-Hypothesis \@ref(hyp:anecdote-similarity-anecdotes-1) for negative anecdotes,
-Experiment 2 tested the following hypothesis:
+bias. However, because in Experiment 2 all participants were presented with the
+statistics only condition, a difference score was calculated to simplify the
+analyses. Specifically, this was the difference between the allocation in the
+anecdote & statistics conditions and the relevant allocation in the statistics
+only condition. A score that is different from zero indicates deviation from the
+allocation when only statistics were shown. For positive valence, a stronger
+influence of anecdote is indicated by a lower difference score; whereas for
+negative valence, a stronger influence of anecdote is indicated by a higher
+difference score. Therefore, Experiment 2 tested the following hypotheses:
 
-```{hypothesis, anecdote-similarity-anecdotes-2, name = "anecdotal bias depends on the similarity of positive anecdotes", echo = TRUE}
-For positive anecdotes, budget allocations to the target project will be higher
-in the statistics only condition than in both the anecdote & statistics
-conditions (high and low similarity). Within these two anecdote & statistics
-conditions, allocations will be higher when the anecdote is similar to the
-target project compared with when it is dissimilar.
+```{hypothesis, anecdote-similarity-negative-anecdotes-2, name = "anecdotal bias difference score for negative anecdotes", echo = TRUE}
+For negative anecdotes, the difference between budget allocations to the target
+project in the statistics only condition and the anecdote & statistics condition
+will be higher when the anecdote is similar to the target project compared with
+when it is dissimilar.
+```
+
+```{hypothesis, anecdote-similarity-positive-anecdotes-2, name = "anecdotal bias difference score for positive anecdotes", echo = TRUE}
+For positive anecdotes, the difference between budget allocations to the target
+project in the statistics only condition and the anecdote & statistics condition
+will be lower when the anecdote is similar to the target project compared with
+when it is dissimilar.
 ```
 
 Contrary to both @wainberg2013 and Hypothesis \@ref(hyp:statistics-anecdotes-1),

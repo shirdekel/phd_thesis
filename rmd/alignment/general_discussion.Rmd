@@ -32,8 +32,8 @@ choices. If other alignable differences were available, then participants were
 willing to reduce their use of a reportedly unreliable alignable measure (or use
 it when told that it was reliable). However, when no other alignable differences
 were available, then the alignable, albeit unreliable, measure was more likely
-to be used. This was found in both Experiments 1 and 3, as well as as in the
-pilot study to a lesser extent (reported in Appendix \@ref(alignment-1)).
+to be used. This was found in both Experiments 1 and 3, as well as in a pilot
+study to a lesser extent (reported in Appendix \@ref(alignment-1)).
 
 Financial measures such as NPV are useful because of their alignability. That
 is, they may serve as an alignable difference, regardless of the inherent

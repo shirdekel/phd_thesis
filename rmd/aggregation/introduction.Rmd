@@ -26,7 +26,7 @@ multi-business firm building a mine.
 While these decisions are separated in time, they are often not so far apart
 that it is easy to learn from past outcomes (and sometimes the outcomes
 themselves are unclear). This is because the outcomes of large investments are
-often delayed. As such, the decision-maker cannot always use the knowledge of
+often delayed. Therefore, the decision-maker cannot always use the knowledge of
 the returns of one investment when evaluating a subsequent investment. Any
 results that a farmer may identify from using a new technology will only become
 apparent after many seasons of use. Similarly, it will take many years for a
@@ -41,11 +41,11 @@ literature suggests that this process may be difficult for people to use. Work
 on prospect theory [@kahneman1979] suggests that people's evaluation of gambles
 does not conform to expected utility theory and is prone to framing effects.
 Specifically, people typically evaluate gambles one by one [@rabin2009;
-@tversky1981; @kahneman1993]. As such, it is unlikely that people will be able
+@tversky1981; @kahneman1993]. Therefore, it is unlikely that people will be able
 to aggregate risk when they do not perceive a series of investments as a
 portfolio. So, what would encourage people to aggregate risk? The literature on
 *choice bracketing* [@read1999] shows that grouping a set of individual gambles
-together facilitates risk aggregation. As such, the current work provides two
+together facilitates risk aggregation. Therefore, the current work provides two
 primary contributions. First, this work is the first to investigate the effect
 of choice bracketing on risk aggregation in independent gambles evaluated
 without immediate returns. Second, this work introduces novel choice bracketing
@@ -62,7 +62,7 @@ paradigms participants experienced individual outcomes from the eventual outcome
 distribution of the gambles, meaning that aggregation was confounded with
 learning.
 
-As mentioned above, in real-life there is usually a significant delay between
+As mentioned above, in real life there is usually a significant delay between
 the choice a person or firm makes and the outcome of that choice, and there are
 likely to be several interim choices in the meantime. This is especially true
 for business executives, who would typically have to wait months or years before
@@ -70,7 +70,7 @@ beginning to understand the consequences of their decision, and even then the
 outcome may be unclear. However, previous work did not investigate the effect of
 choice bracketing on risky choice without feedback. This is surprising, since
 choice bracketing is exactly the kind of process that should promote aggregation
-in these more realistic decisions. As such, this chapter investigated new ways
+in these more realistic decisions. Therefore, this chapter investigated new ways
 of encouraging participants to bracket their risky choices, but with a paradigm
 that involves a series of independent choices without feedback. In this way, the
 paradigm is more isometric with real-life risky choice.
@@ -80,10 +80,10 @@ paradigm is more isometric with real-life risky choice.
 Despite the difficulties of risk aggregation, people seem to aggregate "naively"
 when considering multiple gambles. @samuelson1963 told of a colleague who
 rejected a gamble that involved a 50% chance of gaining $200 and a 50% of losing
-$100, despite the gamble's positive Expected Value (EV). That is, $200 \cdot
-0.5 - 100 \cdot 0.5 = 50$. Rejection of a positive EV gamble out of fear of the
-possible loss is classic loss aversion. However, the same colleague said he
-would accept 100 plays of the same gamble. Samuelson argued that this choice is
+$100, despite the gamble's positive EV. That is, $200 \cdot 0.5 - 100 \cdot 0.5
+= 50$. Rejection of a positive EV gamble out of fear of the possible loss is
+classic loss aversion. However, the same colleague said he would accept 100
+plays of the same gamble. Samuelson argued that this choice is
 irrational.[^normative] Intuitively, it is clear that over the course of 100
 gambles, the positive EV wins out, and a net loss of money is extremely
 unlikely. Samuelson's colleague was more risk averse when making a single
@@ -138,7 +138,7 @@ the attractiveness of the multi-play gamble clearer. This work suggests that
 participants can comprehend and respond to aggregated risk, but that they
 struggle to compute the aggregation without external help.
 
-(ref:samuelson-distribution-10) The outcome probability distribution of the @samuelson1963 gamble (50% chance of gaining $200 and a 50% of losing $100) played 10 times.
+(ref:samuelson-distribution-10) The outcome probability distribution of the @samuelson1963 gamble (50% chance of gaining $200 and a 50% of losing $100) played 10 times. Green bars represent gains and red bars represent losses.
 
 ```{r samuelson-distribution-10, fig.cap = "(ref:samuelson-distribution-10)"}
 tar_read(samuelson_distribution)
@@ -146,13 +146,13 @@ tar_read(samuelson_distribution)
 
 ### Repeated-Play Gambles
 
-Decisions in real life are usually sequential, and rarely identical as in the
+Decisions in real life are usually sequential and rarely identical as in the
 multi-play paradigm [cf. @barron2003]. That is, people tend to be confronted
 with individual choices whose outcomes and outcome probabilities are different
-from one choice to another, and these choices occur at different points in time.
+from one choice to another and these choices occur at different points in time.
 In a business setting this can be seen in decisions about whether to invest in
 new projects; proposals and opportunities differ widely and occur at different
-times. Managers are not ever simply asked: "here are 10 identical investments to
+times. Managers are never simply asked: "here are 10 identical investments to
 consider; do you want all or none of them?"
 
 In *repeated-play* (rather than multi-play) gamble paradigms, participants make
@@ -168,7 +168,7 @@ mitigated when people are explicitly instructed to consider the options as a
 part of a portfolio [@sokolhessner2009; @sokolhessner2012].
 
 These studies are closer to real-life decisions than the multi-play gamble
-paradigm, because they involve a set of separate gamble decisions, rather than a
+paradigm because they involve a set of separate gamble decisions rather than a
 single decision about a set of gambles. However, for the most part, the
 experiments used in the repeated-play gamble literature use various forms of
 feedback throughout the course of the experiment. That is, participants are
@@ -195,8 +195,9 @@ understood the independent lotteries as identical or non-identical. This reduces
 the external validity of the study, as most independent risky choice involves
 non-identical outcomes and probabilities. In sum, these studies were not
 designed to research how to facilitate risk aggregation and reduce loss
-aversion. This chapter is novel because its goal is to facilitate risk
-aggregation without the experimental artefact of immediate feedback.
+aversion. The experiments in this chapter are novel because their goal is to
+facilitate risk aggregation without the experimental artefact of immediate
+feedback.
 
 ### Choice Bracketing
 
@@ -251,7 +252,7 @@ industries. Of course, the similarity of decision contexts does not change the
 maths of risk aggregation, but may well affect whether people do aggregate risk
 across decisions. @dekay2005 found that multi-play effects are not seen when
 choices are not considered fungible. For instance, participants aggregated
-across dollar amounts, but not across patients in a medical decision. As such,
+across dollar amounts, but not across patients in a medical decision. Therefore,
 people may behave similarly when considering a set of dissimilar choices if they
 do not consider them fungible.
 
@@ -270,10 +271,10 @@ which the mere awareness of the possibility of a grouping of choices reduces
 risk aversion. It is important to investigate the effect of similarity
 especially because in managerial settings, executives in multi-business firms
 will often have to make comparisons across industries that are hard to compare.
-For instance, General Electric currently develops both analytic software
-products and jet engines for the military. They had been even more diversified
-previously, at one stage simultaneously developing home appliances and owning
-the NBC television network.
+For instance, GE currently develops both analytic software products and jet
+engines for the military. They had been even more diversified previously, at one
+stage simultaneously developing home appliances and owning the NBC television
+network.
 
 <!-- Presentation -->
 
@@ -290,7 +291,7 @@ bracketing because it forces a participant to view of all the components of a
 decision together. Participants may therefore be more likely to consider
 aggregating the risk involved in a set of choices when all those choices are in
 view. Joint presentation potentially reduces the working memory load otherwise
-needed to maintain that set of choices. As such, it is quite possible that a
+needed to maintain that set of choices. Therefore, it is quite possible that a
 combination of highly similar choices, presented jointly will lead to the
 highest likelihood of broad bracketing, and thus risk aggregation.
 
@@ -332,18 +333,18 @@ choices. Usually in life, people encounter risky choices sequentially, and so
 the risk of each individual choice is more salient than the aggregated risk of
 an arbitrary combination of choices.
 
-@lovallo2020 show that executives treat investments within their own company in
-isolation. In multi-business firms, the managers of each business unit often
-make the investment decisions about individual projects. As such, they often do
-not consider the scope of their decisions in the context of the entire company.
-For instance, Nobel laureate Richard Thaler offered 25 division managers working
-for the same firm a hypothetical investment that involves a 50% chance of
-gaining $2 million for the company and a 50% chance of losing $1 million
-[-@thaler1999]. Only three managers said they would accept the investment.
-However, the CEO indicated that he would have clearly preferred managers to
-accept all the investments. To each middle-manager, the choice represents a risk
-of loss for their division and potentially their job, whereas for the CEO the
-entire portfolio of choices represents a worthwhile risk.
+@lovallo2020 showed that executives treat investments within their own company
+in isolation. In multi-business firms, the managers of each business unit often
+make the investment decisions about individual projects. Therefore, they often
+do not consider the scope of their decisions in the context of the entire
+company. For instance, Nobel laureate Richard Thaler offered 25 division
+managers working for the same firm a hypothetical investment that involves a 50%
+chance of gaining $2 million for the company and a 50% chance of losing $1
+million [-@thaler1999]. Only three managers said they would accept the
+investment. However, the CEO indicated that he would have clearly preferred
+managers to accept all the investments. To each middle-manager, the choice
+represents a risk of loss for their division and potentially their job, whereas
+for the CEO the entire portfolio of choices represents a worthwhile risk.
 
 This chapter investigates risky choice in the context of business project
 investment internal to a company because this is a real-world context where

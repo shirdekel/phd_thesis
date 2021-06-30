@@ -1,10 +1,10 @@
-## Chapter overview {#chapter-overview}
+## Chapter Overview {#chapter-overview}
 
 In sum, the potential consequences of a diversified hierarchical structure are
 that business projects will be considered one at a time, and if they are
 considered together, disparate project types will make comparisons hard.
 Considering projects one by one might mean that risk is not aggregated across
-projects and therefore value is lost. The difficultly to compare will lead to
+projects and therefore value is lost. The difficulty to compare will lead to
 both potentially relying on unreliable metrics, and relying on improper
 anecdotal evidence. The thesis is that people often go half-way. They do not
 completely disregard the normative strategy, but also struggle to use
@@ -12,21 +12,21 @@ statistical concepts such as aggregation, variance, and sampling.
 
 The previous section identified three capital allocation processes that are
 currently under-studied and so are important to investigate further. First, the
-evaluation of individual project proposals might lead to managers only
-considering such projects one at a time, despite the opportunity of aggregating
-a portfolio of such projects. The choice bracketing literature suggests that
-there are ways of facilitating such aggregation, but does not investigate this
-without providing participants inter-trial feedback. Second, in situations in
-which managers compare multiple projects, the structural alignment literature
-suggests that managers in diversified firms will struggle to allocate capital,
-more than those in more integrated firms. Further, these managers might not be
-sensitive to the variance inherent in the financial metrics they rely on. Third,
-a difficulty to compare across existing projects might instead mean a reliance
-on prior case studies from personal or external experience. Research on
-anecdotal bias suggests that managers might rely more on such case studies than
-on aggregated data, but it is unclear whether their decisions will depend on
-anecdote relevance. Further, it is unclear if they will appropriately use
-information about the anecdote's sample distribution.
+evaluation of individual project proposals may lead to managers only considering
+such projects one at a time, despite the opportunity of aggregating a portfolio
+of such projects. The choice bracketing literature suggests that there are ways
+of facilitating such aggregation, but does not investigate this without
+providing participants inter-trial feedback. Second, in situations in which
+managers compare multiple projects, the structural alignment literature suggests
+that managers in diversified firms will struggle to allocate capital, more than
+those in more integrated firms. Further, these managers may not be sensitive to
+the variance inherent in the financial metrics they rely on. Third, a difficulty
+to compare across existing projects may instead mean a reliance on prior case
+studies from personal or external experience. Research on anecdotal bias
+suggests that managers may rely more on such case studies than on aggregated
+data, but it is unclear whether their decisions will depend on anecdote
+relevance. Further, it is unclear if they will appropriately use information
+about the anecdote's sample distribution.
 
 The rest of this thesis investigates the psychology of capital allocation
 decisions in three chapters that describe empirical work, two theoretical
