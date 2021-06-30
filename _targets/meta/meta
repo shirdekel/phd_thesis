@@ -8,23 +8,23 @@ get_combined|function|a4ba8a6d9958a69b||||||||||||||
 .__S3MethodsTable__.|object|53e05a0f51948f75||||||||||||||
 .__NAMESPACE__.|object|19a9ba15205b3d78||||||||||||||
 .packageName|object|7eb0deedf3afeaa4||||||||||||||
+get_omnibus_aggregation_1_awareness|function|8963f527417f4738||||||||||||||
+get_omnibus_aggregation_1_presentation|function|096ed4011ec7fb90||||||||||||||
+get_omnibus_aggregation_1_presentation_similarity|function|49210733d34cb90e||||||||||||||
+plot_alignment_1|stem|8330ee37484b9b7c|ac6448000441578c|e90ff4e2525ddb44|912073421||t18806.2993041975s|2e5d986f49c17f64|12546278|rds|vector|||1.013||
+plot_alignment_2|stem|8e41f6d787c9a671|ccb0f70d6505ca62|4139c4a37741c1a0|-13093756||t18806.2993901639s|983afbd28e3ff3bc|17476333|rds|vector|||1.93|Missing values for following IDs1, 2, 3, 4, 5, 12, 14, 15, 21, 25, 27, 28, 29, 30, 32, 34, 37, 40, 41, 42, 46, 48, 50, 51, 5|
+plot_alignment_3|stem|694b1e2863749891|eabdda0ab3137654|551b15a226c36a05|-226878712||t18807.2635126804s|1d6ba42869ea6a2c|205274|rds|vector|||4.609|More than one observation per cell, aggregating the data using mean i.e, fun_aggregate  mean|
+plot_anecdotes_1|stem|ecf9a435fc1a9a38|b9a1090712358f5e|ec1888ff63d966b5|-226286957||t18806.2254940284s|8724e09caf62a369|811480|rds|vector|||1.112||
+plot_anecdotes_2|stem|1513a90f7a905dd2|11d491afb11c162d|49bb41f721e4325e|-1823808480||t18806.2255173158s|293dc817252b69da|2066754|rds|vector|||0.946|Panels show a mixed withinbetweendesign.Error bars do not allow comparisons across all means.Suppress error bars with err|
+plot_alignment_5|stem|767abac372d9e5cd|754dd3adb1602e34|1b26895b37f20837|-315387777||t18806.225618836s|5453194814efc769|219372|rds|vector|||8.663|Panels show a mixed withinbetweendesign.Error bars do not allow comparisons across all means.Suppress error bars with err|
+plot_alignment_6|stem|56f98d7aebbef50b|a35202d2e1cbd1fb|7a18d48cec4c93d1|441051819||t18806.225626744s|4e08c5fd66150a34|103899|rds|vector|||0.623|Panels show a mixed withinbetweendesign.Error bars do not allow comparisons across all means.Suppress error bars with err|
 plot_alignment_7|stem|82c72f3a9a4a7282|98b296ac77045ba9|6f3acd631dd1ad40|159861030||t18802.2408419297s|7c5a83a570be75e5|222142|rds|vector|||0.119||
-plot_alignment_1|stem|78151cc3f9f2beba|ac6448000441578c|17df6d83ec06fece|912073421||t18802.4266930234s|2d92b14011af8f28|12546270|rds|vector|||0.861||
-plot_alignment_2|stem|7d63c4bb724e2927|ccb0f70d6505ca62|4e9424b640034517|-13093756||t18802.4267880597s|8f10b304e61bfe9b|17476332|rds|vector|||1.802|Missing values for following IDs1, 2, 3, 4, 5, 12, 14, 15, 21, 25, 27, 28, 29, 30, 32, 34, 37, 40, 41, 42, 46, 48, 50, 51, 5|
-plot_alignment_3|stem|b9aa38dc41d0b087|eabdda0ab3137654|27b01069523da53e|-226878712||t18802.4269118199s|dae8a77b4df9d789|172240|rds|vector|||10.138||
-plot_alignment_5|stem|1008cf3910fb087b|754dd3adb1602e34|446020775a41d825|-315387777||t18802.4270847718s|8d48bab8d9d6c519|219385|rds|vector|||8.409|Panels show a mixed withinbetweendesign.Error bars do not allow comparisons across all means.Suppress error bars with err|
-plot_alignment_6|stem|97207b99ad390090|a35202d2e1cbd1fb|eb45938c21759060|441051819||t18802.4270899915s|56b16b7ffa76a256|103911|rds|vector|||0.393|Panels show a mixed withinbetweendesign.Error bars do not allow comparisons across all means.Suppress error bars with err|
-plot_alignment_8|stem|5b7466255ff785ae|163d320a1e1c1584|43d0f52f118d7a82|-1226071060||t18802.4282410284s|9dc5c5ba2c860629|192781|rds|vector|||99.344||
-prospect_theory|stem|da28ca75f146d633|b7e794ebd302616b|67d6de522f18ec73|1964522308||t18802.4282504153s|d03f69f196b1bde1|107003|rds|vector|||0.132||
+plot_alignment_8|stem|435de01c32c0e533|163d320a1e1c1584|68bd08d1dde9453d|-1226071060||t18806.3005775634s|04785bb35fcb4317|192777|rds|vector|||98.704||
+prospect_theory|stem|da28ca75f146d633|b7e794ebd302616b|67d6de522f18ec73|1964522308||t18805.4791087963s|d03f69f196b1bde1|107003|rds|vector|||0.155||
 plot_aggregation_1|stem|e506f2bb7901dd7c|f0268ac9902f33b6|f77e5338b8f35634|-1514410485||t18802.428269052s|5479a75503a021c9|2190435|rds|vector|||0.621||
 plot_aggregation_2|stem|135f2b218dce772d|886c929a2f69532b|5db5790952b8c6a3|-1867856919||t18802.4283006047s|40b24685c8756607|2344337|rds|vector|||1.108|More than one observation per cell, aggregating the data using mean i.e, fun_aggregate  mean|
 plot_aggregation_3|stem|872d413252e71dd7|75c487816b376a5f|ffcc12e804c22e17|309938064||t18802.4326684206s|a90745319a68ab7a|4797804|rds|vector|||0.577||
 plot_aggregation_4|stem|37f8e90a655c2e88|87f7b6080f0a7136|ee2f4aa0cca67015|1294187748||t18802.4327217828s|8cff5489cfc4f805|7772232|rds|vector|||0.288||
-plot_anecdotes_1|stem|745bb56abef85237|b9a1090712358f5e|bad6b9a3818b4262|-226286957||t18802.9471175975s|d6d78f7b255158cc|811468|rds|vector|||1.149||
-plot_anecdotes_2|stem|0c4ce4c6a44bcc91|11d491afb11c162d|6056778e42441f80|-1823808480||t18802.9471335385s|cb2100de5bdfa2a2|2066748|rds|vector|||0.915|Panels show a mixed withinbetweendesign.Error bars do not allow comparisons across all means.Suppress error bars with err|
-get_omnibus_aggregation_1_awareness|function|8963f527417f4738||||||||||||||
-get_omnibus_aggregation_1_presentation|function|096ed4011ec7fb90||||||||||||||
-get_omnibus_aggregation_1_presentation_similarity|function|49210733d34cb90e||||||||||||||
 extract_from|function|f0a2340ed18d3248||||||||||||||
 get_anecdotes_only_similarity|function|57e0d180ff8f6ed1||||||||||||||
 prospect_theory_value|function|c7fe3c94f95c703f||||||||||||||
@@ -35,7 +35,7 @@ get_omnibus_anecdotes_2_allocation|function|5892d4049b9b6456||||||||||||||
 get_similarity_high_anecdote|function|2d00e8588961ad48||||||||||||||
 .__rlang_downstream_check__.|object|48ec81a676f5b3f7||||||||||||||
 fit_glmer|function|099a25ace2c5a012||||||||||||||
-plot_allocation_anecdotes_2|function|62d700ca4493b9c4||||||||||||||
+plot_allocation_anecdotes_2|function|ce383e426bbca72b||||||||||||||
 get_results_ttest|function|c12fff6de3411c23||||||||||||||
 get_ttest_apa|function|b4c48f95df5a8b4f||||||||||||||
 apa_print_emtrends|function|9a2347b8f901dd07||||||||||||||
@@ -60,20 +60,21 @@ get_omnibus_anecdotes_1_allocation_combined|function|a596d2e71f246f16|||||||||||
 get_omnibus_alignment_6|function|7cb01f96aa5f404b||||||||||||||
 afex_plot_npv_knowledge|function|03d02b99afccb7ff||||||||||||||
 get_omnibus_anecdotes_2_allocation_difference|function|36dc0ed4d565880e||||||||||||||
-afex_plot_alignment_1|function|0b7679030d52f176||||||||||||||
+afex_plot_alignment_1|function|57240950c12dc89f||||||||||||||
 get_omnibus_alignment_1|function|1d0f70a2e9199c00||||||||||||||
 get_allocation_similarity_rating|function|935abd7df17c0457||||||||||||||
-afex_plot_alignment_3|function|26870229a569ab30||||||||||||||
-afex_plot_alignment_4|function|e40b7f5589d4e288||||||||||||||
-afex_plot_alignment_6|function|794d11bd303746fc||||||||||||||
+afex_plot_alignment_3|function|eb2bac34aa0482f7||||||||||||||
+get_variance_lecture_omnibus|function|2c5bd468335dada7||||||||||||||
+afex_plot_alignment_4|function|6ac1835d6cd7becc||||||||||||||
+afex_plot_alignment_6|function|878c23458e9f4d97||||||||||||||
 get_function_call|function|57f3eca8bd6c40cf||||||||||||||
 get_plot_alignment_7|function|d547bc77da41e8ea||||||||||||||
 get_iv|function|ca46a6a8efb88aa0||||||||||||||
-clean_condition_names|function|353ea1ba3b9b2f20||||||||||||||
+clean_condition_names|function|e28172087068f7bb||||||||||||||
 diffuse_non_na|function|968c3a4a94f43741||||||||||||||
-afex_plot_alignment_8|function|cbca2603f7ec6423||||||||||||||
+afex_plot_alignment_8|function|e93ec199b0f93b28||||||||||||||
 get_omnibus_alignment_8|function|6f2ee9d9faf48f17||||||||||||||
-thesis_deps|object|f0be8fc93a46c8eb||||||||||||||
+thesis_deps|object|b4bd66b5da0bef40||||||||||||||
 get_model_similarity_rating|function|9f4353274dfd09c7||||||||||||||
 get_results_all_alignment_7|function|6e24ab80141f0df7||||||||||||||
 get_materials|function|534481fa96fc3bed||||||||||||||
@@ -82,7 +83,7 @@ get_thesis_project|function|21028bba036e10d4||||||||||||||
 get_similarity_rating_similarity|function|f2b97ec5f76a8c34||||||||||||||
 get_simple_effects_alignment_8|function|68ec478178362e44||||||||||||||
 keep_duplicates|function|43e1cc50bc3628f7||||||||||||||
-.Random.seed|object|e161ec6cfec2e279||||||||||||||
+.Random.seed|object|5020b86de6e3b48c||||||||||||||
 plot_prospect_theory|function|9a4c50928b43cbde||||||||||||||
 get_allocation|function|1d51560af11ce4d3||||||||||||||
 get_results_glmer|function|a2c9281d9b127c9e||||||||||||||
@@ -96,50 +97,50 @@ get_plot_aggregation_4|function|6adf19b2d4d01b23||||||||||||||
 get_all_results_alignment_2|function|7d5acde7e3fe8af7||||||||||||||
 get_all_results_alignment_3|function|099a70e155dee6f1||||||||||||||
 get_all_results_alignment_4|function|95b6529f518aeafe||||||||||||||
-get_plot_anecdotes_1|function|20a633b794ee5a49||||||||||||||
+get_plot_anecdotes_1|function|1e028d84de42c1cc||||||||||||||
 get_results_anecdotes_1|function|65f1ff7d13da8780||||||||||||||
 get_all_results_alignment_6|function|a5096c4aceccdb0a||||||||||||||
-get_plot_anecdotes_2|function|2fb4b4122893bf20||||||||||||||
+get_plot_anecdotes_2|function|c96ccc95975d118a||||||||||||||
 get_allocation_difference|function|39fbea805646bef8||||||||||||||
-get_plot_alignment_2|function|d427b4d78f3a716e||||||||||||||
-get_plot_alignment_1|function|cbe838f18408a398||||||||||||||
+get_plot_alignment_2|function|a2778352aac9223a||||||||||||||
+get_plot_alignment_1|function|1206a1b41a1da7fe||||||||||||||
 get_results_alignment_1|function|728ddb66b6371afb||||||||||||||
-get_plot_alignment_3|function|12376e474b789c39||||||||||||||
-get_plot_alignment_4|function|830d9d2dbebb044a||||||||||||||
-get_plot_alignment_5|function|ea2ee8b37b592608||||||||||||||
-get_plot_alignment_6|function|ea9f0f9cebc6ba20||||||||||||||
+get_plot_alignment_3|function|b2effb6b1bb19b82||||||||||||||
+get_plot_alignment_4|function|8fdc85ee12a57c99||||||||||||||
+get_plot_alignment_5|function|e2e62baa98062bf1||||||||||||||
+get_plot_alignment_6|function|09288ef7db80699b||||||||||||||
 mutate_function_call|function|82501a9a5ec12805||||||||||||||
-get_plot_alignment_8|function|d61f69d1c8a8b534||||||||||||||
+get_plot_alignment_8|function|e600cf0cd7053db1||||||||||||||
 get_results_alignment_7|function|ee02a16ade480672||||||||||||||
 get_follow_up_anecdotes_2|function|2c4f78f2ec0d9e3d||||||||||||||
 get_results_alignment_8|function|134f4db92d7d6f45||||||||||||||
 select_between_subjects_iv|function|5047eb590e99f7ac||||||||||||||
 get_results_aggregation_2|function|b8912b9097e4c11e||||||||||||||
 get_results_alignment_2|function|402d6c4375aa6e82||||||||||||||
-get_results_alignment_3|function|f900b6c10c2909e8||||||||||||||
+get_results_alignment_3|function|0373fb351edde7cd||||||||||||||
 get_results_alignment_4|function|a2cd029a0188f685||||||||||||||
 get_results_alignment_5|function|a577824c8fd6645a||||||||||||||
 get_results_alignment_6|function|01a1189de5cc5227||||||||||||||
 get_values|function|d61a00a0dfe2933e||||||||||||||
 get_results_anecdotes_2|function|97a766eba9de702d||||||||||||||
-get_condition_allocation_table|function|938719e0f19f1be0||||||||||||||
-get_descriptives|function|fc87a2691e312f80||||||||||||||
+get_condition_allocation_table|function|af82478261b9ac38||||||||||||||
+get_descriptives|function|8e93393c7f11d4b6||||||||||||||
 samuelson_distribution|stem|754d7f8ff7bb538d|00f664bfbcbe5ebb|71c0dce09a304f87|-932883539||t18768.0662473106s|450460a4b58d3efa|75710|rds|vector|||0.17||
-descriptives_anecdotes_1|stem|2a18641cfb1e3d82|5f97b40d33ca0914|3f4de7272a852b6e|-2008683229||t18799.0139854793s|8ae12254da0710ff|803|rds|vector|||0.892||
-descriptives_anecdotes_2|stem|09e3fb280aaa4be1|386f41677a791923|3f4de7272a852b6e|1051056604||t18796.2857986111s|ec81248fe7091dc8|696|rds|vector|||0.504||
+descriptives_anecdotes_1|stem|856d53e06db0be89|5f97b40d33ca0914|8ab394326e90ca2f|-2008683229||t18807.9690394869s|7e3c82f65408f152|825|rds|vector|||0.613||
+descriptives_anecdotes_2|stem|4c1afb68c58a04de|386f41677a791923|8ab394326e90ca2f|1051056604||t18807.9690424355s|06f2499ce5dc01d0|718|rds|vector|||0.21||
 materials_anecdotes_1|stem|a7552d3b98b42461|5986f0146b4573c7|cb14c0f1f1d94f1b|-1263195207|/Library/Frameworks/R.framework/Versions/4.0/Resources/library/anecdotes1/materials|t18794.1987205589s|b14f2eba8df23511|416|file|vector|||0.005||
 materials_anecdotes_2|stem|e6cce0c26ac383b4|6ba29a42bf317d0a|cb14c0f1f1d94f1b|-2038542516|/Users/shirdekel/Library/Application Support/renv/cache/v5/R-4.0/x86_64-apple-darwin17.0/anecdotes2/1.0/00cc2a3d8ddb77ae08c7dbf91c2161de/anecdotes2/materials|t18767.9881858762s|06b78018fc4fdfd3|800|file|vector|||0.006||
-input|stem|b234e8f271604ac6|f9fbf517228449f8|ef46db3751d8e999|-1276294782|index.Rmd|t18803.1682331708s|69d50ae253776bba|4797|file|vector|||0.002||
+input|stem|294a3305cbf9728a|f9fbf517228449f8|ef46db3751d8e999|-1276294782|index.Rmd|t18808.2676872281s|22ec280aad75373b|5159|file|vector|||0.002||
 materials_alignment_1|stem|3e7cbfa6e82ae2e2|219adb640ef47a2f|cb14c0f1f1d94f1b|-1991267583|/Library/Frameworks/R.framework/Versions/4.0/Resources/library/alignment1/materials|t18767.9870929601s|73a5f5604ca1ab33|288|file|vector|||0.003||
 materials_alignment_2|stem|d84785ef6e37e61c|4fc991f033e8019d|cb14c0f1f1d94f1b|1135386556|/Library/Frameworks/R.framework/Versions/4.0/Resources/library/alignment2/materials|t18767.9871356101s|e072d1f063c229c1|384|file|vector|||0.019||
 materials_alignment_3|stem|57c86c4dbf5bbda6|983b4689ada893fc|cb14c0f1f1d94f1b|-1411682280|/Library/Frameworks/R.framework/Versions/4.0/Resources/library/alignment3/materials|t18767.9871859776s|710c613aa5de3636|608|file|vector|||0.006||
 materials_alignment_4|stem|9aaef130c4a96a86|b2fdc877758c72f1|cb14c0f1f1d94f1b|-701479743|/Library/Frameworks/R.framework/Versions/4.0/Resources/library/alignment4/materials|t18767.9872295537s|41200f7f0df0ebd3|96|file|vector|||0.004||
-deps|stem|18b8f102ab6c6bbc|00e4caa34453bbaf|174013c6d4a820f9|-1591282962|index.Rmd*rmd/introduction/introduction.Rmd*rmd/introduction/capital_allocation.Rmd*rmd/introduction/psychology.Rmd*rmd/introduction/chapter_overview.Rmd*rmd/aggregation/introduction.Rmd*rmd/aggregation/experiment_1/introduction.Rmd*rmd/aggregation/experiment_1/method.Rmd*rmd/aggregation/experiment_1/results.Rmd*rmd/aggregation/experiment_1/discussion.Rmd*rmd/aggregation/experiment_2/introduction.Rmd*rmd/aggregation/experiment_2/method.Rmd*rmd/aggregation/experiment_2/results.Rmd*rmd/aggregation/experiment_2/discussion.Rmd*rmd/aggregation/general_discussion.Rmd*rmd/interstitial/interstitial_1.Rmd*rmd/alignment/introduction.Rmd*rmd/alignment/experiment_1/introduction.Rmd*rmd/alignment/experiment_1/method.Rmd*rmd/alignment/experiment_1/results.Rmd*rmd/alignment/experiment_1/discussion.Rmd*rmd/alignment/experiment_2/introduction.Rmd*rmd/alignment/experiment_2/method.Rmd*rmd/alignment/experiment_2/results.Rmd*rmd/alignment/experiment_2/discussion.Rmd*rmd/alignment/experiment_3/introduction.Rmd*rmd/alignment/experiment_3/method.Rmd*rmd/alignment/experiment_3/results.Rmd*rmd/alignment/experiment_3/discussion.Rmd*rmd/alignment/general_discussion.Rmd*rmd/interstitial/interstitial_2.Rmd*rmd/anecdotes/introduction.Rmd*rmd/anecdotes/experiment_1/introduction.Rmd*rmd/anecdotes/experiment_1/method.Rmd*rmd/anecdotes/experiment_1/results.Rmd*rmd/anecdotes/experiment_1/discussion.Rmd*rmd/anecdotes/experiment_2/introduction.Rmd*rmd/anecdotes/experiment_2/method.Rmd*rmd/anecdotes/experiment_2/results.Rmd*rmd/anecdotes/experiment_2/discussion.Rmd*rmd/anecdotes/general_discussion.Rmd*rmd/discussion/introduction.Rmd*rmd/discussion/theoretical_implications.Rmd*rmd/discussion/practical_implications.Rmd*rmd/discussion/conclusion.Rmd*rmd/appendix/appendix.Rmd*rmd/appendix/aggregation/introduction.Rmd*rmd/aggregation/general_discussion.Rmd*rmd/appendix/aggregation/experiment_1/introduction.Rmd*rmd/appendix/aggregation/experiment_1/method.Rmd*rmd/appendix/aggregation/experiment_1/results.Rmd*rmd/appendix/aggregation/experiment_1/discussion.Rmd*rmd/appendix/aggregation/experiment_2/introduction.Rmd*rmd/appendix/aggregation/experiment_2/method.Rmd*rmd/appendix/aggregation/experiment_2/results.Rmd*rmd/appendix/aggregation/experiment_2/discussion.Rmd*rmd/appendix/aggregation/experiment_3/introduction.Rmd*rmd/appendix/aggregation/experiment_3/method.Rmd*rmd/appendix/aggregation/experiment_3/results.Rmd*rmd/appendix/aggregation/experiment_3/discussion.Rmd*rmd/appendix/aggregation/experiment_4/introduction.Rmd*rmd/appendix/aggregation/experiment_4/method.Rmd*rmd/appendix/aggregation/experiment_4/results.Rmd*rmd/appendix/aggregation/experiment_4/discussion.Rmd*rmd/appendix/alignment/introduction.Rmd*rmd/appendix/alignment/experiment_1/introduction.Rmd*rmd/appendix/alignment/experiment_1/method.Rmd*rmd/appendix/alignment/experiment_1/results.Rmd*rmd/appendix/alignment/experiment_1/discussion.Rmd*rmd/appendix/alignment/experiment_2/introduction.Rmd*rmd/appendix/alignment/experiment_2/method.Rmd*rmd/appendix/alignment/experiment_2/results.Rmd*rmd/appendix/alignment/experiment_2/discussion.Rmd*rmd/appendix/alignment/experiment_3/introduction.Rmd*rmd/appendix/alignment/experiment_3/method.Rmd*rmd/appendix/alignment/experiment_3/results.Rmd*rmd/appendix/alignment/experiment_3/discussion.Rmd*rmd/appendix/alignment/experiment_4/introduction.Rmd*rmd/appendix/alignment/experiment_4/method.Rmd*rmd/appendix/alignment/experiment_4/results.Rmd*rmd/appendix/alignment/experiment_4/discussion.Rmd*rmd/appendix/alignment/experiment_5/introduction.Rmd*rmd/appendix/alignment/experiment_5/method.Rmd*rmd/appendix/alignment/experiment_5/results.Rmd*rmd/appendix/alignment/experiment_5/discussion.Rmd*rmd/appendix/alignment/experiment_6/introduction.Rmd*rmd/appendix/alignment/experiment_6/method.Rmd*rmd/appendix/alignment/experiment_6/results.Rmd*rmd/appendix/alignment/experiment_6/discussion.Rmd*rmd/appendix/alignment/experiment_7/introduction.Rmd*rmd/appendix/alignment/experiment_7/method.Rmd*rmd/appendix/alignment/experiment_7/results.Rmd*rmd/appendix/alignment/experiment_7/discussion.Rmd*rmd/appendix/alignment/experiment_8/introduction.Rmd*rmd/appendix/alignment/experiment_8/method.Rmd*rmd/appendix/alignment/experiment_8/results.Rmd*rmd/appendix/alignment/experiment_8/discussion.Rmd*rmd/appendix/anecdotes/introduction.Rmd*rmd/appendix/anecdotes/experiment_1/introduction.Rmd*rmd/appendix/anecdotes/experiment_1/method.Rmd*rmd/appendix/anecdotes/experiment_1/results.Rmd*rmd/appendix/anecdotes/experiment_1/discussion.Rmd*rmd/appendix/anecdotes/experiment_2/introduction.Rmd*rmd/appendix/anecdotes/experiment_2/method.Rmd*rmd/appendix/anecdotes/experiment_2/results.Rmd*rmd/appendix/anecdotes/experiment_2/discussion.Rmd*rmd/references.Rmd*rmd/front_matter/abstract.Rmd*rmd/front_matter/originality.Rmd*rmd/front_matter/preface.Rmd*rmd/front_matter/welcome.Rmd*templates/apa.csl*templates/auto*templates/bs4_style.css*templates/ociamthesis.cls*templates/preamble.tex*templates/template.tex*templates/usyd-logo.png*_output.yml|t18803.2392298889s|17f1f58c83ae4f90|573658|file|vector|||0.002||
+deps|stem|9eea23a8c18ec794|00e4caa34453bbaf|afd20ce4ced270ff|-1591282962|index.Rmd*rmd/introduction/introduction.Rmd*rmd/introduction/capital_allocation.Rmd*rmd/introduction/psychology.Rmd*rmd/introduction/chapter_overview.Rmd*rmd/aggregation/introduction.Rmd*rmd/aggregation/experiment_1/introduction.Rmd*rmd/aggregation/experiment_1/method.Rmd*rmd/aggregation/experiment_1/results.Rmd*rmd/aggregation/experiment_1/discussion.Rmd*rmd/aggregation/experiment_2/introduction.Rmd*rmd/aggregation/experiment_2/method.Rmd*rmd/aggregation/experiment_2/results.Rmd*rmd/aggregation/experiment_2/discussion.Rmd*rmd/aggregation/general_discussion.Rmd*rmd/interstitial/interstitial_1.Rmd*rmd/alignment/introduction.Rmd*rmd/alignment/experiment_1/introduction.Rmd*rmd/alignment/experiment_1/method.Rmd*rmd/alignment/experiment_1/results.Rmd*rmd/alignment/experiment_1/discussion.Rmd*rmd/alignment/experiment_2/introduction.Rmd*rmd/alignment/experiment_2/method.Rmd*rmd/alignment/experiment_2/results.Rmd*rmd/alignment/experiment_2/discussion.Rmd*rmd/alignment/experiment_3/introduction.Rmd*rmd/alignment/experiment_3/method.Rmd*rmd/alignment/experiment_3/results.Rmd*rmd/alignment/experiment_3/discussion.Rmd*rmd/alignment/general_discussion.Rmd*rmd/interstitial/interstitial_2.Rmd*rmd/anecdotes/introduction.Rmd*rmd/anecdotes/experiment_1/introduction.Rmd*rmd/anecdotes/experiment_1/method.Rmd*rmd/anecdotes/experiment_1/results.Rmd*rmd/anecdotes/experiment_1/discussion.Rmd*rmd/anecdotes/experiment_2/introduction.Rmd*rmd/anecdotes/experiment_2/method.Rmd*rmd/anecdotes/experiment_2/results.Rmd*rmd/anecdotes/experiment_2/discussion.Rmd*rmd/anecdotes/general_discussion.Rmd*rmd/discussion/introduction.Rmd*rmd/discussion/theoretical_implications.Rmd*rmd/discussion/practical_implications.Rmd*rmd/discussion/conclusion.Rmd*rmd/appendix/appendix.Rmd*rmd/appendix/aggregation/introduction.Rmd*rmd/aggregation/general_discussion.Rmd*rmd/appendix/aggregation/experiment_1/introduction.Rmd*rmd/appendix/aggregation/experiment_1/method.Rmd*rmd/appendix/aggregation/experiment_1/results.Rmd*rmd/appendix/aggregation/experiment_1/discussion.Rmd*rmd/appendix/aggregation/experiment_2/introduction.Rmd*rmd/appendix/aggregation/experiment_2/method.Rmd*rmd/appendix/aggregation/experiment_2/results.Rmd*rmd/appendix/aggregation/experiment_2/discussion.Rmd*rmd/appendix/aggregation/experiment_3/introduction.Rmd*rmd/appendix/aggregation/experiment_3/method.Rmd*rmd/appendix/aggregation/experiment_3/results.Rmd*rmd/appendix/aggregation/experiment_3/discussion.Rmd*rmd/appendix/aggregation/experiment_4/introduction.Rmd*rmd/appendix/aggregation/experiment_4/method.Rmd*rmd/appendix/aggregation/experiment_4/results.Rmd*rmd/appendix/aggregation/experiment_4/discussion.Rmd*rmd/appendix/alignment/introduction.Rmd*rmd/appendix/alignment/experiment_1/introduction.Rmd*rmd/appendix/alignment/experiment_1/method.Rmd*rmd/appendix/alignment/experiment_1/results.Rmd*rmd/appendix/alignment/experiment_1/discussion.Rmd*rmd/appendix/alignment/experiment_2/introduction.Rmd*rmd/appendix/alignment/experiment_2/method.Rmd*rmd/appendix/alignment/experiment_2/results.Rmd*rmd/appendix/alignment/experiment_2/discussion.Rmd*rmd/appendix/alignment/experiment_3/introduction.Rmd*rmd/appendix/alignment/experiment_3/method.Rmd*rmd/appendix/alignment/experiment_3/results.Rmd*rmd/appendix/alignment/experiment_3/discussion.Rmd*rmd/appendix/alignment/experiment_4/introduction.Rmd*rmd/appendix/alignment/experiment_4/method.Rmd*rmd/appendix/alignment/experiment_4/results.Rmd*rmd/appendix/alignment/experiment_4/discussion.Rmd*rmd/appendix/alignment/experiment_5/introduction.Rmd*rmd/appendix/alignment/experiment_5/method.Rmd*rmd/appendix/alignment/experiment_5/results.Rmd*rmd/appendix/alignment/experiment_5/discussion.Rmd*rmd/appendix/alignment/experiment_6/introduction.Rmd*rmd/appendix/alignment/experiment_6/method.Rmd*rmd/appendix/alignment/experiment_6/results.Rmd*rmd/appendix/alignment/experiment_6/discussion.Rmd*rmd/appendix/alignment/experiment_7/introduction.Rmd*rmd/appendix/alignment/experiment_7/method.Rmd*rmd/appendix/alignment/experiment_7/results.Rmd*rmd/appendix/alignment/experiment_7/discussion.Rmd*rmd/appendix/alignment/experiment_8/introduction.Rmd*rmd/appendix/alignment/experiment_8/method.Rmd*rmd/appendix/alignment/experiment_8/results.Rmd*rmd/appendix/alignment/experiment_8/discussion.Rmd*rmd/appendix/anecdotes/introduction.Rmd*rmd/appendix/anecdotes/experiment_1/introduction.Rmd*rmd/appendix/anecdotes/experiment_1/method.Rmd*rmd/appendix/anecdotes/experiment_1/results.Rmd*rmd/appendix/anecdotes/experiment_1/discussion.Rmd*rmd/appendix/anecdotes/experiment_2/introduction.Rmd*rmd/appendix/anecdotes/experiment_2/method.Rmd*rmd/appendix/anecdotes/experiment_2/results.Rmd*rmd/appendix/anecdotes/experiment_2/discussion.Rmd*rmd/references.Rmd*rmd/front_matter/abbreviations.Rmd*rmd/front_matter/abstract.Rmd*rmd/front_matter/acknowledgements.Rmd*rmd/front_matter/originality.Rmd*rmd/front_matter/preface.Rmd*rmd/front_matter/welcome.Rmd*templates/apa.csl*templates/auto*templates/bs4_style.css*templates/ociamthesis.cls*templates/preamble.tex*templates/template.tex*templates/usyd-logo.png*_output.yml|t18808.2740759354s|51f2cb32da4fef07|585278|file|vector|||0.005||
 materials_alignment_5|stem|9aaef130c4a96a86|d0b313a4b4eb9400|cb14c0f1f1d94f1b|-1062659661|/Library/Frameworks/R.framework/Versions/4.0/Resources/library/alignment5/materials|t18767.9872684423s|41200f7f0df0ebd3|96|file|vector|||0.006||
-materials_alignment_6|stem|a82e6922f70df321|7742195e249fe940|cb14c0f1f1d94f1b|1961132587|/Users/shirdekel/Dropbox (Sydney Uni)/Thesis/R/phd_thesis/renv/library/R-4.0/x86_64-apple-darwin17.0/alignment6/materials|t18800.059205602s|73a5f5604ca1ab33|288|file|vector|||0.005||
+materials_alignment_6|stem|a82e6922f70df321|7742195e249fe940|cb14c0f1f1d94f1b|1961132587|/Users/shirdekel/Library/Application Support/renv/cache/v5/R-4.0/x86_64-apple-darwin17.0/alignment6/1.0/ed57e0335ab7874b21af075630f32416/alignment6/materials|t18800.059205602s|73a5f5604ca1ab33|288|file|vector|||0.015||
 materials_alignment_7|stem|53818f8aef4f47f9|37710be36b38b737|cb14c0f1f1d94f1b|-416880978|/Library/Frameworks/R.framework/Versions/4.0/Resources/library/alignment7/materials|t18767.9873541902s|dd56a5971d025bfa|192|file|vector|||10.657||
-materials_alignment_8|stem|899b6cf4ad19eaea|b20ea8453d87ad64|cb14c0f1f1d94f1b|759427819|/Library/Frameworks/R.framework/Versions/4.0/Resources/library/alignment8/materials|t18799.2041281086s|b33821b7e8e8958f|640|file|vector|||0.002||
-plot_alignment_4|stem|583591c7d6a06c27|0effa757c9a26245|03e39c39d5bcf750|-68375055||t18802.4269473768s|1a1a3d3b876cd0e6|99900|rds|vector|||0.369|Panels show a mixed withinbetweendesign.Error bars do not allow comparisons across all means.Suppress error bars with err|
+materials_alignment_8|stem|899b6cf4ad19eaea|b20ea8453d87ad64|cb14c0f1f1d94f1b|759427819|/Library/Frameworks/R.framework/Versions/4.0/Resources/library/alignment8/materials|t18808.2199838179s|b33821b7e8e8958f|640|file|vector|||0.002||
+plot_alignment_4|stem|a1fe5b2622c92656|0effa757c9a26245|ee9a0129e85a04f2|-68375055||t18806.225500022s|17325a2f7e8fbf98|99889|rds|vector|||0.447|Panels show a mixed withinbetweendesign.Error bars do not allow comparisons across all means.Suppress error bars with err|
 materials_aggregation_1|stem|7898e9ccb2af729f|8cb03013ef4f5d1a|cb14c0f1f1d94f1b|-1317873295|/Users/shirdekel/Library/Application Support/renv/cache/v5/R-4.0/x86_64-apple-darwin17.0/aggregation1/1.0/2441c64a8a83f34462fbb6dfc7dd0c2c/aggregation1/materials|t18767.2569480573s|47ef5c32b223aa3c|896|file|vector|||0.01||
 materials_aggregation_2|stem|a0a2e01da5114751|f1bc911a84923ead|cb14c0f1f1d94f1b|-1551614572|/Users/shirdekel/Library/Application Support/renv/cache/v5/R-4.0/x86_64-apple-darwin17.0/aggregation2/1.0/0f61b49051db205d363e6127cdd86a5f/aggregation2/materials|t18767.9870379242s|eb769f42e7bbd861|672|file|vector|||0.007||
 materials_aggregation_3|stem|ae0cf662dc5397a9|12bc0162ac8220ec|cb14c0f1f1d94f1b|-1390587710|/Users/shirdekel/Library/Application Support/renv/cache/v5/R-4.0/x86_64-apple-darwin17.0/aggregation3/1.0/39377254d07263e5e277d085d1d8d519/aggregation3/materials|t18767.282590419s|710c613aa5de3636|608|file|vector|||0.004||
@@ -149,26 +150,26 @@ results_aggregation_2|stem|fe7ff164ff7933ee|8cf4c4f993cd5574|60b0602c3093b53c|13
 results_aggregation_3|stem|e5fe7aa256a4f90b|6bf76fd190358aad|dc1741bba8a1c0ee|528077445||t18802.2420244001s|1d76e49e27204a91|1122|rds|vector|||1.58||
 results_aggregation_4|stem|93edcd092b3809b4|8b2ba4d54f74d352|8b02db00a67acdc7|1824288009||t18802.2420469718s|7325a5f2baad2457|1171|rds|vector|||1.936||
 results_alignment_1|stem|851e6785bbe1d7f3|8e8b49daeb5ec947|d1d007199450c68a|-190078231||t18802.2420564666s|9e30d9acbd60faa3|1114|rds|vector|||0.812||
-descriptives_alignment_1|stem|bfd7300b8d650cec|ed19f85030ab8ef7|3f4de7272a852b6e|-1278369817||t18794.2387322936s|c9ee2d01a06e7441|532|rds|vector|||0.168||
+descriptives_alignment_1|stem|bc8169319acf04df|ed19f85030ab8ef7|8ab394326e90ca2f|-1278369817||t18807.9690527728s|8ea15fe19e9b2e93|571|rds|vector|||0.1||
 results_alignment_2|stem|703ebbaa576b828c|65f6179ecb8f051e|e5eac958b27b79b0|474378794||t18802.242083967s|e23cbd8791048605|3682|rds|vector|||2.361||
-descriptives_alignment_2|stem|870523e29e265833|5f32f99504914b4c|3f4de7272a852b6e|-2019276859||t18794.2387363627s|c212e35e8deaa2f8|603|rds|vector|||0.364||
-descriptives_aggregation_1|stem|afbc16de3ba83486|557967cb468bccfb|3f4de7272a852b6e|358198438||t18794.2387401613s|471094a96b72058b|742|rds|vector|||0.42||
-results_alignment_3|stem|b82bf4438ab162e7|4ec886b74a5f1c23|2ad13a05de050df0|312303320||t18802.2421240315s|fac49cfa59378fc0|1848|rds|vector|||3.429||
-descriptives_alignment_3|stem|3494e9b2e5332d96|21e4eece6c60f913|3f4de7272a852b6e|1880234145||t18794.2387420684s|e5fb87cf4b4e62cf|393|rds|vector|||0.154||
+descriptives_alignment_2|stem|f5a8120217213fa6|5f32f99504914b4c|8ab394326e90ca2f|-2019276859||t18807.9690553979s|1f34a75b68a48cd2|643|rds|vector|||0.217||
+descriptives_aggregation_1|stem|dfe3c4750b51937f|557967cb468bccfb|8ab394326e90ca2f|358198438||t18807.9690582953s|5f0404ccd275e1fb|761|rds|vector|||0.245||
+results_alignment_3|stem|0d599cfd9b4419bc|4ec886b74a5f1c23|97d231d7e1b151e8|312303320||t18807.2272481265s|fb9c594e43a78bbf|2494|rds|vector|||4.305|More than one observation per cell, aggregating the data using mean i.e, fun_aggregate  mean|
+descriptives_alignment_3|stem|2a5007fa76fda91a|21e4eece6c60f913|8ab394326e90ca2f|1880234145||t18807.9690595434s|bee34feafdb8a59e|404|rds|vector|||0.095||
 results_alignment_4|stem|3c0f2f42bee1bedd|c38e13cb0136e3bf|bf40c6ad97056c42|-1215289153||t18802.2421283032s|bccfda32046eaa4a|754|rds|vector|||0.35||
-descriptives_alignment_4|stem|646b515d0f83a81c|9ff1145f38523b06|3f4de7272a852b6e|723914442||t18794.2387441622s|a0669c72be07cb49|610|rds|vector|||0.236||
-descriptives_aggregation_2|stem|44fa9ee82ce31acb|b95c26e162f057ba|3f4de7272a852b6e|601180573||t18796.2946759259s|4988a35142dcecb0|779|rds|vector|||0.785||
+descriptives_alignment_4|stem|19ede5063fd770de|9ff1145f38523b06|8ab394326e90ca2f|723914442||t18807.9690612556s|b76f56164e2b0c53|639|rds|vector|||0.133||
+descriptives_aggregation_2|stem|f1d9bd46cdbc2e77|b95c26e162f057ba|8ab394326e90ca2f|601180573||t18807.9690651707s|b24c3eae4f512946|797|rds|vector|||0.326||
 results_alignment_5|stem|b89ac9a510f4131d|b954db6af45d8f51|161e8acefca660f5|-1380313837||t18802.2422184999s|6d3451f02dac1ea9|728|rds|vector|||7.771||
 results_anecdotes_1|stem|2a2235475e660e7e|240c893621256e63|1f80f0c9a4bc702f|1687891233||t18799.0140214561s|a3c188d7f66551e9|1036|rds|vector|||1.038||
-descriptives_alignment_5|stem|ff38bf9f880f87ed|d3c19d761b3310b5|3f4de7272a852b6e|-1784683588||t18794.238755472s|710c613aa5de3636|608|rds|vector|||0.905||
-descriptives_aggregation_3|stem|3e96eca4dee54500|277202808cacb5b5|3f4de7272a852b6e|824140849||t18794.2387601263s|90c245aa31fca2ec|687|rds|vector|||0.708||
+descriptives_alignment_5|stem|9ff5aed132314730|d3c19d761b3310b5|8ab394326e90ca2f|-1784683588||t18807.9690713081s|bea4075b4710d630|650|rds|vector|||0.512||
+descriptives_aggregation_3|stem|342b069e092a1f25|277202808cacb5b5|8ab394326e90ca2f|824140849||t18807.9690758592s|982f097a2d2da7e3|705|rds|vector|||0.383||
 results_alignment_6|stem|aeb83c63b883e1f8|e544d4c6f77ddd40|8700a90dd7589042|-717036508||t18802.242223888s|7caa605b206032a4|988|rds|vector|||0.438||
 results_anecdotes_2|stem|b4c8b41f9f699b17|c3589a8c8c96c0cc|868c7dea51b4ef6c|895307430||t18800.3591183463s|32a8804bee50ec2f|885|rds|vector|||0.967||
-descriptives_alignment_6|stem|d45a76323f3e944e|cb59d41edad7d6dd|3f4de7272a852b6e|-1131302497||t18794.2387623911s|76c9ef911ac0602c|593|rds|vector|||0.297||
-descriptives_aggregation_4|stem|6028c2df790bfbe4|e195937cdbd99726|3f4de7272a852b6e|1063387318||t18794.2387674312s|290ac7a76b917d76|684|rds|vector|||1.271||
+descriptives_alignment_6|stem|13c9ce2492eb9bf0|cb59d41edad7d6dd|8ab394326e90ca2f|-1131302497||t18807.9690782982s|710c613aa5de3636|608|rds|vector|||0.171||
+descriptives_aggregation_4|stem|a661bf5d672f545b|e195937cdbd99726|8ab394326e90ca2f|1063387318||t18807.9690829931s|10a1ebd0400b7b35|700|rds|vector|||0.394||
 results_alignment_7|stem|407c83add912375b|eafdda3a837c28a9|2db0039f9389caf7|-1015529329||t18802.242255041s|3759108014368a3c|963|rds|vector|||0.598|More than one observation per cell, aggregating the data using mean i.e, fun_aggregate  mean|
-descriptives_alignment_7|stem|c81fed9b830abea1|999b801afe2beea8|3f4de7272a852b6e|-1365240388||t18794.2387699787s|907f8e3bb5d18572|625|rds|vector|||0.46||
+descriptives_alignment_7|stem|fb538279d2852966|999b801afe2beea8|8ab394326e90ca2f|-1365240388||t18807.9690853983s|b7cbe5c9a2eaa9ac|651|rds|vector|||0.19||
 results_alignment_8|stem|9cc7ed4c6726fff0|82626fd31dbe02a4|7d78b03e02938078|-1865229499||t18802.4326277413s|ad449b3d431fb011|683|rds|vector|||57.861||
-descriptives_alignment_8|stem|421ad5222318bc5f|a02adfaa90e756a8|3f4de7272a852b6e|-540116968||t18794.238792667s|c057cc134e59d68c|755|rds|vector|||2.384||
-config_file|stem|d505e5f0a8f2dedf|1b398c6cab9f3b3e|ef46db3751d8e999|-1322601883|_bookdown.yml|t18803.2389439431s|e84c422704fc1ca5|5682|file|vector|||0.003||
-thesis|stem|bc9b535deccb69fd|d4427bc9100153c7|c78daf9528cc0704|-2055002559|compiled_thesis|t18803.2452054028s|b94a603ff539fd3e|30047598|file|vector|||448.752||
+descriptives_alignment_8|stem|a27391e713101bf3|a02adfaa90e756a8|8ab394326e90ca2f|-540116968||t18807.9691075178s|6ebffc61b219df56|780|rds|vector|||1.894||
+config_file|stem|d505e5f0a8f2dedf|1b398c6cab9f3b3e|ef46db3751d8e999|-1322601883|_bookdown.yml|t18808.259415221s|e84c422704fc1ca5|5682|file|vector|||0.001||
+thesis|stem|2f6e3920937b7740|d4427bc9100153c7|65d20c1e4e02a687|-2055002559|compiled_thesis|t18808.2769530339s|864ee2eb770ceb02|30818413|file|vector|||209.694|Package inputenc Warning inputenc package ignored with utf8 based engines.Package fancyhdr Warning \fancyheads E option wi|
