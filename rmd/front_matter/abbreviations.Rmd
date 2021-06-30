@@ -1,0 +1,12 @@
+\item[GE] General Electric.
+
+\item[NPV] Net present value.
+
+\item[EUT] Expected utility theory.
+
+\item[MBA] Master of Business Administration.
+
+\item[EV] Expected value.
+
+\item[ANOVA] Analysis of variance.
+

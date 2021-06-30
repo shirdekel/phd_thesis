@@ -20,6 +20,8 @@ preface: |
   `r paste(readLines("rmd/front_matter/preface.Rmd"), collapse = '\n  ')`
 abstract: |
   `r paste(readLines("rmd/front_matter/abstract.Rmd"), collapse = '\n  ')`
+abbreviations: |
+  `r paste(readLines("rmd/front_matter/abbreviations.Rmd"), collapse = '\n  ')`
 
 #######################
 ## bibliography path ##
@@ -29,6 +31,10 @@ bibliography: references.bib
 ########################
 ## PDF layout options ###
 #########################
+
+### abbreviations ###
+abbreviations-width: 3.2cm
+abbreviations-heading: List of Abbreviations
 
 ### citation and bibliography style ###
 bibliography-heading-in-pdf: References
