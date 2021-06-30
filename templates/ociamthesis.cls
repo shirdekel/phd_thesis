@@ -3,6 +3,7 @@
 % Originally by Keith A. Gillow (gillow@maths.ox.ac.uk), 1997
 % Modified by Sam Evans (sam@samuelevansresearch.org), 2007
 % Modified by John McManigle (john@oxfordechoes.com), 2015
+% Modified by Shir Dekel (shirdekel@yahoo.com.au), 2021
 %
 % This version Copyright (c) 2015-2017 John McManigle
 %
@@ -360,7 +361,8 @@
 \renewenvironment{savequote}[1][8cm]{%
 \begin{lrbox}{\@quotebox}
 \begin{minipage}[t]{#1}\footnotesize\slshape%
-\setlength{\parskip}{6px}}{%
+% SD: Fix XeLaTeX error by changing px to pt
+\setlength{\parskip}{6pt}}{%
 \unskip\end{minipage}\end{lrbox}
 \global\setbox\@quotebox\copy\@quotebox
 \global\let\@printcites\@iprintcites
