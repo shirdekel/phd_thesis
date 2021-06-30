@@ -65,7 +65,7 @@ document itself. `renv` [@ushey2021] was used to create reproducible
 environments and `targets` [@landau2021] was used to create a reproducible
 pipeline. Typesetting was done with \LaTeX, based on the `oxforddown` template
 [@lyngs2019]. All the components required to reproduce this document can be
-found through this link: https://tinyurl.com/shir-thesis. This GitFront
+found through this link: https://tinyurl.com/shir-dekel. This GitFront
 repository is simply a copy of a private GitHub repository, and can be navigated
 and cloned using a similar interface to GitHub.
 
