@@ -363,8 +363,8 @@
       "RemoteRepo": "alignment8",
       "RemoteUsername": "shirdekel",
       "RemoteRef": "HEAD",
-      "RemoteSha": "af205e85ffa36b11d7fe01745a28fb6dfb967ef6",
-      "Hash": "95cfda15dc07dfe33da4d8de65deca9b"
+      "RemoteSha": "6971874eb53e79aebedc4f731e17dcf910a64449",
+      "Hash": "7b6b4b63ebd87aeac59871696c343b58"
     },
     "anecdotes1": {
       "Package": "anecdotes1",
@@ -387,8 +387,8 @@
       "RemoteRepo": "anecdotes2",
       "RemoteUsername": "shirdekel",
       "RemoteRef": "HEAD",
-      "RemoteSha": "02a35b40ab3f7196d38474dd4df137730c46ca79",
-      "Hash": "37dfb8614e0d301d96009eb366983dd3"
+      "RemoteSha": "0cbcd16548ea02dc7cd9d996e45d6de5b0442458",
+      "Hash": "39b442fb4ae908a41cc6d494a7661725"
     },
     "antiword": {
       "Package": "antiword",
@@ -1848,15 +1848,10 @@
     },
     "targets": {
       "Package": "targets",
-      "Version": "0.4.2.9000",
-      "Source": "GitHub",
-      "RemoteType": "github",
-      "RemoteHost": "api.github.com",
-      "RemoteRepo": "targets",
-      "RemoteUsername": "ropensci",
-      "RemoteRef": "HEAD",
-      "RemoteSha": "a1c5e975836c0d424fdf6274c6da4b387a2b102b",
-      "Hash": "0733053c23a790e011afd1228800d4d8"
+      "Version": "0.4.2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "a46df8ab3d40fd1627deeca2783df151"
     },
     "tibble": {
       "Package": "tibble",
