@@ -26,7 +26,7 @@ abbreviations: |
 #######################
 ## bibliography path ##
 #######################
-bibliography: references.bib
+bibliography: ["references.bib", "r-references.bib"]
 
 ########################
 ## PDF layout options ###

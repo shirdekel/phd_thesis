@@ -48,14 +48,28 @@ Appendix \@ref(anecdotes-appendix) for Chapter \@ref(anecdotes).
 
 \noindent \textbf{Reproducibility}
 
-The thesis was compiled using `rmarkdown` [@xie2018] with `bookdown` [@xie2016].
-`renv` [@ushey2021] was used to create reproducible environments and `targets`
-[@landau2021] was used to create a reproducible pipeline. Typesetting was done
-with \LaTeX, based on the `oxforddown` template [@lyngs2019]. All the components
-required to reproduce this document can be found through this link:
-https://tinyurl.com/shir-thesis. This GitFront repository is simply a copy of a
-private GitHub repository, and can be navigated and cloned using a similar
-interface to GitHub.
+<!-- ```r{r-packages} -->
+<!-- ## papaja::r_refs(file = "r-references.bib") -->
+<!-- my_citations <- papaja::cite_r( -->
+<!--   file = "r-references.bib" -->
+<!--   , pkgs = c("bookdown", "targets") -->
+<!--   , withhold = TRUE -->
+<!--   , footnote = TRUE -->
+<!-- ) -->
+<!-- ``` -->
+
+The thesis used R [Version 4.0.2\; @R-base][^papaja_pkg_citations] for the
+analyses and plotting of data, and for the generation of experimental materials.
+`rmarkdown` [@xie2018] was used with `bookdown` [@xie2016] to compile the
+document itself. `renv` [@ushey2021] was used to create reproducible
+environments and `targets` [@landau2021] was used to create a reproducible
+pipeline. Typesetting was done with \LaTeX, based on the `oxforddown` template
+[@lyngs2019]. All the components required to reproduce this document can be
+found through this link: https://tinyurl.com/shir-thesis. This GitFront
+repository is simply a copy of a private GitHub repository, and can be navigated
+and cloned using a similar interface to GitHub.
+
+[^papaja_pkg_citations]: Furthermore, the following R-packages were used *afex* [Version 0.28.1\; @R-afex], *aggregation1* [Version 1.0\; @R-aggregation1], *aggregation2* [Version 1.0\; @R-aggregation2], *aggregation3* [Version 1.0\; @R-aggregation3], *aggregation4* [Version 1.0\; @R-aggregation4], *alignment1* [Version 1.0\; @R-alignment1], *alignment2* [Version 1.0\; @R-alignment2], *alignment3* [Version 1.0\; @R-alignment3], *alignment4* [Version 1.0\; @R-alignment4], *alignment5* [Version 1.0\; @R-alignment5], *alignment6* [Version 1.0\; @R-alignment6], *alignment7* [Version 1.0\; @R-alignment7], *alignment8* [Version 1.0\; @R-alignment8], *anecdotes1* [Version 1.0\; @R-anecdotes1], *anecdotes2* [Version 1.0\; @R-anecdotes2], *broom* [Version 0.7.7.9000\; @R-broom; @R-broom.mixed], *broom.mixed* [Version 0.2.6\; @R-broom.mixed], *conflicted* [Version 1.0.4\; @R-conflicted], *cowplot* [Version 1.1.1\; @R-cowplot], *devtools* [Version 2.4.1\; @R-devtools], *dflow* [Version 0.0.0.9000\; @R-dflow], *dplyr* [Version 1.0.7.9000\; @R-dplyr], *emmeans* [Version 1.5.4.9004\; @R-emmeans], *forcats* [Version 0.5.1\; @R-forcats], *ggbeeswarm* [Version 0.6.0\; @R-ggbeeswarm], *ggplot2* [Version 3.3.4\; @R-ggplot2], *janitor* [Version 2.1.0\; @R-janitor], *knitr* [Version 1.33\; @R-knitr], *lme4* [Version 1.1.27\; @R-lme4], *magick* [Version 2.6.0\; @R-magick], *magrittr* [Version 2.0.1\; @R-magrittr], *Matrix* [Version 1.3.2\; @R-Matrix], *MOTE* [Version 1.0.2\; @R-MOTE], *papaja* [Version 0.1.0.9997\; @R-papaja], *patchwork* [Version 1.1.1\; @R-patchwork], *printy* [Version 0.0.0.9003\; @R-printy], *purrr* [Version 0.3.4\; @R-purrr], *pwr* [Version 1.3.0\; @R-pwr], *rlang* [Version 0.4.11.9000\; @R-rlang], *rmdfiltr* [Version 0.1.3\; @R-rmdfiltr], *scales* [Version 1.1.1\; @R-scales], *shiR* [Version 0.0.0.9000\; @R-shiR], *shirthesis* [Version 0.0.0.9000\; @R-shirthesis], *snakecase* [Version 0.11.0\; @R-snakecase], *stringr* [Version 1.4.0\; @R-stringr], *tarchetypes* [Version 0.2.0.9000\; @R-tarchetypes], *tibble* [Version 3.1.2\; @R-tibble], *tidyr* [Version 1.1.3\; @R-tidyr], *tinylabels* [Version 0.2.1\; @R-tinylabels], *usethis* [Version 2.0.1\; @R-usethis], and *yaml* [Version 2.2.1\; @R-yaml].
 
 \hfill\break
 
