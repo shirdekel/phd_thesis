@@ -1,4 +1,4 @@
-\noindent \textbf{Naviating the document on a computer}
+\noindent \textbf{Navigating the document on a computer}
 
 There are links throughout the PDF document that facilitate navigation between
 cross-references. For most PDF viewers these links are identified by
