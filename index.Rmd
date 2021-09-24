@@ -9,7 +9,7 @@ university: The University of Sydney
 university-logo-width: 5cm
 submitted-text: A thesis submitted to fulfil requirements for the degree of
 degree: Doctor of Philosophy (Science)
-degreedate: June 2021
+degreedate: 2021
 dedication: '\foreignlanguage{hebrew}{לאמא ואבא}'
 originality: |
   `r paste(readLines("rmd/front_matter/originality.Rmd"), collapse = '\n  ')`
