@@ -1,9 +1,9 @@
 # Shir Dekel's PhD Thesis
 
 This repository contains the code that was used to compile the thesis document.
-The PDF version of the thesis document is at `compiled_thesis/thesis.pdf`. The
-`{targets}` package was used to run everything as a reproducible pipeline.
-`_targets.R` contains each step of the pipeline.
+The thesis itself can be found at https://thesis.shirdekel.com/. The `{targets}`
+package was used to run everything as a reproducible pipeline. `_targets.R`
+contains each step of the pipeline.
 
 The thesis is made up of fourteen experiments. Seven of these are reported in
 the main text, and the other seven are reported in the appendices. Each
