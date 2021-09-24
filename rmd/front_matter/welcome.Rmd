@@ -24,3 +24,7 @@ Shir Dekel \
 ## Acknowledgments {-}
 ```{r acknowledgments, child=here::here('rmd/front_matter/acknowledgements.Rmd')}
 ```
+
+## Preface {-}
+```{r preface, child=here::here('rmd/front_matter/preface-online.Rmd')}
+```
