@@ -21,3 +21,6 @@ Shir Dekel \
 ```{r abstract, child=here::here('rmd/front_matter/abstract.Rmd')}
 ```
 
+## Acknowledgments {-}
+```{r acknowledgments, child=here::here('rmd/front_matter/acknowledgements.Rmd')}
+```
