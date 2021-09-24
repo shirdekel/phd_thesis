@@ -12,6 +12,9 @@ Shir Dekel \
 :::::::::
 ::::::
 
+:::::: {.col-sm-6 .thesis-cover}
+<a href="thesis.pdf" target="_blank"><img src="templates/cover.png" alt="Download PDF" class="img-fluid"/></a>
+::::::
 :::
 
 ## Abstract {-}
