@@ -25,11 +25,11 @@ library(yaml)
 library(rmdfiltr)
 library(knitr)
 library(bookdown)
-library(rmdfiltr)
 library(magick)
 library(cowplot)
 library(ggbeeswarm)
 library(scales)
+library(bslib)
 
 ## Custom thesis packages
 library(shiR)

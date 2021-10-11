@@ -35,6 +35,13 @@
       "Repository": "CRAN",
       "Hash": "3e707fce38fbee57115263acfcca8593"
     },
+    "bslib": {
+      "Package": "bslib",
+      "Version": "0.3.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "074ebc936dbcecd7115ed8083643b550"
+    },
     "DBI": {
       "Package": "DBI",
       "Version": "1.1.1",
@@ -999,16 +1006,10 @@
     },
     "htmltools": {
       "Package": "htmltools",
-      "Version": "0.5.1.9005",
-      "Source": "GitHub",
-      "Remotes": "r-lib/rlang",
-      "RemoteType": "github",
-      "RemoteHost": "api.github.com",
-      "RemoteRepo": "htmltools",
-      "RemoteUsername": "rstudio",
-      "RemoteRef": "HEAD",
-      "RemoteSha": "7fbab163b0badb7f48c2bbafb56a2886fc951976",
-      "Hash": "71b27e8a3a61a26dbf76f1c5391b42ec"
+      "Version": "0.5.2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "526c484233f42522278ab06fb185cb26"
     },
     "htmlwidgets": {
       "Package": "htmlwidgets",
