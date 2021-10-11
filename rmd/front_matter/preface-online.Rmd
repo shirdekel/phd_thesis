@@ -1,6 +1,6 @@
-### Navigating the document on a computer
+### Navigating the thesis website
 
-There are links throughout the PDF document that facilitate navigation between
+There are links throughout the thesis website that facilitate navigation between
 cross-references. Clicking on these links will take you to the relevant
 hypothesis (e.g., Hypothesis \@ref(hyp:awareness-aggregation-1)),
 footnote,[^example] citation [e.g., @kahneman1979], figure (e.g.,
